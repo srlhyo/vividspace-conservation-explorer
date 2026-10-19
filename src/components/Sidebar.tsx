@@ -3,6 +3,7 @@ import {
   attributeKeys,
   countByKind,
   filterOptions,
+  filterTerritories,
   hasAttributeFilters,
   territoriesInScope,
   territorySummary,
@@ -27,6 +28,8 @@ interface SidebarProps {
   onSelect: (id: string) => void
   /** Select a country (or null for the whole region). */
   onSelectCountry: (code: string | null) => void
+  /** Focus the map on a country without changing the selection. */
+  onFocusCountry: (code: string) => void
 }
 
 const groups: { key: FilterKey; title: string }[] = [
@@ -45,7 +48,17 @@ const journey = [
 /** When attribute filters leave at most this many matches, every country with matches opens. */
 const AUTO_EXPAND_MAX = 12
 
-export function Sidebar({ catalogue, filters, onToggle, onClear, results, selectedId, onSelect, onSelectCountry }: SidebarProps) {
+export function Sidebar({
+  catalogue,
+  filters,
+  onToggle,
+  onClear,
+  results,
+  selectedId,
+  onSelect,
+  onSelectCountry,
+  onFocusCountry,
+}: SidebarProps) {
   const [filtersOpen, setFiltersOpen] = useState(false)
   const attributeFiltering = hasAttributeFilters(filters)
   const active = attributeKeys.reduce((n, key) => n + filters[key].length, 0)
@@ -133,10 +146,13 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
         <CountryTree
           catalogue={catalogue}
           results={results}
+          // Every country stays listed, so its areas are matched on the attribute filters alone.
+          attributeMatches={filterTerritories(catalogue, { ...filters, countries: [] })}
           selectedCountry={selectedCountry}
           selectedId={selectedId}
           filtering={attributeFiltering}
           onSelectCountry={onSelectCountry}
+          onFocusCountry={onFocusCountry}
           onSelect={onSelect}
         />
       </div>
@@ -145,33 +161,55 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
 }
 
 /**
- * Countries and their catalogued areas as one tree. With no country selected it lists the 13
- * countries; a selected country is shown on its own with its areas.
+ * All countries with their catalogued areas as one tree. Each row has two independent controls:
+ * the chevron expands or collapses the country's areas, and the name selects the country.
+ * Several countries can be open at once; a country opens automatically when it (or one of its
+ * areas) becomes selected, or when a narrow filter leaves matches in it.
  */
 function CountryTree({
   catalogue,
   results,
+  attributeMatches,
   selectedCountry,
   selectedId,
   filtering,
   onSelectCountry,
+  onFocusCountry,
   onSelect,
 }: {
   catalogue: Catalogue
+  /** Matches within the selected country (or the region); drives automatic opening. */
   results: Territory[]
+  attributeMatches: Territory[]
   selectedCountry: Country | undefined
   selectedId: string | null
   filtering: boolean
   onSelectCountry: (code: string | null) => void
+  onFocusCountry: (code: string) => void
   onSelect: (id: string) => void
 }) {
-  const matching = new Set(results.map((t) => t.id))
+  const matching = new Set(attributeMatches.map((t) => t.id))
   const selectedTerritory = catalogue.territories.find((t) => t.id === selectedId)
-  const countries = selectedCountry ? [selectedCountry] : catalogue.countries
-  const isOpen = (code: string) =>
-    code === selectedCountry?.code ||
-    code === selectedTerritory?.countryCode ||
-    (filtering && results.length <= AUTO_EXPAND_MAX && results.some((t) => t.countryCode === code))
+  const narrow = filtering && results.length <= AUTO_EXPAND_MAX
+  const autoOpen = [
+    selectedCountry?.code,
+    selectedTerritory?.countryCode,
+    ...(narrow ? results.map((t) => t.countryCode) : []),
+  ].filter((c): c is string => !!c)
+  // Open countries only when what triggers them changes, so the user can still collapse them.
+  const trigger = [selectedCountry?.code, selectedId, narrow ? results.map((t) => t.id).join(',') : ''].join('|')
+  const [expanded, setExpanded] = useState(() => new Set(autoOpen))
+  const [seenTrigger, setSeenTrigger] = useState(trigger)
+  if (trigger !== seenTrigger) {
+    setSeenTrigger(trigger)
+    setExpanded((e) => new Set([...e, ...autoOpen]))
+  }
+  const toggleExpanded = (code: string) =>
+    setExpanded((e) => {
+      const next = new Set(e)
+      if (!next.delete(code)) next.add(code)
+      return next
+    })
 
   return (
     <div className="px-3 py-3">
@@ -189,45 +227,68 @@ function CountryTree({
           className="mt-2 ml-1 inline-flex items-center gap-1 rounded px-1 py-0.5 text-[12.5px] font-medium text-forest hover:bg-forest-soft"
         >
           <Chevron direction="left" />
-          All {catalogue.countries.length} countries
+          Show the whole region
         </button>
       )}
       <ul className="mt-2 flex flex-col gap-0.5">
-        {countries.map((country) => {
+        {catalogue.countries.map((country) => {
           const own = catalogue.territories.filter((t) => t.countryCode === country.code)
           const shown = own.filter((t) => matching.has(t.id))
-          const open = isOpen(country.code)
+          const open = expanded.has(country.code)
           const isSelected = country.code === selectedCountry?.code
+          const noMatch = filtering && shown.length === 0
+          const listId = `country-areas-${country.code}`
           return (
             <li key={country.code}>
-              <button
-                type="button"
-                aria-pressed={isSelected}
-                aria-expanded={open}
-                onClick={() => onSelectCountry(isSelected ? null : country.code)}
-                title={isSelected ? 'Back to the whole region' : `Show ${country.name} on the map`}
+              <div
                 className={[
-                  'flex w-full items-center gap-1.5 rounded-md px-2 py-1.5 text-left text-[13px] transition-colors',
-                  isSelected ? 'bg-gold-soft font-semibold text-ink ring-1 ring-gold' : 'text-ink hover:bg-cream',
-                  filtering && shown.length === 0 ? 'text-ink-muted' : '',
+                  'flex items-center rounded-md transition-colors',
+                  isSelected ? 'bg-gold-soft ring-1 ring-gold' : 'hover:bg-cream',
                 ].join(' ')}
               >
-                <span className="text-ink-muted">
+                <button
+                  type="button"
+                  aria-expanded={open}
+                  aria-controls={listId}
+                  aria-label={`${open ? 'Hide' : 'Show'} catalogued areas in ${country.name}`}
+                  title={`${open ? 'Hide' : 'Show'} catalogued areas`}
+                  onClick={() => toggleExpanded(country.code)}
+                  className="grid size-7 shrink-0 place-items-center rounded-md text-ink-muted hover:bg-forest-soft hover:text-forest"
+                >
                   <Chevron direction={open ? 'down' : 'right'} />
-                </span>
-                <span className="min-w-0 flex-1">{country.name}</span>
-                <span className="shrink-0 text-[12px] text-ink-muted">
-                  {own.length === 0 ? 'no areas yet' : filtering ? `${shown.length} of ${own.length}` : own.length}
-                </span>
-              </button>
+                </button>
+                <button
+                  type="button"
+                  aria-pressed={isSelected}
+                  onClick={() => (isSelected ? onFocusCountry(country.code) : onSelectCountry(country.code))}
+                  title={isSelected ? `${country.name} is selected — show it on the map` : `Select ${country.name} and show it on the map`}
+                  className={[
+                    'flex min-w-0 flex-1 items-center gap-1.5 rounded-md py-1.5 pr-2 pl-0.5 text-left text-[13px]',
+                    isSelected ? 'font-semibold' : '',
+                    noMatch ? 'text-ink-muted' : 'text-ink',
+                  ].join(' ')}
+                >
+                  <span className="min-w-0 flex-1">{country.name}</span>
+                  <span
+                    className={[
+                      'shrink-0 text-[12px]',
+                      filtering && shown.length > 0 ? 'rounded-full bg-forest-soft px-1.5 font-semibold text-forest' : 'text-ink-muted',
+                    ].join(' ')}
+                  >
+                    {own.length === 0 ? 'no areas yet' : filtering ? `${shown.length} of ${own.length}` : own.length}
+                  </span>
+                </button>
+              </div>
               {open && (
-                <CountryAreas
-                  catalogue={catalogue}
-                  own={own}
-                  shown={shown}
-                  selectedId={selectedId}
-                  onSelect={onSelect}
-                />
+                <div id={listId}>
+                  <CountryAreas
+                    catalogue={catalogue}
+                    own={own}
+                    shown={shown}
+                    selectedId={selectedId}
+                    onSelect={onSelect}
+                  />
+                </div>
               )}
             </li>
           )

@@ -82,6 +82,15 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
   const filterLabels = attributeKeys.flatMap((key) =>
     filterOptions(catalogue, filters, key).filter((o) => filters[key].includes(o.id)).map((o) => o.label),
   )
+  // Choosing an area in another country from the list moves the country selection with it, so the
+  // area stays in scope; the map then focuses on the area itself.
+  const selectListedArea = (id: string) => {
+    const code = catalogue.territories.find((t) => t.id === id)?.countryCode
+    if (code && filters.countries.length > 0 && !filters.countries.includes(code)) {
+      setFilters((f) => ({ ...f, countries: [code] }))
+    }
+    selectTerritory(id)
+  }
   // Clearing filters keeps the selected country; the country is changed from the country list or card.
   const clearFilters = () => setFilters((f) => ({ ...emptyFilters, countries: f.countries }))
 
@@ -94,8 +103,9 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
         onClear={clearFilters}
         results={results}
         selectedId={selection.territoryId}
-        onSelect={selectTerritory}
+        onSelect={selectListedArea}
         onSelectCountry={selectCountry}
+        onFocusCountry={(code) => requestView({ view: 'country', code })}
       />
       <div className="relative min-w-0 flex-1">
         <ExplorerMap
