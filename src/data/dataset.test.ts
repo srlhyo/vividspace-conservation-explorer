@@ -4,7 +4,7 @@ import type { Geometry } from 'geojson'
 import { describe, expect, it } from 'vitest'
 import type { Catalogue } from '../domain/types'
 import { validateCatalogue } from '../domain/validate'
-import type { BoundaryCollection } from './repository'
+import type { BoundaryCollection, CountryCollection } from './repository'
 
 const read = <T>(path: string): T =>
   JSON.parse(readFileSync(new URL(`../../public/data/${path}`, import.meta.url), 'utf8')) as T
@@ -18,8 +18,30 @@ function bbox(geometry: Geometry): [number, number, number, number] {
   return [Math.min(...xs), Math.min(...ys), Math.max(...xs), Math.max(...ys)]
 }
 
+type Ring = [number, number][]
+const polygonsOf = (g: Geometry): Ring[][] =>
+  g.type === 'Polygon' ? [g.coordinates as Ring[]] : g.type === 'MultiPolygon' ? (g.coordinates as Ring[][]) : []
+
+/** Even-odd ray casting over every ring (holes toggle the result). */
+function containsPoint(g: Geometry, x: number, y: number): boolean {
+  let inside = false
+  for (const ring of polygonsOf(g).flat()) {
+    for (let i = 0, j = ring.length - 1; i < ring.length; j = i++) {
+      const [xi, yi] = ring[i]
+      const [xj, yj] = ring[j]
+      if (yi > y !== yj > y && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) inside = !inside
+    }
+  }
+  return inside
+}
+
+/** True when any outline vertex lies within `tol` degrees of the point. */
+const nearOutline = (g: Geometry, x: number, y: number, tol: number) =>
+  polygonsOf(g).flat(2).some(([px, py]) => Math.abs(px - x) <= tol && Math.abs(py - y) <= tol)
+
 const catalogue = read<Catalogue>('catalogue.json')
 const regions = read<BoundaryCollection>('geo/gnb-adm1.geojson')
+const countries = read<CountryCollection>('geo/wasop-countries.geojson')
 
 describe('public catalogue', () => {
   it('passes referential-integrity and provenance validation', () => {
@@ -39,13 +61,25 @@ describe('public catalogue', () => {
     }
   })
 
-  it('places every territory inside the Guinea-Bissau area', () => {
+  it('lists exactly the 13 WASOP countries, each with an outline', () => {
+    const wasop = ['BEN', 'CPV', 'CIV', 'GMB', 'GHA', 'GIN', 'GNB', 'LBR', 'MRT', 'NGA', 'SEN', 'SLE', 'TGO']
+    expect(catalogue.countries.map((c) => c.code).sort()).toEqual([...wasop].sort())
+    expect(countries.features.map((f) => f.properties.code).sort()).toEqual([...wasop].sort())
+  })
+
+  it('represents every WASOP country with at least one catalogued area', () => {
+    for (const c of catalogue.countries) {
+      expect(catalogue.territories.some((t) => t.countryCode === c.code), c.code).toBe(true)
+    }
+  })
+
+  // Catches swapped or mistyped coordinates (several exist in the Ramsar export). Coastal and
+  // marine sites may sit just offshore, so points within ~40 km of the outline are accepted.
+  it('places every territory in or next to its own country', () => {
     for (const t of catalogue.territories) {
+      const country = countries.features.find((f) => f.properties.code === t.countryCode)!
       const [lng, lat] = t.location.point
-      expect(lng, t.id).toBeGreaterThan(-17.5)
-      expect(lng, t.id).toBeLessThan(-13.5)
-      expect(lat, t.id).toBeGreaterThan(10.5)
-      expect(lat, t.id).toBeLessThan(12.8)
+      expect(containsPoint(country.geometry, lng, lat) || nearOutline(country.geometry, lng, lat, 0.35), t.id).toBe(true)
     }
   })
 

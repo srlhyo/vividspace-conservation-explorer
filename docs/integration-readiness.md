@@ -9,7 +9,7 @@ A static single-page application (React 19, TypeScript, Vite, Tailwind CSS 4, Ma
 ```
 public/data/            static dataset (the only "backend")
   catalogue.json        all domain entities + sources
-  geo/*.geojson         administrative boundaries (geoBoundaries, ODbL)
+  geo/*.geojson         WASOP country outlines (Natural Earth) and Guinea-Bissau regions (geoBoundaries, ODbL)
 src/domain/             framework-free domain model and logic
   types.ts              entity types
   catalogue.ts          filtering, territory profiles, challenge → activity links
@@ -76,7 +76,7 @@ The UI receives a repository instance (created once in `App.tsx`) and never call
 
 ## Known assumptions and limitations
 
-- **Geographic scope:** Guinea-Bissau only: the Bijagós Archipelago, the Cacheu region and Cantanhez National Park. Other protected areas and corridors listed by the BioGuinea Foundation (Boé, Dulombi, Lagoas de Cufada; the Tchétche, Salifé-Xitole and Cuntabane-Quebo corridors) are not yet catalogued.
+- **Geographic scope:** the 13 WASOP countries. Guinea-Bissau has detailed research (challenges, potential activities, organisations). Elsewhere the catalogue is a researched selection of coastal and marine Ramsar sites plus a few other sourced areas, without challenges or activities. See `docs/coverage-report.md`.
 - **Region polygons are administrative boundaries** (geoBoundaries ADM1, derived from OpenStreetMap). They are *not* the boundaries of the biosphere reserve, Ramsar sites, national parks or the World Heritage property. Each territory panel states this.
 - **Protected areas are points.** Official boundaries are held in WDPA/Protected Planet, which was not used because its terms restrict redistribution. Reference points come from Wikidata (CC0) and are representative, not centroids of official boundaries.
 - **The basemap** is OpenFreeMap (free, no key, OpenStreetMap data). If it can't be reached, the app falls back to an offline style that shows only the bundled boundaries, without labels.

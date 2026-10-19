@@ -20,15 +20,26 @@ interface ExplorerMapProps {
   visibleIds: Set<string>
   selectedId: string | null
   onSelect: (territoryId: string) => void
+  /** Countries currently selected (highlighted on the map). */
+  selectedCountries: string[]
+  onSelectCountry: (code: string) => void
+  /** Catalogued areas per country code, shown in the country tooltip. */
+  countryCounts: Record<string, number>
   /** Camera request from the dashboard; a new `id` triggers it. */
-  viewRequest: { view: 'guinea-bissau' | 'world'; id: number } | null
+  viewRequest: ViewRequest | null
   projection: 'mercator' | 'globe'
 }
+
+export type ViewRequest = { id: number } & (
+  | { view: 'region' }
+  | { view: 'world' }
+  | { view: 'country'; code: string }
+)
 
 type MapStatus = 'loading' | 'ready' | 'offline' | 'error'
 
 const SRC = {
-  country: 'gnb-country',
+  countries: 'wasop-countries',
   regions: 'gnb-regions',
   areas: 'territory-areas',
   points: 'territory-points',
@@ -38,7 +49,9 @@ const SRC = {
 const INTERACTIVE_LAYERS = ['territory-points-circle', 'territory-areas-fill']
 
 const ATTRIBUTION =
+  '<a href="https://www.naturalearthdata.com" target="_blank" rel="noreferrer">Natural Earth</a> · ' +
   '<a href="https://www.geoboundaries.org" target="_blank" rel="noreferrer">geoBoundaries</a> (ODbL) · ' +
+  '<a href="https://www.ramsar.org" target="_blank" rel="noreferrer">Ramsar</a> · ' +
   '<a href="https://www.wikidata.org" target="_blank" rel="noreferrer">Wikidata</a>'
 
 function territoryFeatures(boundaries: BoundaryLayers, territories: Territory[]) {
@@ -72,15 +85,20 @@ function territoryFeatures(boundaries: BoundaryLayers, territories: Territory[])
   return { areas, points, labels }
 }
 
-/** Bounding box of a territory: its polygon if it has one, else a small box around its point. */
-function territoryBounds(territory: Territory, areas: FeatureCollection) {
-  const bounds = new maplibregl.LngLatBounds()
-  const area = areas.features.find((f) => f.properties?.territoryId === territory.id)
+/** Bounding box of any GeoJSON coordinate array. */
+function boundsOf(coordinates: unknown, bounds = new maplibregl.LngLatBounds()) {
   const extend = (c: unknown): void => {
     if (Array.isArray(c) && typeof c[0] === 'number') bounds.extend(c as [number, number])
     else if (Array.isArray(c)) c.forEach(extend)
   }
-  if (area && 'coordinates' in area.geometry) extend(area.geometry.coordinates)
+  extend(coordinates)
+  return bounds
+}
+
+/** Bounding box of a territory: its polygon if it has one, else a small box around its point. */
+function territoryBounds(territory: Territory, areas: FeatureCollection) {
+  const area = areas.features.find((f) => f.properties?.territoryId === territory.id)
+  const bounds = boundsOf(area && 'coordinates' in area.geometry ? area.geometry.coordinates : [])
   if (bounds.isEmpty()) {
     const [lng, lat] = territory.location.point
     bounds.extend([lng - 0.18, lat - 0.15]).extend([lng + 0.18, lat + 0.15])
@@ -94,6 +112,9 @@ export function ExplorerMap({
   visibleIds,
   selectedId,
   onSelect,
+  selectedCountries,
+  onSelectCountry,
+  countryCounts,
   viewRequest,
   projection,
 }: ExplorerMapProps) {
@@ -104,9 +125,9 @@ export function ExplorerMap({
   const features = useMemo(() => territoryFeatures(boundaries, territories), [boundaries, territories])
 
   // Handlers registered once on the map read the latest props through a ref.
-  const latest = useRef({ onSelect, visibleIds, boundaries, features })
+  const latest = useRef({ onSelect, onSelectCountry, countryCounts, visibleIds, boundaries, features })
   useEffect(() => {
-    latest.current = { onSelect, visibleIds, boundaries, features }
+    latest.current = { onSelect, onSelectCountry, countryCounts, visibleIds, boundaries, features }
   })
 
   // Create the map once.
@@ -147,39 +168,52 @@ export function ExplorerMap({
         if (!map) return
         const { boundaries, features } = latest.current
         const before = basemap.beforeLayerId
-        map.addSource(SRC.country, { type: 'geojson', data: boundaries.country })
+        map.addSource(SRC.countries, { type: 'geojson', data: boundaries.countries, promoteId: 'code' })
         map.addSource(SRC.regions, { type: 'geojson', data: boundaries.regions })
         map.addSource(SRC.areas, { type: 'geojson', data: features.areas, promoteId: 'territoryId' })
         map.addSource(SRC.points, { type: 'geojson', data: features.points, promoteId: 'territoryId' })
 
 
-        if (basemap.offline) {
-          map.addLayer({
-            id: 'country-fill',
+        const selected: ExpressionSpecification = ['boolean', ['feature-state', 'selected'], false]
+        const countryHover: ExpressionSpecification = ['boolean', ['feature-state', 'hover'], false]
+        // WASOP countries: a near-transparent fill keeps them clickable; selection tints them.
+        map.addLayer(
+          {
+            id: 'countries-fill',
             type: 'fill',
-            source: SRC.country,
-            paint: { 'fill-color': palette.land },
-          })
-        }
+            source: SRC.countries,
+            paint: {
+              'fill-color': basemap.offline ? palette.land : palette.forestLight,
+              'fill-opacity': basemap.offline
+                ? 1
+                : ['case', selected, 0.1, countryHover, 0.07, 0.02],
+            },
+          },
+          before,
+        )
         map.addLayer(
           {
             id: 'regions-line',
             type: 'line',
             source: SRC.regions,
+            minzoom: 6,
             paint: { 'line-color': palette.muted, 'line-width': 0.8, 'line-dasharray': [3, 2] },
           },
           before,
         )
         map.addLayer(
           {
-            id: 'country-line',
+            id: 'countries-line',
             type: 'line',
-            source: SRC.country,
-            paint: { 'line-color': palette.forest, 'line-width': 1.6, 'line-opacity': 0.7 },
+            source: SRC.countries,
+            paint: {
+              'line-color': ['case', selected, palette.goldDark, palette.forest],
+              'line-width': ['case', selected, 2.2, 1.1],
+              'line-opacity': ['case', selected, 1, 0.65],
+            },
           },
           before,
         )
-        const selected: ExpressionSpecification = ['boolean', ['feature-state', 'selected'], false]
         // Territories outside the filter results are drawn grey rather than hidden; a selected
         // territory always keeps its highlight.
         const dimmed: ExpressionSpecification = ['boolean', ['feature-state', 'dimmed'], false]
@@ -247,6 +281,7 @@ export function ExplorerMap({
             type: 'symbol',
             source: SRC.labels,
             filter: ['==', ['get', 'representation'], 'boundary'],
+            minzoom: 6,
             layout: {
               'text-field': ['get', 'label'],
               'text-font': ['Noto Sans Bold'],
@@ -263,6 +298,8 @@ export function ExplorerMap({
             type: 'symbol',
             source: SRC.labels,
             filter: ['==', ['get', 'representation'], 'point'],
+            // Site names appear from regional zoom; at overview scale the tooltip names them.
+            minzoom: 6,
             layout: {
               'text-field': ['get', 'label'],
               'text-font': ['Noto Sans Bold'],
@@ -285,6 +322,14 @@ export function ExplorerMap({
           hoveredId = id
         }
 
+        let hoveredCountry: string | null = null
+        const setCountryHover = (code: string | null) => {
+          if (!map || code === hoveredCountry) return
+          if (hoveredCountry) map.setFeatureState({ source: SRC.countries, id: hoveredCountry }, { hover: false })
+          if (code) map.setFeatureState({ source: SRC.countries, id: code }, { hover: true })
+          hoveredCountry = code
+        }
+
         const pick = (e: MapLayerMouseEvent): { id: string; name: string } | null => {
           if (!map) return null
           // Results are top-most first, so a protected-area point wins over the region around it.
@@ -292,22 +337,38 @@ export function ExplorerMap({
           const hit = hits.find((f: maplibregl.MapGeoJSONFeature) => latest.current.visibleIds.has(String(f.properties.territoryId)))
           return hit ? { id: String(hit.properties.territoryId), name: String(hit.properties.name) } : null
         }
+        const pickCountry = (e: MapLayerMouseEvent): { code: string; name: string } | null => {
+          if (!map) return null
+          const hit = map.queryRenderedFeatures(e.point, { layers: ['countries-fill'] })[0]
+          return hit ? { code: String(hit.properties.code), name: String(hit.properties.name) } : null
+        }
 
         map.on('mousemove', (e: maplibregl.MapMouseEvent) => {
           if (!map) return
           const hit = pick(e as MapLayerMouseEvent)
-          map.getCanvas().style.cursor = hit ? 'pointer' : ''
+          const country = hit ? null : pickCountry(e as MapLayerMouseEvent)
+          map.getCanvas().style.cursor = hit || country ? 'pointer' : ''
           if (hit?.id !== hoveredId) setHover(hit?.id ?? null)
+          setCountryHover(country?.code ?? null)
           if (hit) hoverPopup.setLngLat(e.lngLat).setText(hit.name).addTo(map)
-          else hoverPopup.remove()
+          else if (country) {
+            const n = latest.current.countryCounts[country.code] ?? 0
+            hoverPopup
+              .setLngLat(e.lngLat)
+              .setText(`${country.name} · ${n === 0 ? 'no catalogued areas yet' : `${n} catalogued area${n === 1 ? '' : 's'}`}`)
+              .addTo(map)
+          } else hoverPopup.remove()
         })
         map.on('mouseout', () => {
           setHover(null)
+          setCountryHover(null)
           hoverPopup.remove()
         })
         map.on('click', (e: maplibregl.MapMouseEvent) => {
           const hit = pick(e as MapLayerMouseEvent)
-          if (hit) latest.current.onSelect(hit.id)
+          if (hit) return latest.current.onSelect(hit.id)
+          const country = pickCountry(e as MapLayerMouseEvent)
+          if (country) latest.current.onSelectCountry(country.code)
         })
 
         setZoom(map.getZoom())
@@ -349,6 +410,14 @@ export function ExplorerMap({
     }
   }, [territories, visibleIds, selectedId, status])
 
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || status === 'loading' || status === 'error') return
+    for (const f of boundaries.countries.features) {
+      map.setFeatureState({ source: SRC.countries, id: f.properties.code }, { selected: selectedCountries.includes(f.properties.code) })
+    }
+  }, [boundaries, selectedCountries, status])
+
   // Fly to the selected territory, leaving room for the information panel on the right.
   useEffect(() => {
     const map = mapRef.current
@@ -368,8 +437,13 @@ export function ExplorerMap({
     if (!map || !viewRequest || status === 'loading' || status === 'error') return
     map.resize()
     if (viewRequest.view === 'world') map.flyTo({ ...config.map.worldView, duration: 1400 })
-    else map.fitBounds(config.map.initialBounds, { padding: 40, duration: 1400 })
-  }, [viewRequest, status])
+    else if (viewRequest.view === 'country') {
+      const country = boundaries.countries.features.find((f) => f.properties.code === viewRequest.code)
+      if (country && 'coordinates' in country.geometry) {
+        map.fitBounds(boundsOf(country.geometry.coordinates), { padding: 50, maxZoom: 8, duration: 1200 })
+      }
+    } else map.fitBounds(config.map.initialBounds, { padding: 40, duration: 1400 })
+  }, [viewRequest, boundaries, status])
 
   useEffect(() => {
     const map = mapRef.current
@@ -379,7 +453,7 @@ export function ExplorerMap({
 
   const notices: string[] = []
   if (zoom !== null && zoom < config.map.coverageNoticeBelowZoom) {
-    notices.push('Conservation data currently covers Guinea-Bissau only')
+    notices.push('Conservation records cover the 13 WASOP countries only')
   }
 
   return (
@@ -388,7 +462,7 @@ export function ExplorerMap({
       <div
         ref={containerRef}
         style={{ position: 'absolute', inset: 0 }}
-        aria-label="Map"
+        aria-label="Map of the WASOP countries"
         role="region"
       />
       {status === 'loading' && (

@@ -1,6 +1,7 @@
 import type {
   Catalogue,
   ConservationChallenge,
+  DesignationType,
   Ecosystem,
   ConservationTheme,
   Organisation,
@@ -14,16 +15,17 @@ import type {
 
 export interface TerritoryFilters {
   countries: string[]
+  designations: string[]
   ecosystems: string[]
   themes: string[]
 }
 
-export const emptyFilters: TerritoryFilters = { countries: [], ecosystems: [], themes: [] }
+export const emptyFilters: TerritoryFilters = { countries: [], designations: [], ecosystems: [], themes: [] }
 
 export type FilterKey = keyof TerritoryFilters
 
 export function hasActiveFilters(filters: TerritoryFilters): boolean {
-  return filters.countries.length + filters.ecosystems.length + filters.themes.length > 0
+  return Object.values(filters).some((values) => values.length > 0)
 }
 
 /** Themes of a territory are derived from the challenges and opportunities linked to it. */
@@ -39,6 +41,8 @@ function territoryValues(catalogue: Catalogue, territory: Territory, key: Filter
   switch (key) {
     case 'countries':
       return new Set([territory.countryCode])
+    case 'designations':
+      return new Set(territory.designations.map((d) => d.designationId))
     case 'ecosystems':
       return new Set(territory.ecosystems.map((e) => e.ecosystemId))
     case 'themes':
@@ -88,12 +92,12 @@ export function filterOptions(
   filters: TerritoryFilters,
   key: FilterKey,
 ): FilterOption[] {
-  const vocabulary: { id: string; label: string }[] =
-    key === 'countries'
-      ? catalogue.countries.map((c) => ({ id: c.code, label: c.name }))
-      : key === 'ecosystems'
-        ? catalogue.ecosystems.map((e) => ({ id: e.id, label: e.name }))
-        : catalogue.themes.map((t) => ({ id: t.id, label: t.name }))
+  const vocabulary: { id: string; label: string }[] = {
+    countries: catalogue.countries.map((c) => ({ id: c.code, label: c.name })),
+    designations: catalogue.designationTypes.map((d) => ({ id: d.id, label: d.name })),
+    ecosystems: catalogue.ecosystems.map((e) => ({ id: e.id, label: e.name })),
+    themes: catalogue.themes.map((t) => ({ id: t.id, label: t.name })),
+  }[key]
 
   const others: TerritoryFilters = { ...filters, [key]: [] }
   const candidates = filterTerritories(catalogue, others)
@@ -124,6 +128,7 @@ export interface TerritoryProfile {
   parent?: Territory
   children: Territory[]
   countryName: string
+  designations: (DesignationType & { sourceIds: string[] })[]
   ecosystems: (TerritoryEcosystem & { ecosystem: Ecosystem })[]
   themes: ConservationTheme[]
   challenges: ConservationChallenge[]
@@ -165,10 +170,15 @@ export function getTerritoryProfile(
     ...opportunities.flatMap((o) => o.organisationLinks.map((l) => l.statement)),
     ...organisations.map((o) => o.role),
   ]
+  const designations = territory.designations.flatMap((d) => {
+    const type = catalogue.designationTypes.find((x) => x.id === d.designationId)
+    return type ? [{ ...type, sourceIds: d.sourceIds }] : []
+  })
   const sourceIds = [
     ...territory.location.descriptionSourceIds,
     territory.location.pointSourceId,
     territory.geometry.sourceId,
+    ...designations.flatMap((d) => d.sourceIds),
     ...statements.flatMap((s) => s.sourceIds),
   ]
   const sources = [...new Set(sourceIds)].flatMap((id) => {
@@ -183,6 +193,7 @@ export function getTerritoryProfile(
     countryName:
       catalogue.countries.find((c) => c.code === territory.countryCode)?.name ??
       territory.countryCode,
+    designations,
     ecosystems,
     themes: catalogue.themes.filter((t) => themeIds.has(t.id)),
     challenges,

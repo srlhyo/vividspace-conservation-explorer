@@ -35,6 +35,7 @@ export const evidenceMeta: Record<
 }
 
 export const territoryKindLabel: Record<TerritoryKind, string> = {
+  'ramsar-site': 'Ramsar site',
   archipelago: 'Archipelago',
   'administrative-region': 'Administrative region',
   'protected-area': 'Protected area',

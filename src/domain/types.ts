@@ -40,6 +40,7 @@ export interface Country {
 }
 
 export type TerritoryKind =
+  | 'ramsar-site'
   | 'archipelago'
   | 'administrative-region'
   | 'protected-area'
@@ -59,6 +60,18 @@ export interface TerritoryGeometry {
 
 export interface TerritoryEcosystem extends Statement {
   ecosystemId: string
+}
+
+export interface TerritoryDesignation {
+  designationId: string
+  sourceIds: string[]
+}
+
+/** Controlled vocabulary of formal designations used for filtering. */
+export interface DesignationType {
+  id: string
+  name: string
+  description: string
 }
 
 export interface Territory {
@@ -83,6 +96,8 @@ export interface Territory {
   /** Documented local economic activities (context for opportunities). */
   livelihoods: Statement[]
   ecosystems: TerritoryEcosystem[]
+  /** Formal designations (Ramsar site, national park, ...), each backed by a source. */
+  designations: TerritoryDesignation[]
   verification: {
     status: VerificationStatus
     note: string
@@ -174,6 +189,7 @@ export interface CatalogueMeta {
 export interface Catalogue {
   meta: CatalogueMeta
   countries: Country[]
+  designationTypes: DesignationType[]
   territories: Territory[]
   ecosystems: Ecosystem[]
   themes: ConservationTheme[]

@@ -9,8 +9,18 @@ export interface BoundaryProperties {
 
 export type BoundaryCollection = FeatureCollection<Geometry, BoundaryProperties>
 
+export interface CountryProperties {
+  /** ISO 3166-1 alpha-3, matching Country.code in the catalogue. */
+  code: string
+  name: string
+}
+
+export type CountryCollection = FeatureCollection<Geometry, CountryProperties>
+
 export interface BoundaryLayers {
-  country: BoundaryCollection
+  /** Outlines of the countries covered by the catalogue. */
+  countries: CountryCollection
+  /** Administrative regions used as territory boundaries (Guinea-Bissau). */
   regions: BoundaryCollection
 }
 
@@ -34,11 +44,11 @@ export function createStaticRepository(baseUrl: string): ConservationRepository 
   return {
     getCatalogue: () => fetchJson<Catalogue>(`${baseUrl}/catalogue.json`),
     getBoundaries: async () => {
-      const [country, regions] = await Promise.all([
-        fetchJson<BoundaryCollection>(`${baseUrl}/geo/gnb-adm0.geojson`),
+      const [countries, regions] = await Promise.all([
+        fetchJson<CountryCollection>(`${baseUrl}/geo/wasop-countries.geojson`),
         fetchJson<BoundaryCollection>(`${baseUrl}/geo/gnb-adm1.geojson`),
       ])
-      return { country, regions }
+      return { countries, regions }
     },
   }
 }

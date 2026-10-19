@@ -18,7 +18,7 @@ import {
   type TerritoryFilters,
 } from './domain/catalogue'
 import type { Catalogue } from './domain/types'
-import { ExplorerMap } from './map/ExplorerMap'
+import { ExplorerMap, type ViewRequest } from './map/ExplorerMap'
 import { useSelection } from './state/selection'
 
 const repository = createStaticRepository(config.dataBaseUrl)
@@ -47,15 +47,30 @@ export default function App() {
 function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries: BoundaryLayers }) {
   const [filters, setFilters] = useState<TerritoryFilters>(emptyFilters)
   const { selection, selectTerritory, selectChallenge, selectOpportunity } = useSelection(catalogue)
-  const [viewRequest, setViewRequest] = useState<{ view: 'guinea-bissau' | 'world'; id: number } | null>(null)
+  const [viewRequest, setViewRequest] = useState<ViewRequest | null>(null)
   const [projection, setProjection] = useState<'mercator' | 'globe'>('mercator')
-  const requestView = (view: 'guinea-bissau' | 'world') => setViewRequest((r) => ({ view, id: (r?.id ?? 0) + 1 }))
+  const requestView = (view: { view: 'region' } | { view: 'world' } | { view: 'country'; code: string }) =>
+    setViewRequest((r) => ({ ...view, id: (r?.id ?? 0) + 1 }))
+
+  const countryCounts = useMemo(
+    () =>
+      Object.fromEntries(
+        catalogue.countries.map((c) => [c.code, catalogue.territories.filter((t) => t.countryCode === c.code).length]),
+      ),
+    [catalogue],
+  )
+  // Selecting a country filters to it and zooms there; selecting it again returns to the region.
+  const selectCountry = (code: string | null) => {
+    const deselect = code === null || (filters.countries.length === 1 && filters.countries[0] === code)
+    setFilters((f) => ({ ...f, countries: deselect ? [] : [code] }))
+    requestView(deselect ? { view: 'region' } : { view: 'country', code })
+  }
 
   const results = useMemo(() => filterTerritories(catalogue, filters), [catalogue, filters])
   const visibleIds = useMemo(() => new Set(results.map((t) => t.id)), [results])
   const profile = selection.territoryId ? getTerritoryProfile(catalogue, selection.territoryId) : undefined
   const filtering = hasActiveFilters(filters)
-  const filterLabels = (['countries', 'ecosystems', 'themes'] as const).flatMap((key) =>
+  const filterLabels = (['countries', 'designations', 'ecosystems', 'themes'] as const).flatMap((key) =>
     filterOptions(catalogue, filters, key).filter((o) => filters[key].includes(o.id)).map((o) => o.label),
   )
   const clearFilters = () => setFilters(emptyFilters)
@@ -70,6 +85,8 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
         results={results}
         selectedId={selection.territoryId}
         onSelect={selectTerritory}
+        countryCounts={countryCounts}
+        onSelectCountry={selectCountry}
       />
       <div className="relative min-w-0 flex-1">
         <ExplorerMap
@@ -78,6 +95,9 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
           visibleIds={visibleIds}
           selectedId={selection.territoryId}
           onSelect={selectTerritory}
+          selectedCountries={filters.countries}
+          onSelectCountry={selectCountry}
+          countryCounts={countryCounts}
           viewRequest={viewRequest}
           projection={projection}
         />
@@ -96,10 +116,10 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
           </div>
           <div className="pointer-events-auto flex shrink-0 flex-col items-end gap-2">
             <div className="flex gap-1.5">
-              <MapButton onClick={() => requestView('world')} title="Zoom out to a world-scale view">
+              <MapButton onClick={() => requestView({ view: 'world' })} title="Zoom out to a world-scale view">
                 Explore world
               </MapButton>
-              <MapButton onClick={() => requestView('guinea-bissau')} title="Return to the Guinea-Bissau overview">
+              <MapButton onClick={() => requestView({ view: 'region' })} title="Return to the WASOP regional overview">
                 Reset view
               </MapButton>
             </div>

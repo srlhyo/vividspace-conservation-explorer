@@ -1,16 +1,38 @@
 {
   "meta": {
-    "version": "0.2.0",
+    "version": "0.3.0",
     "updated": "2026-10-19",
-    "description": "Demonstration dataset for Guinea-Bissau, focused on the Bijagós Archipelago and the Cacheu region, with Cantanhez National Park. Every factual statement cites a publicly accessible source that was checked on the access date shown. Potential regenerative activities are presented as interpretations or hypotheses, never as validated businesses."
+    "description": "Demonstration dataset for the 13 West Africa Sustainable Ocean Programme (WASOP) countries. It combines detailed Guinea-Bissau research (Bijagós Archipelago, Cacheu region, Cantanhez) with a researched selection of marine and coastal protected areas, mainly Ramsar sites, across the region. It is not an exhaustive official inventory. Every factual statement cites a publicly accessible source that was checked on the access date shown. Potential regenerative activities are presented as interpretations or hypotheses, never as validated businesses."
   },
-  "countries": [{ "code": "GNB", "name": "Guinea-Bissau" }],
+  "countries": [
+    { "code": "BEN", "name": "Benin" },
+    { "code": "CPV", "name": "Cabo Verde" },
+    { "code": "CIV", "name": "Côte d'Ivoire" },
+    { "code": "GMB", "name": "The Gambia" },
+    { "code": "GHA", "name": "Ghana" },
+    { "code": "GIN", "name": "Guinea" },
+    { "code": "GNB", "name": "Guinea-Bissau" },
+    { "code": "LBR", "name": "Liberia" },
+    { "code": "MRT", "name": "Mauritania" },
+    { "code": "NGA", "name": "Nigeria" },
+    { "code": "SEN", "name": "Senegal" },
+    { "code": "SLE", "name": "Sierra Leone" },
+    { "code": "TGO", "name": "Togo" }
+  ],
+  "designationTypes": [
+    { "id": "ramsar", "name": "Ramsar site", "description": "Wetland of International Importance designated under the Ramsar Convention." },
+    { "id": "national-park", "name": "National or natural park", "description": "Area designated by national law as a national, marine or natural park." },
+    { "id": "community-protected-area", "name": "Community protected area", "description": "Protected area created and managed with or by local communities." },
+    { "id": "biosphere-reserve", "name": "Biosphere reserve", "description": "Site recognised under UNESCO's Man and the Biosphere Programme." },
+    { "id": "world-heritage", "name": "World Heritage site", "description": "Property inscribed on the UNESCO World Heritage List." }
+  ],
   "ecosystems": [
     { "id": "mangrove", "name": "Mangrove forest", "definition": "Salt-tolerant trees and shrubs growing in the intertidal zone of tropical coasts and estuaries." },
     { "id": "intertidal-flats", "name": "Intertidal mud & sand flats", "definition": "Unvegetated or sparsely vegetated areas exposed at low tide." },
     { "id": "seagrass", "name": "Seagrass beds", "definition": "Submerged meadows of flowering marine plants in shallow coastal waters." },
     { "id": "estuarine", "name": "Estuarine waters", "definition": "Waters where river and sea mix, including rias (drowned river valleys)." },
     { "id": "shallow-marine", "name": "Shallow marine waters", "definition": "Permanent shallow coastal and marine waters." },
+    { "id": "coastal-lagoon", "name": "Coastal lagoons", "definition": "Shallow coastal water bodies separated from the sea by barriers, often brackish." },
     { "id": "sandy-beaches", "name": "Sandy beaches", "definition": "Sandy shores, including sea-turtle nesting beaches." },
     { "id": "terrestrial-mosaic", "name": "Palm groves, forest & savanna", "definition": "Terrestrial mosaic of palm groves, dry or semi-dry forest and woodland savanna." }
   ],
@@ -69,6 +91,11 @@
         { "ecosystemId": "seagrass", "text": "Key intertidal areas include extensive, highly productive seagrass beds.", "evidence": "verified", "sourceIds": ["rainforest-trust-bijagos", "bioguinea-jvp"] },
         { "ecosystemId": "terrestrial-mosaic", "text": "On land, the islands have palm groves, littoral woodland savannas and semi-dry forests.", "evidence": "verified", "sourceIds": ["unesco-mab-bolama-bijagos", "ramsar-ris-2198"] }
       ],
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-ris-2198"] },
+        { "designationId": "biosphere-reserve", "sourceIds": ["unesco-mab-bolama-bijagos"] },
+        { "designationId": "world-heritage", "sourceIds": ["whc-1431"] }
+      ],
       "verification": {
         "status": "verified",
         "note": "Designations, key ecological facts and livelihoods checked against UNESCO, Ramsar, IBAP and BioGuinea sources. The map outline is an administrative proxy, not a designated-site boundary.",
@@ -109,6 +136,9 @@
         { "ecosystemId": "sandy-beaches", "text": "The park's beaches are used by five sea turtle species.", "evidence": "verified", "sourceIds": ["bioguinea-orango"] },
         { "ecosystemId": "shallow-marine", "text": "The park's hippos live in the sea, unlike freshwater populations elsewhere.", "evidence": "verified", "sourceIds": ["bioguinea-orango", "whc-1431"] }
       ],
+      "designations": [
+        { "designationId": "national-park", "sourceIds": ["bioguinea-orango"] }
+      ],
       "verification": {
         "status": "partially-verified",
         "note": "Creation year, classification, key species and livelihoods verified. Location is a representative point only, and habitat detail specific to the park is limited in this dataset.",
@@ -147,6 +177,9 @@
         { "ecosystemId": "sandy-beaches", "text": "A highly dynamic coastline radically changes beach profiles across the park's islands, which host major turtle nesting.", "evidence": "verified", "sourceIds": ["bioguinea-jvp"] },
         { "ecosystemId": "shallow-marine", "text": "The park includes shallow areas up to the 10-metre isobath.", "evidence": "verified", "sourceIds": ["bioguinea-jvp"] }
       ],
+      "designations": [
+        { "designationId": "national-park", "sourceIds": ["bioguinea-jvp"] }
+      ],
       "verification": {
         "status": "partially-verified",
         "note": "Creation date, protection status, habitats and turtle significance verified. Location is a representative point only. No source describing local livelihoods in the park was reviewed.",
@@ -182,6 +215,9 @@
         { "text": "The protected area aims to help communities manage their marine resources more sustainably and to secure their access to prime fishing grounds.", "evidence": "verified", "sourceIds": ["bioguinea-urok"] }
       ],
       "ecosystems": [],
+      "designations": [
+        { "designationId": "community-protected-area", "sourceIds": ["bioguinea-urok"] }
+      ],
       "verification": {
         "status": "partially-verified",
         "note": "Governance, creation and size verified. No source reviewed so far describes the area's specific habitats, so none are listed. Location is a representative point only.",
@@ -217,6 +253,7 @@
         { "ecosystemId": "estuarine", "text": "The lower Cacheu River is a tidal ria with estuarine waters.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
         { "ecosystemId": "mangrove", "text": "Mangroves of the lower Cacheu River form the core of the Ramsar-listed Cacheu River Mangroves Natural Park.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
       ],
+      "designations": [],
       "verification": {
         "status": "partially-verified",
         "note": "Boundary and location are sourced. Most ecological and socio-economic information in this dataset comes from sources about the Cacheu River Mangroves Natural Park and its buffer zone, and is linked to the region for that reason. Region-wide statistics are not included.",
@@ -261,6 +298,10 @@
         { "ecosystemId": "seagrass", "text": "Seagrass beds occur in the park and its buffer zone.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] },
         { "ecosystemId": "terrestrial-mosaic", "text": "Beyond the mangroves, the landscape is a mosaic of forests, palm groves and savanna, with dryland forests in the buffer zone.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gw", "wi-cacheu-report"] }
       ],
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gw", "ramsar-ris-2229"] },
+        { "designationId": "national-park", "sourceIds": ["ibap-pntc"] }
+      ],
       "verification": {
         "status": "partially-verified",
         "note": "Designations, management, ecosystems and pressures verified against Ramsar, IBAP and NGO sources. Sources disagree on the exact creation day (1 or 4 December 2000) and on the mangrove share of the park, so those details are omitted. BioGuinea lists it as a national park, while IBAP, Ramsar and Wetlands International call it a natural park; the official name is kept here. Location is a representative point only.",
@@ -296,10 +337,1586 @@
         { "ecosystemId": "terrestrial-mosaic", "text": "The BioGuinea Foundation describes the park as holding the last areas of dense sub-humid forest in the country.", "evidence": "verified", "sourceIds": ["bioguinea-cantanhez"] },
         { "ecosystemId": "mangrove", "text": "Mangroves in the park are among those whose conservation Wetlands International reports supporting.", "evidence": "verified", "sourceIds": ["wi-reviving-mangroves-2026"] }
       ],
+      "designations": [
+        { "designationId": "national-park", "sourceIds": ["bioguinea-cantanhez"] }
+      ],
       "verification": {
         "status": "partially-verified",
         "note": "Location and region from Wikidata. Creation year and area are as reported by BioGuinea; Wikidata lists other dates (1980, 2007) and areas (680 and 1,057.67 km²), so treat them as unconfirmed. BioGuinea's description of the park's orientation conflicts with the map and was not used. No potential activity is proposed, because no reviewed source links a documented need here to a specific activity.",
         "reviewed": "2026-10-19"
+      }
+    },
+    {
+      "id": "ramsar-1017",
+      "name": "Basse Vallée du Couffo, Lagune Côtiere, Chenal Aho, Lac Ahémé",
+      "shortName": "Basse Vallée du Couffo",
+      "kind": "ramsar-site",
+      "countryCode": "BEN",
+      "location": {
+        "description": "Benin.",
+        "descriptionSourceIds": ["ramsar-annotated-bj"],
+        "point": [1.85361, 6.79361],
+        "pointSourceId": "ramsar-annotated-bj"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-bj",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-bj"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1017) on 24 January 2000, with a listed area of 524,289 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-bj"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-bj"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-bj"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1018",
+      "name": "Basse Vallée de l'Ouémé, Lagune de Porto-Novo, Lac Nokoué",
+      "shortName": "Basse Vallée de l'Ouémé",
+      "kind": "ramsar-site",
+      "countryCode": "BEN",
+      "location": {
+        "description": "Benin.",
+        "descriptionSourceIds": ["ramsar-annotated-bj"],
+        "point": [2.41306, 6.75389],
+        "pointSourceId": "ramsar-annotated-bj"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-bj",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-bj"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1018) on 24 January 2000, with a listed area of 652,760 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-bj"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-bj"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-bj"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1577",
+      "name": "Lagoa de Pedra Badejo",
+      "kind": "ramsar-site",
+      "countryCode": "CPV",
+      "location": {
+        "description": "Island of Santiago, Cabo Verde (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-cv"],
+        "point": [-23.53667, 15.09972],
+        "pointSourceId": "ramsar-annotated-cv"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-cv",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1577) on 18 July 2005, with a listed area of 666 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] },
+        { "ecosystemId": "sandy-beaches", "text": "Ramsar's site summary mentions beaches.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-2182",
+      "name": "Salinas of the English Port",
+      "kind": "ramsar-site",
+      "countryCode": "CPV",
+      "location": {
+        "description": "Maio, Cabo Verde (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-cv"],
+        "point": [-23.22667, 15.15667],
+        "pointSourceId": "ramsar-annotated-cv"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-cv",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 2182) on 3 July 2013, with a listed area of 535 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1576",
+      "name": "Lagoa de Rabil",
+      "kind": "ramsar-site",
+      "countryCode": "CPV",
+      "location": {
+        "description": "Island of Boa Vista, Cabo Verde (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-cv"],
+        "point": [-22.89917, 16.15],
+        "pointSourceId": "ramsar-annotated-cv"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-cv",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1576) on 18 July 2005, with a listed area of 113 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1575",
+      "name": "Curral Velho",
+      "kind": "ramsar-site",
+      "countryCode": "CPV",
+      "location": {
+        "description": "Isla de Boa Vista, Cabo Verde (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-cv"],
+        "point": [-22.75917, 16.00417],
+        "pointSourceId": "ramsar-annotated-cv"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-cv",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1575) on 18 July 2005, with a listed area of 986 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] },
+        { "ecosystemId": "sandy-beaches", "text": "Ramsar's site summary mentions beaches.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1584",
+      "name": "Iles Ehotilé-Essouman",
+      "kind": "ramsar-site",
+      "countryCode": "CIV",
+      "location": {
+        "description": "Sud-Comoé, Côte d'Ivoire (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-ci"],
+        "point": [-3.22, 5.15722],
+        "pointSourceId": "ramsar-annotated-ci"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-ci",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1584) on 18 October 2005, with a listed area of 27,274 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1581",
+      "name": "Complexe Sassandra-Dagbego",
+      "kind": "ramsar-site",
+      "countryCode": "CIV",
+      "location": {
+        "description": "Bas-Sassandra, Côte d'Ivoire (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-ci"],
+        "point": [-6.03333, 4.96667],
+        "pointSourceId": "ramsar-annotated-ci"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-ci",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1581) on 18 October 2005, with a listed area of 10,551 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] },
+        { "ecosystemId": "sandy-beaches", "text": "Ramsar's site summary mentions beaches.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. Ramsar's site-header coordinates (45°18'N 100°06'59\"E) are erroneous; the coordinates given in the site description (004°58'N 006°02'W) are used. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1583",
+      "name": "Grand Bassam",
+      "kind": "ramsar-site",
+      "countryCode": "CIV",
+      "location": {
+        "description": "Sud-Comoé, Côte d'Ivoire (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-ci"],
+        "point": [-3.76667, 5.35],
+        "pointSourceId": "ramsar-annotated-ci"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-ci",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1583) on 18 October 2005, with a listed area of 40,210 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. Ramsar's site-header coordinates (53°56'39\"N 24°33'28\"E) are erroneous; the coordinates given in the site description (05°21'N 003°46'W) are used. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-790",
+      "name": "Parc National d’Azagny",
+      "kind": "ramsar-site",
+      "countryCode": "CIV",
+      "location": {
+        "description": "Région des Grands Ponts, Côte d'Ivoire (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-ci"],
+        "point": [-4.87194, 5.2125],
+        "pointSourceId": "ramsar-annotated-ci"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-ci",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-ci"] },
+        { "designationId": "national-park", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 790) on 27 February 1996, with a listed area of 19,400 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1582",
+      "name": "Fresco",
+      "kind": "ramsar-site",
+      "countryCode": "CIV",
+      "location": {
+        "description": "Sud-Bandama, Côte d'Ivoire (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-ci"],
+        "point": [-5.57833, 5.11],
+        "pointSourceId": "ramsar-annotated-ci"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-ci",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1582) on 18 October 2005, with a listed area of 15,507 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] },
+        { "ecosystemId": "sandy-beaches", "text": "Ramsar's site summary mentions beaches.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1585",
+      "name": "N'Ganda N'Ganda",
+      "kind": "ramsar-site",
+      "countryCode": "CIV",
+      "location": {
+        "description": "Sud-Comoé, Côte d'Ivoire (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-ci"],
+        "point": [-3.4, 5.16667],
+        "pointSourceId": "ramsar-annotated-ci"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-ci",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1585) on 18 October 2005, with a listed area of 14,402 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1657",
+      "name": "Tanbi Wetlands Complex",
+      "kind": "ramsar-site",
+      "countryCode": "GMB",
+      "location": {
+        "description": "Brikama, Kanifing, Banjul, The Gambia (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gm"],
+        "point": [-16.63306, 13.43306],
+        "pointSourceId": "ramsar-annotated-gm"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gm",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gm"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1657) on 2 February 2007, with a listed area of 6,304 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gm"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gm"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gm"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gm"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-860",
+      "name": "Baobolon Wetland Reserve",
+      "kind": "ramsar-site",
+      "countryCode": "GMB",
+      "location": {
+        "description": "North Bank Division, The Gambia (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gm"],
+        "point": [-15.86667, 13.51667],
+        "pointSourceId": "ramsar-annotated-gm"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gm",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gm"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 860) on 16 September 1996, with a listed area of 20,000 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gm"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gm"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gm"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gm"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1840",
+      "name": "Niumi National Park",
+      "kind": "ramsar-site",
+      "countryCode": "GMB",
+      "location": {
+        "description": "Lower Niumi District, North Bank Region, The Gambia (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gm"],
+        "point": [-16.5, 13.56667],
+        "pointSourceId": "wikidata-q922736"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "wikidata-q922736",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gm"] },
+        { "designationId": "national-park", "sourceIds": ["ramsar-annotated-gm"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1840) on 13 October 2008, with a listed area of 4,940 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gm"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gm"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. Ramsar's listed coordinates (52°56'32\"N 122°39'55\"E) are erroneous, so the location is taken from Wikidata (Q922736). No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-565",
+      "name": "Sakumo Ramsar Site",
+      "kind": "ramsar-site",
+      "countryCode": "GHA",
+      "location": {
+        "description": "Greater Accra Region, Ghana (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gh"],
+        "point": [-0.04083, 5.63972],
+        "pointSourceId": "ramsar-annotated-gh"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gh",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 565) on 14 August 1992, with a listed area of 1,364 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-564",
+      "name": "Densu Delta Ramsar Site",
+      "kind": "ramsar-site",
+      "countryCode": "GHA",
+      "location": {
+        "description": "Greater Accra Region, Ghana (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gh"],
+        "point": [-0.3275, 5.52972],
+        "pointSourceId": "ramsar-annotated-gh"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gh",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 564) on 14 August 1992, with a listed area of 5,893 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-563",
+      "name": "Muni-Pomadze Ramsar Site",
+      "kind": "ramsar-site",
+      "countryCode": "GHA",
+      "location": {
+        "description": "Central Region, Ghana (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gh"],
+        "point": [-0.65028, 5.34444],
+        "pointSourceId": "wikidata-q65040405"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "wikidata-q65040405",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 563) on 14 August 1992, with a listed area of 9,461 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. Ramsar's listed coordinates (10°58'48\"N 79°02'44\"E) are erroneous, so the location is taken from Wikidata (Q65040405). No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-567",
+      "name": "Keta Lagoon Complex Ramsar Site",
+      "kind": "ramsar-site",
+      "countryCode": "GHA",
+      "location": {
+        "description": "Volta Region, Ghana (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gh"],
+        "point": [0.83333, 5.93917],
+        "pointSourceId": "ramsar-annotated-gh"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gh",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 567) on 14 August 1992, with a listed area of 136,000 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-566",
+      "name": "Songor Ramsar Site",
+      "kind": "ramsar-site",
+      "countryCode": "GHA",
+      "location": {
+        "description": "Greater Accra Region, Ghana (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gh"],
+        "point": [0.53583, 5.86111],
+        "pointSourceId": "ramsar-annotated-gh"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gh",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 566) on 14 August 1992, with a listed area of 51,133 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] },
+        { "ecosystemId": "sandy-beaches", "text": "Ramsar's site summary mentions beaches.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-572",
+      "name": "Iles Tristao",
+      "kind": "ramsar-site",
+      "countryCode": "GIN",
+      "location": {
+        "description": "Guinea.",
+        "descriptionSourceIds": ["ramsar-annotated-gn"],
+        "point": [-15.0, 10.91639],
+        "pointSourceId": "ramsar-annotated-gn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 572) on 18 November 1992, with a listed area of 85,000 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-575",
+      "name": "Konkouré",
+      "kind": "ramsar-site",
+      "countryCode": "GIN",
+      "location": {
+        "description": "Dubréka,Conakry,Koba-Tatéma, Guinea (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gn"],
+        "point": [-13.68333, 9.75],
+        "pointSourceId": "ramsar-annotated-gn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 575) on 18 November 1992, with a listed area of 90,000 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-618",
+      "name": "Ile Blanche",
+      "kind": "ramsar-site",
+      "countryCode": "GIN",
+      "location": {
+        "description": "Guinea.",
+        "descriptionSourceIds": ["ramsar-annotated-gn"],
+        "point": [-13.76667, 9.43333],
+        "pointSourceId": "ramsar-annotated-gn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 618) on 23 June 1993, with a listed area of 10 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-574",
+      "name": "Rio Pongo",
+      "kind": "ramsar-site",
+      "countryCode": "GIN",
+      "location": {
+        "description": "Boké, Guinea (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gn"],
+        "point": [-13.74028, 10.5275],
+        "pointSourceId": "ramsar-annotated-gn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 574) on 18 November 1992, with a listed area of 600,571 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-571",
+      "name": "Ile Alcatraz",
+      "kind": "ramsar-site",
+      "countryCode": "GIN",
+      "location": {
+        "description": "Kamsar,Boke, Guinea (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gn"],
+        "point": [-15.38306, 10.63306],
+        "pointSourceId": "ramsar-annotated-gn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 571) on 18 November 1992, with a listed area of 1 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] },
+        { "ecosystemId": "shallow-marine", "text": "Ramsar's site summary mentions marine waters.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-573",
+      "name": "Rio Kapatchez",
+      "kind": "ramsar-site",
+      "countryCode": "GIN",
+      "location": {
+        "description": "Boke, Guinea (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gn"],
+        "point": [-14.25583, 10.7575],
+        "pointSourceId": "ramsar-annotated-gn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 573) on 18 November 1992, with a listed area of 679,280 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-469",
+      "name": "Lagoa de Cufada",
+      "kind": "ramsar-site",
+      "countryCode": "GNB",
+      "location": {
+        "description": "Quinara, Guinea-Bissau (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-gw"],
+        "point": [-15.03306, 11.71667],
+        "pointSourceId": "ramsar-annotated-gw"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-gw",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-gw"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 469) on 14 May 1990, with a listed area of 39,098 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gw"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gw"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gw"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gw"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1306",
+      "name": "Lake Piso",
+      "kind": "ramsar-site",
+      "countryCode": "LBR",
+      "location": {
+        "description": "Gawulu-Tombe district, Liberia (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-lr"],
+        "point": [-11.21667, 6.75],
+        "pointSourceId": "ramsar-annotated-lr"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-lr",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-lr"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1306) on 2 July 2003, with a listed area of 76,091 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-lr"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-lr"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-lr"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. Ramsar's site-header coordinates (02°22'45\"N 10°33'12\"E) are erroneous; the coordinates given in the site description (06°45'N 011°13'W) are used. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1630",
+      "name": "Marshall Wetlands",
+      "kind": "ramsar-site",
+      "countryCode": "LBR",
+      "location": {
+        "description": "Margibi county, Liberia (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-lr"],
+        "point": [-10.36667, 6.13306],
+        "pointSourceId": "ramsar-annotated-lr"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-lr",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-lr"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1630) on 24 August 2006, with a listed area of 12,168 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-lr"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-lr"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1631",
+      "name": "Mesurado Wetlands",
+      "kind": "ramsar-site",
+      "countryCode": "LBR",
+      "location": {
+        "description": "Montserrado county, Liberia (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-lr"],
+        "point": [-10.75, 6.3],
+        "pointSourceId": "ramsar-annotated-lr"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-lr",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-lr"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1631) on 24 August 2006, with a listed area of 6,760 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-lr"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-lr"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-250",
+      "name": "Parc National du Banc d'Arguin",
+      "kind": "ramsar-site",
+      "countryCode": "MRT",
+      "location": {
+        "description": "Wilaya de Dakhlet Nouadhibou, Mauritania (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-mr"],
+        "point": [-16.39333, 20.07222],
+        "pointSourceId": "ramsar-annotated-mr"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-mr",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-mr"] },
+        { "designationId": "national-park", "sourceIds": ["ramsar-annotated-mr"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 250) on 22 October 1982, with a listed area of 1,200,000 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] },
+        { "ecosystemId": "seagrass", "text": "Ramsar's site summary mentions seagrass.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] },
+        { "ecosystemId": "shallow-marine", "text": "Ramsar's site summary mentions marine waters.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1044",
+      "name": "Chat Tboul",
+      "kind": "ramsar-site",
+      "countryCode": "MRT",
+      "location": {
+        "description": "Willaya du Trarza, Mauritania (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-mr"],
+        "point": [-16.4, 16.55],
+        "pointSourceId": "ramsar-annotated-mr"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-mr",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-mr"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1044) on 10 November 2000, with a listed area of 15,500 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-666",
+      "name": "Parc National du Diawling",
+      "kind": "ramsar-site",
+      "countryCode": "MRT",
+      "location": {
+        "description": "Willaya du Trarza, Mauritania (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-mr"],
+        "point": [-16.37639, 16.3575],
+        "pointSourceId": "ramsar-annotated-mr"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-mr",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-mr"] },
+        { "designationId": "national-park", "sourceIds": ["ramsar-annotated-mr"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 666) on 23 August 1994, with a listed area of 15,600 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-mr"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1751",
+      "name": "Apoi Creek Forests",
+      "kind": "ramsar-site",
+      "countryCode": "NGA",
+      "location": {
+        "description": "Bayelsa State, Nigeria (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-ng"],
+        "point": [5.79167, 4.70472],
+        "pointSourceId": "ramsar-annotated-ng"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-ng",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-ng"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1751) on 30 April 2008, with a listed area of 29,213 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ng"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ng"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ng"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-2564",
+      "name": "Ebute Oni coastal Wetland",
+      "kind": "ramsar-site",
+      "countryCode": "NGA",
+      "location": {
+        "description": "Ijebu Waterside Local Government Area, Nigeria (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-ng"],
+        "point": [4.22778, 6.56028],
+        "pointSourceId": "ramsar-annotated-ng"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-ng",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-ng"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 2564) on 1 March 2024, with a listed area of 103 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ng"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ng"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-2593",
+      "name": "Ogoniland Wetland",
+      "kind": "ramsar-site",
+      "countryCode": "NGA",
+      "location": {
+        "description": "Rivers State, South-South Geopolitical Zone, Nigeria, Nigeria (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-ng"],
+        "point": [7.27944, 4.59944],
+        "pointSourceId": "ramsar-annotated-ng"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-ng",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-ng"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 2593) on 21 October 2025, with a listed area of 31,701 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ng"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ng"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ng"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ng"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-2326",
+      "name": "Kalissaye",
+      "kind": "ramsar-site",
+      "countryCode": "SEN",
+      "location": {
+        "description": "ZIGUINCHOR, Senegal (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-sn"],
+        "point": [-16.71333, 12.80972],
+        "pointSourceId": "ramsar-annotated-sn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-sn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 2326) on 1 September 2017, with a listed area of 30,014 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-288",
+      "name": "Parc national du Delta du Saloum",
+      "kind": "ramsar-site",
+      "countryCode": "SEN",
+      "location": {
+        "description": "Kaolack, Fatick, Senegal (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-sn"],
+        "point": [-16.67528, 13.70639],
+        "pointSourceId": "ramsar-annotated-sn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-sn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-sn"] },
+        { "designationId": "national-park", "sourceIds": ["ramsar-annotated-sn"] },
+        { "designationId": "biosphere-reserve", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 288) on 3 April 1984, with a listed area of 73,000 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-2199",
+      "name": "Réserve Naturelle Communautaire de Tocc Tocc",
+      "kind": "ramsar-site",
+      "countryCode": "SEN",
+      "location": {
+        "description": "Saint-Louis, Senegal (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-sn"],
+        "point": [-15.83972, 16.34333],
+        "pointSourceId": "ramsar-annotated-sn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-sn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-sn"] },
+        { "designationId": "community-protected-area", "sourceIds": ["ramsar-annotated-sn"] },
+        { "designationId": "biosphere-reserve", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 2199) on 12 September 2013, with a listed area of 273 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-338",
+      "name": "Réserve Spéciale de Faune de Gueumbeul",
+      "kind": "ramsar-site",
+      "countryCode": "SEN",
+      "location": {
+        "description": "Saint Louis, Senegal (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-sn"],
+        "point": [-16.46167, 15.91694],
+        "pointSourceId": "ramsar-annotated-sn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-sn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 338) on 29 September 1986, with a listed area of 720 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-2467",
+      "name": "Parc National de la Langue de Barbarie",
+      "kind": "ramsar-site",
+      "countryCode": "SEN",
+      "location": {
+        "description": "Régions de Saint Louis et de Louga, Senegal (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-sn"],
+        "point": [-16.52472, 15.83],
+        "pointSourceId": "ramsar-annotated-sn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-sn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-sn"] },
+        { "designationId": "national-park", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 2467) on 7 April 2021, with a listed area of 2,000 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-2327",
+      "name": "Réserve Naturelle d'Intérêt Communautaire de la Somone",
+      "kind": "ramsar-site",
+      "countryCode": "SEN",
+      "location": {
+        "description": "Thiès, Senegal (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-sn"],
+        "point": [-17.06972, 14.50722],
+        "pointSourceId": "ramsar-annotated-sn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-sn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-sn"] },
+        { "designationId": "community-protected-area", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 2327) on 1 September 2017, with a listed area of 700 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] },
+        { "ecosystemId": "sandy-beaches", "text": "Ramsar's site summary mentions beaches.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-2328",
+      "name": "Réserve Naturelle Communautaire de Palmarin",
+      "kind": "ramsar-site",
+      "countryCode": "SEN",
+      "location": {
+        "description": "Fatick, Senegal (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-sn"],
+        "point": [-16.75111, 14.05722],
+        "pointSourceId": "ramsar-annotated-sn"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-sn",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-sn"] },
+        { "designationId": "community-protected-area", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 2328) on 1 September 2017, with a listed area of 10,430 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] },
+        { "ecosystemId": "intertidal-flats", "text": "Ramsar's site summary mentions intertidal or tidal flats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sn"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1014",
+      "name": "Sierra Leone River Estuary",
+      "kind": "ramsar-site",
+      "countryCode": "SLE",
+      "location": {
+        "description": "Western Area, Sierra Leone (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-sl"],
+        "point": [-13.05, 8.61667],
+        "pointSourceId": "ramsar-annotated-sl"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-sl",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-sl"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1014) on 13 December 1999, with a listed area of 295,000 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sl"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sl"] },
+        { "ecosystemId": "estuarine", "text": "Ramsar's site summary mentions estuarine waters or a river delta.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sl"] },
+        { "ecosystemId": "sandy-beaches", "text": "Ramsar's site summary mentions beaches.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sl"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. Ramsar's site-header coordinates (23°22'59\"S 14°28'59\"E) are erroneous; the coordinates given in the site description (08°37'N 013°03'W) are used. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "ramsar-1722",
+      "name": "Zones Humides du Littoral du Togo",
+      "kind": "ramsar-site",
+      "countryCode": "TGO",
+      "location": {
+        "description": "Région maritime, Togo (administrative area as listed by Ramsar).",
+        "descriptionSourceIds": ["ramsar-annotated-tg"],
+        "point": [1.41667, 6.56667],
+        "pointSourceId": "ramsar-annotated-tg"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "ramsar-annotated-tg",
+        "caveat": "Shown at reference coordinates only; the Ramsar site boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "ramsar", "sourceIds": ["ramsar-annotated-tg"] }
+      ],
+      "overview": [
+        { "text": "Designated a Wetland of International Importance (Ramsar site no. 1722) on 2 February 2008, with a listed area of 591,000 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-tg"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Ramsar's site summary mentions mangroves.", "evidence": "verified", "sourceIds": ["ramsar-annotated-tg"] },
+        { "ecosystemId": "coastal-lagoon", "text": "Ramsar's site summary mentions lagoons.", "evidence": "verified", "sourceIds": ["ramsar-annotated-tg"] },
+        { "ecosystemId": "sandy-beaches", "text": "Ramsar's site summary mentions beaches.", "evidence": "verified", "sourceIds": ["ramsar-annotated-tg"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+      }
+    },
+    {
+      "id": "mono-biosphere-reserve",
+      "name": "Mono Transboundary Biosphere Reserve",
+      "shortName": "Mono Biosphere Reserve",
+      "kind": "protected-area",
+      "countryCode": "BEN",
+      "location": {
+        "description": "Mono River delta on the Benin–Togo border; transboundary across both countries. Catalogued under Benin, where UNESCO's reference point lies.",
+        "descriptionSourceIds": ["unesco-mab-mono"],
+        "point": [1.7305, 6.6028],
+        "pointSourceId": "unesco-mab-mono"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "unesco-mab-mono",
+        "caveat": "Shown at UNESCO's reference coordinates only; the biosphere reserve boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "biosphere-reserve", "sourceIds": ["unesco-mab-mono"] }
+      ],
+      "overview": [
+        { "text": "UNESCO lists Mono as a transboundary biosphere reserve between Benin and Togo, nominated in 2017.", "evidence": "verified", "sourceIds": ["unesco-mab-mono"] },
+        { "text": "Its listed area is 142,498 ha, of which 20,365 ha are marine.", "evidence": "verified", "sourceIds": ["unesco-mab-mono"] },
+        { "text": "UNESCO names the hawksbill and leatherback sea turtles among its critically endangered species.", "evidence": "verified", "sourceIds": ["unesco-mab-mono"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "UNESCO's description mentions mangroves.", "evidence": "verified", "sourceIds": ["unesco-mab-mono"] },
+        { "ecosystemId": "coastal-lagoon", "text": "UNESCO's description mentions lagoons.", "evidence": "verified", "sourceIds": ["unesco-mab-mono"] },
+        { "ecosystemId": "sandy-beaches", "text": "UNESCO's description mentions beaches.", "evidence": "verified", "sourceIds": ["unesco-mab-mono"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "reviewed": "2026-10-19",
+        "note": "Facts from UNESCO's biosphere reserve record. The reserve spans Benin and Togo but is catalogued once, under Benin. No conservation challenge, organisation or potential activity has been researched yet."
+      }
+    },
+    {
+      "id": "western-area-peninsula-np",
+      "name": "Western Area Peninsula National Park",
+      "shortName": "Western Area Peninsula NP",
+      "kind": "protected-area",
+      "countryCode": "SLE",
+      "location": {
+        "description": "Freetown peninsula, Sierra Leone.",
+        "descriptionSourceIds": ["wikidata-q256104"],
+        "point": [-13.16667, 8.38306],
+        "pointSourceId": "wikidata-q256104"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "wikidata-q256104",
+        "caveat": "Shown at Wikidata reference coordinates only; the park boundary is not shown."
+      },
+      "designations": [
+        { "designationId": "national-park", "sourceIds": ["wikidata-q256104"] }
+      ],
+      "overview": [
+        { "text": "Wikidata records it as a protected area (national park) in Sierra Leone.", "evidence": "verified", "sourceIds": ["wikidata-q256104"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [],
+      "verification": {
+        "status": "location-only",
+        "reviewed": "2026-10-19",
+        "note": "Identity and location from Wikidata only; no official national record was reviewed. Included as a known coastal protected area pending research."
       }
     }
   ],
@@ -707,7 +2324,8 @@
     }
   ],
   "sources": [
-    { "id": "geoboundaries-gnb", "title": "geoBoundaries gbOpen — Guinea-Bissau ADM0 & ADM1 (simplified), release 9469f09", "publisher": "geoBoundaries (William & Mary geoLab), derived from OpenStreetMap", "url": "https://github.com/wmgeolab/geoBoundaries/tree/9469f09/releaseData/gbOpen/GNB", "licence": "ODbL 1.0 — © OpenStreetMap contributors", "licenceUrl": "https://opendatacommons.org/licenses/odbl/1-0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Administrative boundaries only; boundary year represented: 2017." },
+    { "id": "geoboundaries-gnb", "title": "geoBoundaries gbOpen — Guinea-Bissau ADM1 regions (simplified), release 9469f09", "publisher": "geoBoundaries (William & Mary geoLab), derived from OpenStreetMap", "url": "https://github.com/wmgeolab/geoBoundaries/tree/9469f09/releaseData/gbOpen/GNB", "licence": "ODbL 1.0 — © OpenStreetMap contributors", "licenceUrl": "https://opendatacommons.org/licenses/odbl/1-0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Administrative boundaries only; boundary year represented: 2017." },
+    { "id": "natural-earth-countries", "title": "Natural Earth 1:50m admin-0 countries, v5.1.2 (13 WASOP countries)", "publisher": "Natural Earth", "url": "https://github.com/nvkelso/natural-earth-vector/tree/v5.1.2", "licence": "Public domain", "licenceUrl": "https://www.naturalearthdata.com/about/terms-of-use/", "accessed": "2026-10-19", "kind": "dataset", "note": "Country outlines for regional navigation; generalised at 1:50m scale." },
     { "id": "wikidata-q664687", "title": "Bijagós Islands (Q664687) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q664687", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-18", "kind": "dataset" },
     { "id": "wikidata-q7099832", "title": "Orango Islands National Park (Q7099832) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q7099832", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Item lists two coordinates; the second (11.06582, -16.13805), which falls on land within the region outline, is used." },
     { "id": "wikidata-q6206287", "title": "João Vieira and Poilão Marine National Park (Q6206287) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q6206287", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Item lists two nearly identical coordinates; the first is used." },
@@ -730,6 +2348,22 @@
     { "id": "bioguinea-cantanhez", "title": "Cantanhez National Park", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/cantanhez-national-park/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "Figures are attributed to BioGuinea because other records differ; its orientation statements conflict with the map and are not used." },
     { "id": "wikidata-q5033548", "title": "Cantanhez Forest National Park (Q5033548) — coordinate location and administrative region", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q5033548", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-19", "kind": "dataset", "note": "Item lists two nearby coordinates; the first is used. Located in (P131): Tombali Region." },
     { "id": "cafe-members", "title": "Members", "publisher": "Consortium of African Funds for the Environment (CAFÉ)", "url": "https://cafeconsortium.org/members/", "licence": "© CAFÉ — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "ramsar-annotated-bj", "title": "Annotated List of Wetlands of International Importance — Benin", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Benin.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "ramsar-annotated-cv", "title": "Annotated List of Wetlands of International Importance — Cabo Verde", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cabo-Verde.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "ramsar-annotated-ci", "title": "Annotated List of Wetlands of International Importance — Côte d'Ivoire", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cote-d-Ivoire.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "ramsar-annotated-gm", "title": "Annotated List of Wetlands of International Importance — The Gambia", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Gambia.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "wikidata-q922736", "title": "Niumi National Park (Q922736) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q922736", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-19", "kind": "dataset" },
+    { "id": "ramsar-annotated-gh", "title": "Annotated List of Wetlands of International Importance — Ghana", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Ghana.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "wikidata-q65040405", "title": "Muni-Pomadze Ramsar Site (Q65040405) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q65040405", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-19", "kind": "dataset" },
+    { "id": "ramsar-annotated-gn", "title": "Annotated List of Wetlands of International Importance — Guinea", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "ramsar-annotated-lr", "title": "Annotated List of Wetlands of International Importance — Liberia", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Liberia.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "ramsar-annotated-mr", "title": "Annotated List of Wetlands of International Importance — Mauritania", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Mauritania.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "ramsar-annotated-ng", "title": "Annotated List of Wetlands of International Importance — Nigeria", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Nigeria.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "ramsar-annotated-sn", "title": "Annotated List of Wetlands of International Importance — Senegal", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "ramsar-annotated-sl", "title": "Annotated List of Wetlands of International Importance — Sierra Leone", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Sierra-Leone.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "ramsar-annotated-tg", "title": "Annotated List of Wetlands of International Importance — Togo", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Togo.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Some site-header coordinates in this export are erroneous; affected records say which coordinates are used." },
+    { "id": "unesco-mab-mono", "title": "Mono Transboundary Biosphere Reserve", "publisher": "UNESCO Man and the Biosphere Programme", "url": "https://www.unesco.org/en/mab/mono", "licence": "© UNESCO — cited for reference (facts and short quotes)", "licenceUrl": "https://www.unesco.org/en/terms-use", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "wikidata-q256104", "title": "Western Area Peninsula National Park (Q256104) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q256104", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-19", "kind": "dataset" },
     { "id": "bioguinea-orango", "title": "The Orango National Park", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/the-orango-national-park/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "bioguinea-jvp", "title": "The João Vieira and Poilão National Marine Park", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/the-joao-vieira-and-poilao-national-marine-park/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "bioguinea-urok", "title": "Community Marine Protected Area of the Urok Islands", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/community-marine-protected-area-of-the-urok-islands/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },

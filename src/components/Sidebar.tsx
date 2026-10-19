@@ -21,34 +21,55 @@ interface SidebarProps {
   results: Territory[]
   selectedId: string | null
   onSelect: (id: string) => void
+  /** Catalogued areas per country code. */
+  countryCounts: Record<string, number>
+  /** Select a country (or null for the whole region). */
+  onSelectCountry: (code: string | null) => void
 }
 
 const groups: { key: FilterKey; title: string }[] = [
   { key: 'countries', title: 'Country' },
+  { key: 'designations', title: 'Designation' },
   { key: 'ecosystems', title: 'Ecosystem type' },
   { key: 'themes', title: 'Conservation theme' },
 ]
 
 const journey = [
-  'Choose a territory on the map or below',
+  'Choose a country, then a protected area or territory',
   'Open one of its conservation challenges',
   'Review potential regenerative activities',
   'Check the evidence and next steps',
 ]
 
-export function Sidebar({ catalogue, filters, onToggle, onClear, results, selectedId, onSelect }: SidebarProps) {
+export function Sidebar({
+  catalogue,
+  filters,
+  onToggle,
+  onClear,
+  results,
+  selectedId,
+  onSelect,
+  countryCounts,
+  onSelectCountry,
+}: SidebarProps) {
   const [filtersOpen, setFiltersOpen] = useState(false)
-  const active = filters.countries.length + filters.ecosystems.length + filters.themes.length
+  const active = Object.values(filters).reduce((n, values) => n + values.length, 0)
   const visible = new Set(results.map((t) => t.id))
-  // A country filter only means something once the catalogue spans several countries.
-  const visibleGroups = groups.filter((g) => g.key !== 'countries' || catalogue.countries.length > 1)
+  // Countries are chosen from the country list above, so the filter panel omits that group.
+  const visibleGroups = groups.filter((g) => g.key !== 'countries')
 
-  // Parents first, each followed by its children, keeping only filter matches.
-  const roots = catalogue.territories.filter((t) => !t.parentId || !catalogue.territories.some((p) => p.id === t.parentId))
-  const tree = roots.flatMap((root) => [
-    { territory: root, depth: 0 },
-    ...catalogue.territories.filter((t) => t.parentId === root.id).map((territory) => ({ territory, depth: 1 })),
-  ]).filter(({ territory }) => visible.has(territory.id))
+  // Grouped by country; within a country, parents first, each followed by its children.
+  const byCountry = catalogue.countries.flatMap((country) => {
+    const own = catalogue.territories.filter((t) => t.countryCode === country.code)
+    const roots = own.filter((t) => !t.parentId || !own.some((p) => p.id === t.parentId))
+    const rows = roots
+      .flatMap((root) => [
+        { territory: root, depth: 0 },
+        ...own.filter((t) => t.parentId === root.id).map((territory) => ({ territory, depth: 1 })),
+      ])
+      .filter(({ territory }) => visible.has(territory.id))
+    return rows.length > 0 ? [{ country, rows }] : []
+  })
 
   return (
     <aside className="flex w-72 shrink-0 flex-col border-r border-line bg-white 2xl:w-80">
@@ -72,7 +93,12 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
           </div>
         </div>
 
-        <CoverageIndicator catalogue={catalogue} />
+        <CountryList
+          catalogue={catalogue}
+          counts={countryCounts}
+          selected={filters.countries}
+          onSelect={onSelectCountry}
+        />
 
         <div className="border-b border-line px-5 py-3">
           <div className="flex items-center justify-between gap-2">
@@ -136,23 +162,34 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
               {results.length} of {catalogue.territories.length}
             </span>
           </h2>
-          {tree.length === 0 ? (
+          {byCountry.length === 0 ? (
             <p className="mx-2 rounded-lg bg-cream p-3 text-[13px] text-ink-muted">
               No territory matches all selected filters. Remove a filter to see results.
             </p>
           ) : (
-            <ul className="flex flex-col gap-0.5">
-              {tree.map(({ territory, depth }) => (
-                <li key={territory.id} className={depth ? 'ml-5' : ''}>
-                  <TerritoryListItem
-                    territory={territory}
-                    summary={territorySummary(catalogue, territory.id)}
-                    selected={territory.id === selectedId}
-                    onSelect={() => onSelect(territory.id)}
-                  />
-                </li>
+            <div className="flex flex-col gap-3">
+              {byCountry.map(({ country, rows }) => (
+                <section key={country.code}>
+                  {byCountry.length > 1 && (
+                    <h3 className="px-2 pb-1 text-[11.5px] font-semibold uppercase tracking-wide text-ink-muted">
+                      {country.name}
+                    </h3>
+                  )}
+                  <ul className="flex flex-col gap-0.5">
+                    {rows.map(({ territory, depth }) => (
+                      <li key={territory.id} className={depth ? 'ml-5' : ''}>
+                        <TerritoryListItem
+                          territory={territory}
+                          summary={territorySummary(catalogue, territory.id)}
+                          selected={territory.id === selectedId}
+                          onSelect={() => onSelect(territory.id)}
+                        />
+                      </li>
+                    ))}
+                  </ul>
+                </section>
               ))}
-            </ul>
+            </div>
           )}
         </div>
       </div>
@@ -160,31 +197,60 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
   )
 }
 
-/** Which countries the conservation records cover; the map itself can be explored worldwide. */
-function CoverageIndicator({ catalogue }: { catalogue: Catalogue }) {
+/** WASOP countries with their catalogued-area counts; choosing one filters and zooms to it. */
+function CountryList({
+  catalogue,
+  counts,
+  selected,
+  onSelect,
+}: {
+  catalogue: Catalogue
+  counts: Record<string, number>
+  selected: string[]
+  onSelect: (code: string | null) => void
+}) {
+  const total = catalogue.territories.length
+  const row = (isSelected: boolean) =>
+    [
+      'flex w-full items-center justify-between gap-2 rounded-md px-2 py-1 text-left text-[13px] transition-colors',
+      isSelected ? 'bg-gold-soft font-semibold text-ink ring-1 ring-gold' : 'text-ink hover:bg-cream',
+    ].join(' ')
   return (
-    <div className="flex items-start gap-2.5 border-b border-line px-5 py-3">
-      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden className="mt-0.5 shrink-0 text-forest">
-        <path d="M8 15s5-4.6 5-8.5A5 5 0 0 0 3 6.5C3 10.4 8 15 8 15Z" fill="none" stroke="currentColor" strokeWidth="1.6" />
-        <circle cx="8" cy="6.5" r="1.8" fill="currentColor" />
-      </svg>
-      <div className="min-w-0 text-[12.5px] leading-snug">
-        <p className="font-semibold text-ink">
-          Data coverage:{' '}
-          {catalogue.countries.map((c) => {
-            const n = catalogue.territories.filter((t) => t.countryCode === c.code).length
-            return (
-              <span key={c.code}>
-                {c.name} · {n} territor{n === 1 ? 'y' : 'ies'}
-              </span>
-            )
-          })}
-        </p>
-        <p className="mt-0.5 text-ink-muted">
-          The map can be explored worldwide; conservation records currently cover only the
-          {catalogue.countries.length === 1 ? ' country' : ' countries'} listed.
-        </p>
-      </div>
+    <div className="border-b border-line px-3 py-3">
+      <h2 className="flex items-baseline justify-between px-2 font-display text-[12px] font-semibold uppercase tracking-[0.12em] text-ink-muted">
+        WASOP countries
+        <span className="font-sans text-[12px] font-medium normal-case tracking-normal">{catalogue.countries.length}</span>
+      </h2>
+      <p className="mt-1 px-2 text-[11.5px] leading-snug text-ink-muted">
+        A researched selection of marine and coastal sites, not an exhaustive official inventory. The map
+        itself can be explored worldwide.
+      </p>
+      <ul className="mt-2 flex flex-col gap-0.5">
+        <li>
+          <button type="button" onClick={() => onSelect(null)} className={row(selected.length === 0)}>
+            All countries
+            <span className="text-[12px] text-ink-muted">{total}</span>
+          </button>
+        </li>
+        {catalogue.countries.map((c) => {
+          const n = counts[c.code] ?? 0
+          return (
+            <li key={c.code}>
+              <button
+                type="button"
+                aria-pressed={selected.includes(c.code)}
+                onClick={() => onSelect(c.code)}
+                className={row(selected.includes(c.code))}
+              >
+                {c.name}
+                <span className={`text-[12px] ${n === 0 ? 'italic text-clay' : 'text-ink-muted'}`}>
+                  {n === 0 ? 'no records yet' : n}
+                </span>
+              </button>
+            </li>
+          )
+        })}
+      </ul>
     </div>
   )
 }
@@ -307,8 +373,14 @@ function TerritoryListItem({
       <span className="min-w-0 flex-1" title={territoryKindLabel[territory.kind]}>
         <span className="block text-[14px] font-semibold leading-snug text-ink">{territory.name}</span>
         <span className="mt-0.5 block text-[12px] text-ink-muted">
-          {summary.challenges} challenge{summary.challenges === 1 ? '' : 's'}
-          {summary.opportunities > 0 && ` · ${summary.opportunities} activit${summary.opportunities === 1 ? 'y' : 'ies'}`}
+          {summary.challenges === 0 && summary.opportunities === 0 ? (
+            territoryKindLabel[territory.kind]
+          ) : (
+            <>
+              {summary.challenges} challenge{summary.challenges === 1 ? '' : 's'}
+              {summary.opportunities > 0 && ` · ${summary.opportunities} activit${summary.opportunities === 1 ? 'y' : 'ies'}`}
+            </>
+          )}
         </span>
       </span>
     </button>

@@ -24,6 +24,7 @@ const territory = (id: string, ecosystemIds: string[], parentId?: string): Terri
   geometry: { representation: 'point', sourceId: 's1', caveat: '' },
   overview: [],
   livelihoods: [],
+  designations: [],
   ecosystems: ecosystemIds.map((ecosystemId) => ({
     ecosystemId,
     text: '',
@@ -36,6 +37,7 @@ const territory = (id: string, ecosystemIds: string[], parentId?: string): Terri
 const fixture: Catalogue = {
   meta: { version: 'test', updated: '2026-10-18', description: '' },
   countries: [{ code: 'GNB', name: 'Guinea-Bissau' }],
+  designationTypes: [],
   territories: [territory('a', ['mangrove']), territory('b', ['mangrove', 'mudflat'], 'a'), territory('c', ['marine'])],
   ecosystems: [
     { id: 'mangrove', name: 'Mangrove', definition: '' },

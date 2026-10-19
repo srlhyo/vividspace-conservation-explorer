@@ -74,6 +74,17 @@ export function TerritoryOverview({
             </div>
           )}
         </div>
+        {profile.designations.length > 0 && (
+          <div className="flex flex-wrap items-center gap-1.5 text-[12px]">
+            <span className="text-ink-muted">Designations</span>
+            {profile.designations.map((d) => (
+              <span key={d.id} title={d.description} className="rounded-full bg-sky-50 px-2 py-0.5 font-medium text-sky-900 ring-1 ring-sky-200">
+                {d.name}
+                <Citations sourceIds={d.sourceIds} citations={citations} />
+              </span>
+            ))}
+          </div>
+        )}
         {(profile.parent || profile.children.length > 0) && (
           <div className="flex flex-wrap items-center gap-1.5 text-[12px]">
             {profile.parent && (

@@ -5,6 +5,7 @@ import type { Catalogue, Statement } from './types'
  * Returns human-readable problems; an empty array means the catalogue is consistent.
  * Rules:
  * - every referenced id exists;
+ * - every designation cites a source;
  * - verified and interpretation statements cite at least one source;
  * - every opportunity lists what must be validated;
  * - an opportunity only responds to challenges documented in one of its territories;
@@ -18,6 +19,7 @@ export function validateCatalogue(catalogue: Catalogue): string[] {
     territory: new Set(catalogue.territories.map((t) => t.id)),
     ecosystem: new Set(catalogue.ecosystems.map((e) => e.id)),
     theme: new Set(catalogue.themes.map((t) => t.id)),
+    designation: new Set(catalogue.designationTypes.map((d) => d.id)),
     challenge: new Set(catalogue.challenges.map((c) => c.id)),
     source: new Set(catalogue.sources.map((s) => s.id)),
   }
@@ -61,6 +63,11 @@ export function validateCatalogue(catalogue: Catalogue): string[] {
     t.ecosystems.forEach((e) => {
       ref('ecosystem', e.ecosystemId, where)
       statement(e, where)
+    })
+    t.designations.forEach((d) => {
+      ref('designation', d.designationId, where)
+      d.sourceIds.forEach((id) => ref('source', id, where))
+      if (d.sourceIds.length === 0) problems.push(`${where}: designation "${d.designationId}" has no source`)
     })
   }
 

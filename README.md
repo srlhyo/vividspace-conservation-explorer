@@ -1,6 +1,6 @@
 # Vivid Space · Conservation Opportunity Explorer
 
-A standalone geospatial dashboard prototype for discussion between Vivid Space and BlueSeeds. It covers conservation territories in **Guinea-Bissau** (the Bijagós Archipelago, the Cacheu region and Cantanhez National Park) and guides the viewer through:
+A standalone geospatial dashboard prototype for discussion between Vivid Space and BlueSeeds. It covers marine and coastal conservation areas across the **13 West Africa Sustainable Ocean Programme (WASOP) countries**, with detailed research for Guinea-Bissau (the Bijagós Archipelago, the Cacheu region and Cantanhez National Park), and guides the viewer through:
 
 **Territory → Conservation challenge → Potential regenerative activity → Supporting evidence → Next steps**
 
@@ -60,7 +60,8 @@ Use **Explore world** to zoom out to a global view, and switch between the **2D 
 ## Data
 
 - `public/data/catalogue.json` holds territories, ecosystems, themes, challenges, potential activities, organisations and sources. The rules every entry must follow are enforced by `src/domain/validate.ts` and `src/data/dataset.test.ts`.
-- `public/data/geo/` holds the Guinea-Bissau country and region boundaries from geoBoundaries gbOpen (derived from OpenStreetMap, ODbL 1.0). These are **administrative** boundaries. Protected areas are shown as location points only, because official protected-area boundaries (WDPA) are not used.
+- `public/data/geo/` holds the 13 WASOP country outlines (Natural Earth 1:50m, public domain) and the Guinea-Bissau region boundaries (geoBoundaries gbOpen, derived from OpenStreetMap, ODbL 1.0). Protected areas are shown as reference points only, because official protected-area boundaries (WDPA) are not used.
+- Outside Guinea-Bissau the catalogue is a researched selection, mainly coastal and marine Ramsar sites from the official Ramsar annotated lists. It is **not an exhaustive official inventory**, and those sites have no researched challenges or potential activities. See [`docs/coverage-report.md`](docs/coverage-report.md) (regenerate with `npm run data:coverage`).
 
 Filters (ecosystem type, conservation theme) use the attributes documented for each territory in the cited sources. They are not maps of where ecosystems or conditions occur. Matching territories stay green on the map and non-matching ones turn grey. The sidebar and the map both show how many territories match, with a one-click way to clear the filters.
 
