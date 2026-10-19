@@ -1,9 +1,14 @@
-import { organisationsInEvidence, sourcesCitedBy, type TerritoryProfile } from '../../domain/catalogue'
+import {
+  organisationLinksFor,
+  sourcesCitedBy,
+  type ResolvedOrganisationLink,
+  type TerritoryProfile,
+} from '../../domain/catalogue'
 import type { ConservationChallenge, RegenerativeOpportunity, Territory } from '../../domain/types'
 import { EvidenceBadge } from '../EvidenceBadge'
-import { evidenceMeta } from '../labels'
+import { evidenceMeta, organisationTypeLabel } from '../labels'
 import { Citations } from '../StatementList'
-import { BackLink, LinkChip, OrganisationList, Section, SourceList, ThemeTags } from './parts'
+import { BackLink, LinkChip, Section, SourceList, ThemeTags } from './parts'
 
 interface Props {
   profile: TerritoryProfile
@@ -28,7 +33,9 @@ export function OpportunityView({
   onSelectTerritory,
 }: Props) {
   const respondsTo = profile.challenges.filter((c) => opportunity.challengeIds.includes(c.id))
-  const organisations = organisationsInEvidence(profile, opportunity)
+  const links = organisationLinksFor(profile, opportunity)
+  const initiatives = links.filter((l) => l.relationship === 'related-initiative')
+  const stakeholders = links.filter((l) => l.relationship === 'potential-stakeholder')
 
   return (
     <div className="flex flex-col gap-7">
@@ -95,16 +102,27 @@ export function OpportunityView({
         </ul>
       </Section>
 
-      {organisations.length > 0 && (
-        <Section
-          title="Organisations in the cited evidence"
-          hint="Listed because their documented work shares sources with this rationale. No partnership or endorsement is implied."
-        >
-          <OrganisationList organisations={organisations} citations={citations} />
-        </Section>
-      )}
+      <Section
+        title="Organisations"
+        hint="Only relationships stated by a cited source are shown. Work on a related initiative does not mean involvement in, or endorsement of, this proposed activity."
+      >
+        {links.length === 0 ? (
+          <p className="text-[13px] italic text-ink-muted">
+            No organisation is documented as working on this activity or a related initiative.
+          </p>
+        ) : (
+          <div className="flex flex-col gap-4">
+            {initiatives.length > 0 && (
+              <LinkGroup title="Documented work on related initiatives" links={initiatives} citations={citations} />
+            )}
+            {stakeholders.length > 0 && (
+              <LinkGroup title="Potential stakeholders to consult — not yet validated" links={stakeholders} citations={citations} />
+            )}
+          </div>
+        )}
+      </Section>
 
-      <Section title="Supporting sources">
+      <Section title="Supporting sources" hint="Publishers are listed as sources of information only.">
         <SourceList sources={sourcesCitedBy(profile, opportunity.rationale)} citations={citations} />
       </Section>
 
@@ -119,6 +137,45 @@ export function OpportunityView({
           </div>
         </Section>
       )}
+    </div>
+  )
+}
+
+function LinkGroup({
+  title,
+  links,
+  citations,
+}: {
+  title: string
+  links: ResolvedOrganisationLink[]
+  citations: Map<string, number>
+}) {
+  return (
+    <div>
+      <p className="text-[12.5px] font-semibold text-ink">{title}</p>
+      <ul className="mt-2 flex flex-col gap-3">
+        {links.map(({ organisation: o, statement }) => (
+          <li key={o.id} className="border-l-2 border-line pl-3">
+            <span className="flex flex-wrap items-baseline gap-x-2">
+              {o.url ? (
+                <a href={o.url} target="_blank" rel="noreferrer" className="text-[14px] font-semibold text-forest hover:underline">
+                  {o.name}
+                </a>
+              ) : (
+                <span className="text-[14px] font-semibold text-ink">{o.name}</span>
+              )}
+              <span className="text-[11px] uppercase tracking-wide text-ink-muted">{organisationTypeLabel[o.type]}</span>
+            </span>
+            <div className="mt-1">
+              <EvidenceBadge level={statement.evidence} />
+            </div>
+            <p className="mt-1 text-[13px] leading-relaxed text-ink">
+              {statement.text}
+              <Citations sourceIds={statement.sourceIds} citations={citations} />
+            </p>
+          </li>
+        ))}
+      </ul>
     </div>
   )
 }

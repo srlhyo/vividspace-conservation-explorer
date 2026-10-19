@@ -111,6 +111,21 @@ export interface ConservationChallenge {
   statements: Statement[]
 }
 
+/**
+ * How an organisation relates to a potential activity. Only relationships stated by a source
+ * are recorded; sharing a citation is never enough.
+ * - related-initiative: documented work on this or a closely related initiative (verified).
+ * - potential-stakeholder: a documented responsibility suggests they would need to be
+ *   consulted (interpretation or hypothesis, to be validated).
+ */
+export type OrganisationRelationship = 'related-initiative' | 'potential-stakeholder'
+
+export interface OrganisationLink {
+  organisationId: string
+  relationship: OrganisationRelationship
+  statement: Statement
+}
+
 export interface RegenerativeOpportunity {
   id: string
   title: string
@@ -124,6 +139,8 @@ export interface RegenerativeOpportunity {
   rationale: Statement[]
   /** What must be validated before this could be treated as a viable activity. */
   validationNeeded: string[]
+  /** Evidence-backed organisation relationships for this activity (may be empty). */
+  organisationLinks: OrganisationLink[]
 }
 
 export type OrganisationType =
@@ -134,6 +151,7 @@ export type OrganisationType =
   | 'international-organisation'
   | 'regional-partnership'
   | 'research-institution'
+  | 'international-programme'
 
 export interface Organisation {
   id: string

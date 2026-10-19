@@ -58,4 +58,5 @@ export const organisationTypeLabel: Record<OrganisationType, string> = {
   'international-organisation': 'International organisation',
   'regional-partnership': 'Regional partnership',
   'research-institution': 'Research institution',
+  'international-programme': 'International programme',
 }

@@ -5,7 +5,7 @@ import {
   filterTerritories,
   getTerritoryProfile,
   opportunitiesForChallenge,
-  organisationsInEvidence,
+  organisationLinksFor,
   sourcesCitedBy,
   territorySummary,
   toggleFilter,
@@ -63,6 +63,7 @@ const fixture: Catalogue = {
         { text: 'y', evidence: 'hypothesis', sourceIds: [] },
       ],
       validationNeeded: ['demand'],
+      organisationLinks: [],
     },
   ],
   organisations: [
@@ -142,11 +143,35 @@ describe('challenge → opportunity exploration', () => {
     expect(unlinkedOpportunities(b).map((o) => o.id)).toEqual(['op1'])
   })
 
-  it('finds organisations through shared evidence and lists cited sources', () => {
+  it('lists the sources cited by a rationale', () => {
     const a = getTerritoryProfile(fixture, 'a')!
-    const op = a.opportunities[0]
-    expect(organisationsInEvidence(a, op).map((o) => o.id)).toEqual(['org'])
-    expect(sourcesCitedBy(a, op.rationale).map((s) => s.id)).toEqual(['s2'])
+    expect(sourcesCitedBy(a, a.opportunities[0].rationale).map((s) => s.id)).toEqual(['s2'])
+  })
+
+  it('never associates an organisation with an activity just because they share a source', () => {
+    // The fixture's rationale and the organisation's role both cite s2, but there is no link.
+    const a = getTerritoryProfile(fixture, 'a')!
+    expect(a.organisations[0].role.sourceIds).toContain('s2')
+    expect(organisationLinksFor(a, a.opportunities[0])).toEqual([])
+  })
+
+  it('returns only explicit organisation links, with their relationship', () => {
+    const statement = { text: 'ran a pilot', evidence: 'verified' as const, sourceIds: ['s1'] }
+    const linked: Catalogue = {
+      ...fixture,
+      opportunities: [
+        {
+          ...fixture.opportunities[0],
+          organisationLinks: [{ organisationId: 'org', relationship: 'related-initiative', statement }],
+        },
+      ],
+    }
+    // b has no organisation of its own; the linked organisation is still resolved for the activity.
+    const b = getTerritoryProfile(linked, 'b')!
+    expect(b.organisations).toEqual([])
+    expect(organisationLinksFor(b, b.opportunities[0])).toMatchObject([
+      { organisation: { id: 'org' }, relationship: 'related-initiative', statement },
+    ])
   })
 
   it('summarises counts per territory', () => {
@@ -168,6 +193,24 @@ describe('validateCatalogue', () => {
     const problems = validateCatalogue(broken)
     expect(problems.some((p) => p.includes('unknown territory "ghost"'))).toBe(true)
     expect(problems.some((p) => p.includes('has no source'))).toBe(true)
+  })
+
+  it('flags unsupported organisation links', () => {
+    const withLinks = (links: Catalogue['opportunities'][number]['organisationLinks']): Catalogue => ({
+      ...fixture,
+      opportunities: [{ ...fixture.opportunities[0], organisationLinks: links }],
+    })
+    const hypothesis = { text: 'might help', evidence: 'hypothesis' as const, sourceIds: [] }
+    const verified = { text: 'manages it', evidence: 'verified' as const, sourceIds: ['s1'] }
+    expect(validateCatalogue(withLinks([{ organisationId: 'org', relationship: 'related-initiative', statement: hypothesis }]))).toEqual([
+      'opportunity op1 → organisation org: related-initiative links must be verified facts',
+    ])
+    expect(validateCatalogue(withLinks([{ organisationId: 'org', relationship: 'potential-stakeholder', statement: verified }]))).toEqual([
+      'opportunity op1 → organisation org: potential stakeholders are interpretations or hypotheses, not verified facts',
+    ])
+    expect(validateCatalogue(withLinks([{ organisationId: 'ghost', relationship: 'related-initiative', statement: verified }]))).toEqual([
+      'opportunity op1 → organisation ghost: unknown organisation',
+    ])
   })
 
   it('flags opportunities linked to a challenge from another territory', () => {

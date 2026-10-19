@@ -7,7 +7,9 @@ import type { Catalogue, Statement } from './types'
  * - every referenced id exists;
  * - verified and interpretation statements cite at least one source;
  * - every opportunity lists what must be validated;
- * - an opportunity only responds to challenges documented in one of its territories.
+ * - an opportunity only responds to challenges documented in one of its territories;
+ * - organisation links on an opportunity are explicit and sourced: documented initiative work
+ *   must be verified, potential stakeholders must not be presented as verified.
  */
 export function validateCatalogue(catalogue: Catalogue): string[] {
   const problems: string[] = []
@@ -82,6 +84,24 @@ export function validateCatalogue(catalogue: Catalogue): string[] {
     })
     o.rationale.forEach((s) => statement(s, where))
     if (o.validationNeeded.length === 0) problems.push(`${where}: no validationNeeded items`)
+    const linked = new Set<string>()
+    for (const link of o.organisationLinks) {
+      const org = catalogue.organisations.find((x) => x.id === link.organisationId)
+      const at = `${where} → organisation ${link.organisationId}`
+      if (!org) problems.push(`${at}: unknown organisation`)
+      else if (!org.territoryIds.some((t) => o.territoryIds.includes(t))) {
+        problems.push(`${at}: organisation shares no territory with the opportunity`)
+      }
+      if (linked.has(link.organisationId)) problems.push(`${at}: linked twice`)
+      linked.add(link.organisationId)
+      statement(link.statement, at)
+      if (link.relationship === 'related-initiative' && link.statement.evidence !== 'verified') {
+        problems.push(`${at}: related-initiative links must be verified facts`)
+      }
+      if (link.relationship === 'potential-stakeholder' && link.statement.evidence === 'verified') {
+        problems.push(`${at}: potential stakeholders are interpretations or hypotheses, not verified facts`)
+      }
+    }
     if ((o.evidence as string) === 'verified') problems.push(`${where}: opportunities cannot be verified`)
   }
 

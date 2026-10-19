@@ -70,6 +70,14 @@ describe('public catalogue', () => {
     }
   })
 
+  it('links organisations to activities only explicitly (regression: shared citations)', () => {
+    // Rainforest Trust and PRCM are cited for the tourism rationale but have no documented role in it.
+    const tourism = catalogue.opportunities.find((o) => o.id === 'bijagos-community-tourism')!
+    const linked = tourism.organisationLinks.map((l) => l.organisationId)
+    expect(linked).not.toContain('rainforest-trust')
+    expect(linked).not.toContain('prcm')
+  })
+
   it('never presents an opportunity as verified', () => {
     for (const o of catalogue.opportunities) expect(o.evidence).not.toBe('verified')
   })

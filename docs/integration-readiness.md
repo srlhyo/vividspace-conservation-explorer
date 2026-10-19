@@ -36,13 +36,13 @@ Dependency direction: `components` and `map` → `domain` ← `data`. The domain
 | `ConservationTheme` | Controlled vocabulary used for filtering. A territory's themes are *derived* from its challenges and opportunities. |
 | `ConservationChallenge` | A documented pressure, linked to territories and themes, described by sourced statements. |
 | `RegenerativeOpportunity` | A *potential* activity linked to challenges, with an evidence level that is never `verified`, a rationale chain and an explicit `validationNeeded` list. |
-| `Organisation` | A stakeholder with type, URL and a sourced role statement. |
+| `Organisation` | An organisation with type, URL and a sourced role statement, linked to territories where that role is documented. Activities reference organisations through explicit, sourced `organisationLinks`. |
 | `Source` | Provenance: title, publisher, URL, licence/terms, access date. |
 | `Statement` | The unit of displayed information: `text` + `evidence` (`verified` / `interpretation` / `hypothesis`) + `sourceIds`. |
 
 The challenge → activity workflow is derived from existing links rather than new data:
 - `opportunitiesForChallenge` and `unlinkedOpportunities` use `RegenerativeOpportunity.challengeIds`.
-- `organisationsInEvidence` lists organisations whose sourced role shares a source with an activity's rationale. This is shared evidence, not a partnership.
+- Organisations are linked to an activity only through explicit `RegenerativeOpportunity.organisationLinks`. Each link is a sourced statement marked `related-initiative` (documented work, verified) or `potential-stakeholder` (an interpretation, to be validated). Sharing a citation never creates a link. An organisation that only appears as a source publisher is shown in the source list, not as a stakeholder.
 
 `validateCatalogue()` enforces the provenance rules: verified and interpretation statements must cite a source, every reference must resolve, opportunities need validation items, and an opportunity may only respond to challenges documented in one of its territories. A test runs it against the published dataset.
 

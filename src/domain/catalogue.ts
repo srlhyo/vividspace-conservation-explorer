@@ -4,6 +4,7 @@ import type {
   Ecosystem,
   ConservationTheme,
   Organisation,
+  OrganisationLink,
   RegenerativeOpportunity,
   Source,
   Statement,
@@ -122,6 +123,8 @@ export interface TerritoryProfile {
   challenges: ConservationChallenge[]
   opportunities: RegenerativeOpportunity[]
   organisations: Organisation[]
+  /** Organisations referenced by the profile's opportunities (may lie outside the territory). */
+  linkedOrganisations: Organisation[]
   /** Every source cited anywhere in the profile, in first-cited order. */
   sources: Source[]
 }
@@ -153,6 +156,7 @@ export function getTerritoryProfile(
     ...territory.ecosystems,
     ...challenges.flatMap((c) => c.statements),
     ...opportunities.flatMap((o) => o.rationale),
+    ...opportunities.flatMap((o) => o.organisationLinks.map((l) => l.statement)),
     ...organisations.map((o) => o.role),
   ]
   const sourceIds = [
@@ -178,6 +182,9 @@ export function getTerritoryProfile(
     challenges,
     opportunities,
     organisations,
+    linkedOrganisations: catalogue.organisations.filter((org) =>
+      opportunities.some((o) => o.organisationLinks.some((l) => l.organisationId === org.id)),
+    ),
     sources,
   }
 }
@@ -209,16 +216,23 @@ export function sourcesCitedBy(profile: TerritoryProfile, statements: Statement[
   return profile.sources.filter((s) => ids.has(s.id))
 }
 
+export interface ResolvedOrganisationLink extends OrganisationLink {
+  organisation: Organisation
+}
+
 /**
- * Organisations of the territory whose documented role cites a source that the opportunity's
- * rationale also cites. This is shared evidence only — it implies no partnership or endorsement.
+ * The organisations explicitly linked to an opportunity in the data. Organisations are never
+ * inferred from shared citations: a source that mentions an organisation is not evidence that
+ * the organisation is involved in the proposed activity.
  */
-export function organisationsInEvidence(
+export function organisationLinksFor(
   profile: TerritoryProfile,
   opportunity: RegenerativeOpportunity,
-): Organisation[] {
-  const ids = new Set(opportunity.rationale.flatMap((s) => s.sourceIds))
-  return profile.organisations.filter((o) => o.role.sourceIds.some((id) => ids.has(id)))
+): ResolvedOrganisationLink[] {
+  return opportunity.organisationLinks.flatMap((link) => {
+    const organisation = profile.linkedOrganisations.find((o) => o.id === link.organisationId)
+    return organisation ? [{ ...link, organisation }] : []
+  })
 }
 
 export interface TerritorySummary {

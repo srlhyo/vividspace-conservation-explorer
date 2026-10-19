@@ -406,6 +406,11 @@
         "Local and regional market prices and buyers",
         "Access and tenure arrangements for salt flats",
         "Compatibility with park zoning and IBAP management rules"
+      ],
+      "organisationLinks": [
+        { "organisationId": "wetlands-international", "relationship": "related-initiative", "statement": {"text": "Introduced solar salt production on Dapack island as part of its 2015–2018 Cacheu mangrove project.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"]} },
+        { "organisationId": "tri", "relationship": "related-initiative", "statement": {"text": "Its Guinea-Bissau project trained women on Elia Island in solar salt production.", "evidence": "verified", "sourceIds": ["iucn-tri-newsletter-2023"]} },
+        { "organisationId": "ibap", "relationship": "potential-stakeholder", "statement": {"text": "Manages the Cacheu park, so compatibility with park zoning and management rules would need to be confirmed with IBAP.", "evidence": "interpretation", "sourceIds": ["ibap-pntc"]} }
       ]
     },
     {
@@ -426,6 +431,9 @@
         "Sustainability of the fish supply (avoid increasing fishing pressure)",
         "Hygiene and quality requirements for target markets",
         "Up-front equipment financing and ownership model"
+      ],
+      "organisationLinks": [
+        { "organisationId": "wetlands-international", "relationship": "related-initiative", "statement": {"text": "Installed a fuel-efficient fish-smoking oven in the village of Plindan (Cacheu), alongside a new women's association.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"]} }
       ]
     },
     {
@@ -445,6 +453,9 @@
         "Water quality and food-safety requirements",
         "Carrying capacity of the estuary",
         "Market access, transport and storage for a perishable product"
+      ],
+      "organisationLinks": [
+        { "organisationId": "tri", "relationship": "related-initiative", "statement": {"text": "Its Guinea-Bissau project trained women on Elia Island in oyster farming; by 2023 they had been cultivating oysters for two years.", "evidence": "verified", "sourceIds": ["iucn-tri-newsletter-2023"]} }
       ]
     },
     {
@@ -464,6 +475,9 @@
         "Whether hives measurably reduce cutting",
         "Quality, labelling and buyer demand",
         "Seasonality and equipment costs"
+      ],
+      "organisationLinks": [
+        { "organisationId": "wetlands-international", "relationship": "related-initiative", "statement": {"text": "Its mangrove project around the Cacheu and Cantanhez parks supports beekeeping.", "evidence": "verified", "sourceIds": ["mongabay-2024"]} }
       ]
     },
     {
@@ -485,6 +499,11 @@
         "Land and carbon rights, benefit-sharing and free, prior and informed consent",
         "Alignment with IBAP and national policy",
         "Monitoring costs relative to expected revenue"
+      ],
+      "organisationLinks": [
+        { "organisationId": "wetlands-international", "relationship": "related-initiative", "statement": {"text": "Restored abandoned rice fields in the Cacheu park (2015–2018) by reopening tidal flows, with IBAP and other partners.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"]} },
+        { "organisationId": "ibap", "relationship": "related-initiative", "statement": {"text": "Partner in the 2015–2018 Cacheu mangrove conservation and restoration initiative with Wetlands International.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"]} },
+        { "organisationId": "bioguinea", "relationship": "related-initiative", "statement": {"text": "Runs a community REDD+ project in the Cacheu and Cantanhez parks, which underwent a critical review phase in 2025.", "evidence": "verified", "sourceIds": ["fbg-annual-report-2025"]} }
       ]
     },
     {
@@ -505,6 +524,9 @@
         "Visitor carrying capacity and World Heritage management requirements",
         "Transport, access and seasonality",
         "Revenue-sharing arrangements"
+      ],
+      "organisationLinks": [
+        { "organisationId": "ibap", "relationship": "potential-stakeholder", "statement": {"text": "Coordinates management of the Bijagós World Heritage property, so any tourism activity would need to fit its management requirements.", "evidence": "interpretation", "sourceIds": ["whc-1431"]} }
       ]
     },
     {
@@ -524,6 +546,11 @@
         "Community rules and consent on commercialisation",
         "Food safety, processing and transport",
         "Market demand and price premium"
+      ],
+      "organisationLinks": [
+        { "organisationId": "tiniguena", "relationship": "related-initiative", "statement": {"text": "Supported the creation and participatory governance of the Urok Islands Community Marine Protected Area.", "evidence": "verified", "sourceIds": ["tiniguena-urok", "bioguinea-urok"]} },
+        { "organisationId": "ibap", "relationship": "related-initiative", "statement": {"text": "Supports the local communities that manage the Urok Islands Community Marine Protected Area.", "evidence": "verified", "sourceIds": ["bioguinea-urok"]} },
+        { "organisationId": "bioguinea", "relationship": "related-initiative", "statement": {"text": "Runs the Blue Bijagós project on sustainable marine resource management and livelihoods in the archipelago's marine protected areas.", "evidence": "verified", "sourceIds": ["bioguinea-blue-bijagos"]} }
       ]
     },
     {
@@ -543,7 +570,8 @@
         "Customary rights over palm groves",
         "Processing options, quality and markets",
         "Effect on land-use decisions in practice"
-      ]
+      ],
+      "organisationLinks": []
     }
   ],
   "organisations": [
@@ -562,8 +590,8 @@
       "acronym": "FBG",
       "type": "conservation-trust-fund",
       "url": "https://www.bioguinea.org/",
-      "territoryIds": ["bijagos-archipelago", "orango-national-park", "urok-community-mpa", "cacheu-region", "cacheu-mangroves-park"],
-      "role": { "text": "Conservation trust fund established in 2011 as a long-term financing mechanism for Guinea-Bissau's protected areas, with funding channelled through IBAP. It runs the Blue Bijagós project and a community REDD+ project in the Cacheu and Cantanhez parks.", "evidence": "verified", "sourceIds": ["gef-bioguinea-2011", "bioguinea-about", "bioguinea-blue-bijagos", "fbg-annual-report-2025"] }
+      "territoryIds": ["bijagos-archipelago", "orango-national-park", "cacheu-region", "cacheu-mangroves-park"],
+      "role": { "text": "Conservation trust fund established in 2011 as a long-term financing mechanism for Guinea-Bissau's protected areas, with funding channelled through IBAP. It supports Orango National Park, runs the Blue Bijagós project and runs a community REDD+ project in the Cacheu and Cantanhez parks.", "evidence": "verified", "sourceIds": ["gef-bioguinea-2011", "bioguinea-about", "bioguinea-bijagos", "bioguinea-blue-bijagos", "fbg-annual-report-2025"] }
     },
     {
       "id": "tiniguena",
@@ -587,8 +615,16 @@
       "acronym": "IUCN",
       "type": "international-organisation",
       "url": "https://iucn.org/",
-      "territoryIds": ["bijagos-archipelago", "cacheu-region", "cacheu-mangroves-park"],
-      "role": { "text": "Provided technical assistance to the coastal planning that led to the 1996 Bolama-Bijagós Biosphere Reserve. Through The Restoration Initiative, it trained women on Elia Island (Cacheu River) in oyster growing and solar salt production.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198", "iucn-tri-newsletter-2023"] }
+      "territoryIds": ["bijagos-archipelago"],
+      "role": { "text": "Provided technical assistance to the coastal planning that led to the 1996 Bolama-Bijagós Biosphere Reserve.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198"] }
+    },
+    {
+      "id": "tri",
+      "name": "The Restoration Initiative",
+      "acronym": "TRI",
+      "type": "international-programme",
+      "territoryIds": ["cacheu-region"],
+      "role": { "text": "Restoration programme uniting 10 countries and three Global Environment Facility agencies (IUCN, FAO and UNEP). Its Guinea-Bissau project works with women on Elia Island, near the mouth of the Cacheu River. The reviewed source does not say which agency leads the Guinea-Bissau project.", "evidence": "verified", "sourceIds": ["iucn-tri-newsletter-2023"] }
     },
     {
       "id": "prcm",
@@ -644,6 +680,7 @@
     { "id": "ibap-apresentacao", "title": "Apresentação — Instituto da Biodiversidade e das Áreas Protegidas", "publisher": "IBAP", "url": "https://ibapgbissau.org/apresentacao/", "licence": "© IBAP — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage", "note": "In Portuguese. At access time the IBAP website also displayed unrelated spam posts; the institutional pages cited appeared genuine." },
     { "id": "bioguinea-blue-bijagos", "title": "Blue Bijagós — sustainable management of marine resources and improvement of livelihoods in MPAs of the Bijagós Archipelago", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/blue-bijagos/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "bioguinea-about", "title": "About Bio Guinea", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/about-bio-guinea/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "bioguinea-bijagos", "title": "Bijagós Archipelago (FBG support to Orango National Park)", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/bijagos-archipelago/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
     { "id": "bioguinea-orango", "title": "The Orango National Park", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/the-orango-national-park/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "bioguinea-jvp", "title": "The João Vieira and Poilão National Marine Park", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/the-joao-vieira-and-poilao-national-marine-park/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "bioguinea-urok", "title": "Community Marine Protected Area of the Urok Islands", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/community-marine-protected-area-of-the-urok-islands/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
@@ -660,7 +697,7 @@
     { "id": "wi-cacheu-report", "title": "Conserving the biodiversity of the Cacheu Mangroves National Park — our achievements (2015–2018)", "publisher": "Wetlands International (hosted by Mangrove Action Project)", "url": "https://mangroveactionproject.org/wp-content/uploads/2021/06/WI-Guinea-Bissau-CBEMR-project-report-Cacheu-project-1.pdf", "licence": "© Wetlands International — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report" },
     { "id": "wi-tpntp", "title": "To Plant or Not To Plant (TPNTP) — case study", "publisher": "Wetlands International West Africa", "url": "https://westafrica.wetlands.org/en/case-study/to-plant-or-not-to-plant-tpntp", "licence": "© Wetlands International — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "mongabay-2024", "title": "How a holistic approach aims to heal mangroves in Guinea-Bissau (27 Nov 2024)", "publisher": "Mongabay", "url": "https://news.mongabay.com/2024/11/how-a-holistic-approach-aims-to-heal-mangroves-in-guinea-bissau/", "licence": "© Mongabay — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "article" },
-    { "id": "iucn-tri-newsletter-2023", "title": "The Restoration Initiative newsletter, issue 03 (January–July 2023)", "publisher": "IUCN / The Restoration Initiative", "url": "https://iucn.org/sites/default/files/2023-08/tri-newsletter-july-2023-compressed_1.pdf", "licence": "© IUCN — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report" },
+    { "id": "iucn-tri-newsletter-2023", "title": "The Restoration Initiative newsletter, issue 03 (January–July 2023)", "publisher": "The Restoration Initiative (hosted on iucn.org)", "url": "https://iucn.org/sites/default/files/2023-08/tri-newsletter-july-2023-compressed_1.pdf", "licence": "© The Restoration Initiative — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report" },
     { "id": "climate-chance-deduram", "title": "Sustainable development of mangrove agriculture — DEDURAM", "publisher": "Climate Chance", "url": "https://www.climate-chance.org/en/best-pratices/sustainable-development-of-mangrove-agriculture-deduram/", "licence": "© Climate Chance — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "zenodo-gmw-v4", "title": "Global Mangrove Watch: timeseries of mangrove extent, version 4.1.12", "publisher": "Bunting, Hilarides, Rosenqvist et al. (Zenodo)", "url": "https://zenodo.org/records/21346457", "licence": "CC BY 4.0", "licenceUrl": "https://creativecommons.org/licenses/by/4.0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Cited only as an available monitoring dataset; not displayed on the map in Milestone 1." }
   ]

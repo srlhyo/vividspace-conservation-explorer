@@ -50,7 +50,7 @@ Notes:
 
 1. Select **Cacheu River Mangroves Natural Park** on the map or in the list.
 2. Open the challenge **Fuelwood demand on mangroves**.
-3. Open **Women-led solar salt production**. Read the evidence chain from verified facts to the proposal, then the questions to validate, the organisations in the cited evidence, and the sources.
+3. Open **Women-led solar salt production**. Read the evidence chain from verified facts to the proposal, then the questions to validate, the organisations with documented work on related initiatives (and the potential stakeholder to consult), and the sources.
 4. Use the breadcrumb to go back. Try **Orango Islands National Park → Community-owned, low-impact tourism → Also considered for: Bijagós Archipelago**.
 
 The URL updates as you go, so a prepared view can be bookmarked or reopened after a reload.

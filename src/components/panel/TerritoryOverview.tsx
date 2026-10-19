@@ -193,7 +193,11 @@ export function TerritoryOverview({
             <StatementList statements={territory.livelihoods} citations={citations} />
           )}
         </Disclosure>
-        <Disclosure title="Organisations & stakeholders" count={profile.organisations.length}>
+        <Disclosure title="Organisations documented here" count={profile.organisations.length}>
+          <p className="mb-3 text-[12.5px] leading-snug text-ink-muted">
+            Each role is as stated by the cited source. Listing does not imply any relationship with
+            Vivid Space or BlueSeeds.
+          </p>
           <OrganisationList organisations={profile.organisations} citations={citations} />
         </Disclosure>
         <Disclosure title="All sources for this territory" count={profile.sources.length} defaultOpen>
