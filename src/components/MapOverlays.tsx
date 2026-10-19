@@ -1,4 +1,5 @@
 import { palette } from '../map/palette'
+import { kindBreakdownHint } from './labels'
 /** Compact single-row legend; explains what boundaries and points do and do not represent. */
 export function MapLegend({ filtersActive = false }: { filtersActive?: boolean }) {
   return (
@@ -86,7 +87,11 @@ export function CountryCard({
         <span className="ml-1.5 font-semibold">
           · {count === 0 ? 'no catalogued areas yet' : `${count} catalogued area${count === 1 ? '' : 's'}`}
         </span>
-        {breakdown && <span className="mt-0.5 block text-ink-muted">{breakdown}</span>}
+        {breakdown && (
+          <span className="mt-0.5 block text-ink-muted" title={kindBreakdownHint}>
+            {breakdown}
+          </span>
+        )}
         <span className="mt-0.5 block text-[11px] text-ink-muted">Researched selection, not a complete inventory.</span>
       </p>
       <button type="button" onClick={onClose} className="shrink-0 rounded-full bg-white px-2.5 py-1 text-[11.5px] font-medium text-forest ring-1 ring-line hover:bg-cream">

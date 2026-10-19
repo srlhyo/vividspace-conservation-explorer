@@ -52,8 +52,9 @@ export function AboutDialog({
             existing joint product or an agreed partnership. No figure, boundary or species record
             is shown unless a cited source supports it. Outside Guinea-Bissau, the catalogue is a
             researched selection of marine and coastal sites across the 13 WASOP countries, mostly
-            Ramsar sites. It is not an exhaustive official inventory, and those sites have no
-            researched challenges or potential activities yet.
+            Ramsar sites. It is not an exhaustive official inventory. In each of those 12 countries one
+            area has researched challenges, potential activities and organisations; the other sites
+            are location and designation records only.
           </p>
 
           <h3 className="mt-6 mb-3 font-display text-[13px] font-semibold uppercase tracking-wider text-ink-muted">

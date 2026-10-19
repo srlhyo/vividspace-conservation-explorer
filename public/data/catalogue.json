@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "0.3.0",
+    "version": "0.4.0",
     "updated": "2026-10-19",
-    "description": "Demonstration dataset for the 13 West Africa Sustainable Ocean Programme (WASOP) countries. It combines detailed Guinea-Bissau research (Bijagós Archipelago, Cacheu region, Cantanhez) with a researched selection of marine and coastal protected areas, mainly Ramsar sites, across the region. It is not an exhaustive official inventory. Every factual statement cites a publicly accessible source that was checked on the access date shown. Potential regenerative activities are presented as interpretations or hypotheses, never as validated businesses."
+    "description": "Demonstration dataset for the 13 West Africa Sustainable Ocean Programme (WASOP) countries. It combines detailed Guinea-Bissau research (Bijagós Archipelago, Cacheu region, Cantanhez) with a researched selection of marine and coastal protected areas, mainly Ramsar sites, across the region. In each of the other 12 countries, one area has researched challenges, potential activities and organisations; the remaining areas are location and designation records only. It is not an exhaustive official inventory. Every factual statement cites a publicly accessible source that was checked on the access date shown. Potential regenerative activities are presented as interpretations or hypotheses, never as validated businesses."
   },
   "countries": [
     { "code": "BEN", "name": "Benin" },
@@ -477,7 +477,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation, area and location from Ramsar's annotated list; challenges and initiatives from the 2013 Ramsar information sheet, Rufford grant records (2012–2014) and a 2021 CEPF document. Gap: no Salinas-specific source after 2014 was found, so current activity of the salt cooperative is unknown."
       }
     },
     {
@@ -574,7 +574,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation, area and location from Ramsar's annotated list; challenges from the 2018 Ramsar sheet, UNESCO and state news reports. Gaps: no results found for the 2020 mangrove restoration agreement; no documented fish-processing or oyster initiatives in the Aby lagoon; no current official park-authority website found. Potential activities are interpretations or hypotheses, not validated businesses."
       }
     },
     {
@@ -776,7 +776,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation, area and location from Ramsar's annotated list; challenges from the 2006 Ramsar sheet and the 2012 shellfish co-management plan. Gaps: whether the 2012 plan is still in force, and any threat assessment after 2016, were not verified. Potential activities are interpretations or hypotheses, not validated businesses."
       }
     },
     {
@@ -975,7 +975,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation, area and location from Ramsar's annotated list; challenges and initiatives mainly from the 2023–2032 site management plan and A Rocha Ghana's project report. Gaps: restoration figures are self-reported; no documented improved fish-smoking or oyster initiative specific to Keta. Potential activities are interpretations or hypotheses, not validated businesses."
       }
     },
     {
@@ -1079,7 +1079,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation, area and location from Ramsar's annotated list; challenges and initiatives from the EU-funded PROMAK project (2025–2028) and Guinée Écologie's 2025 report. Gaps: the 1990 Ramsar sheet is illegible; some figures combine Konkouré with another estuary; whether project localities lie inside the Ramsar site is unverified; no independent evaluation. Potential activities are interpretations or hypotheses, not validated businesses."
       }
     },
     {
@@ -1276,7 +1276,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. Ramsar's site-header coordinates (02°22'45\"N 10°33'12\"E) are erroneous; the coordinates given in the site description (06°45'N 011°13'W) are used. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation and area from Ramsar's annotated list (location from its description); challenges from the 2007 Ramsar sheet and project records. Gaps: the Ramsar sheet predates the reserve's gazettement; current project results are unpublished; no mangrove replanting has been documented here yet. Potential activities are interpretations or hypotheses, not validated businesses."
       }
     },
     {
@@ -1376,7 +1376,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation, area and location from Ramsar's annotated list; challenges and initiatives from UNESCO, the park authority and the BACoMaB trust fund. Gaps: the Ramsar sheet could not be retrieved; no mangrove-restoration or detailed ecotourism initiative found. Potential activities are interpretations or hypotheses, not validated businesses."
       }
     },
     {
@@ -1543,7 +1543,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation, area and location from Ramsar's annotated list; challenges from UNEP (2011) and HYPREP. Gaps: restoration results are reported by HYPREP itself; whether restoration sites lie within the Ramsar boundary is unverified; UNEP's assessment dates from 2011."
       }
     },
     {
@@ -1612,7 +1612,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation, area and location from Ramsar's annotated list; challenges from UNESCO and IUCN's 2011 evaluation. Gaps: the managing body is documented only in the 1993 Ramsar sheet; no post-2011 conservation reports verified; some initiatives come from news or sources that do not place them precisely inside the park. Potential activities are interpretations or hypotheses, not validated businesses."
       }
     },
     {
@@ -1814,7 +1814,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. Ramsar's site-header coordinates (23°22'59\"S 14°28'59\"E) are erroneous; the coordinates given in the site description (08°37'N 013°03'W) are used. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation, area and location from Ramsar's annotated list; challenges from Ramsar, a 2025 national audit and a 2024 NGO report. Gaps: Ramsar information dates from 1999; published mangrove-trend figures conflict, so none is shown; no fish-smoking or salt initiative confirmed inside the estuary. Potential activities are interpretations or hypotheses, not validated businesses."
       }
     },
     {
@@ -1848,7 +1848,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. No conservation challenge, organisation or potential activity has been researched for this site yet."
+        "note": "Designation, area and location from Ramsar's annotated list; challenges mainly from the 2007 Ramsar sheet (old), the World Bank and a 2025 CTCN plan. Gaps: WACA mangrove figures differ between sources; the CTCN project is planned, not implemented; the site has no management plan. Potential activities are interpretations or hypotheses, not validated businesses."
       }
     },
     {
@@ -1885,7 +1885,7 @@
       "verification": {
         "status": "partially-verified",
         "reviewed": "2026-10-19",
-        "note": "Facts from UNESCO's biosphere reserve record. The reserve spans Benin and Togo but is catalogued once, under Benin. No conservation challenge, organisation or potential activity has been researched yet."
+        "note": "Facts from UNESCO's biosphere reserve record; challenges and initiatives from GIZ, IUCN NL, IUCN and Eco-Benin. The reserve spans Benin and Togo but is catalogued once, under Benin. Gaps: no source names a single management body for the whole reserve; restoration figures are self-reported; Togo-side sources were not reviewed."
       }
     },
     {
@@ -2044,6 +2044,444 @@
       "themeIds": ["development"],
       "statements": [
         { "text": "The 2015 Ramsar description lists a phosphate mining industry, then at prospecting stage upstream on the Rio Cacheu, as a pressure from the surrounding region.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
+      ]
+    },
+    {
+      "id": "mono-pressures",
+      "title": "Agricultural expansion, overfishing and mining",
+      "territoryIds": ["mono-biosphere-reserve"],
+      "themeIds": ["land-use", "fisheries", "development"],
+      "statements": [
+        { "text": "UNESCO identifies extensive agriculture, overfishing and mining as the reserve's main challenges.", "evidence": "verified", "sourceIds": ["unesco-mab-mono"] },
+        { "text": "GIZ reports that poverty and limited knowledge of sustainable land use lead local people to overuse the natural resources they depend on.", "evidence": "verified", "sourceIds": ["giz-mono-delta-project"] }
+      ]
+    },
+    {
+      "id": "mono-mangrove-loss",
+      "title": "Mangrove loss and degradation",
+      "territoryIds": ["mono-biosphere-reserve"],
+      "themeIds": ["mangroves", "land-use"],
+      "statements": [
+        { "text": "Citing Benin's national forest strategy, IUCN NL reports a 30% decrease in Mono Delta mangrove habitats since 1995, mainly from agricultural clearing, overfishing, logging and urbanisation.", "evidence": "verified", "sourceIds": ["iucnnl-blue-carbon"] },
+        { "text": "For the overlapping Ramsar site 1017, Ramsar lists mangrove over-exploitation, logging-related soil erosion and coastal erosion as major threats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-bj"] }
+      ]
+    },
+    {
+      "id": "mono-infrastructure",
+      "title": "Dam, port and tourism-development pressure",
+      "territoryIds": ["mono-biosphere-reserve"],
+      "themeIds": ["development"],
+      "statements": [
+        { "text": "IUCN's AGeReB project documents name the planned Adjarala hydroelectric dam upstream on the Mono River among pressures on the reserve.", "evidence": "verified", "sourceIds": ["iucn-agereb-tor-2025"] },
+        { "text": "The same document describes the coastal ecosystems of Ramsar site 1017 as heavily affected by large port and hydroelectric works.", "evidence": "verified", "sourceIds": ["iucn-agereb-tor-2025"] }
+      ]
+    },
+    {
+      "id": "ogoni-oil-pollution",
+      "title": "Oil pollution of mangroves and creeks",
+      "territoryIds": ["ramsar-2593"],
+      "themeIds": ["mangroves", "development"],
+      "statements": [
+        { "text": "Ramsar lists oil pollution, deforestation, overfishing, invasive species and urban expansion as pressures on the site.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ng"] },
+        { "text": "In 2011 UNEP found that oil pollution had left mangroves in many intertidal creeks stripped of leaves and stems, with roots coated in a bitumen-like layer.", "evidence": "verified", "sourceIds": ["unep-oea-2011"] },
+        { "text": "UNEP described the wetlands around Ogoniland as highly degraded and facing disintegration.", "evidence": "verified", "sourceIds": ["unep-oea-2011"] }
+      ]
+    },
+    {
+      "id": "ogoni-fisheries-damage",
+      "title": "Damage to fisheries and livelihoods",
+      "territoryIds": ["ramsar-2593"],
+      "themeIds": ["fisheries", "livelihoods"],
+      "statements": [
+        { "text": "UNEP reported that fisheries suffer from destroyed mangrove fish habitat and persistent contamination of many creeks.", "evidence": "verified", "sourceIds": ["unep-oea-2011"] },
+        { "text": "HYPREP's draft management framework names oil legacy impacts, livelihood dependence, tenure complexity and climate pressures as local realities.", "evidence": "verified", "sourceIds": ["hyprep-newsletter-apr-2026"] }
+      ]
+    },
+    {
+      "id": "ogoni-nipa",
+      "title": "Invasive nipa palm in former mangrove areas",
+      "territoryIds": ["ramsar-2593"],
+      "themeIds": ["mangroves", "species"],
+      "statements": [
+        { "text": "UNEP found former mangrove areas reduced to bare ground being colonised by invasive species such as nipa palm.", "evidence": "verified", "sourceIds": ["unep-oea-2011"] },
+        { "text": "HYPREP reports that its restoration teams are removing invasive nipa palms so native mangroves can recover.", "evidence": "verified", "sourceIds": ["hyprep-wed-2026"] }
+      ]
+    },
+    {
+      "id": "maio-salinas-grazing",
+      "title": "Livestock grazing and contamination of the salt pans",
+      "territoryIds": ["ramsar-2182"],
+      "themeIds": ["livelihoods", "species"],
+      "statements": [
+        { "text": "A 2014 Rufford-funded project describes overgrazing, trampling and livestock faeces threatening the salt-collecting women's livelihoods and disturbing wildlife.", "evidence": "verified", "sourceIds": ["rufford-15986-page"] },
+        { "text": "The same project reports that livestock faeces contaminate the water and the salt collected for sale.", "evidence": "verified", "sourceIds": ["rufford-15986-page"] }
+      ]
+    },
+    {
+      "id": "maio-salinas-tourism",
+      "title": "Tourism and construction pressure",
+      "territoryIds": ["ramsar-2182"],
+      "themeIds": ["development"],
+      "statements": [
+        { "text": "Ramsar notes a need for regulation to prevent over-construction of tourist structures in the site.", "evidence": "verified", "sourceIds": ["ramsar-annotated-cv"] },
+        { "text": "The 2013 Ramsar information sheet warns that further tourism and housing construction nearby may harm the salt pans by increasing visitor numbers.", "evidence": "verified", "sourceIds": ["ramsar-ris-2182-2013"] }
+      ]
+    },
+    {
+      "id": "maio-salinas-capacity",
+      "title": "Limited management capacity",
+      "territoryIds": ["ramsar-2182"],
+      "themeIds": ["governance"],
+      "statements": [
+        { "text": "In 2012 the national environment authority lacked the personnel and finances to execute the site's management plan, according to a Rufford project record.", "evidence": "verified", "sourceIds": ["rufford-10968-page"] },
+        { "text": "Since 2016 Maio's protected areas have been overseen by a small management unit within the island's agriculture and environment delegation.", "evidence": "verified", "sourceIds": ["cepf-111640-process-framework"] }
+      ]
+    },
+    {
+      "id": "ehotile-overfishing",
+      "title": "Overfishing in the Aby lagoon",
+      "territoryIds": ["ramsar-1584"],
+      "themeIds": ["fisheries"],
+      "statements": [
+        { "text": "The Ramsar sheet reports that overfishing in recent years, linked to strong immigration for the tourism industry, has considerably reduced fish stocks.", "evidence": "verified", "sourceIds": ["ramsar-ris-1584-2018"] },
+        { "text": "It notes that oceanographic researchers found the Aby lagoon in a state of generalised over-exploitation.", "evidence": "verified", "sourceIds": ["ramsar-ris-1584-2018"] }
+      ]
+    },
+    {
+      "id": "ehotile-mangrove-wood",
+      "title": "Mangrove and wood harvesting",
+      "territoryIds": ["ramsar-1584"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "statements": [
+        { "text": "Harvesting plants for construction wood is described as a real threat to the survival of some species.", "evidence": "verified", "sourceIds": ["ramsar-ris-1584-2018"] },
+        { "text": "Locally, men supply firewood (essentially mangrove wood) and women smoke the fish.", "evidence": "verified", "sourceIds": ["unesco-whc-tentative-2099"] },
+        { "text": "In October 2026, residents near the park raised mangrove destruction and land sales with the park authority, according to the state news agency.", "evidence": "verified", "sourceIds": ["aip-2026-10-oipr-sensibilisation"] }
+      ]
+    },
+    {
+      "id": "ehotile-tourism-hunting",
+      "title": "Unregulated tourism, timber exploitation and hunting",
+      "territoryIds": ["ramsar-1584"],
+      "themeIds": ["development", "species"],
+      "statements": [
+        { "text": "Ramsar lists timber exploitation, overfishing, uncontrolled tourism and hunting of birds and bats as threats.", "evidence": "verified", "sourceIds": ["ramsar-annotated-ci"] },
+        { "text": "Tourism inside the national park is not guided by clearly defined ecological principles.", "evidence": "verified", "sourceIds": ["ramsar-ris-1584-2018"] }
+      ]
+    },
+    {
+      "id": "ehotile-hydrology",
+      "title": "Upstream dams and sand and gravel extraction",
+      "territoryIds": ["ramsar-1584"],
+      "themeIds": ["development"],
+      "statements": [
+        { "text": "The Ayamé I and II dams on the Bia river considerably affect the freshwater supply to the area.", "evidence": "verified", "sourceIds": ["ramsar-ris-1584-2018"] },
+        { "text": "Urbanisation and the gravel and sand extraction that accompanies it are a growing factor.", "evidence": "verified", "sourceIds": ["ramsar-ris-1584-2018"] }
+      ]
+    },
+    {
+      "id": "keta-mangrove-harvest",
+      "title": "Mangrove over-harvesting for fuelwood and fish smoking",
+      "territoryIds": ["ramsar-567"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "statements": [
+        { "text": "Ramsar notes that the site is threatened by sea erosion, pollution and excessive mangrove wood harvesting.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gh"] },
+        { "text": "The 2023–2032 management plan reports mangroves often being harvested and not replanted, including for fish-smoking fuelwood.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] }
+      ]
+    },
+    {
+      "id": "keta-overfishing",
+      "title": "Overfishing and blocked lagoon channels",
+      "territoryIds": ["ramsar-567"],
+      "themeIds": ["fisheries"],
+      "statements": [
+        { "text": "The management plan describes fisheries as over-exploited, with fishers forced to use ever-smaller nets.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] },
+        { "text": "Blocked estuaries stop marine water and marine life from entering the lagoon.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] }
+      ]
+    },
+    {
+      "id": "keta-salt-aquaculture",
+      "title": "Industrial salt extraction and aquaculture",
+      "territoryIds": ["ramsar-567"],
+      "themeIds": ["development", "livelihoods"],
+      "statements": [
+        { "text": "Salt production once done on a small scale by community members has been taken over by large businesses, shutting some fishers out of local fishing areas.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] },
+        { "text": "Industrial aquaculture infrastructure has caused the loss of large tracts of mangrove in the Anloga restoration zone.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] }
+      ]
+    },
+    {
+      "id": "keta-erosion",
+      "title": "Coastal erosion and sediment deficit",
+      "territoryIds": ["ramsar-567"],
+      "themeIds": ["climate", "development"],
+      "statements": [
+        { "text": "Severe coastal erosion has destroyed houses from Keta through Vodza to Kedzi.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] },
+        { "text": "The Akosombo dam is believed to have contributed to a major shortage of sediment in the lower Volta region.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] }
+      ]
+    },
+    {
+      "id": "togo-mangrove-loss",
+      "title": "Mangrove loss from fuelwood and charcoal demand",
+      "territoryIds": ["ramsar-1722"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "statements": [
+        { "text": "The 2007 Ramsar sheet reports natural mangroves along the Gbaga falling from about 1,000 ha in 1999 to 546.97 ha in 2005.", "evidence": "verified", "sourceIds": ["ramsar-ris-1722-2007"] },
+        { "text": "Growing demand for firewood and charcoal accelerated vegetation loss in the Maritime Region.", "evidence": "verified", "sourceIds": ["ramsar-ris-1722-2007"] },
+        { "text": "A 2025 CTCN plan reports that women fish traders in three villages continue to cut mangroves despite reforestation by the WACA project.", "evidence": "verified", "sourceIds": ["ctcn-2025-togo"] }
+      ]
+    },
+    {
+      "id": "togo-erosion",
+      "title": "Coastal erosion",
+      "territoryIds": ["ramsar-1722"],
+      "themeIds": ["climate"],
+      "statements": [
+        { "text": "The coast faces pronounced marine erosion at Agbodrafo, Kpémé and Aného.", "evidence": "verified", "sourceIds": ["ramsar-ris-1722-2007"] },
+        { "text": "The World Bank reports that Benin and Togo each lose about 15 metres of coastline a year, and 20 to 30 metres in some places.", "evidence": "verified", "sourceIds": ["worldbank-2024-tamed-sea"] }
+      ]
+    },
+    {
+      "id": "togo-overfishing",
+      "title": "Overfishing and destructive fishing",
+      "territoryIds": ["ramsar-1722"],
+      "themeIds": ["fisheries"],
+      "statements": [
+        { "text": "The coastal lake and lagoon system is being progressively depleted by overfishing.", "evidence": "verified", "sourceIds": ["ramsar-ris-1722-2007"] },
+        { "text": "Deliberate poisoning of ponds and streams to catch fish is described as a common practice.", "evidence": "verified", "sourceIds": ["ramsar-ris-1722-2007"] }
+      ]
+    },
+    {
+      "id": "togo-governance",
+      "title": "Altered hydrology, invasive plants and no management plan",
+      "territoryIds": ["ramsar-1722"],
+      "themeIds": ["governance", "development"],
+      "statements": [
+        { "text": "The Nangbéto dam, filled in 1987, changed the downstream water regime.", "evidence": "verified", "sourceIds": ["ramsar-ris-1722-2007"] },
+        { "text": "Invasive water hyacinth and water lettuce have spread in flooded areas.", "evidence": "verified", "sourceIds": ["ramsar-ris-1722-2007"] },
+        { "text": "Ramsar notes there is no management plan for the site.", "evidence": "verified", "sourceIds": ["ramsar-annotated-tg"] }
+      ]
+    },
+    {
+      "id": "arguin-fishing",
+      "title": "Fishing pressure and changing fishing practices",
+      "territoryIds": ["ramsar-250"],
+      "themeIds": ["fisheries", "species"],
+      "statements": [
+        { "text": "UNESCO notes that fishing has considerably increased and that fishing gear, methods and target species have changed.", "evidence": "verified", "sourceIds": ["unesco-whc-506"] },
+        { "text": "BACoMaB reports intensifying artisanal and coastal fishing around the park, with crews often non-Imraguen and sometimes targeting protected rays and sharks.", "evidence": "verified", "sourceIds": ["bacomab-pnba"] }
+      ]
+    },
+    {
+      "id": "arguin-development",
+      "title": "Maritime, infrastructure and hydrocarbon development",
+      "territoryIds": ["ramsar-250"],
+      "themeIds": ["development"],
+      "statements": [
+        { "text": "UNESCO links the main threats to unregulated development of maritime activities and coastal infrastructure.", "evidence": "verified", "sourceIds": ["unesco-whc-506"] },
+        { "text": "It describes the risk of hydrocarbon pollution from the West African shipping route and the petroleum industry as considerable.", "evidence": "verified", "sourceIds": ["unesco-whc-506"] },
+        { "text": "BACoMaB lists mining and oil exploration and exploitation in the area among pressures on the park.", "evidence": "verified", "sourceIds": ["bacomab-pnba"] }
+      ]
+    },
+    {
+      "id": "arguin-climate",
+      "title": "Sea-level rise and coastal change",
+      "territoryIds": ["ramsar-250"],
+      "themeIds": ["climate"],
+      "statements": [
+        { "text": "BACoMaB reports that the park is exposed to sea-level rise, shoreline erosion and flooding of islands and villages.", "evidence": "verified", "sourceIds": ["bacomab-pnba"] }
+      ]
+    },
+    {
+      "id": "saloum-mangrove-loss",
+      "title": "Mangrove loss from rice expansion, wood cutting and salinisation",
+      "territoryIds": ["ramsar-288"],
+      "themeIds": ["mangroves", "land-use", "climate"],
+      "statements": [
+        { "text": "UNESCO notes a permanent threat to the mangroves from the extension of rice cultivation and forest exploitation in the Fathala area.", "evidence": "verified", "sourceIds": ["unesco-mab-saloum"] },
+        { "text": "In 2011 IUCN warned that low rainfall could raise salinity across the region and destroy the remaining mangroves.", "evidence": "verified", "sourceIds": ["iucn-eval-saloum-2011"] }
+      ]
+    },
+    {
+      "id": "saloum-pressures",
+      "title": "Overfishing, fires and collection of wood and eggs",
+      "territoryIds": ["ramsar-288"],
+      "themeIds": ["fisheries", "species"],
+      "statements": [
+        { "text": "UNESCO lists forest fires, excessive fishing, destruction of bird colonies and conflicts with industrial and agricultural development.", "evidence": "verified", "sourceIds": ["unesco-mab-saloum"] },
+        { "text": "IUCN noted impacts from farming, fires, firewood gathering, pollution and possibly bird and turtle egg collection.", "evidence": "verified", "sourceIds": ["iucn-eval-saloum-2011"] }
+      ]
+    },
+    {
+      "id": "saloum-sangomar",
+      "title": "Breach and migration of the Sangomar spit",
+      "territoryIds": ["ramsar-288"],
+      "themeIds": ["climate"],
+      "statements": [
+        { "text": "IUCN reports that the Pointe de Sangomar sand spit was breached in 1994 and the resulting island is moving progressively south.", "evidence": "verified", "sourceIds": ["iucn-eval-saloum-2011"] }
+      ]
+    },
+    {
+      "id": "saloum-capacity",
+      "title": "Limited management capacity and unmanaged tourism",
+      "territoryIds": ["ramsar-288"],
+      "themeIds": ["governance", "development"],
+      "statements": [
+        { "text": "IUCN judged resources insufficient to manage a protected area of this size.", "evidence": "verified", "sourceIds": ["iucn-eval-saloum-2011"] },
+        { "text": "It warned that unmanaged tourism could threaten natural values, particularly on the Île aux Oiseaux.", "evidence": "verified", "sourceIds": ["iucn-eval-saloum-2011"] },
+        { "text": "The World Heritage Committee asked for better waste and wastewater management to limit pollution.", "evidence": "verified", "sourceIds": ["whc-decision-saloum-2011"] }
+      ]
+    },
+    {
+      "id": "tanbi-urban",
+      "title": "Urban encroachment and land reclamation",
+      "territoryIds": ["ramsar-1657"],
+      "themeIds": ["development"],
+      "statements": [
+        { "text": "The 2006 Ramsar sheet notes that the wetland's proximity to Banjul and its bisection by the highway give the land high development value.", "evidence": "verified", "sourceIds": ["ramsar-ris-1657-2006"] },
+        { "text": "The 2012 co-management plan reports settlements claiming land in the basin and blocked waterways increasing sedimentation of the mangroves.", "evidence": "verified", "sourceIds": ["tanbi-comgmt-plan-2012"] }
+      ]
+    },
+    {
+      "id": "tanbi-pollution",
+      "title": "Waste dumping and water pollution",
+      "territoryIds": ["ramsar-1657"],
+      "themeIds": ["development"],
+      "statements": [
+        { "text": "The Ramsar sheet lists household waste dumping among threats.", "evidence": "verified", "sourceIds": ["ramsar-ris-1657-2006"] },
+        { "text": "Fertilisers, persistent pesticides and domestic and commercial waste are described as destructive to water quality.", "evidence": "verified", "sourceIds": ["ramsar-ris-1657-2006"] }
+      ]
+    },
+    {
+      "id": "tanbi-mangrove-shellfish",
+      "title": "Mangrove cutting and harvesting of juvenile shellfish",
+      "territoryIds": ["ramsar-1657"],
+      "themeIds": ["mangroves", "fisheries"],
+      "statements": [
+        { "text": "The high cost of firewood in the urban area has led people to use mangrove as an alternative supply.", "evidence": "verified", "sourceIds": ["ramsar-ris-1657-2006"] },
+        { "text": "The 2012 plan highlights mangrove destruction and harvesting of juvenile oysters and cockles as major concerns.", "evidence": "verified", "sourceIds": ["tanbi-comgmt-plan-2012"] }
+      ]
+    },
+    {
+      "id": "tanbi-erosion-enforcement",
+      "title": "Coastal erosion and weak enforcement",
+      "territoryIds": ["ramsar-1657"],
+      "themeIds": ["climate", "governance"],
+      "statements": [
+        { "text": "Coastal erosion is rapidly altering the coastal strip and threatening infrastructure and habitat.", "evidence": "verified", "sourceIds": ["ramsar-ris-1657-2006"] },
+        { "text": "The Ramsar sheet cites inadequate enforcement of land-use and environmental law.", "evidence": "verified", "sourceIds": ["ramsar-ris-1657-2006"] }
+      ]
+    },
+    {
+      "id": "konkoure-fuelwood",
+      "title": "Mangrove wood cut for fuel, salt-making, fish smoking and rice parboiling",
+      "territoryIds": ["ramsar-575"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "statements": [
+        { "text": "GRET reports particularly intensive exploitation of the Konkouré mangroves for firewood, salt production, rice parboiling and fish smoking.", "evidence": "verified", "sourceIds": ["gret-promak-page"] },
+        { "text": "The PROMAK project describes fuelwood cutting for domestic use, salt-making, fish smoking and rice parboiling as the main pressure.", "evidence": "verified", "sourceIds": ["promak-tdr-2026"] }
+      ]
+    },
+    {
+      "id": "konkoure-conversion",
+      "title": "Rice and market-garden conversion and destructive fishing",
+      "territoryIds": ["ramsar-575"],
+      "themeIds": ["land-use", "fisheries"],
+      "statements": [
+        { "text": "Rice growing, market gardening and some destructive fishing techniques add to the degradation of the ecosystem.", "evidence": "verified", "sourceIds": ["promak-tdr-2026"] }
+      ]
+    },
+    {
+      "id": "konkoure-urban-hydrology",
+      "title": "Urban expansion, pollution and altered hydrology",
+      "territoryIds": ["ramsar-575"],
+      "themeIds": ["development"],
+      "statements": [
+        { "text": "PROMAK documents uncontrolled development linked to urban expansion, plastic pollution and inadequate sanitation.", "evidence": "verified", "sourceIds": ["promak-tdr-2026"] },
+        { "text": "The Garafiri hydropower scheme has altered local hydrology.", "evidence": "verified", "sourceIds": ["promak-tdr-2026"] }
+      ]
+    },
+    {
+      "id": "konkoure-protection",
+      "title": "No legal protected-area status yet",
+      "territoryIds": ["ramsar-575"],
+      "themeIds": ["governance"],
+      "statements": [
+        { "text": "Few concrete measures have been implemented to protect the landscape; a protected area is now proposed, to be managed by the national parks office.", "evidence": "verified", "sourceIds": ["promak-fiche", "promak-tdr-2026"] }
+      ]
+    },
+    {
+      "id": "slre-clearance-fishing",
+      "title": "Vegetation clearance and unsustainable fishing",
+      "territoryIds": ["ramsar-1014"],
+      "themeIds": ["mangroves", "fisheries"],
+      "statements": [
+        { "text": "Ramsar notes that the estuary is threatened by vegetation clearance and unsustainable fishing.", "evidence": "verified", "sourceIds": ["ramsar-annotated-sl"] }
+      ]
+    },
+    {
+      "id": "slre-encroachment",
+      "title": "Urban encroachment at Aberdeen Creek",
+      "territoryIds": ["ramsar-1014"],
+      "themeIds": ["development", "mangroves"],
+      "statements": [
+        { "text": "Sierra Leone's national auditors found land being sold and houses built along Aberdeen Creek, which is part of the estuary.", "evidence": "verified", "sourceIds": ["assl-wetland-audit-2025"] },
+        { "text": "A news report describes unregulated structures at the creek destroying mangrove cover, and mangroves cut for firewood and land reclamation.", "evidence": "verified", "sourceIds": ["premier-npaa-aberdeen"] }
+      ]
+    },
+    {
+      "id": "slre-sand-pollution",
+      "title": "Sand mining and pollution",
+      "territoryIds": ["ramsar-1014"],
+      "themeIds": ["development", "species"],
+      "statements": [
+        { "text": "At the Targreen wetland, mangrove loss, sand mining and plastic and oil pollution were identified as the main threats to bird habitats.", "evidence": "verified", "sourceIds": ["slnga-targreen-2024"] }
+      ]
+    },
+    {
+      "id": "slre-mandate",
+      "title": "Gaps in the legal mandate for wetlands",
+      "territoryIds": ["ramsar-1014"],
+      "themeIds": ["governance"],
+      "statements": [
+        { "text": "The 2025 audit found that the protected-area authority's founding law does not mention wetlands, and that its operations are limited to protected areas.", "evidence": "verified", "sourceIds": ["assl-wetland-audit-2025"] }
+      ]
+    },
+    {
+      "id": "piso-mangrove-fuel",
+      "title": "Mangrove wood used for fish smoking, firewood and charcoal",
+      "territoryIds": ["ramsar-1306"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "statements": [
+        { "text": "Fish smoking around the lake relies predominantly on mangrove wood.", "evidence": "verified", "sourceIds": ["epicn-lake-piso"] },
+        { "text": "The 2007 Ramsar sheet records intensive fuelwood harvesting, sometimes in mangrove stands.", "evidence": "verified", "sourceIds": ["ramsar-ris-1306-2007"] },
+        { "text": "A Rufford-funded assessment reports continued mangrove harvesting for charcoal and firewood.", "evidence": "verified", "sourceIds": ["rufford-kannah"] }
+      ]
+    },
+    {
+      "id": "piso-fishing",
+      "title": "Unsustainable fishing with undersized nets",
+      "territoryIds": ["ramsar-1306"],
+      "themeIds": ["fisheries"],
+      "statements": [
+        { "text": "The Ramsar sheet records fishing with very small-mesh nets that remove the smallest fish.", "evidence": "verified", "sourceIds": ["ramsar-ris-1306-2007"] }
+      ]
+    },
+    {
+      "id": "piso-sand-pollution",
+      "title": "Sand mining and pollution",
+      "territoryIds": ["ramsar-1306"],
+      "themeIds": ["development"],
+      "statements": [
+        { "text": "A 2007 survey observed severe sand-mining pressure on the lake shore near Falie.", "evidence": "verified", "sourceIds": ["cepf-face-2007"] },
+        { "text": "The Ramsar sheet records dumping of rotten fish and waste in the lake; a later grant record names plastics, old nets and manure as pollutants.", "evidence": "verified", "sourceIds": ["ramsar-ris-1306-2007", "sgp-24550-esl"] }
+      ]
+    },
+    {
+      "id": "piso-burning",
+      "title": "Bush burning, farming and hunting",
+      "territoryIds": ["ramsar-1306"],
+      "themeIds": ["land-use"],
+      "statements": [
+        { "text": "The Ramsar sheet records constant dry-season burning of savanna and bush, alongside farming and hunting.", "evidence": "verified", "sourceIds": ["ramsar-ris-1306-2007"] }
       ]
     }
   ],
@@ -2234,6 +2672,459 @@
         "Effect on land-use decisions in practice"
       ],
       "organisationLinks": []
+    },
+    {
+      "id": "mono-mangrove-nurseries",
+      "title": "Community mangrove nurseries and restoration linked to blue-carbon finance",
+      "territoryIds": ["mono-biosphere-reserve"],
+      "themeIds": ["mangroves", "finance", "livelihoods"],
+      "challengeIds": ["mono-mangrove-loss"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "IUCN NL and Eco-Benin are working to preserve mangroves in the Bouche du Roy reserve and surroundings, financed by blue carbon credits; planned work includes nurseries, village-led planting and alternative income, especially for women.", "evidence": "verified", "sourceIds": ["iucnnl-blue-carbon"] },
+        { "text": "Eco-Benin reports more than 500 hectares planted and areas made sacred through traditional sacralisation practices in the Bouche du Roy (self-reported).", "evidence": "verified", "sourceIds": ["ecobenin-restoration-2023"] },
+        { "text": "Community-run mangrove nurseries and paid restoration work are a plausible regenerative activity here, because an existing blue-carbon project already plans nurseries and alternative income.", "evidence": "interpretation", "sourceIds": ["iucnnl-blue-carbon"] }
+      ],
+      "validationNeeded": [
+        "Status and certification of the blue-carbon project, and how revenue reaches communities",
+        "Demand for seedlings beyond the existing project",
+        "Fit with customary sacralisation rules and village governance",
+        "Agreement of the authority supervising the Bouche du Roy marine protected area"
+      ],
+      "organisationLinks": [
+        { "organisationId": "eco-benin", "relationship": "related-initiative", "statement": { "text": "Runs mangrove restoration, sacralisation and the blue-carbon project at Bouche du Roy.", "evidence": "verified", "sourceIds": ["ecobenin-restoration-2023", "iucnnl-blue-carbon"] } },
+        { "organisationId": "iucn-nl", "relationship": "related-initiative", "statement": { "text": "Partners Eco-Benin on the blue-carbon-financed mangrove project in the Bouche du Roy reserve.", "evidence": "verified", "sourceIds": ["iucnnl-blue-carbon"] } },
+        { "organisationId": "cenagref", "relationship": "potential-stakeholder", "statement": { "text": "Supervises the Bouche du Roy marine protected area inside the reserve, so activities there would need its agreement.", "evidence": "interpretation", "sourceIds": ["iucn-agereb-tor-2025"] } }
+      ]
+    },
+    {
+      "id": "mono-ecotourism",
+      "title": "Community-based ecotourism and guiding",
+      "territoryIds": ["mono-biosphere-reserve"],
+      "themeIds": ["livelihoods", "governance"],
+      "challengeIds": ["mono-pressures"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "UNESCO reports that since the reserve was created, projects have promoted ecotourism, particularly whale and dolphin watching.", "evidence": "verified", "sourceIds": ["unesco-mab-mono"] },
+        { "text": "The EU-funded AGeReB action (2023–2027), run by IUCN, IUCN NL and Eco-Benin, includes support for the Nonvignon tourism training centre.", "evidence": "verified", "sourceIds": ["agereb-flyer", "iucn-agereb-tor-2025"] },
+        { "text": "Locally owned guiding and ecotourism services could offer income that depends on a healthy delta, as an alternative to resource overuse.", "evidence": "interpretation", "sourceIds": ["unesco-mab-mono", "giz-mono-delta-project"] }
+      ],
+      "validationNeeded": [
+        "Visitor demand and access",
+        "Who would own and benefit from the services",
+        "Compatibility with core zones and marine protected area rules",
+        "Lessons from earlier ecotourism projects"
+      ],
+      "organisationLinks": [
+        { "organisationId": "eco-benin", "relationship": "related-initiative", "statement": { "text": "Co-implements the AGeReB action, which supports the Nonvignon tourism training centre.", "evidence": "verified", "sourceIds": ["agereb-flyer"] } },
+        { "organisationId": "cenagref", "relationship": "potential-stakeholder", "statement": { "text": "Supervises the Bouche du Roy marine protected area, so tourism activity there would need its agreement.", "evidence": "interpretation", "sourceIds": ["iucn-agereb-tor-2025"] } }
+      ]
+    },
+    {
+      "id": "ogoni-mangrove-nurseries",
+      "title": "Community mangrove nurseries supplying restoration",
+      "territoryIds": ["ramsar-2593"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "challengeIds": ["ogoni-oil-pollution", "ogoni-nipa"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "HYPREP's 'Mangrove Vanguards' programme trains young people and women to run mangrove nurseries, and requires restoration contractors to buy their seedlings.", "evidence": "verified", "sourceIds": ["map-hyprep-phase2-2026", "hyprep-livelihood"] },
+        { "text": "HYPREP reports completing a first phase of mangrove restoration covering 560 ha and starting a second phase of 438 ha across seven communities (self-reported).", "evidence": "verified", "sourceIds": ["map-hyprep-phase2-2026"] },
+        { "text": "Because restoration contractors already buy community-grown seedlings, nursery enterprises are a defensible regenerative activity here, if demand continues beyond the current phases.", "evidence": "interpretation", "sourceIds": ["map-hyprep-phase2-2026"] }
+      ],
+      "validationNeeded": [
+        "Seedling demand after the current restoration phases",
+        "Independent verification of restoration results",
+        "Risk of re-pollution of restored areas",
+        "Whether nursery sites lie within the Ramsar site boundary",
+        "Alignment with HYPREP and the Ramsar management plan"
+      ],
+      "organisationLinks": [
+        { "organisationId": "hyprep", "relationship": "related-initiative", "statement": { "text": "Runs the Ogoniland mangrove restoration and the Mangrove Vanguards nursery programme.", "evidence": "verified", "sourceIds": ["map-hyprep-phase2-2026", "hyprep-livelihood"] } }
+      ]
+    },
+    {
+      "id": "maio-sea-salt",
+      "title": "Quality traditional sea salt from the Salinas",
+      "territoryIds": ["ramsar-2182"],
+      "themeIds": ["livelihoods"],
+      "challengeIds": ["maio-salinas-grazing"],
+      "evidence": "hypothesis",
+      "rationale": [
+        { "text": "The 2013 Ramsar information sheet reports that more than 70 women derived their livelihood from salt extraction, an activity it describes as sustainable.", "evidence": "verified", "sourceIds": ["ramsar-ris-2182-2013"] },
+        { "text": "In 2012 the women's salt cooperative produced little salt and lost its traditional market, according to the grantee report.", "evidence": "verified", "sourceIds": ["rufford-10968-final-report"] },
+        { "text": "Livestock faeces contaminate the salt collected for sale.", "evidence": "verified", "sourceIds": ["rufford-15986-page"] },
+        { "text": "Keeping livestock out of the salt pans and marketing a cleaner, traceable traditional salt could strengthen the women's income while keeping the site in use. Market demand is unknown.", "evidence": "hypothesis", "sourceIds": [] }
+      ],
+      "validationNeeded": [
+        "Whether the cooperative is still active (no source after 2014 was found)",
+        "Salt quality, volumes and buyers",
+        "Grazing control arrangements with herders",
+        "Permission from the national environment authority"
+      ],
+      "organisationLinks": [
+        { "organisationId": "fmb", "relationship": "related-initiative", "statement": { "text": "Managed the Salinas under a 2012 delegation from the national environment authority, including regulating access by people and cattle.", "evidence": "verified", "sourceIds": ["rufford-10968-final-report"] } },
+        { "organisationId": "dna-cabo-verde", "relationship": "potential-stakeholder", "statement": { "text": "Holds the national mandate on biodiversity and conservation, so would need to be consulted.", "evidence": "interpretation", "sourceIds": ["cepf-111640-process-framework"] } }
+      ]
+    },
+    {
+      "id": "ehotile-mangrove-restoration",
+      "title": "Community mangrove restoration with the park authority",
+      "territoryIds": ["ramsar-1584"],
+      "themeIds": ["mangroves", "livelihoods", "governance"],
+      "challengeIds": ["ehotile-mangrove-wood"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "In October 2020 the national parks office (OIPR) and the World Bank-financed WACA project signed an agreement to develop and restore mangrove ecosystems in the Azagny and Îles Ehotilé parks (news report).", "evidence": "verified", "sourceIds": ["fratmat-2020-oipr-waca"] },
+        { "text": "A local management committee coordinated by OIPR promotes participatory management with the park's neighbouring communities.", "evidence": "verified", "sourceIds": ["aip-2025-04-cgl"] },
+        { "text": "Community-run nurseries and paid restoration work could build on this agreement and on the existing local committee, if restoration funding continues.", "evidence": "interpretation", "sourceIds": ["fratmat-2020-oipr-waca", "aip-2025-04-cgl"] }
+      ],
+      "validationNeeded": [
+        "Outcomes of the 2020 OIPR–WACA restoration agreement (no results data found)",
+        "Land tenure, given residents' concerns about land sales",
+        "Funding after WACA",
+        "Role of the local management committee"
+      ],
+      "organisationLinks": [
+        { "organisationId": "oipr", "relationship": "related-initiative", "statement": { "text": "Signed the 2020 agreement with WACA to restore mangroves in the Azagny and Îles Ehotilé parks.", "evidence": "verified", "sourceIds": ["fratmat-2020-oipr-waca"] } },
+        { "organisationId": "waca", "relationship": "related-initiative", "statement": { "text": "Agreed in 2020 to fund OIPR's mangrove development and restoration in the Azagny and Îles Ehotilé parks.", "evidence": "verified", "sourceIds": ["fratmat-2020-oipr-waca"] } }
+      ]
+    },
+    {
+      "id": "ehotile-fish-smoking",
+      "title": "Fuel-efficient fish smoking for the Aby lagoon",
+      "territoryIds": ["ramsar-1584"],
+      "themeIds": ["mangroves", "fisheries", "livelihoods"],
+      "challengeIds": ["ehotile-mangrove-wood"],
+      "evidence": "hypothesis",
+      "rationale": [
+        { "text": "Locally, men supply mangrove firewood and women smoke the fish.", "evidence": "verified", "sourceIds": ["unesco-whc-tentative-2099"] },
+        { "text": "In Guinea-Bissau, a fuel-efficient fish-smoking oven was installed in Plindan (Cacheu) to reduce fuelwood use.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] },
+        { "text": "Fuel-efficient ovens run by women processors could reduce mangrove wood demand here too. No such initiative was found for this site.", "evidence": "hypothesis", "sourceIds": [] }
+      ],
+      "validationNeeded": [
+        "Whether any improved-oven initiative already exists locally",
+        "Fuel savings and adoption in practice",
+        "Effect on fishing pressure in an over-exploited lagoon",
+        "Agreement of the park authority"
+      ],
+      "organisationLinks": [
+        { "organisationId": "oipr", "relationship": "potential-stakeholder", "statement": { "text": "Holds delegated management of the national-park part of the site, so would need to be consulted.", "evidence": "interpretation", "sourceIds": ["ramsar-ris-1584-2018"] } }
+      ]
+    },
+    {
+      "id": "keta-mangrove-woodlots",
+      "title": "Mangrove restoration with community woodlots",
+      "territoryIds": ["ramsar-567"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "challengeIds": ["keta-mangrove-harvest"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "A Rocha Ghana, with the Wildlife Division, reports planting 20 ha of degraded mangrove, establishing a woodlot and training community trainers in sustainable mangrove harvesting in four communities (2021–2023, self-reported).", "evidence": "verified", "sourceIds": ["arocha-papbio-2024"] },
+        { "text": "The management plan describes a traditional cycle of planting and harvesting mangroves along the lower Volta creeks at Anyanui.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] },
+        { "text": "The Wildlife Division has established a tree nursery that distributes seedlings to surrounding communities.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] },
+        { "text": "Managed mangrove woodlots supplying fish-smoking fuelwood could relieve pressure on natural stands, building on local practice and recent project work.", "evidence": "interpretation", "sourceIds": ["arocha-papbio-2024", "klcrs-mp-2023"] }
+      ],
+      "validationNeeded": [
+        "Survival of planted areas (no independent monitoring found)",
+        "Customary land ownership (the Anlo Traditional Council)",
+        "Fuelwood demand and sustainable yield",
+        "Fit with the 2023–2032 management plan"
+      ],
+      "organisationLinks": [
+        { "organisationId": "a-rocha-ghana", "relationship": "related-initiative", "statement": { "text": "Ran the 2021–2023 PAPBio mangrove restoration and livelihoods project in four Keta Lagoon communities.", "evidence": "verified", "sourceIds": ["arocha-papbio-2024"] } },
+        { "organisationId": "wildlife-division-ghana", "relationship": "related-initiative", "statement": { "text": "Partnered A Rocha Ghana on the PAPBio project and runs a tree nursery for surrounding communities.", "evidence": "verified", "sourceIds": ["arocha-papbio-2024", "klcrs-mp-2023"] } }
+      ]
+    },
+    {
+      "id": "keta-wildlife-tourism",
+      "title": "Community-guided bird and turtle tourism",
+      "territoryIds": ["ramsar-567"],
+      "themeIds": ["livelihoods", "species"],
+      "challengeIds": [],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "The Wildlife Division is trying to promote bird watching and night turtle walks.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] },
+        { "text": "Community guiding services could share in this tourism and give residents an income linked to protecting nesting beaches and bird areas.", "evidence": "interpretation", "sourceIds": ["klcrs-mp-2023"] }
+      ],
+      "validationNeeded": [
+        "Visitor numbers and access",
+        "Benefit-sharing with communities",
+        "Disturbance limits for nesting turtles and birds"
+      ],
+      "organisationLinks": [
+        { "organisationId": "wildlife-division-ghana", "relationship": "related-initiative", "statement": { "text": "Is promoting bird watching and night turtle walks at the site.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] } }
+      ]
+    },
+    {
+      "id": "togo-women-mangrove-solar",
+      "title": "Women-led mangrove replanting with solar fish preservation",
+      "territoryIds": ["ramsar-1722"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "challengeIds": ["togo-mangrove-loss"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "A 2025 CTCN technical-assistance plan, requested by a women fish traders' group at Togokomé, proposes replanting mangroves and solar fish smoking and cold storage (planned, not yet implemented).", "evidence": "verified", "sourceIds": ["ctcn-2025-togo"] },
+        { "text": "The World Bank reports that 257 hectares of mangroves have been planted in Togo under the WACA programme.", "evidence": "verified", "sourceIds": ["worldbank-2024-tamed-sea"] },
+        { "text": "Because women fish traders still cut mangroves for fuel, combining replanting with solar fish preservation addresses a documented cause of loss.", "evidence": "interpretation", "sourceIds": ["ctcn-2025-togo"] }
+      ],
+      "validationNeeded": [
+        "Whether the CTCN project is funded and implemented",
+        "Cost and reliability of solar smoking and cold storage",
+        "Survival of earlier WACA plantings",
+        "Consultation with the environment ministry"
+      ],
+      "organisationLinks": [
+        { "organisationId": "ctcn", "relationship": "related-initiative", "statement": { "text": "Prepared the 2025 technical-assistance plan for women-led mangrove replanting and solar fish preservation in Togo's Maritime Region.", "evidence": "verified", "sourceIds": ["ctcn-2025-togo"] } },
+        { "organisationId": "waca", "relationship": "related-initiative", "statement": { "text": "Financed mangrove planting in Togo.", "evidence": "verified", "sourceIds": ["worldbank-2024-tamed-sea"] } },
+        { "organisationId": "togo-environment-ministry", "relationship": "potential-stakeholder", "statement": { "text": "Its staff act against unsustainable logging and fishing at the site, which has no management plan, so it would need to be consulted.", "evidence": "interpretation", "sourceIds": ["ramsar-annotated-tg"] } }
+      ]
+    },
+    {
+      "id": "arguin-imraguen-products",
+      "title": "Value-added traditional fish products by Imraguen women",
+      "territoryIds": ["ramsar-250"],
+      "themeIds": ["fisheries", "livelihoods"],
+      "challengeIds": ["arguin-fishing"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "Since 2000 IUCN, the park, IFAD and FIBA have supported Imraguen women with processing facilities, hygiene and management training and new packaging for traditional products.", "evidence": "verified", "sourceIds": ["pnba-transformation"] },
+        { "text": "Inside the park only the Imraguen may fish, on foot or from sailing boats; motorised boats are banned.", "evidence": "verified", "sourceIds": ["pnba-developpement-local"] },
+        { "text": "Traceable traditional products tied to sail-only fishing could raise income per catch rather than catch volume, in line with the park's fishing rules.", "evidence": "interpretation", "sourceIds": ["pnba-transformation", "pnba-developpement-local"] }
+      ],
+      "validationNeeded": [
+        "Current status of the processing units",
+        "Market demand and certification for traditional products",
+        "Effect on fishing pressure",
+        "Agreement of the park authority"
+      ],
+      "organisationLinks": [
+        { "organisationId": "pnba", "relationship": "related-initiative", "statement": { "text": "Has worked since 2000 with IUCN, IFAD and FIBA to support Imraguen women's fish processing.", "evidence": "verified", "sourceIds": ["pnba-transformation"] } }
+      ]
+    },
+    {
+      "id": "saloum-women-shellfish",
+      "title": "Women's mangrove replanting and sustainable shellfish processing",
+      "territoryIds": ["ramsar-288"],
+      "themeIds": ["mangroves", "fisheries", "livelihoods"],
+      "challengeIds": ["saloum-mangrove-loss", "saloum-pressures"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "UNESCO reports that grass-roots village associations run mangrove nurseries and reforestation plots.", "evidence": "verified", "sourceIds": ["unesco-mab-saloum"] },
+        { "text": "A women's group in the delta has led mangrove reforestation since 2007 and set harvesting periods and biological rest periods (news report).", "evidence": "verified", "sourceIds": ["farmradio-saloum-2025"] },
+        { "text": "FAO reports training women seafood processors at Niodior in food safety, hygiene and entrepreneurship.", "evidence": "verified", "sourceIds": ["fao-cfi-wa-women-2023"] },
+        { "text": "Women-led shellfish processing tied to harvest rules and mangrove replanting builds on documented local practice.", "evidence": "interpretation", "sourceIds": ["unesco-mab-saloum", "farmradio-saloum-2025"] }
+      ],
+      "validationNeeded": [
+        "Which women's groups are active and where (Niodior's position relative to the park is unverified)",
+        "Stock status and harvest rules",
+        "Market access and food-safety requirements",
+        "Agreement of the park authority"
+      ],
+      "organisationLinks": [
+        { "organisationId": "dpn-senegal", "relationship": "potential-stakeholder", "statement": { "text": "Named as the park's managing body in the 1993 Ramsar sheet, so would need to be consulted; its current role should be confirmed.", "evidence": "interpretation", "sourceIds": ["ramsar-ris-288-1993"] } }
+      ]
+    },
+    {
+      "id": "saloum-community-mpa",
+      "title": "Products and services from community-managed fishing areas",
+      "territoryIds": ["ramsar-288"],
+      "themeIds": ["fisheries", "governance"],
+      "challengeIds": ["saloum-pressures"],
+      "evidence": "hypothesis",
+      "rationale": [
+        { "text": "The Bamboung bolon became a community marine protected area in 2003, proposed and led by the Senegalese NGO Océanium with funding from the French Global Environment Facility.", "evidence": "verified", "sourceIds": ["ird-ppeao-bamboung"] },
+        { "text": "IRD monitored its fish populations between 2003 and 2012.", "evidence": "verified", "sourceIds": ["ird-ppeao-bamboung"] },
+        { "text": "Products or services linked to community-managed fishing areas could reward their protection. Viability and current status are unknown.", "evidence": "hypothesis", "sourceIds": [] }
+      ],
+      "validationNeeded": [
+        "Current status of the Bamboung community MPA",
+        "Monitoring results after 2012",
+        "Community rules on commercial use",
+        "Market demand"
+      ],
+      "organisationLinks": [
+        { "organisationId": "oceanium", "relationship": "related-initiative", "statement": { "text": "Proposed and led the Bamboung community marine protected area project.", "evidence": "verified", "sourceIds": ["ird-ppeao-bamboung"] } }
+      ]
+    },
+    {
+      "id": "tanbi-oyster-enterprise",
+      "title": "Women-led oyster and cockle products under co-management",
+      "territoryIds": ["ramsar-1657"],
+      "themeIds": ["fisheries", "livelihoods", "governance"],
+      "challengeIds": ["tanbi-mangrove-shellfish"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "The Gambia designated the TRY Association with exclusive use rights to the cockle and oyster fishery in the Tanbi special management area.", "evidence": "verified", "sourceIds": ["uri-crc-comgmt-approval", "tanbi-comgmt-plan-2012"] },
+        { "text": "TRY members agreed to extend the closed season to nine months to let oysters grow bigger.", "evidence": "verified", "sourceIds": ["tanbi-comgmt-plan-2012"] },
+        { "text": "A 2010 grant set up microcredit for members, who learned to pickle oysters for sale during the closed season.", "evidence": "verified", "sourceIds": ["tanbi-comgmt-plan-2012"] },
+        { "text": "TRY received a GEF grant through the National Environment Agency for mangrove reforestation and aquaculture.", "evidence": "verified", "sourceIds": ["tanbi-comgmt-plan-2012"] },
+        { "text": "Value-added oyster products sold under existing co-management rights could raise income without increasing harvest.", "evidence": "interpretation", "sourceIds": ["tanbi-comgmt-plan-2012"] }
+      ],
+      "validationNeeded": [
+        "Whether the 2012 co-management plan is still in force",
+        "Product safety and water quality near Banjul",
+        "Market demand for processed oysters",
+        "Consultation with the parks and fisheries departments"
+      ],
+      "organisationLinks": [
+        { "organisationId": "try-association", "relationship": "related-initiative", "statement": { "text": "Holds exclusive cockle and oyster use rights in Tanbi and manages the fishery under the co-management plan.", "evidence": "verified", "sourceIds": ["tanbi-comgmt-plan-2012", "uri-crc-comgmt-approval"] } },
+        { "organisationId": "uri-crc", "relationship": "related-initiative", "statement": { "text": "Implemented the USAID Ba Nafaa project that supported the co-management plan and the 2010 microcredit grant.", "evidence": "verified", "sourceIds": ["tanbi-comgmt-plan-2012"] } },
+        { "organisationId": "dpwm", "relationship": "potential-stakeholder", "statement": { "text": "Manages the national park and assists with enforcement under the co-management plan, so would need to be consulted.", "evidence": "interpretation", "sourceIds": ["ramsar-ris-1657-2006", "tanbi-comgmt-plan-2012"] } }
+      ]
+    },
+    {
+      "id": "konkoure-solar-salt",
+      "title": "Women-led solar salt production",
+      "territoryIds": ["ramsar-575"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "challengeIds": ["konkoure-fuelwood"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "Guinée Écologie reports supporting ten women's groups with solar tarpaulins and technical help in the Konkouré delta and the Mélakoré estuary in 2025.", "evidence": "verified", "sourceIds": ["ge-annual-report-2025"] },
+        { "text": "BirdLife reports a CEPF-funded pilot in Dubréka prefecture producing salt with sunlight and tarpaulins instead of fuelwood.", "evidence": "verified", "sourceIds": ["birdlife-2019-solar-salt"] },
+        { "text": "Since salt boiling is a documented driver of mangrove cutting here, women-led solar salt production is a defensible regenerative activity.", "evidence": "interpretation", "sourceIds": ["gret-promak-page", "ge-annual-report-2025"] }
+      ],
+      "validationNeeded": [
+        "Results at the Konkouré sites specifically (2025 figures combine two areas)",
+        "Salt quality, prices and buyers compared with boiled salt",
+        "Access to salt flats",
+        "Fit with the planned protected area"
+      ],
+      "organisationLinks": [
+        { "organisationId": "guinee-ecologie", "relationship": "related-initiative", "statement": { "text": "Supported women's groups with solar-salt tarpaulins in the Konkouré delta in 2025.", "evidence": "verified", "sourceIds": ["ge-annual-report-2025"] } },
+        { "organisationId": "ogpnrf", "relationship": "potential-stakeholder", "statement": { "text": "Named as the future manager of the proposed Konkouré protected area, so would need to be consulted.", "evidence": "interpretation", "sourceIds": ["promak-tdr-2026"] } }
+      ]
+    },
+    {
+      "id": "konkoure-improved-ovens",
+      "title": "Improved fish-smoking ovens",
+      "territoryIds": ["ramsar-575"],
+      "themeIds": ["mangroves", "fisheries", "livelihoods"],
+      "challengeIds": ["konkoure-fuelwood"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "Guinée Écologie reports supporting 98 women in the Konkouré delta in 2025 to rebuild and use improved fish-smoking ovens.", "evidence": "verified", "sourceIds": ["ge-annual-report-2025"] },
+        { "text": "Wider use of improved ovens could cut the fuelwood demand that drives mangrove cutting here.", "evidence": "interpretation", "sourceIds": ["ge-annual-report-2025", "promak-tdr-2026"] }
+      ],
+      "validationNeeded": [
+        "Measured fuelwood savings and continued use",
+        "Cost and maintenance of the ovens",
+        "Fish supply and market requirements"
+      ],
+      "organisationLinks": [
+        { "organisationId": "guinee-ecologie", "relationship": "related-initiative", "statement": { "text": "Supported women in the Konkouré delta in 2025 to rebuild and use improved fish-smoking ovens.", "evidence": "verified", "sourceIds": ["ge-annual-report-2025"] } }
+      ]
+    },
+    {
+      "id": "konkoure-oysters-honey",
+      "title": "Oyster farming and mangrove honey value chains",
+      "territoryIds": ["ramsar-575"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "challengeIds": [],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "Guinée Écologie installed oyster garlands at pilot sites, two of them in the Konkouré delta, in 2025.", "evidence": "verified", "sourceIds": ["ge-annual-report-2025"] },
+        { "text": "PROMAK describes honey as a little-developed value chain in the Konkouré landscape, with a few pilot initiatives, and commissioned a 2026 market and value-chain study.", "evidence": "verified", "sourceIds": ["promak-tdr-2026"] },
+        { "text": "Oyster and honey products depend on healthy mangroves, so value chains built around them could reward protection, subject to the planned market study.", "evidence": "interpretation", "sourceIds": ["ge-annual-report-2025", "promak-tdr-2026"] }
+      ],
+      "validationNeeded": [
+        "Findings of the 2026 PROMAK market and value-chain study",
+        "Oyster food safety and water quality",
+        "Honey yields and buyers"
+      ],
+      "organisationLinks": [
+        { "organisationId": "guinee-ecologie", "relationship": "related-initiative", "statement": { "text": "Runs oyster-farming pilots in the Konkouré delta and the few honey pilots in the landscape.", "evidence": "verified", "sourceIds": ["ge-annual-report-2025", "promak-tdr-2026"] } },
+        { "organisationId": "gret", "relationship": "related-initiative", "statement": { "text": "Leads the PROMAK consortium, which commissioned a 2026 market and value-chain study for the Konkouré landscape.", "evidence": "verified", "sourceIds": ["promak-fiche", "promak-tdr-2026"] } }
+      ]
+    },
+    {
+      "id": "slre-community-planting",
+      "title": "Community mangrove nurseries and planting",
+      "territoryIds": ["ramsar-1014"],
+      "themeIds": ["mangroves", "livelihoods", "finance"],
+      "challengeIds": ["slre-clearance-fishing", "slre-encroachment"],
+      "evidence": "hypothesis",
+      "rationale": [
+        { "text": "Freetown City Council reports planting 275,000 mangroves in three coastal communities, tracked digitally by community youth; whether these sites lie in the Ramsar site is not established.", "evidence": "verified", "sourceIds": ["fcc-mangrove-planting"] },
+        { "text": "A blue-carbon developer announced in May 2024 a conservation and restoration project covering 10,000 hectares of the estuary; its current status is unknown.", "evidence": "verified", "sourceIds": ["wab-spring-2024"] },
+        { "text": "Community nurseries and paid planting could supply restoration in the estuary, if a restoration or carbon project proceeds.", "evidence": "hypothesis", "sourceIds": [] }
+      ],
+      "validationNeeded": [
+        "Whether planting sites are inside the Ramsar site",
+        "Status of the announced blue-carbon project",
+        "Land tenure and encroachment risk",
+        "Consultation with the protected-area authority"
+      ],
+      "organisationLinks": [
+        { "organisationId": "fcc", "relationship": "related-initiative", "statement": { "text": "Runs mangrove planting in Freetown coastal communities under its #FreetownTheTreeTown campaign.", "evidence": "verified", "sourceIds": ["fcc-mangrove-planting"] } },
+        { "organisationId": "npaa", "relationship": "potential-stakeholder", "statement": { "text": "Carries out enforcement at the estuary, although its mandate over wetlands is limited, so would need to be consulted.", "evidence": "interpretation", "sourceIds": ["assl-wetland-audit-2025"] } }
+      ]
+    },
+    {
+      "id": "slre-bird-guiding",
+      "title": "Community bird guiding at the Targreen wetland",
+      "territoryIds": ["ramsar-1014"],
+      "themeIds": ["livelihoods", "species"],
+      "challengeIds": ["slre-sand-pollution"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "In December 2024 the Sierra Leone Nature Guide Association trained stakeholders, youths and pupils around the Targreen wetland, part of the estuary, in bird conservation.", "evidence": "verified", "sourceIds": ["slnga-targreen-2024"] },
+        { "text": "Trained local guides could offer birdwatching services that give residents an income linked to protecting bird habitat.", "evidence": "interpretation", "sourceIds": ["slnga-targreen-2024"] }
+      ],
+      "validationNeeded": [
+        "Visitor demand and access to Lungi",
+        "Who would employ or certify guides",
+        "Effect of sand mining and pollution on the site"
+      ],
+      "organisationLinks": [
+        { "organisationId": "slnga", "relationship": "related-initiative", "statement": { "text": "Ran bird-conservation training around the Targreen wetland in December 2024.", "evidence": "verified", "sourceIds": ["slnga-targreen-2024"] } }
+      ]
+    },
+    {
+      "id": "piso-improved-stoves",
+      "title": "Improved stoves and fish processing",
+      "territoryIds": ["ramsar-1306"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "challengeIds": ["piso-mangrove-fuel"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "Wetlands International Africa supported the production and use of improved stoves with women in Fallie and Senbehun, and a cassava processing unit in Teh, under an EU-funded mangrove project (2025).", "evidence": "verified", "sourceIds": ["wi-africa-eu-visit-2025"] },
+        { "text": "The 2007 Ramsar sheet records earlier trials of fish-smoking structures and a solar fish drier.", "evidence": "verified", "sourceIds": ["ramsar-ris-1306-2007"] },
+        { "text": "Locally made improved stoves and smokers could reduce demand for mangrove wood, the main fuel for fish smoking here.", "evidence": "interpretation", "sourceIds": ["wi-africa-eu-visit-2025", "epicn-lake-piso"] }
+      ],
+      "validationNeeded": [
+        "Results of the current project (none published)",
+        "Fuel savings and adoption",
+        "Who would make and sell the stoves",
+        "Consultation with the reserve authority"
+      ],
+      "organisationLinks": [
+        { "organisationId": "wetlands-international", "relationship": "related-initiative", "statement": { "text": "Supported improved stoves and a cassava processing unit in Lake Piso communities under an EU-funded mangrove project.", "evidence": "verified", "sourceIds": ["wi-africa-eu-visit-2025"] } },
+        { "organisationId": "fda-liberia", "relationship": "potential-stakeholder", "statement": { "text": "Responsible for conservation forestry and lists the Lake Piso reserve among protected areas, so would need to be consulted.", "evidence": "interpretation", "sourceIds": ["fda-conservation-brief-2025"] } }
+      ]
+    },
+    {
+      "id": "piso-sustainable-fishery",
+      "title": "Selective fishing and small-scale fish farming",
+      "territoryIds": ["ramsar-1306"],
+      "themeIds": ["fisheries", "livelihoods"],
+      "challengeIds": ["piso-fishing"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "A 2016–2017 small grant trained fishers in selective fishing, supplied approved net sizes and started cage fish farming on the lake (marked completed; no outcome data).", "evidence": "verified", "sourceIds": ["sgp-24555-wud"] },
+        { "text": "Legal-mesh fishing combined with small-scale fish farming could reduce pressure on juvenile fish while sustaining income.", "evidence": "interpretation", "sourceIds": ["sgp-24555-wud", "ramsar-ris-1306-2007"] }
+      ],
+      "validationNeeded": [
+        "Outcomes of the earlier grant",
+        "Environmental effects of cage farming in the lake",
+        "Enforcement of net-size rules",
+        "Consultation with the environmental agency"
+      ],
+      "organisationLinks": [
+        { "organisationId": "wud-liberia", "relationship": "related-initiative", "statement": { "text": "Ran the 2016–2017 GEF small-grant project on selective fishing and cage fish farming at Lake Piso.", "evidence": "verified", "sourceIds": ["sgp-24555-wud"] } },
+        { "organisationId": "epa-liberia", "relationship": "potential-stakeholder", "statement": { "text": "Named in the Ramsar sheet as the agency responsible for the wetland, so would need to be consulted.", "evidence": "interpretation", "sourceIds": ["ramsar-ris-1306-2007"] } }
+      ]
     }
   ],
   "organisations": [
@@ -2268,8 +3159,8 @@
       "name": "Wetlands International (West Africa)",
       "type": "international-ngo",
       "url": "https://westafrica.wetlands.org/",
-      "territoryIds": ["cacheu-region", "cacheu-mangroves-park", "cantanhez-national-park"],
-      "role": { "text": "With IBAP and partners, ran a 2015–2018 initiative to conserve and restore the Cacheu mangroves, including ecological restoration of abandoned rice fields, solar salt and a fuel-efficient fish-smoking oven. It reports that its support has improved the conservation status of 82,000 hectares of mangroves across the Cacheu and Cantanhez parks.", "evidence": "verified", "sourceIds": ["wi-cacheu-report", "wi-tpntp", "wi-reviving-mangroves-2026"] }
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park", "cantanhez-national-park", "ramsar-1306"],
+      "role": { "text": "With IBAP and partners, ran a 2015–2018 initiative to conserve and restore the Cacheu mangroves, including ecological restoration of abandoned rice fields, solar salt and a fuel-efficient fish-smoking oven. It reports that its support has improved the conservation status of 82,000 hectares of mangroves across the Cacheu and Cantanhez parks. In Liberia's Lake Piso reserve it has supported improved stoves and a cassava processing unit under an EU-funded mangrove project.", "evidence": "verified", "sourceIds": ["wi-cacheu-report", "wi-tpntp", "wi-reviving-mangroves-2026", "wi-africa-eu-visit-2025"] }
     },
     {
       "id": "iucn",
@@ -2321,6 +3212,255 @@
       "url": "https://www.ce3c.pt/",
       "territoryIds": ["bijagos-archipelago"],
       "role": { "text": "Runs a research project on the ecological integrity of the Bijagós as a key site for waders on the East Atlantic Flyway, with partners including Tiniguena.", "evidence": "verified", "sourceIds": ["ce3c-bijagos-waders"] }
+    },
+    {
+      "id": "cenagref",
+      "name": "Centre National de Gestion des Réserves de Faune",
+      "acronym": "CENAGREF",
+      "type": "government-agency",
+      "territoryIds": ["mono-biosphere-reserve"],
+      "role": { "text": "Benin's national wildlife-reserve agency; supervising administration of the Bouche du Roy marine protected area inside the reserve.", "evidence": "verified", "sourceIds": ["iucn-agereb-tor-2025"] }
+    },
+    {
+      "id": "giz",
+      "name": "Deutsche Gesellschaft für Internationale Zusammenarbeit",
+      "acronym": "GIZ",
+      "type": "international-organisation",
+      "url": "https://www.giz.de/",
+      "territoryIds": ["mono-biosphere-reserve"],
+      "role": { "text": "Implemented the 2013–2019 project, funded by the German International Climate Initiative, that prepared the transboundary biosphere reserve.", "evidence": "verified", "sourceIds": ["giz-mono-delta-project", "iki-mono-delta"] }
+    },
+    {
+      "id": "iucn-nl",
+      "name": "IUCN National Committee of the Netherlands",
+      "acronym": "IUCN NL",
+      "type": "international-ngo",
+      "url": "https://www.iucn.nl/",
+      "territoryIds": ["mono-biosphere-reserve"],
+      "role": { "text": "Worked with local partners, GIZ and both governments to create the reserve, and partners Eco-Benin on blue-carbon mangrove work.", "evidence": "verified", "sourceIds": ["iucnnl-mono-story", "iucnnl-blue-carbon"] }
+    },
+    {
+      "id": "eco-benin",
+      "name": "Eco-Benin",
+      "type": "national-ngo",
+      "url": "https://www.ecobenin.org/",
+      "territoryIds": ["mono-biosphere-reserve"],
+      "role": { "text": "Beninese NGO running mangrove restoration and sacralisation and a blue-carbon project in the Bouche du Roy area of the reserve.", "evidence": "verified", "sourceIds": ["ecobenin-restoration-2023", "iucnnl-blue-carbon"] }
+    },
+    {
+      "id": "hyprep",
+      "name": "Hydrocarbon Pollution Remediation Project",
+      "acronym": "HYPREP",
+      "type": "government-agency",
+      "url": "https://hyprep.gov.ng/",
+      "territoryIds": ["ramsar-2593"],
+      "role": { "text": "Federal agency under the Ministry of Environment carrying out the Ogoniland clean-up, mangrove restoration and livelihood programmes, and preparing the Ramsar site management plan.", "evidence": "verified", "sourceIds": ["hyprep-about", "map-hyprep-phase2-2026"] }
+    },
+    {
+      "id": "unep",
+      "name": "United Nations Environment Programme",
+      "acronym": "UNEP",
+      "type": "international-organisation",
+      "url": "https://www.unep.org/",
+      "territoryIds": ["ramsar-2593"],
+      "role": { "text": "Carried out the 2011 independent environmental assessment of Ogoniland whose recommendations frame the clean-up.", "evidence": "verified", "sourceIds": ["unep-oea-2011"] }
+    },
+    {
+      "id": "fmb",
+      "name": "Fundação Maio Biodiversidade",
+      "acronym": "FMB",
+      "type": "national-ngo",
+      "url": "https://www.fmb-maio.org/",
+      "territoryIds": ["ramsar-2182"],
+      "role": { "text": "Maio NGO that managed the Salinas under a 2012 delegation, monitors its birds and turtles, and leads co-management of Maio's protected areas.", "evidence": "verified", "sourceIds": ["rufford-10968-final-report", "ramsar-ris-2182-2013", "cepf-111640-process-framework"] }
+    },
+    {
+      "id": "dna-cabo-verde",
+      "name": "Direção Nacional do Ambiente (Cabo Verde)",
+      "acronym": "DNA",
+      "type": "government-agency",
+      "territoryIds": ["ramsar-2182"],
+      "role": { "text": "National environment directorate with the mandate and authority on biodiversity and conservation in Cabo Verde.", "evidence": "verified", "sourceIds": ["cepf-111640-process-framework"] }
+    },
+    {
+      "id": "oipr",
+      "name": "Office Ivoirien des Parcs et Réserves",
+      "acronym": "OIPR",
+      "type": "government-agency",
+      "territoryIds": ["ramsar-1584"],
+      "role": { "text": "Holds delegated management of the national-park part of the Ramsar site.", "evidence": "verified", "sourceIds": ["ramsar-ris-1584-2018"] }
+    },
+    {
+      "id": "waca",
+      "name": "West Africa Coastal Areas Management Program (WACA)",
+      "acronym": "WACA",
+      "type": "international-programme",
+      "url": "https://projects.worldbank.org/en/projects-operations/project-detail/P162337",
+      "territoryIds": ["ramsar-1584", "ramsar-1722"],
+      "role": { "text": "World Bank-financed coastal resilience programme; funded mangrove restoration with OIPR in Côte d'Ivoire and mangrove planting in Togo.", "evidence": "verified", "sourceIds": ["fratmat-2020-oipr-waca", "worldbank-2024-tamed-sea", "worldbank-p162337"] }
+    },
+    {
+      "id": "wildlife-division-ghana",
+      "name": "Wildlife Division, Forestry Commission of Ghana",
+      "type": "government-agency",
+      "territoryIds": ["ramsar-567"],
+      "role": { "text": "Management authority of the Keta Lagoon Complex Ramsar Site, mandated to enforce the law.", "evidence": "verified", "sourceIds": ["klcrs-mp-2023"] }
+    },
+    {
+      "id": "a-rocha-ghana",
+      "name": "A Rocha Ghana",
+      "type": "national-ngo",
+      "url": "https://ghana.arocha.org/",
+      "territoryIds": ["ramsar-567"],
+      "role": { "text": "Ran the 2021–2023 PAPBio mangrove restoration and livelihoods project in four Keta Lagoon communities, with the Wildlife Division.", "evidence": "verified", "sourceIds": ["arocha-papbio-2024"] }
+    },
+    {
+      "id": "togo-environment-ministry",
+      "name": "Ministère de l'Environnement (Togo)",
+      "type": "government-agency",
+      "url": "https://environnement.gouv.tg/",
+      "territoryIds": ["ramsar-1722"],
+      "role": { "text": "Its staff act against unsustainable logging, fishing and illegal hunting at the site; it is the implementing agency of WACA in Togo.", "evidence": "verified", "sourceIds": ["ramsar-annotated-tg", "worldbank-p162337"] }
+    },
+    {
+      "id": "ctcn",
+      "name": "Climate Technology Centre and Network",
+      "acronym": "CTCN",
+      "type": "international-programme",
+      "url": "https://www.ctc-n.org/",
+      "territoryIds": ["ramsar-1722"],
+      "role": { "text": "UNFCCC technology body that prepared a 2025 technical-assistance plan for women-led mangrove restoration and solar fish preservation in Togo's Maritime Region.", "evidence": "verified", "sourceIds": ["ctcn-2025-togo"] }
+    },
+    {
+      "id": "pnba",
+      "name": "Parc National du Banc d'Arguin",
+      "acronym": "PNBA",
+      "type": "government-agency",
+      "url": "https://pnba.mr/",
+      "territoryIds": ["ramsar-250"],
+      "role": { "text": "Public administrative body that manages the park under its own law (2000-024).", "evidence": "verified", "sourceIds": ["pnba-home"] }
+    },
+    {
+      "id": "bacomab",
+      "name": "BACoMaB Trust Fund (Fonds Fiduciaire du Banc d'Arguin et de la Biodiversité Côtière et Marine)",
+      "acronym": "BACoMaB",
+      "type": "conservation-trust-fund",
+      "url": "https://bacomab.org/",
+      "territoryIds": ["ramsar-250"],
+      "role": { "text": "Conservation trust fund created in 2009 that provides long-term funding for the park, including sea surveillance and shared governance.", "evidence": "verified", "sourceIds": ["bacomab-presentation", "bacomab-pnba"] }
+    },
+    {
+      "id": "dpn-senegal",
+      "name": "Direction des Parcs Nationaux (Senegal)",
+      "acronym": "DPN",
+      "type": "government-agency",
+      "territoryIds": ["ramsar-288"],
+      "role": { "text": "Named as the park's managing body in the 1993 Ramsar sheet; UNESCO names it as a partner in integrated management planning.", "evidence": "verified", "sourceIds": ["ramsar-ris-288-1993", "unesco-mab-saloum"] }
+    },
+    {
+      "id": "oceanium",
+      "name": "Océanium",
+      "type": "national-ngo",
+      "territoryIds": ["ramsar-288"],
+      "role": { "text": "Senegalese marine conservation association that proposed and led the Bamboung community marine protected area project.", "evidence": "verified", "sourceIds": ["ird-ppeao-bamboung"] }
+    },
+    {
+      "id": "try-association",
+      "name": "TRY Oyster Women's Association",
+      "acronym": "TRY",
+      "type": "national-ngo",
+      "territoryIds": ["ramsar-1657"],
+      "role": { "text": "Community-based non-profit founded in 2007 that holds exclusive cockle and oyster use rights in Tanbi; it received the Equator Prize in 2012.", "evidence": "verified", "sourceIds": ["tanbi-comgmt-plan-2012", "uri-crc-equator"] }
+    },
+    {
+      "id": "dpwm",
+      "name": "Department of Parks and Wildlife Management (The Gambia)",
+      "acronym": "DPWM",
+      "type": "government-agency",
+      "territoryIds": ["ramsar-1657"],
+      "role": { "text": "Has managed the Tanbi Wetlands Complex since 2005 and assists with enforcement under the shellfish co-management plan.", "evidence": "verified", "sourceIds": ["ramsar-ris-1657-2006", "tanbi-comgmt-plan-2012"] }
+    },
+    {
+      "id": "uri-crc",
+      "name": "Coastal Resources Center, University of Rhode Island",
+      "acronym": "URI CRC",
+      "type": "research-institution",
+      "url": "https://www.crc.uri.edu/",
+      "territoryIds": ["ramsar-1657"],
+      "role": { "text": "Implemented the USAID Ba Nafaa project, with WWF, that supported the Tanbi shellfish co-management plan.", "evidence": "verified", "sourceIds": ["tanbi-comgmt-plan-2012"] }
+    },
+    {
+      "id": "guinee-ecologie",
+      "name": "Guinée Écologie",
+      "type": "national-ngo",
+      "territoryIds": ["ramsar-575"],
+      "role": { "text": "Guinean NGO running mangrove restoration, solar salt, improved ovens and oyster pilots in the Konkouré delta, and a partner in the PROMAK protected-area project.", "evidence": "verified", "sourceIds": ["ge-annual-report-2025", "promak-fiche"] }
+    },
+    {
+      "id": "gret",
+      "name": "GRET",
+      "type": "international-ngo",
+      "url": "https://gret.org/",
+      "territoryIds": ["ramsar-575"],
+      "role": { "text": "Leads the EU-funded PROMAK consortium (2025–2028) working towards legal protection of the Konkouré mangroves.", "evidence": "verified", "sourceIds": ["gret-promak-page", "promak-fiche"] }
+    },
+    {
+      "id": "ogpnrf",
+      "name": "Office Guinéen des Parcs Nationaux et Réserves de Faune",
+      "acronym": "OGPNRF",
+      "type": "government-agency",
+      "territoryIds": ["ramsar-575"],
+      "role": { "text": "Named as the future manager of the protected area proposed for the Konkouré mangroves.", "evidence": "verified", "sourceIds": ["promak-tdr-2026"] }
+    },
+    {
+      "id": "npaa",
+      "name": "National Protected Area Authority (Sierra Leone)",
+      "acronym": "NPAA",
+      "type": "government-agency",
+      "territoryIds": ["ramsar-1014"],
+      "role": { "text": "Statutory protected-area authority; carries out enforcement against encroachment at the estuary, though its mandate over wetlands is limited.", "evidence": "verified", "sourceIds": ["assl-wetland-audit-2025", "premier-npaa-aberdeen"] }
+    },
+    {
+      "id": "fcc",
+      "name": "Freetown City Council",
+      "acronym": "FCC",
+      "type": "government-agency",
+      "url": "https://fcc.gov.sl/",
+      "territoryIds": ["ramsar-1014"],
+      "role": { "text": "Runs mangrove planting in Freetown coastal communities under its #FreetownTheTreeTown campaign.", "evidence": "verified", "sourceIds": ["fcc-mangrove-planting"] }
+    },
+    {
+      "id": "slnga",
+      "name": "Sierra Leone Nature Guide Association",
+      "acronym": "SLNGA",
+      "type": "national-ngo",
+      "territoryIds": ["ramsar-1014"],
+      "role": { "text": "Ran bird-conservation and nature-guiding training around the Targreen wetland in 2024.", "evidence": "verified", "sourceIds": ["slnga-targreen-2024"] }
+    },
+    {
+      "id": "fda-liberia",
+      "name": "Forestry Development Authority (Liberia)",
+      "acronym": "FDA",
+      "type": "government-agency",
+      "url": "https://www.fda.gov.lr/",
+      "territoryIds": ["ramsar-1306"],
+      "role": { "text": "National authority for conservation forestry; lists the Lake Piso Multiple Sustainable Use Reserve among Liberia's protected areas.", "evidence": "verified", "sourceIds": ["fda-conservation-brief-2025"] }
+    },
+    {
+      "id": "epa-liberia",
+      "name": "Environmental Protection Agency of Liberia",
+      "acronym": "EPA",
+      "type": "government-agency",
+      "territoryIds": ["ramsar-1306"],
+      "role": { "text": "Named in the 2007 Ramsar sheet as the agency responsible for the Lake Piso wetland.", "evidence": "verified", "sourceIds": ["ramsar-ris-1306-2007"] }
+    },
+    {
+      "id": "wud-liberia",
+      "name": "Women United for Development",
+      "acronym": "WUD",
+      "type": "national-ngo",
+      "territoryIds": ["ramsar-1306"],
+      "role": { "text": "Grantee of a 2016–2017 GEF small-grant project on sustainable fishing at Lake Piso.", "evidence": "verified", "sourceIds": ["sgp-24555-wud"] }
     }
   ],
   "sources": [
@@ -2383,6 +3523,70 @@
     { "id": "wi-reviving-mangroves-2026", "title": "Reviving mangroves in abandoned rice fields: a case study from Guinea-Bissau (6 March 2026)", "publisher": "Wetlands International", "url": "https://www.wetlands.org/blog/reviving-mangroves-in-abandoned-rice-fields-a-case-study-from-guinea-bissau/", "licence": "© Wetlands International — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
     { "id": "iucn-tri-newsletter-2023", "title": "The Restoration Initiative newsletter, issue 03 (January–July 2023)", "publisher": "The Restoration Initiative (hosted on iucn.org)", "url": "https://iucn.org/sites/default/files/2023-08/tri-newsletter-july-2023-compressed_1.pdf", "licence": "© The Restoration Initiative — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report" },
     { "id": "climate-chance-deduram", "title": "Sustainable development of mangrove agriculture — DEDURAM", "publisher": "Climate Chance", "url": "https://www.climate-chance.org/en/best-pratices/sustainable-development-of-mangrove-agriculture-deduram/", "licence": "© Climate Chance — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
-    { "id": "zenodo-gmw-v4", "title": "Global Mangrove Watch: timeseries of mangrove extent, version 4.1.12", "publisher": "Bunting, Hilarides, Rosenqvist et al. (Zenodo)", "url": "https://zenodo.org/records/21346457", "licence": "CC BY 4.0", "licenceUrl": "https://creativecommons.org/licenses/by/4.0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Cited only as an available monitoring dataset; not displayed on the map in Milestone 1." }
+    { "id": "zenodo-gmw-v4", "title": "Global Mangrove Watch: timeseries of mangrove extent, version 4.1.12", "publisher": "Bunting, Hilarides, Rosenqvist et al. (Zenodo)", "url": "https://zenodo.org/records/21346457", "licence": "CC BY 4.0", "licenceUrl": "https://creativecommons.org/licenses/by/4.0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Cited only as an available monitoring dataset; not displayed on the map in Milestone 1." },
+    { "id": "giz-mono-delta-project", "title": "Transboundary Biosphere Reserve in the Mono Delta (project 2013.9003.8, completed)", "publisher": "GIZ", "url": "https://www.giz.de/en/worldwide/27427.html", "licence": "© GIZ — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "iki-mono-delta", "title": "Transboundary Biosphere Reserve Mono Delta", "publisher": "International Climate Initiative (IKI)", "url": "https://www.international-climate-initiative.com/en/project/transboundary-biosphere-reserve-mono-delta-13-iv-029-afrika-g-biosphaerenreservat-mono/", "licence": "© International Climate Initiative (IKI) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "iucnnl-mono-story", "title": "Transboundary biosphere reserve connects people and nature", "publisher": "IUCN NL", "url": "https://www.iucn.nl/en/story/transboundary-biosphere-reserve-connects-people-and-nature/", "licence": "© IUCN NL — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "iucnnl-blue-carbon", "title": "Restoring mangroves financed with blue carbon credits", "publisher": "IUCN NL", "url": "https://www.iucn.nl/en/project/restoring-mangroves-financed-with-blue-carbon-credits/", "licence": "© IUCN NL — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "Describes planned activities; targets are aims, not results." },
+    { "id": "agereb-flyer", "title": "AGeReB Delta Mono — support to the Mono biosphere reserve and Bouche du Roy MPA (flyer)", "publisher": "Eco-Benin / IUCN / IUCN NL", "url": "https://ecobenin.org/wp-content/uploads/flyer_agereb_vf.pdf", "licence": "© Eco-Benin / IUCN / IUCN NL — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French." },
+    { "id": "iucn-agereb-tor-2025", "title": "Terms of reference — environmental and social management framework, Bouche du Roy MPA plan (AGeReB)", "publisher": "IUCN", "url": "https://iucn.org/sites/default/files/2025-06/tdr-cges_-amp_bouche-du-roy_agereb_ok.pdf", "licence": "© IUCN — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French. Activity period August 2025 to February 2026." },
+    { "id": "ecobenin-restoration-2023", "title": "Ecosystems Restoration Initiatives", "publisher": "Eco-Benin", "url": "https://www.ecobenin.org/wp-content/uploads/ECOSYSTEM-RESTAURATION-INITIATIVES_ECO-BENIN.pdf", "licence": "© Eco-Benin — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "2023 factsheet; figures are self-reported." },
+    { "id": "unep-oea-2011", "title": "Environmental Assessment of Ogoniland (2011)", "publisher": "United Nations Environment Programme (UNEP)", "url": "https://wedocs.unep.org/20.500.11822/7947", "licence": "© United Nations Environment Programme (UNEP) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "UNEP permits non-profit reproduction with acknowledgement; cited here for facts and short quotes only." },
+    { "id": "hyprep-about", "title": "About Us", "publisher": "Hydrocarbon Pollution Remediation Project (HYPREP)", "url": "https://hyprep.gov.ng/about-us/", "licence": "© Hydrocarbon Pollution Remediation Project (HYPREP) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "hyprep-livelihood", "title": "Livelihood Programme", "publisher": "Hydrocarbon Pollution Remediation Project (HYPREP)", "url": "https://hyprep.gov.ng/livelihood-programme/", "licence": "© Hydrocarbon Pollution Remediation Project (HYPREP) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "hyprep-newsletter-apr-2026", "title": "HYPREP Herald, April 2026", "publisher": "Hydrocarbon Pollution Remediation Project (HYPREP)", "url": "https://hyprep.gov.ng/download/38/news-letter/13031/hyprep-newsletter-april-2026", "licence": "© Hydrocarbon Pollution Remediation Project (HYPREP) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report" },
+    { "id": "hyprep-wed-2026", "title": "World Environment Day 2026: Ogoni environmental restoration is a results-driven climate action", "publisher": "Hydrocarbon Pollution Remediation Project (HYPREP)", "url": "https://hyprep.gov.ng/world-environment-day-2026-ogoni-environmental-restoration-is-a-results-driven-climate-action/", "licence": "© Hydrocarbon Pollution Remediation Project (HYPREP) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "map-hyprep-phase2-2026", "title": "Nigeria commences its phase 2 mangrove restoration project as the Ogoni wetland is designated a Ramsar site", "publisher": "Mangrove Action Project (article by HYPREP staff)", "url": "https://mangroveactionproject.org/2026/07/nigeria-commences-its-phase-2-mangrove-restoration-project/", "licence": "© Mangrove Action Project (article by HYPREP staff) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "article", "note": "Written by the implementing agency; restoration results are self-reported." },
+    { "id": "ramsar-ris-2182-2013", "title": "Information Sheet on Ramsar Wetlands — Salinas of the English Port (site 2182), 2013", "publisher": "Ramsar Convention Secretariat", "url": "https://rsis.ramsar.org/RISapp/files/RISrep/CV2182RIS.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Compiled 2013; authority names are out of date." },
+    { "id": "rufford-10968-final-report", "title": "Final report — Establishing effective conservation in Salina Porto Ingles, Maio (2012)", "publisher": "The Rufford Foundation / Fundação Maio Biodiversidade", "url": "https://media.rufford.org/media/project_reports/10968-1_Final_Report.pdf", "licence": "© The Rufford Foundation / Fundação Maio Biodiversidade — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Grantee report covering 2012; self-reported." },
+    { "id": "rufford-10968-page", "title": "Establishing Effective Conservation in the Salina Porto Ingles", "publisher": "The Rufford Foundation", "url": "https://www.rufford.org/projects/eusa-maria-silva-ribeiro/establishing-effective-conservation-in-the-salina-porto-ingles/", "licence": "© The Rufford Foundation — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "Grant dated January 2012." },
+    { "id": "rufford-15986-page", "title": "Improving the Socio-Ecological System of Salina do Porto Inglês for the Benefit of Wildlife and Local Community", "publisher": "The Rufford Foundation", "url": "https://rufford.org/projects/daniel-santos/improving-the-socio-ecological-system-of-salina-do-porto-ingl%C3%AAs-cape-verde-for-the-benefit-of-wildlife-and-local-community", "licence": "© The Rufford Foundation — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "Grant dated September 2014." },
+    { "id": "cepf-111640-process-framework", "title": "Process Framework — CEPF grant 111640: Co-management agreement for the Protected Areas of Maio", "publisher": "Critical Ecosystem Partnership Fund (CEPF)", "url": "https://cepf.net/resources/documents/safeguard-process-framework-150", "licence": "© Critical Ecosystem Partnership Fund (CEPF) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Dated April 2021; covers all seven protected areas on Maio." },
+    { "id": "ramsar-ris-1584-2018", "title": "Fiche descriptive Ramsar — Iles Ehotilé-Essouman (site 1584), 2018", "publisher": "Ramsar Convention Secretariat", "url": "https://rsis.ramsar.org/RISapp/files/RISrep/CI1584RIS_1809_fr.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French. Published 2018 but contains older text (data from 2005–2016)." },
+    { "id": "unesco-whc-tentative-2099", "title": "Parc national des Iles Ehotilé (Tentative List, 2006)", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/fr/listesindicatives/2099/", "licence": "© UNESCO World Heritage Centre — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "In French; text submitted by the State Party." },
+    { "id": "fratmat-2020-oipr-waca", "title": "Conservation des parcs nationaux d'Azagny et des Îles Ehotilé : l'OIPR et le projet WACA signent une convention (18 Oct 2020)", "publisher": "Fraternité Matin", "url": "https://www.fratmat.info/article/208863/economie/conservation-des-parcs-nationaux-dazagny-et-des-iles-ehotiles-loipr-et-le-projet-waca-signent-une-convention", "licence": "© Fraternité Matin — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "article", "note": "Secondary news source. In French." },
+    { "id": "aip-2025-04-cgl", "title": "Comité de gestion locale du Parc national des îles Éhotilé : bilan (26 Apr 2025)", "publisher": "Agence Ivoirienne de Presse", "url": "https://www.aip.ci/?p=184455", "licence": "© Agence Ivoirienne de Presse — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "article", "note": "Secondary news source. In French." },
+    { "id": "aip-2026-10-oipr-sensibilisation", "title": "Adiaké : l'OIPR initie une campagne de sensibilisation sur la conservation des aires protégées (3 Oct 2026)", "publisher": "Agence Ivoirienne de Presse", "url": "https://www.aip.ci/?p=425580", "licence": "© Agence Ivoirienne de Presse — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "article", "note": "Secondary news source. In French." },
+    { "id": "klcrs-mp-2023", "title": "Keta Lagoon Complex Ramsar Site Management Plan 2023–2032", "publisher": "Wildlife Division, Forestry Commission of Ghana (with IUCN, EU-funded PAPBio)", "url": "https://rsis.ramsar.org/RISapp/files/55364819/documents/GH567_mgt230828.pdf", "licence": "© Wildlife Division, Forestry Commission of Ghana (with IUCN, EU-funded PAPBio) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report" },
+    { "id": "arocha-papbio-2024", "title": "PAPBio end-of-project narrative: community-based mangrove management in the Keta Lagoon Complex Ramsar Site (Jan 2024)", "publisher": "A Rocha Ghana and Wildlife Division", "url": "https://old-ghana.arocha.org/wp-content/uploads/sites/15/2021/12/PAPBio-Final-Report-2024.pdf", "licence": "© A Rocha Ghana and Wildlife Division — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Implementer report; figures are self-reported." },
+    { "id": "ramsar-ris-1722-2007", "title": "Fiche descriptive Ramsar — Zones Humides du Littoral du Togo (site 1722), 2007", "publisher": "Ramsar Convention Secretariat", "url": "https://rsis.ramsar.org/RISapp/files/RISrep/TG1722RIS.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French. Dated 2007; threat data are old." },
+    { "id": "worldbank-2024-tamed-sea", "title": "The tamed sea: an alliance restored with coastal communities (6 Jun 2024)", "publisher": "World Bank", "url": "https://www.worldbank.org/en/news/feature/2024/06/06/the-tamed-sea-an-alliance-restored-with-coastal-communities", "licence": "© World Bank Group — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "article" },
+    { "id": "worldbank-p162337", "title": "West Africa Coastal Areas Resilience Investment Project (P162337)", "publisher": "World Bank", "url": "https://projects.worldbank.org/en/projects-operations/project-detail/P162337", "licence": "© World Bank Group — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "ctcn-2025-togo", "title": "CTCN technical assistance response plan: resilience of fishers and fish traders and mangrove restoration in the Maritime Region, Togo (2025)", "publisher": "Climate Technology Centre and Network (CTCN)", "url": "https://www.ctc-n.org/system/files/response_plans/AFCIA%20II%20_%20TOGO_Projet%20re%CC%81silience%20des%20pe%CC%81cheurs%20et%20mareyeurses%20et%20protection%20des%20mangroves%20final%20pour%20signature.pdf", "licence": "© Climate Technology Centre and Network (CTCN) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French. A planned project, not results." },
+    { "id": "unesco-whc-506", "title": "Banc d'Arguin National Park", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/506/", "licence": "© UNESCO — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "licenceUrl": "https://www.unesco.org/en/terms-use" },
+    { "id": "pnba-home", "title": "Parc National du Banc d'Arguin — accueil", "publisher": "Parc National du Banc d'Arguin (PNBA)", "url": "https://pnba.mr/", "licence": "© Parc National du Banc d'Arguin (PNBA) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "In French." },
+    { "id": "pnba-transformation", "title": "Transformation", "publisher": "Parc National du Banc d'Arguin (PNBA)", "url": "https://pnba.mr/transformation/", "licence": "© Parc National du Banc d'Arguin (PNBA) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "In French." },
+    { "id": "pnba-developpement-local", "title": "Développement local", "publisher": "Parc National du Banc d'Arguin (PNBA)", "url": "https://pnba.mr/developpement-local/", "licence": "© Parc National du Banc d'Arguin (PNBA) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "In French." },
+    { "id": "bacomab-pnba", "title": "Parc National du Banc d'Arguin — nos bénéficiaires", "publisher": "BACoMaB Trust Fund", "url": "https://bacomab.org/nos-beneficiaires/pnba/", "licence": "© BACoMaB Trust Fund — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "In French." },
+    { "id": "bacomab-presentation", "title": "Le BACoMaB Trust Fund en Mauritanie : présentation & missions", "publisher": "BACoMaB Trust Fund", "url": "https://bacomab.org/presentation/", "licence": "© BACoMaB Trust Fund — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "In French." },
+    { "id": "unesco-mab-saloum", "title": "Delta du Saloum", "publisher": "UNESCO Man and the Biosphere Programme", "url": "https://www.unesco.org/en/mab/delta-du-saloum", "licence": "© UNESCO — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "licenceUrl": "https://www.unesco.org/en/terms-use", "note": "Undated page." },
+    { "id": "iucn-eval-saloum-2011", "title": "Delta du Saloum (Sénégal) No. 1359 — IUCN technical evaluation (May 2011)", "publisher": "IUCN (via UNESCO World Heritage Centre)", "url": "https://whc.unesco.org/document/152466", "licence": "© IUCN (via UNESCO World Heritage Centre) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French. Dated 2011." },
+    { "id": "whc-decision-saloum-2011", "title": "World Heritage Committee decision, 35th session (2011) — Delta du Saloum", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/fr/decisions/4285/", "licence": "© UNESCO — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "licenceUrl": "https://www.unesco.org/en/terms-use", "note": "In French." },
+    { "id": "ramsar-ris-288-1993", "title": "Fiche descriptive Ramsar — Parc national du Delta du Saloum (1993)", "publisher": "Ramsar Convention Secretariat", "url": "https://rsis.ramsar.org/RISapp/files/RISrep/SN288RIS.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French. Scanned 1993 sheet; management details may be out of date." },
+    { "id": "ird-ppeao-bamboung", "title": "Base de données PPEAO — Aire marine protégée du Bolon de Bamboung 2003–2012", "publisher": "Institut de Recherche pour le Développement (IRD)", "url": "https://ppeao.ird.fr/work/documentation/metadata/files/Descriptif_Bamboung_2003_2012_peches_experimentales.pdf", "licence": "© Institut de Recherche pour le Développement (IRD) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French." },
+    { "id": "fao-cfi-wa-women-2023", "title": "Empowering women in fisheries value chains: good practices from Cabo Verde, Côte d'Ivoire and Senegal", "publisher": "FAO", "url": "https://www.fao.org/3/cc4250en/cc4250en.pdf", "licence": "CC BY-NC-SA 3.0 IGO", "accessed": "2026-10-19", "kind": "report", "licenceUrl": "https://creativecommons.org/licenses/by-nc-sa/3.0/igo/", "note": "Cited for facts only. Does not itself place Niodior within the park." },
+    { "id": "farmradio-saloum-2025", "title": "Senegal: Women of the Saloum Delta at the heart of mangrove protection (23 May 2025)", "publisher": "Farm Radio International (Barza Wire)", "url": "https://wire.farmradio.fm/farmer-stories/senegal-women-of-the-saloum-delta-at-the-heart-of-mangrove-protection/", "licence": "© Farm Radio International (Barza Wire) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "article", "note": "Secondary news source." },
+    { "id": "ramsar-ris-1657-2006", "title": "Information Sheet on Ramsar Wetlands — Tanbi Wetlands Complex (2006)", "publisher": "Ramsar Convention Secretariat", "url": "https://rsis.ramsar.org/RISapp/files/RISrep/GM1657RIS.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Scanned 2006 sheet." },
+    { "id": "tanbi-comgmt-plan-2012", "title": "Cockle and Oyster Fishery Co-Management Plan for the Tanbi Special Management Area (January 2012)", "publisher": "Ministry of Fisheries, Water Resources and National Assembly Matters, The Gambia (via FAOLEX)", "url": "https://faolex.fao.org/docs/pdf/gam219634.pdf", "licence": "© Ministry of Fisheries, Water Resources and National Assembly Matters, The Gambia (via FAOLEX) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Whether the plan is still in force today was not verified." },
+    { "id": "uri-crc-comgmt-approval", "title": "Co-management agreement: approval of the Cockle and Oyster Co-Management Plan", "publisher": "URI Coastal Resources Center (host)", "url": "https://www.crc.uri.edu/download/Approval_Cockle_Oyster_CoManagPlan.pdf", "licence": "© URI Coastal Resources Center (host) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report" },
+    { "id": "uri-crc-equator", "title": "TRY Oyster Women's Association of The Gambia wins Equator Prize", "publisher": "URI Coastal Resources Center", "url": "https://www.crc.uri.edu/stories_page/try-oyster-womens-association-of-the-gambia-wins-equator-prize/", "licence": "© URI Coastal Resources Center — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "gret-promak-page", "title": "Protection of Mangroves in Konkouré, Republic of Guinea", "publisher": "GRET", "url": "https://gret.org/en/?p=63417", "licence": "© GRET — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "promak-fiche", "title": "Projet PROMAK — Protection des Mangroves de Konkouré (project sheet)", "publisher": "GRET / Guinée Écologie / Eclosio (EU-funded)", "url": "https://gret.org/wp-content/uploads/2025/06/Fiche-projet-PROMAK.pdf", "licence": "© GRET / Guinée Écologie / Eclosio (EU-funded) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French." },
+    { "id": "promak-tdr-2026", "title": "Terms of reference — market and value-chain study, PROMAK project (25 June 2026)", "publisher": "GRET (PROMAK consortium)", "url": "https://www.coordinationsud.org/wp-content/uploads/TDR-etude-marche-et-filieres-PROMAK-VFF.docx.pdf", "licence": "© GRET (PROMAK consortium) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French." },
+    { "id": "ge-annual-report-2025", "title": "Rapport annuel d'activités 2025", "publisher": "Guinée Écologie", "url": "https://gn.chm-cbd.net/sites/gn/files/2026-03/Rapport%20Annuel%202025_GE_0.pdf", "licence": "© Guinée Écologie — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In French. Self-reported; some figures combine the Konkouré delta with the Mélakoré estuary." },
+    { "id": "birdlife-2019-solar-salt", "title": "How is new 'solar salt' technology saving Guinean mangroves?", "publisher": "BirdLife International", "url": "https://www.birdlife.org/news/2019/07/26/how-is-new-solar-salt-technology-saving-guinean-mangroves/", "licence": "© BirdLife International — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "article", "note": "Covers Dubréka prefecture generally, not specifically the Ramsar site." },
+    { "id": "assl-wetland-audit-2025", "title": "Performance Audit Report on the Implementation of Wetland Conservation, 2019–2023", "publisher": "Audit Service Sierra Leone", "url": "https://website.auditservice.gov.sl/wp-content/uploads/2025/05/Performance-Audit-Report-on-the-Implementation-of-wetland-conservation.pdf", "licence": "© Audit Service Sierra Leone — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report" },
+    { "id": "premier-npaa-aberdeen", "title": "NPAA Continues Demolition Exercise at Aberdeen Creek", "publisher": "Premier News SL", "url": "https://www.premiermedia-sl.com/?p=30142", "licence": "© Premier News SL — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "article", "note": "Secondary news source. Undated." },
+    { "id": "slnga-targreen-2024", "title": "Awareness training for stakeholders around Targreen community, Lungi (project report, Dec 2024)", "publisher": "Sierra Leone Nature Guide Association", "url": "https://flyway.waddensea-worldheritage.org/sites/default/files/2025-06/SLNGA%20project%20report%20Dec%202024.pdf", "licence": "© Sierra Leone Nature Guide Association — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report" },
+    { "id": "fcc-mangrove-planting", "title": "FCC targets Ojuku, Kolley Town & Kroo Bay communities with 275,000 trees", "publisher": "Freetown City Council", "url": "https://fcc.gov.sl/?p=9763", "licence": "© Freetown City Council — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "Year not stated on the page; whether the planting sites lie inside the Ramsar site is not established." },
+    { "id": "wab-spring-2024", "title": "Spring 2024 Quarterly Update", "publisher": "West Africa Blue", "url": "https://www.westafricablue.org/new/blog-post-title-four-7p58j", "licence": "© West Africa Blue — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "Project developer update (May 2024); current status unknown." },
+    { "id": "ramsar-ris-1306-2007", "title": "Information Sheet on Ramsar Wetlands — Lake Piso (site 1306), 2007", "publisher": "Ramsar Convention Secretariat (compiled by EPA Liberia)", "url": "https://rsis.ramsar.org/RISapp/files/RISrep/LR1306RIS.pdf", "licence": "© Ramsar Convention Secretariat (compiled by EPA Liberia) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "Dated 2007; predates the reserve's gazettement." },
+    { "id": "cepf-face-2007", "title": "Biodiversity and environmental impacts of human activities on the proposed Lake Piso Nature Reserve (2007)", "publisher": "Farmers Associated to Conserve the Environment (FACE) / CEPF", "url": "https://cepf.net/resources/documents/biodiversity-and-environmental-impacts-human-activities-proposed-lake-piso", "licence": "© Farmers Associated to Conserve the Environment (FACE) / CEPF — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report" },
+    { "id": "sgp-24555-wud", "title": "Promoting sustainable fishery in the Lake Piso Basin Multiple Sustainable Use Reserve (2016–2017)", "publisher": "GEF Small Grants Programme (UNDP)", "url": "https://sgp.undp.org/spacial-itemid-projects-landing-page/spacial-itemid-project-search-results/spacial-itemid-project-detailpage.html?view=projectdetail&id=24555", "licence": "© GEF Small Grants Programme (UNDP) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "Funder record; marked satisfactorily completed, no outcome data." },
+    { "id": "sgp-24550-esl", "title": "Preventing organic pollution of Lake Piso (2016–2017)", "publisher": "GEF Small Grants Programme (UNDP)", "url": "https://sgp.undp.org/spacial-itemid-projects-landing-page/spacial-itemid-project-search-results/spacial-itemid-project-detailpage.html?view=projectdetail&id=24550", "licence": "© GEF Small Grants Programme (UNDP) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "epicn-lake-piso", "title": "Building local climate resilience through mangrove restoration in Western Liberia", "publisher": "EPIC-Network (University of Liberia project story)", "url": "https://www.epicn.org/stories/mangrove-conservation-as-a-nature-based-approach-to-enhancing-biodiversity-and-reducing-the-impact-of-climate-change-in-the-lake-piso-area-of-western-liberia/", "licence": "© EPIC-Network (University of Liberia project story) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "article", "note": "Undated secondary source." },
+    { "id": "rufford-kannah", "title": "Participatory assessment of community and state-based mangrove conservation in Lake Piso", "publisher": "The Rufford Foundation", "url": "https://www.rufford.org/projects/john-kannah/participatory-assessment-for-the-opportunities-and-challenges-between-the-community-and-the-state-based-conservation-of-mangroves-forest-in-lake-piso-liberia/", "licence": "© The Rufford Foundation — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "fda-conservation-brief-2025", "title": "Technical brief — Conservation forestry in Liberia (National Forest Forum, 2025)", "publisher": "Forestry Development Authority (Liberia)", "url": "https://www.fda.gov.lr/sites/default/files/documents/National%20Forest%20Forum%20brief%20CONSERVATION%20FINAL%201_0.pdf", "licence": "© Forestry Development Authority (Liberia) — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report" },
+    { "id": "wi-africa-eu-visit-2025", "title": "Visit of the European Union Delegation to Liberia (May 2025)", "publisher": "Wetlands International Africa", "url": "https://westafrica.wetlands.org/en/?p=4553", "licence": "© Wetlands International Africa — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" }
   ]
 }

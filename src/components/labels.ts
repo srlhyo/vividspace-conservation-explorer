@@ -35,7 +35,8 @@ export const evidenceMeta: Record<
 }
 
 export const territoryKindLabel: Record<TerritoryKind, string> = {
-  'ramsar-site': 'Ramsar site',
+  // A record category, not a designation: official designations are listed separately.
+  'ramsar-site': 'Wetland site',
   archipelago: 'Archipelago',
   'administrative-region': 'Administrative region',
   'protected-area': 'Protected area',
@@ -43,19 +44,24 @@ export const territoryKindLabel: Record<TerritoryKind, string> = {
 }
 
 export const territoryKindPlural: Record<TerritoryKind, string> = {
-  'ramsar-site': 'Ramsar sites',
+  'ramsar-site': 'wetland sites',
   archipelago: 'archipelagos',
   'administrative-region': 'administrative regions',
   'protected-area': 'protected areas',
   'community-protected-area': 'community protected areas',
 }
 
-/** "7 Ramsar sites · 1 protected area" */
+/** "Catalogued as: 7 wetland sites · 1 protected area" — record types, not official designations. */
 export function kindBreakdown(items: { kind: TerritoryKind; count: number }[]): string {
-  return items
-    .map(({ kind, count }) => `${count} ${count === 1 ? territoryKindLabel[kind].toLowerCase().replace(/^ramsar/, 'Ramsar') : territoryKindPlural[kind]}`)
-    .join(' · ')
+  if (items.length === 0) return ''
+  const parts = items.map(
+    ({ kind, count }) => `${count} ${count === 1 ? territoryKindLabel[kind].toLowerCase() : territoryKindPlural[kind]}`,
+  )
+  return `Catalogued as: ${parts.join(' · ')}`
 }
+
+export const kindBreakdownHint =
+  'Record types used in this catalogue. Official designations (Ramsar site, national park, …) are shown on each area and in the Designation filter.'
 
 export const verificationMeta: Record<VerificationStatus, { label: string; tone: string }> = {
   verified: { label: 'Verified', tone: 'bg-forest-soft text-forest ring-forest/30' },

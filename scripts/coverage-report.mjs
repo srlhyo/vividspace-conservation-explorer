@@ -7,19 +7,19 @@ const catalogue = JSON.parse(await readFile(new URL('../public/data/catalogue.js
 
 /** Research gaps that cannot be derived from the data. */
 const GAPS = {
-  BEN: 'Coastal Ramsar sites plus the transboundary Mono biosphere reserve. National marine/coastal protected areas not yet researched.',
-  CPV: 'Coastal Ramsar sites only. National marine protected areas and natural parks not yet researched.',
-  CIV: 'Coastal Ramsar sites only; two had erroneous Ramsar header coordinates (description coordinates used).',
-  GMB: 'Coastal and estuarine Ramsar sites. Niumi coordinates taken from Wikidata (Ramsar coordinates erroneous). Other national protected areas not yet researched.',
-  GHA: 'Coastal Ramsar sites. Muni-Pomadze coordinates taken from Wikidata (Ramsar coordinates erroneous).',
-  GIN: 'Coastal Ramsar sites; Ramsar summaries are dated (several from 1990–1993). National marine protected areas not yet researched.',
-  GNB: 'Detailed research: challenges, potential activities and organisations exist only here. Lagoa de Cufada added from Ramsar.',
-  LBR: 'Coastal Ramsar sites. Lake Piso coordinates from its Ramsar description (header coordinates erroneous). Proposed/declared marine protected areas not yet researched.',
-  MRT: "Coastal Ramsar sites, including Banc d'Arguin. National marine protected areas beyond Ramsar not yet researched.",
-  NGA: 'Only three coastal Ramsar sites (most Nigerian Ramsar sites are inland). Ebute Oni summary lists implausible species, so only habitat terms are used. Niger Delta protected areas not yet researched.',
-  SEN: 'Coastal Ramsar sites. Community marine protected areas (AMP) designated nationally not yet researched.',
-  SLE: 'One Ramsar site (coordinates from its description) and Western Area Peninsula National Park from Wikidata only (location-only). Marine protected areas (e.g. Yawri Bay, Sherbro, Turtle Islands) not yet verified.',
-  TGO: 'One coastal Ramsar site. The Mono transboundary biosphere reserve is catalogued under Benin. Further sites not yet researched.',
+  BEN: 'Researched area: Mono Transboundary Biosphere Reserve (challenges from GIZ, IUCN NL and NGO reports; restoration figures self-reported). Other coastal Ramsar sites are location records only. National marine/coastal protected areas not yet researched.',
+  CPV: 'Researched area: Salinas of the English Port, Maio (only one documented initiative, so its salt activity is a hypothesis). Other Ramsar sites are location records only. National marine protected areas and natural parks not yet researched.',
+  CIV: 'Researched area: Iles Ehotilé-Essouman (2018 Ramsar sheet, UNESCO, state news). No results found for the 2020 mangrove restoration agreement; no current park-authority website. Two sites had erroneous Ramsar header coordinates (description coordinates used).',
+  GMB: 'Researched area: Tanbi Wetlands Complex (2006 Ramsar sheet, 2012 shellfish co-management plan; whether the plan is still in force was not verified). Niumi coordinates taken from Wikidata (Ramsar coordinates erroneous). Other national protected areas not yet researched.',
+  GHA: 'Researched area: Keta Lagoon Complex (2023–2032 management plan; restoration figures self-reported). Muni-Pomadze coordinates taken from Wikidata (Ramsar coordinates erroneous).',
+  GIN: 'Researched area: Konkouré (EU-funded PROMAK project and Guinée Écologie 2025 report; the 1990 Ramsar sheet is illegible and project localities are not confirmed inside the Ramsar site). Other Ramsar summaries are dated (1990–1993). National marine protected areas not yet researched.',
+  GNB: 'Detailed research across the Bijagós, Cacheu and Cantanhez areas. Lagoa de Cufada added from Ramsar (location record only).',
+  LBR: 'Researched area: Lake Piso (2007 Ramsar sheet, which predates the reserve; current project results unpublished; no mangrove replanting documented yet). Lake Piso coordinates from its Ramsar description (header coordinates erroneous). Proposed/declared marine protected areas not yet researched.',
+  MRT: "Researched area: Banc d'Arguin (UNESCO, park authority, BACoMaB trust fund; Ramsar sheet not retrieved). National marine protected areas beyond Ramsar not yet researched.",
+  NGA: 'Researched area: Ogoniland Wetland (UNEP 2011 assessment, HYPREP clean-up; restoration figures self-reported). Only three coastal Ramsar sites (most Nigerian Ramsar sites are inland). Ebute Oni summary lists implausible species, so only habitat terms are used.',
+  SEN: 'Researched area: Delta du Saloum (UNESCO, IUCN 2011; the managing body is documented only in a 1993 Ramsar sheet; some initiatives from news). Community marine protected areas designated nationally not yet researched.',
+  SLE: 'Researched area: Sierra Leone River Estuary (Ramsar 1999, 2025 national audit; conflicting mangrove-trend figures are not shown; planting sites not confirmed inside the Ramsar site). Western Area Peninsula National Park from Wikidata only (location-only). Marine protected areas (e.g. Yawri Bay, Sherbro, Turtle Islands) not yet verified.',
+  TGO: 'Researched area: Zones Humides du Littoral du Togo (2007 Ramsar sheet, World Bank, a planned 2025 CTCN project; the site has no management plan). The Mono transboundary biosphere reserve is catalogued under Benin.',
 }
 
 const sourceById = new Map(catalogue.sources.map((s) => [s.id, s]))
@@ -62,7 +62,7 @@ const lines = [
   '',
   `Generated from \`public/data/catalogue.json\` (dataset v${catalogue.meta.version}, updated ${catalogue.meta.updated}). Regenerate with \`npm run data:coverage\`.`,
   '',
-  'The catalogue is a **researched selection** of marine and coastal conservation areas across the 13 WASOP countries, not an exhaustive official inventory. Outside Guinea-Bissau it consists mainly of Ramsar sites taken from the official Ramsar annotated lists. Locations are reference points; no protected-area boundaries are shown. WDPA/Protected Planet data is not used.',
+  'The catalogue is a **researched selection** of marine and coastal conservation areas across the 13 WASOP countries, not an exhaustive official inventory. Outside Guinea-Bissau it consists mainly of Ramsar sites taken from the official Ramsar annotated lists, with one researched area per country. Locations are reference points; no protected-area boundaries are shown. WDPA/Protected Planet data is not used.',
   '',
   '| Country | Areas | Location quality | With habitats | Challenges / activities | Main sources |',
   '|---|---:|---|---:|---|---|',
@@ -92,7 +92,7 @@ const lines = [
   '',
   "- Ramsar's annotated-list export contains erroneous site-header coordinates for several sites. Each affected record states which coordinates are used: the site description's own coordinates, or Wikidata.",
   '- Habitat tags for Ramsar sites reflect terms named in Ramsar\'s own site summary (reviewed for false matches). They are not mapped ecosystem extents.',
-  '- No conservation challenges, organisations or potential regenerative activities have been researched for areas outside Guinea-Bissau, and none are shown.',
+  '- Outside Guinea-Bissau, challenges, organisations and potential regenerative activities have been researched for one area per country. Potential activities are interpretations or hypotheses that need validation, and organisation links state either documented related work or an unvalidated stakeholder to consult.',
   '',
 ]
 await writeFile(new URL('../docs/coverage-report.md', import.meta.url), lines.join('\n'))

@@ -13,7 +13,7 @@ import {
 import type { Catalogue, Country, EvidenceLevel, Territory } from '../domain/types'
 import { EvidenceBadge } from './EvidenceBadge'
 import { GeometryGlyph } from './GeometryGlyph'
-import { kindBreakdown, territoryKindLabel } from './labels'
+import { kindBreakdown, kindBreakdownHint, territoryKindLabel } from './labels'
 import { Chevron } from './panel/parts'
 
 interface SidebarProps {
@@ -264,7 +264,9 @@ function CountryAreas({
 
   return (
     <div className="mb-2 ml-3 border-l border-line pl-2">
-      <p className="px-2 pt-1 pb-1.5 text-[11.5px] text-ink-muted">{kindBreakdown(countByKind(own))}</p>
+      <p className="px-2 pt-1 pb-1.5 text-[11.5px] text-ink-muted" title={kindBreakdownHint}>
+        {kindBreakdown(countByKind(own))}
+      </p>
       {rows.length === 0 ? (
         <p className="mx-1 rounded-md bg-cream px-2 py-1.5 text-[12px] text-ink-muted">
           No catalogued area here matches the current filters.

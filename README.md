@@ -1,6 +1,6 @@
 # Vivid Space · Conservation Opportunity Explorer
 
-A standalone geospatial dashboard prototype for discussion between Vivid Space and BlueSeeds. It covers marine and coastal conservation areas across the **13 West Africa Sustainable Ocean Programme (WASOP) countries**, with detailed research for Guinea-Bissau (the Bijagós Archipelago, the Cacheu region and Cantanhez National Park), and guides the viewer through:
+A standalone geospatial dashboard prototype for discussion between Vivid Space and BlueSeeds. It covers marine and coastal conservation areas across the **13 West Africa Sustainable Ocean Programme (WASOP) countries**, with detailed research for Guinea-Bissau (the Bijagós Archipelago, the Cacheu region and Cantanhez National Park) and one researched area in each of the other 12 countries, and guides the viewer through:
 
 **Territory → Conservation challenge → Potential regenerative activity → Supporting evidence → Next steps**
 
@@ -52,16 +52,17 @@ Notes:
 2. Open the challenge **Fuelwood demand on mangroves**.
 3. Open **Women-led solar salt production**. Read the evidence chain from verified facts to the proposal, then the questions to validate, the organisations with documented work on related initiatives (and the potential stakeholder to consult), and the sources.
 4. Use the breadcrumb to go back. Try **Orango Islands National Park → Community-owned, low-impact tourism → Also considered for: Bijagós Archipelago**.
+5. Choose another country, for example **The Gambia → Tanbi Wetlands Complex → Mangrove cutting and harvesting of juvenile shellfish → Women-led oyster and cockle products under co-management**, or **Mauritania → Parc National du Banc d'Arguin**.
 
 The URL updates as you go, so a prepared view can be bookmarked or reopened after a reload.
 
-Use **Explore world** to zoom out to a global view, and switch between the **2D map** and the **3D globe**. **Reset view** returns to Guinea-Bissau. The global view is for geographic orientation only: the conservation catalogue currently covers Guinea-Bissau, and the map says so when zoomed out.
+Use **Explore world** to zoom out to a global view, and switch between the **2D map** and the **3D globe**. **Reset view** returns to the WASOP regional overview. The global view is for geographic orientation only: the conservation catalogue covers the 13 WASOP countries.
 
 ## Data
 
 - `public/data/catalogue.json` holds territories, ecosystems, themes, challenges, potential activities, organisations and sources. The rules every entry must follow are enforced by `src/domain/validate.ts` and `src/data/dataset.test.ts`.
 - `public/data/geo/` holds the 13 WASOP country outlines (Natural Earth 1:50m, public domain) and the Guinea-Bissau region boundaries (geoBoundaries gbOpen, derived from OpenStreetMap, ODbL 1.0). Protected areas are shown as reference points only, because official protected-area boundaries (WDPA) are not used.
-- Outside Guinea-Bissau the catalogue is a researched selection, mainly coastal and marine Ramsar sites from the official Ramsar annotated lists. It is **not an exhaustive official inventory**, and those sites have no researched challenges or potential activities. See [`docs/coverage-report.md`](docs/coverage-report.md) (regenerate with `npm run data:coverage`).
+- Outside Guinea-Bissau the catalogue is a researched selection, mainly coastal and marine Ramsar sites from the official Ramsar annotated lists. It is **not an exhaustive official inventory**. One area per country has researched challenges, potential activities and organisations (named in the coverage report); the other sites are location and designation records only. See [`docs/coverage-report.md`](docs/coverage-report.md) (regenerate with `npm run data:coverage`).
 
 Filters (ecosystem type, conservation theme) use the attributes documented for each territory in the cited sources. They are not maps of where ecosystems or conditions occur. Matching territories stay green on the map and non-matching ones turn grey. The sidebar and the map both show how many territories match, with a one-click way to clear the filters.
 
