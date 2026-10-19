@@ -82,9 +82,9 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
   const filterLabels = attributeKeys.flatMap((key) =>
     filterOptions(catalogue, filters, key).filter((o) => filters[key].includes(o.id)).map((o) => o.label),
   )
-  // Choosing an area in another country from the list moves the country selection with it, so the
-  // area stays in scope; the map then focuses on the area itself.
-  const selectListedArea = (id: string) => {
+  // Choosing an area in another country (from the list or the map) moves the country selection with
+  // it, so the area stays in scope; attribute filters are kept, and the map focuses on the area.
+  const selectArea = (id: string) => {
     const code = catalogue.territories.find((t) => t.id === id)?.countryCode
     if (code && filters.countries.length > 0 && !filters.countries.includes(code)) {
       setFilters((f) => ({ ...f, countries: [code] }))
@@ -103,7 +103,7 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
         onClear={clearFilters}
         results={results}
         selectedId={selection.territoryId}
-        onSelect={selectListedArea}
+        onSelect={selectArea}
         onSelectCountry={selectCountry}
         onFocusCountry={(code) => requestView({ view: 'country', code })}
       />
@@ -113,7 +113,7 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
           territories={catalogue.territories}
           visibleIds={visibleIds}
           selectedId={selection.territoryId}
-          onSelect={selectTerritory}
+          onSelect={selectArea}
           selectedCountries={filters.countries}
           onSelectCountry={selectCountry}
           countryCounts={countryCounts}

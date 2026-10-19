@@ -333,8 +333,12 @@ export function ExplorerMap({
         const pick = (e: MapLayerMouseEvent): { id: string; name: string } | null => {
           if (!map) return null
           // Results are top-most first, so a protected-area point wins over the region around it.
+          // A greyed-out point (another country, or not matching the filters) can still be opened;
+          // greyed-out region fills are not, so clicking inside them still selects the country.
           const hits = map.queryRenderedFeatures(e.point, { layers: INTERACTIVE_LAYERS })
-          const hit = hits.find((f: maplibregl.MapGeoJSONFeature) => latest.current.visibleIds.has(String(f.properties.territoryId)))
+          const hit =
+            hits.find((f: maplibregl.MapGeoJSONFeature) => latest.current.visibleIds.has(String(f.properties.territoryId))) ??
+            hits.find((f: maplibregl.MapGeoJSONFeature) => f.layer.id === 'territory-points-circle')
           return hit ? { id: String(hit.properties.territoryId), name: String(hit.properties.name) } : null
         }
         const pickCountry = (e: MapLayerMouseEvent): { code: string; name: string } | null => {
