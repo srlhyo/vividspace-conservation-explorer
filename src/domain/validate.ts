@@ -89,7 +89,8 @@ export function validateCatalogue(catalogue: Catalogue): string[] {
       const org = catalogue.organisations.find((x) => x.id === link.organisationId)
       const at = `${where} → organisation ${link.organisationId}`
       if (!org) problems.push(`${at}: unknown organisation`)
-      else if (!org.territoryIds.some((t) => o.territoryIds.includes(t))) {
+      // Organisations without a documented territory (geographic context only) may still be linked.
+      else if (org.territoryIds.length > 0 && !org.territoryIds.some((t) => o.territoryIds.includes(t))) {
         problems.push(`${at}: organisation shares no territory with the opportunity`)
       }
       if (linked.has(link.organisationId)) problems.push(`${at}: linked twice`)

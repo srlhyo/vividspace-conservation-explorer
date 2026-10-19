@@ -252,8 +252,7 @@
       ],
       "livelihoods": [
         { "text": "Besides rice fields, the mangrove provides fish, timber, honey, salt and traditional medicine.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
-        { "text": "Mangrove rice farming here is a technology mastered by only a few ethnic groups and is described as unique cultural heritage.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
-        { "text": "Women on Elia Island, near the mouth of the Cacheu River, have been trained in oyster growing and solar salt production by The Restoration Initiative.", "evidence": "verified", "sourceIds": ["iucn-tri-newsletter-2023"] }
+        { "text": "Mangrove rice farming here is a technology mastered by only a few ethnic groups and is described as unique cultural heritage.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
       ],
       "ecosystems": [
         { "ecosystemId": "mangrove", "text": "Intertidal mangrove forest is the park's dominant wetland type.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229", "ramsar-annotated-gw"] },
@@ -467,7 +466,8 @@
       "evidence": "hypothesis",
       "rationale": [
         { "text": "Honey is among the services the Cacheu mangroves provide.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
-        { "text": "A Wetlands International project around the Cacheu and Cantanhez parks supports beekeeping, describing hives as 'mangrove guardians' because no one cuts a tree with an active hive.", "evidence": "verified", "sourceIds": ["mongabay-2024"] },
+        { "text": "Wetlands International reports that the savings and loans groups it has set up in Guinea-Bissau since 2015 lend for activities including beekeeping, and describes a local beekeeper's mangrove-honey initiative (location within the country not stated).", "evidence": "verified", "sourceIds": ["wi-reviving-mangroves-2026"] },
+        { "text": "A news report places beekeeping support within Wetlands International's project around the Cacheu and Cantanhez parks, describing hives as 'mangrove guardians' because no one cuts a tree with an active hive.", "evidence": "verified", "sourceIds": ["mongabay-2024"] },
         { "text": "A traceable mangrove-honey product could reward communities for keeping mangroves standing. Its commercial viability is unknown.", "evidence": "hypothesis", "sourceIds": [] }
       ],
       "validationNeeded": [
@@ -477,7 +477,7 @@
         "Seasonality and equipment costs"
       ],
       "organisationLinks": [
-        { "organisationId": "wetlands-international", "relationship": "related-initiative", "statement": {"text": "Its mangrove project around the Cacheu and Cantanhez parks supports beekeeping.", "evidence": "verified", "sourceIds": ["mongabay-2024"]} }
+        { "organisationId": "wetlands-international", "relationship": "related-initiative", "statement": {"text": "Its savings and loans groups in Guinea-Bissau lend for beekeeping, among other activities. The Cacheu and Cantanhez location of its beekeeping support comes from a news report, not from a primary Wetlands International source.", "evidence": "verified", "sourceIds": ["wi-reviving-mangroves-2026", "mongabay-2024"]} }
       ]
     },
     {
@@ -582,7 +582,7 @@
       "type": "government-agency",
       "url": "https://ibapgbissau.org/",
       "territoryIds": ["bijagos-archipelago", "orango-national-park", "joao-vieira-poilao", "urok-community-mpa", "cacheu-region", "cacheu-mangroves-park"],
-      "role": { "text": "Created in 2004 to protect and manage Guinea-Bissau's biodiversity through the National System of Protected Areas, which covers about 26% of the national territory. It coordinates management of the Bijagós World Heritage property and manages the Cacheu park.", "evidence": "verified", "sourceIds": ["ibap-apresentacao", "ffem-bioguine", "whc-1431", "ibap-pntc"] }
+      "role": { "text": "Created in 2004 to protect and manage Guinea-Bissau's biodiversity through the National System of Protected Areas, which covers about 26% of the national territory. It coordinates management of the Bijagós World Heritage property and manages the Cacheu park. Its 2006 annual report records the appointment of wardens for the Orango, João Vieira–Poilão and Cacheu parks; current park-level arrangements were not re-verified.", "evidence": "verified", "sourceIds": ["ibap-apresentacao", "ffem-bioguine", "whc-1431", "ibap-pntc", "ibap-annual-report-2006"] }
     },
     {
       "id": "bioguinea",
@@ -623,7 +623,7 @@
       "name": "The Restoration Initiative",
       "acronym": "TRI",
       "type": "international-programme",
-      "territoryIds": ["cacheu-region"],
+      "territoryIds": [],
       "role": { "text": "Restoration programme uniting 10 countries and three Global Environment Facility agencies (IUCN, FAO and UNEP). Its Guinea-Bissau project works with women on Elia Island, near the mouth of the Cacheu River. The reviewed source does not say which agency leads the Guinea-Bissau project.", "evidence": "verified", "sourceIds": ["iucn-tri-newsletter-2023"] }
     },
     {
@@ -677,6 +677,7 @@
     { "id": "ramsar-annotated-gw", "title": "Annotated list of Wetlands of International Importance — Guinea-Bissau", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea-Bissau.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report" },
     { "id": "ibap-ecotourism-guide-2016", "title": "Guinea-Bissau, land of biodiversity — ecotourism guide to protected areas (April 2016)", "publisher": "IBAP, with the Ministry of Tourism", "url": "https://www.ecoturismo.ibapgbissau.org/documentos/publicacoes/Guias/IBA-%20Guide%20ecotourisme%20EN%20LowDef.pdf", "licence": "© IBAP — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report" },
     { "id": "ibap-pntc", "title": "PNTC — Parque Natural dos Tarrafes de Cacheu", "publisher": "IBAP", "url": "https://ibapgbissau.org/pntc-ap/", "licence": "© IBAP — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage", "note": "At access time the IBAP website also displayed unrelated spam posts; the institutional pages cited appeared genuine." },
+    { "id": "ibap-annual-report-2006", "title": "Relatório anual de actividades 2006", "publisher": "IBAP", "url": "https://ibapgbissau.org/wp-content/uploads/2022/12/Relatorio-anual-IBAP-2006.pdf", "licence": "© IBAP — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report", "note": "In Portuguese. Historical (2006) record of park warden appointments; current arrangements not re-verified." },
     { "id": "ibap-apresentacao", "title": "Apresentação — Instituto da Biodiversidade e das Áreas Protegidas", "publisher": "IBAP", "url": "https://ibapgbissau.org/apresentacao/", "licence": "© IBAP — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage", "note": "In Portuguese. At access time the IBAP website also displayed unrelated spam posts; the institutional pages cited appeared genuine." },
     { "id": "bioguinea-blue-bijagos", "title": "Blue Bijagós — sustainable management of marine resources and improvement of livelihoods in MPAs of the Bijagós Archipelago", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/blue-bijagos/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "bioguinea-about", "title": "About Bio Guinea", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/about-bio-guinea/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
@@ -696,7 +697,8 @@
     { "id": "prcm-home", "title": "Partenariat Régional pour la Conservation de la zone côtière et Marine en Afrique de l'Ouest", "publisher": "PRCM", "url": "https://www.prcmarine.org/", "licence": "© PRCM — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage", "note": "In French." },
     { "id": "wi-cacheu-report", "title": "Conserving the biodiversity of the Cacheu Mangroves National Park — our achievements (2015–2018)", "publisher": "Wetlands International (hosted by Mangrove Action Project)", "url": "https://mangroveactionproject.org/wp-content/uploads/2021/06/WI-Guinea-Bissau-CBEMR-project-report-Cacheu-project-1.pdf", "licence": "© Wetlands International — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report" },
     { "id": "wi-tpntp", "title": "To Plant or Not To Plant (TPNTP) — case study", "publisher": "Wetlands International West Africa", "url": "https://westafrica.wetlands.org/en/case-study/to-plant-or-not-to-plant-tpntp", "licence": "© Wetlands International — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
-    { "id": "mongabay-2024", "title": "How a holistic approach aims to heal mangroves in Guinea-Bissau (27 Nov 2024)", "publisher": "Mongabay", "url": "https://news.mongabay.com/2024/11/how-a-holistic-approach-aims-to-heal-mangroves-in-guinea-bissau/", "licence": "© Mongabay — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "article" },
+    { "id": "mongabay-2024", "title": "How a holistic approach aims to heal mangroves in Guinea-Bissau (27 Nov 2024)", "publisher": "Mongabay", "url": "https://news.mongabay.com/2024/11/how-a-holistic-approach-aims-to-heal-mangroves-in-guinea-bissau/", "licence": "© Mongabay — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "article", "note": "Secondary news source. Its placement of beekeeping support in the Cacheu and Cantanhez project is not confirmed by the primary Wetlands International sources reviewed." },
+    { "id": "wi-reviving-mangroves-2026", "title": "Reviving mangroves in abandoned rice fields: a case study from Guinea-Bissau (6 March 2026)", "publisher": "Wetlands International", "url": "https://www.wetlands.org/blog/reviving-mangroves-in-abandoned-rice-fields-a-case-study-from-guinea-bissau/", "licence": "© Wetlands International — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
     { "id": "iucn-tri-newsletter-2023", "title": "The Restoration Initiative newsletter, issue 03 (January–July 2023)", "publisher": "The Restoration Initiative (hosted on iucn.org)", "url": "https://iucn.org/sites/default/files/2023-08/tri-newsletter-july-2023-compressed_1.pdf", "licence": "© The Restoration Initiative — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "report" },
     { "id": "climate-chance-deduram", "title": "Sustainable development of mangrove agriculture — DEDURAM", "publisher": "Climate Chance", "url": "https://www.climate-chance.org/en/best-pratices/sustainable-development-of-mangrove-agriculture-deduram/", "licence": "© Climate Chance — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "zenodo-gmw-v4", "title": "Global Mangrove Watch: timeseries of mangrove extent, version 4.1.12", "publisher": "Bunting, Hilarides, Rosenqvist et al. (Zenodo)", "url": "https://zenodo.org/records/21346457", "licence": "CC BY 4.0", "licenceUrl": "https://creativecommons.org/licenses/by/4.0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Cited only as an available monitoring dataset; not displayed on the map in Milestone 1." }

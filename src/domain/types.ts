@@ -159,6 +159,7 @@ export interface Organisation {
   acronym?: string
   type: OrganisationType
   url?: string
+  /** Territories where the role is documented; empty when only geographic context is known. */
   territoryIds: string[]
   role: Statement
 }

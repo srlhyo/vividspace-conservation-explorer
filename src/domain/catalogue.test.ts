@@ -211,6 +211,28 @@ describe('validateCatalogue', () => {
     expect(validateCatalogue(withLinks([{ organisationId: 'ghost', relationship: 'related-initiative', statement: verified }]))).toEqual([
       'opportunity op1 → organisation ghost: unknown organisation',
     ])
+    const elsewhere: Catalogue = {
+      ...withLinks([{ organisationId: 'org', relationship: 'related-initiative', statement: verified }]),
+      organisations: [{ ...fixture.organisations[0], territoryIds: ['c'] }],
+    }
+    expect(validateCatalogue(elsewhere)).toEqual([
+      'opportunity op1 → organisation org: organisation shares no territory with the opportunity',
+    ])
+  })
+
+  it('allows linking an organisation that has no documented territory', () => {
+    const verified = { text: 'ran a pilot', evidence: 'verified' as const, sourceIds: ['s1'] }
+    const programme: Catalogue = {
+      ...fixture,
+      organisations: [{ ...fixture.organisations[0], territoryIds: [] }],
+      opportunities: [
+        {
+          ...fixture.opportunities[0],
+          organisationLinks: [{ organisationId: 'org', relationship: 'related-initiative', statement: verified }],
+        },
+      ],
+    }
+    expect(validateCatalogue(programme)).toEqual([])
   })
 
   it('flags opportunities linked to a challenge from another territory', () => {
