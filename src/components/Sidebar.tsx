@@ -45,9 +45,6 @@ const journey = [
   'Check the evidence and next steps',
 ]
 
-/** When attribute filters leave at most this many matches, every country with matches opens. */
-const AUTO_EXPAND_MAX = 12
-
 export function Sidebar({
   catalogue,
   filters,
@@ -145,7 +142,6 @@ export function Sidebar({
 
         <CountryTree
           catalogue={catalogue}
-          results={results}
           // Every country stays listed, so its areas are matched on the attribute filters alone.
           attributeMatches={filterTerritories(catalogue, { ...filters, countries: [] })}
           selectedCountry={selectedCountry}
@@ -163,12 +159,11 @@ export function Sidebar({
 /**
  * All countries with their catalogued areas as one tree. Each row has two independent controls:
  * the chevron expands or collapses the country's areas, and the name selects the country.
- * Several countries can be open at once; a country opens automatically when it (or one of its
- * areas) becomes selected, or when a narrow filter leaves matches in it.
+ * Several countries can be open at once. A country opens once when it, or one of its areas,
+ * becomes selected (including from a deep link); after that only the chevron opens or closes it.
  */
 function CountryTree({
   catalogue,
-  results,
   attributeMatches,
   selectedCountry,
   selectedId,
@@ -178,8 +173,6 @@ function CountryTree({
   onSelect,
 }: {
   catalogue: Catalogue
-  /** Matches within the selected country (or the region); drives automatic opening. */
-  results: Territory[]
   attributeMatches: Territory[]
   selectedCountry: Country | undefined
   selectedId: string | null
@@ -190,19 +183,19 @@ function CountryTree({
 }) {
   const matching = new Set(attributeMatches.map((t) => t.id))
   const selectedTerritory = catalogue.territories.find((t) => t.id === selectedId)
-  const narrow = filtering && results.length <= AUTO_EXPAND_MAX
-  const autoOpen = [
-    selectedCountry?.code,
-    selectedTerritory?.countryCode,
-    ...(narrow ? results.map((t) => t.countryCode) : []),
-  ].filter((c): c is string => !!c)
-  // Open countries only when what triggers them changes, so the user can still collapse them.
-  const trigger = [selectedCountry?.code, selectedId, narrow ? results.map((t) => t.id).join(',') : ''].join('|')
-  const [expanded, setExpanded] = useState(() => new Set(autoOpen))
-  const [seenTrigger, setSeenTrigger] = useState(trigger)
-  if (trigger !== seenTrigger) {
-    setSeenTrigger(trigger)
-    setExpanded((e) => new Set([...e, ...autoOpen]))
+  const [expanded, setExpanded] = useState(
+    () => new Set([selectedCountry?.code, selectedTerritory?.countryCode].filter((c): c is string => !!c)),
+  )
+  // Reveal a country only when the selected country or area changes, so a later manual
+  // collapse is never undone by unrelated re-renders (filters, panel navigation, map moves).
+  const [seen, setSeen] = useState({ country: selectedCountry?.code, area: selectedId })
+  if (seen.country !== selectedCountry?.code || seen.area !== selectedId) {
+    const reveal = [
+      seen.country !== selectedCountry?.code ? selectedCountry?.code : undefined,
+      seen.area !== selectedId ? selectedTerritory?.countryCode : undefined,
+    ].filter((c): c is string => !!c)
+    setSeen({ country: selectedCountry?.code, area: selectedId })
+    if (reveal.length > 0) setExpanded((e) => new Set([...e, ...reveal]))
   }
   const toggleExpanded = (code: string) =>
     setExpanded((e) => {
