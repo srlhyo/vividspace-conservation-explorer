@@ -29,15 +29,19 @@ export function MapLegend({ filtersActive = false }: { filtersActive?: boolean }
   )
 }
 
-/** Shown on the map while filters are active: what matches, and how to undo it. */
+/** Shown on the map while designation, ecosystem or theme filters are active. */
 export function FilterSummary({
   matching,
   total,
+  scopeLabel,
   labels,
   onClear,
 }: {
   matching: number
+  /** Catalogued areas in the current scope (selected country or whole region). */
   total: number
+  /** e.g. "in Senegal" or "across 13 countries". */
+  scopeLabel: string
   labels: string[]
   onClear: () => void
 }) {
@@ -45,11 +49,11 @@ export function FilterSummary({
     <div className="pointer-events-auto flex max-w-md items-start gap-3 rounded-2xl bg-white/95 px-4 py-2 text-[12px] leading-snug text-ink shadow-card ring-1 ring-line backdrop-blur">
       <p className="min-w-0">
         {matching === 0 ? (
-          <span className="font-semibold text-clay">No territory matches all selected filters.</span>
+          <span className="font-semibold text-clay">No catalogued area {scopeLabel} matches all selected filters.</span>
         ) : (
           <>
             <span className="font-semibold">
-              {matching} of {total} territories match
+              {matching} of {total} catalogued areas {scopeLabel} match
             </span>{' '}
             <span className="text-ink-muted">· others are shown in grey</span>
           </>
@@ -58,6 +62,35 @@ export function FilterSummary({
       </p>
       <button type="button" onClick={onClear} className="shrink-0 rounded-full bg-forest px-2.5 py-1 text-[11.5px] font-medium text-white hover:bg-forest-deep">
         Clear filters
+      </button>
+    </div>
+  )
+}
+
+/** Shown on the map while a country is selected: what the catalogue holds for it. */
+export function CountryCard({
+  name,
+  count,
+  breakdown,
+  onClose,
+}: {
+  name: string
+  count: number
+  breakdown: string
+  onClose: () => void
+}) {
+  return (
+    <div className="pointer-events-auto flex max-w-md items-start gap-3 rounded-2xl bg-white/95 px-4 py-2 text-[12px] leading-snug text-ink shadow-card ring-1 ring-gold backdrop-blur">
+      <p className="min-w-0">
+        <span className="font-display text-[14px] font-semibold">{name}</span>
+        <span className="ml-1.5 font-semibold">
+          · {count === 0 ? 'no catalogued areas yet' : `${count} catalogued area${count === 1 ? '' : 's'}`}
+        </span>
+        {breakdown && <span className="mt-0.5 block text-ink-muted">{breakdown}</span>}
+        <span className="mt-0.5 block text-[11px] text-ink-muted">Researched selection, not a complete inventory.</span>
+      </p>
+      <button type="button" onClick={onClose} className="shrink-0 rounded-full bg-white px-2.5 py-1 text-[11.5px] font-medium text-forest ring-1 ring-line hover:bg-cream">
+        Whole region
       </button>
     </div>
   )

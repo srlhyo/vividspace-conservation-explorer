@@ -1,6 +1,9 @@
 import { describe, expect, it } from 'vitest'
 import {
+  countByKind,
   emptyFilters,
+  hasAttributeFilters,
+  territoriesInScope,
   filterOptions,
   filterTerritories,
   getTerritoryProfile,
@@ -191,6 +194,27 @@ describe('challenge → opportunity exploration', () => {
   it('summarises counts per territory', () => {
     expect(territorySummary(fixture, 'a')).toEqual({ challenges: 1, opportunities: 1 })
     expect(territorySummary(fixture, 'c')).toEqual({ challenges: 1, opportunities: 0 })
+  })
+})
+
+describe('country scope', () => {
+  it('separates the country scope from attribute filters', () => {
+    expect(hasAttributeFilters({ ...emptyFilters, countries: ['GNB'] })).toBe(false)
+    expect(hasAttributeFilters({ ...emptyFilters, themes: ['fish'] })).toBe(true)
+  })
+
+  it('counts the territories in scope regardless of attribute filters', () => {
+    const scoped = { ...emptyFilters, countries: ['GNB'], ecosystems: ['marine'] }
+    expect(ids(territoriesInScope(fixture, scoped))).toEqual(['a', 'b', 'c'])
+    expect(ids(territoriesInScope(fixture, { ...emptyFilters, countries: ['SEN'] }))).toEqual([])
+  })
+
+  it('summarises territories by kind, most frequent first', () => {
+    const mixed = [fixture.territories[0], { ...fixture.territories[1], kind: 'ramsar-site' as const }, fixture.territories[2]]
+    expect(countByKind(mixed)).toEqual([
+      { kind: 'protected-area', count: 2 },
+      { kind: 'ramsar-site', count: 1 },
+    ])
   })
 })
 

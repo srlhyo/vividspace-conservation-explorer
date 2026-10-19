@@ -2,17 +2,22 @@ import { useMemo, useState } from 'react'
 import { config } from './config'
 import { AboutDialog } from './components/AboutDialog'
 import { Header } from './components/Header'
-import { FilterSummary, MapLegend } from './components/MapOverlays'
+import { CountryCard, FilterSummary, MapLegend } from './components/MapOverlays'
+import { kindBreakdown } from './components/labels'
 import { TerritoryPanel } from './components/panel/TerritoryPanel'
 import { Sidebar } from './components/Sidebar'
 import { ErrorScreen, LoadingScreen } from './components/StatusScreens'
 import { createStaticRepository, type BoundaryLayers } from './data/repository'
 import { useExplorerData } from './data/useExplorerData'
 import {
+  attributeKeys,
+  countByKind,
   emptyFilters,
   filterOptions,
   filterTerritories,
   hasActiveFilters,
+  hasAttributeFilters,
+  territoriesInScope,
   getTerritoryProfile,
   toggleFilter,
   type TerritoryFilters,
@@ -70,10 +75,15 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
   const visibleIds = useMemo(() => new Set(results.map((t) => t.id)), [results])
   const profile = selection.territoryId ? getTerritoryProfile(catalogue, selection.territoryId) : undefined
   const filtering = hasActiveFilters(filters)
-  const filterLabels = (['countries', 'designations', 'ecosystems', 'themes'] as const).flatMap((key) =>
+  const attributeFiltering = hasAttributeFilters(filters)
+  const scope = territoriesInScope(catalogue, filters)
+  const selectedCountry = catalogue.countries.find((c) => c.code === filters.countries[0])
+  const scopeLabel = selectedCountry ? `in ${selectedCountry.name}` : `across ${catalogue.countries.length} countries`
+  const filterLabels = attributeKeys.flatMap((key) =>
     filterOptions(catalogue, filters, key).filter((o) => filters[key].includes(o.id)).map((o) => o.label),
   )
-  const clearFilters = () => setFilters(emptyFilters)
+  // Clearing filters keeps the selected country; the country is changed from the country list or card.
+  const clearFilters = () => setFilters((f) => ({ ...emptyFilters, countries: f.countries }))
 
   return (
     <div className="flex h-full">
@@ -85,7 +95,6 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
         results={results}
         selectedId={selection.territoryId}
         onSelect={selectTerritory}
-        countryCounts={countryCounts}
         onSelectCountry={selectCountry}
       />
       <div className="relative min-w-0 flex-1">
@@ -105,10 +114,20 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
         <div className="pointer-events-none absolute inset-x-3 top-3 flex items-start justify-between gap-3">
           <div className="flex min-w-0 flex-col items-start gap-2">
             <MapLegend filtersActive={filtering} />
-            {filtering && (
+            {/* Hidden while an area's panel is open: the panel names the country, the map needs the room. */}
+            {selectedCountry && !profile && (
+              <CountryCard
+                name={selectedCountry.name}
+                count={scope.length}
+                breakdown={kindBreakdown(countByKind(scope))}
+                onClose={() => selectCountry(null)}
+              />
+            )}
+            {attributeFiltering && (
               <FilterSummary
                 matching={results.length}
-                total={catalogue.territories.length}
+                total={scope.length}
+                scopeLabel={scopeLabel}
                 labels={filterLabels}
                 onClear={clearFilters}
               />
@@ -142,7 +161,8 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
           opportunityId={selection.opportunityId}
           allTerritories={catalogue.territories}
           inCurrentResults={visibleIds.has(profile.territory.id)}
-          onClearFilters={clearFilters}
+          // From the panel, clear everything (country included) so the selected area matches again.
+          onClearFilters={() => setFilters(emptyFilters)}
           onSelectTerritory={selectTerritory}
           onSelectChallenge={selectChallenge}
           onSelectOpportunity={selectOpportunity}

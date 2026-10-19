@@ -262,3 +262,22 @@ export function territorySummary(catalogue: Catalogue, territoryId: string): Ter
     items.filter((i) => i.territoryIds.includes(territoryId)).length
   return { challenges: count(catalogue.challenges), opportunities: count(catalogue.opportunities) }
 }
+
+/** Filters other than the country scope (designation, ecosystem, theme). */
+export const attributeKeys = ['designations', 'ecosystems', 'themes'] as const satisfies readonly FilterKey[]
+
+export function hasAttributeFilters(filters: TerritoryFilters): boolean {
+  return attributeKeys.some((key) => filters[key].length > 0)
+}
+
+/** Territories within the selected countries only (all territories when none is selected). */
+export function territoriesInScope(catalogue: Catalogue, filters: TerritoryFilters): Territory[] {
+  return filterTerritories(catalogue, { ...emptyFilters, countries: filters.countries })
+}
+
+/** How many territories of each kind, most frequent first. */
+export function countByKind(territories: Territory[]): { kind: Territory['kind']; count: number }[] {
+  const counts = new Map<Territory['kind'], number>()
+  for (const t of territories) counts.set(t.kind, (counts.get(t.kind) ?? 0) + 1)
+  return [...counts].map(([kind, count]) => ({ kind, count })).sort((a, b) => b.count - a.count)
+}

@@ -42,6 +42,21 @@ export const territoryKindLabel: Record<TerritoryKind, string> = {
   'community-protected-area': 'Community protected area',
 }
 
+export const territoryKindPlural: Record<TerritoryKind, string> = {
+  'ramsar-site': 'Ramsar sites',
+  archipelago: 'archipelagos',
+  'administrative-region': 'administrative regions',
+  'protected-area': 'protected areas',
+  'community-protected-area': 'community protected areas',
+}
+
+/** "7 Ramsar sites · 1 protected area" */
+export function kindBreakdown(items: { kind: TerritoryKind; count: number }[]): string {
+  return items
+    .map(({ kind, count }) => `${count} ${count === 1 ? territoryKindLabel[kind].toLowerCase().replace(/^ramsar/, 'Ramsar') : territoryKindPlural[kind]}`)
+    .join(' · ')
+}
+
 export const verificationMeta: Record<VerificationStatus, { label: string; tone: string }> = {
   verified: { label: 'Verified', tone: 'bg-forest-soft text-forest ring-forest/30' },
   'partially-verified': {
