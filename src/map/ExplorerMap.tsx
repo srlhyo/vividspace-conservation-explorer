@@ -23,6 +23,8 @@ interface ExplorerMapProps {
   /** Camera request from the dashboard; a new `id` triggers it. */
   viewRequest: { view: 'guinea-bissau' | 'world'; id: number } | null
   projection: 'mercator' | 'globe'
+  /** Show the satellite imagery layer above the basemap. */
+  imagery: boolean
 }
 
 type MapStatus = 'loading' | 'ready' | 'offline' | 'error'
@@ -33,6 +35,7 @@ const SRC = {
   areas: 'territory-areas',
   points: 'territory-points',
   labels: 'territory-labels',
+  satellite: 'satellite',
 } as const
 
 const INTERACTIVE_LAYERS = ['territory-points-circle', 'territory-areas-fill']
@@ -96,11 +99,13 @@ export function ExplorerMap({
   onSelect,
   viewRequest,
   projection,
+  imagery,
 }: ExplorerMapProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<maplibregl.Map | null>(null)
   const [status, setStatus] = useState<MapStatus>('loading')
-  const [zoomedOut, setZoomedOut] = useState(false)
+  const [zoom, setZoom] = useState<number | null>(null)
+  const [imageryError, setImageryError] = useState(false)
   const features = useMemo(() => territoryFeatures(boundaries, territories), [boundaries, territories])
 
   // Handlers registered once on the map read the latest props through a ref.
@@ -138,9 +143,12 @@ export function ExplorerMap({
       map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-left')
 
       map.on('zoomend', () => {
-        if (map) setZoomedOut(map.getZoom() < config.map.coverageNoticeBelowZoom)
+        if (map) setZoom(map.getZoom())
       })
-      map.on('error', (e: maplibregl.ErrorEvent) => console.warn('[map]', e.error?.message ?? e))
+      map.on('error', (e: maplibregl.ErrorEvent & { sourceId?: string }) => {
+        if (e.sourceId === SRC.satellite) setImageryError(true)
+        console.warn('[map]', e.error?.message ?? e)
+      })
 
       map.on('load', () => {
         clearTimeout(loadTimer)
@@ -151,6 +159,17 @@ export function ExplorerMap({
         map.addSource(SRC.regions, { type: 'geojson', data: boundaries.regions })
         map.addSource(SRC.areas, { type: 'geojson', data: features.areas, promoteId: 'territoryId' })
         map.addSource(SRC.points, { type: 'geojson', data: features.points, promoteId: 'territoryId' })
+
+        // Satellite imagery sits above the basemap's fills but below our outlines and all labels.
+        if (!basemap.offline) {
+          const { tileUrl, minzoom, maxzoom, attribution } = config.map.satellite
+          map.addSource(SRC.satellite, { type: 'raster', tiles: [tileUrl], tileSize: 256, minzoom, maxzoom, attribution })
+          map.addLayer(
+            // Layer minzoom too, so cached high-zoom tiles do not show as patches when zoomed out.
+            { id: 'satellite-imagery', type: 'raster', source: SRC.satellite, minzoom, layout: { visibility: 'none' } },
+            before,
+          )
+        }
 
         if (basemap.offline) {
           map.addLayer({
@@ -308,6 +327,7 @@ export function ExplorerMap({
           if (hit) latest.current.onSelect(hit.id)
         })
 
+        setZoom(map.getZoom())
         setStatus(basemap.offline ? 'offline' : 'ready')
       })
     }).catch((err: unknown) => {
@@ -374,6 +394,35 @@ export function ExplorerMap({
     map.setProjection({ type: projection })
   }, [projection, status])
 
+  // Switching imagery only toggles a layer, so camera, selection and filters are untouched.
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || status !== 'ready' || !map.getLayer('satellite-imagery')) return
+    setImageryError(false)
+    map.setLayoutProperty('satellite-imagery', 'visibility', imagery ? 'visible' : 'none')
+    // Light outlines only where imagery is actually drawn (from its minzoom upwards).
+    const onImagery = <T,>(standard: T, light: T) =>
+      (imagery ? ['step', ['zoom'], standard, config.map.satellite.minzoom, light] : standard) as ExpressionSpecification
+    const selected: ExpressionSpecification = ['boolean', ['feature-state', 'selected'], false]
+    map.setPaintProperty('territory-areas-line', 'line-color', onImagery(
+      ['case', selected, palette.goldDark, palette.forest],
+      ['case', selected, palette.gold, palette.white],
+    ))
+    map.setPaintProperty('country-line', 'line-color', onImagery(palette.forest, palette.white))
+    map.setPaintProperty('regions-line', 'line-color', onImagery(palette.muted, 'rgba(255,255,255,0.7)'))
+  }, [imagery, status])
+
+  const notices: string[] = []
+  if (zoom !== null && zoom < config.map.coverageNoticeBelowZoom) {
+    notices.push('Conservation data currently covers Guinea-Bissau only')
+  }
+  if (imagery && status === 'offline') notices.push('Satellite imagery is unavailable while the basemap is offline')
+  else if (imagery && imageryError) {
+    notices.push('Some satellite tiles could not be loaded; the standard map is shown where imagery is missing')
+  } else if (imagery && zoom !== null && zoom < config.map.satellite.minzoom) {
+    notices.push('Satellite imagery appears at regional zoom — zoom in or select a territory')
+  }
+
   return (
     <div className="relative h-full w-full">
       {/* Inline style: maplibre-gl.css sets `.maplibregl-map { position: relative }`. */}
@@ -391,9 +440,13 @@ export function ExplorerMap({
           </div>
         </div>
       )}
-      {zoomedOut && status !== 'error' && (
-        <div className="pointer-events-none absolute bottom-10 left-1/2 -translate-x-1/2 rounded-full bg-forest-deep/90 px-4 py-1.5 text-[12px] font-medium text-white shadow-card">
-          Conservation data currently covers Guinea-Bissau only
+      {notices.length > 0 && status !== 'error' && (
+        <div className="pointer-events-none absolute inset-x-0 bottom-10 flex flex-col items-center gap-1.5 px-4">
+          {notices.map((n) => (
+            <div key={n} className="rounded-full bg-forest-deep/90 px-4 py-1.5 text-center text-[12px] font-medium text-white shadow-card">
+              {n}
+            </div>
+          ))}
         </div>
       )}
       {status === 'offline' && (

@@ -47,6 +47,7 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
   const { selection, selectTerritory, selectChallenge, selectOpportunity } = useSelection(catalogue)
   const [viewRequest, setViewRequest] = useState<{ view: 'guinea-bissau' | 'world'; id: number } | null>(null)
   const [projection, setProjection] = useState<'mercator' | 'globe'>('mercator')
+  const [basemap, setBasemap] = useState<'map' | 'satellite'>('map')
   const requestView = (view: 'guinea-bissau' | 'world') => setViewRequest((r) => ({ view, id: (r?.id ?? 0) + 1 }))
 
   const results = useMemo(() => filterTerritories(catalogue, filters), [catalogue, filters])
@@ -73,6 +74,7 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
           onSelect={selectTerritory}
           viewRequest={viewRequest}
           projection={projection}
+          imagery={basemap === 'satellite'}
         />
         {/* Overlays are kept to the top edge so the coast and islands stay clear. */}
         <div className="pointer-events-none absolute inset-x-3 top-3 flex items-start justify-between gap-3">
@@ -86,19 +88,30 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
                 Reset view
               </MapButton>
             </div>
-            <div className="flex rounded-full bg-white p-0.5 text-[12px] font-medium shadow-card ring-1 ring-line" role="group" aria-label="Map projection">
-              {(['mercator', 'globe'] as const).map((p) => (
-                <button
-                  key={p}
-                  type="button"
-                  aria-pressed={projection === p}
-                  onClick={() => setProjection(p)}
-                  className={`rounded-full px-3 py-1 ${projection === p ? 'bg-forest text-white' : 'text-forest hover:bg-cream'}`}
-                >
-                  {p === 'mercator' ? '2D map' : '3D globe'}
-                </button>
-              ))}
-            </div>
+            <Segmented
+              label="Map projection"
+              value={projection}
+              onChange={setProjection}
+              options={[
+                ['mercator', '2D map'],
+                ['globe', '3D globe'],
+              ]}
+            />
+            <Segmented
+              label="Basemap"
+              value={basemap}
+              onChange={setBasemap}
+              options={[
+                ['map', 'Map'],
+                ['satellite', 'Satellite'],
+              ]}
+            />
+            {basemap === 'satellite' && (
+              <p className="max-w-56 rounded-lg bg-white/95 px-3 py-2 text-[11px] leading-snug text-ink-muted shadow-card ring-1 ring-line">
+                <span className="font-semibold text-ink">Imagery:</span> {config.map.satellite.provider}, CC BY 4.0.
+                Geographic context only — not real-time evidence of environmental change.
+              </p>
+            )}
           </div>
         </div>
       </div>
@@ -133,5 +146,33 @@ function MapButton({ onClick, title, children }: { onClick: () => void; title: s
     >
       {children}
     </button>
+  )
+}
+
+function Segmented<T extends string>({
+  label,
+  value,
+  onChange,
+  options,
+}: {
+  label: string
+  value: T
+  onChange: (value: T) => void
+  options: [T, string][]
+}) {
+  return (
+    <div className="flex rounded-full bg-white p-0.5 text-[12px] font-medium shadow-card ring-1 ring-line" role="group" aria-label={label}>
+      {options.map(([v, text]) => (
+        <button
+          key={v}
+          type="button"
+          aria-pressed={value === v}
+          onClick={() => onChange(v)}
+          className={`rounded-full px-3 py-1 ${value === v ? 'bg-forest text-white' : 'text-forest hover:bg-cream'}`}
+        >
+          {text}
+        </button>
+      ))}
+    </div>
   )
 }

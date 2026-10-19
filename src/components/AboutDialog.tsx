@@ -75,7 +75,10 @@ export function AboutDialog({
           </h3>
           <SourceList sources={catalogue.sources} />
           <p className="mt-4 text-xs text-ink-muted">
-            Basemap: © OpenStreetMap contributors (ODbL), served by OpenFreeMap. Copyrighted
+            Basemap: © OpenStreetMap contributors (ODbL), served by OpenFreeMap. Optional satellite
+            layer: ESA WorldCover 2021 Sentinel-2 composite (CC BY 4.0, © ESA WorldCover project /
+            contains modified Copernicus Sentinel data), served by VITO Terrascope. It is a 2021
+            annual composite for geographic context, not real-time evidence of environmental change. Copyrighted
             sources are cited for reference only: the explorer records short factual statements and
             links, and redistributes no content from them.
           </p>

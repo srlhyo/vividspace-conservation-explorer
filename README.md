@@ -44,6 +44,7 @@ Notes:
   - `VITE_BASEMAP_STYLE_URL` sets another MapLibre basemap style.
 - **External services at runtime.** These are free and need no API key:
   - OpenFreeMap basemap tiles. If they are unreachable, the app falls back to its bundled boundaries.
+  - VITO Terrascope satellite tiles (optional layer). Their terms ask users not to degrade the open service through high load, so this suits demonstrations rather than high-traffic production use.
   - Google Fonts. If unreachable, the app falls back to system fonts.
 
 ## Demo walkthrough
@@ -56,6 +57,8 @@ Notes:
 The URL updates as you go, so a prepared view can be bookmarked or reopened after a reload.
 
 Use **Explore world** to zoom out to a global view, and switch between the **2D map** and the **3D globe**. **Reset view** returns to Guinea-Bissau. The global view is for geographic orientation only: the conservation catalogue currently covers Guinea-Bissau, and the map says so when zoomed out.
+
+**Map / Satellite** switches to the ESA WorldCover 2021 Sentinel-2 composite (10 m, CC BY 4.0), served without a key by VITO Terrascope. Imagery appears from regional zoom (zoom 8+) over land. Tiles take about 2 seconds each and are rendered on demand. If imagery fails to load, the standard map stays visible underneath. The composite is a 2021 annual mosaic for geographic context, not real-time evidence of environmental change.
 
 ## Data
 

@@ -40,6 +40,8 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
   const [filtersOpen, setFiltersOpen] = useState(false)
   const active = filters.countries.length + filters.ecosystems.length + filters.themes.length
   const visible = new Set(results.map((t) => t.id))
+  // A country filter only means something once the catalogue spans several countries.
+  const visibleGroups = groups.filter((g) => g.key !== 'countries' || catalogue.countries.length > 1)
 
   // Parents first, each followed by its children, keeping only filter matches.
   const roots = catalogue.territories.filter((t) => !t.parentId || !catalogue.territories.some((p) => p.id === t.parentId))
@@ -70,6 +72,8 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
           </div>
         </div>
 
+        <CoverageIndicator catalogue={catalogue} />
+
         <div className="border-b border-line px-5 py-3">
           <div className="flex items-center justify-between gap-2">
             <button
@@ -95,18 +99,13 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
           )}
           {filtersOpen && (
             <div className="mt-3 flex flex-col gap-4 pb-1">
-              {groups.map((group) => (
+              {visibleGroups.map((group) => (
                 <FilterGroup
                   key={group.key}
                   title={group.title}
                   options={filterOptions(catalogue, filters, group.key)}
                   selected={filters[group.key]}
                   onToggle={(value) => onToggle(group.key, value)}
-                  note={
-                    group.key === 'countries' && catalogue.countries.length === 1
-                      ? 'Only Guinea-Bissau is covered so far; the data model supports more countries.'
-                      : undefined
-                  }
                 />
               ))}
               <p className="text-[11.5px] leading-snug text-ink-muted">
@@ -148,6 +147,35 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
   )
 }
 
+/** Which countries the conservation records cover; the map itself can be explored worldwide. */
+function CoverageIndicator({ catalogue }: { catalogue: Catalogue }) {
+  return (
+    <div className="flex items-start gap-2.5 border-b border-line px-5 py-3">
+      <svg width="16" height="16" viewBox="0 0 16 16" aria-hidden className="mt-0.5 shrink-0 text-forest">
+        <path d="M8 15s5-4.6 5-8.5A5 5 0 0 0 3 6.5C3 10.4 8 15 8 15Z" fill="none" stroke="currentColor" strokeWidth="1.6" />
+        <circle cx="8" cy="6.5" r="1.8" fill="currentColor" />
+      </svg>
+      <div className="min-w-0 text-[12.5px] leading-snug">
+        <p className="font-semibold text-ink">
+          Data coverage:{' '}
+          {catalogue.countries.map((c) => {
+            const n = catalogue.territories.filter((t) => t.countryCode === c.code).length
+            return (
+              <span key={c.code}>
+                {c.name} · {n} territor{n === 1 ? 'y' : 'ies'}
+              </span>
+            )
+          })}
+        </p>
+        <p className="mt-0.5 text-ink-muted">
+          The map can be explored worldwide; conservation records currently cover only the
+          {catalogue.countries.length === 1 ? ' country' : ' countries'} listed.
+        </p>
+      </div>
+    </div>
+  )
+}
+
 function ActiveFilterChips({
   catalogue,
   filters,
@@ -157,6 +185,7 @@ function ActiveFilterChips({
   filters: TerritoryFilters
   onToggle: (key: FilterKey, value: string) => void
 }) {
+  // All groups, so any active country filter stays visible and removable.
   const chips = groups.flatMap(({ key }) =>
     filterOptions(catalogue, filters, key)
       .filter((o) => filters[key].includes(o.id))
