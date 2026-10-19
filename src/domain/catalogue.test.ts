@@ -107,6 +107,18 @@ describe('filterOptions', () => {
     expect(options.map((o) => o.id)).toEqual(['mangrove', 'mudflat', 'marine'])
   })
 
+  it('flags options that would not narrow the results', () => {
+    // Without other filters, 'fish' matches a and c but not b...
+    const themes = filterOptions(fixture, emptyFilters, 'themes')
+    expect(themes.find((o) => o.id === 'fish')).toMatchObject({ available: 2, coversAll: false })
+    // ...while with the 'mangrove' ecosystem selected, 'fish' and 'climate' each cover one of a, b.
+    const narrowed = filterOptions(fixture, { ...emptyFilters, ecosystems: ['mangrove'] }, 'themes')
+    expect(narrowed.map((o) => [o.id, o.available, o.coversAll])).toEqual([
+      ['fish', 1, false],
+      ['climate', 2, true],
+    ])
+  })
+
   it('reports availability given the other active groups', () => {
     const f = { ...emptyFilters, themes: ['climate'] }
     const options = filterOptions(fixture, f, 'ecosystems')

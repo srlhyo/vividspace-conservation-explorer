@@ -70,7 +70,7 @@ The UI receives a repository instance (created once in `App.tsx`) and never call
 - Authentication, user accounts and shared sessions with Vivid Space.
 - Internationalisation (UI is English. Portuguese is a likely next language).
 - A formal schema (e.g. JSON Schema / zod) for runtime validation of API responses. Today TypeScript types plus `validateCatalogue` cover the static file.
-- Satellite imagery, globe mode and offline tile caching.
+- Satellite imagery. The keyless ESA WorldCover 2021 Sentinel-2 composite was evaluated and removed, because it has large coverage gaps over the Bijagós. The other free sources were non-commercial (EOX), needed keys (Esri, Mapbox, MapTiler) or were too coarse (NASA GIBS). Offline tile caching is also deferred.
 - Production hosting, analytics and monitoring.
 - How opportunities would be scored or prioritised. No scoring is shown, to avoid implying validation.
 

@@ -44,7 +44,6 @@ Notes:
   - `VITE_BASEMAP_STYLE_URL` sets another MapLibre basemap style.
 - **External services at runtime.** These are free and need no API key:
   - OpenFreeMap basemap tiles. If they are unreachable, the app falls back to its bundled boundaries.
-  - VITO Terrascope satellite tiles (optional layer). Their terms ask users not to degrade the open service through high load, so this suits demonstrations rather than high-traffic production use.
   - Google Fonts. If unreachable, the app falls back to system fonts.
 
 ## Demo walkthrough
@@ -58,12 +57,12 @@ The URL updates as you go, so a prepared view can be bookmarked or reopened afte
 
 Use **Explore world** to zoom out to a global view, and switch between the **2D map** and the **3D globe**. **Reset view** returns to Guinea-Bissau. The global view is for geographic orientation only: the conservation catalogue currently covers Guinea-Bissau, and the map says so when zoomed out.
 
-**Map / Satellite** switches to the ESA WorldCover 2021 Sentinel-2 composite (10 m, CC BY 4.0), served without a key by VITO Terrascope. Imagery appears from regional zoom (zoom 8+) over land. Tiles take about 2 seconds each and are rendered on demand. If imagery fails to load, the standard map stays visible underneath. The composite is a 2021 annual mosaic for geographic context, not real-time evidence of environmental change.
-
 ## Data
 
 - `public/data/catalogue.json` holds territories, ecosystems, themes, challenges, potential activities, organisations and sources. The rules every entry must follow are enforced by `src/domain/validate.ts` and `src/data/dataset.test.ts`.
 - `public/data/geo/` holds the Guinea-Bissau country and region boundaries from geoBoundaries gbOpen (derived from OpenStreetMap, ODbL 1.0). These are **administrative** boundaries. Protected areas are shown as location points only, because official protected-area boundaries (WDPA) are not used.
+
+Filters (ecosystem type, conservation theme) use the attributes documented for each territory in the cited sources. They are not maps of where ecosystems or conditions occur. Matching territories stay green on the map and non-matching ones turn grey. The sidebar and the map both show how many territories match, with a one-click way to clear the filters.
 
 Evidence levels:
 

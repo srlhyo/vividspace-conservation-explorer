@@ -71,6 +71,11 @@ export interface FilterOption {
   total: number
   /** Territories that would match if this option were toggled on, given the other groups. */
   available: number
+  /**
+   * True when every territory matching the other groups has this value, so selecting it on its
+   * own would not narrow the results.
+   */
+  coversAll: boolean
 }
 
 /**
@@ -100,6 +105,7 @@ export function filterOptions(
       total: catalogue.territories.filter((t) => territoryValues(catalogue, t, key).has(id)).length,
       available: candidates.filter((t) => territoryValues(catalogue, t, key).has(id)).length,
     }))
+    .map((o) => ({ ...o, coversAll: candidates.length > 0 && o.available === candidates.length }))
     .filter((o) => o.total > 0)
 }
 

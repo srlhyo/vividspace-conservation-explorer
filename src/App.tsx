@@ -2,7 +2,7 @@ import { useMemo, useState } from 'react'
 import { config } from './config'
 import { AboutDialog } from './components/AboutDialog'
 import { Header } from './components/Header'
-import { MapLegend } from './components/MapOverlays'
+import { FilterSummary, MapLegend } from './components/MapOverlays'
 import { TerritoryPanel } from './components/panel/TerritoryPanel'
 import { Sidebar } from './components/Sidebar'
 import { ErrorScreen, LoadingScreen } from './components/StatusScreens'
@@ -10,7 +10,9 @@ import { createStaticRepository, type BoundaryLayers } from './data/repository'
 import { useExplorerData } from './data/useExplorerData'
 import {
   emptyFilters,
+  filterOptions,
   filterTerritories,
+  hasActiveFilters,
   getTerritoryProfile,
   toggleFilter,
   type TerritoryFilters,
@@ -47,12 +49,16 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
   const { selection, selectTerritory, selectChallenge, selectOpportunity } = useSelection(catalogue)
   const [viewRequest, setViewRequest] = useState<{ view: 'guinea-bissau' | 'world'; id: number } | null>(null)
   const [projection, setProjection] = useState<'mercator' | 'globe'>('mercator')
-  const [basemap, setBasemap] = useState<'map' | 'satellite'>('map')
   const requestView = (view: 'guinea-bissau' | 'world') => setViewRequest((r) => ({ view, id: (r?.id ?? 0) + 1 }))
 
   const results = useMemo(() => filterTerritories(catalogue, filters), [catalogue, filters])
   const visibleIds = useMemo(() => new Set(results.map((t) => t.id)), [results])
   const profile = selection.territoryId ? getTerritoryProfile(catalogue, selection.territoryId) : undefined
+  const filtering = hasActiveFilters(filters)
+  const filterLabels = (['countries', 'ecosystems', 'themes'] as const).flatMap((key) =>
+    filterOptions(catalogue, filters, key).filter((o) => filters[key].includes(o.id)).map((o) => o.label),
+  )
+  const clearFilters = () => setFilters(emptyFilters)
 
   return (
     <div className="flex h-full">
@@ -60,7 +66,7 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
         catalogue={catalogue}
         filters={filters}
         onToggle={(key, value) => setFilters((f) => toggleFilter(f, key, value))}
-        onClear={() => setFilters(emptyFilters)}
+        onClear={clearFilters}
         results={results}
         selectedId={selection.territoryId}
         onSelect={selectTerritory}
@@ -74,11 +80,20 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
           onSelect={selectTerritory}
           viewRequest={viewRequest}
           projection={projection}
-          imagery={basemap === 'satellite'}
         />
         {/* Overlays are kept to the top edge so the coast and islands stay clear. */}
         <div className="pointer-events-none absolute inset-x-3 top-3 flex items-start justify-between gap-3">
-          <MapLegend />
+          <div className="flex min-w-0 flex-col items-start gap-2">
+            <MapLegend filtersActive={filtering} />
+            {filtering && (
+              <FilterSummary
+                matching={results.length}
+                total={catalogue.territories.length}
+                labels={filterLabels}
+                onClear={clearFilters}
+              />
+            )}
+          </div>
           <div className="pointer-events-auto flex shrink-0 flex-col items-end gap-2">
             <div className="flex gap-1.5">
               <MapButton onClick={() => requestView('world')} title="Zoom out to a world-scale view">
@@ -97,21 +112,6 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
                 ['globe', '3D globe'],
               ]}
             />
-            <Segmented
-              label="Basemap"
-              value={basemap}
-              onChange={setBasemap}
-              options={[
-                ['map', 'Map'],
-                ['satellite', 'Satellite'],
-              ]}
-            />
-            {basemap === 'satellite' && (
-              <p className="max-w-56 rounded-lg bg-white/95 px-3 py-2 text-[11px] leading-snug text-ink-muted shadow-card ring-1 ring-line">
-                <span className="font-semibold text-ink">Imagery:</span> {config.map.satellite.provider}, CC BY 4.0.
-                Geographic context only — not real-time evidence of environmental change.
-              </p>
-            )}
           </div>
         </div>
       </div>
@@ -122,6 +122,7 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
           opportunityId={selection.opportunityId}
           allTerritories={catalogue.territories}
           inCurrentResults={visibleIds.has(profile.territory.id)}
+          onClearFilters={clearFilters}
           onSelectTerritory={selectTerritory}
           onSelectChallenge={selectChallenge}
           onSelectOpportunity={selectOpportunity}

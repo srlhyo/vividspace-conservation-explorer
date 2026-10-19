@@ -11,6 +11,7 @@ interface TerritoryPanelProps {
   opportunityId: string | null
   allTerritories: Territory[]
   inCurrentResults: boolean
+  onClearFilters: () => void
   onSelectTerritory: (id: string) => void
   onSelectChallenge: (id: string | null) => void
   onSelectOpportunity: (id: string | null) => void
@@ -87,8 +88,11 @@ export function TerritoryPanel(props: TerritoryPanelProps) {
           </nav>
         )}
         {!props.inCurrentResults && (
-          <p className="mt-2 rounded-md bg-gold-soft px-3 py-1.5 text-[12px] text-amber-900">
-            Outside your current filter results.
+          <p className="mt-2 flex items-center justify-between gap-2 rounded-md bg-gold-soft px-3 py-1.5 text-[12px] text-amber-900">
+            This territory does not match your current filters.
+            <button type="button" onClick={props.onClearFilters} className="shrink-0 font-semibold underline hover:no-underline">
+              Clear filters
+            </button>
           </p>
         )}
       </header>

@@ -94,6 +94,13 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
               </button>
             )}
           </div>
+          {active > 0 && (
+            <p className={`mt-1.5 text-[12.5px] font-semibold ${results.length === 0 ? 'text-clay' : 'text-ink'}`}>
+              {results.length === 0
+                ? 'No territory matches all selected filters'
+                : `${results.length} of ${catalogue.territories.length} territories match`}
+            </p>
+          )}
           {!filtersOpen && active > 0 && (
             <ActiveFilterChips catalogue={catalogue} filters={filters} onToggle={onToggle} />
           )}
@@ -108,10 +115,16 @@ export function Sidebar({ catalogue, filters, onToggle, onClear, results, select
                   onToggle={(value) => onToggle(group.key, value)}
                 />
               ))}
-              <p className="text-[11.5px] leading-snug text-ink-muted">
-                Numbers show matching territories. Greyed-out options would return no results with your
-                other filters.
-              </p>
+              <div className="flex flex-col gap-1.5 text-[11.5px] leading-snug text-ink-muted">
+                <p>
+                  Numbers show how many territories each option would match. Within a group, a territory
+                  matches if it has any selected option; it must match every group you use.
+                </p>
+                <p>
+                  Filters use the ecosystems and themes documented for each territory in the cited
+                  sources. They do not map where ecosystems or conditions occur across the area.
+                </p>
+              </div>
             </div>
           )}
         </div>
@@ -214,14 +227,14 @@ function FilterGroup({
   options,
   selected,
   onToggle,
-  note,
 }: {
   title: string
   options: FilterOption[]
   selected: string[]
   onToggle: (value: string) => void
-  note?: string
 }) {
+  // An option that every listed territory already has cannot narrow the results on its own.
+  const noReduction = (o: FilterOption) => selected.length === 0 && o.coversAll
   return (
     <fieldset>
       <legend className="mb-1.5 text-[12px] font-semibold uppercase tracking-wide text-ink-muted">{title}</legend>
@@ -229,6 +242,7 @@ function FilterGroup({
         {options.map((o) => {
           const on = selected.includes(o.id)
           const unavailable = !on && o.available === 0
+          const all = !on && noReduction(o)
           return (
             <button
               key={o.id}
@@ -236,7 +250,13 @@ function FilterGroup({
               aria-pressed={on}
               disabled={unavailable}
               onClick={() => onToggle(o.id)}
-              title={unavailable ? `No territory matches “${o.label}” together with your other filters.` : undefined}
+              title={
+                unavailable
+                  ? `No territory matches “${o.label}” together with your other filters.`
+                  : all
+                    ? `Every territory currently listed has “${o.label}”, so selecting it will not narrow the results.`
+                    : undefined
+              }
               className={[
                 'inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[12px] font-medium ring-1 transition-colors',
                 on
@@ -247,12 +267,17 @@ function FilterGroup({
               ].join(' ')}
             >
               {o.label}
-              <span className={on ? 'text-white/75' : 'text-ink-muted/70'}>{o.available}</span>
+              <span className={on ? 'text-white/75' : 'text-ink-muted/70'}>{all ? 'all' : o.available}</span>
             </button>
           )
         })}
       </div>
-      {note && <p className="mt-1.5 text-[11.5px] leading-snug text-ink-muted">{note}</p>}
+      {options.some((o) => !selected.includes(o.id) && noReduction(o)) && (
+        <p className="mt-1.5 text-[11.5px] leading-snug text-ink-muted">
+          “all” means every territory currently listed has that value, so selecting it will not narrow
+          the results.
+        </p>
+      )}
     </fieldset>
   )
 }
