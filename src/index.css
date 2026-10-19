@@ -1,0 +1,40 @@
+@import 'tailwindcss';
+
+/* Vivid Space brand tokens (from vividspace.io: Outfit / Figtree, forest + gold + cream). */
+@theme {
+  --font-display: 'Outfit', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Figtree', ui-sans-serif, system-ui, sans-serif;
+
+  --color-forest: oklch(36% 0.075 158);
+  --color-forest-deep: oklch(22% 0.045 158);
+  --color-forest-soft: oklch(93% 0.025 150);
+  --color-gold: oklch(79% 0.14 82);
+  --color-gold-soft: oklch(95% 0.05 85);
+  --color-clay: oklch(63% 0.14 45);
+  --color-cream: oklch(97.8% 0.011 95);
+  --color-ink: oklch(24% 0.035 155);
+  --color-ink-muted: oklch(50% 0.03 150);
+  --color-line: oklch(90% 0.016 110);
+
+  --shadow-card: 0 1px 2px rgb(20 40 30 / 0.06), 0 6px 20px rgb(20 40 30 / 0.08);
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-cream font-sans text-ink antialiased;
+}
+
+.maplibregl-popup.territory-tooltip .maplibregl-popup-content {
+  @apply rounded-md bg-forest-deep px-2.5 py-1 font-sans text-xs font-medium text-white shadow-card;
+}
+.maplibregl-popup.territory-tooltip .maplibregl-popup-tip {
+  display: none;
+}
+.maplibregl-ctrl-attrib {
+  @apply font-sans text-[10px];
+}

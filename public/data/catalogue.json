@@ -1,0 +1,663 @@
+{
+  "meta": {
+    "version": "0.1.0",
+    "updated": "2026-10-18",
+    "description": "Milestone 1 demonstration dataset for Guinea-Bissau, focused on the Bijagós Archipelago and the Cacheu region. Every factual statement cites a publicly accessible source that was checked on the access date shown. Potential regenerative activities are presented as interpretations or hypotheses, never as validated businesses."
+  },
+  "countries": [{ "code": "GNB", "name": "Guinea-Bissau" }],
+  "ecosystems": [
+    { "id": "mangrove", "name": "Mangrove forest", "definition": "Salt-tolerant trees and shrubs growing in the intertidal zone of tropical coasts and estuaries." },
+    { "id": "intertidal-flats", "name": "Intertidal mud & sand flats", "definition": "Unvegetated or sparsely vegetated areas exposed at low tide." },
+    { "id": "seagrass", "name": "Seagrass beds", "definition": "Submerged meadows of flowering marine plants in shallow coastal waters." },
+    { "id": "estuarine", "name": "Estuarine waters", "definition": "Waters where river and sea mix, including rias (drowned river valleys)." },
+    { "id": "shallow-marine", "name": "Shallow marine waters", "definition": "Permanent shallow coastal and marine waters." },
+    { "id": "sandy-beaches", "name": "Sandy beaches", "definition": "Sandy shores, including sea-turtle nesting beaches." },
+    { "id": "terrestrial-mosaic", "name": "Palm groves, forest & savanna", "definition": "Terrestrial mosaic of palm groves, dry or semi-dry forest and woodland savanna." }
+  ],
+  "themes": [
+    { "id": "mangroves", "name": "Mangrove conservation", "description": "Protection, sustainable use and restoration of mangroves." },
+    { "id": "fisheries", "name": "Fisheries & marine resources", "description": "Pressure on, and management of, fish and shellfish resources." },
+    { "id": "species", "name": "Species & habitats", "description": "Threatened or emblematic species and their habitats." },
+    { "id": "climate", "name": "Climate & coastal resilience", "description": "Climate change, sea-level rise and coastal dynamics." },
+    { "id": "land-use", "name": "Land use & agriculture", "description": "Agricultural change, forest clearance and land-use conversion." },
+    { "id": "development", "name": "Development pressures", "description": "Extractive industries, infrastructure and tourism development." },
+    { "id": "livelihoods", "name": "Community livelihoods", "description": "Income and food security of resident communities." },
+    { "id": "governance", "name": "Community governance", "description": "Community-led and customary management of territories and resources." },
+    { "id": "finance", "name": "Conservation finance", "description": "Long-term or results-based funding for conservation outcomes." }
+  ],
+  "territories": [
+    {
+      "id": "bijagos-archipelago",
+      "name": "Bijagós Archipelago",
+      "localName": "Arquipélago dos Bijagós",
+      "kind": "archipelago",
+      "countryCode": "GNB",
+      "location": {
+        "description": "Atlantic archipelago off the coast of Guinea-Bissau, described by UNESCO as the only active deltaic archipelago on the African Atlantic coast.",
+        "descriptionSourceIds": ["whc-1431"],
+        "point": [-16.083333, 11.25],
+        "pointSourceId": "wikidata-q664687"
+      },
+      "geometry": {
+        "representation": "boundary",
+        "featureRef": "GW-BL",
+        "sourceId": "geoboundaries-gnb",
+        "caveat": "The outline is the Bolama administrative region (geoBoundaries ADM1, from OpenStreetMap), which contains the archipelago. It is not the boundary of the Biosphere Reserve, the Ramsar site or the World Heritage property."
+      },
+      "overview": [
+        { "text": "The Coastal and Marine Ecosystems of the Bijagós Archipelago – Omatí Minhô were inscribed on the UNESCO World Heritage List in 2025 under natural criteria (ix) and (x).", "evidence": "verified", "sourceIds": ["whc-1431"] },
+        { "text": "The Bolama-Bijagós Biosphere Reserve was designated under UNESCO's Man and the Biosphere Programme in 1996.", "evidence": "verified", "sourceIds": ["unesco-mab-bolama-bijagos"] },
+        { "text": "The archipelago was designated a Wetland of International Importance under the Ramsar Convention in 2014 (site 'Archipel Bolama-Bijagós').", "evidence": "verified", "sourceIds": ["ibap-ecotourism-guide-2016", "ramsar-ris-2198"] },
+        { "text": "Three marine protected areas — João Vieira and Poilão Marine National Park, Orango Islands National Park and the Urok Islands Community Marine Protected Area — were created in 2000 and 2005.", "evidence": "verified", "sourceIds": ["whc-1431"] },
+        { "text": "UNESCO identifies the archipelago as the second most important foraging area in Africa for migratory waterbirds of the East Atlantic Flyway, and as a sanctuary for a diversity of sharks and rays.", "evidence": "verified", "sourceIds": ["whc-1431"] },
+        { "text": "UNESCO attributes the property's exceptional state of conservation mainly to how the area is organised and to traditional resource management by local communities.", "evidence": "verified", "sourceIds": ["whc-1431"] },
+        { "text": "Sacred islands governed by customary rules act as refuges for biodiversity.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198"] },
+        { "text": "Overall management of the World Heritage property is coordinated by the Institute for Biodiversity and Protected Areas (IBAP).", "evidence": "verified", "sourceIds": ["whc-1431"] },
+        { "text": "BioGuinea's Blue Bijagós project aims to establish a community marine protected area on the islands of Unhocomo and Unhocomozinho, recognised as sanctuaries for juvenile sea turtles (proposal, not yet designated).", "evidence": "verified", "sourceIds": ["bioguinea-blue-bijagos"] }
+      ],
+      "livelihoods": [
+        { "text": "Agriculture, forest use, animal husbandry, fishing, shell gathering and ecological tourism are the main activities of island communities.", "evidence": "verified", "sourceIds": ["unesco-mab-bolama-bijagos"] },
+        { "text": "The Bijagó production system is based mainly on natural palm groves, rice and sea products.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198"] },
+        { "text": "Shellfish are the principal source of animal protein for island communities.", "evidence": "verified", "sourceIds": ["ibap-ecotourism-guide-2016"] },
+        { "text": "Tourism in the archipelago has developed over recent decades but remains limited.", "evidence": "verified", "sourceIds": ["whc-1431"] }
+      ],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "The site features mangroves, mudflats and intertidal zones vital for marine life.", "evidence": "verified", "sourceIds": ["whc-1431"] },
+        { "ecosystemId": "intertidal-flats", "text": "Intertidal mud and sand flats are among the Ramsar wetland types recorded for the archipelago.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198", "whc-1431"] },
+        { "ecosystemId": "shallow-marine", "text": "Shallow marine waters are a recorded Ramsar wetland type of the archipelago.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198"] },
+        { "ecosystemId": "estuarine", "text": "Estuarine waters are a recorded Ramsar wetland type of the archipelago.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198"] },
+        { "ecosystemId": "seagrass", "text": "Key intertidal areas include extensive, highly productive seagrass beds.", "evidence": "verified", "sourceIds": ["rainforest-trust-bijagos", "bioguinea-jvp"] },
+        { "ecosystemId": "terrestrial-mosaic", "text": "On land, the islands have palm groves, littoral woodland savannas and semi-dry forests.", "evidence": "verified", "sourceIds": ["unesco-mab-bolama-bijagos", "ramsar-ris-2198"] }
+      ],
+      "verification": {
+        "status": "verified",
+        "note": "Designations, key ecological facts and livelihoods checked against UNESCO, Ramsar, IBAP and BioGuinea sources. The map outline is an administrative proxy, not a designated-site boundary.",
+        "reviewed": "2026-10-18"
+      }
+    },
+    {
+      "id": "orango-national-park",
+      "name": "Orango Islands National Park",
+      "localName": "Parque Nacional das Ilhas de Orango",
+      "kind": "protected-area",
+      "countryCode": "GNB",
+      "parentId": "bijagos-archipelago",
+      "location": {
+        "description": "In the extreme south-west of the Bijagós Archipelago.",
+        "descriptionSourceIds": ["bioguinea-orango"],
+        "point": [-16.13805, 11.06582],
+        "pointSourceId": "wikidata-q7099832"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "wikidata-q7099832",
+        "caveat": "Shown as a reference point from Wikidata. The official boundary is not shown: it is held in WDPA/Protected Planet, which was not used because its terms restrict redistribution."
+      },
+      "overview": [
+        { "text": "Created in 2000, Orango National Park is a core area of the Bolama-Bijagós Biosphere Reserve and is classified as IUCN Category II.", "evidence": "verified", "sourceIds": ["bioguinea-orango", "ramsar-ris-2198"] },
+        { "text": "The archipelago, notably Orango, hosts hippopotamuses that live in seawater on an almost permanent basis — according to UNESCO, the only place in the world where the species does so.", "evidence": "verified", "sourceIds": ["whc-1431", "bioguinea-orango"] },
+        { "text": "Five of the world's seven sea turtle species frequent the park's beaches.", "evidence": "verified", "sourceIds": ["bioguinea-orango"] },
+        { "text": "The park is also home to several monkey species, African manatees and several reptile species.", "evidence": "verified", "sourceIds": ["bioguinea-orango"] },
+        { "text": "The park includes 33 villages with an estimated 3,369 inhabitants, mainly of the Bijagó ethnic group.", "evidence": "verified", "sourceIds": ["bioguinea-orango"] }
+      ],
+      "livelihoods": [
+        { "text": "Activities in the park include farming (rice, oil palm and cashew), shellfish gathering, fishing and crafts.", "evidence": "verified", "sourceIds": ["ibap-ecotourism-guide-2016"] },
+        { "text": "A community guest house in the village of Anôr serves as a base for visitors to this part of Orango Island.", "evidence": "verified", "sourceIds": ["ibap-ecotourism-guide-2016"] }
+      ],
+      "ecosystems": [
+        { "ecosystemId": "sandy-beaches", "text": "The park's beaches are used by five sea turtle species.", "evidence": "verified", "sourceIds": ["bioguinea-orango"] },
+        { "ecosystemId": "shallow-marine", "text": "The park's hippos live in the sea, unlike freshwater populations elsewhere.", "evidence": "verified", "sourceIds": ["bioguinea-orango", "whc-1431"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "note": "Creation year, classification, key species and livelihoods verified. Location is a representative point only, and habitat detail specific to the park is limited in this dataset.",
+        "reviewed": "2026-10-18"
+      }
+    },
+    {
+      "id": "joao-vieira-poilao",
+      "name": "João Vieira and Poilão Marine National Park",
+      "localName": "Parque Nacional Marinho João Vieira e Poilão",
+      "kind": "protected-area",
+      "countryCode": "GNB",
+      "parentId": "bijagos-archipelago",
+      "location": {
+        "description": "Group of islands within the Bijagós Archipelago, including Poilão Island.",
+        "descriptionSourceIds": ["bioguinea-jvp", "whc-1431"],
+        "point": [-15.71182, 10.95063],
+        "pointSourceId": "wikidata-q6206287"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "wikidata-q6206287",
+        "caveat": "Shown as a reference point from Wikidata. The official boundary is not shown: it is held in WDPA/Protected Planet, which was not used because its terms restrict redistribution."
+      },
+      "overview": [
+        { "text": "Created in August 2000 for complete protection as an integral reserve, and classified as IUCN Category II.", "evidence": "verified", "sourceIds": ["bioguinea-jvp", "ramsar-ris-2198"] },
+        { "text": "Poilão Island is a globally important nesting site for sea turtles.", "evidence": "verified", "sourceIds": ["whc-1431"] },
+        { "text": "The park is described as the second most important green turtle (Chelonia mydas) nesting site in the South Atlantic.", "evidence": "verified", "sourceIds": ["bioguinea-jvp"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "seagrass", "text": "Key intertidal areas include extensive and highly productive seagrass beds.", "evidence": "verified", "sourceIds": ["bioguinea-jvp"] },
+        { "ecosystemId": "intertidal-flats", "text": "Mudflats are among the park's key intertidal habitats.", "evidence": "verified", "sourceIds": ["bioguinea-jvp"] },
+        { "ecosystemId": "mangrove", "text": "Mangroves are among the park's key intertidal habitats.", "evidence": "verified", "sourceIds": ["bioguinea-jvp"] },
+        { "ecosystemId": "sandy-beaches", "text": "A highly dynamic coastline radically changes beach profiles across the park's islands, which host major turtle nesting.", "evidence": "verified", "sourceIds": ["bioguinea-jvp"] },
+        { "ecosystemId": "shallow-marine", "text": "The park includes shallow areas up to the 10-metre isobath.", "evidence": "verified", "sourceIds": ["bioguinea-jvp"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "note": "Creation date, protection status, habitats and turtle significance verified. Location is a representative point only. No source describing local livelihoods in the park was reviewed.",
+        "reviewed": "2026-10-18"
+      }
+    },
+    {
+      "id": "urok-community-mpa",
+      "name": "Urok Islands Community Marine Protected Area",
+      "localName": "Área Marinha Protegida Comunitária das Ilhas Urok",
+      "kind": "community-protected-area",
+      "countryCode": "GNB",
+      "parentId": "bijagos-archipelago",
+      "location": {
+        "description": "Northern part of the Bijagós Archipelago; its main islands are Formosa, Nago and Chediã.",
+        "descriptionSourceIds": ["bioguinea-urok"],
+        "point": [-15.94408, 11.52191],
+        "pointSourceId": "wikidata-q25211080"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "wikidata-q25211080",
+        "caveat": "Shown as a reference point from Wikidata. The official boundary is not shown: it is held in WDPA/Protected Planet, which was not used because its terms restrict redistribution."
+      },
+      "overview": [
+        { "text": "Created in 2005 by Indigenous Bijagós communities to strengthen social, cultural and environmental resilience.", "evidence": "verified", "sourceIds": ["equator-urok-2019"] },
+        { "text": "The area is managed directly by local communities with support from IBAP and the Guinean NGO Tiniguena.", "evidence": "verified", "sourceIds": ["bioguinea-urok"] },
+        { "text": "It covers a total area of 545 km² and is classified as IUCN Category VI.", "evidence": "verified", "sourceIds": ["bioguinea-urok", "ramsar-ris-2198"] },
+        { "text": "Its management council received the Equator Prize in 2019.", "evidence": "verified", "sourceIds": ["equator-urok-2019"] }
+      ],
+      "livelihoods": [
+        { "text": "The protected area aims to help communities manage their marine resources more sustainably and to secure their access to prime fishing grounds.", "evidence": "verified", "sourceIds": ["bioguinea-urok"] }
+      ],
+      "ecosystems": [],
+      "verification": {
+        "status": "partially-verified",
+        "note": "Governance, creation and size verified. No source reviewed so far describes the area's specific habitats, so none are listed. Location is a representative point only.",
+        "reviewed": "2026-10-18"
+      }
+    },
+    {
+      "id": "cacheu-region",
+      "name": "Cacheu Region",
+      "localName": "Região de Cacheu",
+      "kind": "administrative-region",
+      "countryCode": "GNB",
+      "location": {
+        "description": "Administrative region in north-western Guinea-Bissau on the border with Senegal, crossed by the Cacheu River on its way to the Atlantic.",
+        "descriptionSourceIds": ["geoboundaries-gnb", "wikidata-q2445908"],
+        "point": [-16.0, 12.166667],
+        "pointSourceId": "wikidata-q780838"
+      },
+      "geometry": {
+        "representation": "boundary",
+        "featureRef": "GW-CA",
+        "sourceId": "geoboundaries-gnb",
+        "caveat": "The outline is the Cacheu administrative region (geoBoundaries ADM1, from OpenStreetMap). The Cacheu River Mangroves Natural Park lies within it but its boundary is not shown."
+      },
+      "overview": [
+        { "text": "The Rio Cacheu is not a river in the strict sense but a ria, where the sea reaches more than 150 km inland.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
+        { "text": "The region contains the Cacheu River mangroves, considered the largest continuous block of mangroves in West Africa.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229", "ramsar-annotated-gw"] }
+      ],
+      "livelihoods": [
+        { "text": "Communities in and around the Cacheu park practise a sophisticated form of rice farming on mangrove soils, a technology mastered by only a few ethnic groups (notably Felupe and Baiote).", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
+      ],
+      "ecosystems": [
+        { "ecosystemId": "estuarine", "text": "The lower Cacheu River is a tidal ria with estuarine waters.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
+        { "ecosystemId": "mangrove", "text": "Mangroves of the lower Cacheu River form the core of the Ramsar-listed Cacheu River Mangroves Natural Park.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "note": "Boundary and location are sourced. Most ecological and socio-economic information in this dataset comes from sources about the Cacheu River Mangroves Natural Park and its buffer zone, and is linked to the region for that reason. Region-wide statistics are not included.",
+        "reviewed": "2026-10-18"
+      }
+    },
+    {
+      "id": "cacheu-mangroves-park",
+      "name": "Cacheu River Mangroves Natural Park",
+      "localName": "Parque Natural dos Tarrafes do Rio Cacheu",
+      "kind": "protected-area",
+      "countryCode": "GNB",
+      "parentId": "cacheu-region",
+      "location": {
+        "description": "North-western Guinea-Bissau, on the Atlantic coast near the border with Senegal, along the lower Cacheu River.",
+        "descriptionSourceIds": ["ramsar-ris-2229"],
+        "point": [-16.179444, 12.3],
+        "pointSourceId": "wikidata-q3364592"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "wikidata-q3364592",
+        "caveat": "Shown as a reference point from Wikidata, close to the Ramsar-listed coordinates (12°17'40\"N 16°11'38\"W). The official boundary is not shown: it is held in WDPA/Protected Planet, which was not used because its terms restrict redistribution."
+      },
+      "overview": [
+        { "text": "Created in December 2000 by Decree-Law no. 12/2000 and managed by IBAP.", "evidence": "verified", "sourceIds": ["ibap-pntc", "ramsar-ris-2229"] },
+        { "text": "Wetland of International Importance (Ramsar site no. 2229) since 22 May 2015, with a listed area of 88,615 ha.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gw", "ramsar-ris-2229"] },
+        { "text": "Its mangroves are considered the largest continuous mangrove block in West Africa; six mangrove species have been recorded.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229", "ramsar-annotated-gw", "bioguinea-pntc"] },
+        { "text": "The park's aims are to protect mangroves as the basis for fish reproduction, to conserve biodiversity and to improve living conditions of residents.", "evidence": "verified", "sourceIds": ["ibap-pntc"] },
+        { "text": "The mangroves provide food and refuge for protected or rare species such as the hippopotamus and the West African manatee, and serve as spawning and nursery habitat for fish and shellfish.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gw"] },
+        { "text": "Each village in the site keeps one or more sacred forests, which act as reservoirs of biodiversity.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
+      ],
+      "livelihoods": [
+        { "text": "Besides rice fields, the mangrove provides fish, timber, honey, salt and traditional medicine.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
+        { "text": "Mangrove rice farming here is a technology mastered by only a few ethnic groups and is described as unique cultural heritage.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
+        { "text": "Women on Elia Island, near the mouth of the Cacheu River, have been trained in oyster growing and solar salt production by The Restoration Initiative.", "evidence": "verified", "sourceIds": ["iucn-tri-newsletter-2023"] }
+      ],
+      "ecosystems": [
+        { "ecosystemId": "mangrove", "text": "Intertidal mangrove forest is the park's dominant wetland type.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229", "ramsar-annotated-gw"] },
+        { "ecosystemId": "estuarine", "text": "Estuarine waters are a recorded Ramsar wetland type of the site.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
+        { "ecosystemId": "intertidal-flats", "text": "Intertidal mud, sand or salt flats are a recorded Ramsar wetland type of the site.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
+        { "ecosystemId": "seagrass", "text": "Seagrass beds occur in the park and its buffer zone.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] },
+        { "ecosystemId": "terrestrial-mosaic", "text": "Beyond the mangroves, the landscape is a mosaic of forests, palm groves and savanna, with dryland forests in the buffer zone.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gw", "wi-cacheu-report"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "note": "Designations, management, ecosystems and pressures verified against Ramsar, IBAP and NGO sources. Sources disagree on the exact creation day (1 or 4 December 2000) and on the mangrove share of the park, so those details are omitted. Location is a representative point only.",
+        "reviewed": "2026-10-18"
+      }
+    }
+  ],
+  "challenges": [
+    {
+      "id": "bijagos-pressure-context",
+      "title": "Emerging development pressures",
+      "territoryIds": ["bijagos-archipelago"],
+      "themeIds": ["development", "species"],
+      "statements": [
+        { "text": "At inscription, UNESCO assessed potential factors — pollution, fishing, navigation, infrastructure, oil exploration, tourism and climate change — as remaining at very low and/or distant levels.", "evidence": "verified", "sourceIds": ["whc-1431"] },
+        { "text": "Researchers describe the area as under increasing pressure from deforestation, future oil and gas prospection, tourism development, population growth, local and foreign fisheries, and pollution.", "evidence": "verified", "sourceIds": ["ce3c-bijagos-waders"] },
+        { "text": "In 2014, offshore oil prospecting about 100 km north-west of the archipelago and a planned bauxite port on the Rio Grande de Buba were flagged as threats, both at project stage.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198"] }
+      ]
+    },
+    {
+      "id": "bijagos-fishing-pressure",
+      "title": "Fishing pressure from outside the archipelago",
+      "territoryIds": ["bijagos-archipelago", "urok-community-mpa"],
+      "themeIds": ["fisheries", "species"],
+      "statements": [
+        { "text": "Overfishing by foreign fishermen is identified as the primary threat in a conservation project proposal for the archipelago.", "evidence": "verified", "sourceIds": ["rainforest-trust-bijagos"] },
+        { "text": "Part of the motorised canoe fleet targets rays and sharks because of very high fin prices on Asian markets.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198"] },
+        { "text": "In Urok, Tiniguena reports new challenges from outside resource users who bring more predatory forms of exploitation.", "evidence": "verified", "sourceIds": ["tiniguena-urok"] }
+      ]
+    },
+    {
+      "id": "bijagos-mangrove-fuelwood",
+      "title": "Mangrove wood used for fish smoking",
+      "territoryIds": ["bijagos-archipelago"],
+      "themeIds": ["mangroves", "fisheries"],
+      "statements": [
+        { "text": "The use of mangrove wood for smoking fish has repercussions on the environment.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198"] }
+      ]
+    },
+    {
+      "id": "bijagos-climate",
+      "title": "Climate change and sea-level rise",
+      "territoryIds": ["bijagos-archipelago", "orango-national-park", "joao-vieira-poilao", "urok-community-mpa"],
+      "themeIds": ["climate"],
+      "statements": [
+        { "text": "UNESCO notes a strong likelihood that climate change will alter water circulation patterns and bring significant changes in sea level to this low-lying deltaic archipelago.", "evidence": "verified", "sourceIds": ["whc-1431"] }
+      ]
+    },
+    {
+      "id": "bijagos-sacred-forests-tourism",
+      "title": "Pressure on sacred island forests",
+      "territoryIds": ["bijagos-archipelago"],
+      "themeIds": ["development", "governance"],
+      "statements": [
+        { "text": "Sacred forests on the islands are described as threatened by exploitative tourism and natural resource extraction.", "evidence": "verified", "sourceIds": ["rainforest-trust-bijagos"] }
+      ]
+    },
+    {
+      "id": "bijagos-cashew-shift",
+      "title": "Cashew expansion changing traditional production",
+      "territoryIds": ["bijagos-archipelago", "orango-national-park"],
+      "themeIds": ["land-use", "livelihoods"],
+      "statements": [
+        { "text": "The expansion of cashew, encouraged by a monetarised economy, is reducing the preponderance of palm and rice.", "evidence": "verified", "sourceIds": ["ibap-ecotourism-guide-2016"] }
+      ]
+    },
+    {
+      "id": "cacheu-rice-conversion",
+      "title": "Mangrove conversion and abandoned rice fields",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "themeIds": ["mangroves", "land-use"],
+      "statements": [
+        { "text": "Large areas of mangrove were converted to rice fields, many of which are abandoned after a few years as salt water intrudes and soils acidify.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] },
+        { "text": "Mangrove rice farming is declining for both climatic and social reasons.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
+      ]
+    },
+    {
+      "id": "cacheu-fuelwood",
+      "title": "Fuelwood demand on mangroves",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "statements": [
+        { "text": "Overexploitation of natural resources in the park includes fish, waterbirds and fuelwood.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] },
+        { "text": "On Dapack island, communities produced salt by boiling seawater over mangrove fuelwood before solar salt production was introduced.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] }
+      ]
+    },
+    {
+      "id": "cacheu-overfishing",
+      "title": "Overfishing and illegal fishing",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "themeIds": ["fisheries"],
+      "statements": [
+        { "text": "Some migratory fish species have become rare through overfishing, and illegal fishing is practised mainly by non-resident fishers.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
+      ]
+    },
+    {
+      "id": "cacheu-land-clearance",
+      "title": "Cashew expansion and slash-and-burn agriculture",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "themeIds": ["land-use"],
+      "statements": [
+        { "text": "The park has been heavily degraded by slash-and-burn agriculture and overexploitation of natural resources.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] },
+        { "text": "The recent expansion of cashew plantations is a main threat to the dryland forests of the buffer zone.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] }
+      ]
+    },
+    {
+      "id": "cacheu-climate",
+      "title": "Climate change, rainfall shifts and sea-level rise",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "themeIds": ["climate", "land-use"],
+      "statements": [
+        { "text": "In Guinea-Bissau's coastal mangrove villages, a shorter but more intense rainy season together with sea-level rise is making it harder for farmers to manage their rice fields.", "evidence": "verified", "sourceIds": ["mongabay-2024"] }
+      ]
+    },
+    {
+      "id": "cacheu-mining",
+      "title": "Upstream phosphate mining prospects",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "themeIds": ["development"],
+      "statements": [
+        { "text": "The 2015 Ramsar description lists a phosphate mining industry, then at prospecting stage upstream on the Rio Cacheu, as a pressure from the surrounding region.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
+      ]
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "cacheu-solar-salt",
+      "title": "Women-led solar salt production",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "challengeIds": ["cacheu-fuelwood"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "Wetlands International introduced solar salt production on Dapack island (Cacheu) to replace boiling seawater with mangrove fuelwood.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] },
+        { "text": "The Restoration Initiative trained women on Elia Island in solar salt production, a less exhausting method that does not require cutting mangrove wood.", "evidence": "verified", "sourceIds": ["iucn-tri-newsletter-2023"] },
+        { "text": "Elsewhere in Guinea-Bissau's coastal zone (Oio region), the DEDURAM project has offered women salt producers a solar technique since 2016.", "evidence": "verified", "sourceIds": ["climate-chance-deduram"] },
+        { "text": "Because the technique has already been introduced locally, a women-led solar salt enterprise is a plausible way to generate income while directly reducing fuelwood demand on mangroves.", "evidence": "interpretation", "sourceIds": ["wi-cacheu-report", "iucn-tri-newsletter-2023"] }
+      ],
+      "validationNeeded": [
+        "Outcomes of the earlier pilots: are producers still using solar methods?",
+        "Production volumes, seasonality and quality compared with boiled salt",
+        "Local and regional market prices and buyers",
+        "Access and tenure arrangements for salt flats",
+        "Compatibility with park zoning and IBAP management rules"
+      ]
+    },
+    {
+      "id": "fuel-efficient-fish-processing",
+      "title": "Fuel-efficient fish smoking and processing",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park", "bijagos-archipelago"],
+      "themeIds": ["mangroves", "fisheries", "livelihoods"],
+      "challengeIds": ["cacheu-fuelwood", "bijagos-mangrove-fuelwood"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "In the village of Plindan (Cacheu), a fuelwood-efficient oven was installed to reduce fuelwood use for fish smoking, alongside a new women's association.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] },
+        { "text": "In the Bijagós, mangrove wood is used for smoking fish.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198"] },
+        { "text": "An earlier GEF-supported protected-areas project funded income-generating activities such as fish processing.", "evidence": "verified", "sourceIds": ["gef-bioguinea-2011"] },
+        { "text": "A fish-processing micro-enterprise built around fuel-efficient ovens could add value to artisanal catches while reducing mangrove cutting.", "evidence": "hypothesis", "sourceIds": [] }
+      ],
+      "validationNeeded": [
+        "Measured fuelwood savings and oven adoption after project support ended",
+        "Sustainability of the fish supply (avoid increasing fishing pressure)",
+        "Hygiene and quality requirements for target markets",
+        "Up-front equipment financing and ownership model"
+      ]
+    },
+    {
+      "id": "cacheu-oyster-cultivation",
+      "title": "Mangrove oyster cultivation",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "challengeIds": [],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "Women on Elia Island, near the mouth of the Cacheu River, have been trained in growing oysters by The Restoration Initiative.", "evidence": "verified", "sourceIds": ["iucn-tri-newsletter-2023"] },
+        { "text": "The park's dense mangroves are spawning and nursery habitat for fish and shellfish.", "evidence": "verified", "sourceIds": ["ramsar-annotated-gw"] },
+        { "text": "Oyster cultivation creates income that depends on healthy mangroves, which could give communities a direct economic interest in protecting them.", "evidence": "interpretation", "sourceIds": ["iucn-tri-newsletter-2023", "ramsar-annotated-gw"] }
+      ],
+      "validationNeeded": [
+        "Results and continuation of the Elia pilot",
+        "Water quality and food-safety requirements",
+        "Carrying capacity of the estuary",
+        "Market access, transport and storage for a perishable product"
+      ]
+    },
+    {
+      "id": "cacheu-mangrove-honey",
+      "title": "Mangrove honey and beekeeping",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "themeIds": ["mangroves", "livelihoods"],
+      "challengeIds": ["cacheu-fuelwood"],
+      "evidence": "hypothesis",
+      "rationale": [
+        { "text": "Honey is among the services the Cacheu mangroves provide.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
+        { "text": "A Wetlands International project around the Cacheu and Cantanhez parks supports beekeeping, describing hives as 'mangrove guardians' because no one cuts a tree with an active hive.", "evidence": "verified", "sourceIds": ["mongabay-2024"] },
+        { "text": "A traceable mangrove-honey product could reward communities for keeping mangroves standing. Its commercial viability is unknown.", "evidence": "hypothesis", "sourceIds": [] }
+      ],
+      "validationNeeded": [
+        "Existing honey producers and current yields in the Cacheu area",
+        "Whether hives measurably reduce cutting",
+        "Quality, labelling and buyer demand",
+        "Seasonality and equipment costs"
+      ]
+    },
+    {
+      "id": "cacheu-restoration-finance",
+      "title": "Community mangrove restoration linked to results-based finance",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "themeIds": ["mangroves", "finance", "climate"],
+      "challengeIds": ["cacheu-rice-conversion", "cacheu-climate"],
+      "evidence": "hypothesis",
+      "rationale": [
+        { "text": "From 2015 to 2018, Wetlands International, IBAP and partners restored abandoned rice fields by breaching embankments and digging small channels to restore tidal flow.", "evidence": "verified", "sourceIds": ["wi-cacheu-report"] },
+        { "text": "The BioGuinea Foundation runs a community REDD+ project in the Cacheu and Cantanhez parks, which underwent a critical review phase in 2025.", "evidence": "verified", "sourceIds": ["fbg-annual-report-2025"] },
+        { "text": "Global Mangrove Watch publishes open mangrove-extent time series (CC BY 4.0) that could support baseline monitoring.", "evidence": "verified", "sourceIds": ["zenodo-gmw-v4"] },
+        { "text": "Results-based finance (e.g. carbon or biodiversity outcomes) for community-led restoration of abandoned rice fields could be explored, building on — not duplicating — the existing REDD+ project.", "evidence": "hypothesis", "sourceIds": [] }
+      ],
+      "validationNeeded": [
+        "Relationship with, and lessons from, the existing REDD+ project review",
+        "Eligibility under a recognised methodology, additionality and permanence",
+        "Land and carbon rights, benefit-sharing and free, prior and informed consent",
+        "Alignment with IBAP and national policy",
+        "Monitoring costs relative to expected revenue"
+      ]
+    },
+    {
+      "id": "bijagos-community-tourism",
+      "title": "Community-owned, low-impact tourism",
+      "territoryIds": ["bijagos-archipelago", "orango-national-park"],
+      "themeIds": ["livelihoods", "governance", "development"],
+      "challengeIds": ["bijagos-sacred-forests-tourism"],
+      "evidence": "interpretation",
+      "rationale": [
+        { "text": "Ecological tourism is already one of the main activities of island communities.", "evidence": "verified", "sourceIds": ["unesco-mab-bolama-bijagos"] },
+        { "text": "A community guest house in Anôr village serves visitors to Orango.", "evidence": "verified", "sourceIds": ["ibap-ecotourism-guide-2016"] },
+        { "text": "Sacred forests are described as threatened by exploitative tourism.", "evidence": "verified", "sourceIds": ["rainforest-trust-bijagos"] },
+        { "text": "Tourism that is community-owned and respects customary rules could add income while steering away from the exploitative forms identified as a threat.", "evidence": "interpretation", "sourceIds": ["ibap-ecotourism-guide-2016", "rainforest-trust-bijagos"] }
+      ],
+      "validationNeeded": [
+        "Community consent and customary rules on sacred sites",
+        "Visitor carrying capacity and World Heritage management requirements",
+        "Transport, access and seasonality",
+        "Revenue-sharing arrangements"
+      ]
+    },
+    {
+      "id": "bijagos-community-fisheries-products",
+      "title": "Products from community-managed fishing grounds",
+      "territoryIds": ["bijagos-archipelago", "urok-community-mpa"],
+      "themeIds": ["fisheries", "governance", "livelihoods"],
+      "challengeIds": ["bijagos-fishing-pressure"],
+      "evidence": "hypothesis",
+      "rationale": [
+        { "text": "The Urok community MPA is managed directly by local communities and aims to secure their access to prime fishing grounds.", "evidence": "verified", "sourceIds": ["bioguinea-urok"] },
+        { "text": "BioGuinea's Blue Bijagós project targets sustainable marine resource management and improved livelihoods in the archipelago's MPAs.", "evidence": "verified", "sourceIds": ["bioguinea-blue-bijagos"] },
+        { "text": "Traceable products from community-managed grounds (for example processed shellfish or fish) could link conservation outcomes to income, if harvest limits are respected.", "evidence": "hypothesis", "sourceIds": [] }
+      ],
+      "validationNeeded": [
+        "Stock status and sustainable harvest levels",
+        "Community rules and consent on commercialisation",
+        "Food safety, processing and transport",
+        "Market demand and price premium"
+      ]
+    },
+    {
+      "id": "bijagos-palm-products",
+      "title": "Value-added palm products from traditional groves",
+      "territoryIds": ["bijagos-archipelago", "orango-national-park"],
+      "themeIds": ["land-use", "livelihoods"],
+      "challengeIds": ["bijagos-cashew-shift"],
+      "evidence": "hypothesis",
+      "rationale": [
+        { "text": "The Bijagó production system is based mainly on natural palm groves, rice and sea products.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198"] },
+        { "text": "Cashew expansion is reducing the preponderance of palm and rice.", "evidence": "verified", "sourceIds": ["ibap-ecotourism-guide-2016"] },
+        { "text": "Adding value to products from existing natural palm groves could make traditional agroforestry more competitive with cashew expansion.", "evidence": "hypothesis", "sourceIds": [] }
+      ],
+      "validationNeeded": [
+        "Which palm products are traded today and by whom",
+        "Customary rights over palm groves",
+        "Processing options, quality and markets",
+        "Effect on land-use decisions in practice"
+      ]
+    }
+  ],
+  "organisations": [
+    {
+      "id": "ibap",
+      "name": "Institute for Biodiversity and Protected Areas",
+      "acronym": "IBAP",
+      "type": "government-agency",
+      "url": "https://ibapgbissau.org/",
+      "territoryIds": ["bijagos-archipelago", "orango-national-park", "joao-vieira-poilao", "urok-community-mpa", "cacheu-region", "cacheu-mangroves-park"],
+      "role": { "text": "Created in 2004 to protect and manage Guinea-Bissau's biodiversity through the National System of Protected Areas, which covers about 26% of the national territory. It coordinates management of the Bijagós World Heritage property and manages the Cacheu park.", "evidence": "verified", "sourceIds": ["ibap-apresentacao", "ffem-bioguine", "whc-1431", "ibap-pntc"] }
+    },
+    {
+      "id": "bioguinea",
+      "name": "BioGuinea Foundation",
+      "acronym": "FBG",
+      "type": "conservation-trust-fund",
+      "url": "https://www.bioguinea.org/",
+      "territoryIds": ["bijagos-archipelago", "orango-national-park", "urok-community-mpa", "cacheu-region", "cacheu-mangroves-park"],
+      "role": { "text": "Conservation trust fund established in 2011 as a long-term financing mechanism for Guinea-Bissau's protected areas, with funding channelled through IBAP. It runs the Blue Bijagós project and a community REDD+ project in the Cacheu and Cantanhez parks.", "evidence": "verified", "sourceIds": ["gef-bioguinea-2011", "bioguinea-about", "bioguinea-blue-bijagos", "fbg-annual-report-2025"] }
+    },
+    {
+      "id": "tiniguena",
+      "name": "Tiniguena – Esta Terra é Nossa",
+      "type": "national-ngo",
+      "url": "https://www.tiniguena.org/",
+      "territoryIds": ["bijagos-archipelago", "urok-community-mpa"],
+      "role": { "text": "Guinean NGO that supported the creation and participatory governance of the Urok Islands Community Marine Protected Area.", "evidence": "verified", "sourceIds": ["tiniguena-about", "tiniguena-urok", "bioguinea-urok"] }
+    },
+    {
+      "id": "wetlands-international",
+      "name": "Wetlands International (West Africa)",
+      "type": "international-ngo",
+      "url": "https://westafrica.wetlands.org/",
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
+      "role": { "text": "With IBAP and partners, ran a 2015–2018 initiative to conserve and restore the Cacheu mangroves, including ecological restoration of abandoned rice fields, solar salt and a fuel-efficient fish-smoking oven.", "evidence": "verified", "sourceIds": ["wi-cacheu-report", "wi-tpntp"] }
+    },
+    {
+      "id": "iucn",
+      "name": "International Union for Conservation of Nature",
+      "acronym": "IUCN",
+      "type": "international-organisation",
+      "url": "https://iucn.org/",
+      "territoryIds": ["bijagos-archipelago", "cacheu-region", "cacheu-mangroves-park"],
+      "role": { "text": "Provided technical assistance to the coastal planning that led to the 1996 Bolama-Bijagós Biosphere Reserve. Through The Restoration Initiative, it trained women on Elia Island (Cacheu River) in oyster growing and solar salt production.", "evidence": "verified", "sourceIds": ["ramsar-ris-2198", "iucn-tri-newsletter-2023"] }
+    },
+    {
+      "id": "prcm",
+      "name": "Regional Partnership for Coastal and Marine Conservation in West Africa",
+      "acronym": "PRCM",
+      "type": "regional-partnership",
+      "url": "https://www.prcmarine.org/",
+      "territoryIds": ["bijagos-archipelago"],
+      "role": { "text": "Regional coalition for the conservation and sustainable management of West Africa's coastal and marine areas. It partners with Rainforest Trust on a proposed project supporting new marine protected area designations in the Bijagós.", "evidence": "verified", "sourceIds": ["prcm-home", "rainforest-trust-bijagos"] }
+    },
+    {
+      "id": "rainforest-trust",
+      "name": "Rainforest Trust",
+      "type": "international-ngo",
+      "url": "https://www.rainforesttrust.org/",
+      "territoryIds": ["bijagos-archipelago"],
+      "role": { "text": "Raising funds, with PRCM, to support government designation of four new marine protected areas in the Bijagós, including three island community MPAs (proposed project).", "evidence": "verified", "sourceIds": ["rainforest-trust-bijagos"] }
+    },
+    {
+      "id": "ad",
+      "name": "Acção para o Desenvolvimento",
+      "acronym": "AD",
+      "type": "national-ngo",
+      "territoryIds": ["cacheu-mangroves-park"],
+      "role": { "text": "National NGO supporting a network of environmental schools (EVA) around the park.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
+    },
+    {
+      "id": "ce3c",
+      "name": "CE3C – Centre for Ecology, Evolution and Environmental Changes (University of Lisbon)",
+      "acronym": "CE3C",
+      "type": "research-institution",
+      "url": "https://www.ce3c.pt/",
+      "territoryIds": ["bijagos-archipelago"],
+      "role": { "text": "Runs a research project on the ecological integrity of the Bijagós as a key site for waders on the East Atlantic Flyway, with partners including Tiniguena.", "evidence": "verified", "sourceIds": ["ce3c-bijagos-waders"] }
+    }
+  ],
+  "sources": [
+    { "id": "geoboundaries-gnb", "title": "geoBoundaries gbOpen — Guinea-Bissau ADM0 & ADM1 (simplified), release 9469f09", "publisher": "geoBoundaries (William & Mary geoLab), derived from OpenStreetMap", "url": "https://github.com/wmgeolab/geoBoundaries/tree/9469f09/releaseData/gbOpen/GNB", "licence": "ODbL 1.0 — © OpenStreetMap contributors", "licenceUrl": "https://opendatacommons.org/licenses/odbl/1-0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Administrative boundaries only; boundary year represented: 2017." },
+    { "id": "wikidata-q664687", "title": "Bijagós Islands (Q664687) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q664687", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-18", "kind": "dataset" },
+    { "id": "wikidata-q7099832", "title": "Orango Islands National Park (Q7099832) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q7099832", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Item lists two coordinates; the second (11.06582, -16.13805), which falls on land within the region outline, is used." },
+    { "id": "wikidata-q6206287", "title": "João Vieira and Poilão Marine National Park (Q6206287) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q6206287", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Item lists two nearly identical coordinates; the first is used." },
+    { "id": "wikidata-q25211080", "title": "Urok Islands Community MPA (Q25211080) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q25211080", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-18", "kind": "dataset" },
+    { "id": "wikidata-q780838", "title": "Cacheu Region (Q780838) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q780838", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-18", "kind": "dataset" },
+    { "id": "wikidata-q3364592", "title": "Cacheu River Mangroves Natural Park (Q3364592) — coordinate location", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q3364592", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-18", "kind": "dataset" },
+    { "id": "wikidata-q2445908", "title": "Cacheu River (Q2445908) — course and mouth coordinates", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q2445908", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-18", "kind": "dataset" },
+    { "id": "whc-1431", "title": "Coastal and Marine Ecosystems of the Bijagós Archipelago – Omatí Minhô", "publisher": "UNESCO World Heritage Centre", "url": "https://whc.unesco.org/en/list/1431/", "licence": "© UNESCO — cited for reference (facts and short quotes)", "licenceUrl": "https://www.unesco.org/en/terms-use", "accessed": "2026-10-18", "kind": "webpage", "note": "UNESCO terms allow attributed quotation; no bulk extraction or implied endorsement." },
+    { "id": "unesco-mab-bolama-bijagos", "title": "Bolama-Bijagos Biosphere Reserve", "publisher": "UNESCO Man and the Biosphere Programme", "url": "https://www.unesco.org/en/mab/bolama-bijagos", "licence": "© UNESCO — cited for reference (facts and short quotes)", "licenceUrl": "https://www.unesco.org/en/terms-use", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "ramsar-ris-2198", "title": "Ramsar Information Sheet — Archipel Bolama-Bijagós (site 2198), January 2014", "publisher": "Ramsar Convention Secretariat (compiled by IBAP and IUCN Guinea-Bissau)", "url": "https://rsis.ramsar.org/RISapp/files/RISrep/GW2198RIS.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report", "note": "In French. Ramsar terms-of-use page could not be retrieved." },
+    { "id": "ramsar-ris-2229", "title": "Ramsar Information Sheet — Parc Naturel des Mangroves du Fleuve Cacheu (site 2229), May 2015", "publisher": "Ramsar Convention Secretariat (compiled by IBAP)", "url": "https://rsis.ramsar.org/RISapp/files/RISrep/GW2229RIS_1505_fr.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report", "note": "In French." },
+    { "id": "ramsar-annotated-gw", "title": "Annotated list of Wetlands of International Importance — Guinea-Bissau", "publisher": "Ramsar Convention Secretariat (RSIS)", "url": "https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea-Bissau.pdf", "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report" },
+    { "id": "ibap-ecotourism-guide-2016", "title": "Guinea-Bissau, land of biodiversity — ecotourism guide to protected areas (April 2016)", "publisher": "IBAP, with the Ministry of Tourism", "url": "https://www.ecoturismo.ibapgbissau.org/documentos/publicacoes/Guias/IBA-%20Guide%20ecotourisme%20EN%20LowDef.pdf", "licence": "© IBAP — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report" },
+    { "id": "ibap-pntc", "title": "PNTC — Parque Natural dos Tarrafes de Cacheu", "publisher": "IBAP", "url": "https://ibapgbissau.org/pntc-ap/", "licence": "© IBAP — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage", "note": "At access time the IBAP website also displayed unrelated spam posts; the institutional pages cited appeared genuine." },
+    { "id": "ibap-apresentacao", "title": "Apresentação — Instituto da Biodiversidade e das Áreas Protegidas", "publisher": "IBAP", "url": "https://ibapgbissau.org/apresentacao/", "licence": "© IBAP — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage", "note": "In Portuguese. At access time the IBAP website also displayed unrelated spam posts; the institutional pages cited appeared genuine." },
+    { "id": "bioguinea-blue-bijagos", "title": "Blue Bijagós — sustainable management of marine resources and improvement of livelihoods in MPAs of the Bijagós Archipelago", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/blue-bijagos/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "bioguinea-about", "title": "About Bio Guinea", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/about-bio-guinea/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "bioguinea-orango", "title": "The Orango National Park", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/the-orango-national-park/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "bioguinea-jvp", "title": "The João Vieira and Poilão National Marine Park", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/the-joao-vieira-and-poilao-national-marine-park/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "bioguinea-urok", "title": "Community Marine Protected Area of the Urok Islands", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/community-marine-protected-area-of-the-urok-islands/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "bioguinea-pntc", "title": "The Parque Nacional de Tarrafes de Rio Cacheu", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/national-parks-in-guinea-bissau/the-parque-nacional-de-tarrafes-de-rio-cacheu/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "fbg-annual-report-2025", "title": "BioGuinée Foundation 2025 Annual Report — summary for partners and donors", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/wp-content/uploads/2026/03/FBG-Annual-Report-2025-English-versio.pdf", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report" },
+    { "id": "gef-bioguinea-2011", "title": "BioGuinea Foundation officially created", "publisher": "Global Environment Facility", "url": "https://www.thegef.org/news/bioguinea-foundation-officially-created", "licence": "© GEF — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "article" },
+    { "id": "ffem-bioguine", "title": "Reinforcing the national system of protected areas and the Bijagós Archipelago (BioGuiné)", "publisher": "Fonds Français pour l'Environnement Mondial (FFEM)", "url": "https://www.ffem.fr/en/projects/reinforcing-national-system-protected-areas-bijagos-archipelago", "licence": "© FFEM — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "equator-urok-2019", "title": "Conselho de Gestão da Área Marinha Protegida Comunitária Urok", "publisher": "Equator Initiative (UNDP)", "url": "https://www.equatorinitiative.org/2019/07/29/conselho-de-gestao-da-area-marinha-protegida-comunitaria-urok/", "licence": "© Equator Initiative — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "tiniguena-about", "title": "Tiniguena — Esta Terra é Nossa (about)", "publisher": "Tiniguena", "url": "https://www.tiniguena.org/page26.html", "licence": "© Tiniguena — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage", "note": "In Portuguese." },
+    { "id": "tiniguena-urok", "title": "Ambiente e Cultura em Urok", "publisher": "Tiniguena", "url": "https://www.tiniguena.org/page19.html", "licence": "© Tiniguena — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage", "note": "In Portuguese." },
+    { "id": "rainforest-trust-bijagos", "title": "Expand Africa's Premier Green Sea Turtle Sanctuary (Guinea-Bissau) — proposed project sheet", "publisher": "Rainforest Trust", "url": "https://www.rainforesttrust.org/app/uploads/2025/04/Guinea-Bissau—Bijagos-Expand-Africa_s-Premier-Green-Sea-Turtle-Sanctuary-June24-min.pdf", "licence": "© Rainforest Trust — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report", "note": "Fundraising document for a proposed project; statements reflect the publisher's assessment." },
+    { "id": "ce3c-bijagos-waders", "title": "Securing the ecological integrity of the Bijagós archipelago as a key site for waders along the East Atlantic Flyway", "publisher": "CE3C, University of Lisbon", "url": "https://www.ce3c.pt/en/research/projects/international-research-project/securing-the-ecological-integrity-of-the-bijagos-archipelago-as-a-key-site-for-waders-along-the-east-atlantic-flyway", "licence": "© CE3C — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "prcm-home", "title": "Partenariat Régional pour la Conservation de la zone côtière et Marine en Afrique de l'Ouest", "publisher": "PRCM", "url": "https://www.prcmarine.org/", "licence": "© PRCM — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage", "note": "In French." },
+    { "id": "wi-cacheu-report", "title": "Conserving the biodiversity of the Cacheu Mangroves National Park — our achievements (2015–2018)", "publisher": "Wetlands International (hosted by Mangrove Action Project)", "url": "https://mangroveactionproject.org/wp-content/uploads/2021/06/WI-Guinea-Bissau-CBEMR-project-report-Cacheu-project-1.pdf", "licence": "© Wetlands International — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report" },
+    { "id": "wi-tpntp", "title": "To Plant or Not To Plant (TPNTP) — case study", "publisher": "Wetlands International West Africa", "url": "https://westafrica.wetlands.org/en/case-study/to-plant-or-not-to-plant-tpntp", "licence": "© Wetlands International — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "mongabay-2024", "title": "How a holistic approach aims to heal mangroves in Guinea-Bissau (27 Nov 2024)", "publisher": "Mongabay", "url": "https://news.mongabay.com/2024/11/how-a-holistic-approach-aims-to-heal-mangroves-in-guinea-bissau/", "licence": "© Mongabay — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "article" },
+    { "id": "iucn-tri-newsletter-2023", "title": "The Restoration Initiative newsletter, issue 03 (January–July 2023)", "publisher": "IUCN / The Restoration Initiative", "url": "https://iucn.org/sites/default/files/2023-08/tri-newsletter-july-2023-compressed_1.pdf", "licence": "© IUCN — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "report" },
+    { "id": "climate-chance-deduram", "title": "Sustainable development of mangrove agriculture — DEDURAM", "publisher": "Climate Chance", "url": "https://www.climate-chance.org/en/best-pratices/sustainable-development-of-mangrove-agriculture-deduram/", "licence": "© Climate Chance — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
+    { "id": "zenodo-gmw-v4", "title": "Global Mangrove Watch: timeseries of mangrove extent, version 4.1.12", "publisher": "Bunting, Hilarides, Rosenqvist et al. (Zenodo)", "url": "https://zenodo.org/records/21346457", "licence": "CC BY 4.0", "licenceUrl": "https://creativecommons.org/licenses/by/4.0/", "accessed": "2026-10-18", "kind": "dataset", "note": "Cited only as an available monitoring dataset; not displayed on the map in Milestone 1." }
+  ]
+}
