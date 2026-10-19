@@ -14,7 +14,7 @@ export function Header({ onOpenAbout }: { onOpenAbout: () => void }) {
         <div className="min-w-0">
           <h1 className="truncate font-display text-lg font-medium leading-tight">{config.appName}</h1>
           <p className="truncate text-xs text-white/60">
-            Guinea-Bissau · Bijagós Archipelago & Cacheu
+            Guinea-Bissau · Bijagós, Cacheu & Cantanhez
           </p>
         </div>
       </div>

@@ -1,6 +1,6 @@
 # Vivid Space · Conservation Opportunity Explorer
 
-A standalone geospatial dashboard prototype for discussion between Vivid Space and BlueSeeds. It covers conservation territories in **Guinea-Bissau** (the Bijagós Archipelago and the Cacheu region) and guides the viewer through:
+A standalone geospatial dashboard prototype for discussion between Vivid Space and BlueSeeds. It covers conservation territories in **Guinea-Bissau** (the Bijagós Archipelago, the Cacheu region and Cantanhez National Park) and guides the viewer through:
 
 **Territory → Conservation challenge → Potential regenerative activity → Supporting evidence → Next steps**
 

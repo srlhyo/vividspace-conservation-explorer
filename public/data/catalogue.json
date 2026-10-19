@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "0.1.0",
-    "updated": "2026-10-18",
-    "description": "Milestone 1 demonstration dataset for Guinea-Bissau, focused on the Bijagós Archipelago and the Cacheu region. Every factual statement cites a publicly accessible source that was checked on the access date shown. Potential regenerative activities are presented as interpretations or hypotheses, never as validated businesses."
+    "version": "0.2.0",
+    "updated": "2026-10-19",
+    "description": "Demonstration dataset for Guinea-Bissau, focused on the Bijagós Archipelago and the Cacheu region, with Cantanhez National Park. Every factual statement cites a publicly accessible source that was checked on the access date shown. Potential regenerative activities are presented as interpretations or hypotheses, never as validated businesses."
   },
   "countries": [{ "code": "GNB", "name": "Guinea-Bissau" }],
   "ecosystems": [
@@ -263,8 +263,42 @@
       ],
       "verification": {
         "status": "partially-verified",
-        "note": "Designations, management, ecosystems and pressures verified against Ramsar, IBAP and NGO sources. Sources disagree on the exact creation day (1 or 4 December 2000) and on the mangrove share of the park, so those details are omitted. Location is a representative point only.",
+        "note": "Designations, management, ecosystems and pressures verified against Ramsar, IBAP and NGO sources. Sources disagree on the exact creation day (1 or 4 December 2000) and on the mangrove share of the park, so those details are omitted. BioGuinea lists it as a national park, while IBAP, Ramsar and Wetlands International call it a natural park; the official name is kept here. Location is a representative point only.",
         "reviewed": "2026-10-18"
+      }
+    },
+    {
+      "id": "cantanhez-national-park",
+      "name": "Cantanhez National Park",
+      "localName": "Parque Nacional de Cantanhez",
+      "kind": "protected-area",
+      "countryCode": "GNB",
+      "location": {
+        "description": "Southern Guinea-Bissau, in the Tombali administrative region.",
+        "descriptionSourceIds": ["wikidata-q5033548"],
+        "point": [-15.0293, 11.26461],
+        "pointSourceId": "wikidata-q5033548"
+      },
+      "geometry": {
+        "representation": "point",
+        "sourceId": "wikidata-q5033548",
+        "caveat": "Shown as a reference point from Wikidata. The official boundary is not shown: it is held in WDPA/Protected Planet, which was not used because its terms restrict redistribution."
+      },
+      "overview": [
+        { "text": "According to the BioGuinea Foundation, the park was established in 2008 and covers 1,068 km².", "evidence": "verified", "sourceIds": ["bioguinea-cantanhez"] },
+        { "text": "Species listed by the BioGuinea Foundation include chimpanzees, Temminck's red colobus, baboons, roan antelope, waterbuck and buffalo.", "evidence": "verified", "sourceIds": ["bioguinea-cantanhez"] },
+        { "text": "The BioGuinea Foundation runs a community REDD+ project in the Cacheu and Cantanhez parks, which underwent a critical review phase in 2025.", "evidence": "verified", "sourceIds": ["fbg-annual-report-2025"] },
+        { "text": "Wetlands International reports that its support has improved the conservation status of 82,000 hectares of mangroves across the Cacheu and Cantanhez parks.", "evidence": "verified", "sourceIds": ["wi-reviving-mangroves-2026"] }
+      ],
+      "livelihoods": [],
+      "ecosystems": [
+        { "ecosystemId": "terrestrial-mosaic", "text": "The BioGuinea Foundation describes the park as holding the last areas of dense sub-humid forest in the country.", "evidence": "verified", "sourceIds": ["bioguinea-cantanhez"] },
+        { "ecosystemId": "mangrove", "text": "Mangroves in the park are among those whose conservation Wetlands International reports supporting.", "evidence": "verified", "sourceIds": ["wi-reviving-mangroves-2026"] }
+      ],
+      "verification": {
+        "status": "partially-verified",
+        "note": "Location and region from Wikidata. Creation year and area are as reported by BioGuinea; Wikidata lists other dates (1980, 2007) and areas (680 and 1,057.67 km²), so treat them as unconfirmed. BioGuinea's description of the park's orientation conflicts with the map and was not used. No potential activity is proposed, because no reviewed source links a documented need here to a specific activity.",
+        "reviewed": "2026-10-19"
       }
     }
   ],
@@ -353,7 +387,8 @@
       "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
       "themeIds": ["fisheries"],
       "statements": [
-        { "text": "Some migratory fish species have become rare through overfishing, and illegal fishing is practised mainly by non-resident fishers.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] }
+        { "text": "Some migratory fish species have become rare through overfishing, and illegal fishing is practised mainly by non-resident fishers.", "evidence": "verified", "sourceIds": ["ramsar-ris-2229"] },
+        { "text": "Wetlands International reports that park rangers' monitoring and surveillance have reduced illegal fishing and mangrove harvesting in the Cacheu and Cantanhez parks.", "evidence": "verified", "sourceIds": ["wi-reviving-mangroves-2026"]}
       ]
     },
     {
@@ -373,6 +408,15 @@
       "themeIds": ["climate", "land-use"],
       "statements": [
         { "text": "In Guinea-Bissau's coastal mangrove villages, a shorter but more intense rainy season together with sea-level rise is making it harder for farmers to manage their rice fields.", "evidence": "verified", "sourceIds": ["mongabay-2024"] }
+      ]
+    },
+    {
+      "id": "cantanhez-illegal-harvest",
+      "title": "Illegal fishing and mangrove harvesting",
+      "territoryIds": ["cantanhez-national-park"],
+      "themeIds": ["fisheries", "mangroves"],
+      "statements": [
+        { "text": "Wetlands International reports that park rangers' monitoring and surveillance have reduced illegal fishing and mangrove harvesting in the Cacheu and Cantanhez parks.", "evidence": "verified", "sourceIds": ["wi-reviving-mangroves-2026"] }
       ]
     },
     {
@@ -590,8 +634,8 @@
       "acronym": "FBG",
       "type": "conservation-trust-fund",
       "url": "https://www.bioguinea.org/",
-      "territoryIds": ["bijagos-archipelago", "orango-national-park", "cacheu-region", "cacheu-mangroves-park"],
-      "role": { "text": "Conservation trust fund established in 2011 as a long-term financing mechanism for Guinea-Bissau's protected areas, with funding channelled through IBAP. It supports Orango National Park, runs the Blue Bijagós project and runs a community REDD+ project in the Cacheu and Cantanhez parks.", "evidence": "verified", "sourceIds": ["gef-bioguinea-2011", "bioguinea-about", "bioguinea-bijagos", "bioguinea-blue-bijagos", "fbg-annual-report-2025"] }
+      "territoryIds": ["bijagos-archipelago", "orango-national-park", "cacheu-region", "cacheu-mangroves-park", "cantanhez-national-park"],
+      "role": { "text": "Conservation trust fund established in 2011 as a long-term financing mechanism for Guinea-Bissau's protected areas, with funding channelled through IBAP. It supports Orango National Park, runs the Blue Bijagós project and runs a community REDD+ project in the Cacheu and Cantanhez parks. It is listed as a member of the Consortium of African Funds for the Environment (CAFÉ).", "evidence": "verified", "sourceIds": ["gef-bioguinea-2011", "bioguinea-about", "bioguinea-bijagos", "bioguinea-blue-bijagos", "fbg-annual-report-2025", "cafe-members"] }
     },
     {
       "id": "tiniguena",
@@ -606,8 +650,8 @@
       "name": "Wetlands International (West Africa)",
       "type": "international-ngo",
       "url": "https://westafrica.wetlands.org/",
-      "territoryIds": ["cacheu-region", "cacheu-mangroves-park"],
-      "role": { "text": "With IBAP and partners, ran a 2015–2018 initiative to conserve and restore the Cacheu mangroves, including ecological restoration of abandoned rice fields, solar salt and a fuel-efficient fish-smoking oven.", "evidence": "verified", "sourceIds": ["wi-cacheu-report", "wi-tpntp"] }
+      "territoryIds": ["cacheu-region", "cacheu-mangroves-park", "cantanhez-national-park"],
+      "role": { "text": "With IBAP and partners, ran a 2015–2018 initiative to conserve and restore the Cacheu mangroves, including ecological restoration of abandoned rice fields, solar salt and a fuel-efficient fish-smoking oven. It reports that its support has improved the conservation status of 82,000 hectares of mangroves across the Cacheu and Cantanhez parks.", "evidence": "verified", "sourceIds": ["wi-cacheu-report", "wi-tpntp", "wi-reviving-mangroves-2026"] }
     },
     {
       "id": "iucn",
@@ -682,6 +726,9 @@
     { "id": "bioguinea-blue-bijagos", "title": "Blue Bijagós — sustainable management of marine resources and improvement of livelihoods in MPAs of the Bijagós Archipelago", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/blue-bijagos/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "bioguinea-about", "title": "About Bio Guinea", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/about-bio-guinea/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "bioguinea-bijagos", "title": "Bijagós Archipelago (FBG support to Orango National Park)", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/bijagos-archipelago/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
+    { "id": "bioguinea-cantanhez", "title": "Cantanhez National Park", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/cantanhez-national-park/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage", "note": "Figures are attributed to BioGuinea because other records differ; its orientation statements conflict with the map and are not used." },
+    { "id": "wikidata-q5033548", "title": "Cantanhez Forest National Park (Q5033548) — coordinate location and administrative region", "publisher": "Wikidata", "url": "https://www.wikidata.org/wiki/Q5033548", "licence": "CC0 1.0", "licenceUrl": "https://creativecommons.org/publicdomain/zero/1.0/", "accessed": "2026-10-19", "kind": "dataset", "note": "Item lists two nearby coordinates; the first is used. Located in (P131): Tombali Region." },
+    { "id": "cafe-members", "title": "Members", "publisher": "Consortium of African Funds for the Environment (CAFÉ)", "url": "https://cafeconsortium.org/members/", "licence": "© CAFÉ — cited for reference (facts and short quotes)", "accessed": "2026-10-19", "kind": "webpage" },
     { "id": "bioguinea-orango", "title": "The Orango National Park", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/the-orango-national-park/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "bioguinea-jvp", "title": "The João Vieira and Poilão National Marine Park", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/the-joao-vieira-and-poilao-national-marine-park/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },
     { "id": "bioguinea-urok", "title": "Community Marine Protected Area of the Urok Islands", "publisher": "BioGuinea Foundation", "url": "https://www.bioguinea.org/protected-areas-in-guinea-bissau/community-marine-protected-area-of-the-urok-islands/", "licence": "© BioGuinea — cited for reference (facts and short quotes)", "accessed": "2026-10-18", "kind": "webpage" },

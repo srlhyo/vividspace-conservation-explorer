@@ -76,7 +76,7 @@ The UI receives a repository instance (created once in `App.tsx`) and never call
 
 ## Known assumptions and limitations
 
-- **Geographic scope:** Guinea-Bissau only, with the Bijagós Archipelago and the Cacheu region.
+- **Geographic scope:** Guinea-Bissau only: the Bijagós Archipelago, the Cacheu region and Cantanhez National Park. Other protected areas and corridors listed by the BioGuinea Foundation (Boé, Dulombi, Lagoas de Cufada; the Tchétche, Salifé-Xitole and Cuntabane-Quebo corridors) are not yet catalogued.
 - **Region polygons are administrative boundaries** (geoBoundaries ADM1, derived from OpenStreetMap). They are *not* the boundaries of the biosphere reserve, Ramsar sites, national parks or the World Heritage property. Each territory panel states this.
 - **Protected areas are points.** Official boundaries are held in WDPA/Protected Planet, which was not used because its terms restrict redistribution. Reference points come from Wikidata (CC0) and are representative, not centroids of official boundaries.
 - **The basemap** is OpenFreeMap (free, no key, OpenStreetMap data). If it can't be reached, the app falls back to an offline style that shows only the bundled boundaries, without labels.
