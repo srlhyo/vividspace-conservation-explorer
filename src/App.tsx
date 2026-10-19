@@ -45,7 +45,9 @@ export default function App() {
 function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries: BoundaryLayers }) {
   const [filters, setFilters] = useState<TerritoryFilters>(emptyFilters)
   const { selection, selectTerritory, selectChallenge, selectOpportunity } = useSelection(catalogue)
-  const [resetViewSignal, setResetViewSignal] = useState(0)
+  const [viewRequest, setViewRequest] = useState<{ view: 'guinea-bissau' | 'world'; id: number } | null>(null)
+  const [projection, setProjection] = useState<'mercator' | 'globe'>('mercator')
+  const requestView = (view: 'guinea-bissau' | 'world') => setViewRequest((r) => ({ view, id: (r?.id ?? 0) + 1 }))
 
   const results = useMemo(() => filterTerritories(catalogue, filters), [catalogue, filters])
   const visibleIds = useMemo(() => new Set(results.map((t) => t.id)), [results])
@@ -69,18 +71,35 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
           visibleIds={visibleIds}
           selectedId={selection.territoryId}
           onSelect={selectTerritory}
-          resetViewSignal={resetViewSignal}
+          viewRequest={viewRequest}
+          projection={projection}
         />
         {/* Overlays are kept to the top edge so the coast and islands stay clear. */}
         <div className="pointer-events-none absolute inset-x-3 top-3 flex items-start justify-between gap-3">
           <MapLegend />
-          <button
-            type="button"
-            onClick={() => setResetViewSignal((n) => n + 1)}
-            className="pointer-events-auto shrink-0 rounded-full bg-white px-3.5 py-1.5 text-[12px] font-medium text-forest shadow-card ring-1 ring-line hover:bg-cream"
-          >
-            Reset view
-          </button>
+          <div className="pointer-events-auto flex shrink-0 flex-col items-end gap-2">
+            <div className="flex gap-1.5">
+              <MapButton onClick={() => requestView('world')} title="Zoom out to a world-scale view">
+                Explore world
+              </MapButton>
+              <MapButton onClick={() => requestView('guinea-bissau')} title="Return to the Guinea-Bissau overview">
+                Reset view
+              </MapButton>
+            </div>
+            <div className="flex rounded-full bg-white p-0.5 text-[12px] font-medium shadow-card ring-1 ring-line" role="group" aria-label="Map projection">
+              {(['mercator', 'globe'] as const).map((p) => (
+                <button
+                  key={p}
+                  type="button"
+                  aria-pressed={projection === p}
+                  onClick={() => setProjection(p)}
+                  className={`rounded-full px-3 py-1 ${projection === p ? 'bg-forest text-white' : 'text-forest hover:bg-cream'}`}
+                >
+                  {p === 'mercator' ? '2D map' : '3D globe'}
+                </button>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
       {profile && (
@@ -101,5 +120,18 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
         />
       )}
     </div>
+  )
+}
+
+function MapButton({ onClick, title, children }: { onClick: () => void; title: string; children: string }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      title={title}
+      className="rounded-full bg-white px-3.5 py-1.5 text-[12px] font-medium text-forest shadow-card ring-1 ring-line hover:bg-cream"
+    >
+      {children}
+    </button>
   )
 }

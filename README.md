@@ -55,6 +55,8 @@ Notes:
 
 The URL updates as you go, so a prepared view can be bookmarked or reopened after a reload.
 
+Use **Explore world** to zoom out to a global view, and switch between the **2D map** and the **3D globe**. **Reset view** returns to Guinea-Bissau. The global view is for geographic orientation only: the conservation catalogue currently covers Guinea-Bissau, and the map says so when zoomed out.
+
 ## Data
 
 - `public/data/catalogue.json` holds territories, ecosystems, themes, challenges, potential activities, organisations and sources. The rules every entry must follow are enforced by `src/domain/validate.ts` and `src/data/dataset.test.ts`.

@@ -20,7 +20,10 @@ export const config = {
     loadTimeoutMs: 20000,
     /** Initial focus: Guinea-Bissau [west, south, east, north]. */
     initialBounds: [-16.9, 10.75, -13.6, 12.75] as [number, number, number, number],
-    maxBounds: [-22, 7, -9, 16] as [number, number, number, number],
+    /** "Explore world" camera: whole globe, centred on the Atlantic between Africa and Brazil. */
+    worldView: { center: [-5, 8] as [number, number], zoom: 1.3 },
+    /** Below this zoom the map shows that catalogue coverage is Guinea-Bissau only. */
+    coverageNoticeBelowZoom: 5,
   },
 } as const
 

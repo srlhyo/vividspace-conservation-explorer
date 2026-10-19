@@ -20,8 +20,9 @@ interface ExplorerMapProps {
   visibleIds: Set<string>
   selectedId: string | null
   onSelect: (territoryId: string) => void
-  /** Increment to fit the map back to the initial bounds. */
-  resetViewSignal: number
+  /** Camera request from the dashboard; a new `id` triggers it. */
+  viewRequest: { view: 'guinea-bissau' | 'world'; id: number } | null
+  projection: 'mercator' | 'globe'
 }
 
 type MapStatus = 'loading' | 'ready' | 'offline' | 'error'
@@ -93,11 +94,13 @@ export function ExplorerMap({
   visibleIds,
   selectedId,
   onSelect,
-  resetViewSignal,
+  viewRequest,
+  projection,
 }: ExplorerMapProps) {
   const containerRef = useRef<HTMLDivElement>(null)
   const mapRef = useRef<maplibregl.Map | null>(null)
   const [status, setStatus] = useState<MapStatus>('loading')
+  const [zoomedOut, setZoomedOut] = useState(false)
   const features = useMemo(() => territoryFeatures(boundaries, territories), [boundaries, territories])
 
   // Handlers registered once on the map read the latest props through a ref.
@@ -125,7 +128,6 @@ export function ExplorerMap({
         style: basemap.style,
         bounds: config.map.initialBounds,
         fitBoundsOptions: { padding: 40 },
-        maxBounds: config.map.maxBounds,
         attributionControl: { compact: false, customAttribution: ATTRIBUTION },
       })
       mapRef.current = map
@@ -135,6 +137,9 @@ export function ExplorerMap({
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right')
       map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-left')
 
+      map.on('zoomend', () => {
+        if (map) setZoomedOut(map.getZoom() < config.map.coverageNoticeBelowZoom)
+      })
       map.on('error', (e: maplibregl.ErrorEvent) => console.warn('[map]', e.error?.message ?? e))
 
       map.on('load', () => {
@@ -356,9 +361,18 @@ export function ExplorerMap({
   }, [selectedId, territories, features, status])
 
   useEffect(() => {
-    if (resetViewSignal === 0) return
-    mapRef.current?.resize().fitBounds(config.map.initialBounds, { padding: 40, duration: 900 })
-  }, [resetViewSignal])
+    const map = mapRef.current
+    if (!map || !viewRequest || status === 'loading' || status === 'error') return
+    map.resize()
+    if (viewRequest.view === 'world') map.flyTo({ ...config.map.worldView, duration: 1400 })
+    else map.fitBounds(config.map.initialBounds, { padding: 40, duration: 1400 })
+  }, [viewRequest, status])
+
+  useEffect(() => {
+    const map = mapRef.current
+    if (!map || status === 'loading' || status === 'error') return
+    map.setProjection({ type: projection })
+  }, [projection, status])
 
   return (
     <div className="relative h-full w-full">
@@ -366,7 +380,7 @@ export function ExplorerMap({
       <div
         ref={containerRef}
         style={{ position: 'absolute', inset: 0 }}
-        aria-label="Map of Guinea-Bissau"
+        aria-label="Map"
         role="region"
       />
       {status === 'loading' && (
@@ -375,6 +389,11 @@ export function ExplorerMap({
             <span className="size-3 animate-spin rounded-full border-2 border-forest border-t-transparent" />
             Loading map…
           </div>
+        </div>
+      )}
+      {zoomedOut && status !== 'error' && (
+        <div className="pointer-events-none absolute bottom-10 left-1/2 -translate-x-1/2 rounded-full bg-forest-deep/90 px-4 py-1.5 text-[12px] font-medium text-white shadow-card">
+          Conservation data currently covers Guinea-Bissau only
         </div>
       )}
       {status === 'offline' && (
