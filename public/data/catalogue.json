@@ -285,7 +285,8 @@
         "caveat": "Shown as a reference point from Wikidata. The official boundary is not shown: it is held in WDPA/Protected Planet, which was not used because its terms restrict redistribution."
       },
       "overview": [
-        { "text": "According to the BioGuinea Foundation, the park was established in 2008 and covers 1,068 km².", "evidence": "verified", "sourceIds": ["bioguinea-cantanhez"] },
+        { "text": "According to the BioGuinea Foundation, the park was established in 2008 and covers 1,068 km². Other public records differ (see next fact), so the creation date and area are unconfirmed.", "evidence": "verified", "sourceIds": ["bioguinea-cantanhez"] },
+        { "text": "Wikidata records different values: inception in 1980 and in October 2007, and areas of 680 km² and 1,057.67 km².", "evidence": "verified", "sourceIds": ["wikidata-q5033548"] },
         { "text": "Species listed by the BioGuinea Foundation include chimpanzees, Temminck's red colobus, baboons, roan antelope, waterbuck and buffalo.", "evidence": "verified", "sourceIds": ["bioguinea-cantanhez"] },
         { "text": "The BioGuinea Foundation runs a community REDD+ project in the Cacheu and Cantanhez parks, which underwent a critical review phase in 2025.", "evidence": "verified", "sourceIds": ["fbg-annual-report-2025"] },
         { "text": "Wetlands International reports that its support has improved the conservation status of 82,000 hectares of mangroves across the Cacheu and Cantanhez parks.", "evidence": "verified", "sourceIds": ["wi-reviving-mangroves-2026"] }

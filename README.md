@@ -39,12 +39,12 @@ Notes:
 - **Sub-path hosting.** If the site is served from a sub-path (e.g. `https://example.org/explorer/`), build with `npm run build -- --base=/explorer/`. Asset, data and icon URLs follow the base automatically.
 - **No rewrite rules needed.** Navigation state lives in the URL hash (`#t=…&c=…&o=…`), so any static host works without SPA rewrites.
 - **MIME type for `.mjs`.** The map engine's worker ships as `assets/maplibre-gl-worker-*.mjs`. The host must serve `.mjs` as `text/javascript`. Common hosts do this by default.
+- **Security headers.** `public/_headers` (copied to `dist/`) sets a Content-Security-Policy and related headers on Netlify. It also works on Cloudflare Pages; other hosts need equivalent configuration. The policy allows only the site itself and `tiles.openfreemap.org`. If you change `VITE_DATA_BASE_URL` or `VITE_BASEMAP_STYLE_URL` to another host, add that host to `connect-src` (and `img-src` for raster tiles).
 - **Optional configuration** (build-time, see `.env.example` and `src/config.ts`):
   - `VITE_DATA_BASE_URL` serves the dataset from elsewhere.
   - `VITE_BASEMAP_STYLE_URL` sets another MapLibre basemap style.
-- **External services at runtime.** These are free and need no API key:
+- **External services at runtime.** The only one is free and needs no API key. Fonts (Outfit, Figtree, OFL-1.1) are self-hosted, so visitors' browsers contact only the site and this service:
   - OpenFreeMap basemap tiles. If they are unreachable, the app falls back to its bundled boundaries.
-  - Google Fonts. If unreachable, the app falls back to system fonts.
 
 ## Demo walkthrough
 
