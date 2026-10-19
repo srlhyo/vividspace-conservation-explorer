@@ -4,7 +4,12 @@ import {
   filterOptions,
   filterTerritories,
   getTerritoryProfile,
+  opportunitiesForChallenge,
+  organisationsInEvidence,
+  sourcesCitedBy,
+  territorySummary,
   toggleFilter,
+  unlinkedOpportunities,
 } from './catalogue'
 import type { Catalogue, Territory } from './types'
 import { validateCatalogue } from './validate'
@@ -49,11 +54,14 @@ const fixture: Catalogue = {
     {
       id: 'op1',
       title: 'o1',
-      territoryIds: ['b'],
+      territoryIds: ['a', 'b'],
       themeIds: ['climate'],
       challengeIds: ['ch1'],
       evidence: 'hypothesis',
-      rationale: [{ text: 'y', evidence: 'hypothesis', sourceIds: [] }],
+      rationale: [
+        { text: 'w', evidence: 'verified', sourceIds: ['s2'] },
+        { text: 'y', evidence: 'hypothesis', sourceIds: [] },
+      ],
       validationNeeded: ['demand'],
     },
   ],
@@ -82,7 +90,7 @@ describe('filterTerritories', () => {
     const f = { ...emptyFilters, ecosystems: ['mangrove'], themes: ['fish'] }
     expect(ids(filterTerritories(fixture, f))).toEqual(['a'])
     const g = { ...emptyFilters, themes: ['climate'] }
-    expect(ids(filterTerritories(fixture, g))).toEqual(['b'])
+    expect(ids(filterTerritories(fixture, g))).toEqual(['a', 'b'])
   })
 
   it('toggles values on and off', () => {
@@ -113,11 +121,37 @@ describe('getTerritoryProfile', () => {
     expect(profile.challenges.map((c) => c.id)).toEqual(['ch1'])
     expect(profile.organisations.map((o) => o.id)).toEqual(['org'])
     expect(profile.sources.map((s) => s.id)).toEqual(['s1', 's2'])
-    expect(profile.themes.map((t) => t.id)).toEqual(['fish'])
+    expect(profile.themes.map((t) => t.id)).toEqual(['fish', 'climate'])
   })
 
   it('returns undefined for unknown territories', () => {
     expect(getTerritoryProfile(fixture, 'nope')).toBeUndefined()
+  })
+})
+
+describe('challenge → opportunity exploration', () => {
+  it('links opportunities to the challenges they respond to', () => {
+    const a = getTerritoryProfile(fixture, 'a')!
+    expect(opportunitiesForChallenge(a, 'ch1').map((o) => o.id)).toEqual(['op1'])
+    expect(unlinkedOpportunities(a)).toEqual([])
+  })
+
+  it('reports opportunities whose challenges are not documented for the territory', () => {
+    const b = getTerritoryProfile(fixture, 'b')!
+    expect(b.challenges).toEqual([])
+    expect(unlinkedOpportunities(b).map((o) => o.id)).toEqual(['op1'])
+  })
+
+  it('finds organisations through shared evidence and lists cited sources', () => {
+    const a = getTerritoryProfile(fixture, 'a')!
+    const op = a.opportunities[0]
+    expect(organisationsInEvidence(a, op).map((o) => o.id)).toEqual(['org'])
+    expect(sourcesCitedBy(a, op.rationale).map((s) => s.id)).toEqual(['s2'])
+  })
+
+  it('summarises counts per territory', () => {
+    expect(territorySummary(fixture, 'a')).toEqual({ challenges: 1, opportunities: 1 })
+    expect(territorySummary(fixture, 'c')).toEqual({ challenges: 1, opportunities: 0 })
   })
 })
 
@@ -134,5 +168,15 @@ describe('validateCatalogue', () => {
     const problems = validateCatalogue(broken)
     expect(problems.some((p) => p.includes('unknown territory "ghost"'))).toBe(true)
     expect(problems.some((p) => p.includes('has no source'))).toBe(true)
+  })
+
+  it('flags opportunities linked to a challenge from another territory', () => {
+    const broken: Catalogue = {
+      ...fixture,
+      opportunities: [{ ...fixture.opportunities[0], territoryIds: ['b'] }],
+    }
+    expect(validateCatalogue(broken)).toEqual([
+      'opportunity op1: linked challenge "ch1" shares no territory with it',
+    ])
   })
 })

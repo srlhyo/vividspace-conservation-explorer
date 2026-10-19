@@ -1,12 +1,12 @@
 import { useMemo, useState } from 'react'
 import { config } from './config'
 import { AboutDialog } from './components/AboutDialog'
-import { FilterPanel } from './components/FilterPanel'
 import { Header } from './components/Header'
-import { MapLegend, SelectHint } from './components/MapOverlays'
+import { MapLegend } from './components/MapOverlays'
+import { TerritoryPanel } from './components/panel/TerritoryPanel'
+import { Sidebar } from './components/Sidebar'
 import { ErrorScreen, LoadingScreen } from './components/StatusScreens'
-import { TerritoryPanel } from './components/TerritoryPanel'
-import { createStaticRepository } from './data/repository'
+import { createStaticRepository, type BoundaryLayers } from './data/repository'
 import { useExplorerData } from './data/useExplorerData'
 import {
   emptyFilters,
@@ -16,8 +16,8 @@ import {
   type TerritoryFilters,
 } from './domain/catalogue'
 import type { Catalogue } from './domain/types'
-import type { BoundaryLayers } from './data/repository'
 import { ExplorerMap } from './map/ExplorerMap'
+import { useSelection } from './state/selection'
 
 const repository = createStaticRepository(config.dataBaseUrl)
 
@@ -44,55 +44,60 @@ export default function App() {
 
 function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries: BoundaryLayers }) {
   const [filters, setFilters] = useState<TerritoryFilters>(emptyFilters)
-  const [selectedId, setSelectedId] = useState<string | null>(null)
+  const { selection, selectTerritory, selectChallenge, selectOpportunity } = useSelection(catalogue)
   const [resetViewSignal, setResetViewSignal] = useState(0)
 
   const results = useMemo(() => filterTerritories(catalogue, filters), [catalogue, filters])
   const visibleIds = useMemo(() => new Set(results.map((t) => t.id)), [results])
-  const profile = selectedId ? getTerritoryProfile(catalogue, selectedId) : undefined
+  const profile = selection.territoryId ? getTerritoryProfile(catalogue, selection.territoryId) : undefined
 
   return (
     <div className="flex h-full">
-      <FilterPanel
+      <Sidebar
         catalogue={catalogue}
         filters={filters}
         onToggle={(key, value) => setFilters((f) => toggleFilter(f, key, value))}
         onClear={() => setFilters(emptyFilters)}
         results={results}
-        selectedId={selectedId}
-        onSelect={setSelectedId}
+        selectedId={selection.territoryId}
+        onSelect={selectTerritory}
       />
       <div className="relative min-w-0 flex-1">
         <ExplorerMap
           boundaries={boundaries}
           territories={catalogue.territories}
           visibleIds={visibleIds}
-          selectedId={selectedId}
-          onSelect={setSelectedId}
+          selectedId={selection.territoryId}
+          onSelect={selectTerritory}
           resetViewSignal={resetViewSignal}
         />
-        {/* Overlays sit on the right: the focus territories are on the western coast. */}
-        <div className="pointer-events-none absolute top-4 right-4 flex flex-col items-end gap-3">
+        {/* Overlays are kept to the top edge so the coast and islands stay clear. */}
+        <div className="pointer-events-none absolute inset-x-3 top-3 flex items-start justify-between gap-3">
+          <MapLegend />
           <button
             type="button"
             onClick={() => setResetViewSignal((n) => n + 1)}
-            className="pointer-events-auto rounded-full bg-white px-3.5 py-1.5 text-xs font-medium text-forest shadow-card ring-1 ring-line hover:bg-cream"
+            className="pointer-events-auto shrink-0 rounded-full bg-white px-3.5 py-1.5 text-[12px] font-medium text-forest shadow-card ring-1 ring-line hover:bg-cream"
           >
             Reset view
           </button>
-          {!profile && <SelectHint count={results.length} />}
-        </div>
-        <div className="pointer-events-none absolute right-14 bottom-10">
-          <MapLegend />
         </div>
       </div>
       {profile && (
         <TerritoryPanel
-          key={profile.territory.id}
           profile={profile}
+          challengeId={selection.challengeId}
+          opportunityId={selection.opportunityId}
+          allTerritories={catalogue.territories}
           inCurrentResults={visibleIds.has(profile.territory.id)}
-          onSelect={setSelectedId}
-          onClose={() => setSelectedId(null)}
+          onSelectTerritory={selectTerritory}
+          onSelectChallenge={selectChallenge}
+          onSelectOpportunity={selectOpportunity}
+          onOpenOpportunityIn={(territoryId, opportunityId) => {
+            selectTerritory(territoryId)
+            selectOpportunity(opportunityId)
+          }}
+          onClose={() => selectTerritory(null)}
         />
       )}
     </div>

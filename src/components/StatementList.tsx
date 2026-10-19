@@ -6,7 +6,16 @@ interface CitationsProps {
   citations: Map<string, number>
 }
 
-/** Numbered links into the profile's source list. */
+/** Scrolls to a source entry rendered by SourceList and briefly highlights it. */
+function revealSource(id: string) {
+  const el = document.getElementById(`source-${id}`)
+  if (!el) return
+  el.scrollIntoView({ behavior: 'smooth', block: 'center' })
+  el.classList.add('bg-gold-soft')
+  setTimeout(() => el.classList.remove('bg-gold-soft'), 1600)
+}
+
+/** Numbered citations pointing into the source list of the current view. */
 export function Citations({ sourceIds, citations }: CitationsProps) {
   if (sourceIds.length === 0) return null
   return (
@@ -14,14 +23,15 @@ export function Citations({ sourceIds, citations }: CitationsProps) {
       {sourceIds.map((id) => {
         const n = citations.get(id)
         return n ? (
-          <a
+          <button
             key={id}
-            href={`#source-${id}`}
+            type="button"
+            onClick={() => revealSource(id)}
             className="ml-0.5 font-semibold text-forest hover:underline"
-            title="Jump to source"
+            title="Show source"
           >
             [{n}]
-          </a>
+          </button>
         ) : null
       })}
     </span>

@@ -1,6 +1,6 @@
 import * as maplibregl from 'maplibre-gl'
 import type { GeoJSONSource, MapLayerMouseEvent } from 'maplibre-gl'
-import type { ExpressionSpecification } from '@maplibre/maplibre-gl-style-spec'
+import type { ExpressionSpecification, SymbolLayerSpecification } from '@maplibre/maplibre-gl-style-spec'
 import 'maplibre-gl/dist/maplibre-gl.css'
 import type { Feature, FeatureCollection, Point } from 'geojson'
 import { useEffect, useMemo, useRef, useState } from 'react'
@@ -37,8 +37,8 @@ const SRC = {
 const INTERACTIVE_LAYERS = ['territory-points-circle', 'territory-areas-fill']
 
 const ATTRIBUTION =
-  'Boundaries: <a href="https://www.geoboundaries.org" target="_blank" rel="noreferrer">geoBoundaries</a> (ODbL) · ' +
-  'Locations: <a href="https://www.wikidata.org" target="_blank" rel="noreferrer">Wikidata</a> (CC0)'
+  '<a href="https://www.geoboundaries.org" target="_blank" rel="noreferrer">geoBoundaries</a> (ODbL) · ' +
+  '<a href="https://www.wikidata.org" target="_blank" rel="noreferrer">Wikidata</a>'
 
 function territoryFeatures(boundaries: BoundaryLayers, territories: Territory[]) {
   const areas: FeatureCollection = {
@@ -56,7 +56,12 @@ function territoryFeatures(boundaries: BoundaryLayers, territories: Territory[])
   const toPoint = (t: Territory): Feature<Point> => ({
     type: 'Feature',
     geometry: { type: 'Point', coordinates: t.location.point },
-    properties: { territoryId: t.id, name: t.name, kind: t.kind },
+    properties: {
+      territoryId: t.id,
+      name: t.name,
+      label: t.shortName ?? t.name,
+      representation: t.geometry.representation,
+    },
   })
   const points: FeatureCollection = {
     type: 'FeatureCollection',
@@ -128,7 +133,7 @@ export function ExplorerMap({
         if (!disposed && !map?.loaded()) setStatus('error')
       }, config.map.loadTimeoutMs)
       map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'bottom-right')
-      map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'top-left')
+      map.addControl(new maplibregl.ScaleControl({ unit: 'metric' }), 'bottom-left')
 
       map.on('error', (e: maplibregl.ErrorEvent) => console.warn('[map]', e.error?.message ?? e))
 
@@ -223,24 +228,43 @@ export function ExplorerMap({
         // Labels need glyphs, which only the online basemap provides.
         if (!basemap.offline) {
           map.addSource(SRC.labels, { type: 'geojson', data: features.labels, promoteId: 'territoryId' })
+          const textPaint: SymbolLayerSpecification['paint'] = {
+            'text-color': ['case', selected, palette.goldDark, palette.forest],
+            'text-halo-color': palette.white,
+            'text-halo-width': 2,
+            'text-opacity': ['case', hidden, 0, 1],
+          }
+          // Regions: spaced capitals, placed at the region's reference point.
           map.addLayer({
-            id: 'territory-labels',
+            id: 'territory-region-labels',
             type: 'symbol',
             source: SRC.labels,
+            filter: ['==', ['get', 'representation'], 'boundary'],
             layout: {
-              'text-field': ['get', 'name'],
+              'text-field': ['get', 'label'],
               'text-font': ['Noto Sans Bold'],
               'text-size': 12,
-              'text-offset': [0, 1.3],
-              'text-anchor': 'top',
-              'text-max-width': 10,
+              'text-transform': 'uppercase',
+              'text-letter-spacing': 0.12,
+              'text-max-width': 12,
             },
-            paint: {
-              'text-color': palette.forest,
-              'text-halo-color': palette.white,
-              'text-halo-width': 1.6,
-              'text-opacity': ['case', hidden, 0, 1],
+            paint: textPaint,
+          })
+          // Sites: short name beside the point.
+          map.addLayer({
+            id: 'territory-point-labels',
+            type: 'symbol',
+            source: SRC.labels,
+            filter: ['==', ['get', 'representation'], 'point'],
+            layout: {
+              'text-field': ['get', 'label'],
+              'text-font': ['Noto Sans Bold'],
+              'text-size': 13,
+              'text-anchor': 'left',
+              'text-offset': [0.9, 0],
+              'text-max-width': 14,
             },
+            paint: textPaint,
           })
         }
 
@@ -322,6 +346,8 @@ export function ExplorerMap({
     const map = mapRef.current
     const territory = territories.find((t) => t.id === selectedId)
     if (!map || !territory || status === 'loading' || status === 'error') return
+    // The information panel may have just opened; measure the narrower container first.
+    map.resize()
     map.fitBounds(territoryBounds(territory, features.areas), {
       padding: { top: 60, bottom: 60, left: 60, right: 60 },
       maxZoom: 10,
@@ -331,7 +357,7 @@ export function ExplorerMap({
 
   useEffect(() => {
     if (resetViewSignal === 0) return
-    mapRef.current?.fitBounds(config.map.initialBounds, { padding: 40, duration: 900 })
+    mapRef.current?.resize().fitBounds(config.map.initialBounds, { padding: 40, duration: 900 })
   }, [resetViewSignal])
 
   return (

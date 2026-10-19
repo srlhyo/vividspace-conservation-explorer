@@ -2,7 +2,7 @@ import { useEffect, useRef } from 'react'
 import type { Catalogue, EvidenceLevel } from '../domain/types'
 import { EvidenceBadge } from './EvidenceBadge'
 import { evidenceMeta } from './labels'
-import { SourceList } from './TerritoryPanel'
+import { SourceList } from './panel/parts'
 
 export function AboutDialog({
   catalogue,
@@ -73,7 +73,7 @@ export function AboutDialog({
           <h3 className="mt-6 mb-3 font-display text-[13px] font-semibold uppercase tracking-wider text-ink-muted">
             All sources & licences ({catalogue.sources.length})
           </h3>
-          <SourceList sources={catalogue.sources} numbered={false} />
+          <SourceList sources={catalogue.sources} />
           <p className="mt-4 text-xs text-ink-muted">
             Basemap: © OpenStreetMap contributors (ODbL), served by OpenFreeMap. Copyrighted
             sources are cited for reference only: the explorer records short factual statements and

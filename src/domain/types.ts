@@ -64,6 +64,8 @@ export interface TerritoryEcosystem extends Statement {
 export interface Territory {
   id: string
   name: string
+  /** Compact label for the map, when the full name is long. */
+  shortName?: string
   localName?: string
   kind: TerritoryKind
   countryCode: string

@@ -186,3 +186,48 @@ export function getTerritoryProfile(
 export function citationIndex(sources: Source[]): Map<string, number> {
   return new Map(sources.map((s, i) => [s.id, i + 1]))
 }
+
+// --- Challenge → opportunity exploration -------------------------------------------------
+
+/** Potential activities in a profile that respond to the given challenge. */
+export function opportunitiesForChallenge(
+  profile: TerritoryProfile,
+  challengeId: string,
+): RegenerativeOpportunity[] {
+  return profile.opportunities.filter((o) => o.challengeIds.includes(challengeId))
+}
+
+/** Potential activities of a territory that respond to none of its documented challenges. */
+export function unlinkedOpportunities(profile: TerritoryProfile): RegenerativeOpportunity[] {
+  const ids = new Set(profile.challenges.map((c) => c.id))
+  return profile.opportunities.filter((o) => !o.challengeIds.some((id) => ids.has(id)))
+}
+
+/** Sources cited by the given statements, in profile order. */
+export function sourcesCitedBy(profile: TerritoryProfile, statements: Statement[]): Source[] {
+  const ids = new Set(statements.flatMap((s) => s.sourceIds))
+  return profile.sources.filter((s) => ids.has(s.id))
+}
+
+/**
+ * Organisations of the territory whose documented role cites a source that the opportunity's
+ * rationale also cites. This is shared evidence only — it implies no partnership or endorsement.
+ */
+export function organisationsInEvidence(
+  profile: TerritoryProfile,
+  opportunity: RegenerativeOpportunity,
+): Organisation[] {
+  const ids = new Set(opportunity.rationale.flatMap((s) => s.sourceIds))
+  return profile.organisations.filter((o) => o.role.sourceIds.some((id) => ids.has(id)))
+}
+
+export interface TerritorySummary {
+  challenges: number
+  opportunities: number
+}
+
+export function territorySummary(catalogue: Catalogue, territoryId: string): TerritorySummary {
+  const count = (items: { territoryIds: string[] }[]) =>
+    items.filter((i) => i.territoryIds.includes(territoryId)).length
+  return { challenges: count(catalogue.challenges), opportunities: count(catalogue.opportunities) }
+}

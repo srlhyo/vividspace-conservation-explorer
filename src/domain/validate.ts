@@ -6,7 +6,8 @@ import type { Catalogue, Statement } from './types'
  * Rules:
  * - every referenced id exists;
  * - verified and interpretation statements cite at least one source;
- * - every opportunity lists what must be validated.
+ * - every opportunity lists what must be validated;
+ * - an opportunity only responds to challenges documented in one of its territories.
  */
 export function validateCatalogue(catalogue: Catalogue): string[] {
   const problems: string[] = []
@@ -72,7 +73,13 @@ export function validateCatalogue(catalogue: Catalogue): string[] {
     const where = `opportunity ${o.id}`
     o.territoryIds.forEach((id) => ref('territory', id, where))
     o.themeIds.forEach((id) => ref('theme', id, where))
-    o.challengeIds.forEach((id) => ref('challenge', id, where))
+    o.challengeIds.forEach((id) => {
+      ref('challenge', id, where)
+      const challenge = catalogue.challenges.find((c) => c.id === id)
+      if (challenge && !challenge.territoryIds.some((t) => o.territoryIds.includes(t))) {
+        problems.push(`${where}: linked challenge "${id}" shares no territory with it`)
+      }
+    })
     o.rationale.forEach((s) => statement(s, where))
     if (o.validationNeeded.length === 0) problems.push(`${where}: no validationNeeded items`)
     if ((o.evidence as string) === 'verified') problems.push(`${where}: opportunities cannot be verified`)

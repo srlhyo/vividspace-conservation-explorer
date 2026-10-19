@@ -78,6 +78,7 @@
     {
       "id": "orango-national-park",
       "name": "Orango Islands National Park",
+      "shortName": "Orango Islands",
       "localName": "Parque Nacional das Ilhas de Orango",
       "kind": "protected-area",
       "countryCode": "GNB",
@@ -117,6 +118,7 @@
     {
       "id": "joao-vieira-poilao",
       "name": "João Vieira and Poilão Marine National Park",
+      "shortName": "João Vieira & Poilão",
       "localName": "Parque Nacional Marinho João Vieira e Poilão",
       "kind": "protected-area",
       "countryCode": "GNB",
@@ -154,6 +156,7 @@
     {
       "id": "urok-community-mpa",
       "name": "Urok Islands Community Marine Protected Area",
+      "shortName": "Urok Islands",
       "localName": "Área Marinha Protegida Comunitária das Ilhas Urok",
       "kind": "community-protected-area",
       "countryCode": "GNB",
@@ -223,6 +226,7 @@
     {
       "id": "cacheu-mangroves-park",
       "name": "Cacheu River Mangroves Natural Park",
+      "shortName": "Cacheu Mangroves",
       "localName": "Parque Natural dos Tarrafes do Rio Cacheu",
       "kind": "protected-area",
       "countryCode": "GNB",

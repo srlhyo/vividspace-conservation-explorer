@@ -1,6 +1,6 @@
 # Integration readiness
 
-Status: Milestone 1, a standalone demonstration. Nothing described under "future approaches" is implemented.
+Status: Milestone 2, a standalone demonstration. Nothing described under "future approaches" is implemented.
 
 ## Current standalone architecture
 
@@ -12,13 +12,14 @@ public/data/            static dataset (the only "backend")
   geo/*.geojson         administrative boundaries (geoBoundaries, ODbL)
 src/domain/             framework-free domain model and logic
   types.ts              entity types
-  catalogue.ts          filtering, filter options, territory profile assembly
+  catalogue.ts          filtering, territory profiles, challenge → activity links
   validate.ts           referential-integrity and provenance rules
 src/data/               data-access boundary
   repository.ts         ConservationRepository interface + static-file implementation
   useExplorerData.ts    React loading/error state around the repository
+src/state/selection.ts  Territory → Challenge → Activity selection, mirrored in the URL hash
 src/map/                MapLibre presentation (no domain rules)
-src/components/         dashboard UI (no data fetching)
+src/components/         dashboard UI (no data fetching); panel/ is the guided territory panel
 src/config.ts           all environment-dependent settings
 scripts/fetch-geodata.mjs  reproducible download of boundary data
 ```
@@ -39,7 +40,11 @@ Dependency direction: `components` and `map` → `domain` ← `data`. The domain
 | `Source` | Provenance: title, publisher, URL, licence/terms, access date. |
 | `Statement` | The unit of displayed information: `text` + `evidence` (`verified` / `interpretation` / `hypothesis`) + `sourceIds`. |
 
-`validateCatalogue()` enforces the provenance rules: verified and interpretation statements must cite a source, every reference must resolve, and opportunities need validation items. A test runs it against the published dataset.
+The challenge → activity workflow is derived from existing links rather than new data:
+- `opportunitiesForChallenge` and `unlinkedOpportunities` use `RegenerativeOpportunity.challengeIds`.
+- `organisationsInEvidence` lists organisations whose sourced role shares a source with an activity's rationale. This is shared evidence, not a partnership.
+
+`validateCatalogue()` enforces the provenance rules: verified and interpretation statements must cite a source, every reference must resolve, opportunities need validation items, and an opportunity may only respond to challenges documented in one of its territories. A test runs it against the published dataset.
 
 ## Data-access boundary
 
@@ -56,7 +61,7 @@ The UI receives a repository instance (created once in `App.tsx`) and never call
 
 1. **Remote API, same shapes.** Implement `createApiRepository()` that returns the same `Catalogue` and `BoundaryLayers` from a Vivid Space or shared conservation API. Then swap it in `App.tsx`. If the dataset grows, add narrower methods (e.g. `getTerritoryProfile(id)`) to the interface.
 2. **Embed in the Vivid Space platform.** `src/domain` and `src/data` are framework-light and could move into a shared package. The `Explorer` view could be mounted as a route or an iframe/micro-frontend. Auth would wrap the repository (e.g. a token-injecting `fetch`), not the domain.
-3. **Link to business planning.** `RegenerativeOpportunity.id` and `Territory.id` are stable string ids that a future Regenerative Business Plan Builder could reference.
+3. **Link to business planning.** `RegenerativeOpportunity.id` and `Territory.id` are stable string ids that a future Regenerative Business Plan Builder could reference. The URL hash (`#t=<territory>&c=<challenge>&o=<activity>`) is already a stable deep link another application could open.
 4. **Richer geometry.** `TerritoryGeometry` already distinguishes boundary from point. Licensed protected-area polygons or vector tiles could be added as another boundary source without UI changes.
 
 ## Decisions intentionally deferred
