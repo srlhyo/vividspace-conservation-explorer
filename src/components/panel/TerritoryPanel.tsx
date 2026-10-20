@@ -1,7 +1,6 @@
 import { citationIndex, type TerritoryProfile } from '../../domain/catalogue'
 import type { Territory } from '../../domain/types'
 import { territoryKindLabel } from '../labels'
-import { ChallengeView } from './ChallengeView'
 import { OpportunityView } from './OpportunityView'
 import { TerritoryOverview } from './TerritoryOverview'
 
@@ -19,15 +18,19 @@ interface TerritoryPanelProps {
   onClose: () => void
 }
 
-/** The contextual panel: Territory → Challenge → Activity, with evidence and next steps. */
+/**
+ * The contextual panel: Territory → Challenge → Activity, with evidence and next steps.
+ * Challenges expand inline in the territory overview; an activity opens its own view.
+ */
 export function TerritoryPanel(props: TerritoryPanelProps) {
   const { profile, challengeId, opportunityId, onSelectChallenge, onSelectOpportunity } = props
   const { territory } = profile
   const citations = citationIndex(profile.sources)
   const challenge = profile.challenges.find((c) => c.id === challengeId)
   const opportunity = profile.opportunities.find((o) => o.id === opportunityId)
-  const view = `${territory.id}/${opportunity ? `o:${opportunity.id}` : challenge ? `c:${challenge.id}` : 'overview'}`
-  const deep = Boolean(challenge || opportunity)
+  // Challenges open inline in the overview; only an activity replaces it with its own view.
+  const view = `${territory.id}/${opportunity ? `o:${opportunity.id}` : 'overview'}`
+  const deep = Boolean(opportunity)
 
   const steps = [
     { label: territory.shortName ?? territory.name, onClick: () => onSelectChallenge(null) },
@@ -112,18 +115,11 @@ export function TerritoryPanel(props: TerritoryPanelProps) {
             onSelectChallenge={onSelectChallenge}
             onSelectTerritory={(id) => props.onOpenOpportunityIn(id, opportunity.id)}
           />
-        ) : challenge ? (
-          <ChallengeView
-            profile={profile}
-            challenge={challenge}
-            citations={citations}
-            onBack={() => onSelectChallenge(null)}
-            onSelectOpportunity={onSelectOpportunity}
-          />
         ) : (
           <TerritoryOverview
             profile={profile}
             citations={citations}
+            challengeId={challenge?.id ?? null}
             onSelectTerritory={props.onSelectTerritory}
             onSelectChallenge={onSelectChallenge}
             onSelectOpportunity={onSelectOpportunity}

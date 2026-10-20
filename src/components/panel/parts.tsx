@@ -1,5 +1,6 @@
 import { useState, type ReactNode } from 'react'
-import type { ConservationTheme, Organisation, Source } from '../../domain/types'
+import type { ConservationTheme, Organisation, RegenerativeOpportunity, Source } from '../../domain/types'
+import { EvidenceBadge } from '../EvidenceBadge'
 import { organisationTypeLabel } from '../labels'
 import { Citations } from '../StatementList'
 
@@ -167,5 +168,43 @@ export function SourceList({ sources, citations }: { sources: Source[]; citation
         )
       })}
     </ol>
+  )
+}
+
+export function OpportunityCards({
+  opportunities,
+  onSelect,
+}: {
+  opportunities: RegenerativeOpportunity[]
+  onSelect: (id: string) => void
+}) {
+  return (
+    <ul className="flex flex-col gap-2">
+      {opportunities.map((o) => {
+        const summary = o.rationale.at(-1)?.text
+        return (
+          <li key={o.id}>
+            <button
+              type="button"
+              onClick={() => onSelect(o.id)}
+              className="group flex w-full items-start gap-3 rounded-xl bg-white px-4 py-3 text-left ring-1 ring-line transition hover:bg-cream hover:ring-forest/40"
+            >
+              <span className="min-w-0 flex-1">
+                <span className="flex flex-wrap items-center gap-2">
+                  <span className="text-[14px] font-semibold leading-snug text-ink">{o.title}</span>
+                  <EvidenceBadge level={o.evidence} />
+                </span>
+                {summary && (
+                  <span className="mt-1 line-clamp-2 block text-[12.5px] leading-snug text-ink-muted">{summary}</span>
+                )}
+              </span>
+              <span className="mt-0.5 text-ink-muted group-hover:text-forest">
+                <Chevron />
+              </span>
+            </button>
+          </li>
+        )
+      })}
+    </ul>
   )
 }

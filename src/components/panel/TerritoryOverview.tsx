@@ -1,29 +1,28 @@
 import { useState } from 'react'
-import {
-  opportunitiesForChallenge,
-  unlinkedOpportunities,
-  type TerritoryProfile,
-} from '../../domain/catalogue'
-import type { RegenerativeOpportunity } from '../../domain/types'
+import { unlinkedOpportunities, type TerritoryProfile } from '../../domain/catalogue'
 import { EvidenceBadge } from '../EvidenceBadge'
 import { GeometryGlyph } from '../GeometryGlyph'
 import { verificationMeta } from '../labels'
 import { Citations, StatementList } from '../StatementList'
-import { Chevron, Disclosure, LinkChip, OrganisationList, Section, SourceList, ThemeTags } from './parts'
+import { ChallengeItem } from './ChallengeItem'
+import { Chevron, Disclosure, LinkChip, OpportunityCards, OrganisationList, Section, SourceList } from './parts'
 
 const KEY_FACTS_PREVIEW = 3
 
 interface Props {
   profile: TerritoryProfile
   citations: Map<string, number>
+  /** The challenge expanded in the list, if any. */
+  challengeId: string | null
   onSelectTerritory: (id: string) => void
-  onSelectChallenge: (id: string) => void
+  onSelectChallenge: (id: string | null) => void
   onSelectOpportunity: (id: string) => void
 }
 
 export function TerritoryOverview({
   profile,
   citations,
+  challengeId,
   onSelectTerritory,
   onSelectChallenge,
   onSelectOpportunity,
@@ -111,7 +110,7 @@ export function TerritoryOverview({
         title="Conservation challenges"
         hint={
           profile.challenges.length > 0
-            ? 'Select a challenge to see potential regenerative activities and the evidence behind them.'
+            ? 'Open a challenge to see its potential regenerative activities and the evidence behind them. The others stay listed for comparison.'
             : undefined
         }
       >
@@ -119,33 +118,17 @@ export function TerritoryOverview({
           <p className="text-sm italic text-ink-muted">No conservation challenge is documented for this territory yet.</p>
         ) : (
           <ul className="flex flex-col gap-2">
-            {profile.challenges.map((c) => {
-              const n = opportunitiesForChallenge(profile, c.id).length
-              return (
-                <li key={c.id}>
-                  <button
-                    type="button"
-                    onClick={() => onSelectChallenge(c.id)}
-                    className="group flex w-full items-center gap-3 rounded-xl bg-white px-4 py-3 text-left ring-1 ring-line transition hover:bg-cream hover:ring-forest/40"
-                  >
-                    <span className="min-w-0 flex-1">
-                      <span className="block text-[14px] font-semibold leading-snug text-ink">{c.title}</span>
-                      <span className="mt-1.5 flex flex-wrap items-center gap-1.5">
-                        <ThemeTags themes={profile.themes.filter((t) => c.themeIds.includes(t.id))} />
-                      </span>
-                    </span>
-                    <span
-                      className={`shrink-0 rounded-full px-2 py-0.5 text-[11.5px] font-semibold ${n > 0 ? 'bg-gold-soft text-amber-900' : 'bg-stone-100 text-stone-500'}`}
-                    >
-                      {n > 0 ? `${n} activit${n === 1 ? 'y' : 'ies'}` : 'No activity yet'}
-                    </span>
-                    <span className="text-ink-muted group-hover:text-forest">
-                      <Chevron />
-                    </span>
-                  </button>
-                </li>
-              )
-            })}
+            {profile.challenges.map((c) => (
+              <ChallengeItem
+                key={c.id}
+                profile={profile}
+                challenge={c}
+                open={c.id === challengeId}
+                citations={citations}
+                onToggle={() => onSelectChallenge(c.id === challengeId ? null : c.id)}
+                onSelectOpportunity={onSelectOpportunity}
+              />
+            ))}
           </ul>
         )}
       </Section>
@@ -216,43 +199,5 @@ export function TerritoryOverview({
         </Disclosure>
       </div>
     </div>
-  )
-}
-
-export function OpportunityCards({
-  opportunities,
-  onSelect,
-}: {
-  opportunities: RegenerativeOpportunity[]
-  onSelect: (id: string) => void
-}) {
-  return (
-    <ul className="flex flex-col gap-2">
-      {opportunities.map((o) => {
-        const summary = o.rationale.at(-1)?.text
-        return (
-          <li key={o.id}>
-            <button
-              type="button"
-              onClick={() => onSelect(o.id)}
-              className="group flex w-full items-start gap-3 rounded-xl bg-white px-4 py-3 text-left ring-1 ring-line transition hover:bg-cream hover:ring-forest/40"
-            >
-              <span className="min-w-0 flex-1">
-                <span className="flex flex-wrap items-center gap-2">
-                  <span className="text-[14px] font-semibold leading-snug text-ink">{o.title}</span>
-                  <EvidenceBadge level={o.evidence} />
-                </span>
-                {summary && (
-                  <span className="mt-1 line-clamp-2 block text-[12.5px] leading-snug text-ink-muted">{summary}</span>
-                )}
-              </span>
-              <span className="mt-0.5 text-ink-muted group-hover:text-forest">
-                <Chevron />
-              </span>
-            </button>
-          </li>
-        )
-      })}
-    </ul>
   )
 }

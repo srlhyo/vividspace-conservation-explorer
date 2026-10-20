@@ -49,9 +49,9 @@ Notes:
 ## Demo walkthrough
 
 1. Select **Cacheu River Mangroves Natural Park** on the map or in the list.
-2. Open the challenge **Fuelwood demand on mangroves**.
+2. Open the challenge **Fuelwood demand on mangroves**. It expands in place with a short summary and its potential activities; the other challenges stay listed, so you can switch between them directly.
 3. Open **Women-led solar salt production**. Read the evidence chain from verified facts to the proposal, then the questions to validate, the organisations with documented work on related initiatives (and the potential stakeholder to consult), and the sources.
-4. Use the breadcrumb to go back. Try **Orango Islands National Park → Community-owned, low-impact tourism → Also considered for: Bijagós Archipelago**.
+4. Use the back link or the breadcrumb to return to the open challenge. Try **Orango Islands National Park → Community-owned, low-impact tourism → Also considered for: Bijagós Archipelago**.
 5. Choose another country, for example **The Gambia → Tanbi Wetlands Complex → Mangrove cutting and harvesting of juvenile shellfish → Women-led oyster and cockle products under co-management**, or **Mauritania → Parc National du Banc d'Arguin**.
 
 The URL updates as you go, so a prepared view can be bookmarked or reopened after a reload.
