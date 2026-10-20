@@ -1,6 +1,6 @@
 # Protected-area inventory and coverage report
 
-Generated from `public/data/catalogue.json` (dataset v0.5.0, updated 2026-10-20). Regenerate with `npm run data:coverage`.
+Generated from `public/data/catalogue.json` (dataset v0.6.0, updated 2026-10-20). Regenerate with `npm run data:coverage`.
 
 The catalogue holds **387 catalogued areas** in **22 countries**: the 13 WASOP countries and 9 additional African countries. **It is a partial inventory.** No country's coverage has been verified as exhaustive against an official register (see "Inventory status"). Each record appears once: when Ramsar, World Heritage or biosphere status applies to the same area as a national designation, it is recorded as an extra designation on that area. Designations that cover a different extent are separate records, linked as overlapping.
 
@@ -646,4 +646,4 @@ Gaps:
 - Ramsar's annotated-list export has erroneous site-header coordinates for several sites. Each affected record says which coordinates are used: the site description's own, UNESCO's, or Wikidata's.
 - Habitat tags reflect terms named in the cited site summary, reviewed for false matches. They are not mapped ecosystem extents.
 - Areas verified in an official list but without an openly licensed location are not mapped. They are listed in [`inventory/uncatalogued-areas.csv`](inventory/uncatalogued-areas.csv). Every row there is verified in an official or authoritative source; proposed areas are listed with category `proposed`.
-- Conservation challenges, organisations and potential regenerative activities have been researched for Guinea-Bissau and for one area in each of the other 12 WASOP countries only.
+- Conservation challenges, organisations and potential regenerative activities have been researched for Guinea-Bissau and for one area in each of the other 21 countries only. Other areas have not been researched, which does not mean they face no challenges.

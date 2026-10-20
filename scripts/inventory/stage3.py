@@ -93,6 +93,41 @@ for t in cat['territories']:
     if t['kind'] == 'ramsar-site' and c in NATIONAL: t['kind'] = 'protected-area'
     if t['kind'] == 'ramsar-site' and c == 'community-conservation-area': t['kind'] = 'community-protected-area'
 
+# --- Area research ---------------------------------------------------------------------------
+# inputs/area-research/<ISO3>.json: researched challenges, potential activities and organisations for one
+# inventory area (the curated Guinea-Bissau and WASOP research is in the base catalogue).
+NOT_RESEARCHED = re.compile(r' No conservation challenge, organisation or potential activity has been researched for this (?:area|site)(?: yet)?\.')
+org_by_id = {o['id']: o for o in cat['organisations']}
+for path in sorted(glob.glob(f'{IN}/area-research/*.json')):
+    r = json.load(open(path))
+    t = T[r['territoryId']]
+    for s in r['sources']:
+        if s['id'] in src_ids: raise SystemExit(f"{path}: source id {s['id']} already exists")
+        note = ' '.join(x for x in [f"Dated {s['date']}." if s.get('date') else None, s.get('note')] if x) or None
+        add_source({k: v for k, v in dict(id=s['id'], title=s['title'], publisher=s['publisher'], url=s['url'], licence=s['licence'],
+                                          accessed=A, kind=s['kind'], note=note).items() if v})
+    t['overview'] += r.get('overview', [])
+    t['livelihoods'] += r.get('livelihoods', [])
+    note, found = NOT_RESEARCHED.subn('', t['verification']['note'])
+    if found != 1: raise SystemExit(f"{path}: {t['id']} was already researched")
+    t['verification']['note'] = (note + f" Challenges and potential activities: {r['verificationNote'].strip()}"
+                                 + ' Potential activities are interpretations or hypotheses, not validated businesses.')
+    for o in r['organisations']:
+        if o['id'] in org_by_id:
+            # Already catalogued for another area: add this area and its documented role here.
+            known = org_by_id[o['id']]
+            known['territoryIds'].append(t['id'])
+            known['role'] = dict(text=f"{known['role']['text']} {o['role']['text']}", evidence='verified',
+                                 sourceIds=known['role']['sourceIds'] + [x for x in o['role']['sourceIds'] if x not in known['role']['sourceIds']])
+        else:
+            o = {k: v for k, v in dict(id=o['id'], name=o['name'], acronym=o.get('acronym'), type=o['type'], url=o.get('url'), territoryIds=[t['id']], role=o['role']).items() if v}
+            cat['organisations'].append(o); org_by_id[o['id']] = o
+    cat['challenges'] += [dict(id=c['id'], title=c['title'], territoryIds=[t['id']], themeIds=c['themeIds'], statements=c['statements']) for c in r['challenges']]
+    cat['opportunities'] += [dict(id=o['id'], title=o['title'], territoryIds=[t['id']], themeIds=o['themeIds'], challengeIds=o['challengeIds'],
+                                  evidence=o['evidence'], rationale=o['rationale'], validationNeeded=o['validationNeeded'],
+                                  organisationLinks=o['organisationLinks']) for o in r['opportunities']]
+    print('area research', t['id'], len(r['challenges']), 'challenges', len(r['opportunities']), 'activities')
+
 # --- Country inventory -------------------------------------------------------------------
 agents = {os.path.basename(p)[:3]: json.load(open(p)) for p in sorted(glob.glob(f'{RESEARCH}/*.json'))}
 srcurl = {s['url']: s['id'] for s in cat['sources']} | {s['url'].replace('https://inbac.gov.ao/', 'http://inbac.gov.ao/'): s['id'] for s in cat['sources']}
@@ -118,9 +153,9 @@ for c in cat['countries']:
               for n in d['officialInventory'].get('statedCounts', []) if isinstance(n.get('count'), int) and amap.get(n['sourceId'], n['sourceId']) in src_ids]
     c['inventory'] = dict(status='partial', summary=summary, sourceIds=[amap.get(x, x) for x in d['officialInventory'].get('sourceIds', []) if amap.get(x, x) in src_ids], officialCounts=counts, gaps=gaps)
 
-cat['meta']['version'] = '0.5.0'; cat['meta']['updated'] = A
+cat['meta']['version'] = '0.6.0'; cat['meta']['updated'] = A
 cat['meta']['description'] = ('Demonstration dataset covering the 13 West Africa Sustainable Ocean Programme (WASOP) countries and 9 additional African countries. '
-    'It combines detailed Guinea-Bissau research (Bijagós Archipelago, Cacheu region, Cantanhez), researched challenges and potential activities for one area in each other WASOP country, '
+    'It combines detailed Guinea-Bissau research (Bijagós Archipelago, Cacheu region, Cantanhez), researched challenges and potential activities for one area in each of the other 21 countries, '
     'and a partial, source-checked protected-area inventory for all 22 countries: nationally designated areas from national authorities and legal texts, Ramsar sites, World Heritage properties and biosphere reserves. '
     'No country inventory has been verified as exhaustive. Every factual statement cites a publicly accessible source that was checked on the access date shown. '
     'Potential regenerative activities are presented as interpretations or hypotheses, never as validated businesses.')

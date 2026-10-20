@@ -56,7 +56,8 @@ export function AboutDialog({
             Ramsar sites, World Heritage properties and biosphere reserves. No country's inventory has
             been verified as complete; each country card states this, and the coverage report lists
             the gaps. Conservation challenges, potential activities and organisations have been
-            researched for Guinea-Bissau and for one area in each other WASOP country only.
+            researched for Guinea-Bissau and for one area in each of the other 21 countries only. An
+            area without researched challenges is not an area without challenges.
           </p>
 
           <h3 className="mt-6 mb-3 font-display text-[13px] font-semibold uppercase tracking-wider text-ink-muted">

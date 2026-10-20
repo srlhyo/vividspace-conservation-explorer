@@ -1,0 +1,469 @@
+{
+ "country": "UGA",
+ "territoryId": "pa-uga-bwindi-impenetrable-national-park",
+ "selectionReason": "Only candidate. The IUCN World Heritage Outlook assessment finalised in October 2025 gives detailed, recent, area-specific evidence on crop raiding, poaching, roads and benefit-sharing, and gorilla-friendly coffee is a documented community enterprise at the park edge. UNESCO's State of Conservation reports for property 682 stop at 2001 (apart from a 2015 State Party report, not used), so the Statement of Outstanding Universal Value on the property page and the IUCN Outlook were used instead.",
+ "sources": [
+  {
+   "id": "uga-iucn-who-2025",
+   "title": "Bwindi Impenetrable National Park — 2025 Conservation Outlook Assessment",
+   "publisher": "IUCN World Heritage Outlook",
+   "url": "https://worldheritageoutlook.iucn.org/node/1046",
+   "date": "2025-10-11",
+   "kind": "report",
+   "licence": "© IUCN — cited for reference (facts and short quotes)",
+   "note": "Finalised 11 October 2025; rating 'good with some concerns'. Parts of the text draw on earlier IUCN consultations (2014–2020) and older studies, as cited within it."
+  },
+  {
+   "id": "uga-kalema-2021",
+   "title": "Mitigating Impacts of the COVID-19 Pandemic on Gorilla Conservation: Lessons From Bwindi Impenetrable Forest, Uganda",
+   "publisher": "Frontiers in Public Health (Kalema-Zikusoka, Rubanga, Ngabirano and Zikusoka)",
+   "url": "https://www.frontiersin.org/journals/public-health/articles/10.3389/fpubh.2021.655175/pdf",
+   "date": "2021-08-12",
+   "kind": "article",
+   "licence": "CC BY (Creative Commons Attribution License)",
+   "note": "Peer-reviewed perspective article written by staff of Conservation Through Public Health and Gorilla Conservation Coffee, describing their own work."
+  },
+  {
+   "id": "uga-monitor-gcc-2025",
+   "title": "How Gorilla Conservation Coffee became a win-win",
+   "publisher": "Daily Monitor (Uganda)",
+   "url": "https://www.monitor.co.ug/uganda/news/national/how-gorilla-conservation-coffee-became-a-win-win-5289464",
+   "date": "2025-12-07",
+   "kind": "webpage",
+   "licence": "© Daily Monitor — cited for reference (facts and short quotes)",
+   "note": "News feature; farmer numbers and volumes are self-reported by CTPH. The article's price-premium figure ('$50 per kilogramme') looks erroneous and is not used."
+  },
+  {
+   "id": "uga-igcp-road-2021",
+   "title": "IGCP Position on Nteko-Buhoma Road Construction",
+   "publisher": "International Gorilla Conservation Programme (IGCP)",
+   "url": "https://igcp.org/updates/igcp-position-on-nteko-buhoma-road-construction/",
+   "date": "2021-04-26",
+   "kind": "webpage",
+   "licence": "© IGCP — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-mongabay-roads-2022",
+   "title": "Road projects threaten integrity of Uganda's mountain gorilla stronghold",
+   "publisher": "Mongabay",
+   "url": "https://news.mongabay.com/2022/04/road-projects-threaten-integrity-of-ugandas-mountain-gorilla-stronghold/",
+   "date": "2022-04-20",
+   "kind": "webpage",
+   "licence": "© Mongabay — cited for reference (facts and short quotes)",
+   "note": "Reputable environmental news; the current construction status of both roads was not found."
+  }
+ ],
+ "overview": [
+  {
+   "text": "The park is managed by the Uganda Wildlife Authority (UWA). Research and monitoring are led by Mbarara University's Institute of Tropical Forest Conservation, and the Bwindi Mgahinga Conservation Trust supports community work outside the park.",
+   "evidence": "verified",
+   "sourceIds": [
+    "uga-iucn-who-2025"
+   ]
+  },
+  {
+   "text": "Bwindi holds about half of the world's mountain gorillas; the 2018 census counted 459, up from 400 in 2011.",
+   "evidence": "verified",
+   "sourceIds": [
+    "uga-iucn-who-2025",
+    "unesco-whc-682"
+   ]
+  },
+  {
+   "text": "The 321 km² forest is an isolated island in one of Uganda's most densely populated rural areas. There is no buffer zone apart from a 4 km strip that communities donated at its southern end.",
+   "evidence": "verified",
+   "sourceIds": [
+    "unesco-whc-682",
+    "uga-iucn-who-2025"
+   ]
+  }
+ ],
+ "livelihoods": [
+  {
+   "text": "Gorilla tourism has grown from about 1,300 visitors a year in 1993 to 36,341 in 2019 and about 39,000 in 2023, with gorilla permits costing US$700.",
+   "evidence": "verified",
+   "sourceIds": [
+    "uga-iucn-who-2025"
+   ]
+  },
+  {
+   "text": "Specialist resource users from forest-edge communities may harvest honey, medicinal plants and basketry materials in designated zones under negotiated agreements.",
+   "evidence": "verified",
+   "sourceIds": [
+    "uga-iucn-who-2025"
+   ]
+  },
+  {
+   "text": "Smallholders near the park grow Arabica coffee alongside tea, bananas, cassava and maize; falling tea prices have led some farmers in Kanungu District to switch to coffee.",
+   "evidence": "verified",
+   "sourceIds": [
+    "uga-monitor-gcc-2025"
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "id": "uga-bwindi-crop-raiding",
+   "title": "Crop raiding at the forest edge",
+   "themeIds": [
+    "livelihoods",
+    "species"
+   ],
+   "statements": [
+    {
+     "text": "Crop damage by elephants, gorillas, chimpanzees, baboons, bushpigs and other animals is still a source of conflict with farmers, and IUCN calls it the biggest threat to the improved relationship between people and the park.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "The conflict is worsened by the park's long boundary and high population pressure along it. Crop raiding turns attitudes against conservation, reduces household food supply and is linked to poaching and snaring.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "Mitigation has had patchy results because of limited funds for materials and weak farmer commitment to maintenance; 134 human–gorilla conflict (HUGO) volunteers cover frontline parishes, and a 4.1 km elephant hotspot is targeted for bee fences.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uga-bwindi-poaching",
+   "title": "Snaring and poaching driven by poverty",
+   "themeIds": [
+    "species",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "Hunting with wire snares and dogs continues, especially in remote areas and the frontline zone of the park, driven by poverty.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "When tourism stopped during the COVID-19 closure, poaching increased. On 1 June 2020, a hungry community member hunting duiker and bushpig killed a habituated silverback gorilla.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-kalema-2021",
+      "uga-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "Rangers removed 151 snares in May 2020, against 9 in May 2019, falling to 33 by October 2020.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uga-bwindi-roads",
+   "title": "Road projects through the park",
+   "themeIds": [
+    "development",
+    "land-use"
+   ],
+   "statements": [
+    {
+     "text": "The unsurfaced Ruhija road crosses the park's highest reaches and the narrow 'neck' joining its two parts; it appears to act as a barrier to gorilla movement, and there are proposals to pave it.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025",
+      "uga-mongabay-roads-2022"
+     ]
+    },
+    {
+     "text": "In April 2021 IGCP reported that construction of the Nteko–Buhoma road through the western park, linking Kisoro and Kanungu districts, had recently been launched; it said the road would significantly affect connectivity with the Sarambwe Nature Reserve in DR Congo and called for a robust environmental and social impact assessment.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-igcp-road-2021",
+      "uga-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "As of April 2022 the planned surfaced road would cut about 3 km through the park, UWA had opposed both road projects, consultations were still under way and construction was not expected to start soon.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-mongabay-roads-2022"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "uga-bwindi-benefit-sharing",
+   "title": "Uneven benefit-sharing and Batwa marginalisation",
+   "themeIds": [
+    "governance",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "Community resentment of park management has been linked to the lack of support for crop losses and to inequity in how revenue-sharing benefits are distributed. The scheme passes 20% of gate fees and part of gorilla permit revenue to community projects (about US$1.18 million in 2018/19).",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "The Batwa were forcibly removed from the forest when the park was created. A Vulnerable and Marginalized Groups Plan (2020–2026) names unequal benefits, land access, livelihoods and limited participation in management as key challenges for them.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "The 2020 closure showed how far community projects depend on tourism revenue, and IUCN calls for more diverse livelihood options.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025",
+      "uga-kalema-2021"
+     ]
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "uga-bwindi-conservation-coffee",
+   "title": "Gorilla-friendly shade coffee value chains",
+   "themeIds": [
+    "livelihoods",
+    "land-use"
+   ],
+   "challengeIds": [
+    "uga-bwindi-poaching",
+    "uga-bwindi-benefit-sharing"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "Conservation Through Public Health (CTPH) set up Gorilla Conservation Coffee because coffee farmers around Bwindi were not paid a fair price, which pushed them to rely on the park for food and fuelwood. It pays above-market prices and provides training and shade trees.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-monitor-gcc-2025"
+     ]
+    },
+    {
+     "text": "The enterprise started in 2015 with just over 100 farmers and reports working with 630 (230 of them women), having bought more than 100 tonnes of coffee.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-monitor-gcc-2025"
+     ]
+    },
+    {
+     "text": "During the COVID-19 closure, CTPH found a UK distributor so that coffee farmers could earn income without tourism.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-kalema-2021"
+     ]
+    },
+    {
+     "text": "Buyers already pay a premium for coffee from the park edge, and income from coffee does not depend on tourism. Expanding traceable shade-coffee sourcing, especially to households without tourism income, could address the livelihood gap behind poaching, though any effect on poaching has not been measured.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "uga-monitor-gcc-2025",
+      "uga-kalema-2021",
+      "uga-iucn-who-2025"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Independent evidence that participating households use the park less",
+    "Durability of the price premium and buyer demand",
+    "Land constraints: can landless or Batwa households take part?",
+    "Environmental effects of converting tea to coffee at the park edge"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "ctph",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Runs Gorilla Conservation Coffee, buying coffee at above-market prices from smallholders around Bwindi.",
+      "evidence": "verified",
+      "sourceIds": [
+       "uga-monitor-gcc-2025",
+       "uga-kalema-2021"
+      ]
+     }
+    },
+    {
+     "organisationId": "uwa",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As park manager responsible for community conservation, UWA would be a natural partner for linking coffee incentives to conservation commitments.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "uga-iucn-who-2025"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "uga-bwindi-beehive-fences",
+   "title": "Beehive fences with honey enterprises at crop-raiding hotspots",
+   "themeIds": [
+    "livelihoods",
+    "species"
+   ],
+   "challengeIds": [
+    "uga-bwindi-crop-raiding"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "A 4.1 km elephant crop-raiding hotspot on the park boundary is targeted for bee fences, but past mitigation has been patchy because of limited funds and weak maintenance.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "Under agreements running for over two decades, neighbouring communities may place beehives in designated zones of the park for honey collection, so beekeeping is an established local practice.",
+     "evidence": "verified",
+     "sourceIds": [
+      "uga-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "Turning bee fences into a honey business run by fence-line households could pay for the maintenance that IUCN identifies as the weak point of current mitigation.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "uga-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "Bee fences are mainly an elephant deterrent; they may do little against raiding by gorillas, baboons or bushpigs.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "Effectiveness of bee fences against Bwindi's elephants and other raiding species",
+    "Honey yields and hive occupancy at Bwindi's altitude and climate",
+    "UWA approval for fence placement on or near the boundary",
+    "Market for park-edge honey"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "uwa",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "UWA manages the park and its crop-raiding mitigation, so it would need to approve and coordinate fence placement.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "uga-iucn-who-2025"
+      ]
+     }
+    },
+    {
+     "organisationId": "igcp",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "IGCP supports the HUGO teams that herd gorillas off community land, which makes it a relevant partner for crop-raiding mitigation.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "uga-kalema-2021",
+       "uga-iucn-who-2025"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "organisations": [
+  {
+   "id": "uwa",
+   "name": "Uganda Wildlife Authority",
+   "acronym": "UWA",
+   "type": "government-agency",
+   "url": "https://ugandawildlife.org/",
+   "role": {
+    "text": "Manages Bwindi Impenetrable National Park, including law enforcement, gorilla tourism rules and revenue sharing with neighbouring communities.",
+    "evidence": "verified",
+    "sourceIds": [
+     "uga-iucn-who-2025",
+     "unesco-whc-682"
+    ]
+   }
+  },
+  {
+   "id": "ctph",
+   "name": "Conservation Through Public Health",
+   "acronym": "CTPH",
+   "type": "national-ngo",
+   "url": "https://ctph.org/",
+   "role": {
+    "text": "Runs community health and livelihood programmes around Bwindi, including the Gorilla Conservation Coffee social enterprise and emergency food support during the COVID-19 closure.",
+    "evidence": "verified",
+    "sourceIds": [
+     "uga-kalema-2021",
+     "uga-monitor-gcc-2025",
+     "uga-iucn-who-2025"
+    ]
+   }
+  },
+  {
+   "id": "igcp",
+   "name": "International Gorilla Conservation Programme",
+   "acronym": "IGCP",
+   "type": "international-programme",
+   "url": "https://igcp.org/",
+   "role": {
+    "text": "A coalition of Conservation International, Fauna & Flora International and WWF that works with UWA at Bwindi, supports, with UWA and CTPH, the HUGO volunteers who herd gorillas from community land back to the park, and monitors road projects affecting it.",
+    "evidence": "verified",
+    "sourceIds": [
+     "uga-igcp-road-2021",
+     "uga-iucn-who-2025",
+     "uga-kalema-2021"
+    ]
+   }
+  },
+  {
+   "id": "bmct",
+   "name": "Bwindi Mgahinga Conservation Trust",
+   "acronym": "BMCT",
+   "type": "conservation-trust-fund",
+   "url": "https://bwinditrust.org/",
+   "role": {
+    "text": "Supports community-level interventions outside the park and provides income to community projects.",
+    "evidence": "verified",
+    "sourceIds": [
+     "uga-iucn-who-2025"
+    ]
+   }
+  },
+  {
+   "id": "itfc",
+   "name": "Institute of Tropical Forest Conservation (Mbarara University of Science and Technology)",
+   "acronym": "ITFC",
+   "type": "research-institution",
+   "url": "https://itfc.must.ac.ug/",
+   "role": {
+    "text": "Leads research and monitoring in the park.",
+    "evidence": "verified",
+    "sourceIds": [
+     "uga-iucn-who-2025"
+    ]
+   }
+  }
+ ],
+ "verificationNote": "All facts were checked against fetched text (curl). The main source is the IUCN World Heritage Outlook assessment finalised on 11 October 2025, supported by the UNESCO property page (Statement of Outstanding Universal Value), a 2021 peer-reviewed perspective by CTPH staff, IGCP's 2021 statement and Mongabay's 2022 report on the road projects, and a December 2025 Daily Monitor feature on Gorilla Conservation Coffee. UNESCO State of Conservation reports for property 682 exist only for 1995–2001 and were not used; a 2015 State Party report listed on the property page was not fetched. IGCP (April 2021) describes the Nteko–Buhoma road construction as launched, while Mongabay (April 2022) reports that construction was not expected to start soon; both are given with their dates. The two sources give different population densities around the park (more than 350 people/km² from UNESCO; 160–320/km² from IUCN), so no figure is stated. Some IUCN text repeats older consultation data (2014–2020), such as the snare counts and revenue-sharing figures.",
+ "gaps": [
+  "Current status of the Nteko–Buhoma road and the Ruhija road upgrade (after April 2022) was not found.",
+  "No independent evaluation was found of whether Gorilla Conservation Coffee reduces poaching or forest use.",
+  "No Bwindi-specific record of bee-fence effectiveness or honey yields was found; the bee-fence target comes only from IUCN.",
+  "The 2014–2024 General Management Plan and the World Bank IFPA-CD Vulnerable and Marginalized Groups Plan were not fetched; they are cited only through IUCN.",
+  "Disease transmission from tourists to habituated gorillas (stressed by both UNESCO and IUCN) is not presented as a separate challenge, to keep within four.",
+  "No recent mountain gorilla census result after 2018 was found (IUCN says updated data were expected in 2025)."
+ ]
+}

@@ -151,7 +151,10 @@ export function TerritoryOverview({
         }
       >
         {profile.challenges.length === 0 ? (
-          <p className="text-sm italic text-ink-muted">No conservation challenge is documented for this territory yet.</p>
+          <p className="text-sm italic text-ink-muted">
+            Conservation challenges have not been researched for this area yet, so none are listed here. This
+            does not mean the area faces none.
+          </p>
         ) : (
           <ul className="flex flex-col gap-2">
             {profile.challenges.map((c) => (

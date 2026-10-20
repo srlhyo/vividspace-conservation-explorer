@@ -1,0 +1,495 @@
+{
+ "country": "GAB",
+ "territoryId": "ramsar-1652",
+ "selectionReason": "Akanda had the strongest area-specific, fetchable sources: a Ramsar information sheet updated in December 2024 with a site threat assessment, the park's 2014–2018 management plan, a 2023 peer-reviewed study of its fish nursery role, and 2026 news. Its mangroves, artisanal fisheries and urban edge next to Libreville tie it closely to fisheries, mangrove and nature-tourism enterprises. Pongara and Loango had fewer recent area-specific sources in the time available.",
+ "sources": [
+  {
+   "id": "gab-ramsar-ris-1652-2024",
+   "title": "Fiche descriptive Ramsar — Site n° 1652, Akanda (version mise à jour)",
+   "publisher": "Ramsar Convention Secretariat (RSIS); compiled by Agence Nationale des Parcs Nationaux and Direction Générale des Écosystèmes Aquatiques (Gabon)",
+   "url": "https://rsis.ramsar.org/RISapp/files/RISrep/GA1652RIS_2412_fr.pdf",
+   "date": "2024-12-13",
+   "kind": "report",
+   "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)",
+   "note": "In French. Data period 2012–2023. Much of the narrative text appears to be carried over from earlier versions. Its threat table rates fishing and wood harvesting as 'low impact', while its narrative calls them real threats; the statements here follow the narrative and say so."
+  },
+  {
+   "id": "gab-anpn-akanda-plan-2014",
+   "title": "Plan de gestion du parc national d'Akanda 2014–2018",
+   "publisher": "Agence Nationale des Parcs Nationaux (ANPN), Gabon (hosted by Ramsar RSIS)",
+   "url": "https://rsis.ramsar.org/RISapp/files/4158599/documents/GA1652_mgt1606.pdf",
+   "date": "2014",
+   "kind": "report",
+   "licence": "© Agence Nationale des Parcs Nationaux — cited for reference (facts and short quotes)",
+   "note": "In French. Older than 2018; socio-economic data date from 2010–2013. Used for documented details that newer sources lack, and flagged as such."
+  },
+  {
+   "id": "gab-mvebeh-2023",
+   "title": "Spatial and temporal structure of the fish assemblage in Akanda National Park (Gabon), an equatorial mangrove estuary (Regional Studies in Marine Science 59: 102805; doi:10.1016/j.rsma.2022.102805)",
+   "publisher": "Elsevier; author-accepted manuscript on Archimer (Ifremer)",
+   "url": "https://archimer.ifremer.fr/doc/00813/92450/99067.pdf",
+   "date": "2023-04",
+   "kind": "article",
+   "licence": "© the authors / Elsevier — cited for reference (facts and short quotes)",
+   "note": "Peer-reviewed. Sampling in 2017–2018, funded by ANPN and AFD (Arc d'Émeraude project)."
+  },
+  {
+   "id": "gab-afd-arc-emeraude",
+   "title": "Préserver les écosystèmes et assurer un développement durable autour de Libreville (project page)",
+   "publisher": "Agence Française de Développement (AFD)",
+   "url": "https://www.afd.fr/fr/carte-des-projets/preserver-les-ecosystemes-et-assurer-un-developpement-durable-autour-de-libreville",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Agence Française de Développement — cited for reference (facts and short quotes)",
+   "note": "Undated page; project dates listed as 19 December 2012 to 31 December 2018. Its pressure description covers Akanda and Pongara together. Results are not reported on the page."
+  },
+  {
+   "id": "gab-gabonreview-2026-buffer-zone",
+   "title": "Arborétum Raponda Walker : un déclassement aux contours flous qui mérite des explications",
+   "publisher": "Gabonreview",
+   "url": "https://www.gabonreview.com/arboretum-raponda-walker-un-declassement-aux-contours-flous-qui-merite-des-explications/",
+   "date": "2026-05-23",
+   "kind": "article",
+   "licence": "© Gabonreview — cited for reference (facts and short quotes)",
+   "note": "News commentary on the 22 May 2026 Council of Ministers communiqué; only the communiqué facts it reports are used, not its opinions. The decree text itself was not found."
+  },
+  {
+   "id": "gab-gmt-2026-wetlands-day",
+   "title": "Gabon : les populations sensibilisées sur la gestion traditionnelle des zones humides au Parc d'Akanda",
+   "publisher": "Gabon Media Time",
+   "url": "https://gabonmediatime.com/gabon-les-populations-sensibilisees-sur-la-gestion-traditionnelle-des-zones-humides-au-parc-dakanda/",
+   "date": "2026-02-04",
+   "kind": "article",
+   "licence": "© Gabon Media Time — cited for reference (facts and short quotes)",
+   "note": "Published 4 February 2026, but the text dates the event 'Monday 2 February 2025'; 2 February 2026 was a Monday, so the year in the text is probably a typo."
+  }
+ ],
+ "overview": [
+  {
+   "text": "Akanda National Park lies a few kilometres from Libreville on the Mondah and Corisco bays; its shore is dominated by about 35,000 ha of relatively undisturbed mangroves, mudflats and swamp forest, and its mudflats host 35,000–40,000 wintering Palearctic waders.",
+   "evidence": "verified",
+   "sourceIds": [
+    "ramsar-annotated-ga"
+   ]
+  },
+  {
+   "text": "The park is managed by the Agence Nationale des Parcs Nationaux (ANPN); its Ramsar site shares the park's boundaries (54,000 ha), and the 2024 Ramsar sheet records its legal protection as only partly applied.",
+   "evidence": "verified",
+   "sourceIds": [
+    "gab-ramsar-ris-1652-2024"
+   ]
+  },
+  {
+   "text": "A 2023 study found that immature fish of several commercially important species dominate catches in the park's mangroves, confirming their role as a nursery for Mondah Bay fisheries.",
+   "evidence": "verified",
+   "sourceIds": [
+    "gab-mvebeh-2023"
+   ]
+  }
+ ],
+ "livelihoods": [
+  {
+   "text": "Fishing is the most practised activity in and around the park, all year round; most people living along its edges are fishers, some professional and others, mainly local people, for subsistence.",
+   "evidence": "verified",
+   "sourceIds": [
+    "gab-ramsar-ris-1652-2024"
+   ]
+  },
+  {
+   "text": "The 2014–2018 management plan counted about 40 villages and parts of Libreville on the park's edge, with over 10,000 people outside the main towns, living mainly from fishing, farming, livestock, hunting and hand sawing of timber.",
+   "evidence": "verified",
+   "sourceIds": [
+    "gab-anpn-akanda-plan-2014"
+   ]
+  },
+  {
+   "text": "The Fang, Benga and Sekiani communities benefit from fishing, farming, hunting, tourism and recreation at the site.",
+   "evidence": "verified",
+   "sourceIds": [
+    "ramsar-annotated-ga"
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "id": "gab-akanda-urban-encroachment",
+   "title": "Urban growth, quarries and infrastructure at the park edge",
+   "themeIds": [
+    "land-use",
+    "development",
+    "mangroves"
+   ],
+   "statements": [
+    {
+     "text": "The 2024 Ramsar sheet rates housing and urban areas as a high-impact threat, increasing both in the site and around it, and describes Libreville's expansion as disorderly.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-ramsar-ris-1652-2024"
+     ]
+    },
+    {
+     "text": "It also reports sand extraction at Malibé and Safala west of the site and laterite extraction to the south-west, and says the new Libreville airport and the Ntoum–Cap Santa Clara railway threaten a bird nesting area nearby.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-ramsar-ris-1652-2024"
+     ]
+    },
+    {
+     "text": "The 2014 management plan, citing a 2010 atlas, recorded five dune-sand quarries in the buffer zone, and noted four oil-exploration permits covering the park with no extraction under way.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-anpn-akanda-plan-2014"
+     ]
+    },
+    {
+     "text": "On 22 May 2026 Gabon's Council of Ministers adopted a draft decree described as setting a buffer zone of 1 km on land plus 500 m into the mangroves around Akanda; the communiqué's title named the Raponda Walker Arboretum instead, and the press asked for clarification.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-gabonreview-2026-buffer-zone"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gab-akanda-overfishing",
+   "title": "Overfishing in a fish nursery",
+   "themeIds": [
+    "fisheries",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "The 2024 Ramsar sheet's narrative says overfishing linked to strong immigration (three camps of non-local fishers inside the site) and prohibited gear has sharply reduced fish stocks, and that trawlers entering the Corisco and Mondah bays threaten the ecosystem; its threat table nonetheless rates fishing as low impact.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-ramsar-ris-1652-2024"
+     ]
+    },
+    {
+     "text": "The 2014 management plan records that about 550 mainly Nigerian fishers removed from the park in 2012 were only pushed outside its limits, without reducing their pressure on its fish.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-anpn-akanda-plan-2014"
+     ]
+    },
+    {
+     "text": "The same plan lists park fishing bans (on mullet for Bambouchine, and on another species for villages on the Ntoum–Cocobeach road) among the conflicts with local communities.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-anpn-akanda-plan-2014"
+     ]
+    },
+    {
+     "text": "Because the park's mangroves are a nursery for juvenile commercial fish, their protection matters for keeping fisheries sustainable.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-mvebeh-2023"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gab-akanda-mangrove-cutting",
+   "title": "Cutting of mangrove wood",
+   "themeIds": [
+    "mangroves",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "Over-exploitation of mangroves, especially for wood, is named among the site's chief threats.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ramsar-annotated-ga"
+     ]
+    },
+    {
+     "text": "The 2024 Ramsar sheet calls harvesting of plants for building wood and firewood, especially mangrove, a real threat to the site's ecosystems.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-ramsar-ris-1652-2024"
+     ]
+    },
+    {
+     "text": "In the buffer zone, closing sand quarries and banning sawing and charcoal making in the villages of Malibé 1 and 2 caused considerable job losses, according to the 2014 management plan.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-anpn-akanda-plan-2014"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gab-akanda-unregulated-tourism",
+   "title": "Tourism not yet organised or regulated",
+   "themeIds": [
+    "governance",
+    "development"
+   ],
+   "statements": [
+    {
+     "text": "The 2024 Ramsar sheet says tourism inside the site is not yet organised, supervised or channelled under clear ecological principles.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-ramsar-ris-1652-2024"
+     ]
+    },
+    {
+     "text": "In 2014 two operators (Mondah Ecotour and Cap Caravane) offered accommodation and visits in the park and buffer zone without any tourism concession agreement with ANPN.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-anpn-akanda-plan-2014"
+     ]
+    },
+    {
+     "text": "Uncontrolled tourism within the site is listed among its chief threats.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ramsar-annotated-ga"
+     ]
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "gab-akanda-licensed-mangrove-tours",
+   "title": "Licensed, community-staffed mangrove tours for Libreville visitors",
+   "themeIds": [
+    "livelihoods",
+    "development",
+    "governance"
+   ],
+   "challengeIds": [
+    "gab-akanda-unregulated-tourism",
+    "gab-akanda-mangrove-cutting"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "In 2014 Mondah Ecotour ran pirogue trips and walks in the park's mangroves and on botanical trails, without a concession agreement.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-anpn-akanda-plan-2014"
+     ]
+    },
+    {
+     "text": "Local people have high expectations of the park, and tourism is often cited for its economic benefits.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-anpn-akanda-plan-2014"
+     ]
+    },
+    {
+     "text": "Being close to Libreville gives the park a potentially leading role in environmental education, tourism and nearby recreation.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-ramsar-ris-1652-2024"
+     ]
+    },
+    {
+     "text": "AFD's 2012–2018 project with ANPN aimed, among other goals, to promote the economic use of the Akanda and Pongara parks and public understanding of them.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-afd-arc-emeraude"
+     ]
+    },
+    {
+     "text": "Licensed tours run with local guides, under ANPN rules on routes, visitor numbers and fees, could turn unorganised tourism into income for people who now cut wood or fish in the park.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "gab-ramsar-ris-1652-2024",
+      "gab-anpn-akanda-plan-2014"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Which operators are active now, and whether ANPN has since signed concession agreements",
+    "Demand from Libreville residents and visitors",
+    "Benefit-sharing rules for nearby villages",
+    "Effects of disturbance on wader roosts and the minimum distances needed"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "afd",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "Funded a 2012–2018 project with ANPN whose objectives included promoting the economic use of the Akanda and Pongara parks; the sources do not say whether it supported tourism there, so its relevance is an inference.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "gab-afd-arc-emeraude"
+      ]
+     }
+    },
+    {
+     "organisationId": "anpn",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As the park's manager, it would have to license any tourism operator and set the rules.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "gab-ramsar-ris-1652-2024",
+       "gab-anpn-akanda-plan-2014"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "gab-akanda-fisheries-co-management",
+   "title": "Fisheries co-management with local fishers' associations",
+   "themeIds": [
+    "fisheries",
+    "mangroves",
+    "livelihoods"
+   ],
+   "challengeIds": [
+    "gab-akanda-overfishing"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "The park's mangroves are a nursery for commercial fish; the study's authors propose using such data for management plans, zoning and monitoring that take account of customary management and local knowledge.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-mvebeh-2023"
+     ]
+    },
+    {
+     "text": "Fishers' groups around the park are informal and organised village by village, and a local consultative management committee was planned for early 2014.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-anpn-akanda-plan-2014"
+     ]
+    },
+    {
+     "text": "A coastal fisheries management project run by the fisheries directorate has been set up at the site but is still at an early stage.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-ramsar-ris-1652-2024"
+     ]
+    },
+    {
+     "text": "A park-led World Wetlands Day event discussed traditional knowledge of artisanal fishing and sustainable fishing techniques with nearby communities.",
+     "evidence": "verified",
+     "sourceIds": [
+      "gab-gmt-2026-wetlands-day"
+     ]
+    },
+    {
+     "text": "Formalising local fishers' associations around agreed zones and legal gear could ease conflict over fishing bans and help control prohibited gear and outside fishing camps.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "gab-ramsar-ris-1652-2024",
+      "gab-anpn-akanda-plan-2014",
+      "gab-mvebeh-2023"
+     ]
+    },
+    {
+     "text": "Better prices for legally caught fish (for example through shared cold storage or direct sales in Libreville) might make the rules easier to accept.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "Whether the national parks law allows co-management of fishing in the park",
+    "Status of the planned local consultative committee and of the fisheries project",
+    "Fishers' willingness, and data on fish stocks",
+    "How to handle non-local fishing camps and trawlers"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "anpn",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "Manages the park and enforces its fishing rules, so it would have to lead or approve any co-management arrangement.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "gab-ramsar-ris-1652-2024",
+       "gab-anpn-akanda-plan-2014"
+      ]
+     }
+    },
+    {
+     "organisationId": "iraf-cenarest",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "Its fish baseline for the park could support zoning and monitoring.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "gab-mvebeh-2023"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "organisations": [
+  {
+   "id": "anpn",
+   "name": "Agence Nationale des Parcs Nationaux",
+   "acronym": "ANPN",
+   "type": "government-agency",
+   "role": {
+    "text": "Gabon's national parks agency: manages Akanda National Park, carries out awareness, surveillance and control missions there, and co-compiled the 2024 Ramsar sheet.",
+    "evidence": "verified",
+    "sourceIds": [
+     "gab-ramsar-ris-1652-2024"
+    ]
+   }
+  },
+  {
+   "id": "afd",
+   "name": "Agence Française de Développement",
+   "acronym": "AFD",
+   "type": "government-agency",
+   "url": "https://www.afd.fr/",
+   "role": {
+    "text": "France's development agency; from 2012 to 2018 it supported ANPN's integrated management of the protected areas around Libreville, including Akanda, and co-funded the 2023 fish study.",
+    "evidence": "verified",
+    "sourceIds": [
+     "gab-afd-arc-emeraude",
+     "gab-mvebeh-2023"
+    ]
+   }
+  },
+  {
+   "id": "iraf-cenarest",
+   "name": "Institut de Recherches Agronomiques et Forestières (IRAF), CENAREST",
+   "acronym": "IRAF",
+   "type": "research-institution",
+   "role": {
+    "text": "Researchers and technicians of its hydrobiology and ichthyology laboratory carried out the 2017–2018 fish survey of the park's mangroves.",
+    "evidence": "verified",
+    "sourceIds": [
+     "gab-mvebeh-2023"
+    ]
+   }
+  },
+  {
+   "id": "wcs",
+   "name": "Wildlife Conservation Society",
+   "acronym": "WCS",
+   "type": "international-ngo",
+   "url": "https://www.wcs.org/",
+   "role": {
+    "text": "Gave technical assistance to ANPN in preparing the 2014–2018 management plan and contributed to the 2023 fish study.",
+    "evidence": "verified",
+    "sourceIds": [
+     "gab-anpn-akanda-plan-2014",
+     "gab-mvebeh-2023"
+    ]
+   }
+  }
+ ],
+ "verificationNote": "All sources were fetched with curl and checked in the fetched text (PDFs via pdftotext). The main source is the Ramsar information sheet updated in December 2024 (data 2012–2023), though parts of its text are older, and its threat table and narrative disagree on fishing and wood harvesting. The 2014–2018 management plan is used for detail and is flagged as older. The 2023 fish study is peer-reviewed. The 2026 news items report a buffer-zone decision and an awareness event. The ANPN website did not respond and was not used.",
+ "gaps": [
+  "No recent, park-specific measurement of mangrove loss inside Akanda was found; the AGEOS figure of about 70 ha lost in three years (Mongabay, 2023) covers Libreville as a whole, so it was not used as a challenge of this park.",
+  "The 22 May 2026 buffer-zone decree text was not found; only a news report of the communiqué was available.",
+  "No recent data on catches, numbers of fishers or the fishing camps inside the park was found; figures on fishing camps date from 2012–2014.",
+  "The current status of tourism operators, concessions and the local consultative committee after 2014 is not documented.",
+  "AFD's project page does not report results; the outcomes of the Arc d'Émeraude project were not checked.",
+  "News of ANPN seizing 23 boat engines from young fishers in a no-fishing zone (Gabonreview, December 2025) does not name the park, so it was not used.",
+  "A UNDP-funded mangrove replanting project by the NGO Plumera covers the commune of Akanda, not the park, so it was not used."
+ ]
+}

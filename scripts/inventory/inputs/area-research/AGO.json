@@ -1,0 +1,538 @@
+{
+ "country": "AGO",
+ "territoryId": "pa-ago-iona-national-park",
+ "selectionReason": "Iona, the first choice, has a peer-reviewed 2024 study of its resident herders and human–wildlife conflict, independent reviews for its funder (an environmental and social due diligence of 2021–2022 and a 2025 milestone review), and detailed pages from its co-manager African Parks. Its challenges (livestock pressure, predation on herds, drought, rights and benefit-sharing for semi-nomadic Indigenous residents) tie directly to community enterprises and tourism. Co-management with African Parks since January 2020 is confirmed.",
+ "sources": [
+  {
+   "id": "ago-ap-iona",
+   "title": "Iona National Park (park overview)",
+   "publisher": "African Parks",
+   "url": "https://www.africanparks.org/the-parks/iona",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© African Parks — cited for reference (facts and short quotes)",
+   "note": "Undated page, fetched 2026-10-20, including 2025 figures. Self-reported by the park's co-manager."
+  },
+  {
+   "id": "ago-ap-iona-community",
+   "title": "Iona — Community Development",
+   "publisher": "African Parks",
+   "url": "https://www.africanparks.org/the-parks/iona/community-development",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© African Parks — cited for reference (facts and short quotes)",
+   "note": "Undated page, fetched 2026-10-20, reporting 2025 figures. Self-reported by the co-manager."
+  },
+  {
+   "id": "ago-ap-iona-biodiversity",
+   "title": "Iona — Biodiversity Conservation",
+   "publisher": "African Parks",
+   "url": "https://www.africanparks.org/the-parks/iona/biodiversity-conservation",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© African Parks — cited for reference (facts and short quotes)",
+   "note": "Undated page, fetched 2026-10-20, reporting 2025 activities. Self-reported."
+  },
+  {
+   "id": "ago-ap-iona-revenue",
+   "title": "Iona — Park Revenue Generation",
+   "publisher": "African Parks",
+   "url": "https://www.africanparks.org/the-parks/iona/park-revenue-generation",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© African Parks — cited for reference (facts and short quotes)",
+   "note": "Undated page, fetched 2026-10-20; visitor figure is for 2025. Self-reported."
+  },
+  {
+   "id": "ago-fabiano-2024",
+   "title": "Risk perceptions of wildlife by the resident human population in the Iona National Park, southwest Angola (Wildlife Biology 2024: e01153, doi:10.1002/wlb3.01153)",
+   "publisher": "Wildlife Biology (Nordic Society Oikos / Wiley); authors Fabiano, Verschueren and Shikangalah",
+   "url": "https://repository.uantwerpen.be/docman/irua/a099f3motoM4f",
+   "date": "2024",
+   "kind": "article",
+   "licence": "Creative Commons Attribution licence (open access; version not stated in the PDF)",
+   "note": "Peer-reviewed, but the survey was done in May–August 2016; figures are self-reported by 356 residents. Copy fetched from the University of Antwerp repository."
+  },
+  {
+   "id": "ago-llf-iona",
+   "title": "Iona, Angola (Legacy Landscapes programme page)",
+   "publisher": "Legacy Landscapes Fund",
+   "url": "https://legacylandscapes.org/map/iona-angola/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Legacy Landscapes Fund — cited for reference (facts and short quotes)",
+   "note": "Undated page from the park's long-term funder."
+  },
+  {
+   "id": "ago-llf-esdd",
+   "title": "Non-Technical Summary: Iona (environmental and social due diligence)",
+   "publisher": "Legacy Landscapes Fund",
+   "url": "https://legacylandscapes.org/esdd-non-technical-summary-iona-legacy-landscape/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Legacy Landscapes Fund — cited for reference (facts and short quotes)",
+   "note": "Summarises a due diligence by MFC Social and Environmental Performance Ltd carried out June 2021 to March 2022; describes the park's situation at that time."
+  },
+  {
+   "id": "ago-llf-milestone-2025",
+   "title": "Iona – Summary of Milestone Report",
+   "publisher": "Legacy Landscapes Fund",
+   "url": "https://legacylandscapes.org/iona-summary-of-milestone-report/",
+   "date": "2025",
+   "kind": "webpage",
+   "licence": "© Legacy Landscapes Fund — cited for reference (facts and short quotes)",
+   "note": "Summary of an independent five-year review by consultants (July–December 2025, field visit in October); page publication date not shown."
+  },
+  {
+   "id": "ago-inbac-iona",
+   "title": "Parque Nacional do Iona — Relatório do estado actual do Parque Nacional do Iona",
+   "publisher": "Instituto Nacional da Biodiversidade e Áreas de Conservação (INBAC)",
+   "url": "https://inbac.gov.ao/Site/areasConservacao/parque/7",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© INBAC — cited for reference (facts and short quotes)",
+   "note": "In Portuguese; undated (site footer ©2026). Parts appear older (e.g. it lists elephant among the fauna and gives a 22-person staff). Same page family as the catalogue source ago-inbac-parques."
+  }
+ ],
+ "overview": [
+  {
+   "text": "The Angolan government signed a long-term management agreement for Iona with African Parks in December 2019 (with the environment ministry and the national biodiversity institute), and handover took place on 31 January 2020.",
+   "evidence": "verified",
+   "sourceIds": [
+    "ago-ap-iona"
+   ]
+  },
+  {
+   "text": "The 15,150 km² park lies at the northern tip of the Namib Desert between the Atlantic and the Curoca and Cunene rivers, and adjoins Namibia's Skeleton Coast National Park.",
+   "evidence": "verified",
+   "sourceIds": [
+    "ago-ap-iona",
+    "ago-inbac-iona"
+   ]
+  },
+  {
+   "text": "Decades of war wiped out species such as black rhino and elephant and drove local communities into Namibia; people returned after the conflict ended.",
+   "evidence": "verified",
+   "sourceIds": [
+    "ago-ap-iona"
+   ]
+  }
+ ],
+ "livelihoods": [
+  {
+   "text": "African Parks says some 7,000 people, including Himba, live within the park and on its immediate edge.",
+   "evidence": "verified",
+   "sourceIds": [
+    "ago-ap-iona-community"
+   ]
+  },
+  {
+   "text": "In a 2016 survey of 356 residents, 92% ranked livestock keeping as their most important activity, and maize was the most important crop; residents reported about 31,660 goats and 11,342 cattle in the park.",
+   "evidence": "verified",
+   "sourceIds": [
+    "ago-fabiano-2024"
+   ]
+  },
+  {
+   "text": "Iona received 6,102 visitors in 2025, 53% of them Angolan, many drawn by the dunes and by fishing.",
+   "evidence": "verified",
+   "sourceIds": [
+    "ago-ap-iona-revenue"
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "id": "ago-iona-livestock-pressure",
+   "title": "Livestock overstocking in a hyper-arid park",
+   "themeIds": [
+    "land-use",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "From residents' reported herd sizes, a 2024 peer-reviewed study estimated livestock biomass at 8.42 kg/ha, above the 4–6 kg/ha wildlife carrying capacity it cites for hyper-arid areas, indicating severe overstocking.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-fabiano-2024"
+     ]
+    },
+    {
+     "text": "African Parks says growing numbers of people and livestock have put pressure on the park's ecosystem in recent years.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-ap-iona"
+     ]
+    },
+    {
+     "text": "The park's funder lists unsustainable grazing by local herders as a conservation challenge.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-llf-iona"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ago-iona-livestock-predation",
+   "title": "Livestock predation and risk of retaliatory killing of carnivores",
+   "themeIds": [
+    "species",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "In the six months before the 2016 survey, residents reported losing 516 goats and 258 cattle to predators; leopard and cheetah were perceived as the highest risk to cattle.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-fabiano-2024"
+     ]
+    },
+    {
+     "text": "Most livestock enclosures were built from bushes, and residents reported six poisoning events in the previous year, targeting leopard and cheetah, although retaliatory killing was judged relatively low overall.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-fabiano-2024"
+     ]
+    },
+    {
+     "text": "African Parks describes its human–wildlife conflict work as dealing mainly with livestock predation, including GPS ear tags on goats to find hotspots.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-ap-iona-community"
+     ]
+    },
+    {
+     "text": "The 2025 milestone review says community expectations on human–wildlife conflict mitigation, income security and resource access need to be met soon.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-llf-milestone-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ago-iona-drought",
+   "title": "Recurrent drought hitting herds and wildlife",
+   "themeIds": [
+    "climate",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "The park receives 100–300 mm of rain a year and droughts recur; 87% of surveyed cattle owners said they lost cattle in the drought before 2016, and 70% lost goats or sheep.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-fabiano-2024"
+     ]
+    },
+    {
+     "text": "The funder lists drought from climate change, affecting both wildlife and people, and human–wildlife conflict over grazing land and water access among Iona's conservation challenges.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-llf-iona"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ago-iona-rights-governance",
+   "title": "Unsettled land rights, safeguards and co-management",
+   "themeIds": [
+    "governance"
+   ],
+   "statements": [
+    {
+     "text": "The 2021–2022 due diligence found that Indigenous Peoples in the park lack land tenure rights and that park, commune and municipal boundaries overlap, leaving jurisdiction unclear.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-llf-esdd"
+     ]
+    },
+    {
+     "text": "It named inadequate stakeholder coordination and engagement as the programme's most significant risk, alongside potential restrictions on residents' free movement and economic activities; no protocol for free, prior and informed consent existed at the time.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-llf-esdd"
+     ]
+    },
+    {
+     "text": "The 2025 milestone review found delays in the consent protocol and Indigenous Peoples Plan, said political challenges in the co-management set-up must be resolved soon, and judged community income opportunities still early and not yet at scale.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-llf-milestone-2025"
+     ]
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "ago-iona-producer-groups",
+   "title": "Scaling community craft, sour-milk and farming producer groups",
+   "themeIds": [
+    "livelihoods"
+   ],
+   "challengeIds": [
+    "ago-iona-rights-governance",
+    "ago-iona-livestock-pressure"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "A Community Artcraft Association formed in 2023 sells its members' work at local tourism fairs and events, and the Ovakande Homahere Sour Milk Association of ten Ovahimba women has been trained in governance, financial literacy and project management.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-ap-iona-community"
+     ]
+    },
+    {
+     "text": "A community agricultural association in Monte Negro was set up through a partnership with FAO and receives training and basic farming materials.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-ap-iona-community"
+     ]
+    },
+    {
+     "text": "The 2025 milestone review judged the park's initial steps towards community value chains early and not yet at scale, and recommended expanding livelihood and value-chain initiatives, including tourism, with Indigenous communities.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-llf-milestone-2025"
+     ]
+    },
+    {
+     "text": "Turning these groups into steady small enterprises, for example by selling crafts and dairy products to the park's growing number of visitors, could diversify household income in an economy that relies heavily on livestock.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "ago-ap-iona-community",
+      "ago-ap-iona-revenue",
+      "ago-fabiano-2024"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Current sales, prices and buyers for the craft and sour-milk groups",
+    "Food-safety requirements for selling fermented milk",
+    "Whether more value from milk could encourage larger herds and so add to overstocking",
+    "Who in the community receives the income, and how this fits the land-use plan"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "african-parks",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Iona's community development team works with semi-nomadic communities to develop enterprises, including the craft association and women-led craft and sour-milk groups.",
+      "evidence": "verified",
+      "sourceIds": [
+       "ago-ap-iona-community"
+      ]
+     }
+    },
+    {
+     "organisationId": "fao",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "FAO partnered in setting up the community agricultural association in Monte Negro.",
+      "evidence": "verified",
+      "sourceIds": [
+       "ago-ap-iona-community"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ago-iona-community-tourism",
+   "title": "Community-run guiding and campsite services",
+   "themeIds": [
+    "livelihoods",
+    "governance"
+   ],
+   "challengeIds": [
+    "ago-iona-rights-governance",
+    "ago-iona-livestock-predation"
+   ],
+   "evidence": "hypothesis",
+   "rationale": [
+    {
+     "text": "Visitor numbers are rising (6,102 in 2025, mostly Angolan), drawn by the dunes and fishing.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-ap-iona-revenue"
+     ]
+    },
+    {
+     "text": "INBAC names Salojamba, Ponte Albina, Espinheira and Pediva as the busiest visitor points, with safari, camping and water-based outings as the main activities, and says tourism still needs funding, guides, camps and lodges.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-inbac-iona"
+     ]
+    },
+    {
+     "text": "The 2024 study suggests ecotourism could create incentives for community-based conservation, but notes that residents' views of tourism differ sharply by locality.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-fabiano-2024"
+     ]
+    },
+    {
+     "text": "Guiding, campsite or cultural services run by residents at these visitor points might channel tourism income to communities; no such enterprise is documented yet.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "Do communities near the visitor points want tourism enterprises?",
+    "Visitor spending patterns of mainly domestic, self-drive and fishing visitors",
+    "Concession and permit rules under the co-management agreement",
+    "Water and access constraints at the sites"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "inbac",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As the national protected-area institute, which identifies tourism needs for the park, it would likely have a say in any community tourism concession.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "ago-inbac-iona"
+      ]
+     }
+    },
+    {
+     "organisationId": "african-parks",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As co-manager tracking visitor numbers, it would be a key partner for any community tourism service.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "ago-ap-iona-revenue"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "ago-iona-predator-proof-kraals",
+   "title": "Locally built predator-proof livestock enclosures",
+   "themeIds": [
+    "species",
+    "livelihoods"
+   ],
+   "challengeIds": [
+    "ago-iona-livestock-predation"
+   ],
+   "evidence": "hypothesis",
+   "rationale": [
+    {
+     "text": "Most enclosures in the park are built from bushes, and the study's authors note that the temporary enclosures of semi-nomadic herders are often easy for carnivores to get into.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-fabiano-2024"
+     ]
+    },
+    {
+     "text": "Livestock predation is the main focus of the park's human–wildlife conflict work.",
+     "evidence": "verified",
+     "sourceIds": [
+      "ago-ap-iona-community"
+     ]
+    },
+    {
+     "text": "Sturdier, possibly mobile, enclosures built and maintained by trained local workers could cut losses and reduce reasons to poison leopard and cheetah, while creating some paid work.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "Are predation losses still at the levels reported in 2016?",
+    "Designs that suit semi-nomadic herding and locally available materials",
+    "Cost per household and who would pay",
+    "Fit with the park's human–wildlife conflict policy"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "african-parks",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "Its community team already monitors livestock movements and predation hotspots, so it could help target any enclosure programme.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "ago-ap-iona-community"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "organisations": [
+  {
+   "id": "african-parks",
+   "name": "African Parks",
+   "type": "international-ngo",
+   "url": "https://www.africanparks.org",
+   "role": {
+    "text": "Manages Iona under a long-term agreement signed in December 2019 with the Angolan environment ministry and the national biodiversity institute, covering law enforcement, wildlife monitoring, giraffe reintroductions and community programmes.",
+    "evidence": "verified",
+    "sourceIds": [
+     "ago-ap-iona",
+     "ago-ap-iona-biodiversity"
+    ]
+   }
+  },
+  {
+   "id": "inbac",
+   "name": "Instituto Nacional da Biodiversidade e Áreas de Conservação",
+   "acronym": "INBAC",
+   "type": "government-agency",
+   "url": "https://inbac.gov.ao",
+   "role": {
+    "text": "Angola's national biodiversity and protected-area institute; government signatory of the management agreement and partner of the park's funder.",
+    "evidence": "verified",
+    "sourceIds": [
+     "ago-ap-iona",
+     "ago-llf-iona"
+    ]
+   }
+  },
+  {
+   "id": "legacy-landscapes-fund",
+   "name": "Legacy Landscapes Fund",
+   "acronym": "LLF",
+   "type": "conservation-trust-fund",
+   "url": "https://legacylandscapes.org",
+   "role": {
+    "text": "Funds Iona as a 'legacy landscape', with African Parks as implementing partner and the national biodiversity institute as government partner; had an environmental and social due diligence carried out (2021–2022) and contracted the consultants for the 2025 milestone review.",
+    "evidence": "verified",
+    "sourceIds": [
+     "ago-llf-iona",
+     "ago-llf-esdd",
+     "ago-llf-milestone-2025"
+    ]
+   }
+  },
+  {
+   "id": "fao",
+   "name": "Food and Agriculture Organization of the United Nations",
+   "acronym": "FAO",
+   "type": "international-organisation",
+   "url": "https://www.fao.org",
+   "role": {
+    "text": "Partnered in setting up a community agricultural association in Monte Negro, near Iona.",
+    "evidence": "verified",
+    "sourceIds": [
+     "ago-ap-iona-community"
+    ]
+   }
+  }
+ ],
+ "verificationNote": "Every statement was checked against fetched pages and PDFs: four African Parks pages (fetched 2026-10-20, with 2025 figures), the peer-reviewed 2024 Wildlife Biology study (fieldwork 2016), three Legacy Landscapes Fund pages (the due-diligence summary for 2021–2022 and the 2025 milestone review), and INBAC's park page. Co-management with African Parks is confirmed: agreement signed December 2019, handover 31 January 2020, and LLF describes a 20-year co-management agreement effective January 2020. Most current figures are self-reported by the co-manager; the only independent quantitative data (herds, predation, drought losses) date from 2016. The study's livestock figures conflict with a 2016–2017 aerial count it cites (0.54 kg/ha), which the authors discuss.",
+ "gaps": [
+  "Coastal and fisheries pressures (African Parks mentions joint patrols against illegal fishing off the southern coast; INBAC lists uncontrolled artisanal fishing as an education topic) are not documented in enough detail to form a challenge.",
+  "No recent independent count of livestock or residents; African Parks gives ~7,000 people, while the 2016 survey counted at least 3,100.",
+  "The 2019 study of villagers' perceptions of tourism (Morais et al., Sustainability 11:4448) could not be fetched (HTTP 403/000), so it is cited only as reported in the 2024 study.",
+  "No outcome data (sales, incomes) for the craft, sour-milk or agricultural associations.",
+  "The 'political challenges in the co-management set-up' named in the 2025 milestone summary are not described in detail.",
+  "African Parks names its government partner as the 'National Institute of Biodiversity and Conservation (INBC)'; it is assumed to be the same body as INBAC (current name under Presidential Decree 175/24)."
+ ]
+}

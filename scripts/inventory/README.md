@@ -16,7 +16,7 @@ It needs Python 3.9 or later (standard library only) and Node. Nothing is downlo
 |---|---|
 | `stage1.py` | Starts from the curated base catalogue, adds the 9 additional countries, vocabularies and protection categories, and adds every Ramsar site not yet catalogued. |
 | `stage2.py` | Merges the verified areas from each country's research into existing records (same name, or an `overrides.json` merge), or adds them with an official or Wikidata (CC0) location. Areas with no usable location go to the unmapped list. |
-| `stage3.py` | Adds biosphere reserves and World Heritage designations, sets the country inventory status and comparison, and writes the outputs. |
+| `stage3.py` | Adds biosphere reserves and World Heritage designations, adds the researched challenges and potential activities for one area per additional country, sets the country inventory status and comparison, and writes the outputs. |
 | `norm.py`, `geo.py` | Name normalisation for matching, and the point-in-country test (committed outlines in `public/data/geo/countries.geojson`, with 0.35° of tolerance around coasts and borders). |
 
 Intermediate files go to a temporary directory. To keep them, pass a directory: `python3 scripts/inventory/build.py /path/to/dir`. `stage2-review.txt` there lists name matches, merges and rejected locations for review.
@@ -31,6 +31,7 @@ Intermediate files go to a temporary directory. To keep them, pass a directory: 
 | `inputs/biosphere-reserves.json` | Facts from UNESCO Man and the Biosphere pages (`unesco.org/en/mab/<slug>`): title, year, country, area and reference point. | UNESCO; facts cited. |
 | `inputs/world-heritage.json` | Natural and mixed World Heritage properties for the 22 countries, from the UNESCO State Party pages and the list's GeoJSON endpoint. | UNESCO; facts cited. |
 | `inputs/wikidata/<ISO3>.json`, `inputs/wikidata-items.json`, `inputs/wikidata-name-search.json` | Wikidata protected-area items per country, items looked up by id, and name-search candidates, with labels and coordinates. | Wikidata, CC0. |
+| `inputs/area-research/<ISO3>.json` | Researched conservation challenges, potential regenerative activities, organisations, sources and key facts for one area in each of the 9 additional countries (shape as in the files; `territoryId` names the area). Each was checked statement by statement against its sources. Activities are never `verified`; organisation links are `related-initiative` only when a verified statement documents the organisation's work there. | Project research; sources cited for reference unless their licence says otherwise. |
 | `inputs/overrides.json` | Reviewed decisions: `merge` (research area → catalogue record; `noMerge` is also supported), `overlap`, `acceptWikidata`, `rejectWikidata` and `rejectWikidataWhereNote`. | Project review. |
 | `inputs/eco-false.json` | Habitat-term matches reviewed as false (for example a bird's name), as `[Ramsar site number, ecosystem id]`. | Project review. |
 

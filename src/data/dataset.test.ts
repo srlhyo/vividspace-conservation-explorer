@@ -129,6 +129,12 @@ describe('public catalogue', () => {
   it('never presents an opportunity as verified', () => {
     for (const o of catalogue.opportunities) expect(o.evidence).not.toBe('verified')
   })
+
+  it('never describes an area with documented challenges as not researched', () => {
+    const researched = new Set(catalogue.challenges.flatMap((c) => c.territoryIds))
+    for (const t of catalogue.territories.filter((t) => researched.has(t.id)))
+      expect(t.verification.note, t.id).not.toMatch(/No conservation challenge.*has been researched/)
+  })
 })
 
 /** Minimal RFC 4180 parser for the inventory CSV (quoted cells may contain commas, quotes and line breaks). */

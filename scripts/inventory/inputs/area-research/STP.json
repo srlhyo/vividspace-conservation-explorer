@@ -1,0 +1,599 @@
+{
+ "country": "STP",
+ "territoryId": "pa-stp-parque-natural-obo-de-sao-tome",
+ "selectionReason": "First choice kept: Obô Natural Park of São Tomé has the most area-specific sources, including the 6th national biodiversity report, 2020–2025 management plans for its two mangrove areas, a 2025 thesis that reproduces the park's 2021–2025 threat assessment, and BirdLife reports up to 2026. It also has documented eco-guide, mangrove-tour, hunter-livelihood and buffer-zone farming activities relevant to regenerative enterprise.",
+ "sources": [
+  {
+   "id": "stp-oikos-malanza-plan-2020",
+   "title": "Plano de Gestão do Mangal de Malanza 2020–2025",
+   "publisher": "Oikos – Cooperação e Desenvolvimento for the Obô Natural Park department; funded by CEPF",
+   "url": "https://www.cepf.net/resources/documents/5-malanza-management-plan-2020-2025",
+   "date": "2020",
+   "kind": "report",
+   "licence": "© Oikos / CEPF — cited for reference (facts and short quotes)",
+   "note": "In Portuguese. Field check in late 2019; the plan states that it reflects the authors' views, not necessarily those of the government or CEPF."
+  },
+  {
+   "id": "stp-oikos-conchas-plan-2020",
+   "title": "Plano de Gestão do Mangal de Praia das Conchas 2020–2025",
+   "publisher": "Oikos – Cooperação e Desenvolvimento for the Obô Natural Park department; funded by CEPF",
+   "url": "https://cepf.net/resources/documents/4-conchas-management-plan-2020-2025",
+   "date": "2020",
+   "kind": "report",
+   "licence": "© Oikos / CEPF — cited for reference (facts and short quotes)",
+   "note": "In Portuguese."
+  },
+  {
+   "id": "stp-fernandes-2025-thesis",
+   "title": "Perspetivas da conservação sustentável do Parque Natural Obô de São Tomé (MSc dissertation, Conservation Biology)",
+   "publisher": "Universidade de Évora (H. da Mata Vicente Fernandes; supervisor P. Sá-Sousa)",
+   "url": "https://rdpc.uevora.pt/bitstream/10174/40981/1/Mestrado-Biologia_da_Conservacao-Heukdney_de_Mata_Vicente_Fernandes.pdf",
+   "date": "2025",
+   "kind": "report",
+   "licence": "© Universidade de Évora / the author — cited for reference (facts and short quotes)",
+   "note": "Master's thesis (not peer-reviewed). The statements used here come from its reproduction of the park's 2021–2025 management plan (Plano de Manejo do PNOST), which could not be found online. The repository's TLS certificate could not be verified by curl, so it was fetched with certificate checking disabled."
+  },
+  {
+   "id": "stp-birdlife-iba-lowland-forests",
+   "title": "São Tomé lowland forests IBA — a unique fauna at extreme risk",
+   "publisher": "BirdLife International (Data Zone)",
+   "url": "https://datazone.birdlife.org/articles/so-tom-lowland-forests-ibaa-unique-fauna-at-extreme-risk",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© BirdLife International — cited for reference (facts and short quotes)",
+   "note": "Undated case study; the oil-palm and dam plans it mentions may have changed since it was written."
+  },
+  {
+   "id": "stp-birdlife-2020-green-recovery",
+   "title": "Anchoring a green recovery in São Tomé and Príncipe",
+   "publisher": "BirdLife International",
+   "url": "https://www.birdlife.org/news/2020/07/28/anchoring-a-green-recovery-in-sao-tome-and-principe/",
+   "date": "2020-07-28",
+   "kind": "article",
+   "licence": "© BirdLife International — cited for reference (facts and short quotes)",
+   "note": "NGO news story about its own programme."
+  },
+  {
+   "id": "stp-birdlife-2023-forest-conservation",
+   "title": "Advancing forest conservation in São Tomé and Príncipe",
+   "publisher": "BirdLife International",
+   "url": "https://www.birdlife.org/news/2023/03/17/advancing-forest-conservation-in-sao-tome-and-principe-2/",
+   "date": "2023-03-17",
+   "kind": "article",
+   "licence": "© BirdLife International — cited for reference (facts and short quotes)",
+   "note": "NGO news story about its own programme (self-reported)."
+  },
+  {
+   "id": "stp-birdlife-2026-guardians",
+   "title": "Guardians of São Tomé's Rarest Birds",
+   "publisher": "BirdLife International",
+   "url": "https://www.birdlife.org/news/2026/04/07/guardians-of-sao-tomes-rarest-birds/",
+   "date": "2026-04-07",
+   "kind": "article",
+   "licence": "© BirdLife International — cited for reference (facts and short quotes)",
+   "note": "NGO news story; its hunter results are self-reported and refer to São Tomé island rather than naming the park."
+  },
+  {
+   "id": "stp-leap-dl-10-2025",
+   "title": "Decree-Law No. 10/2025 approving the Internal Regulations of the Obô de São Tomé Natural Park — LEAP record",
+   "publisher": "UNEP Law and Environment Assistance Platform (content from FAO/FAOLEX)",
+   "url": "https://leap.unep.org/en/countries/st/national-legislation/decree-law-no-102025-approving-internal-regulations-obo-de-sao",
+   "date": "2025-09-16",
+   "kind": "webpage",
+   "licence": "© UNEP / FAO — cited for reference (facts and short quotes)",
+   "note": "Summary record; published in Diário da República, I Série, No. 43, 16 September 2025. The full decree text was not read."
+  }
+ ],
+ "overview": [
+  {
+   "text": "Created by Law No. 6/2006, the park has three separate protection zones on São Tomé (the central-western mountain massif, Praia das Conchas–Lagoa Azul in the north and the Malanza mangrove in the south) and is surrounded by a buffer zone.",
+   "evidence": "verified",
+   "sourceIds": [
+    "stp-oikos-conchas-plan-2020"
+   ]
+  },
+  {
+   "text": "It covers 235 km² (27% of São Tomé); together with Príncipe's park it holds the country's most important tropical forests and significant populations of globally threatened endemic species, and there are no permanent communities inside the parks.",
+   "evidence": "verified",
+   "sourceIds": [
+    "stp-cbd-nr6"
+   ]
+  },
+  {
+   "text": "Internal regulations for the park were approved by Decree-Law No. 10/2025, and BirdLife International signed a memorandum with the government in 2017 to co-manage the protected areas.",
+   "evidence": "verified",
+   "sourceIds": [
+    "stp-leap-dl-10-2025",
+    "stp-oikos-conchas-plan-2020"
+   ]
+  }
+ ],
+ "livelihoods": [
+  {
+   "text": "About fifty communities live in the buffer zones, where farming cooperatives, especially for pepper, are active.",
+   "evidence": "verified",
+   "sourceIds": [
+    "stp-cbd-nr6"
+   ]
+  },
+  {
+   "text": "Residents around the park live mainly from subsistence farming and take timber for houses and boats, charcoal and non-timber products from nearby forests, including the park.",
+   "evidence": "verified",
+   "sourceIds": [
+    "stp-fernandes-2025-thesis"
+   ]
+  },
+  {
+   "text": "At Malanza a local group runs canoe trips in the mangrove, and an ecolodge and mangrove tours bring income to some community members; eco-guides of the Monte Pico Association depend on tourism.",
+   "evidence": "verified",
+   "sourceIds": [
+    "stp-oikos-malanza-plan-2020",
+    "stp-birdlife-2020-green-recovery"
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "id": "stp-obo-forest-conversion",
+   "title": "Clearing for plantations and farms at and inside the park edge",
+   "themeIds": [
+    "land-use",
+    "development"
+   ],
+   "statements": [
+    {
+     "text": "Parts of the park's buffer zone have been used by intensive agricultural companies (Agripalma, SATOCAO).",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-cbd-nr6"
+     ]
+    },
+    {
+     "text": "The park's 2021–2025 management plan, as reproduced in a 2025 thesis, records that Agripalma (Socfin) was granted 4,917 ha and cleared forest from the south of the island up to the park boundary between 2009 and 2013.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-fernandes-2025-thesis"
+     ]
+    },
+    {
+     "text": "The same plan reports market gardening at Bom Sucesso expanding significantly into the park, with clearing that causes erosion and frequent pesticide use.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-fernandes-2025-thesis"
+     ]
+    },
+    {
+     "text": "BirdLife reports that buffer-zone forests meant to stay free of development have been threatened by plans for industrial oil palm and a hydroelectric dam.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-birdlife-iba-lowland-forests"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stp-obo-logging-charcoal",
+   "title": "Illegal logging and charcoal making, including in the mangroves",
+   "themeIds": [
+    "land-use",
+    "mangroves",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "In 2020 BirdLife reported a significant increase in illegal logging for construction and backed a plan to build five surveillance posts on the main timber-trafficking routes.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-birdlife-2020-green-recovery"
+     ]
+    },
+    {
+     "text": "The park plan notes selective felling for building (80% of houses are wooden), including on the roadless south-west coast where timber leaves by boat, and that about 75% of the population uses firewood or charcoal.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-fernandes-2025-thesis"
+     ]
+    },
+    {
+     "text": "At the Praia das Conchas mangrove, cutting of mangrove trees for charcoal has had a considerable impact, and waste from the Lobata dump upstream is an aggravating factor.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-oikos-conchas-plan-2020"
+     ]
+    },
+    {
+     "text": "A 2019 check of the Malanza mangrove boundary could not find a number of the 2015 boundary marks, probably because the trees bearing them were cut, and found three critical areas of encroachment, mainly tree felling and farming.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-oikos-malanza-plan-2020"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stp-obo-hunting",
+   "title": "Hunting and other pressures on critically endangered endemic birds",
+   "themeIds": [
+    "species"
+   ],
+   "statements": [
+    {
+     "text": "The island's forests hold three critically endangered endemic birds; nearly all the most important forests are in the park, and the Dwarf Ibis is directly affected by illegal hunting.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-birdlife-iba-lowland-forests"
+     ]
+    },
+    {
+     "text": "Island-wide, BirdLife reported in 2026 that the Dwarf Ibis is believed to number fewer than 2,000 and the São Tomé Grosbeak and Newton's Fiscal fewer than 250 each, under pressure from hunting, disturbance, invasive mammals and habitat loss; as most of their key forest lies in the park, these pressures bear largely on it.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "stp-birdlife-2026-guardians",
+      "stp-birdlife-iba-lowland-forests"
+     ]
+    },
+    {
+     "text": "The park plan records that uncontrolled hunting and capture of endemic and threatened species persist in the park, and that palm-wine tapping is degrading some areas even in its core.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-fernandes-2025-thesis"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "stp-obo-management-capacity",
+   "title": "Too few staff and funds to enforce protection",
+   "themeIds": [
+    "governance",
+    "finance"
+   ],
+   "statements": [
+    {
+     "text": "Effective protection since 2006 has been hampered by limited staff, funding and enforcement capacity, including poor boundary marking and little visible staff presence; the 2015–2020 management plans were held back by lack of funds.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-cbd-nr6"
+     ]
+    },
+    {
+     "text": "The park's ability to apply protection measures is limited, and enforcement responsibilities are unclear between the park, coast guard, police, forest directorate and district council.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-oikos-conchas-plan-2020"
+     ]
+    },
+    {
+     "text": "Scarce resources have concentrated most work in the park's central zone, leaving its two mangrove areas largely without concrete conservation measures; their 2015 plans were only very partly implemented.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-oikos-conchas-plan-2020"
+     ]
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "stp-obo-eco-guide-monitoring",
+   "title": "Community eco-guiding paired with paid forest monitoring",
+   "themeIds": [
+    "livelihoods",
+    "governance"
+   ],
+   "challengeIds": [
+    "stp-obo-logging-charcoal",
+    "stp-obo-management-capacity"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "Eco-guides of the Monte Pico Association maintained the park's trails with BirdLife support in 2020, when BirdLife was also working to retrain 15 eco-guides for surveillance, awareness and monitoring of the park.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-birdlife-2020-green-recovery"
+     ]
+    },
+    {
+     "text": "Since 2021, forest directorate agents and civil-society groups including the Monte Pico Association and a responsible-tourism platform have monitored biodiversity and threats in the parks twice a year.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-birdlife-2023-forest-conservation"
+     ]
+    },
+    {
+     "text": "At Malanza a community group already runs canoe tours in the mangrove.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-oikos-malanza-plan-2020"
+     ]
+    },
+    {
+     "text": "Ecotourism is not yet advanced enough to bring significant benefits to local communities.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-fernandes-2025-thesis"
+     ]
+    },
+    {
+     "text": "Combining paid guiding with paid monitoring could give local guides steadier income while adding a regular presence on trails and timber routes where staff are scarce.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "stp-birdlife-2020-green-recovery",
+      "stp-birdlife-2023-forest-conservation",
+      "stp-cbd-nr6"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Long-term funding for monitoring stipends once project grants end",
+    "Visitor numbers and willingness to pay for guided visits",
+    "Whether guides' monitoring reports lead to enforcement action",
+    "Agreement with the park directorate under the 2025 internal regulations"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "monte-pico",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Its eco-guides maintained the park's trails and take part in twice-yearly biodiversity and threat monitoring.",
+      "evidence": "verified",
+      "sourceIds": [
+       "stp-birdlife-2020-green-recovery",
+       "stp-birdlife-2023-forest-conservation"
+      ]
+     }
+    },
+    {
+     "organisationId": "birdlife",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Supported eco-guide trail maintenance in the park and worked on retraining 15 eco-guides for park surveillance and monitoring.",
+      "evidence": "verified",
+      "sourceIds": [
+       "stp-birdlife-2020-green-recovery"
+      ]
+     }
+    },
+    {
+     "organisationId": "dfb-stp",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "Its agents run the monitoring and it oversees the park, so it would need to endorse any paid role for guides.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "stp-birdlife-2023-forest-conservation",
+       "stp-oikos-malanza-plan-2020"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "stp-obo-hunter-enterprises",
+   "title": "Small businesses and guiding work for former hunters",
+   "themeIds": [
+    "species",
+    "livelihoods"
+   ],
+   "challengeIds": [
+    "stp-obo-hunting"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "In a 2022–2024 initiative on São Tomé, 75 hunters joined as 'Agents of Change' who help find rare birds and report illegal hunting; 25 were mentored on alternative activities and five business ideas received support.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-birdlife-2026-guardians"
+     ]
+    },
+    {
+     "text": "In February 2023 more than 30 hunters, former hunters and officials were trained on hunting regulation to protect endemic species.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-birdlife-2023-forest-conservation"
+     ]
+    },
+    {
+     "text": "The critically endangered birds depend on forests that lie mostly within the park.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-birdlife-iba-lowland-forests"
+     ]
+    },
+    {
+     "text": "Extending support for hunters' alternative businesses, and paying former hunters to find birds for monitoring or birdwatching visits, could reduce hunting pressure in the park.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "stp-birdlife-2026-guardians",
+      "stp-birdlife-iba-lowland-forests"
+     ]
+    },
+    {
+     "text": "Demand from birdwatchers for the three critically endangered endemics might support guide fees.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "Results and survival of the five supported businesses",
+    "Whether participants hunt inside the park and have reduced it",
+    "Birdwatching demand and disturbance limits for the rarest species",
+    "Status of the hunting-law review"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "birdlife",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "Ran the 2022–2024 hunters initiative on São Tomé, whose rarest birds live mostly in the park, so it would be a natural partner for scaling it.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "stp-birdlife-2026-guardians",
+       "stp-birdlife-iba-lowland-forests"
+      ]
+     }
+    },
+    {
+     "organisationId": "dfb-stp",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "Its technicians took part in hunting-regulation training, and it is responsible for the park's forests and wildlife.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "stp-birdlife-2023-forest-conservation"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "stp-obo-buffer-agroforestry",
+   "title": "Shade agroforestry and pepper cooperatives on buffer-zone farmland",
+   "themeIds": [
+    "land-use",
+    "livelihoods"
+   ],
+   "challengeIds": [
+    "stp-obo-forest-conversion"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "Farming cooperatives, especially for pepper, are active in the buffer zones and contribute to their sustainable management.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-cbd-nr6"
+     ]
+    },
+    {
+     "text": "Residents around the park depend mainly on subsistence farming, and market gardening at Bom Sucesso is spreading into the park.",
+     "evidence": "verified",
+     "sourceIds": [
+      "stp-fernandes-2025-thesis"
+     ]
+    },
+    {
+     "text": "Helping cooperatives earn more from shade crops on existing buffer-zone farmland could raise incomes without new clearing at the park edge.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "stp-cbd-nr6",
+      "stp-fernandes-2025-thesis"
+     ]
+    },
+    {
+     "text": "Premium or certified markets for shade-grown pepper or cocoa might fund this.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "Which cooperatives exist now and where their members farm",
+    "Whether price premiums reach farmers",
+    "Risk that higher returns draw farming into the forest",
+    "Land tenure in the buffer zone"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "dfb-stp",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "Oversees the park and its buffer zone, so it would need to agree land-use rules for any scheme.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "stp-oikos-malanza-plan-2020",
+       "stp-cbd-nr6"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "organisations": [
+  {
+   "id": "birdlife",
+   "name": "BirdLife International",
+   "type": "international-ngo",
+   "url": "https://www.birdlife.org/",
+   "role": {
+    "text": "Signed a 2017 co-management memorandum for the protected areas, led EU ECOFAC 6 support to the natural parks, helped set up threat monitoring, and rehabilitated the park headquarters at Bom Sucesso.",
+    "evidence": "verified",
+    "sourceIds": [
+     "stp-oikos-conchas-plan-2020",
+     "stp-birdlife-2020-green-recovery",
+     "stp-birdlife-2023-forest-conservation"
+    ]
+   }
+  },
+  {
+   "id": "dfb-stp",
+   "name": "Direção das Florestas e da Biodiversidade (incl. the Obô Natural Park of São Tomé directorate)",
+   "acronym": "DFB",
+   "type": "government-agency",
+   "role": {
+    "text": "Government forestry and biodiversity directorate that oversees the park; its agents carry out the park's twice-yearly biodiversity and threat monitoring.",
+    "evidence": "verified",
+    "sourceIds": [
+     "stp-birdlife-2023-forest-conservation",
+     "stp-oikos-conchas-plan-2020"
+    ]
+   }
+  },
+  {
+   "id": "oikos",
+   "name": "Oikos – Cooperação e Desenvolvimento",
+   "acronym": "Oikos",
+   "type": "international-ngo",
+   "url": "https://oikos.pt/",
+   "role": {
+    "text": "Prepared the 2020–2025 management plans for the park's Malanza and Praia das Conchas mangroves for the park department, with CEPF funding.",
+    "evidence": "verified",
+    "sourceIds": [
+     "stp-oikos-malanza-plan-2020",
+     "stp-oikos-conchas-plan-2020"
+    ]
+   }
+  },
+  {
+   "id": "monte-pico",
+   "name": "Associação Monte Pico",
+   "acronym": "AMP",
+   "type": "national-ngo",
+   "role": {
+    "text": "Eco-guide association whose members maintain the park's trails and join its biodiversity and threat monitoring.",
+    "evidence": "verified",
+    "sourceIds": [
+     "stp-birdlife-2020-green-recovery",
+     "stp-birdlife-2023-forest-conservation"
+    ]
+   }
+  },
+  {
+   "id": "ce3c",
+   "name": "CE3C – Centre for Ecology, Evolution and Environmental Changes (University of Lisbon)",
+   "acronym": "CE3C",
+   "type": "research-institution",
+   "url": "https://www.ce3c.pt/",
+   "role": {
+    "text": "Helped develop the biodiversity and threat monitoring protocol used in Obô Natural Park of São Tomé since 2021, and a CE3C researcher reviewed the Malanza mangrove plan.",
+    "evidence": "verified",
+    "sourceIds": [
+     "stp-birdlife-2023-forest-conservation",
+     "stp-oikos-malanza-plan-2020"
+    ]
+   }
+  }
+ ],
+ "verificationNote": "All sources were fetched with curl and checked in the fetched text (PDFs via pdftotext). The main sources are the 6th national report (2019), the Oikos/CEPF mangrove plans (2020), BirdLife reports (2020, 2023, 2026, plus an undated IBA case study) and a 2025 University of Évora thesis. The thesis is used only for its reproduction of the park's 2021–2025 management plan, which could not be found online, so those statements are second-hand. Most NGO results are self-reported. The 6th national report is cited by its existing catalogue source id (stp-cbd-nr6) rather than redefined here.",
+ "gaps": [
+  "The park's 2021–2025 management plan (Plano de Manejo do PNOST) could not be found online; its content is known only through the 2025 thesis.",
+  "Sources disagree on the buffer zone's width: the Oikos plan gives 100–6,500 m, while the catalogue's earlier research note on Law 6/2006 gives 250 m–10 km. The width is therefore not stated here.",
+  "No peer-reviewed, park-specific measurement of recent forest loss or hunting rates from 2018 onward was found.",
+  "Whether the oil-palm expansion and hydroelectric dam plans in the buffer zone are still active is not documented in current sources.",
+  "BirdLife's hunter results (2022–2024) refer to São Tomé island and do not say how many participants hunt in the park.",
+  "The names and current status of the pepper cooperatives in the buffer zone are not documented.",
+  "The full text of Decree-Law No. 10/2025 was not read; only the LEAP summary was used.",
+  "The University of Évora repository's TLS certificate could not be verified, so the thesis was fetched with certificate checking disabled."
+ ]
+}

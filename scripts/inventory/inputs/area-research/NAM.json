@@ -1,0 +1,562 @@
+{
+ "country": "NAM",
+ "territoryId": "pa-nam-bwabwata-national-park",
+ "selectionReason": "Bwabwata, the first choice, has an official 2020/21–2029/30 management plan from the Ministry of Environment, Forestry and Tourism with an explicit threat analysis, plus recent sources on residents' rights (2022, 2024) and devil's claw harvesting (FAO, 2026). It is a national park where resident communities, mostly Khwe San, live and run the Kyaramacan Association (confirmed), which makes it highly relevant to community enterprise, sustainable harvesting and fire management.",
+ "sources": [
+  {
+   "id": "nam-meft-bwabwata-mp-2020",
+   "title": "Management Plan, Bwabwata National Park 2020/2021–2029/2030",
+   "publisher": "Ministry of Environment, Forestry and Tourism (MEFT), Directorate of Wildlife and National Parks, Namibia",
+   "url": "https://www.meft.gov.na/files/downloads/87o_Management%20Plan%202%20-%20Bwabwata%20National%20Park.pdf",
+   "date": "2020",
+   "kind": "report",
+   "licence": "© MEFT 2020 — reproduction for educational and other non-commercial purposes authorised with full acknowledgement",
+   "note": "Co-financed by Germany through KfW (NamParks). Poaching and fire data run to 2019."
+  },
+  {
+   "id": "nam-meft-bwabwata-page",
+   "title": "Bwabwata National Park",
+   "publisher": "Ministry of Environment, Forestry and Tourism (MEFT), Namibia",
+   "url": "https://www.meft.gov.na/national-parks/bwabwata-national-park/213/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Ministry of Environment, Forestry and Tourism (Namibia) — cited for reference (facts and short quotes)",
+   "note": "Undated park page, fetched 2026-10-20."
+  },
+  {
+   "id": "nam-fao-devils-claw-2026",
+   "title": "From savannah plant to global remedy: How the devil's claw tuber improves health and wildlife conservation in Namibia",
+   "publisher": "Food and Agriculture Organization of the United Nations (FAO)",
+   "url": "https://www.fao.org/newsroom/story/from-savannah-plant-to-global-remedy/en",
+   "date": "2026-03-02",
+   "kind": "webpage",
+   "licence": "© FAO — cited for reference (facts and short quotes)",
+   "note": "Feature story by a programme partner; qualitative, with no income figures."
+  },
+  {
+   "id": "nam-nacso-community-associations",
+   "title": "Community Associations",
+   "publisher": "Namibian Association of CBNRM Support Organisations (NACSO)",
+   "url": "https://nacso.org.na/community-associations/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© NACSO — cited for reference (facts and short quotes)",
+   "note": "Undated (site footer ©2025). Its devil's claw income figure is for 2013, and its staff count is undated."
+  },
+  {
+   "id": "nam-lac-2022",
+   "title": "Bwabwata National Park – The Khwe must be heard",
+   "publisher": "Legal Assistance Centre (LAC)",
+   "url": "https://www.lac.org.na/index.php/2022/03/14/bwabwata-national-park-the-khwe-must-be-heard/",
+   "date": "2022-03-14",
+   "kind": "webpage",
+   "licence": "© Legal Assistance Centre — cited for reference (facts and short quotes)",
+   "note": "Advocacy statement by a human-rights legal NGO, presenting the Khwe position."
+  },
+  {
+   "id": "nam-namibian-2024",
+   "title": "Bwabwata Kwe community wants own chief",
+   "publisher": "The Namibian",
+   "url": "https://www.namibian.com.na/bwabwata-kwe-community-wants-own-chief/",
+   "date": "2024-07-29",
+   "kind": "article",
+   "licence": "© The Namibian — cited for reference (facts and short quotes)",
+   "note": "News report quoting petitioners and the Hambukushu Traditional Authority."
+  },
+  {
+   "id": "nam-parliament-mwilima-2022",
+   "title": "Notice of Question by Hon. Geoffrey Mwilima to the Minister of Environment, Forestry and Tourism (Kyaramacan Association)",
+   "publisher": "Parliament of the Republic of Namibia, National Assembly",
+   "url": "https://www.parliament.na/wp-content/uploads/2022/02/Hon.-Geofrey-Mwilima-Question-on-Bwabwata.pdf",
+   "date": "2022-02",
+   "kind": "report",
+   "licence": "Parliamentary record — cited for reference",
+   "note": "A question tabled for 24 February 2022 that contains allegations, not findings; the minister's answer was not found."
+  }
+ ],
+ "overview": [
+  {
+   "text": "Gazetted as a national park in 2007, Bwabwata (6,100 km²) is zoned into core conservation areas along the Okavango River in the west and the Kwando River in the east, with a multiple-use zone between them where people live.",
+   "evidence": "verified",
+   "sourceIds": [
+    "nam-meft-bwabwata-page",
+    "nam-nacso-community-associations"
+   ]
+  },
+  {
+   "text": "Park residents formed the Kyaramacan Association in 2005 with IRDNC's help to manage and benefit from the park's resources; NACSO says it represents over 5,000 people, about 80% of them Khwe San.",
+   "evidence": "verified",
+   "sourceIds": [
+    "nam-nacso-community-associations"
+   ]
+  },
+  {
+   "text": "MEFT holds legal authority over the park, and its management plan includes a land-use plan for the resident zone and foresees a formal co-management agreement with the Kyaramacan Association.",
+   "evidence": "verified",
+   "sourceIds": [
+    "nam-meft-bwabwata-mp-2020"
+   ]
+  }
+ ],
+ "livelihoods": [
+  {
+   "text": "The management plan says residents' livelihoods depend almost entirely on the park's natural resources, apart from social grants and some jobs in the park; tceu, ‡ûmbé and /qom are the most important wild foods for most residents.",
+   "evidence": "verified",
+   "sourceIds": [
+    "nam-meft-bwabwata-mp-2020"
+   ]
+  },
+  {
+   "text": "The Kyaramacan Association earns revenue from two trophy-hunting concessions (quotas worth about N$7.5 million in 2018) and from tourism, including the N//goabaca campsite at Popa Falls.",
+   "evidence": "verified",
+   "sourceIds": [
+    "nam-meft-bwabwata-mp-2020",
+    "nam-meft-bwabwata-page",
+    "nam-nacso-community-associations"
+   ]
+  },
+  {
+   "text": "Devil's claw harvesting is an important income stream for residents; NACSO reports almost US$90,000 shared among 562 harvesters (317 women) in 2013, and a craft centre sells Khwe baskets.",
+   "evidence": "verified",
+   "sourceIds": [
+    "nam-fao-devils-claw-2026",
+    "nam-nacso-community-associations"
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "id": "nam-bwabwata-settlement-cattle",
+   "title": "Encroaching settlement and cattle in the park",
+   "themeIds": [
+    "land-use",
+    "governance"
+   ],
+   "statements": [
+    {
+     "text": "The management plan lists illegal settlement from the west and rising farming and cattle numbers among the park's greatest threats, and sets the target of removing all cattle.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "Its foreword warns that gradual encroachment is a very high risk, that opportunistic people have started to occupy the park, and that access control must improve significantly.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "The plan records that after cattle were removed in 1996, Hambukushu settlers brought in relatively large numbers of cattle; removing all cattle, as a 1999 Cabinet decision required for the north-east parks, is still described as essential and not to be postponed.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "In October 2021 the Mbukushu Traditional Authority submitted a petition seeking to set aside the park's national-park status, mainly to lift restrictions on land use and cattle farming; a parliamentary committee planned a fact-finding visit for March 2022.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-lac-2022"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nam-bwabwata-late-fires",
+   "title": "Hot late-dry-season fires degrading woodlands",
+   "themeIds": [
+    "species",
+    "land-use"
+   ],
+   "statements": [
+    {
+     "text": "Snapshots of the late dry seasons of 2014 and 2019 showed 11 and 16 active fires burning in the park at one time, which the management plan calls extraordinary for a Namibian national park.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "Intense late fires have visibly thinned deciduous woodlands, especially in the west, and reduced fire-sensitive trees such as Pterocarpus angolensis.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "The early-burning target (up to 50% of the park) has not been met: in only 3 of 17 years did more than 20% burn in the early dry season.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "The plan links better fire management to more wild food in the resident zone, and so to residents' food security.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nam-bwabwata-elephant-poaching",
+   "title": "Illegal killing of elephants",
+   "themeIds": [
+    "species"
+   ],
+   "statements": [
+    {
+     "text": "MEFT's poaching database records 60 elephants illegally killed in Bwabwata in 2016, falling to 45, 12 and 7 in 2017–2019.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "The plan nevertheless judges the risk of illegal killing still high, names elephant poaching a high priority, and notes poachers from Botswana crossing the park.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "nam-bwabwata-resident-rights",
+   "title": "Khwe representation, recognition and benefit-sharing",
+   "themeIds": [
+    "governance",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "The Legal Assistance Centre says the Khwe can take part in decisions on resources and trophy-hunting benefits only through the Kyaramacan Association, which is not exclusively Khwe, and that the state recognised the Mbukushu but not a Khwe traditional authority.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-lac-2022"
+     ]
+    },
+    {
+     "text": "In July 2024 Khwe residents petitioned for recognition of their own chief, citing villages facing water scarcity, without grid electricity or jobs; a ministerial approval of a Khwe Traditional Authority had been put on hold after the Hambukushu Traditional Authority objected.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-namibian-2024"
+     ]
+    },
+    {
+     "text": "The management plan notes that the Kyaramacan Association has experienced governance problems and calls for renewed joint management with MEFT.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "In February 2022 a member of parliament gave notice of questions alleging that the Association's bank signatories included ministry directors and that the community had no signing powers, and demanded an audited financial report.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-parliament-mwilima-2022"
+     ]
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "nam-bwabwata-devils-claw-value-chain",
+   "title": "Certified, sustainably harvested devil's claw",
+   "themeIds": [
+    "livelihoods",
+    "governance"
+   ],
+   "challengeIds": [
+    "nam-bwabwata-resident-rights"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "Kyaramacan Association members harvest devil's claw collectively under permits after training, refilling holes and leaving the mother root so the plant regrows.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-fao-devils-claw-2026"
+     ]
+    },
+    {
+     "text": "FAO's Sustainable Wildlife Management Programme works with the Association, WWF Namibia and neighbouring conservancies on legal, sustainable harvesting, including resource surveys, quotas and fair buyer contracts.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-fao-devils-claw-2026"
+     ]
+    },
+    {
+     "text": "NACSO describes the Association's devil's claw as organically certified and in demand, and the management plan lists it among conservation-related incomes to develop.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-nacso-community-associations",
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "Strengthening this established, certified chain (for example local drying, grading and transparent payment records) could raise and spread residents' income while addressing concerns about how benefits are shared.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "nam-fao-devils-claw-2026",
+      "nam-nacso-community-associations",
+      "nam-parliament-mwilima-2022",
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Current harvest volumes, quotas and prices (latest public figure is from 2013)",
+    "Whether certification is still valid and which buyers hold contracts",
+    "How proceeds are distributed and audited within the Association",
+    "Sustainable yield of wild stocks in the multiple-use zone"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "kyaramacan-association",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Works with the FAO-led programme to keep its members' devil's claw harvesting legal and sustainable, with permits issued after training.",
+      "evidence": "verified",
+      "sourceIds": [
+       "nam-fao-devils-claw-2026"
+      ]
+     }
+    },
+    {
+     "organisationId": "fao",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Leads the Sustainable Wildlife Management Programme that supports the Kyaramacan Association's devil's claw harvesting.",
+      "evidence": "verified",
+      "sourceIds": [
+       "nam-fao-devils-claw-2026"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "nam-bwabwata-community-fire-management",
+   "title": "Paid community early-burning and fire teams",
+   "themeIds": [
+    "species",
+    "livelihoods",
+    "governance"
+   ],
+   "challengeIds": [
+    "nam-bwabwata-late-fires",
+    "nam-bwabwata-resident-rights"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "The plan's fire programme depends on early-dry-season burning and requires a collaborative approach with residents that draws on Khwe traditional knowledge of fire.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "Before 2016, MEFT and residents cooperated on fire management, game counts and anti-poaching, and the Association employs its own game guards and resource monitors.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "The plan says responding to many simultaneous late fires would be physically very challenging for the park's available staff, and the early-burning target is rarely met.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "Contracting resident teams through the Association for early burning and fire response could help meet the target, protect wild-food woodlands and create local jobs.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Would MEFT or donors fund paid fire teams, and for how long?",
+    "Safety training, equipment and liability for community burning",
+    "Recent fire data (the plan's data end in 2019)",
+    "Whether residents' traditional burning goals match the park's fire strategy"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "meft",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As the park authority running the fire management programme, MEFT would have to commission or approve any community fire service.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "nam-meft-bwabwata-mp-2020"
+      ]
+     }
+    },
+    {
+     "organisationId": "kyaramacan-association",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "The plan expects the Association to tell communities about planned burning and to cooperate on fire management under a future agreement with MEFT.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "nam-meft-bwabwata-mp-2020"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "nam-bwabwata-knowledge-centre-nursery",
+   "title": "Khwe knowledge centre with wild-food nursery and crafts",
+   "themeIds": [
+    "livelihoods",
+    "governance"
+   ],
+   "challengeIds": [
+    "nam-bwabwata-resident-rights"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "The plan proposes a Kyaramacan Traditional Knowledge Centre offering Khwe cultural experiences, tracking and conservation courses, crafts sales, and a botanical garden with a nursery selling plants; a feasibility study is still required.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "It also cites a survey in which 76% of residents interviewed cultivated wild-food plants, and recommends exploring this for food security and to ease harvesting pressure in core areas.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020"
+     ]
+    },
+    {
+     "text": "A craft centre near the eastern entrance of the multiple-use area already sells Khwe baskets.",
+     "evidence": "verified",
+     "sourceIds": [
+      "nam-nacso-community-associations"
+     ]
+    },
+    {
+     "text": "A resident-run centre combining a wild-food nursery, crafts and cultural tourism could add income that rests on Khwe knowledge.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "nam-meft-bwabwata-mp-2020",
+      "nam-nacso-community-associations"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Status of the feasibility study and site selection",
+    "Visitor numbers on the B8 road and at Popa Falls",
+    "Who would own and run the centre, and how revenue would be shared among Khwe and other residents",
+    "Craft sales and buyers today"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "kyaramacan-association",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "The plan says MEFT has informed the Association that the Traditional Knowledge Centre concession will be awarded to it, so it would be the likely operator.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "nam-meft-bwabwata-mp-2020"
+      ]
+     }
+    },
+    {
+     "organisationId": "irdnc",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As the NGO that helped found the Association and supports residents, IRDNC could advise on business development.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "nam-nacso-community-associations",
+       "nam-meft-bwabwata-mp-2020"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "organisations": [
+  {
+   "id": "meft",
+   "name": "Ministry of Environment, Forestry and Tourism",
+   "acronym": "MEFT",
+   "type": "government-agency",
+   "url": "https://www.meft.gov.na",
+   "role": {
+    "text": "Holds legal authority over Bwabwata National Park, wrote its 2020/21–2029/30 management plan, and administers the hunting concessions that benefit the Kyaramacan Association.",
+    "evidence": "verified",
+    "sourceIds": [
+     "nam-meft-bwabwata-mp-2020"
+    ]
+   }
+  },
+  {
+   "id": "kyaramacan-association",
+   "name": "Kyaramacan Association",
+   "acronym": "KA",
+   "type": "national-ngo",
+   "role": {
+    "text": "Residents' association inside the park that represents residents, employs community game guards and resource monitors, runs the N//goabaca campsite and receives hunting-concession revenue.",
+    "evidence": "verified",
+    "sourceIds": [
+     "nam-nacso-community-associations",
+     "nam-meft-bwabwata-mp-2020",
+     "nam-meft-bwabwata-page"
+    ]
+   }
+  },
+  {
+   "id": "irdnc",
+   "name": "Integrated Rural Development and Nature Conservation",
+   "acronym": "IRDNC",
+   "type": "national-ngo",
+   "url": "https://irdnc.org.na",
+   "role": {
+    "text": "Helped establish the Kyaramacan Association in 2005 and, according to the management plan, is the NGO that works most with park residents.",
+    "evidence": "verified",
+    "sourceIds": [
+     "nam-nacso-community-associations",
+     "nam-meft-bwabwata-mp-2020"
+    ]
+   }
+  },
+  {
+   "id": "fao",
+   "name": "Food and Agriculture Organization of the United Nations",
+   "acronym": "FAO",
+   "type": "international-organisation",
+   "url": "https://www.fao.org",
+   "role": {
+    "text": "Leads the Sustainable Wildlife Management Programme (EU- and AFD-funded), which works with the Kyaramacan Association in Bwabwata National Park on legal and sustainable devil's claw harvesting.",
+    "evidence": "verified",
+    "sourceIds": [
+     "nam-fao-devils-claw-2026"
+    ]
+   }
+  }
+ ],
+ "verificationNote": "Every statement was checked against fetched texts. The main source is MEFT's 2020/21–2029/30 management plan (full PDF, 84 MB), with MEFT's park page, an FAO feature story (2 March 2026), NACSO's community-associations page, a Legal Assistance Centre statement (March 2022), a report in The Namibian (July 2024) and a National Assembly question (February 2022). The residents and the Kyaramacan Association inside the park are confirmed by MEFT and NACSO. Quantitative threat data (fires, poaching, hunting value) come from the 2020 plan and end in 2019, and the devil's claw income figure is from 2013. The parliamentary question contains allegations and is cited only as a question tabled.",
+ "gaps": [
+  "No source was found for fire, poaching or cattle numbers after 2019.",
+  "The resident population is uncertain: the plan cites estimates from about 2,661–3,548 San to about 7,000 in total; NACSO says over 5,000.",
+  "No recent figures were found for devil's claw volumes, prices or certification status.",
+  "The minister's answer to the February 2022 question, and any audit of the Kyaramacan Association, were not found.",
+  "The Kyaramacan Association is typed 'national-ngo' because the schema has no community-association type; it is a residents' association, not an NGO. Its website was not located, so no URL is given.",
+  "Overlap with the Bwabwata-Okavango Ramsar site (ramsar-2193) and with KAZA TFCA arrangements was not researched.",
+  "Whether the formal MEFT–Kyaramacan co-management agreement foreseen in the 2020 plan has been signed is not documented."
+ ]
+}

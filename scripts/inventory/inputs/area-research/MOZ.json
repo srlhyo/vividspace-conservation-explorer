@@ -1,0 +1,468 @@
+{
+ "country": "MOZ",
+ "territoryId": "pa-moz-parque-nacional-da-gorongosa",
+ "selectionReason": "Only candidate. Gorongosa has recent, area-specific evidence: satellite monitoring of forest loss on Gorongosa Mountain (2023), peer-reviewed studies on wildlife recovery, snaring and elephant crop raiding, and documented coffee agroforestry and beekeeping run with buffer-zone communities, which ties directly to regenerative enterprise.",
+ "sources": [
+  {
+   "id": "moz-grp-forest-cover-2023",
+   "title": "Forest cover on Gorongosa Mountain – Assessment of 2023 satellite image",
+   "publisher": "Gorongosa Project (Gorongosa National Park Science Department; M. Stalmans and M. Victor)",
+   "url": "https://gorongosa.org/wp-content/uploads/2025/06/SerraGorongosa_2023ForestCover.pdf",
+   "date": "2023-11",
+   "kind": "report",
+   "licence": "© Gorongosa Project — cited for reference (facts and short quotes)",
+   "note": "Produced by the park's co-manager. It is a visual interpretation of satellite imagery with no ground truthing. The synopsis gives 744 ha of forest lost in 2021–2023, while its Table 1 gives 774 ha; neither figure is used here."
+  },
+  {
+   "id": "moz-stalmans-2019",
+   "title": "War-induced collapse and asymmetric recovery of large-mammal populations in Gorongosa National Park, Mozambique",
+   "publisher": "PLOS ONE (Stalmans, Massad, Peel, Tarnita and Pringle)",
+   "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0212864&type=printable",
+   "date": "2019-03-13",
+   "kind": "article",
+   "licence": "CC BY 4.0 (Creative Commons Attribution License)",
+   "note": "Peer-reviewed. Its snaring figures are cited by the paper as preliminary park data."
+  },
+  {
+   "id": "moz-bouley-2018",
+   "title": "Post-War Recovery of African Lion in Response to Large-Scale Ecosystem Restoration (Biological Conservation, doi:10.1016/j.biocon.2018.08.024) — repository record with abstract",
+   "publisher": "Boise State University ScholarWorks (Bouley, Poulos, Branco and Carter)",
+   "url": "https://scholarworks.boisestate.edu/hes_facpubs/26/",
+   "date": "2018",
+   "kind": "article",
+   "licence": "© the authors / Elsevier — cited for reference (facts and short quotes)",
+   "note": "Peer-reviewed article; only the abstract on the repository page was read."
+  },
+  {
+   "id": "moz-branco-2020",
+   "title": "An experimental test of community-based strategies for mitigating human–wildlife conflict around protected areas (Conservation Letters, doi:10.1111/conl.12679) — DOAJ record",
+   "publisher": "DOAJ record of Conservation Letters article (Branco et al.)",
+   "url": "https://doaj.org/article/b8b593f753b1405aad38ae8913caa0b7",
+   "date": "2020-01",
+   "kind": "article",
+   "licence": "Open access (journal listed in DOAJ); licence not confirmed — cited for reference (facts and short quotes)",
+   "note": "Peer-reviewed. The publisher's full text returned HTTP 403, and this DOAJ page shows a Cloudflare check to automated clients; only the abstract, read from the same record via the DOAJ API (https://doaj.org/api/articles/b8b593f753b1405aad38ae8913caa0b7), was used."
+  },
+  {
+   "id": "moz-branco-thesis-2018",
+   "title": "The Elephants of Gorongosa: an Integrated Approach to Conservation and Conflict Mitigation in the Shadow of the War (MSc thesis, University of Idaho)",
+   "publisher": "Rufford Foundation project report repository (thesis by Paola Stramandinoli Branco)",
+   "url": "https://media.rufford.org/media/project_reports/22671-1%20Thesis.pdf",
+   "date": "2018-05",
+   "kind": "report",
+   "licence": "© the author — cited for reference (facts and short quotes)",
+   "note": "Master's thesis (not peer-reviewed as such); fieldwork 2016–2017."
+  },
+  {
+   "id": "moz-grp-q1-2025-protection",
+   "title": "1st Quarter 2025 Report: Strengthening protection and partnerships in Gorongosa National Park",
+   "publisher": "Gorongosa Project",
+   "url": "https://gorongosa.org/quarterly-report-strengthening-protection-and-partnerships-in-gorongosa-national-park/",
+   "date": "2025-07-20",
+   "kind": "webpage",
+   "licence": "© Gorongosa Project — cited for reference (facts and short quotes)",
+   "note": "Self-reported summary of a UNDP-GEF-supported project report."
+  },
+  {
+   "id": "moz-grp-q1-2025-livelihoods",
+   "title": "1st Quarter 2025 Report: Growing futures for girls, coffee and cashews",
+   "publisher": "Gorongosa Project",
+   "url": "https://gorongosa.org/quarterly-report-growing-futures-girls-coffee-and-cashews-in-gorongosa-national-park/",
+   "date": "2025-05-01",
+   "kind": "webpage",
+   "licence": "© Gorongosa Project — cited for reference (facts and short quotes)",
+   "note": "Self-reported summary of the Norway-funded buffer-zone poverty-reduction project (October 2024 – March 2025)."
+  },
+  {
+   "id": "moz-grp-sustainable-development",
+   "title": "Sustainable Development",
+   "publisher": "Gorongosa Project",
+   "url": "https://gorongosa.org/sustainable-development/",
+   "date": "2025-04-24",
+   "kind": "webpage",
+   "licence": "© Gorongosa Project — cited for reference (facts and short quotes)",
+   "note": "Programme page first published 2020, last modified 2025; cumulative figures are self-reported and undated."
+  },
+  {
+   "id": "moz-grp-hwc",
+   "title": "Human-Wildlife Coexistence",
+   "publisher": "Gorongosa Project",
+   "url": "https://gorongosa.org/human-wildlife-coexistence/",
+   "date": "2025-02-25",
+   "kind": "webpage",
+   "licence": "© Gorongosa Project — cited for reference (facts and short quotes)",
+   "note": "Programme page first published 2020, last modified 2025."
+  },
+  {
+   "id": "moz-grp-coffee-factory-2025",
+   "title": "Bringing added value closer to home with Gorongosa's new coffee factory",
+   "publisher": "Gorongosa Project",
+   "url": "https://gorongosa.org/gorongosa-inaugurates-coffee-factory-with-support-from-the-netherlands-visit-by-dutch-deputy-minister-for-international-cooperation-to-gorongosa/",
+   "date": "2025-12-05",
+   "kind": "webpage",
+   "licence": "© Gorongosa Project — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-grp-rooting-2024",
+   "title": "Rooting for sustainability on Gorongosa Mountain",
+   "publisher": "Gorongosa Project",
+   "url": "https://gorongosa.org/rooting-for-sustainability-on-gorongosa-mountain/",
+   "date": "2024-12-30",
+   "kind": "webpage",
+   "licence": "© Gorongosa Project — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-biofund-comgmt-2017",
+   "title": "Workshop on Co-Management Models of Conservation Areas in Mozambique — Gorongosa National Park presentation",
+   "publisher": "BIOFUND (Fundação para a Conservação da Biodiversidade)",
+   "url": "https://www.biofund.org.mz/wp-content/uploads/2017/08/Co-Management-Models-PNG-BIOFUND-Workshop-July2017.pdf",
+   "date": "2017-07-25",
+   "kind": "report",
+   "licence": "© BIOFUND — cited for reference (facts and short quotes)",
+   "note": "Workshop slides from before 2018; used only for the park's legal and management history. Other sources date the 25-year extension to 2018 rather than 2016."
+  }
+ ],
+ "overview": [
+  {
+   "text": "Gorongosa was proclaimed a national park in 1960, and Gorongosa Mountain was added to the park in 2010.",
+   "evidence": "verified",
+   "sourceIds": [
+    "moz-biofund-comgmt-2017"
+   ]
+  },
+  {
+   "text": "The park is co-managed under a long-term public–private agreement between the Government of Mozambique and the Gorongosa Restoration Project (Carr Foundation), signed in 2008 for 20 years and later extended by 25 years.",
+   "evidence": "verified",
+   "sourceIds": [
+    "moz-biofund-comgmt-2017",
+    "moz-bouley-2018"
+   ]
+  },
+  {
+   "text": "Large-herbivore populations fell by more than 90% during the 1977–1992 civil war. Total biomass has largely recovered since, but the species mix has changed: elephant, hippo and buffalo now make up a much smaller share.",
+   "evidence": "verified",
+   "sourceIds": [
+    "moz-stalmans-2019"
+   ]
+  }
+ ],
+ "livelihoods": [
+  {
+   "text": "About 200,000 people live in the park's buffer zone, mostly subsistence farmers; many cultivate along the Pungue River on the park's southern boundary.",
+   "evidence": "verified",
+   "sourceIds": [
+    "moz-branco-thesis-2018",
+    "moz-grp-sustainable-development"
+   ]
+  },
+  {
+   "text": "Coffee is grown on Gorongosa Mountain: of 1,056 farmers engaged in the park's programme, nearly 64% had productive plants, and household coffee income averaged about USD 400 from the 2024 harvest.",
+   "evidence": "verified",
+   "sourceIds": [
+    "moz-grp-q1-2025-livelihoods"
+   ]
+  },
+  {
+   "text": "Between October 2024 and March 2025, the park's buffer-zone project reported over USD 451,000 from value chains: coffee, honey, cashew and ecotourism services.",
+   "evidence": "verified",
+   "sourceIds": [
+    "moz-grp-q1-2025-livelihoods"
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "id": "moz-gorongosa-mountain-deforestation",
+   "title": "Forest loss on Gorongosa Mountain",
+   "themeIds": [
+    "land-use",
+    "climate"
+   ],
+   "statements": [
+    {
+     "text": "Forest on Gorongosa Mountain shrank from more than 13,000 ha in 1977 to under 6,300 ha in 2023, leaving less than 47% of the original cover. Since 2010 about 411 ha a year has been lost, mostly to slash-and-burn agriculture.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-forest-cover-2023"
+     ]
+    },
+    {
+     "text": "The remaining forest is increasingly fragmented: average patch size fell from 15.1 ha in 1977 to 2.3 ha in 2023, and the largest continuous block from about 11,300 ha to about 1,900 ha.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-forest-cover-2023"
+     ]
+    },
+    {
+     "text": "The mountain's forests release rainwater that sustains downstream ecosystems and the livelihoods of thousands of people. New landslide and erosion scars covering about 20 ha appeared by 2023, which the park's scientists say may signal the ecosystem beginning to fail.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-forest-cover-2023"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "moz-gorongosa-snaring",
+   "title": "Bushmeat snaring and poaching",
+   "themeIds": [
+    "species"
+   ],
+   "statements": [
+    {
+     "text": "A 2012–2016 lion study found that by-catch in wire snares and steel-jaw traps set by bushmeat hunters was the main human factor limiting the lion population's recovery.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-bouley-2018"
+     ]
+    },
+    {
+     "text": "Snaring remained frequent through 2014, especially in outlying parts of the park; rangers confiscated 12,363 snares and 317 steel-jaw traps in 2015–2016, and after law enforcement was restructured, preliminary data showed snaring pressure falling by 49% between 2016 and 2017.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-stalmans-2019"
+     ]
+    },
+    {
+     "text": "Snaring persists: in the first quarter of 2025 alone, the park's law enforcement team confiscated 552 wire snares and 28 gin traps.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-q1-2025-protection"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "moz-gorongosa-crop-raiding",
+   "title": "Crop raiding by recovering wildlife",
+   "themeIds": [
+    "livelihoods",
+    "species"
+   ],
+   "statements": [
+    {
+     "text": "As wildlife recovers inside the unfenced park, animals stray into neighbouring communities; the co-manager uses beehive fences to keep elephants out of crop fields and predator-proof bomas against livestock losses to lions and hyenas.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-hwc"
+     ]
+    },
+    {
+     "text": "Elephants recovering from wartime losses raid crops along the park's southern boundary; two farmers were killed by crop-raiding elephants while a study of this behaviour was under way.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-branco-thesis-2018"
+     ]
+    },
+    {
+     "text": "A field experiment using GPS-collared elephants tracked elephants leaving the park to raid crops outside it, and tested community-based fences (beehive, chili and combined) to reduce these crossings.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-branco-2020"
+     ]
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "moz-gorongosa-shade-coffee",
+   "title": "Shade-grown coffee and native-tree agroforestry enterprises",
+   "themeIds": [
+    "land-use",
+    "livelihoods",
+    "climate"
+   ],
+   "challengeIds": [
+    "moz-gorongosa-mountain-deforestation"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "Coffee plantations under indigenous shade trees are visible on 2023 satellite imagery, with more woody cover than before the coffee project; the park's forest report says this land use should be expanded to counter deforestation, alongside reforestation and campaigns against forest clearing.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-forest-cover-2023"
+     ]
+    },
+    {
+     "text": "1,056 farmers are engaged in Gorongosa Mountain coffee; ten top performers earned more than USD 1,000 each from the 2024 harvest.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-q1-2025-livelihoods"
+     ]
+    },
+    {
+     "text": "A new coffee processing plant, whose inauguration was reported in December 2025, is part of a EUR 20 million sustainable livelihoods programme funded by the Netherlands and run by the Gorongosa Restoration Project with Right to Play and Resilience.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-coffee-factory-2025"
+     ]
+    },
+    {
+     "text": "In 2021 the park's science department began a 5-ha agroforestry restoration plot on the mountain, planting nearly 3,000 trees of nine native species with local communities.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-rooting-2024"
+     ]
+    },
+    {
+     "text": "With production, processing and market access already in place, local enterprises along the chain (native shade-tree nurseries, specialty processing, origin-branded sales) could raise farmers' returns from tree-covered plots and make them a stronger alternative to slash-and-burn.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "moz-grp-forest-cover-2023",
+      "moz-grp-q1-2025-livelihoods",
+      "moz-grp-coffee-factory-2025"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Do coffee households clear less forest than non-participants? No independent evidence was found.",
+    "Land-use rules and tenure for cultivation inside the park on Gorongosa Mountain",
+    "Buyer demand and prices for Gorongosa coffee beyond current channels",
+    "Climate suitability of the mountain for Arabica coffee in coming decades"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "grp",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Runs the Gorongosa Mountain coffee programme, including farmer support and the new coffee processing plant.",
+      "evidence": "verified",
+      "sourceIds": [
+       "moz-grp-q1-2025-livelihoods",
+       "moz-grp-coffee-factory-2025"
+      ]
+     }
+    },
+    {
+     "organisationId": "anac",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As the national conservation areas authority, which commissioned the evaluation of the co-management agreement, ANAC would likely need to agree to any expansion of cultivation or enterprise activity inside the park.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "moz-biofund-comgmt-2017"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "moz-gorongosa-beehive-fences",
+   "title": "Beehive fences with honey enterprises at elephant crossing points",
+   "themeIds": [
+    "livelihoods",
+    "species"
+   ],
+   "challengeIds": [
+    "moz-gorongosa-crop-raiding"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "Around Gorongosa, beehive fences placed at key crossing points cut the odds of elephants leaving the park by up to 95%, the most effective strategy tested, and also created opportunities for honey income.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-branco-2020"
+     ]
+    },
+    {
+     "text": "The Gorongosa Project reports training 135 beekeepers through 17 lead beekeepers, distributing 666 hives and installing beehive fences in dozens of locations.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-sustainable-development"
+     ]
+    },
+    {
+     "text": "Honey contributed about USD 10,300 to buffer-zone value-chain income between October 2024 and March 2025.",
+     "evidence": "verified",
+     "sourceIds": [
+      "moz-grp-q1-2025-livelihoods"
+     ]
+    },
+    {
+     "text": "Organising fence-line beekeepers into producer groups with shared processing and marketing could make fence maintenance pay for itself while reducing crop losses.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "moz-branco-2020",
+      "moz-grp-sustainable-development"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Honey yields and colony occupancy of fence hives over several seasons",
+    "Cost and labour of maintaining fences compared with honey income",
+    "Whether elephants adapt to fences over time, and how to handle damage by other species",
+    "Local and export market for buffer-zone honey"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "grp",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Trains beekeepers, distributes hives and installs beehive fences in buffer-zone communities.",
+      "evidence": "verified",
+      "sourceIds": [
+       "moz-grp-sustainable-development"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "organisations": [
+  {
+   "id": "grp",
+   "name": "Gorongosa Restoration Project (Gorongosa Project)",
+   "acronym": "GRP",
+   "type": "national-ngo",
+   "url": "https://gorongosa.org/",
+   "role": {
+    "text": "A locally registered NGO, established with Gregory C. Carr's foundation, that co-manages Gorongosa National Park with the Government of Mozambique and runs its conservation, science and buffer-zone development programmes.",
+    "evidence": "verified",
+    "sourceIds": [
+     "moz-biofund-comgmt-2017",
+     "moz-grp-sustainable-development"
+    ]
+   }
+  },
+  {
+   "id": "anac",
+   "name": "Administração Nacional das Áreas de Conservação",
+   "acronym": "ANAC",
+   "type": "government-agency",
+   "url": "https://www.anac.gov.mz/",
+   "role": {
+    "text": "Mozambique's national conservation areas authority; it commissioned the 2015 external evaluation of the park's long-term co-management agreement, and the co-manager reports close coordination with it.",
+    "evidence": "verified",
+    "sourceIds": [
+     "moz-biofund-comgmt-2017"
+    ]
+   }
+  },
+  {
+   "id": "undp",
+   "name": "United Nations Development Programme",
+   "acronym": "UNDP",
+   "type": "international-organisation",
+   "role": {
+    "text": "With the Global Environment Facility, funds a Gorongosa Restoration Project programme covering park law enforcement and small grants managed by Community Natural Resources Committees.",
+    "evidence": "verified",
+    "sourceIds": [
+     "moz-grp-q1-2025-protection"
+    ]
+   }
+  }
+ ],
+ "verificationNote": "All facts were checked against fetched text (curl plus pdftotext). The main sources are the park's 2023 Gorongosa Mountain forest-cover report, two peer-reviewed papers (Stalmans et al. 2019, open access; Bouley et al. 2018, abstract only), the Branco et al. 2020 abstract via DOAJ (publisher full text blocked), Branco's 2018 MSc thesis, and Gorongosa Project quarterly reports and programme pages from 2024–2025. Many livelihood and enforcement figures are self-reported by the co-manager. The 2017 BIOFUND slides date the 25-year extension of the agreement to 2016, while web sources found in search say 2018; the overview avoids giving the year.",
+ "gaps": [
+  "No independent (non-Gorongosa Project) quantification of forest loss on Gorongosa Mountain was found; the figures come from the co-manager's own satellite interpretation.",
+  "No source was found showing that coffee or beekeeping participants actually clear less forest or poach less.",
+  "The year of the 25-year extension of the co-management agreement conflicts (2016 in the BIOFUND slides; 2018 in other web sources that were not fetched).",
+  "The Branco et al. 2020 full text (Wiley) returned HTTP 403; only the abstract was used.",
+  "No ANAC document specific to Gorongosa was fetched; ANAC's role is documented only through the 2017 BIOFUND slides.",
+  "Recent armed-conflict and security effects (e.g. post-2013 hostilities on the mountain) were not researched beyond the park's own reference to the 2019 peace accord and the forest report's note that most of the mountain could not be accessed for ground truthing.",
+  "UNDP has no URL listed because its website returned HTTP 403 to automated requests."
+ ]
+}

@@ -1,0 +1,446 @@
+{
+ "country": "EGY",
+ "territoryId": "pa-egy-ras-mohammad",
+ "selectionReason": "First choice kept: Ras Mohammed has a recent open-access, park-specific study of visitor pressure on its reefs (2023), plus 2022–2026 GEF/UNDP project documents and an IUCN Green List record, and its Bedouin tourism concession and dive-tourism economy make it directly relevant to regenerative tourism enterprises.",
+ "sources": [
+  {
+   "id": "egy-tawfik-2023",
+   "title": "The Application of D(A)PSI(W)R(M) Framework to Coral Reef Conservation (Sustainability 15(11): 9133; doi:10.3390/su15119133)",
+   "publisher": "MDPI (Sustainability); author R. Tawfik, King Faisal University",
+   "url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-15-09133/article_deploy/sustainability-15-09133.pdf",
+   "date": "2023-06-05",
+   "kind": "article",
+   "licence": "CC BY 4.0 (stated in the article)",
+   "note": "Peer-reviewed, park-specific. Many pressure figures it reports (diver numbers, coral breakage, briefing effects) are cited from older studies of the 1990s–2000s; visitor numbers are from EEAA up to 2020/21. The mdpi.com landing page refused automated access, so the publisher's PDF mirror on mdpi-res.com was fetched."
+  },
+  {
+   "id": "egy-iucn-2018-green-list",
+   "title": "Ras Mohammed National Park: Egypt's underwater paradise among the best protected marine reserves on the planet",
+   "publisher": "IUCN",
+   "url": "https://iucn.org/node/16739",
+   "date": "2018-12-03",
+   "kind": "webpage",
+   "licence": "© IUCN — cited for reference (facts and short quotes)",
+   "note": "News story on the Green List award; coral-cover figures are from the Green List evaluation. Gives 1986 as the park's establishment year, while the other sources give 1983."
+  },
+  {
+   "id": "egy-gef-2022-oldest-park",
+   "title": "Good news from Egypt's oldest national park",
+   "publisher": "Global Environment Facility (GEF)",
+   "url": "https://www.thegef.org/newsroom/feature-stories/good-news-egypts-oldest-national-park",
+   "date": "2022-11-07",
+   "kind": "webpage",
+   "licence": "© Global Environment Facility — cited for reference (facts and short quotes)",
+   "note": "Funder's feature story (self-reported results of the 2010–2020 GEF/UNDP project). Gives the park's area as 850 km²."
+  },
+  {
+   "id": "egy-undp-2023-green-sharm-esia",
+   "title": "ESIA and ESMP for Green Sharm El Sheikh – Biodiversity Workstream (Final Report)",
+   "publisher": "UNDP Egypt, Green Sharm El-Sheikh Project (prepared by Envronics/Mawael)",
+   "url": "https://www.undp.org/sites/g/files/zskgke326/files/2023-12/Biodiversity%20Work%20Stream_ESIA-ESMP-30.08.23_0.pdf",
+   "date": "2023-08",
+   "kind": "report",
+   "licence": "© UNDP — cited for reference (facts and short quotes)",
+   "note": "The cover is labelled both 'Final Report' and 'Draft Report'. Parts of its baseline cite 2006–2007 EEAA documents. Gives the park's area as 850 km² in one place and 480 km² (after a 1989 extension) in another."
+  },
+  {
+   "id": "egy-gef-10117-ceo",
+   "title": "Green Sharm El Sheikh (GEF ID 10117) — CEO Endorsement document",
+   "publisher": "Global Environment Facility / UNDP",
+   "url": "https://publicpartnershipdata.azureedge.net/gef/GEFProjectVersions/a6399034-d6c8-e811-813a-3863bb3c4538_CEOEndorsement.pdf",
+   "date": "2022-01-04",
+   "kind": "report",
+   "licence": "© Global Environment Facility — cited for reference (facts and short quotes)",
+   "note": "Date is the GEF CEO endorsement/approval date listed on the GEF project page; the document itself is undated. Baseline figures are project-design estimates."
+  }
+ ],
+ "overview": [
+  {
+   "text": "Declared a protected area in 1983 (Decree No. 1068), the park lies at the southern tip of Sinai, about 12 km from Sharm El-Sheikh, and covers land and sea; reported areas differ between sources (460 km² to 850 km²).",
+   "evidence": "verified",
+   "sourceIds": [
+    "egy-tawfik-2023",
+    "egy-undp-2023-green-sharm-esia",
+    "egy-gef-2022-oldest-park"
+   ]
+  },
+  {
+   "text": "The Nature Conservation Sector of the Egyptian Environmental Affairs Agency (EEAA) is responsible for managing Egypt's protected areas, including Ras Mohammed.",
+   "evidence": "verified",
+   "sourceIds": [
+    "egy-tawfik-2023"
+   ]
+  },
+  {
+   "text": "In November 2018 it became the first marine protected area in Africa and the Middle East to receive IUCN Green List certification; monitoring cited by IUCN found average live coral cover above 65%, against 20–30% typical outside the reserve.",
+   "evidence": "verified",
+   "sourceIds": [
+    "egy-iucn-2018-green-list",
+    "egy-gef-2022-oldest-park"
+   ]
+  }
+ ],
+ "livelihoods": [
+  {
+   "text": "The local Bedouin community holds an exclusive tourism concession in the park; land-based tourism, some boat tours and all camping are managed by the Bedouin community under it.",
+   "evidence": "verified",
+   "sourceIds": [
+    "egy-iucn-2018-green-list",
+    "egy-undp-2023-green-sharm-esia"
+   ]
+  },
+  {
+   "text": "The park has hired Bedouin as skippers and community guards, and a GEF/UNDP project built shaded pavilions where local Bedouin groups sell food and other products to visitors.",
+   "evidence": "verified",
+   "sourceIds": [
+    "egy-tawfik-2023",
+    "egy-gef-2022-oldest-park"
+   ]
+  },
+  {
+   "text": "When COVID-19 halted park tourism in 2020, hundreds of local tourism workers such as guides, drivers and boat captains lost their jobs, and local women who make handicrafts lost their income.",
+   "evidence": "verified",
+   "sourceIds": [
+    "egy-tawfik-2023"
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "id": "egy-ras-mohammad-diver-pressure",
+   "title": "Heavy diving and snorkelling pressure on the reefs",
+   "themeIds": [
+    "species",
+    "development"
+   ],
+   "statements": [
+    {
+     "text": "Visits rose from 77,550 in 1994/95 to 520,012 in 2009/10 and were 444,653 in 2018/19, mostly people who snorkel or dive on the reefs.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-tawfik-2023"
+     ]
+    },
+    {
+     "text": "Citing earlier studies, a 2023 review reports that the six most-visited dive sites receive over 70,000 divers a year, and that broken corals were far more common at sites open to divers (8.2%) than at closed sites (0.6–1.2%).",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-tawfik-2023"
+     ]
+    },
+    {
+     "text": "The same review concludes that current management frameworks seem insufficient to cope with rising visitation.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-tawfik-2023"
+     ]
+    },
+    {
+     "text": "The Green Sharm El Sheikh project rates as high the risk that protection of the marine protected areas near Sharm El-Sheikh, including Ras Mohamed, is undermined by tourism growth and fishing pressure.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-gef-10117-ceo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "egy-ras-mohammad-coastal-development",
+   "title": "Resort growth, boat traffic and fishing pressure from Sharm El-Sheikh",
+   "themeIds": [
+    "development",
+    "fisheries",
+    "governance"
+   ],
+   "statements": [
+    {
+     "text": "Sharm El-Sheikh's development now runs along the shore from the park's northern edge to Nabq; hotel rooms grew from 515 in 1988 to 51,695 in 2016, and diving boats from 26 to about 300.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-tawfik-2023"
+     ]
+    },
+    {
+     "text": "Illegal fishing and rising demand for seafood from Sharm El-Sheikh's residents and restaurants have affected several reef fisheries.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-tawfik-2023"
+     ]
+    },
+    {
+     "text": "Policies of the institutions developing tourism occasionally clash with the park's conservation strategies.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-tawfik-2023"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "egy-ras-mohammad-financing",
+   "title": "Thin, tourism-dependent protected-area funding",
+   "themeIds": [
+    "finance",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "Entrance and camping fees were significant sources of the park's budget and were lost when protected areas closed to visitors from March to June 2020.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-tawfik-2023"
+     ]
+    },
+    {
+     "text": "The Green Sharm project's baseline puts the combined average annual budget of the three South Sinai protected areas (Ras Mohamed, Nabq and Abu Galum) at USD 75,000.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-gef-10117-ceo"
+     ]
+    },
+    {
+     "text": "The project's 2023 environmental and social assessment states that total financing for the South Sinai protected-area system is still insufficient and that some areas face a serious shortage.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-undp-2023-green-sharm-esia"
+     ]
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "egy-ras-mohammad-bedouin-visitor-services",
+   "title": "Bedouin-run, lower-volume visitor services",
+   "themeIds": [
+    "livelihoods",
+    "finance"
+   ],
+   "challengeIds": [
+    "egy-ras-mohammad-financing",
+    "egy-ras-mohammad-diver-pressure"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "Bedouin already run land tourism, some boat tours and all camping in the park under an exclusive concession.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-iucn-2018-green-list",
+      "egy-undp-2023-green-sharm-esia"
+     ]
+    },
+    {
+     "text": "A GEF/UNDP project built pavilions at Ras Mohammed where Bedouin groups sell food and other products.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-gef-2022-oldest-park"
+     ]
+    },
+    {
+     "text": "Visitors surveyed in an earlier study preferred less crowded sites in exchange for healthier reefs, and its scenario with 50% fewer visitors gave a higher net benefit than the status quo.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-tawfik-2023"
+     ]
+    },
+    {
+     "text": "Growing Bedouin-run guided, camping, food and craft services that earn more per visitor could add local income and park revenue without adding more people to the reefs.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "egy-iucn-2018-green-list",
+      "egy-gef-2022-oldest-park",
+      "egy-tawfik-2023"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "What the concession allows, and who holds it now",
+    "Whether visitors on Sharm El-Sheikh package trips would pay for higher-value, less crowded visits",
+    "How much fee revenue the park keeps (the Green Sharm project plans new fee and permit systems)",
+    "Agreement from EEAA's Nature Conservation Sector"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "gef",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Funded the 2010–2020 project that built visitor pavilions where Bedouin groups sell food and products at Ras Mohammed.",
+      "evidence": "verified",
+      "sourceIds": [
+       "egy-gef-2022-oldest-park"
+      ]
+     }
+    },
+    {
+     "organisationId": "undp",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "With the GEF, ran the 2010–2020 protected-area financing and management project that built visitor facilities at Ras Mohammed, including pavilions where Bedouin groups sell products.",
+      "evidence": "verified",
+      "sourceIds": [
+       "egy-gef-2022-oldest-park"
+      ]
+     }
+    },
+    {
+     "organisationId": "eeaa-ncs",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As the park's managing authority it sets concession and visitor rules, so any new service would need its approval.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "egy-tawfik-2023",
+       "egy-undp-2023-green-sharm-esia"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "egy-ras-mohammad-reef-etiquette-services",
+   "title": "Reef-etiquette briefing and guide training for dive and snorkel operators",
+   "themeIds": [
+    "species",
+    "livelihoods"
+   ],
+   "challengeIds": [
+    "egy-ras-mohammad-diver-pressure"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "Workshops and training have been organised for hotel staff, dive instructors and guides, and the park's rules distributed in several languages.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-tawfik-2023"
+     ]
+    },
+    {
+     "text": "An earlier study at the park found that one briefing cut divers' contact with living coral from 0.9 to 0.15 times per diver per 7 minutes.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-tawfik-2023"
+     ]
+    },
+    {
+     "text": "The Green Sharm project plans to identify best practices for Ras Mohamed and the other Sharm El-Sheikh protected areas (anchoring systems, carrying-capacity assessments, zoning) and to develop guidelines for diving and visits.",
+     "evidence": "verified",
+     "sourceIds": [
+      "egy-undp-2023-green-sharm-esia",
+      "egy-gef-10117-ceo"
+     ]
+    },
+    {
+     "text": "A local service that trains guides and gives standard briefings and in-water checks for operators could help these rules be followed at busy sites.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "egy-tawfik-2023",
+      "egy-undp-2023-green-sharm-esia"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Whether briefings are already compulsory and who delivers them",
+    "Whether operators would pay for training or checks",
+    "Fresh evidence on diver impacts (the briefing study dates from 1997)",
+    "Overlap with Green Sharm project and EEAA programmes"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "undp",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Implements the Green Sharm El Sheikh project, which plans pilots, guidelines and training to manage tourism threats in Ras Mohamed and the nearby protected areas.",
+      "evidence": "verified",
+      "sourceIds": [
+       "egy-undp-2023-green-sharm-esia",
+       "egy-gef-10117-ceo"
+      ]
+     }
+    },
+    {
+     "organisationId": "eeaa-ncs",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As the park's managing authority it sets diving rules and access, so a briefing or training service would need to fit its programme.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "egy-tawfik-2023"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "organisations": [
+  {
+   "id": "eeaa-ncs",
+   "name": "Nature Conservation Sector, Egyptian Environmental Affairs Agency",
+   "acronym": "NCS-EEAA",
+   "type": "government-agency",
+   "url": "https://www.eeaa.gov.eg/",
+   "role": {
+    "text": "Responsible for nature conservation and protected-area management in Egypt, including Ras Mohammed; a 2023 study of the park lists its measures, such as mooring buoys, walkways, a USD 5 daily user fee and a reef-damage fee.",
+    "evidence": "verified",
+    "sourceIds": [
+     "egy-tawfik-2023"
+    ]
+   }
+  },
+  {
+   "id": "undp",
+   "name": "United Nations Development Programme",
+   "acronym": "UNDP",
+   "type": "international-organisation",
+   "url": "https://www.undp.org/",
+   "role": {
+    "text": "GEF implementing agency for the 2010–2020 protected-area financing project and for the Green Sharm El Sheikh project (approved 2022), which supports improved management of Ras Mohamed.",
+    "evidence": "verified",
+    "sourceIds": [
+     "egy-gef-2022-oldest-park",
+     "egy-undp-2023-green-sharm-esia",
+     "egy-gef-10117-ceo"
+    ]
+   }
+  },
+  {
+   "id": "gef",
+   "name": "Global Environment Facility",
+   "acronym": "GEF",
+   "type": "international-organisation",
+   "url": "https://www.thegef.org/",
+   "role": {
+    "text": "Funded the 2010–2020 project that supported efforts to reduce tourism impacts on Ras Mohammed's reefs, coral monitoring in South Sinai and a new permit and concession system for protected areas, and funds the Green Sharm El Sheikh project.",
+    "evidence": "verified",
+    "sourceIds": [
+     "egy-gef-2022-oldest-park",
+     "egy-gef-10117-ceo"
+    ]
+   }
+  },
+  {
+   "id": "iucn",
+   "name": "International Union for Conservation of Nature",
+   "acronym": "IUCN",
+   "type": "international-organisation",
+   "url": "https://iucn.org/",
+   "role": {
+    "text": "Awarded Ras Mohammed National Park IUCN Green List certification in November 2018 after an evaluation against 50 indicators.",
+    "evidence": "verified",
+    "sourceIds": [
+     "egy-iucn-2018-green-list"
+    ]
+   }
+  }
+ ],
+ "verificationNote": "All sources were fetched with curl and the facts checked in the fetched text (PDFs via pdftotext). The main park-specific source is Tawfik (2023, peer-reviewed, CC BY); many of its pressure figures come from studies of the 1990s–2000s, which the challenge statements present as cited evidence. Recent context comes from GEF/UNDP documents (2022 feature, 2022 CEO endorsement, 2023 ESIA; the 2026 mid-term review was read but reports no park-specific results) and IUCN (2018). Sources disagree on the park's area (460, 480 or 850 km²) and founding year (1983 decree vs 1986 in IUCN's story).",
+ "gaps": [
+  "No recent (post-2018) field survey of reef condition at Ras Mohammed was found. HEPCA's 2023–2024 bleaching reports cover the whole Egyptian coast, are not park-specific and restrict reuse of their data, so they were not used.",
+  "The 2007 EEAA management-effectiveness evaluation and the undated draft park management plan were found, but were judged too old to cite for current conditions.",
+  "No current figure for the park's own budget, its staffing, or how much fee revenue it keeps was found.",
+  "The terms of the Bedouin tourism concession (holders, scope, revenue sharing) are not documented in the sources.",
+  "The Green Sharm mid-term review (March 2026) lists mooring buoys near coral reefs among co-financed results, but does not say whether any are in Ras Mohammed.",
+  "The mdpi.com page for Tawfik (2023) blocked automated access; the publisher's mirror PDF was used instead."
+ ]
+}

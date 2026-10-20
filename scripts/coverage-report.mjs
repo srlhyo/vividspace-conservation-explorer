@@ -154,7 +154,7 @@ lines.push(
   "- Ramsar's annotated-list export has erroneous site-header coordinates for several sites. Each affected record says which coordinates are used: the site description's own, UNESCO's, or Wikidata's.",
   "- Habitat tags reflect terms named in the cited site summary, reviewed for false matches. They are not mapped ecosystem extents.",
   '- Areas verified in an official list but without an openly licensed location are not mapped. They are listed in [`inventory/uncatalogued-areas.csv`](inventory/uncatalogued-areas.csv). Every row there is verified in an official or authoritative source; proposed areas are listed with category `proposed`.',
-  '- Conservation challenges, organisations and potential regenerative activities have been researched for Guinea-Bissau and for one area in each of the other 12 WASOP countries only.',
+  '- Conservation challenges, organisations and potential regenerative activities have been researched for Guinea-Bissau and for one area in each of the other 21 countries only. Other areas have not been researched, which does not mean they face no challenges.',
   '',
 )
 await writeFile(new URL('../docs/coverage-report.md', import.meta.url), lines.join('\n'))

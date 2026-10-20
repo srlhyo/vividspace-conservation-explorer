@@ -1,0 +1,549 @@
+{
+ "country": "BWA",
+ "territoryId": "ramsar-879",
+ "selectionReason": "The Okavango Delta is both a Ramsar site and World Heritage property 1432, so it has a recent and unusually well-documented record: State Party conservation reports (2022 and 2024), a 2025 World Heritage Committee decision, the 2025 IUCN World Heritage Outlook and the 2021 Ramsar Information Sheet. Its challenges (human–elephant conflict, invasive plants, community access and benefit-sharing) tie directly to community trusts, tourism and farming livelihoods.",
+ "sources": [
+  {
+   "id": "bwa-iucn-who-2025",
+   "title": "Okavango Delta - 2025 Conservation Outlook Assessment",
+   "publisher": "IUCN World Heritage Outlook",
+   "url": "https://worldheritageoutlook.iucn.org/node/1179/pdf?year=2025",
+   "date": "2025-10-11",
+   "kind": "report",
+   "licence": "© IUCN — cited for reference (facts and short quotes)",
+   "note": "Finalised 11 October 2025. A synthesis assessment: many of its facts are attributed to the State Party's 2024 report, NGO surveys (National Geographic Okavango Wilderness Project) and journalism (e.g. Pinnock 2025), which were not fetched separately."
+  },
+  {
+   "id": "bwa-whc-decision-47com7b43",
+   "title": "Decision 47 COM 7B.43 — Okavango Delta (Botswana) (N 1432)",
+   "publisher": "UNESCO World Heritage Committee",
+   "url": "https://whc.unesco.org/en/decisions/8767/",
+   "date": "2025",
+   "kind": "webpage",
+   "licence": "© UNESCO — cited for reference (facts and short quotes)",
+   "note": "Adopted at the 47th session (2025). whc.unesco.org pages may show a bot challenge to scripted requests."
+  },
+  {
+   "id": "bwa-soc-2024",
+   "title": "State of Conservation Report, Okavango Delta World Heritage Site, Botswana (N1432)",
+   "publisher": "Department of National Museum & Monuments, Government of the Republic of Botswana (via UNESCO World Heritage Centre)",
+   "url": "https://whc.unesco.org/document/218517",
+   "date": "2024-12-01",
+   "kind": "report",
+   "licence": "© Government of Botswana / UNESCO — cited for reference (facts and short quotes)",
+   "note": "The URL serves a ZIP archive containing 'SOC report.pdf' and an appendix. Self-reported by the State Party."
+  },
+  {
+   "id": "bwa-soc-2022",
+   "title": "State of Conservation Report, Okavango Delta World Heritage Site, Botswana (N1432)",
+   "publisher": "Government of the Republic of Botswana (via UNESCO World Heritage Centre)",
+   "url": "https://whc.unesco.org/document/192722",
+   "date": "2022-02",
+   "kind": "report",
+   "licence": "© Government of Botswana / UNESCO — cited for reference (facts and short quotes)",
+   "note": "Scanned PDF with OCR errors; self-reported by the State Party."
+  },
+  {
+   "id": "bwa-ramsar-ris-879-2021",
+   "title": "Ramsar Information Sheet — Okavango Delta System (site no. 879)",
+   "publisher": "Ramsar Convention Secretariat (RSIS)",
+   "url": "https://rsis.ramsar.org/RISapp/files/RISrep/BW879RIS_2103_en.pdf",
+   "date": "2021-03-31",
+   "kind": "report",
+   "licence": "© Ramsar Convention Secretariat — cited for reference (facts and short quotes)",
+   "note": "Update of the 2007 sheet; threat ratings are self-assessed by the national authority."
+  },
+  {
+   "id": "bwa-ecoexist-conservation-agriculture-2015",
+   "title": "Conservation Agriculture–Innovating with Farmers",
+   "publisher": "Ecoexist Trust",
+   "url": "https://www.ecoexisttrust.org/reporting-back/blog/conservation-agriculture-innovating-farmers/",
+   "date": "2015-03-30",
+   "kind": "webpage",
+   "licence": "© Ecoexist Trust — cited for reference (facts and short quotes)",
+   "note": "Old (2015) and self-reported by the NGO; no newer outcome data was found."
+  },
+  {
+   "id": "bwa-ecoexist-elephant-economy-2015",
+   "title": "Building an Elephant Economy",
+   "publisher": "Ecoexist Trust",
+   "url": "https://www.ecoexisttrust.org/reporting-back/blog/building-elephant-economy/",
+   "date": "2015-03-30",
+   "kind": "webpage",
+   "licence": "© Ecoexist Trust — cited for reference (facts and short quotes)",
+   "note": "Old (2015) plan description; whether the 'elephant economy' was launched is not documented here."
+  }
+ ],
+ "overview": [
+  {
+   "text": "Moremi Game Reserve (4,610 km²), the only part protected against all consumptive use, covers under a quarter of the property; the other three quarters are 18 Wildlife Management Areas and one Controlled Hunting Area. The Wildlife Management Areas are tribal land held in trust by the Tawana Land Board, which leases them to tourism operators or community trusts.",
+   "evidence": "verified",
+   "sourceIds": [
+    "bwa-iucn-who-2025"
+   ]
+  },
+  {
+   "text": "The Okavango Delta Management Plan 2021–2028 is the main management instrument, with the Department of National Museum and Monuments leading oversight and reporting to the World Heritage Committee.",
+   "evidence": "verified",
+   "sourceIds": [
+    "bwa-iucn-who-2025",
+    "bwa-soc-2024"
+   ]
+  },
+  {
+   "text": "In 2025 the World Heritage Committee encouraged Botswana to fully implement the management plan to address tourism pressure, pollution, water use, human–elephant conflict, wildfires and invasive species, and asked for an updated report by 1 December 2026.",
+   "evidence": "verified",
+   "sourceIds": [
+    "bwa-whc-decision-47com7b43"
+   ]
+  }
+ ],
+ "livelihoods": [
+  {
+   "text": "Local communities fish, collect thatching grass, reeds, firewood and other veld products, practise flood-recession (molapo) farming, and run tourism in community concession areas.",
+   "evidence": "verified",
+   "sourceIds": [
+    "bwa-soc-2024"
+   ]
+  },
+  {
+   "text": "The Ramsar sheet credits the Hambukushu as the original makers of Botswana's well-known baskets and the Bayei with bringing the mokoro (dug-out canoe) to the delta.",
+   "evidence": "verified",
+   "sourceIds": [
+    "bwa-ramsar-ris-879-2021"
+   ]
+  },
+  {
+   "text": "Community trusts such as the Khwai Development Trust (photographic tourism, three campsites) and the Mababe Zokotsama Development Trust (86 permanent staff in July 2023) earn income from tourism in their allocated areas.",
+   "evidence": "verified",
+   "sourceIds": [
+    "bwa-soc-2024"
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "id": "bwa-okavango-upstream-flows",
+   "title": "Falling and less reliable inflows from upstream water use and climate change",
+   "themeIds": [
+    "climate",
+    "development"
+   ],
+   "statements": [
+    {
+     "text": "IUCN rates climate change as the immediate highest threat to the property, because warmer, drier conditions reduce inflows and the area and duration of flooding.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "IUCN reports that up to 22% of the Cubango River's dry-season flow was lost between Katwitwi and the Cuito confluence in 2021 (16% in 2023), while small pumps drawing river water in Namibia rose from 25 to 130 between 2017 and 2023.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "The same assessment reports that, with new commercial farms in Angola, irrigated land in the basin grew from 6,199 ha in 2020 to 8,025 ha in 2024, growth driven mostly by private operators.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "In 2025 the World Heritage Committee noted with concern proposed upstream roads, dams and irrigation schemes in Angola and Namibia and asked that they undergo environmental impact assessment before any decision.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-whc-decision-47com7b43"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bwa-okavango-human-elephant-conflict",
+   "title": "Human–elephant conflict and rural poverty",
+   "themeIds": [
+    "species",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "Botswana's 2024 report says human–elephant conflict persists in and around the property, and that heavy, repeated crop damage has led many farmers to abandon their fields.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-soc-2024"
+     ]
+    },
+    {
+     "text": "Citing a 2021 Statistics Botswana pilot index, the report puts multidimensional poverty in the western Okavango Delta at 60.8% (10% extreme) and links its severity largely to human–elephant conflict.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-soc-2024"
+     ]
+    },
+    {
+     "text": "During the management-plan review, communities reported that wild fruits they gather were no longer available because of competition from elephants and baboons.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-soc-2022"
+     ]
+    },
+    {
+     "text": "The 2025 Committee decision encourages Botswana to expedite a comprehensive human–wildlife conflict strategy.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-whc-decision-47com7b43"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bwa-okavango-invasive-plants",
+   "title": "Spread of invasive plants, especially Salvinia",
+   "themeIds": [
+    "species",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "A Salvinia infestation first recorded in 2017 on the Xudum River had spread to Xigera Lagoon in Moremi Game Reserve by February 2025, and IUCN says the weed now occurs in almost half the delta's wetland extent.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "Botswana reports that Salvinia blocks channels, lowers oxygen in the water, causes fish deaths and disrupts navigation, fishing and tourism.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-soc-2024",
+      "bwa-soc-2022"
+     ]
+    },
+    {
+     "text": "IUCN also reports the invasive tree Ailanthus excelsa in all villages south and west of the delta, including Jedibe/Jao in the heart of the property, and calls for immediate eradication and monitoring.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-iucn-who-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "bwa-okavango-access-benefit-sharing",
+   "title": "Limited community say over resource access and tourism benefits",
+   "themeIds": [
+    "governance",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "IUCN finds local communities' role in decision-making still limited, particularly on resource access and tourism revenue-sharing.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "According to IUCN, the Committee's request to expand programmes for traditional resource use, access rights and tourism participation has not been fully applied, and Indigenous Peoples still struggle to be allocated ancestral lands in the property, notably in the panhandle.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "IUCN cites research (Datla et al. 2023) showing that delta communities are unhappy with constrained access and limited influence over water governance.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-iucn-who-2025"
+     ]
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "bwa-okavango-salvinia-biocontrol-service",
+   "title": "Community-run Salvinia weevil rearing and monitoring",
+   "themeIds": [
+    "species",
+    "livelihoods"
+   ],
+   "challengeIds": [
+    "bwa-okavango-invasive-plants"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "The government controls Salvinia with a host-specific weevil (Cyrtobagous salviniae), now its preferred method, and reports partnerships with community groups and the private sector to widen control.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-soc-2024"
+     ]
+    },
+    {
+     "text": "Botswana's 2022 report proposed rearing weevils at some safari operators and community trusts under a memorandum of understanding that includes training camp staff and trusts.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-soc-2022"
+     ]
+    },
+    {
+     "text": "IUCN notes that tour guides in the core area have been trained to monitor Salvinia and that weevil breeding pools exist, but calls for a more coordinated and better-resourced response.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "A trust-run rearing and monitoring service, paid by government or lodges, could turn an existing control method into local paid work while helping to scale up the response.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "bwa-soc-2022",
+      "bwa-soc-2024",
+      "bwa-iucn-who-2025"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Was the proposed memorandum of understanding signed, and with which trusts or operators?",
+    "Would the Department of Water and Sanitation or lodges pay for rearing and monitoring, and at what volume?",
+    "Biosecurity and quality protocols for rearing the weevil outside government facilities",
+    "Which infested channels are near community trust areas?"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "dws-botswana",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "The Department of Water and Sanitation controls Salvinia in the property with the weevil, using monitoring transects demarcated in infested areas.",
+      "evidence": "verified",
+      "sourceIds": [
+       "bwa-soc-2024"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "bwa-okavango-elephant-aware-farming",
+   "title": "Elephant-aware conservation agriculture and elephant-friendly products",
+   "themeIds": [
+    "land-use",
+    "livelihoods",
+    "species"
+   ],
+   "challengeIds": [
+    "bwa-okavango-human-elephant-conflict"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "In 2015 Ecoexist reported hosting conservation-agriculture workshops and said over 40 panhandle farmers were using the techniques; the aim is higher yields on smaller plots that are easier to guard from elephants, alongside research on early planting and elephant-resistant crops.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-ecoexist-conservation-agriculture-2015"
+     ]
+    },
+    {
+     "text": "Ecoexist also set out plans for an 'elephant economy' in the panhandle based on elephant-branded tourism, food and handicraft products.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-ecoexist-elephant-economy-2015"
+     ]
+    },
+    {
+     "text": "Through OKACOM, the State Party supported six farmers at Shakawe with climate-smart conservation agriculture and 19 vegetable gardens along the Thamalakane River; IUCN notes that OKACOM-funded shallow irrigation wells dried out when groundwater fell.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-soc-2024",
+      "bwa-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "Combining elephant-aware cropping with elephant-friendly branded products could cut crop losses and diversify income for buffer-zone farmers, building on conservation-agriculture work already tried locally and on Ecoexist's 2015 product plans.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "bwa-ecoexist-conservation-agriculture-2015",
+      "bwa-ecoexist-elephant-economy-2015",
+      "bwa-soc-2024"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Measured outcomes of the 2015 conservation-agriculture pilots (yields, crop-raiding losses)",
+    "Was the elephant-economy product line ever launched, and with what sales?",
+    "Reliable water supply for gardens, given that OKACOM-funded wells dried out",
+    "Land allocation within the wildlife corridors identified in the eastern panhandle"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "eco-exist",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Ecoexist ran conservation-agriculture workshops with panhandle farmers to reduce vulnerability to elephant crop raiding (reported 2015).",
+      "evidence": "verified",
+      "sourceIds": [
+       "bwa-ecoexist-conservation-agriculture-2015"
+      ]
+     }
+    },
+    {
+     "organisationId": "okacom",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "The State Party's climate-smart agriculture and vegetable-garden projects in the buffer zone were carried out through OKACOM.",
+      "evidence": "verified",
+      "sourceIds": [
+       "bwa-soc-2024"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "bwa-okavango-trust-tourism",
+   "title": "More community-trust-owned tourism enterprises",
+   "themeIds": [
+    "livelihoods",
+    "governance"
+   ],
+   "challengeIds": [
+    "bwa-okavango-access-benefit-sharing",
+    "bwa-okavango-human-elephant-conflict"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "The Khwai trust runs photographic tourism and three campsites, and the Mababe trust runs hunting tourism, campsites and a lodge; they employ residents directly or, at Khwai, also through joint-venture partners.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-soc-2024"
+     ]
+    },
+    {
+     "text": "Botswana reports that income from community trusts in the property pays for community services such as funeral cover, school transport, household water connections and solar power for a school.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-soc-2024"
+     ]
+    },
+    {
+     "text": "IUCN counts 14 community trusts in the panhandle but finds community influence over tourism revenue-sharing still limited.",
+     "evidence": "verified",
+     "sourceIds": [
+      "bwa-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "Helping more trusts, especially in the panhandle, to own and run their own tourism products could spread benefits beyond the few established trusts, in areas where poverty is high.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "bwa-soc-2024",
+      "bwa-iucn-who-2025"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Which areas are available, and on what Tawana Land Board lease terms?",
+    "Visitor demand under the high-cost, low-volume tourism model",
+    "Governance and benefit-distribution capacity of the trusts",
+    "Compatibility with the management plan's zoning and with World Heritage requirements"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "dnmm-botswana",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As the department that leads oversight of the property and reports on community benefits, it would be a natural counterpart for any expansion of community tourism.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "bwa-soc-2024",
+       "bwa-iucn-who-2025"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "organisations": [
+  {
+   "id": "dnmm-botswana",
+   "name": "Department of National Museum and Monuments",
+   "acronym": "DNMM",
+   "type": "government-agency",
+   "role": {
+    "text": "Leads oversight of the World Heritage property, coordinates the management plan from Maun, and submitted the 2024 State of Conservation report.",
+    "evidence": "verified",
+    "sourceIds": [
+     "bwa-iucn-who-2025",
+     "bwa-soc-2024"
+    ]
+   }
+  },
+  {
+   "id": "dwnp-botswana",
+   "name": "Department of Wildlife and National Parks",
+   "acronym": "DWNP",
+   "type": "government-agency",
+   "role": {
+    "text": "Runs anti-poaching patrols in the property and manages human–elephant conflict through its Problem Animal Control Unit (patrols, crop-damage compensation, farmer training).",
+    "evidence": "verified",
+    "sourceIds": [
+     "bwa-soc-2024",
+     "bwa-iucn-who-2025"
+    ]
+   }
+  },
+  {
+   "id": "dws-botswana",
+   "name": "Department of Water and Sanitation",
+   "type": "government-agency",
+   "role": {
+    "text": "Controls the invasive Salvinia in the property with a biological control weevil (Cyrtobagous salviniae).",
+    "evidence": "verified",
+    "sourceIds": [
+     "bwa-soc-2024"
+    ]
+   }
+  },
+  {
+   "id": "okacom",
+   "name": "Permanent Okavango River Basin Water Commission",
+   "acronym": "OKACOM",
+   "type": "international-organisation",
+   "url": "https://www.okacom.org",
+   "role": {
+    "text": "Angola–Botswana–Namibia basin commission that led the Strategic Environmental Assessment of the Cubango-Okavango basin and funded climate-smart farming projects in the buffer zone.",
+    "evidence": "verified",
+    "sourceIds": [
+     "bwa-whc-decision-47com7b43",
+     "bwa-soc-2024"
+    ]
+   }
+  },
+  {
+   "id": "eco-exist",
+   "name": "Ecoexist Trust",
+   "type": "national-ngo",
+   "url": "https://www.ecoexisttrust.org",
+   "role": {
+    "text": "Botswana NGO based in Maun that helped the State Party identify wildlife corridors in the eastern panhandle and works with farmers on reducing elephant conflict.",
+    "evidence": "verified",
+    "sourceIds": [
+     "bwa-iucn-who-2025",
+     "bwa-ecoexist-conservation-agriculture-2015"
+    ]
+   }
+  }
+ ],
+ "verificationNote": "Every statement was checked against fetched full texts: the IUCN World Heritage Outlook 2025 assessment (PDF), World Heritage Committee decision 47 COM 7B.43 (2025), Botswana's State of Conservation reports of December 2024 (PDF inside a ZIP) and February 2022, the 2021 Ramsar Information Sheet, and two 2015 Ecoexist posts. Upstream-flow figures come from the IUCN assessment, which cites journalism and NGO surveys that were not fetched separately. Poverty and human–elephant conflict figures are self-reported by the State Party. The Ecoexist material is from 2015 and has no outcome data. The Ramsar site (5.5 million ha) is larger than the World Heritage property; the challenges are documented for the World Heritage property and its buffer zone, which lie inside the Ramsar site.",
+ "gaps": [
+  "Fisheries: IUCN notes likely overharvesting and gill-net use in the panhandle, with falling catches, but gives no data; it is not a separate challenge here.",
+  "No independent, recent evaluation of the Ecoexist conservation-agriculture or 'elephant economy' work was found (only the NGO's 2015 posts).",
+  "Whether the Salvinia weevil-rearing memorandum with safari operators and trusts was signed is not documented in the reports reviewed.",
+  "Tawana Land Board (which leases the Wildlife Management Areas) and individual community trusts are not modelled as organisations; their roles appear only in statements.",
+  "The ODMP 2021–2028 itself (whc.unesco.org/document/208817) was not read."
+ ]
+}

@@ -1,6 +1,6 @@
 # Vivid Space · Conservation Opportunity Explorer
 
-A standalone geospatial dashboard prototype for discussion between Vivid Space and BlueSeeds. It covers protected conservation areas across the **13 West Africa Sustainable Ocean Programme (WASOP) countries and 9 additional African countries** (Angola, Botswana, Egypt, Gabon, Mozambique, Namibia, São Tomé and Príncipe, Tanzania, Uganda), with detailed research for Guinea-Bissau (the Bijagós Archipelago, the Cacheu region and Cantanhez National Park) and one researched area in each of the other 12 WASOP countries, and guides the viewer through:
+A standalone geospatial dashboard prototype for discussion between Vivid Space and BlueSeeds. It covers protected conservation areas across the **13 West Africa Sustainable Ocean Programme (WASOP) countries and 9 additional African countries** (Angola, Botswana, Egypt, Gabon, Mozambique, Namibia, São Tomé and Príncipe, Tanzania, Uganda), with detailed research for Guinea-Bissau (the Bijagós Archipelago, the Cacheu region and Cantanhez National Park) and one researched area in each of the other 21 countries, and guides the viewer through:
 
 **Territory → Conservation challenge → Potential regenerative activity → Supporting evidence → Next steps**
 
@@ -55,6 +55,7 @@ Notes:
 4. Use the back link or the breadcrumb to return to the open challenge. Try **Orango Islands National Park → Community-owned, low-impact tourism → Also considered for: Bijagós Archipelago**.
 5. Open a country in **Additional African countries**, for example **Tanzania → Serengeti National Park**, to see its protection status, legal basis and overlapping designations, and the country card's inventory status.
 6. Choose another WASOP country, for example **The Gambia → Tanbi Wetlands Complex → Mangrove cutting and harvesting of juvenile shellfish → Women-led oyster and cockle products under co-management**, or **Mauritania → Parc National du Banc d'Arguin**.
+7. Open a researched area in one of the additional countries, for example **Mozambique → Parque Nacional da Gorongosa → Forest loss on Gorongosa Mountain → Shade-grown coffee and native-tree agroforestry enterprises**, or **Tanzania → Mafia Island Marine Park → Coral bleaching and reef damage**. Areas without researched challenges say so explicitly; that is a research gap, not a sign that the area faces none.
 
 The URL updates as you go, so a prepared view can be bookmarked or reopened after a reload.
 
@@ -66,7 +67,7 @@ Use **Explore world** to zoom out to a global view, and switch between the **2D 
 - [`docs/data-dictionary.md`](docs/data-dictionary.md) explains every entity, field and relationship. [`docs/data-export/`](docs/data-export/README.md) has the same records as linked CSV files for spreadsheets (regenerate with `npm run data:export`).
 - `public/data/geo/` holds the 22 country outlines (Natural Earth 1:50m, public domain) and the Guinea-Bissau region boundaries (geoBoundaries gbOpen, derived from OpenStreetMap, ODbL 1.0). Protected areas are shown as reference points only, because official protected-area boundaries (WDPA) are not used.
 - The catalogue is a **partial, source-checked protected-area inventory**, not yet complete for any country. It combines nationally designated areas (from national authorities, laws and government reports), Ramsar sites (official annotated lists), World Heritage properties and biosphere reserves (UNESCO). Each record states its protection category, documented legal basis where found, source date and location precision; designations that cover the same area are recorded once, and different extents are linked as overlapping. [`docs/coverage-report.md`](docs/coverage-report.md) gives each country's official inventory, stated totals and gaps (regenerate with `npm run data:coverage`); verified areas that could not be mapped are listed in [`docs/inventory/uncatalogued-areas.csv`](docs/inventory/uncatalogued-areas.csv).
-- Conservation challenges, potential activities and organisations have been researched for Guinea-Bissau and for one area in each other WASOP country; other areas are inventory records only.
+- Conservation challenges, potential activities and organisations have been researched for Guinea-Bissau and for one area in each of the other 21 countries; other areas are inventory records only, which does not mean they face no challenges.
 
 Filters (ecosystem type, conservation theme) use the attributes documented for each territory in the cited sources. They are not maps of where ecosystems or conditions occur. Matching territories stay green on the map and non-matching ones turn grey. The sidebar and the map both show how many territories match, with a one-click way to clear the filters.
 

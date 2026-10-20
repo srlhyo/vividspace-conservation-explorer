@@ -56,3 +56,37 @@ piso-mangrove-fuel,"Mangrove wood used for fish smoking, firewood and charcoal",
 piso-fishing,Unsustainable fishing with undersized nets,ramsar-1306,fisheries,Fisheries & marine resources,1,piso-sustainable-fishery
 piso-sand-pollution,Sand mining and pollution,ramsar-1306,development,Development pressures,2,
 piso-burning,"Bush burning, farming and hunting",ramsar-1306,land-use,Land use & agriculture,1,
+ago-iona-livestock-pressure,Livestock overstocking in a hyper-arid park,pa-ago-iona-national-park,land-use; livelihoods,Land use & agriculture; Community livelihoods,3,ago-iona-producer-groups
+ago-iona-livestock-predation,Livestock predation and risk of retaliatory killing of carnivores,pa-ago-iona-national-park,species; livelihoods,Species & habitats; Community livelihoods,4,ago-iona-community-tourism; ago-iona-predator-proof-kraals
+ago-iona-drought,Recurrent drought hitting herds and wildlife,pa-ago-iona-national-park,climate; livelihoods,Climate & coastal resilience; Community livelihoods,2,
+ago-iona-rights-governance,"Unsettled land rights, safeguards and co-management",pa-ago-iona-national-park,governance,Community governance,3,ago-iona-producer-groups; ago-iona-community-tourism
+bwa-okavango-upstream-flows,Falling and less reliable inflows from upstream water use and climate change,ramsar-879,climate; development,Climate & coastal resilience; Development pressures,4,
+bwa-okavango-human-elephant-conflict,Human–elephant conflict and rural poverty,ramsar-879,species; livelihoods,Species & habitats; Community livelihoods,4,bwa-okavango-elephant-aware-farming; bwa-okavango-trust-tourism
+bwa-okavango-invasive-plants,"Spread of invasive plants, especially Salvinia",ramsar-879,species; livelihoods,Species & habitats; Community livelihoods,3,bwa-okavango-salvinia-biocontrol-service
+bwa-okavango-access-benefit-sharing,Limited community say over resource access and tourism benefits,ramsar-879,governance; livelihoods,Community governance; Community livelihoods,3,bwa-okavango-trust-tourism
+egy-ras-mohammad-diver-pressure,Heavy diving and snorkelling pressure on the reefs,pa-egy-ras-mohammad,species; development,Species & habitats; Development pressures,4,egy-ras-mohammad-bedouin-visitor-services; egy-ras-mohammad-reef-etiquette-services
+egy-ras-mohammad-coastal-development,"Resort growth, boat traffic and fishing pressure from Sharm El-Sheikh",pa-egy-ras-mohammad,development; fisheries; governance,Development pressures; Fisheries & marine resources; Community governance,3,
+egy-ras-mohammad-financing,"Thin, tourism-dependent protected-area funding",pa-egy-ras-mohammad,finance; livelihoods,Conservation finance; Community livelihoods,3,egy-ras-mohammad-bedouin-visitor-services
+gab-akanda-urban-encroachment,"Urban growth, quarries and infrastructure at the park edge",ramsar-1652,land-use; development; mangroves,Land use & agriculture; Development pressures; Mangrove conservation,4,
+gab-akanda-overfishing,Overfishing in a fish nursery,ramsar-1652,fisheries; livelihoods,Fisheries & marine resources; Community livelihoods,4,gab-akanda-fisheries-co-management
+gab-akanda-mangrove-cutting,Cutting of mangrove wood,ramsar-1652,mangroves; livelihoods,Mangrove conservation; Community livelihoods,3,gab-akanda-licensed-mangrove-tours
+gab-akanda-unregulated-tourism,Tourism not yet organised or regulated,ramsar-1652,governance; development,Community governance; Development pressures,3,gab-akanda-licensed-mangrove-tours
+moz-gorongosa-mountain-deforestation,Forest loss on Gorongosa Mountain,pa-moz-parque-nacional-da-gorongosa,land-use; climate,Land use & agriculture; Climate & coastal resilience,3,moz-gorongosa-shade-coffee
+moz-gorongosa-snaring,Bushmeat snaring and poaching,pa-moz-parque-nacional-da-gorongosa,species,Species & habitats,3,
+moz-gorongosa-crop-raiding,Crop raiding by recovering wildlife,pa-moz-parque-nacional-da-gorongosa,livelihoods; species,Community livelihoods; Species & habitats,3,moz-gorongosa-beehive-fences
+nam-bwabwata-settlement-cattle,Encroaching settlement and cattle in the park,pa-nam-bwabwata-national-park,land-use; governance,Land use & agriculture; Community governance,4,
+nam-bwabwata-late-fires,Hot late-dry-season fires degrading woodlands,pa-nam-bwabwata-national-park,species; land-use,Species & habitats; Land use & agriculture,4,nam-bwabwata-community-fire-management
+nam-bwabwata-elephant-poaching,Illegal killing of elephants,pa-nam-bwabwata-national-park,species,Species & habitats,2,
+nam-bwabwata-resident-rights,"Khwe representation, recognition and benefit-sharing",pa-nam-bwabwata-national-park,governance; livelihoods,Community governance; Community livelihoods,4,nam-bwabwata-devils-claw-value-chain; nam-bwabwata-community-fire-management; nam-bwabwata-knowledge-centre-nursery
+stp-obo-forest-conversion,Clearing for plantations and farms at and inside the park edge,pa-stp-parque-natural-obo-de-sao-tome,land-use; development,Land use & agriculture; Development pressures,4,stp-obo-buffer-agroforestry
+stp-obo-logging-charcoal,"Illegal logging and charcoal making, including in the mangroves",pa-stp-parque-natural-obo-de-sao-tome,land-use; mangroves; livelihoods,Land use & agriculture; Mangrove conservation; Community livelihoods,4,stp-obo-eco-guide-monitoring
+stp-obo-hunting,Hunting and other pressures on critically endangered endemic birds,pa-stp-parque-natural-obo-de-sao-tome,species,Species & habitats,3,stp-obo-hunter-enterprises
+stp-obo-management-capacity,Too few staff and funds to enforce protection,pa-stp-parque-natural-obo-de-sao-tome,governance; finance,Community governance; Conservation finance,3,stp-obo-eco-guide-monitoring
+tza-mimp-unsustainable-fishing,Unsustainable fishing and weak enforcement,pa-tza-mafia-island-marine-park,fisheries; governance,Fisheries & marine resources; Community governance,4,tza-mimp-community-closures
+tza-mimp-depleted-reef-fish,Depleted reef fish populations,pa-tza-mafia-island-marine-park,fisheries; species,Fisheries & marine resources; Species & habitats,2,tza-mimp-community-closures
+tza-mimp-reef-degradation,Coral bleaching and reef damage,pa-tza-mafia-island-marine-park,climate; species,Climate & coastal resilience; Species & habitats,3,tza-mimp-community-coral-restoration
+tza-mimp-community-relations,Strained park–community relations and few alternative livelihoods,pa-tza-mafia-island-marine-park,governance; livelihoods,Community governance; Community livelihoods,3,tza-mimp-community-coral-restoration
+uga-bwindi-crop-raiding,Crop raiding at the forest edge,pa-uga-bwindi-impenetrable-national-park,livelihoods; species,Community livelihoods; Species & habitats,3,uga-bwindi-beehive-fences
+uga-bwindi-poaching,Snaring and poaching driven by poverty,pa-uga-bwindi-impenetrable-national-park,species; livelihoods,Species & habitats; Community livelihoods,3,uga-bwindi-conservation-coffee
+uga-bwindi-roads,Road projects through the park,pa-uga-bwindi-impenetrable-national-park,development; land-use,Development pressures; Land use & agriculture,3,
+uga-bwindi-benefit-sharing,Uneven benefit-sharing and Batwa marginalisation,pa-uga-bwindi-impenetrable-national-park,governance; livelihoods,Community governance; Community livelihoods,3,uga-bwindi-conservation-coffee
