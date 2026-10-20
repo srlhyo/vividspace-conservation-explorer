@@ -14,7 +14,7 @@ Field meanings and relationships are described in [`../data-dictionary.md`](../d
 | `opportunities.csv` | 28 |
 | `opportunity_organisation_links.csv` | 48 |
 | `organisations.csv` | 40 |
-| `statements.csv` | 973 |
+| `statements.csv` | 975 |
 | `sources.csv` | 735 |
 | `designation_types.csv` | 10 |
 | `ecosystems.csv` | 11 |

@@ -130,3 +130,61 @@ describe('public catalogue', () => {
     for (const o of catalogue.opportunities) expect(o.evidence).not.toBe('verified')
   })
 })
+
+/** Minimal RFC 4180 parser for the inventory CSV (quoted cells may contain commas, quotes and line breaks). */
+function parseCsv(text: string): Record<string, string>[] {
+  const rows: string[][] = [[]]
+  let cell = ''
+  let quoted = false
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i]
+    if (quoted && ch === '"' && text[i + 1] === '"') {
+      cell += '"'
+      i++
+    } else if (ch === '"') {
+      quoted = !quoted
+    } else if (!quoted && (ch === ',' || ch === '\n')) {
+      rows.at(-1)!.push(cell.replace(/\r$/, ''))
+      cell = ''
+      if (ch === '\n') rows.push([])
+    } else {
+      cell += ch
+    }
+  }
+  if (cell || rows.at(-1)!.length) rows.at(-1)!.push(cell)
+  else rows.pop()
+  const [columns, ...records] = rows
+  return records.map((r) => Object.fromEntries(columns.map((c, i) => [c, r[i] ?? ''])))
+}
+
+describe('inventory of verified but unmapped areas', () => {
+  const docs = (path: string) => readFileSync(new URL(`../../docs/inventory/${path}`, import.meta.url), 'utf8')
+  const catalogue = read<Catalogue>('catalogue.json')
+  const unmapped = parseCsv(docs('uncatalogued-areas.csv').replace(/^﻿/, ''))
+  const research = Object.fromEntries(
+    catalogue.countries.map((c) => [c.code, JSON.parse(docs(`research/${c.code}.json`)) as { areas: { name: string }[] }]),
+  )
+
+  it('gives every row a unique id that is not also a catalogue id', () => {
+    const ids = unmapped.map((r) => r.record_id)
+    expect(new Set(ids).size).toBe(ids.length)
+    const catalogued = new Set(catalogue.territories.map((t) => t.id))
+    for (const id of ids) expect(catalogued.has(id), id).toBe(false)
+  })
+
+  it('lists only areas from the country research, with resolvable sources', () => {
+    const sources = new Set(catalogue.sources.map((s) => s.id))
+    for (const r of unmapped) {
+      expect(research[r.country_code]?.areas.some((a) => a.name === r.name), `${r.country_code} ${r.name}`).toBe(true)
+      expect(r.source_ids, r.record_id).not.toBe('')
+      for (const id of r.source_ids.split('; ')) expect(sources.has(id), `${r.record_id} → ${id}`).toBe(true)
+    }
+  })
+
+  it('never lists more unmapped areas for a country than its research found', () => {
+    for (const c of catalogue.countries) {
+      const count = unmapped.filter((r) => r.country_code === c.code).length
+      expect(count, c.code).toBeLessThanOrEqual(research[c.code].areas.length)
+    }
+  })
+})

@@ -14,7 +14,7 @@ import {
 import type { Catalogue, Country, CountryGroup, EvidenceLevel, Territory } from '../domain/types'
 import { EvidenceBadge } from './EvidenceBadge'
 import { GeometryGlyph } from './GeometryGlyph'
-import { kindBreakdown, kindBreakdownHint, territoryKindLabel } from './labels'
+import { internationalDesignationIds, kindBreakdown, kindBreakdownHint, territoryKindLabel } from './labels'
 import { Chevron } from './panel/parts'
 
 interface SidebarProps {
@@ -32,8 +32,16 @@ interface SidebarProps {
   onFocusCountry: (code: string) => void
 }
 
-const groups: { key: FilterKey; title: string }[] = [
-  { key: 'designations', title: 'Designation' },
+const groups: { key: FilterKey; title: string; sections?: FilterSection[] }[] = [
+  {
+    key: 'designations',
+    title: 'Designation',
+    // National legal designations and international recognitions are different kinds of status.
+    sections: [
+      { label: 'National (by law)', test: (id) => !internationalDesignationIds.has(id) },
+      { label: 'International', test: (id) => internationalDesignationIds.has(id) },
+    ],
+  },
   { key: 'ecosystems', title: 'Ecosystem type' },
   { key: 'themes', title: 'Conservation theme' },
 ]
@@ -126,6 +134,7 @@ export function Sidebar({
                 <FilterGroup
                   key={group.key}
                   title={group.title}
+                  sections={group.sections}
                   options={filterOptions(catalogue, filters, group.key)}
                   selected={filters[group.key]}
                   onToggle={(value) => onToggle(group.key, value)}
@@ -202,6 +211,10 @@ function CountryTree({
     setSeen({ country: selectedCountry?.code, area: selectedId })
     if (reveal.length > 0) setExpanded((e) => new Set([...e, ...reveal]))
   }
+  // The context region (an administrative area) is listed but is not a protected area.
+  const contextCount = catalogue.territories.filter((t) => t.inventory?.category === 'context').length
+  const areaCount = catalogue.territories.length - contextCount
+
   const toggleExpanded = (code: string) =>
     setExpanded((e) => {
       const next = new Set(e)
@@ -215,7 +228,8 @@ function CountryTree({
         Countries & catalogued areas
       </h2>
       <p className="mt-1 px-2 text-[11.5px] leading-snug text-ink-muted">
-        {catalogue.countries.length} countries · {catalogue.territories.length} catalogued areas. A partial,
+        {catalogue.countries.length} countries · {areaCount} catalogued areas
+        {contextCount > 0 && ` and ${contextCount} context region${contextCount === 1 ? '' : 's'}`}. A partial,
         source-checked inventory of protected areas, not yet complete for any country.
       </p>
       {selectedCountry && (
@@ -397,56 +411,73 @@ function ActiveFilterChips({
   )
 }
 
+interface FilterSection {
+  label: string
+  test: (id: string) => boolean
+}
+
 function FilterGroup({
   title,
+  sections,
   options,
   selected,
   onToggle,
 }: {
   title: string
+  sections?: FilterSection[]
   options: FilterOption[]
   selected: string[]
   onToggle: (value: string) => void
 }) {
   // An option that every listed area already has cannot narrow the results on its own.
   const noReduction = (o: FilterOption) => selected.length === 0 && o.coversAll
+  const renderOption = (o: FilterOption) => {
+    const on = selected.includes(o.id)
+    const unavailable = !on && o.available === 0
+    const all = !on && noReduction(o)
+    return (
+      <button
+        key={o.id}
+        type="button"
+        aria-pressed={on}
+        disabled={unavailable}
+        onClick={() => onToggle(o.id)}
+        title={
+          unavailable
+            ? `No catalogued area matches “${o.label}” together with your other filters.`
+            : all
+              ? `Every catalogued area currently in view has “${o.label}”, so selecting it will not narrow the results.`
+              : undefined
+        }
+        className={[
+          'inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[12px] font-medium ring-1 transition-colors',
+          on
+            ? 'bg-forest text-white ring-forest'
+            : unavailable
+              ? 'cursor-not-allowed bg-stone-50 text-stone-400 ring-stone-200'
+              : 'bg-white text-ink ring-line hover:bg-forest-soft hover:ring-forest/40',
+        ].join(' ')}
+      >
+        {o.label}
+        <span className={on ? 'text-white/75' : 'text-ink-muted/70'}>{all ? 'all' : o.available}</span>
+      </button>
+    )
+  }
+  const rows = sections
+    ? sections.map((section) => ({ label: section.label, options: options.filter((o) => section.test(o.id)) }))
+    : [{ label: '', options }]
   return (
     <fieldset>
       <legend className="mb-1.5 text-[12px] font-semibold uppercase tracking-wide text-ink-muted">{title}</legend>
-      <div className="flex flex-wrap gap-1.5">
-        {options.map((o) => {
-          const on = selected.includes(o.id)
-          const unavailable = !on && o.available === 0
-          const all = !on && noReduction(o)
-          return (
-            <button
-              key={o.id}
-              type="button"
-              aria-pressed={on}
-              disabled={unavailable}
-              onClick={() => onToggle(o.id)}
-              title={
-                unavailable
-                  ? `No catalogued area matches “${o.label}” together with your other filters.`
-                  : all
-                    ? `Every catalogued area currently in view has “${o.label}”, so selecting it will not narrow the results.`
-                    : undefined
-              }
-              className={[
-                'inline-flex items-center gap-1.5 rounded-full px-2.5 py-1 text-[12px] font-medium ring-1 transition-colors',
-                on
-                  ? 'bg-forest text-white ring-forest'
-                  : unavailable
-                    ? 'cursor-not-allowed bg-stone-50 text-stone-400 ring-stone-200'
-                    : 'bg-white text-ink ring-line hover:bg-forest-soft hover:ring-forest/40',
-              ].join(' ')}
-            >
-              {o.label}
-              <span className={on ? 'text-white/75' : 'text-ink-muted/70'}>{all ? 'all' : o.available}</span>
-            </button>
-          )
-        })}
-      </div>
+      {rows.map(
+        (row, i) =>
+          row.options.length > 0 && (
+            <div key={row.label} className={i > 0 ? 'mt-2' : undefined}>
+              {row.label && <p className="mb-1 text-[11px] font-medium text-ink-muted">{row.label}</p>}
+              <div className="flex flex-wrap gap-1.5">{row.options.map(renderOption)}</div>
+            </div>
+          ),
+      )}
       {options.some((o) => !selected.includes(o.id) && noReduction(o)) && (
         <p className="mt-1.5 text-[11.5px] leading-snug text-ink-muted">
           “all” means every catalogued area currently in view has that value, so selecting it will not

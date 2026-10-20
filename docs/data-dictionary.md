@@ -78,9 +78,36 @@ A catalogued conservation area, or a broader landscape or administrative region 
 | `inventory.sourceDate` | Date of the record's main source or listing (e.g. Ramsar designation date, list date), as written. |
 | `inventory.overlaps[]` | Other catalogued areas that overlap this one but cover a different extent (e.g. a biosphere reserve and the national park at its core). Recorded where names, documented areas and locations indicate the overlap; boundaries were not compared. |
 
+**Four kinds of status, not interchangeable.** `inventory.category` separates them, and the app labels each one:
+
+| Kind | Categories | Meaning |
+|---|---|---|
+| National legal protection | `national-park`, `nature-reserve`, `marine-protected-area`, `wildlife-reserve`, `forest-reserve`, `community-conservation-area`, `other-protected-area` | Designated under national law. `legalStatus` cites the instrument where the sources reviewed document it. |
+| International designation only | `international-designation` | A Ramsar site, World Heritage property or biosphere reserve with no national designation documented on the record. These are recognitions under international conventions or programmes, not national legal protection, and are never counted as national protected areas. |
+| Proposed | `proposed` | Announced or planned, not legally designated. |
+| Context | `context` | A landscape or administrative region shown for orientation (currently one: the Cacheu Region). Not a protected area and not counted as a catalogued area. |
+
+Designation types follow the same split: `ramsar`, `world-heritage` and `biosphere-reserve` are international; every other designation type is national. The app's Designation filter shows them in separate "National (by law)" and "International" rows. A record can carry both kinds, for example a national park that is also a Ramsar site; its category then reflects the national designation.
+
 **Avoiding double counting.** When a Ramsar, World Heritage or biosphere designation applies to the same area as a national designation, it is recorded as an extra designation on that one territory. A separate record is kept only when the extents clearly differ, and it is linked through `inventory.overlaps`. Biosphere reserves are always separate records with category `international-designation`, because they are zoned landscapes larger than their core protected areas.
 
 **Locations.** Points come from the cited official source where it gives coordinates, from Ramsar or UNESCO, or otherwise from Wikidata (CC0). The geometry `caveat` says which applies. A Wikidata point is an approximate reference location, not an official boundary or centroid. Areas verified in an official list but with no openly licensed location are not in the catalogue; they are listed in [`inventory/uncatalogued-areas.csv`](inventory/uncatalogued-areas.csv).
+
+### Verified but unmapped areas (`inventory/uncatalogued-areas.csv`)
+One row per area that the country research found in an official or authoritative source but that has no official or openly licensed location, so it is not on the map. It is not part of the catalogue, and its rows are not in `data-export/`.
+
+| Column | Meaning |
+|---|---|
+| `record_id` | Stable id for this list. It follows the catalogue's pattern (`pa-<country>-<name>`) and never repeats a catalogue id. |
+| `country_code`, `name`, `local_name` | Country (ISO 3166-1 alpha-3) and the name as given by the source. Two Cabo Verde areas share the name "Monte Santo António" (one on Maio, one on Boa Vista); `notes` gives the island. |
+| `category` | Protection category, as for territories (including `proposed`). |
+| `designation` | The designation as worded by the source. |
+| `legal_status` | The documented legal basis, when the sources reviewed give one. |
+| `established`, `area_km2` | Establishment date and area as stated by the sources (hectares converted to km²). |
+| `wikidata_qid` | Wikidata item identified during research, if any. Its coordinates were missing, outside the country or not usable, which is why the area is not mapped. |
+| `status` | Verification status; every row is verified in an official or authoritative source. |
+| `source_ids`, `source_urls` | Sources, resolvable in `data-export/sources.csv`. |
+| `notes` | Research notes: location, conflicts between sources, caveats. |
 
 ### Designation type (`designationTypes`), Ecosystem (`ecosystems`), Theme (`themes`)
 Controlled vocabularies with `id`, `name` and a generic `description`/`definition`. They are used for filters and tags. A definition is a glossary entry, not a claim about any place.

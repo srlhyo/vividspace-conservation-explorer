@@ -1,9 +1,47 @@
 // Writes docs/coverage-report.md: per-country inventory status, catalogue coverage and known gaps.
 // Everything is computed from public/data/catalogue.json (countries[].inventory holds the official
-// inventory comparison and gaps). Run with: npm run data:coverage
+// inventory comparison and gaps), the research files in docs/inventory/research/ (areas listed by the
+// sources reviewed) and docs/inventory/uncatalogued-areas.csv (listed areas not mapped).
+// Run with: npm run data:coverage
 import { readFile, writeFile } from 'node:fs/promises'
 
 const catalogue = JSON.parse(await readFile(new URL('../public/data/catalogue.json', import.meta.url), 'utf8'))
+const research = Object.fromEntries(
+  await Promise.all(
+    catalogue.countries.map(async (c) => [
+      c.code,
+      JSON.parse(await readFile(new URL(`../docs/inventory/research/${c.code}.json`, import.meta.url), 'utf8')),
+    ]),
+  ),
+)
+/** Minimal RFC 4180 parser: quoted cells may contain commas, quotes and line breaks. */
+function parseCsv(text) {
+  const rows = [[]]
+  let cell = ''
+  let quoted = false
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i]
+    if (quoted && ch === '"' && text[i + 1] === '"') {
+      cell += '"'
+      i++
+    } else if (ch === '"') {
+      quoted = !quoted
+    } else if (!quoted && (ch === ',' || ch === '\n')) {
+      rows.at(-1).push(cell.replace(/\r$/, ''))
+      cell = ''
+      if (ch === '\n') rows.push([])
+    } else {
+      cell += ch
+    }
+  }
+  if (cell || rows.at(-1).length) rows.at(-1).push(cell)
+  else rows.pop()
+  const [columns, ...records] = rows
+  return records.map((r) => Object.fromEntries(columns.map((c, i) => [c, r[i]])))
+}
+const unmapped = parseCsv((await readFile(new URL('../docs/inventory/uncatalogued-areas.csv', import.meta.url), 'utf8')).replace(/^\uFEFF/, ''))
+const unmappedBy = {}
+for (const row of unmapped) unmappedBy[row.country_code] = (unmappedBy[row.country_code] ?? 0) + 1
 const sourceById = new Map(catalogue.sources.map((s) => [s.id, s]))
 
 const CATEGORY = {
@@ -35,6 +73,11 @@ const rows = catalogue.countries.map((country) => {
     areas,
     byCategory,
     national: areas.filter((t) => !['international-designation', 'proposed'].includes(t.inventory?.category)).length,
+    proposed: byCategory.proposed ?? 0,
+    international: byCategory['international-designation'] ?? 0,
+    context: ts.length - areas.length,
+    listed: research[country.code].areas.length,
+    unmapped: unmappedBy[country.code] ?? 0,
     ramsar: areas.filter((t) => has(t, 'ramsar')).length,
     whs: areas.filter((t) => has(t, 'world-heritage')).length,
     mab: areas.filter((t) => has(t, 'biosphere-reserve')).length,
@@ -44,6 +87,7 @@ const rows = catalogue.countries.map((country) => {
 })
 
 const total = rows.reduce((n, r) => n + r.areas.length, 0)
+const sum = (key) => rows.reduce((n, r) => n + r[key], 0)
 const lines = [
   '# Protected-area inventory and coverage report',
   '',
@@ -60,6 +104,19 @@ const lines = [
   ...rows.map((r) =>
     `| ${r.country.name} | ${GROUP[r.country.group]} | ${r.areas.length} | ${r.national} | ${r.ramsar} | ${r.whs} | ${r.mab} | ${r.legal} | ${r.country.inventory?.status === 'exhaustive' ? 'Exhaustive' : 'Partial'} |`,
   ),
+  '',
+  '## Reconciliation',
+  '',
+  'How the areas listed by the national sources reviewed relate to the records on the map. **Listed** is every nationally designated or proposed area found in the official or authoritative sources reviewed (the `areas` in `inventory/research/<country>.json`). Each listed area is either **mapped** (it is a catalogue record, or an extra designation on one) or **unmapped** (in `inventory/uncatalogued-areas.csv`, because no openly licensed location was found). The map also holds **international-only** records — Ramsar sites, World Heritage properties and biosphere reserves with no national designation documented on the record — which are not part of the national list.',
+  '',
+  '**Why mapped totals can exceed national counts.** A country\'s total of mapped records adds international-only records to the nationally designated or proposed ones, so it can be higher than the number of areas on the national list (for example Nigeria, Guinea and Uganda, which have many Ramsar sites). A biosphere reserve or a Ramsar site whose extent differs from a national area is a separate record linked as overlapping, not a second count of the same area. International designations are a different kind of status from national legal protection and are never counted as national protected areas. Conversely, a listed national area that shares a record with a Ramsar site is counted once on the map.',
+  '',
+  '| Country | Listed in sources reviewed | Mapped | Unmapped | Mapped records: national or community | Proposed | International-only | Total mapped records |',
+  '|---|---:|---:|---:|---:|---:|---:|---:|',
+  ...rows.map((r) => `| ${r.country.name} | ${r.listed} | ${r.listed - r.unmapped} | ${r.unmapped} | ${r.national} | ${r.proposed} | ${r.international} | ${r.areas.length} |`),
+  `| **Total** | **${sum('listed')}** | **${sum('listed') - sum('unmapped')}** | **${sum('unmapped')}** | **${sum('national')}** | **${sum('proposed')}** | **${sum('international')}** | **${total}** |`,
+  '',
+  `Not counted above: ${sum('context')} context record (an administrative region shown for orientation, not a protected area). Mapped listed areas equal national/community plus proposed records in every country except Liberia, where the proposed Marshall Wetlands protected area is recorded on its Ramsar site, an international-only record.`,
   '',
   '## Catalogued areas by protection category',
   '',
@@ -96,7 +153,7 @@ lines.push(
   '',
   "- Ramsar's annotated-list export has erroneous site-header coordinates for several sites. Each affected record says which coordinates are used: the site description's own, UNESCO's, or Wikidata's.",
   "- Habitat tags reflect terms named in the cited site summary, reviewed for false matches. They are not mapped ecosystem extents.",
-  '- Areas verified in an official list but without an openly licensed location are not mapped. They are listed in [`inventory/uncatalogued-areas.csv`](inventory/uncatalogued-areas.csv), together with candidate areas that are not yet verified.',
+  '- Areas verified in an official list but without an openly licensed location are not mapped. They are listed in [`inventory/uncatalogued-areas.csv`](inventory/uncatalogued-areas.csv). Every row there is verified in an official or authoritative source; proposed areas are listed with category `proposed`.',
   '- Conservation challenges, organisations and potential regenerative activities have been researched for Guinea-Bissau and for one area in each of the other 12 WASOP countries only.',
   '',
 )

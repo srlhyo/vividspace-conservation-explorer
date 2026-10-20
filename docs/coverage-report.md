@@ -22,7 +22,7 @@ Sources are national authorities, laws and government reports (found by desk res
 | Nigeria | WASOP | 28 | 11 | 16 | 0 | 1 | 11 | Partial |
 | Senegal | WASOP | 22 | 19 | 9 | 2 | 5 | 6 | Partial |
 | Sierra Leone | WASOP | 10 | 9 | 1 | 2 | 0 | 4 | Partial |
-| Togo | WASOP | 9 | 6 | 4 | 0 | 0 | 1 | Partial |
+| Togo | WASOP | 9 | 6 | 4 | 0 | 0 | 2 | Partial |
 | Angola | Additional | 11 | 10 | 1 | 0 | 0 | 10 | Partial |
 | Botswana | Additional | 11 | 10 | 1 | 1 | 0 | 10 | Partial |
 | Egypt | Additional | 23 | 20 | 4 | 1 | 2 | 20 | Partial |
@@ -32,6 +32,40 @@ Sources are national authorities, laws and government reports (found by desk res
 | São Tomé and Príncipe | Additional | 4 | 2 | 1 | 0 | 1 | 2 | Partial |
 | Tanzania | Additional | 40 | 31 | 4 | 4 | 5 | 17 | Partial |
 | Uganda | Additional | 35 | 22 | 12 | 2 | 2 | 16 | Partial |
+
+## Reconciliation
+
+How the areas listed by the national sources reviewed relate to the records on the map. **Listed** is every nationally designated or proposed area found in the official or authoritative sources reviewed (the `areas` in `inventory/research/<country>.json`). Each listed area is either **mapped** (it is a catalogue record, or an extra designation on one) or **unmapped** (in `inventory/uncatalogued-areas.csv`, because no openly licensed location was found). The map also holds **international-only** records — Ramsar sites, World Heritage properties and biosphere reserves with no national designation documented on the record — which are not part of the national list.
+
+**Why mapped totals can exceed national counts.** A country's total of mapped records adds international-only records to the nationally designated or proposed ones, so it can be higher than the number of areas on the national list (for example Nigeria, Guinea and Uganda, which have many Ramsar sites). A biosphere reserve or a Ramsar site whose extent differs from a national area is a separate record linked as overlapping, not a second count of the same area. International designations are a different kind of status from national legal protection and are never counted as national protected areas. Conversely, a listed national area that shares a record with a Ramsar site is counted once on the map.
+
+| Country | Listed in sources reviewed | Mapped | Unmapped | Mapped records: national or community | Proposed | International-only | Total mapped records |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Benin | 9 | 3 | 6 | 3 | 0 | 7 | 10 |
+| Cabo Verde | 47 | 20 | 27 | 20 | 0 | 5 | 25 |
+| Côte d'Ivoire | 26 | 17 | 9 | 16 | 1 | 7 | 24 |
+| The Gambia | 24 | 7 | 17 | 7 | 0 | 2 | 9 |
+| Ghana | 18 | 14 | 4 | 14 | 0 | 8 | 22 |
+| Guinea | 14 | 9 | 5 | 9 | 0 | 16 | 25 |
+| Guinea-Bissau | 11 | 6 | 5 | 6 | 0 | 3 | 9 |
+| Liberia | 16 | 6 | 10 | 4 | 1 | 4 | 9 |
+| Mauritania | 7 | 4 | 3 | 3 | 1 | 2 | 6 |
+| Nigeria | 18 | 11 | 7 | 11 | 0 | 17 | 28 |
+| Senegal | 28 | 19 | 9 | 19 | 0 | 3 | 22 |
+| Sierra Leone | 22 | 10 | 12 | 9 | 1 | 0 | 10 |
+| Togo | 14 | 6 | 8 | 6 | 0 | 3 | 9 |
+| Angola | 18 | 10 | 8 | 10 | 0 | 1 | 11 |
+| Botswana | 29 | 10 | 19 | 10 | 0 | 1 | 11 |
+| Egypt | 31 | 20 | 11 | 20 | 0 | 3 | 23 |
+| Gabon | 46 | 18 | 28 | 18 | 0 | 3 | 21 |
+| Mozambique | 16 | 11 | 5 | 11 | 0 | 3 | 14 |
+| Namibia | 166 | 15 | 151 | 15 | 0 | 5 | 20 |
+| São Tomé and Príncipe | 4 | 2 | 2 | 2 | 0 | 2 | 4 |
+| Tanzania | 124 | 31 | 93 | 31 | 0 | 9 | 40 |
+| Uganda | 31 | 22 | 9 | 22 | 0 | 13 | 35 |
+| **Total** | **719** | **271** | **448** | **266** | **4** | **117** | **387** |
+
+Not counted above: 1 context record (an administrative region shown for orientation, not a protected area). Mapped listed areas equal national/community plus proposed records in every country except Liberia, where the proposed Marshall Wetlands protected area is recorded on its Ramsar site, an international-only record.
 
 ## Catalogued areas by protection category
 
@@ -345,7 +379,7 @@ Gaps:
 
 ### Togo — partial (9 catalogued)
 
-The Ministère de l'Environnement et des Ressources Forestières (MERF) is responsible for PAs. Of 83 legally classified PAs (to 1990), a requalification programme (since 1999; décret 2003-237/PR) retained 10-14 priority PAs covering ~578,000 ha. No consolidated official list with legal acts exists in sources seen; records combine the government PoWPA table, NBSAP 2014, 6NR (2018) and the UICN 2008 RAPPAM. A new law on creation and management of PAs was adopted by the National Assembly in August 2026 (promulgation not verified). Comparison: the sources reviewed list 14 nationally designated or proposed areas; 5 are catalogued here, and 9 are verified but not yet mapped because no openly licensed location was found. The catalogue also holds 4 Ramsar sites for this country. Coverage has not been verified as exhaustive. Sources: [Gouvernement du Togo](https://www.cbd.int/doc/world/tg/tg-nbsap-powpa-fr.pdf); [Ministère de l'Environnement et des Ressources Forestières](https://www.cbd.int/doc/world/tg/tg-nbsap-v2-fr.pdf); [MERF, Togo](https://tg.chm-cbd.net/sites/tg/files/2023-07/Togo-6RN%20biodi%20corrig%C3%A9%20final.docx); [UICN/PACO](https://tg.chm-cbd.net/sites/tg/files/2023-07/Evaluation%20de%20l%27efficacit%C3%A9%20des%20Ap%20Togo%20RAPPAM.pdf).
+The Ministère de l'Environnement et des Ressources Forestières (MERF) is responsible for PAs. Of 83 legally classified PAs (to 1990), a requalification programme (since 1999; décret 2003-237/PR) retained 10-14 priority PAs covering ~578,000 ha. No consolidated official list with legal acts exists in sources seen; records combine the government PoWPA table, NBSAP 2014, 6NR (2018) and the UICN 2008 RAPPAM. A new law on creation and management of PAs was adopted by the National Assembly in August 2026 (promulgation not verified). Comparison: the sources reviewed list 14 nationally designated or proposed areas; 6 are catalogued here (1 as an extra designation on an already catalogued area), and 8 are verified but not yet mapped because no openly licensed location was found. The catalogue also holds 4 Ramsar sites for this country. Coverage has not been verified as exhaustive. Sources: [Gouvernement du Togo](https://www.cbd.int/doc/world/tg/tg-nbsap-powpa-fr.pdf); [Ministère de l'Environnement et des Ressources Forestières](https://www.cbd.int/doc/world/tg/tg-nbsap-v2-fr.pdf); [MERF, Togo](https://tg.chm-cbd.net/sites/tg/files/2023-07/Togo-6RN%20biodi%20corrig%C3%A9%20final.docx); [UICN/PACO](https://tg.chm-cbd.net/sites/tg/files/2023-07/Evaluation%20de%20l%27efficacit%C3%A9%20des%20Ap%20Togo%20RAPPAM.pdf).
 
 Stated official totals:
 
@@ -363,7 +397,7 @@ Gaps:
 - areaKm2 values were converted from hectares (1 km² = 100 ha) where the cited source gives hectares; source figures are quoted in notes where they conflict.
 - Not enumerated: forêts classées / other historical PAs (about 83) — Historical total of 83 classified areas (793,000 ha); many encroached and not requalified; no official current list.
 - Not enumerated: sacred forests and community forests — Numerous; PoWPA lists the sacred groves of Assévé and Godjinmé (10 ha) as priority, the 6NR names Akissa and Godjinmé; no official list.
-- 9 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.
+- 8 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.
 - WDPA/Protected Planet, the most complete global compilation, is not used because its licence does not allow redistribution here, so the catalogue cannot be compared with it.
 
 ### Angola — partial (11 catalogued)
@@ -611,5 +645,5 @@ Gaps:
 
 - Ramsar's annotated-list export has erroneous site-header coordinates for several sites. Each affected record says which coordinates are used: the site description's own, UNESCO's, or Wikidata's.
 - Habitat tags reflect terms named in the cited site summary, reviewed for false matches. They are not mapped ecosystem extents.
-- Areas verified in an official list but without an openly licensed location are not mapped. They are listed in [`inventory/uncatalogued-areas.csv`](inventory/uncatalogued-areas.csv), together with candidate areas that are not yet verified.
+- Areas verified in an official list but without an openly licensed location are not mapped. They are listed in [`inventory/uncatalogued-areas.csv`](inventory/uncatalogued-areas.csv). Every row there is verified in an official or authoritative source; proposed areas are listed with category `proposed`.
 - Conservation challenges, organisations and potential regenerative activities have been researched for Guinea-Bissau and for one area in each of the other 12 WASOP countries only.

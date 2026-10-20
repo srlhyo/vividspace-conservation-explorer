@@ -597,7 +597,7 @@
    "group": "wasop",
    "inventory": {
     "status": "partial",
-    "summary": "The Ministère de l'Environnement et des Ressources Forestières (MERF) is responsible for PAs. Of 83 legally classified PAs (to 1990), a requalification programme (since 1999; décret 2003-237/PR) retained 10-14 priority PAs covering ~578,000 ha. No consolidated official list with legal acts exists in sources seen; records combine the government PoWPA table, NBSAP 2014, 6NR (2018) and the UICN 2008 RAPPAM. A new law on creation and management of PAs was adopted by the National Assembly in August 2026 (promulgation not verified). Comparison: the sources reviewed list 14 nationally designated or proposed areas; 5 are catalogued here, and 9 are verified but not yet mapped because no openly licensed location was found. The catalogue also holds 4 Ramsar sites for this country. Coverage has not been verified as exhaustive.",
+    "summary": "The Ministère de l'Environnement et des Ressources Forestières (MERF) is responsible for PAs. Of 83 legally classified PAs (to 1990), a requalification programme (since 1999; décret 2003-237/PR) retained 10-14 priority PAs covering ~578,000 ha. No consolidated official list with legal acts exists in sources seen; records combine the government PoWPA table, NBSAP 2014, 6NR (2018) and the UICN 2008 RAPPAM. A new law on creation and management of PAs was adopted by the National Assembly in August 2026 (promulgation not verified). Comparison: the sources reviewed list 14 nationally designated or proposed areas; 6 are catalogued here (1 as an extra designation on an already catalogued area), and 8 are verified but not yet mapped because no openly licensed location was found. The catalogue also holds 4 Ramsar sites for this country. Coverage has not been verified as exhaustive.",
     "sourceIds": [
      "tgo-powpa",
      "tgo-nbsap-2014",
@@ -633,7 +633,7 @@
      "areaKm2 values were converted from hectares (1 km² = 100 ha) where the cited source gives hectares; source figures are quoted in notes where they conflict.",
      "Not enumerated: forêts classées / other historical PAs (about 83) — Historical total of 83 classified areas (793,000 ha); many encroached and not requalified; no official current list.",
      "Not enumerated: sacred forests and community forests — Numerous; PoWPA lists the sacred groves of Assévé and Godjinmé (10 ha) as priority, the 6NR names Akissa and Godjinmé; no official list.",
-     "9 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.",
+     "8 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.",
      "WDPA/Protected Planet, the most complete global compilation, is not used because its licence does not allow redistribution here, so the catalogue cannot be compared with it."
     ]
    }
@@ -7994,6 +7994,16 @@
      "sourceIds": [
       "ramsar-annotated-tg"
      ]
+    },
+    {
+     "text": "Listed as “Parc national” by Gouvernement du Togo (via CBD); MERF, Togo (hosted on Togo's national CBD CHM); UICN/PACO (hosted on Togo's national CBD Clearing-House Mechanism); Journal Officiel de la République Togolaise (via FAO FAOLEX).",
+     "evidence": "verified",
+     "sourceIds": [
+      "tgo-powpa",
+      "tgo-6nr",
+      "tgo-rappam-2008",
+      "tgo-keran-1973"
+     ]
     }
    ],
    "livelihoods": [],
@@ -8010,11 +8020,18 @@
    "verification": {
     "status": "partially-verified",
     "reviewed": "2026-10-20",
-    "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. National protected-area status is not recorded here unless a national source documents it. No conservation challenge, organisation or potential activity has been researched for this site."
+    "note": "Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary. National protected-area status is not recorded here unless a national source documents it. No conservation challenge, organisation or potential activity has been researched for this site. National designation from Gouvernement du Togo (via CBD); MERF, Togo (hosted on Togo's national CBD CHM); UICN/PACO (hosted on Togo's national CBD Clearing-House Mechanism); Journal Officiel de la République Togolaise (via FAO FAOLEX)."
    },
    "inventory": {
     "category": "national-park",
-    "legalStatus": null,
+    "legalStatus": {
+     "text": "Erected national park from the Kéran classified forest by décret n° 77-117 du 25 avril 1977 (per UICN 2008); earlier Réserve de chasse de la Kéran created by décret n° 73-139 du 9 juillet 1973.",
+     "evidence": "verified",
+     "sourceIds": [
+      "tgo-rappam-2008",
+      "tgo-keran-1973"
+     ]
+    },
     "sourceDate": "1995-07-04"
    }
   },

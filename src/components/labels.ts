@@ -58,6 +58,9 @@ export function kindBreakdown(items: { kind: TerritoryKind; count: number }[]): 
 export const kindBreakdownHint =
   'Record types used in this catalogue. Official designations (Ramsar site, national park, …) are shown on each area and in the Designation filter.'
 
+/** Designations conferred under international conventions or programmes; every other designation type is national. */
+export const internationalDesignationIds: ReadonlySet<string> = new Set(['ramsar', 'world-heritage', 'biosphere-reserve'])
+
 export const protectionCategoryLabel: Record<ProtectionCategory, string> = {
   'national-park': 'National park',
   'nature-reserve': 'Nature reserve',
