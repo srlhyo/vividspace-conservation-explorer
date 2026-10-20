@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import {
   attributeKeys,
+  countAreas,
   countByKind,
   filterOptions,
   filterTerritories,
@@ -14,7 +15,7 @@ import {
 import type { Catalogue, Country, CountryGroup, EvidenceLevel, Territory } from '../domain/types'
 import { EvidenceBadge } from './EvidenceBadge'
 import { GeometryGlyph } from './GeometryGlyph'
-import { internationalDesignationIds, kindBreakdown, kindBreakdownHint, territoryKindLabel } from './labels'
+import { contextSuffix, internationalDesignationIds, kindBreakdown, kindBreakdownHint, territoryKindLabel } from './labels'
 import { Chevron } from './panel/parts'
 
 interface SidebarProps {
@@ -122,7 +123,7 @@ export function Sidebar({
             <p className={`mt-1.5 text-[12.5px] font-semibold ${results.length === 0 ? 'text-clay' : 'text-ink'}`}>
               {results.length === 0
                 ? `No catalogued area ${scopeLabel} matches all selected filters`
-                : `${results.length} of ${scope.length} catalogued areas ${scopeLabel} match`}
+                : `${countAreas(results).areas} of ${countAreas(scope).areas} catalogued areas ${scopeLabel} match${contextSuffix(countAreas(results).context)}`}
             </p>
           )}
           {!filtersOpen && attributeFiltering && (
@@ -212,8 +213,7 @@ function CountryTree({
     if (reveal.length > 0) setExpanded((e) => new Set([...e, ...reveal]))
   }
   // The context region (an administrative area) is listed but is not a protected area.
-  const contextCount = catalogue.territories.filter((t) => t.inventory?.category === 'context').length
-  const areaCount = catalogue.territories.length - contextCount
+  const { areas: areaCount, context: contextCount } = countAreas(catalogue.territories)
 
   const toggleExpanded = (code: string) =>
     setExpanded((e) => {
@@ -254,6 +254,9 @@ function CountryTree({
               {members.map((country) => {
                 const own = catalogue.territories.filter((t) => t.countryCode === country.code)
                 const shown = own.filter((t) => matching.has(t.id))
+                // Counts are conservation areas; a listed context region is not counted.
+                const ownAreas = countAreas(own).areas
+                const shownAreas = countAreas(shown).areas
                 const open = expanded.has(country.code)
                 const isSelected = country.code === selectedCountry?.code
                 const noMatch = filtering && shown.length === 0
@@ -295,7 +298,7 @@ function CountryTree({
                             filtering && shown.length > 0 ? 'rounded-full bg-forest-soft px-1.5 font-semibold text-forest' : 'text-ink-muted',
                           ].join(' ')}
                         >
-                          {own.length === 0 ? 'no areas yet' : filtering ? `${shown.length} of ${own.length}` : own.length}
+                          {own.length === 0 ? 'no areas yet' : filtering ? `${shownAreas} of ${ownAreas}` : ownAreas}
                         </span>
                       </button>
                     </div>
@@ -344,7 +347,15 @@ function CountryAreas({
       ...own.filter((t) => t.parentId === root.id).map((territory) => ({ territory, depth: 1 })),
     ])
     .filter(({ territory }) => keep(territory))
-  const hidden = own.length - shown.length
+  const ownCount = countAreas(own)
+  const shownCount = countAreas(shown)
+  const hidden = { areas: ownCount.areas - shownCount.areas, context: ownCount.context - shownCount.context }
+  const hiddenText = [
+    hidden.areas > 0 && `${hidden.areas} more ${hidden.areas === 1 ? 'area' : 'areas'}`,
+    hidden.context > 0 && `${hidden.context} context region${hidden.context === 1 ? '' : 's'}`,
+  ]
+    .filter(Boolean)
+    .join(' and ')
 
   return (
     <div className="mb-2 ml-3 border-l border-line pl-2">
@@ -370,9 +381,9 @@ function CountryAreas({
           ))}
         </ul>
       )}
-      {hidden > 0 && rows.length > 0 && (
+      {hiddenText && rows.length > 0 && (
         <p className="px-2 pt-1 text-[11.5px] text-ink-muted">
-          {hidden} more {hidden === 1 ? 'area does' : 'areas do'} not match the current filters.
+          {hiddenText} {hidden.areas + hidden.context === 1 ? 'does' : 'do'} not match the current filters.
         </p>
       )}
     </div>
@@ -459,7 +470,7 @@ function FilterGroup({
         ].join(' ')}
       >
         {o.label}
-        <span className={on ? 'text-white/75' : 'text-ink-muted/70'}>{all ? 'all' : o.available}</span>
+        <span className={on ? 'text-white/75' : 'text-ink-muted/70'}>{all ? 'all' : o.availableAreas}</span>
       </button>
     )
   }

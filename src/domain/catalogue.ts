@@ -75,6 +75,8 @@ export interface FilterOption {
   total: number
   /** Territories that would match if this option were toggled on, given the other groups. */
   available: number
+  /** The same, counting conservation areas only (context records left out); shown to users. */
+  availableAreas: number
   /**
    * True when every territory matching the other groups has this value, so selecting it on its
    * own would not narrow the results.
@@ -108,6 +110,7 @@ export function filterOptions(
       label,
       total: catalogue.territories.filter((t) => territoryValues(catalogue, t, key).has(id)).length,
       available: candidates.filter((t) => territoryValues(catalogue, t, key).has(id)).length,
+      availableAreas: candidates.filter((t) => isConservationArea(t) && territoryValues(catalogue, t, key).has(id)).length,
     }))
     .map((o) => ({ ...o, coversAll: candidates.length > 0 && o.available === candidates.length }))
     .filter((o) => o.total > 0)
@@ -281,6 +284,20 @@ export function hasAttributeFilters(filters: TerritoryFilters): boolean {
 /** Territories within the selected countries only (all territories when none is selected). */
 export function territoriesInScope(catalogue: Catalogue, filters: TerritoryFilters): Territory[] {
   return filterTerritories(catalogue, { ...emptyFilters, countries: filters.countries })
+}
+
+/**
+ * Whether a territory counts as a catalogued conservation area. Context records (an administrative
+ * region shown for orientation) stay listed, filterable and selectable, but are left out of area counts.
+ */
+export function isConservationArea(territory: Territory): boolean {
+  return territory.inventory?.category !== 'context'
+}
+
+/** Catalogued conservation areas and context records among `territories`, counted separately. */
+export function countAreas(territories: Territory[]): { areas: number; context: number } {
+  const areas = territories.filter(isConservationArea).length
+  return { areas, context: territories.length - areas }
 }
 
 /** How many territories of each kind, most frequent first. */

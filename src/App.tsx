@@ -11,12 +11,14 @@ import { createStaticRepository, type BoundaryLayers } from './data/repository'
 import { useExplorerData } from './data/useExplorerData'
 import {
   attributeKeys,
+  countAreas,
   countByKind,
   emptyFilters,
   filterOptions,
   filterTerritories,
   hasActiveFilters,
   hasAttributeFilters,
+  isConservationArea,
   territoriesInScope,
   getTerritoryProfile,
   toggleFilter,
@@ -60,7 +62,10 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
   const countryCounts = useMemo(
     () =>
       Object.fromEntries(
-        catalogue.countries.map((c) => [c.code, catalogue.territories.filter((t) => t.countryCode === c.code).length]),
+        catalogue.countries.map((c) => [
+          c.code,
+          catalogue.territories.filter((t) => t.countryCode === c.code && isConservationArea(t)).length,
+        ]),
       ),
     [catalogue],
   )
@@ -128,16 +133,16 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
             {selectedCountry && !profile && (
               <CountryCard
                 name={selectedCountry.name}
-                count={scope.length}
-                breakdown={kindBreakdown(countByKind(scope))}
+                count={countAreas(scope)}
+                breakdown={kindBreakdown(countByKind(scope.filter(isConservationArea)))}
                 inventory={selectedCountry.inventory}
                 onClose={() => selectCountry(null)}
               />
             )}
             {attributeFiltering && (
               <FilterSummary
-                matching={results.length}
-                total={scope.length}
+                matching={countAreas(results)}
+                total={countAreas(scope).areas}
                 scopeLabel={scopeLabel}
                 labels={filterLabels}
                 onClear={clearFilters}

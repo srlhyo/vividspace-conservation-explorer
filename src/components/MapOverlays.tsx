@@ -1,6 +1,6 @@
 import { palette } from '../map/palette'
 import type { CountryInventory } from '../domain/types'
-import { kindBreakdownHint } from './labels'
+import { contextSuffix, kindBreakdownHint } from './labels'
 /** Compact single-row legend; explains what boundaries and points do and do not represent. */
 export function MapLegend({ filtersActive = false }: { filtersActive?: boolean }) {
   return (
@@ -39,7 +39,8 @@ export function FilterSummary({
   labels,
   onClear,
 }: {
-  matching: number
+  /** Matching conservation areas, and matching context records (counted apart). */
+  matching: { areas: number; context: number }
   /** Catalogued areas in the current scope (selected country or whole region). */
   total: number
   /** e.g. "in Senegal" or "across 22 countries". */
@@ -50,12 +51,12 @@ export function FilterSummary({
   return (
     <div className="pointer-events-auto flex max-w-md items-start gap-3 rounded-2xl bg-white/95 px-4 py-2 text-[12px] leading-snug text-ink shadow-card ring-1 ring-line backdrop-blur">
       <p className="min-w-0">
-        {matching === 0 ? (
+        {matching.areas + matching.context === 0 ? (
           <span className="font-semibold text-clay">No catalogued area {scopeLabel} matches all selected filters.</span>
         ) : (
           <>
             <span className="font-semibold">
-              {matching} of {total} catalogued areas {scopeLabel} match
+              {matching.areas} of {total} catalogued areas {scopeLabel} match{contextSuffix(matching.context)}
             </span>{' '}
             <span className="text-ink-muted">· others are shown in grey</span>
           </>
@@ -78,7 +79,8 @@ export function CountryCard({
   onClose,
 }: {
   name: string
-  count: number
+  /** Conservation areas, and context records (counted apart). */
+  count: { areas: number; context: number }
   breakdown: string
   inventory?: CountryInventory
   onClose: () => void
@@ -88,7 +90,8 @@ export function CountryCard({
       <p className="min-w-0">
         <span className="font-display text-[14px] font-semibold">{name}</span>
         <span className="ml-1.5 font-semibold">
-          · {count === 0 ? 'no catalogued areas yet' : `${count} catalogued area${count === 1 ? '' : 's'}`}
+          · {count.areas === 0 ? 'no catalogued areas yet' : `${count.areas} catalogued area${count.areas === 1 ? '' : 's'}`}
+          {contextSuffix(count.context)}
         </span>
         {breakdown && (
           <span className="mt-0.5 block text-ink-muted" title={kindBreakdownHint}>

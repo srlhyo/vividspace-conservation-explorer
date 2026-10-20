@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import {
+  countAreas,
   countByKind,
   emptyFilters,
   hasAttributeFilters,
@@ -215,6 +216,15 @@ describe('country scope', () => {
       { kind: 'protected-area', count: 2 },
       { kind: 'ramsar-site', count: 1 },
     ])
+  })
+
+  it('counts a context region apart from conservation areas, without filtering it out', () => {
+    const region = { ...fixture.territories[0], inventory: { category: 'context' as const, legalStatus: null } }
+    const withRegion: Catalogue = { ...fixture, territories: [region, ...fixture.territories.slice(1)] }
+    expect(countAreas(withRegion.territories)).toEqual({ areas: 2, context: 1 })
+    expect(ids(filterTerritories(withRegion, { ...emptyFilters, ecosystems: ['mangrove'] }))).toContain('a')
+    const mangrove = filterOptions(withRegion, emptyFilters, 'ecosystems').find((o) => o.id === 'mangrove')!
+    expect(mangrove.availableAreas).toBe(mangrove.available - 1)
   })
 })
 
