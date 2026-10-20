@@ -1,0 +1,1975 @@
+[
+ {
+  "number": 1017,
+  "code": "BEN",
+  "name": "Basse Vallée du Couffo, Lagune Côtiere, Chenal Aho, Lac Ahémé",
+  "region": null,
+  "area_ha": "524,289",
+  "designated": "24-01-2000",
+  "lat": 6.79361,
+  "lon": 1.85361,
+  "coords": "06°47'37\"N 01°51'13\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "coastal-lagoon",
+   "lakes",
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1669,
+  "code": "BEN",
+  "name": "Zone Humide de la Rivière Pendjari",
+  "region": null,
+  "area_ha": "483,366",
+  "designated": "02-02-2007",
+  "lat": 11.14444,
+  "lon": 1.55472,
+  "coords": "11°08'40\"N 01°33'17\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1668,
+  "code": "BEN",
+  "name": "Site Ramsar du Complexe W",
+  "region": null,
+  "area_ha": "926,927",
+  "designated": "02-02-2007",
+  "lat": 11.68694,
+  "lon": 2.6875,
+  "coords": "11°41'13\"N 02°41'15\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1018,
+  "code": "BEN",
+  "name": "Basse Vallée de l'Ouémé, Lagune de Porto-Novo, Lac Nokoué",
+  "region": null,
+  "area_ha": "652,760",
+  "designated": "24-01-2000",
+  "lat": 6.75389,
+  "lon": 2.41306,
+  "coords": "06°45'14\"N 02°24'47\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "coastal-lagoon",
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1577,
+  "code": "CPV",
+  "name": "Lagoa de Pedra Badejo",
+  "region": "Island of Santiago",
+  "area_ha": "666",
+  "designated": "18-07-2005",
+  "lat": 15.09972,
+  "lon": -23.53667,
+  "coords": "15°05'59\"N 23°32'12\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "estuarine",
+   "coastal-lagoon",
+   "sandy-beaches"
+  ]
+ },
+ {
+  "number": 2182,
+  "code": "CPV",
+  "name": "Salinas of the English Port",
+  "region": "Maio",
+  "area_ha": "535",
+  "designated": "03-07-2013",
+  "lat": 15.15667,
+  "lon": -23.22667,
+  "coords": "15°09'24\"N 23°13'36\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon",
+   "sandy-beaches"
+  ]
+ },
+ {
+  "number": 1576,
+  "code": "CPV",
+  "name": "Lagoa de Rabil",
+  "region": "Island of Boa Vista",
+  "area_ha": "113",
+  "designated": "18-07-2005",
+  "lat": 16.15,
+  "lon": -22.89917,
+  "coords": "16°09'N 22°53'57\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon"
+  ]
+ },
+ {
+  "number": 1575,
+  "code": "CPV",
+  "name": "Curral Velho",
+  "region": "Isla de Boa Vista",
+  "area_ha": "986",
+  "designated": "18-07-2005",
+  "lat": 16.00417,
+  "lon": -22.75917,
+  "coords": "16°00'15\"N 22°45'33\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon",
+   "sandy-beaches"
+  ]
+ },
+ {
+  "number": 1584,
+  "code": "CIV",
+  "name": "Iles Ehotilé-Essouman",
+  "region": "Sud-Comoé",
+  "area_ha": "27,274",
+  "designated": "18-10-2005",
+  "lat": 5.15722,
+  "lon": -3.22,
+  "coords": "05°09'26\"N 03°13'12\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon"
+  ]
+ },
+ {
+  "number": 1581,
+  "code": "CIV",
+  "name": "Complexe Sassandra-Dagbego",
+  "region": "Bas-Sassandra",
+  "area_ha": "10,551",
+  "designated": "18-10-2005",
+  "lat": 4.96667,
+  "lon": -6.03333,
+  "coords": "004°58'N 006°02'W",
+  "coordSource": "description",
+  "headerCoords": "45°18'N 100°06'59\"E",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine",
+   "coastal-lagoon",
+   "sandy-beaches",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1583,
+  "code": "CIV",
+  "name": "Grand Bassam",
+  "region": "Sud-Comoé",
+  "area_ha": "40,210",
+  "designated": "18-10-2005",
+  "lat": 5.35,
+  "lon": -3.76667,
+  "coords": "05°21'N 003°46'W",
+  "coordSource": "description",
+  "headerCoords": "53°56'39\"N 24°33'28\"E",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 790,
+  "code": "CIV",
+  "name": "Parc National d’Azagny",
+  "region": "Région des Grands Ponts",
+  "area_ha": "19,400",
+  "designated": "27-02-1996",
+  "lat": 5.2125,
+  "lon": -4.87194,
+  "coords": "05°12'45\"N 04°52'19\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "coastal-lagoon",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1582,
+  "code": "CIV",
+  "name": "Fresco",
+  "region": "Sud-Bandama",
+  "area_ha": "15,507",
+  "designated": "18-10-2005",
+  "lat": 5.11,
+  "lon": -5.57833,
+  "coords": "05°06'36\"N 05°34'42\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon",
+   "sandy-beaches"
+  ]
+ },
+ {
+  "number": 1585,
+  "code": "CIV",
+  "name": "N'Ganda N'Ganda",
+  "region": "Sud-Comoé",
+  "area_ha": "14,402",
+  "designated": "18-10-2005",
+  "lat": 5.16667,
+  "lon": -3.4,
+  "coords": "05°10'N 03°24'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "coastal-lagoon"
+  ]
+ },
+ {
+  "number": 1657,
+  "code": "GMB",
+  "name": "Tanbi Wetlands Complex",
+  "region": "Brikama, Kanifing, Banjul",
+  "area_ha": "6,304",
+  "designated": "02-02-2007",
+  "lat": 13.43306,
+  "lon": -16.63306,
+  "coords": "13°25'59\"N 16°37'59\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 860,
+  "code": "GMB",
+  "name": "Baobolon Wetland Reserve",
+  "region": "North Bank Division",
+  "area_ha": "20,000",
+  "designated": "16-09-1996",
+  "lat": 13.51667,
+  "lon": -15.86667,
+  "coords": "13°31'N 15°52'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 1840,
+  "code": "GMB",
+  "name": "Niumi National Park",
+  "region": "Lower Niumi District, North Bank Region",
+  "area_ha": "4,940",
+  "designated": "13-10-2008",
+  "lat": 52.94222,
+  "lon": 122.66528,
+  "coords": "52°56'32\"N 122°39'55\"E",
+  "coordSource": null,
+  "habitatTerms": [
+   "mangrove",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 565,
+  "code": "GHA",
+  "name": "Sakumo Ramsar Site",
+  "region": "Greater Accra Region",
+  "area_ha": "1,364",
+  "designated": "14-08-1992",
+  "lat": 5.63972,
+  "lon": -0.04083,
+  "coords": "05°38'23\"N 00°02'27\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 564,
+  "code": "GHA",
+  "name": "Densu Delta Ramsar Site",
+  "region": "Greater Accra Region",
+  "area_ha": "5,893",
+  "designated": "14-08-1992",
+  "lat": 5.52972,
+  "lon": -0.3275,
+  "coords": "05°31'47\"N 00°19'39\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine",
+   "coastal-lagoon",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 393,
+  "code": "GHA",
+  "name": "Owabi Wildlife Sanctuary Ramsar Site",
+  "region": "Ashanti Region",
+  "area_ha": "1,310",
+  "designated": "22-02-1988",
+  "lat": 6.73417,
+  "lon": -1.68611,
+  "coords": "06°44'03\"N 01°41'10\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 563,
+  "code": "GHA",
+  "name": "Muni-Pomadze Ramsar Site",
+  "region": "Central Region",
+  "area_ha": "9,461",
+  "designated": "14-08-1992",
+  "lat": 10.98,
+  "lon": 79.04556,
+  "coords": "10°58'48\"N 79°02'44\"E",
+  "coordSource": null,
+  "habitatTerms": [
+   "mangrove",
+   "coastal-lagoon",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 567,
+  "code": "GHA",
+  "name": "Keta Lagoon Complex Ramsar Site",
+  "region": "Volta Region",
+  "area_ha": "136,000",
+  "designated": "14-08-1992",
+  "lat": 5.93917,
+  "lon": 0.83333,
+  "coords": "05°56'21\"N 00°50'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "coastal-lagoon",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 566,
+  "code": "GHA",
+  "name": "Songor Ramsar Site",
+  "region": "Greater Accra Region",
+  "area_ha": "51,133",
+  "designated": "14-08-1992",
+  "lat": 5.86111,
+  "lon": 0.53583,
+  "coords": "05°51'40\"N 00°32'09\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine",
+   "coastal-lagoon",
+   "sandy-beaches",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2230,
+  "code": "GNB",
+  "name": "Lagune de Wendu Tcham",
+  "region": "Région de Gabú, secteur administratif de Boé",
+  "area_ha": "14,970",
+  "designated": "22-05-2015",
+  "lat": 11.86111,
+  "lon": -14.15944,
+  "coords": "11°51'40\"N 14°09'34\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon",
+   "lakes"
+  ]
+ },
+ {
+  "number": 2198,
+  "code": "GNB",
+  "name": "Archipel Bolama-Bijagós",
+  "region": "Bolama Region",
+  "area_ha": "1,046,950",
+  "designated": "14-01-2014",
+  "lat": 11.23889,
+  "lon": -16.04056,
+  "coords": "11°14'20\"N 16°02'26\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 2229,
+  "code": "GNB",
+  "name": "Parc Naturel des Mangroves du Fleuve Cacheu (PNTC)",
+  "region": "Région administrative de Cacheu",
+  "area_ha": "88,615",
+  "designated": "22-05-2015",
+  "lat": 12.29444,
+  "lon": -16.19389,
+  "coords": "12°17'40\"N 16°11'38\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats"
+  ]
+ },
+ {
+  "number": 469,
+  "code": "GNB",
+  "name": "Lagoa de Cufada",
+  "region": "Quinara",
+  "area_ha": "39,098",
+  "designated": "14-05-1990",
+  "lat": 11.71667,
+  "lon": -15.03306,
+  "coords": "11°43'N 15°01'59\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "coastal-lagoon",
+   "lakes",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1719,
+  "code": "GIN",
+  "name": "Bafing-Falémé",
+  "region": "9",
+  "area_ha": "517,300",
+  "designated": "16-10-2007",
+  "lat": 12.0,
+  "lon": -11.5,
+  "coords": "12°00'N 11°30'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1167,
+  "code": "GIN",
+  "name": "Sankarani-Fié",
+  "region": "Préf. de Kankan",
+  "area_ha": "1,656,000",
+  "designated": "17-01-2002",
+  "lat": 10.33056,
+  "lon": -8.54861,
+  "coords": "10°19'50\"N 08°32'55\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1578,
+  "code": "GIN",
+  "name": "Gambie-Koulountou",
+  "region": "Boké",
+  "area_ha": "368,193",
+  "designated": "14-11-2005",
+  "lat": 12.35222,
+  "lon": -13.04583,
+  "coords": "12°21'08\"N 13°02'45\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains"
+  ]
+ },
+ {
+  "number": 572,
+  "code": "GIN",
+  "name": "Iles Tristao",
+  "region": null,
+  "area_ha": "85,000",
+  "designated": "18-11-1992",
+  "lat": 10.91639,
+  "lon": -15.0,
+  "coords": "10°54'59\"N 15°00'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 575,
+  "code": "GIN",
+  "name": "Konkouré",
+  "region": "Dubréka,Conakry,Koba-Tatéma",
+  "area_ha": "90,000",
+  "designated": "18-11-1992",
+  "lat": 9.75,
+  "lon": -13.68333,
+  "coords": "09°45'N 13°41'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 618,
+  "code": "GIN",
+  "name": "Ile Blanche",
+  "region": null,
+  "area_ha": "10",
+  "designated": "23-06-1993",
+  "lat": 9.43333,
+  "lon": -13.76667,
+  "coords": "09°26'N 13°46'W",
+  "coordSource": "header",
+  "habitatTerms": []
+ },
+ {
+  "number": 1165,
+  "code": "GIN",
+  "name": "Niger Source",
+  "region": "Préf. de Faranah",
+  "area_ha": "180,400",
+  "designated": "17-01-2002",
+  "lat": 9.33333,
+  "lon": -10.66639,
+  "coords": "09°20'N 10°39'59\"W",
+  "coordSource": "header",
+  "habitatTerms": []
+ },
+ {
+  "number": 1163,
+  "code": "GIN",
+  "name": "Niger-Mafou",
+  "region": "Préf. de Kouroussa, Préf. de Faranah",
+  "area_ha": "1,015,450",
+  "designated": "17-01-2002",
+  "lat": 9.88306,
+  "lon": -10.61667,
+  "coords": "09°52'59\"N 10°37'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1579,
+  "code": "GIN",
+  "name": "Gambie-Oundou-Liti",
+  "region": "Labé",
+  "area_ha": "527,400",
+  "designated": "14-11-2005",
+  "lat": 11.55,
+  "lon": -12.3,
+  "coords": "11°33'N 12°18'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1168,
+  "code": "GIN",
+  "name": "Tinkisso",
+  "region": "Préf. de Dabola,Préf. de Dinguiraye,Préf. de Kouro",
+  "area_ha": "1,228,995",
+  "designated": "17-01-2002",
+  "lat": 10.31639,
+  "lon": 79.63333,
+  "coords": "10°18'59\"N 79°38'E",
+  "coordSource": null,
+  "habitatTerms": []
+ },
+ {
+  "number": 1166,
+  "code": "GIN",
+  "name": "Niger-Tinkisso",
+  "region": "Préf. de Siguiri, Préf. de Kankan, Préf. de Mandia",
+  "area_ha": "400,600",
+  "designated": "17-01-2002",
+  "lat": 11.33333,
+  "lon": -9.25,
+  "coords": "11°20'N 09°15'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1164,
+  "code": "GIN",
+  "name": "Niger-Niandan-Milo",
+  "region": "Gouvernorat de la Région Admin. de Kankan",
+  "area_ha": "1,399,046",
+  "designated": "17-01-2002",
+  "lat": 10.41028,
+  "lon": -9.44861,
+  "coords": "10°24'37\"N 09°26'55\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 574,
+  "code": "GIN",
+  "name": "Rio Pongo",
+  "region": "Boké",
+  "area_ha": "600,571",
+  "designated": "18-11-1992",
+  "lat": 10.5275,
+  "lon": -13.74028,
+  "coords": "10°31'39\"N 13°44'25\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 571,
+  "code": "GIN",
+  "name": "Ile Alcatraz",
+  "region": "Kamsar,Boke",
+  "area_ha": "1",
+  "designated": "18-11-1992",
+  "lat": 10.63306,
+  "lon": -15.38306,
+  "coords": "10°37'59\"N 15°22'59\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "intertidal-flats",
+   "shallow-marine"
+  ]
+ },
+ {
+  "number": 573,
+  "code": "GIN",
+  "name": "Rio Kapatchez",
+  "region": "Boke",
+  "area_ha": "679,280",
+  "designated": "18-11-1992",
+  "lat": 10.7575,
+  "lon": -14.25583,
+  "coords": "10°45'27\"N 14°15'21\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1720,
+  "code": "GIN",
+  "name": "Bafing-Source",
+  "region": "9",
+  "area_ha": "317,200",
+  "designated": "16-10-2007",
+  "lat": 10.46667,
+  "lon": -11.93306,
+  "coords": "10°28'N 11°55'59\"W",
+  "coordSource": "header",
+  "habitatTerms": []
+ },
+ {
+  "number": 1628,
+  "code": "LBR",
+  "name": "Gbedin Wetlands",
+  "region": "Nimba county",
+  "area_ha": "25",
+  "designated": "24-08-2006",
+  "lat": 7.26667,
+  "lon": -8.8,
+  "coords": "07°16'N 08°48'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1306,
+  "code": "LBR",
+  "name": "Lake Piso",
+  "region": "Gawulu-Tombe district",
+  "area_ha": "76,091",
+  "designated": "02-07-2003",
+  "lat": 6.75,
+  "lon": -11.21667,
+  "coords": "06°45'N 011°13'W",
+  "coordSource": "description",
+  "headerCoords": "02°22'45\"N 10°33'12\"E",
+  "habitatTerms": [
+   "mangrove",
+   "coastal-lagoon",
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1630,
+  "code": "LBR",
+  "name": "Marshall Wetlands",
+  "region": "Margibi county",
+  "area_ha": "12,168",
+  "designated": "24-08-2006",
+  "lat": 6.13306,
+  "lon": -10.36667,
+  "coords": "06°07'59\"N 10°22'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove"
+  ]
+ },
+ {
+  "number": 1631,
+  "code": "LBR",
+  "name": "Mesurado Wetlands",
+  "region": "Montserrado county",
+  "area_ha": "6,760",
+  "designated": "24-08-2006",
+  "lat": 6.3,
+  "lon": -10.75,
+  "coords": "06°18'N 10°45'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove"
+  ]
+ },
+ {
+  "number": 1629,
+  "code": "LBR",
+  "name": "Kpatawee Wetlands",
+  "region": "Bong county",
+  "area_ha": "835",
+  "designated": "24-08-2006",
+  "lat": 7.11667,
+  "lon": -9.63306,
+  "coords": "07°07'N 09°37'59\"W",
+  "coordSource": "header",
+  "habitatTerms": []
+ },
+ {
+  "number": 250,
+  "code": "MRT",
+  "name": "Parc National du Banc d'Arguin",
+  "region": "Wilaya de Dakhlet Nouadhibou",
+  "area_ha": "1,200,000",
+  "designated": "22-10-1982",
+  "lat": 20.07222,
+  "lon": -16.39333,
+  "coords": "20°04'20\"N 16°23'36\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "seagrass",
+   "shallow-marine"
+  ]
+ },
+ {
+  "number": 1044,
+  "code": "MRT",
+  "name": "Chat Tboul",
+  "region": "Willaya du Trarza",
+  "area_ha": "15,500",
+  "designated": "10-11-2000",
+  "lat": 16.55,
+  "lon": -16.4,
+  "coords": "16°33'N 16°24'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "intertidal-flats",
+   "estuarine",
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1854,
+  "code": "MRT",
+  "name": "Lac Gabou et le réseau hydrographique du Plateau du Tagant",
+  "region": "Wilaya de Tagant",
+  "area_ha": "9,500",
+  "designated": "13-02-2009",
+  "lat": 17.93306,
+  "lon": -11.86667,
+  "coords": "17°55'59\"N 11°52'W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon",
+   "lakes"
+  ]
+ },
+ {
+  "number": 666,
+  "code": "MRT",
+  "name": "Parc National du Diawling",
+  "region": "Willaya du Trarza",
+  "area_ha": "15,600",
+  "designated": "23-08-1994",
+  "lat": 16.3575,
+  "lon": -16.37639,
+  "coords": "16°21'27\"N 16°22'35\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine",
+   "coastal-lagoon",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1752,
+  "code": "NGA",
+  "name": "Baturiya Wetland",
+  "region": "Kano State",
+  "area_ha": "101,095",
+  "designated": "30-04-2008",
+  "lat": 12.51667,
+  "lon": 10.48333,
+  "coords": "12°31'N 010°29'E",
+  "coordSource": "description",
+  "headerCoords": "57°08'41\"N 16°23'41\"E",
+  "habitatTerms": [
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1753,
+  "code": "NGA",
+  "name": "Dagona Sanctuary Lake",
+  "region": "Yobe State",
+  "area_ha": "344",
+  "designated": "30-04-2008",
+  "lat": 12.8175,
+  "lon": 10.745,
+  "coords": "12°49'03\"N 10°44'42\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1749,
+  "code": "NGA",
+  "name": "Lake Chad Wetlands in Nigeria",
+  "region": "Borno State",
+  "area_ha": "607,354",
+  "designated": "30-04-2008",
+  "lat": 13.07667,
+  "lon": 13.80056,
+  "coords": "13°04'36\"N 13°48'02\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1039,
+  "code": "NGA",
+  "name": "Nguru Lake (and Marma Channel) complex",
+  "region": "Jigawa,Yobe",
+  "area_ha": "58,100",
+  "designated": "02-10-2000",
+  "lat": 10.36667,
+  "lon": 12.76667,
+  "coords": "10°22'N 12°46'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1757,
+  "code": "NGA",
+  "name": "Oguta Lake",
+  "region": "Imo State",
+  "area_ha": "572",
+  "designated": "30-04-2008",
+  "lat": 5.70361,
+  "lon": 6.80083,
+  "coords": "05°42'13\"N 06°48'03\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1758,
+  "code": "NGA",
+  "name": "Pandam and Wase Lakes",
+  "region": "Nasarawa State",
+  "area_ha": "19,742",
+  "designated": "30-04-2008",
+  "lat": 8.71194,
+  "lon": 8.98694,
+  "coords": "08°42'43\"N 08°59'13\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1759,
+  "code": "NGA",
+  "name": "Upper Orashi Forests",
+  "region": "Rivers State",
+  "area_ha": "25,165",
+  "designated": "30-04-2008",
+  "lat": 4.88333,
+  "lon": 6.5,
+  "coords": "04°53'N 006°30'E",
+  "coordSource": "description",
+  "headerCoords": "19°01'53\"S 44°23'51\"E",
+  "habitatTerms": [
+   "estuarine",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1756,
+  "code": "NGA",
+  "name": "Maladumba Lake",
+  "region": "Bauchi State",
+  "area_ha": "1,860",
+  "designated": "30-04-2008",
+  "lat": 10.4,
+  "lon": 9.85,
+  "coords": "10°24'N 09°51'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 1751,
+  "code": "NGA",
+  "name": "Apoi Creek Forests",
+  "region": "Bayelsa State",
+  "area_ha": "29,213",
+  "designated": "30-04-2008",
+  "lat": 4.70472,
+  "lon": 5.79167,
+  "coords": "04°42'17\"N 05°47'30\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1755,
+  "code": "NGA",
+  "name": "Lower Kaduna-Middle Niger Floodplain",
+  "region": "Niger State and Kwara State",
+  "area_ha": "229,054",
+  "designated": "30-04-2008",
+  "lat": 8.86722,
+  "lon": 5.76028,
+  "coords": "08°52'02\"N 05°45'37\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1754,
+  "code": "NGA",
+  "name": "Foge Islands",
+  "region": "Niger State and Kebbi State",
+  "area_ha": "4,229",
+  "designated": "30-04-2008",
+  "lat": 10.51889,
+  "lon": 4.56389,
+  "coords": "10°31'08\"N 04°33'50\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 2563,
+  "code": "NGA",
+  "name": "Osun-Oshogbo Sacred Grove",
+  "region": "South-Western Geopolitical Zone",
+  "area_ha": "54",
+  "designated": "01-03-2024",
+  "lat": 27.35167,
+  "lon": 88.18361,
+  "coords": "27°21'06\"N 88°11'01\"E",
+  "coordSource": null,
+  "habitatTerms": []
+ },
+ {
+  "number": 2564,
+  "code": "NGA",
+  "name": "Ebute Oni coastal Wetland",
+  "region": "Ijebu Waterside Local Government Area",
+  "area_ha": "103",
+  "designated": "01-03-2024",
+  "lat": 6.56028,
+  "lon": 4.22778,
+  "coords": "06°33'37\"N 04°13'40\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2550,
+  "code": "NGA",
+  "name": "Ado-Awaye (Iyake) Suspended Lake Wetland",
+  "region": "Oyo State",
+  "area_ha": "165",
+  "designated": "01-03-2024",
+  "lat": 7.82194,
+  "lon": 3.43806,
+  "coords": "07°49'19\"N 03°26'17\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 2565,
+  "code": "NGA",
+  "name": "Arinta Waterfall",
+  "region": "South West Geopolitical Zone",
+  "area_ha": "181",
+  "designated": "01-03-2024",
+  "lat": 7.55028,
+  "lon": 4.92861,
+  "coords": "07°33'01\"N 04°55'43\"E",
+  "coordSource": "header",
+  "habitatTerms": []
+ },
+ {
+  "number": 2575,
+  "code": "NGA",
+  "name": "Yemoji Lake Ijebu Ode",
+  "region": "Ijebu Ode local Government Area, Ogun State, Nigeria",
+  "area_ha": "184",
+  "designated": "01-03-2024",
+  "lat": 42.5875,
+  "lon": 1.46444,
+  "coords": "42°35'15\"N 01°27'52\"E",
+  "coordSource": null,
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 2551,
+  "code": "NGA",
+  "name": "International Institute of Tropical Agriculture (IITA)",
+  "region": "Oyo State",
+  "area_ha": "53",
+  "designated": "01-03-2024",
+  "lat": 7.49306,
+  "lon": 3.90417,
+  "coords": "07°29'35\"N 03°54'15\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 2593,
+  "code": "NGA",
+  "name": "Ogoniland Wetland",
+  "region": "Rivers State, South-South Geopolitical Zone, Nigeria",
+  "area_ha": "31,701",
+  "designated": "21-10-2025",
+  "lat": 4.59944,
+  "lon": 7.27944,
+  "coords": "04°35'58\"N 07°16'46\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 139,
+  "code": "SEN",
+  "name": "Réserve Spéciale de Faune de Ndiaël",
+  "region": "Saint-Louis, Dagana",
+  "area_ha": "26,000",
+  "designated": "11-07-1977",
+  "lat": 16.23722,
+  "lon": -16.06056,
+  "coords": "16°14'14\"N 16°03'38\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "estuarine",
+   "floodplains"
+  ]
+ },
+ {
+  "number": 2326,
+  "code": "SEN",
+  "name": "Kalissaye",
+  "region": "ZIGUINCHOR",
+  "area_ha": "30,014",
+  "designated": "01-09-2017",
+  "lat": 12.80972,
+  "lon": -16.71333,
+  "coords": "12°48'35\"N 16°42'48\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 288,
+  "code": "SEN",
+  "name": "Parc national du Delta du Saloum",
+  "region": "Kaolack, Fatick",
+  "area_ha": "73,000",
+  "designated": "03-04-1984",
+  "lat": 13.70639,
+  "lon": -16.67528,
+  "coords": "13°42'23\"N 16°40'31\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine",
+   "coastal-lagoon"
+  ]
+ },
+ {
+  "number": 2199,
+  "code": "SEN",
+  "name": "Réserve Naturelle Communautaire de Tocc Tocc",
+  "region": "Saint-Louis",
+  "area_ha": "273",
+  "designated": "12-09-2013",
+  "lat": 16.34333,
+  "lon": -15.83972,
+  "coords": "16°20'36\"N 15°50'23\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 338,
+  "code": "SEN",
+  "name": "Réserve Spéciale de Faune de Gueumbeul",
+  "region": "Saint Louis",
+  "area_ha": "720",
+  "designated": "29-09-1986",
+  "lat": 15.91694,
+  "lon": -16.46167,
+  "coords": "15°55'01\"N 16°27'42\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "estuarine",
+   "coastal-lagoon"
+  ]
+ },
+ {
+  "number": 2467,
+  "code": "SEN",
+  "name": "Parc National de la Langue de Barbarie",
+  "region": "Régions de Saint Louis et de Louga",
+  "area_ha": "2,000",
+  "designated": "07-04-2021",
+  "lat": 15.83,
+  "lon": -16.52472,
+  "coords": "15°49'48\"N 16°31'29\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon"
+  ]
+ },
+ {
+  "number": 138,
+  "code": "SEN",
+  "name": "Parc National des Oiseaux du Djoudj",
+  "region": "Saint-Louis",
+  "area_ha": "16,000",
+  "designated": "11-07-1977",
+  "lat": 16.40472,
+  "lon": -16.24083,
+  "coords": "16°24'17\"N 16°14'27\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "estuarine",
+   "lakes",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2327,
+  "code": "SEN",
+  "name": "Réserve Naturelle d'Intérêt Communautaire de la Somone",
+  "region": "Thiès",
+  "area_ha": "700",
+  "designated": "01-09-2017",
+  "lat": 14.50722,
+  "lon": -17.06972,
+  "coords": "14°30'26\"N 17°04'11\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine",
+   "coastal-lagoon",
+   "sandy-beaches"
+  ]
+ },
+ {
+  "number": 2328,
+  "code": "SEN",
+  "name": "Réserve Naturelle Communautaire de Palmarin",
+  "region": "Fatick",
+  "area_ha": "10,430",
+  "designated": "01-09-2017",
+  "lat": 14.05722,
+  "lon": -16.75111,
+  "coords": "14°03'26\"N 16°45'04\"W",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 1014,
+  "code": "SLE",
+  "name": "Sierra Leone River Estuary",
+  "region": "Western Area",
+  "area_ha": "295,000",
+  "designated": "13-12-1999",
+  "lat": 8.61667,
+  "lon": -13.05,
+  "coords": "08°37'N 013°03'W",
+  "coordSource": "description",
+  "headerCoords": "23°22'59\"S 14°28'59\"E",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine",
+   "sandy-beaches"
+  ]
+ },
+ {
+  "number": 1721,
+  "code": "TGO",
+  "name": "Bassin versant Oti-Mandouri",
+  "region": "Région des Savanes",
+  "area_ha": "425,000",
+  "designated": "02-02-2008",
+  "lat": 10.61667,
+  "lon": 0.63306,
+  "coords": "10°37'N 00°37'59\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1722,
+  "code": "TGO",
+  "name": "Zones Humides du Littoral du Togo",
+  "region": "Région maritime",
+  "area_ha": "591,000",
+  "designated": "02-02-2008",
+  "lat": 6.56667,
+  "lon": 1.41667,
+  "coords": "06°34'N 01°25'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "coastal-lagoon",
+   "sandy-beaches",
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 735,
+  "code": "TGO",
+  "name": "Parc national de la Keran",
+  "region": "Kara,Savanes",
+  "area_ha": "163,400",
+  "designated": "04-07-1995",
+  "lat": 10.25,
+  "lon": 1.0,
+  "coords": "10°15'N 01°00'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 736,
+  "code": "TGO",
+  "name": "Reserve de faune de Togodo",
+  "region": "Maritime",
+  "area_ha": "31,000",
+  "designated": "04-07-1995",
+  "lat": 6.83306,
+  "lon": 1.66639,
+  "coords": "06°49'59\"N 01°39'59\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2584,
+  "code": "AGO",
+  "name": "Lisima Lya Mwono",
+  "region": "Moxico Province",
+  "area_ha": "5,367,000",
+  "designated": "24-10-2025",
+  "lat": -13.11639,
+  "lon": 19.29417,
+  "coords": "13°06'59\"S 19°17'39\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "estuarine",
+   "floodplains"
+  ]
+ },
+ {
+  "number": 879,
+  "code": "BWA",
+  "name": "Okavango Delta System",
+  "region": "Northwest District",
+  "area_ha": "5,537,400",
+  "designated": "09-12-1996",
+  "lat": -19.29,
+  "lon": 22.91611,
+  "coords": "19°17'24\"S 22°54'58\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "estuarine",
+   "lakes",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2040,
+  "code": "EGY",
+  "name": "Lake Qarun Protected Area",
+  "region": "Fayoum",
+  "area_ha": "134,042",
+  "designated": "04-06-2012",
+  "lat": 29.56917,
+  "lon": 30.60444,
+  "coords": "29°34'09\"N 30°36'16\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 2041,
+  "code": "EGY",
+  "name": "Wadi El Rayan Protected Area",
+  "region": "Fayoum",
+  "area_ha": "175,790",
+  "designated": "04-06-2012",
+  "lat": 29.19944,
+  "lon": 30.32222,
+  "coords": "29°11'58\"N 30°19'20\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 408,
+  "code": "EGY",
+  "name": "Lake Burullus",
+  "region": "Kafer El Sheikh",
+  "area_ha": "46,200",
+  "designated": "09-09-1988",
+  "lat": 31.5,
+  "lon": 30.83306,
+  "coords": "31°30'N 30°49'59\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon",
+   "lakes"
+  ]
+ },
+ {
+  "number": 407,
+  "code": "EGY",
+  "name": "Lake Bardawil",
+  "region": "North Sinai",
+  "area_ha": "59,500",
+  "designated": "09-09-1988",
+  "lat": 31.08306,
+  "lon": 33.08333,
+  "coords": "31°04'59\"N 33°05'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon",
+   "lakes"
+  ]
+ },
+ {
+  "number": 1853,
+  "code": "GAB",
+  "name": "Rapides de Mboungou Badouma et de Doume",
+  "region": "Haut Ogooué/l'Ogooué Lolo",
+  "area_ha": "53,883",
+  "designated": "02-02-2009",
+  "lat": -1.08111,
+  "lon": 13.15556,
+  "coords": "01°04'52\"S 13°09'20\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 352,
+  "code": "GAB",
+  "name": "Petit Loango",
+  "region": "Ogooué Maritime",
+  "area_ha": "150,869",
+  "designated": "30-12-1986",
+  "lat": -2.11778,
+  "lon": 9.59472,
+  "coords": "02°07'04\"S 09°35'41\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "coastal-lagoon",
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 353,
+  "code": "GAB",
+  "name": "Setté Cama",
+  "region": "Ogooué Maritime",
+  "area_ha": "240,000",
+  "designated": "30-12-1986",
+  "lat": -2.73611,
+  "lon": 10.1875,
+  "coords": "02°44'10\"S 10°11'15\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "coastal-lagoon",
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1652,
+  "code": "GAB",
+  "name": "Akanda",
+  "region": "Province de l'Estuaire",
+  "area_ha": "54,000",
+  "designated": "02-02-2007",
+  "lat": 0.5875,
+  "lon": 9.55417,
+  "coords": "00°35'15\"N 09°33'15\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine",
+   "shallow-marine",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1851,
+  "code": "GAB",
+  "name": "Bas Ogooué",
+  "region": "Moyen Ogooue/l'Ogooue Maritime",
+  "area_ha": "1,370,000",
+  "designated": "02-02-2009",
+  "lat": 12.47917,
+  "lon": -70.00389,
+  "coords": "12°28'45\"N 70°00'14\"W",
+  "coordSource": null,
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1653,
+  "code": "GAB",
+  "name": "Pongara",
+  "region": "Province de l'Estuaire",
+  "area_ha": "96,302",
+  "designated": "02-02-2007",
+  "lat": 0.12194,
+  "lon": 9.63056,
+  "coords": "00°07'19\"N 09°37'50\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "intertidal-flats",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 1852,
+  "code": "GAB",
+  "name": "Chute du Fleuve Ivindo",
+  "region": "Ivindo/Mvoung",
+  "area_ha": "103,334",
+  "designated": "02-02-2009",
+  "lat": 0.08472,
+  "lon": 12.36917,
+  "coords": "00°05'05\"N 12°22'09\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 351,
+  "code": "GAB",
+  "name": "Wonga-Wongué",
+  "region": "Estuaire / Moyen Ogooué / Ogooué Maritime",
+  "area_ha": "396,582",
+  "designated": "30-12-1986",
+  "lat": -0.53639,
+  "lon": 9.515,
+  "coords": "00°32'11\"S 09°30'54\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "sandy-beaches",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1654,
+  "code": "GAB",
+  "name": "Site Ramsar des Monts Birougou",
+  "region": "Ngounié, Ogooué-lolo",
+  "area_ha": "536,800",
+  "designated": "02-02-2007",
+  "lat": -1.94194,
+  "lon": 12.32111,
+  "coords": "01°56'31\"S 12°19'16\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1964,
+  "code": "MOZ",
+  "name": "Lake Niassa and its Coastal Zone",
+  "region": "District of Lichinga and of Lago",
+  "area_ha": "1,363,700",
+  "designated": "26-04-2011",
+  "lat": -12.5,
+  "lon": 34.85,
+  "coords": "12°30'S 34°51'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 1391,
+  "code": "MOZ",
+  "name": "Zambezi Delta",
+  "region": "Sofala / Zambezia Province",
+  "area_ha": "3,171,172",
+  "designated": "03-08-2004",
+  "lat": -17.99222,
+  "lon": 36.00278,
+  "coords": "17°59'32\"S 36°00'10\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 745,
+  "code": "NAM",
+  "name": "Etosha Pan",
+  "region": "Omusati, Oshana and Oshikoto Regions",
+  "area_ha": "600,000",
+  "designated": "23-08-1995",
+  "lat": -19.25,
+  "lon": 15.5,
+  "coords": "19°15'S 15°30'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "estuarine",
+   "lakes",
+   "floodplains"
+  ]
+ },
+ {
+  "number": 743,
+  "code": "NAM",
+  "name": "Sandwich Harbour",
+  "region": "Erongo Region",
+  "area_ha": "16,500",
+  "designated": "23-08-1995",
+  "lat": -23.38306,
+  "lon": 14.48306,
+  "coords": "23°22'59\"S 14°28'59\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "intertidal-flats"
+  ]
+ },
+ {
+  "number": 742,
+  "code": "NAM",
+  "name": "Walvis Bay",
+  "region": "Erongo Region",
+  "area_ha": "12,600",
+  "designated": "23-08-1995",
+  "lat": -23.0,
+  "lon": 14.45,
+  "coords": "23°00'S 14°27'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "intertidal-flats",
+   "coastal-lagoon"
+  ]
+ },
+ {
+  "number": 2193,
+  "code": "NAM",
+  "name": "Bwabwata-Okavango Ramsar Site",
+  "region": "Namibia",
+  "area_ha": "46,964",
+  "designated": "13-12-2013",
+  "lat": -18.20972,
+  "lon": 21.73278,
+  "coords": "18°12'35\"S 21°43'58\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "estuarine",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 744,
+  "code": "NAM",
+  "name": "Orange River Mouth",
+  "region": "Karas Region",
+  "area_ha": "500",
+  "designated": "23-08-1995",
+  "lat": -28.66667,
+  "lon": 16.5,
+  "coords": "28°40'S 16°30'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1632,
+  "code": "STP",
+  "name": "Ilots Tinhosas",
+  "region": "Tinhosa Grande / Tinhosa Pequena",
+  "area_ha": "23",
+  "designated": "21-08-2006",
+  "lat": 1.36667,
+  "lon": 7.3,
+  "coords": "01°22'N 007°18'E",
+  "coordSource": "description",
+  "headerCoords": "31°59'55\"N 06°07'54\"W",
+  "habitatTerms": []
+ },
+ {
+  "number": 1633,
+  "code": "UGA",
+  "name": "Lake Bisina Wetland System",
+  "region": "Kumi, Katakwi, Soroti",
+  "area_ha": "54,229",
+  "designated": "15-09-2006",
+  "lat": 1.71667,
+  "lon": 33.9,
+  "coords": "01°43'N 33°54'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 394,
+  "code": "UGA",
+  "name": "Lake George",
+  "region": "Kasese District",
+  "area_ha": "15,000",
+  "designated": "04-03-1988",
+  "lat": 0.11667,
+  "lon": 30.03333,
+  "coords": "00°07'N 30°02'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1634,
+  "code": "UGA",
+  "name": "Lake Mburo-Nakivali Wetland System",
+  "region": "Mbarara district",
+  "area_ha": "26,834",
+  "designated": "15-09-2006",
+  "lat": -0.66667,
+  "lon": 30.95,
+  "coords": "00°40'S 30°57'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1373,
+  "code": "UGA",
+  "name": "Lake Nabugabo wetland system",
+  "region": "Masaka District",
+  "area_ha": "22,000",
+  "designated": "11-02-2004",
+  "lat": -0.4,
+  "lon": 31.9,
+  "coords": "00°24'S 31°54'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1636,
+  "code": "UGA",
+  "name": "Lake Opeta Wetland System",
+  "region": "Nakapiripirit, Sironko, Katakwi, Kumi districts",
+  "area_ha": "68,912",
+  "designated": "15-09-2006",
+  "lat": 1.7,
+  "lon": 34.23306,
+  "coords": "01°42'N 34°13'59\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1637,
+  "code": "UGA",
+  "name": "Lutembe Bay Wetland System",
+  "region": "Wakiso district",
+  "area_ha": "98",
+  "designated": "15-09-2006",
+  "lat": 0.16667,
+  "lon": 32.56667,
+  "coords": "00°10'N 32°34'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1638,
+  "code": "UGA",
+  "name": "Mabamba Bay Wetland System",
+  "region": "Wakiso district",
+  "area_ha": "2,424",
+  "designated": "15-09-2006",
+  "lat": 0.11667,
+  "lon": 32.35,
+  "coords": "00°07'N 32°21'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1639,
+  "code": "UGA",
+  "name": "Nabajjuzi Wetland system",
+  "region": "Masaka, Sembabule, Mpigi districts",
+  "area_ha": "1,753",
+  "designated": "15-09-2006",
+  "lat": -0.76667,
+  "lon": 31.68306,
+  "coords": "00°46'S 31°40'59\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1861,
+  "code": "UGA",
+  "name": "Rwenzori Mountains Ramsar Site",
+  "region": "Kasese, Kabarole and Bundibugyo",
+  "area_ha": "99,500",
+  "designated": "23-01-2008",
+  "lat": 0.41667,
+  "lon": 30.0,
+  "coords": "00°25'N 30°00'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 1641,
+  "code": "UGA",
+  "name": "Sango Bay-Musambwa Island-Kagera Wetland System (SAMUKA)",
+  "region": "Masaka, Rakai districts",
+  "area_ha": "55,110",
+  "designated": "15-09-2006",
+  "lat": -0.91667,
+  "lon": 31.76667,
+  "coords": "00°55'S 31°46'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1640,
+  "code": "UGA",
+  "name": "Murchison Falls-Albert Delta Wetland System",
+  "region": "Masindi, Gulu districts",
+  "area_ha": "17,293",
+  "designated": "15-09-2006",
+  "lat": 1.95,
+  "lon": 31.7,
+  "coords": "01°57'N 31°42'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "estuarine",
+   "lakes"
+  ]
+ },
+ {
+  "number": 1635,
+  "code": "UGA",
+  "name": "Lake Nakuwa Wetland System",
+  "region": "Kamuli, Pallisa, Soroti districts",
+  "area_ha": "91,150",
+  "designated": "15-09-2006",
+  "lat": 1.25,
+  "lon": 33.51667,
+  "coords": "01°15'N 33°31'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1080,
+  "code": "TZA",
+  "name": "Lake Natron Basin",
+  "region": "Arusha",
+  "area_ha": "224,781",
+  "designated": "04-07-2001",
+  "lat": -2.35,
+  "lon": 36.0,
+  "coords": "02°21'S 36°00'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 1024,
+  "code": "TZA",
+  "name": "Malagarasi-Muyovozi Wetlands",
+  "region": "Kigoma, Shinyanga, Tabora",
+  "area_ha": "3,250,000",
+  "designated": "13-04-2000",
+  "lat": -5.0,
+  "lon": 31.0,
+  "coords": "05°00'S 31°00'E",
+  "coordSource": "header",
+  "habitatTerms": []
+ },
+ {
+  "number": 1443,
+  "code": "TZA",
+  "name": "Rufiji-Mafia-Kilwa Marine Ramsar Site",
+  "region": "Coast Region, Lindi Region",
+  "area_ha": "596,908",
+  "designated": "29-10-2004",
+  "lat": -8.13306,
+  "lon": 39.63306,
+  "coords": "08°07'59\"S 39°37'59\"E",
+  "coordSource": "header",
+  "habitatTerms": []
+ },
+ {
+  "number": 1173,
+  "code": "TZA",
+  "name": "Kilombero Valley Floodplain",
+  "region": "Morogoro Region",
+  "area_ha": "796,735",
+  "designated": "25-04-2002",
+  "lat": -8.66639,
+  "lon": 36.16639,
+  "coords": "08°39'59\"S 36°09'59\"E",
+  "coordSource": "header",
+  "habitatTerms": []
+ }
+]

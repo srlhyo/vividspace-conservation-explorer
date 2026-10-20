@@ -1,0 +1,1730 @@
+{
+ "EGY|Ras Mohammad": [
+  {
+   "qid": "Q1028367",
+   "labels": [
+    "Parque Nacional Ras Muhammad",
+    "Ras Mohammed",
+    "Ras Muhammad National Park"
+   ],
+   "points": [
+    [
+     34.209722222222226,
+     27.769444444444446
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "Egyptian national park in South Sinai"
+  }
+ ],
+ "EGY|Zaranik and Sabkhat El-Bardawil": [
+  {
+   "qid": "Q12241350",
+   "labels": [
+    "Zaranik"
+   ],
+   "points": [
+    [
+     33.441944444444,
+     31.1
+    ]
+   ],
+   "p31": [
+    "Q179049"
+   ],
+   "description": "nature reserve in Egypt"
+  }
+ ],
+ "EGY|Al-Ahrash": [],
+ "EGY|Al-Omayed Natural": [
+  {
+   "qid": "Q12241361",
+   "labels": [
+    "Omayed"
+   ],
+   "points": [
+    [
+     30.45,
+     29.09
+    ],
+    [
+     29.15,
+     30.75
+    ]
+   ],
+   "p31": [
+    "Q158454"
+   ],
+   "description": "Biosphere reserve in Egypt | designated in 1981. Extension 1998"
+  }
+ ],
+ "EGY|Elba Natural": [
+  {
+   "qid": "Q1496829",
+   "labels": [
+    "Elba",
+    "Gabal Elba"
+   ],
+   "points": [
+    [
+     36.370555555556,
+     22.187777777778
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in Egypt"
+  }
+ ],
+ "EGY|Saluga and Ghazal": [
+  {
+   "qid": "Q12241391",
+   "labels": [
+    "Saluga and Ghazal islands"
+   ],
+   "points": [
+    [
+     32.886944444444,
+     24.093611111111
+    ],
+    [
+     32.8725,
+     24.07
+    ]
+   ],
+   "p31": [
+    "Q179049"
+   ],
+   "description": "nature reserve in Egypt"
+  }
+ ],
+ "EGY|St. Catherine": [
+  {
+   "qid": "Q1936042",
+   "labels": [
+    "St. Catherine International Airport",
+    "aéroport de Sainte-Catherine"
+   ],
+   "points": [
+    [
+     34.0625,
+     28.685277777778
+    ]
+   ],
+   "p31": [
+    "Q1248784"
+   ],
+   "description": "airport in Egypt"
+  },
+  {
+   "qid": "Q3499363",
+   "labels": [
+    "Saint Katherine Protectorate"
+   ],
+   "points": [
+    [
+     33.96666667,
+     28.55
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "Egyptian national park in the south of Sinai"
+  }
+ ],
+ "EGY|Ashtum El-Gamil": [],
+ "EGY|Wadi El-Allaqi": [
+  {
+   "qid": "Q12241412",
+   "labels": [
+    "Wadi Al Allaqi"
+   ],
+   "points": [
+    [
+     33.166667,
+     22.166667
+    ],
+    [
+     34.003,
+     22.508
+    ]
+   ],
+   "p31": [
+    "Q179049",
+    "Q158454"
+   ],
+   "description": "biosphere reserve in Egypt"
+  }
+ ],
+ "EGY|Wadi El-Assiouti": [
+  {
+   "qid": "Q12241411",
+   "labels": [
+    "Wadi El Assuti"
+   ],
+   "points": [
+    [
+     31.339167,
+     27.212222
+    ]
+   ],
+   "p31": [
+    "Q179049"
+   ],
+   "description": "nature reserve in Egypt"
+  }
+ ],
+ "EGY|Hassana Dome": [],
+ "EGY|Petrified Forest": [
+  {
+   "qid": "Q12241337",
+   "labels": [
+    "Petrified Forest near Maadi"
+   ],
+   "points": [
+    [
+     31.462661111111,
+     29.976380555556
+    ]
+   ],
+   "p31": [
+    "Q473972",
+    "Q65640417"
+   ],
+   "description": null
+  }
+ ],
+ "EGY|Wadi Sannur Cave": [
+  {
+   "qid": "Q4116382",
+   "labels": [
+    "Sannur Cave"
+   ],
+   "points": [
+    [
+     31.28638889,
+     28.62305556
+    ]
+   ],
+   "p31": [
+    "Q35509",
+    "Q2455463",
+    "Q473972",
+    "Q187971"
+   ],
+   "description": "cave in Egypt"
+  },
+  {
+   "qid": "Q13142213",
+   "labels": [
+    "Sannur Cave Nature Reserve"
+   ],
+   "points": [
+    [
+     31.2856,
+     28.618
+    ]
+   ],
+   "p31": [
+    "Q179049"
+   ],
+   "description": "nature reserve in Egypt"
+  }
+ ],
+ "EGY|Nabq": [
+  {
+   "qid": "Q4311219",
+   "labels": [
+    "Nabq Reserve"
+   ],
+   "points": [
+    [
+     34.38,
+     28.278
+    ]
+   ],
+   "p31": [
+    "Q179049"
+   ],
+   "description": "nature reserve in Egypt"
+  },
+  {
+   "qid": "Q14215969",
+   "labels": [
+    "Nabq Bay"
+   ],
+   "points": [
+    [
+     34.433611111111,
+     28.037219444444
+    ],
+    [
+     34.43261,
+     28.0407
+    ]
+   ],
+   "p31": [
+    "Q39594",
+    "Q2983893",
+    "Q317548",
+    "Q17018380"
+   ],
+   "description": "Bay and holiday resort north of Sharm el-Sheikh"
+  },
+  {
+   "qid": "Q138145510",
+   "labels": [
+    "Nabq National park Mosque"
+   ],
+   "points": [
+    [
+     34.4289576,
+     28.0864338
+    ]
+   ],
+   "p31": [
+    "Q32815"
+   ],
+   "description": "Mosque in Egypt"
+  }
+ ],
+ "EGY|Abu Galum": [
+  {
+   "qid": "Q12241331",
+   "labels": [
+    "Abu Gallum"
+   ],
+   "points": [
+    [
+     34.458611,
+     28.873611
+    ]
+   ],
+   "p31": [
+    "Q179049"
+   ],
+   "description": "nature reserve in Egypt"
+  }
+ ],
+ "EGY|Taba": [
+  {
+   "qid": "Q867592",
+   "labels": [
+    "Taba"
+   ],
+   "points": [
+    [
+     34.896882,
+     29.492468
+    ]
+   ],
+   "p31": [
+    "Q515",
+    "Q317548",
+    "Q902814"
+   ],
+   "description": "town in Egypt"
+  }
+ ],
+ "EGY|Nile River Islands (127 islands)": [],
+ "EGY|Wadi Degla": [
+  {
+   "qid": "Q1966238",
+   "labels": [
+    "Wadi Degla SC",
+    "Wadi Degla Sporting Club"
+   ],
+   "points": [
+    [
+     31.312927777777777,
+     29.95778333333333
+    ]
+   ],
+   "p31": [
+    "Q476028"
+   ],
+   "description": "club de football du Caire, en Égypte."
+  },
+  {
+   "qid": "Q12241414",
+   "labels": [
+    "Wadi Degla"
+   ],
+   "points": [
+    [
+     31.379722222222,
+     29.949722222222
+    ]
+   ],
+   "p31": [
+    "Q473972",
+    "Q187971"
+   ],
+   "description": "wadi in Egypt, located in the Cairo governor"
+  }
+ ],
+ "EGY|Siwa": [
+  {
+   "qid": "Q2008735",
+   "labels": [
+    "Oásis de Siuá",
+    "Siwa",
+    "Siwa Oasis"
+   ],
+   "points": [
+    [
+     25.519444444444,
+     29.205277777778
+    ]
+   ],
+   "p31": [
+    "Q43742",
+    "Q190429"
+   ],
+   "description": "depression in the Western Desert of Egypt"
+  },
+  {
+   "qid": "Q25461891",
+   "labels": [
+    "Siwa"
+   ],
+   "points": [
+    [
+     25.519444444444,
+     29.205277777778
+    ]
+   ],
+   "p31": [
+    "Q10545864"
+   ],
+   "description": null
+  }
+ ],
+ "EGY|White Desert": [
+  {
+   "qid": "Q2556953",
+   "labels": [
+    "Deserto Branco",
+    "Désert blanc",
+    "White Desert"
+   ],
+   "points": [
+    [
+     28.200441666667,
+     27.277336111111
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "natural protectorate north of the el-Farafra depression"
+  }
+ ],
+ "EGY|Wadi El-Gemal - Hamata": [
+  {
+   "qid": "Q2538716",
+   "labels": [
+    "Wadi el Gamal National Park"
+   ],
+   "points": [
+    [
+     34.86666667,
+     24.43333333
+    ],
+    [
+     35.0487,
+     24.3521
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "national park and protected area in Egypt"
+  }
+ ],
+ "EGY|Northern Red Sea Islands": [],
+ "EGY|Gilf Kebir": [
+  {
+   "qid": "Q1462530",
+   "labels": [
+    "Gilf Kebir",
+    "Gilf al-Kabir"
+   ],
+   "points": [
+    [
+     25.839722222222,
+     23.441388888889
+    ]
+   ],
+   "p31": [
+    "Q46831"
+   ],
+   "description": "montagne égyptienne"
+  },
+  {
+   "qid": "Q14300376",
+   "labels": [
+    "Gilf Kebir National Park",
+    "parc national de Gilf el-Kebir"
+   ],
+   "points": [
+    [
+     25.833333333333,
+     23.75
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "Gilf Kebir National Park, New Valley, Egypt"
+  }
+ ],
+ "EGY|Al-Dababiya": [],
+ "EGY|Salloum Gulf": [],
+ "EGY|Bahariya Oasis": [
+  {
+   "qid": "Q738878",
+   "labels": [
+    "Al-Bahariya",
+    "Bahariya Oasis",
+    "Bahariyya"
+   ],
+   "points": [
+    [
+     28.862375,
+     28.351489
+    ]
+   ],
+   "p31": [
+    "Q43742",
+    "Q190429",
+    "Q124714"
+   ],
+   "description": "Depression in the Western Desert of Egypt"
+  }
+ ],
+ "EGY|Gebel Kamil Meteorite": [],
+ "EGY|Great Fringing Reefs": [],
+ "GAB|Parc national de la Lopé": [
+  {
+   "qid": "Q9055976",
+   "labels": [
+    "Lopé National Park",
+    "Parque Nacional de Lopé",
+    "parc national de la Lopé"
+   ],
+   "points": [
+    [
+     11.5428,
+     -0.525334
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "aire protégée, parc national du Gabon"
+  }
+ ],
+ "GAB|Parc national des Plateaux Batéké": [
+  {
+   "qid": "Q3695605",
+   "labels": [
+    "Batéké Plateau National Park",
+    "parc national des plateaux Batéké"
+   ],
+   "points": [
+    [
+     14.02,
+     -2.188
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "parc national du Gabon"
+  }
+ ],
+ "GAB|Parc national des Monts Birougou": [],
+ "GAB|Parc national des Monts de Cristal": [
+  {
+   "qid": "Q5191298",
+   "labels": [
+    "Crystal Mountains National Park",
+    "parc national des Monts de Cristal"
+   ],
+   "points": [
+    [
+     10.16,
+     0.805
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "parc national du Gabon"
+  }
+ ],
+ "GAB|Parc national de l'Ivindo": [
+  {
+   "qid": "Q9055979",
+   "labels": [
+    "Ivindo National Park",
+    "Parque Nacional de Ivindo",
+    "parc national d'Ivindo"
+   ],
+   "points": [
+    [
+     12.63,
+     0.088
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "parc national du Gabon"
+  }
+ ],
+ "GAB|Parc national de Loango": [
+  {
+   "qid": "Q1756690",
+   "labels": [
+    "Loango National Park",
+    "parc national de Loango"
+   ],
+   "points": [
+    [
+     9.56666667,
+     -2.16666667
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "National park in Western Gabon"
+  }
+ ],
+ "GAB|Parc national de Mayumba": [
+  {
+   "qid": "Q3102654",
+   "labels": [
+    "Mayumba National Park",
+    "parc national de Mayumba"
+   ],
+   "points": [
+    [
+     11.0125,
+     -3.8
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "parc national du Gabon"
+  }
+ ],
+ "GAB|Parc national de Minkébé": [
+  {
+   "qid": "Q1961377",
+   "labels": [
+    "Minkébé National Park",
+    "Parque Nacional Minkébé",
+    "parc national de Minkébé"
+   ],
+   "points": [
+    [
+     12.75950278,
+     1.67977222
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "parc national du Gabon"
+  }
+ ],
+ "GAB|Parc national de Moukalaba-Doudou": [
+  {
+   "qid": "Q6918943",
+   "labels": [
+    "Moukalaba-Doudou National Park",
+    "Parque Nacional Moukalaba-Doudou",
+    "parc national de Moukalaba-Doudou"
+   ],
+   "points": [
+    [
+     10.42,
+     -2.43
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "parc national du Gabon"
+  }
+ ],
+ "GAB|Parc national de Mwagné": [
+  {
+   "qid": "Q9055981",
+   "labels": [
+    "Mwagna National Park",
+    "Parque Nacional Mwagna",
+    "parc national de Mwagna"
+   ],
+   "points": [
+    [
+     13.780819166666667,
+     0.48539583333333336
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "parc national du Gabon"
+  }
+ ],
+ "GAB|Parc national de Waka": [
+  {
+   "qid": "Q1101416",
+   "labels": [
+    "Waka National Park",
+    "parc national de la Waka"
+   ],
+   "points": [
+    [
+     11.0392,
+     -1.27088
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "parc national du Gabon"
+  }
+ ],
+ "GAB|Parc Marin de l'Ile de Mbanié": [],
+ "GAB|Parc Marin de la Pointe Denis": [],
+ "GAB|Parc Marin du Cap Lopez": [],
+ "GAB|Parc Marin de l'embouchure d'Ozouri": [],
+ "GAB|Parc Marin de l'embouchure d'Olendé": [],
+ "GAB|Parc Marin de l'embouchure d'Iguéla": [],
+ "GAB|Parc Marin de l'embouchure de Setté Cama": [],
+ "GAB|Parc Marin de l'embouchure de la Nyanga": [],
+ "GAB|Parc Marin de l'embouchure de la Banio": [],
+ "GAB|Réserve Aquatique du Cap Estérias": [],
+ "GAB|Réserve Aquatique du Caillou": [],
+ "GAB|Réserve Aquatique des Canyons du Cap Lopez": [],
+ "GAB|Réserve Aquatique du Delta de l'Ogooué": [],
+ "GAB|Réserve Aquatique de Mandji-Etimboué": [],
+ "GAB|Réserve Aquatique de Koumandji": [],
+ "GAB|Réserve Aquatique de Tchatamba": [],
+ "GAB|Réserve Aquatique de Gamba": [],
+ "GAB|Réserve Aquatique d'Olowi": [],
+ "GAB|Réserve Aquatique de l'Abysse Bleu": [],
+ "GAB|Réserve Aquatique du Grand Sud du Gabon": [],
+ "GAB|Arboretum de Sibang": [
+  {
+   "qid": "Q125590972",
+   "labels": [
+    "arboretum de Sibang"
+   ],
+   "points": [
+    [
+     9.49003966,
+     0.41603038
+    ]
+   ],
+   "p31": [
+    "Q4421"
+   ],
+   "description": "Foret gabonaise"
+  }
+ ],
+ "GAB|Arboretum Raponda Walker (forêt classée de la Mondah)": [],
+ "GAB|Moukalaba": [
+  {
+   "qid": "Q4784529",
+   "labels": [
+    "Moukalaba",
+    "Moukalaba River"
+   ],
+   "points": [
+    [
+     10.77269,
+     -2.76575
+    ]
+   ],
+   "p31": [
+    "Q4022",
+    "Q17362920"
+   ],
+   "description": "rivière gabonaise"
+  },
+  {
+   "qid": "Q6918943",
+   "labels": [
+    "Moukalaba-Doudou National Park",
+    "Parque Nacional Moukalaba-Doudou",
+    "parc national de Moukalaba-Doudou"
+   ],
+   "points": [
+    [
+     10.42,
+     -2.43
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "parc national du Gabon"
+  },
+  {
+   "qid": "Q23966990",
+   "labels": [
+    "Moukalaba"
+   ],
+   "points": [
+    [
+     10.971944444444,
+     -2.5844444444444
+    ]
+   ],
+   "p31": [
+    "Q4022"
+   ],
+   "description": "stream in Gabon"
+  },
+  {
+   "qid": "Q23964864",
+   "labels": [
+    "Moukalaba Ganzi"
+   ],
+   "points": [
+    [
+     11.233333333333,
+     -2.7
+    ]
+   ],
+   "p31": [
+    "Q4022"
+   ],
+   "description": "stream in Gabon"
+  }
+ ],
+ "GAB|Iguéla": [
+  {
+   "qid": "Q24611520",
+   "labels": [
+    "Lagune Iguéla"
+   ],
+   "points": [
+    [
+     9.4558333333333,
+     -1.9188888888889
+    ]
+   ],
+   "p31": [
+    "Q23397",
+    "Q187223"
+   ],
+   "description": "lake in Gabon"
+  },
+  {
+   "qid": "Q24635424",
+   "labels": [
+    "Iguela"
+   ],
+   "points": [
+    [
+     9.31667,
+     -1.91667
+    ]
+   ],
+   "p31": [
+    "Q62447"
+   ],
+   "description": null
+  }
+ ],
+ "GAB|Mont Doudou": [],
+ "GAB|Ngove-Ndogo": [],
+ "GAB|Lékédi": [
+  {
+   "qid": "Q23965851",
+   "labels": [
+    "Lekedi River",
+    "Lékédi"
+   ],
+   "points": [
+    [
+     13.33,
+     -1.3727777777778
+    ]
+   ],
+   "p31": [
+    "Q4022"
+   ],
+   "description": "river in Gabon"
+  }
+ ],
+ "GAB|Iboudji": [],
+ "GAB|Plaine Ouanga": [
+  {
+   "qid": "Q24611638",
+   "labels": [
+    "Plaine Ouanga"
+   ],
+   "points": [
+    [
+     10.431666666667,
+     -3.0905555555556
+    ]
+   ],
+   "p31": [
+    "Q160091"
+   ],
+   "description": null
+  }
+ ],
+ "GAB|Evaro": [],
+ "STP|Parque Natural Obô de São Tomé": [
+  {
+   "qid": "Q2943640",
+   "labels": [
+    "Obo National Park",
+    "Parc naturel Obô de São Tomé",
+    "Parque Natural Ôbo"
+   ],
+   "points": [
+    [
+     6.56666667,
+     0.15
+    ]
+   ],
+   "p31": [
+    "Q728904"
+   ],
+   "description": "national park in São Tomé and Príncipe"
+  }
+ ],
+ "STP|Parque Natural Obô do Príncipe": [
+  {
+   "qid": "Q62685475",
+   "labels": [
+    "Parque Natural Obô do Príncipe",
+    "parc naturel Obô de Principe"
+   ],
+   "points": [
+    [
+     7.38,
+     1.58
+    ]
+   ],
+   "p31": [
+    "Q728904"
+   ],
+   "description": "national park in São Tomé and Príncipe"
+  }
+ ],
+ "STP|Ilhéu das Rolas – Malanza – Jalé (AMP/ST 01)": [],
+ "STP|Santana (AMP/ST 02)": [],
+ "AGO|Chimalavera Regional Natural Park": [],
+ "AGO|Namibe Partial Reserve": [],
+ "AGO|Búfalo Partial Reserve": [],
+ "AGO|Ilhéu dos Pássaros Integral Nature Reserve": [],
+ "AGO|Cumbira Forest (proposed conservation area)": [],
+ "AGO|Morro do Moco (proposed conservation area)": [],
+ "AGO|Serra do Pingano (proposed conservation area)": [
+  {
+   "qid": "Q21408453",
+   "labels": [],
+   "points": [
+    [
+     14.873055555556,
+     -7.6575
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in Angola"
+  }
+ ],
+ "AGO|Baía dos Tigres Marine Conservation Area (proposed)": [],
+ "BEN|Zone cynégétique de la Pendjari": [],
+ "BEN|Zone cynégétique de l'Atacora": [],
+ "BEN|Zone cynégétique de la Djona": [],
+ "BEN|Aire Marine Protégée de la Bouche du Roy": [],
+ "BEN|Aire Communautaire de Conservation de la Biodiversité de Togbin-Adounko": [],
+ "BEN|Aire Communautaire de Conservation de la Biodiversité de Vodounto": [],
+ "BWA|Gemsbok National Park": [],
+ "BWA|Mogobane Bird Sanctuary": [],
+ "BWA|Bathoen Dam Bird Sanctuary": [],
+ "BWA|Maun Game Sanctuary": [],
+ "BWA|Nnywane Dam Game Reserve": [],
+ "BWA|Sua Pan Flamingo Sanctuary": [],
+ "BWA|Kwando Wildlife Management Area": [],
+ "BWA|Okavango Wildlife Management Area": [],
+ "BWA|Ngamiland Statelands Wildlife Management Area": [],
+ "BWA|Nunga Wildlife Management Area": [],
+ "BWA|Nata Statelands Wildlife Management Area": [],
+ "BWA|Southern District Wildlife Management Area": [],
+ "BWA|Matlho-a-Phuduhudu Wildlife Management Area": [],
+ "BWA|Okwa Wildlife Management Area": [],
+ "BWA|Quago Wildlife Management Area": [],
+ "BWA|Kazuma Forest Reserve": [],
+ "BWA|Maikaelelo Forest Reserve": [],
+ "BWA|Sibuyu Forest Reserve": [],
+ "CIV|Réserve de faune et de flore du Haut-Bandama": [],
+ "CIV|Réserve scientifique de Lamto": [],
+ "CIV|Zone périphérique de protection du Parc de Taï": [],
+ "CIV|Réserve naturelle volontaire N'Zi River Lodge": [],
+ "CIV|Aire Marine Protégée de Grand-Béréby": [],
+ "CIV|Réserve naturelle volontaire Eden de Agnéby-Tiassa": [],
+ "CIV|Réserve naturelle volontaire de la SOGB": [],
+ "CIV|Site transfrontalier de l'embouchure du fleuve Cavally (AMP)": [],
+ "CIV|Site de la forêt classée de Dassioko (AMP)": [],
+ "CIV|Zone côtière transfrontière Côte d'Ivoire-Ghana (AMP)": [],
+ "CPV|Cova/Ribeiras Paúl/Torre": [],
+ "CPV|Cruzinha": [
+  {
+   "qid": "Q5190349",
+   "labels": [
+    "Cruzinha",
+    "Cruzinha da Garça"
+   ],
+   "points": [
+    [
+     -25.166666666667,
+     17.166666666667
+    ]
+   ],
+   "p31": [
+    "Q532"
+   ],
+   "description": "village in Cape Verde"
+  }
+ ],
+ "CPV|Pombas": [
+  {
+   "qid": "Q768920",
+   "labels": [
+    "Pombas",
+    "Vila das Pombas"
+   ],
+   "points": [
+    [
+     -25.0125,
+     17.145833333333
+    ]
+   ],
+   "p31": [
+    "Q515"
+   ],
+   "description": "town in Cape Verde"
+  }
+ ],
+ "CPV|Tope de Coroa": [
+  {
+   "qid": "Q23006806",
+   "labels": [
+    "Tope de Coroa"
+   ],
+   "points": [
+    [
+     -25.283333333333,
+     17.033333333333
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in Cape Verde"
+  },
+  {
+   "qid": "Q2671287",
+   "labels": [
+    "Topo da Coroa"
+   ],
+   "points": [
+    [
+     -25.295833333333,
+     17.033333333333
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in Cape Verde"
+  }
+ ],
+ "CPV|Monte Verde": [
+  {
+   "qid": "Q526591",
+   "labels": [
+    "Monte Verde",
+    "Monte Verde, Cape Verde"
+   ],
+   "points": [
+    [
+     -24.941666666667,
+     16.870833333333
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in the eastern part of the island of São Vicente, Cape Verde"
+  }
+ ],
+ "CPV|Santa Luzia": [],
+ "CPV|Ilhéus Branco e Raso": [],
+ "CPV|Monte Gordo": [
+  {
+   "qid": "Q1778115",
+   "labels": [
+    "Monte Gordo"
+   ],
+   "points": [
+    [
+     -24.354166666667,
+     16.620833333333
+    ]
+   ],
+   "p31": [
+    "Q8502",
+    "Q169358"
+   ],
+   "description": "mountain on the island of São Nicolau, Cape Verde"
+  }
+ ],
+ "CPV|Monte do Alto das Cabaças": [],
+ "CPV|Salinas de Pedra Lume e Cagarral": [],
+ "CPV|Monte Grande": [
+  {
+   "qid": "Q6904779",
+   "labels": [
+    "Monte Grande"
+   ],
+   "points": [
+    [
+     -24.407,
+     14.891
+    ]
+   ],
+   "p31": [
+    "Q3257686"
+   ],
+   "description": "village in Cape Verde"
+  },
+  {
+   "qid": "Q3322542",
+   "labels": [
+    "Monte Grande",
+    "Monte Grande (Sal)",
+    "Monte Grande (Sal), Cape Verde"
+   ],
+   "points": [
+    [
+     -22.91010556,
+     16.82095556
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in Cape Verde"
+  }
+ ],
+ "CPV|Rabo de Junco": [
+  {
+   "qid": "Q56273752",
+   "labels": [
+    "Rabo de Junco"
+   ],
+   "points": [
+    [
+     -22.982,
+     16.696
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain"
+  },
+  {
+   "qid": "Q23007076",
+   "labels": [
+    "Rabo de Junco"
+   ],
+   "points": [
+    [
+     -22.9817,
+     16.6967
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in Cape Verde"
+  },
+  {
+   "qid": "Q485153",
+   "labels": [
+    "Ilhéu Rabo de Junco"
+   ],
+   "points": [
+    [
+     -22.9934,
+     16.7
+    ]
+   ],
+   "p31": [
+    "Q23442"
+   ],
+   "description": "island"
+  }
+ ],
+ "CPV|Baía da Murdeira": [
+  {
+   "qid": "Q55605068",
+   "labels": [
+    "Baía de Murdeira"
+   ],
+   "points": [
+    [
+     -22.96,
+     16.68
+    ]
+   ],
+   "p31": [
+    "Q39594"
+   ],
+   "description": "body of water"
+  }
+ ],
+ "CPV|Costa da Fragata": [],
+ "CPV|Serra Negra": [
+  {
+   "qid": "Q7455182",
+   "labels": [
+    "Serra Negra",
+    "Serra Negra, Cape Verde"
+   ],
+   "points": [
+    [
+     -22.88583333,
+     16.65861111
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in Cape Verde"
+  }
+ ],
+ "CPV|Buracona-Ragona": [],
+ "CPV|Morrinho do Filho": [],
+ "CPV|Ponta de Sino": [],
+ "CPV|Morrinho do Açucar": [],
+ "CPV|Casas Velhas": [],
+ "CPV|Barreiro e Figueira": [],
+ "CPV|Lagoa Cimidor": [],
+ "CPV|Praia do Morro": [],
+ "CPV|Monte Penoso e Monte Branco": [],
+ "CPV|Monte Santo António": [
+  {
+   "qid": "Q27929074",
+   "labels": [
+    "Monte Santo António"
+   ],
+   "points": [
+    [
+     -22.9,
+     16.03333333
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in Cape Verde"
+  }
+ ],
+ "CPV|Boa Esperança": [],
+ "CPV|Ilhéu de Baluarte": [],
+ "CPV|Ilhéu dos Pássaros": [
+  {
+   "qid": "Q489203",
+   "labels": [
+    "Ilhéu dos Pássaros"
+   ],
+   "points": [
+    [
+     -25.0113,
+     16.9097
+    ]
+   ],
+   "p31": [
+    "Q23442"
+   ],
+   "description": "island in Cape Verde"
+  },
+  {
+   "qid": "Q10280151",
+   "labels": [
+    "Don Luis Lighthouse",
+    "Farol de D. Luís",
+    "phare de Don Luis"
+   ],
+   "points": [
+    [
+     -25.01168889,
+     16.91086111
+    ]
+   ],
+   "p31": [
+    "Q39715"
+   ],
+   "description": "lighthouse in Cape Verde"
+  },
+  {
+   "qid": "Q55614318",
+   "labels": [
+    "Ilhéu dos Pássaros (Boa Vista)"
+   ],
+   "points": [
+    [
+     -22.6985,
+     16.1965
+    ]
+   ],
+   "p31": [
+    "Q23442"
+   ],
+   "description": "uninhabited islet in Cape Verde"
+  }
+ ],
+ "CPV|Ilhéu de Curral Velho": [
+  {
+   "qid": "Q15228273",
+   "labels": [
+    "Ilhéu de Curral Velho",
+    "Ilhéu de Curral Velho and adjacent coast Important Bird Area",
+    "Ilhéu do Curral Velho"
+   ],
+   "points": [
+    [
+     -22.789444444444445,
+     15.969444444444445
+    ]
+   ],
+   "p31": [
+    "Q23442"
+   ],
+   "description": "bird sanctuary in Cape Verde"
+  }
+ ],
+ "CPV|Ponta do Sol": [
+  {
+   "qid": "Q768314",
+   "labels": [
+    "Ponta do Sol"
+   ],
+   "points": [
+    [
+     -25.091452777778,
+     17.201755555556
+    ]
+   ],
+   "p31": [
+    "Q3957"
+   ],
+   "description": "human settlement in Santo Antão, Cape Verde"
+  },
+  {
+   "qid": "Q7228058",
+   "labels": [
+    "Ponta do Sol"
+   ],
+   "points": [
+    [
+     -22.9098,
+     16.2309
+    ],
+    [
+     -22.916666666667,
+     16.233333333333
+    ]
+   ],
+   "p31": [
+    "Q185113",
+    "Q24529780"
+   ],
+   "description": "northernmost point of Boa Vista island, Cape Verde"
+  },
+  {
+   "qid": "Q23007141",
+   "labels": [
+    "Ponta do Sol",
+    "Ponta do Sol, Santo Antão"
+   ],
+   "points": [
+    [
+     -25.09219,
+     17.20532
+    ]
+   ],
+   "p31": [
+    "Q24529780",
+    "Q191992"
+   ],
+   "description": "northernmost point of the Cape Verde archipelago, located on the island of Santo Antão"
+  }
+ ],
+ "CPV|Tartaruga": [],
+ "CPV|Monte Caçador e Pico Forçado": [],
+ "CPV|Ilhéu de Sal-Rei": [
+  {
+   "qid": "Q490593",
+   "labels": [
+    "Ilhéu de Sal Rei",
+    "Ilhéu de Sal-Rei"
+   ],
+   "points": [
+    [
+     -22.933,
+     16.173
+    ]
+   ],
+   "p31": [
+    "Q23442"
+   ],
+   "description": "island"
+  }
+ ],
+ "CPV|Monte Estância": [
+  {
+   "qid": "Q484829",
+   "labels": [
+    "Monte Estância"
+   ],
+   "points": [
+    [
+     -22.754166666667,
+     16.045833333333
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in Boa Vista, Cape Verde"
+  }
+ ],
+ "CPV|Rocha Estância": [
+  {
+   "qid": "Q7353774",
+   "labels": [
+    "Rocha Estância"
+   ],
+   "points": [
+    [
+     -22.91119957,
+     16.04220009
+    ]
+   ],
+   "p31": [
+    "Q8502"
+   ],
+   "description": "mountain in Cape Verde"
+  }
+ ],
+ "CPV|Serra do Pico de António": [],
+ "CPV|Bordeira, Chã das Caldeiras e Pico Novo": [],
+ "CPV|Ilhéus do Rombo": [
+  {
+   "qid": "Q486978",
+   "labels": [
+    "Ilhéus Secos",
+    "îles Secos"
+   ],
+   "points": [
+    [
+     -24.833333333333,
+     14.833333333333
+    ]
+   ],
+   "p31": [
+    "Q1402592"
+   ],
+   "description": "island group in Cape Verde"
+  }
+ ],
+ "GHA|Boabeng-Fiema Wildlife Sanctuary": [],
+ "GHA|Agumatsa Wildlife Sanctuary": [],
+ "GHA|Gbele Resource Reserve": [],
+ "GHA|Ankasa Resource Reserve": [],
+ "GHA|Kalakpa Resource Reserve": [],
+ "GHA|Bia Resource Reserve": [],
+ "GHA|Assin Attandaso Resource Reserve": [],
+ "GIN|Réserve de faune de Kankan": [],
+ "GIN|Forêt classée de Kounounkan": [],
+ "GIN|Réserve naturelle de Manden Woula – Warandogoba": [],
+ "GIN|Aire protégée transfrontalière du Bafing – Falémé": [],
+ "GIN|Aire protégée transfrontalière du Rio Kogon, Korubal et Nunez": [],
+ "GMB|Kiang West National Park": [
+  {
+   "qid": "Q1740765",
+   "labels": [
+    "Kiang West National Park",
+    "parc national de Kiang Ouest"
+   ],
+   "points": [
+    [
+     -15.91666667,
+     13.38333333
+    ]
+   ],
+   "p31": [
+    "Q46169"
+   ],
+   "description": "parc national de Gambie"
+  }
+ ],
+ "GMB|Jokadou National Park": [
+  {
+   "qid": "Q1572430",
+   "labels": [
+    "Jokadu"
+   ],
+   "points": [
+    [
+     -16.183333333333,
+     13.533333333333
+    ]
+   ],
+   "p31": [
+    "Q1504917"
+   ],
+   "description": "district of the Gambia"
+  }
+ ],
+ "GMB|Bolong Fenyo Community Wildlife Reserve": [],
+ "GMB|Bamako Community Conservation Area": [],
+ "GMB|Barrow Kunda Community Conservation Area": [],
+ "GMB|Badari Community Conservation Area": [],
+ "GMB|Demba Kunda Community Conservation Area": [],
+ "GMB|Kass Wolof Community Conservation Area": [],
+ "GMB|Chamen Community Conservation Area": [],
+ "GMB|Faraba Bantang Community Conservation Area": [],
+ "GMB|Pakau Njogu Community Conservation Area": [],
+ "GMB|Kassagne Community Conservation Area": [],
+ "GMB|Kanuma Community Conservation Area": [],
+ "GMB|Tintiba and Dumbuto Community Conservation Area": [],
+ "GMB|Berefet Community Conservation Area": [],
+ "GMB|Bintang Community Conservation Area": [],
+ "GMB|Kartong – Allahein River Marine Protected Area": [],
+ "GMB|Labor Canyon Marine Protected Area": [],
+ "GNB|Parque Nacional de Dulombi": [],
+ "GNB|Parque Nacional de Boé": [],
+ "GNB|Corredor Ecológico de Tchetche": [],
+ "GNB|Corredor Ecológico de Salifo-Xitole": [],
+ "GNB|Corredor Ecológico de Cuntabane-Quebo": [],
+ "LBR|East Nimba Nature Reserve": [],
+ "LBR|Kwa National Park (proposed)": [],
+ "LBR|Wologizi Proposed Protected Area": [],
+ "LBR|Foya Proposed Protected Area": [],
+ "LBR|Kpo Mountains Proposed Protected Area": [],
+ "LBR|Cestos-Senkwehn Proposed Protected Area": [],
+ "LBR|Grand Kru-River Gee Proposed Protected Area": [],
+ "LBR|Gbi Proposed Protected Area": [],
+ "LBR|Bong Mountains (Yoma) Proposed Protected Area": [],
+ "LBR|West Nimba Proposed Protected Area": [],
+ "MOZ|Parque Nacional do Arquipélago de Bazaruto": [],
+ "MOZ|Reserva Nacional de Pomene": [],
+ "MOZ|Reserva Especial do Niassa": [],
+ "MOZ|Reserva Parcial do Lago Niassa": [],
+ "MOZ|Área de Protecção Ambiental das Ilhas Primeiras e Segundas": [],
+ "MOZ|Parque Ecológico de Malhazine": [],
+ "MRT|Réserve Satellite du Cap Blanc": [],
+ "MRT|Parc National d'Awleigatt": [],
+ "MRT|Baie de l'Étoile": [
+  {
+   "qid": "Q27733648",
+   "labels": [
+    "Baie de l'Étoile"
+   ],
+   "points": [
+    [
+     -17.016666666667,
+     21.033333333333
+    ]
+   ],
+   "p31": [
+    "Q17018380"
+   ],
+   "description": "bight in Mauritania"
+  }
+ ],
+ "MRT|Guelb er Richat": [
+  {
+   "qid": "Q744591",
+   "labels": [
+    "Estrutura de Richat",
+    "Richat Structure",
+    "structure de Richat"
+   ],
+   "points": [
+    [
+     -11.402,
+     21.124
+    ]
+   ],
+   "p31": [
+    "Q631305"
+   ],
+   "description": "circular feature in the Sahara desert"
+  }
+ ],
+ "NGA|Allawa National Park": [],
+ "NGA|Apoi National Park": [],
+ "NGA|Falgore National Park": [],
+ "NGA|Hadejia Wetlands National Park": [],
+ "NGA|Kampe National Park": [],
+ "NGA|Kogo National Park": [],
+ "NGA|Marhai National Park": [],
+ "SEN|Parc National des Îles de la Madeleine": [
+  {
+   "qid": "Q3364506",
+   "labels": [
+    "parc national des îles de la Madeleine",
+    "Îles des Madeleines National Park"
+   ],
+   "points": [
+    [
+     -17.47,
+     14.65
+    ]
+   ],
+   "p31": [
+    "Q473972",
+    "Q46169",
+    "Q18618841"
+   ],
+   "description": "parc national du Sénégal"
+  }
+ ],
+ "SEN|Aire Marine Protégée de Saint-Louis": [],
+ "SEN|Aire Marine Protégée de Joal-Fadiouth": [],
+ "SEN|Aire Marine Protégée d'Abéné": [],
+ "SEN|Aire Marine Protégée du Gandoule": [
+  {
+   "qid": "Q139845419",
+   "labels": [
+    "Gandoul"
+   ],
+   "points": [
+    [
+     -17.13056,
+     14.71494
+    ]
+   ],
+   "p31": [
+    "Q532",
+    "Q15642541"
+   ],
+   "description": "village in Keur Moussa Commune, Keur Moussa Arrondissement, Thiès Department, Thiès Region, Senegal"
+  },
+  {
+   "qid": "Q113495154",
+   "labels": [
+    "Gandoul islands",
+    "îles du Gandoul"
+   ],
+   "points": [
+    [
+     -16.625,
+     13.9275
+    ]
+   ],
+   "p31": [
+    "Q1402592"
+   ],
+   "description": "island group of Senegal"
+  },
+  {
+   "qid": "Q139845431",
+   "labels": [
+    "Gandoul Sérère"
+   ],
+   "points": [
+    [
+     -17.12639,
+     14.71632
+    ]
+   ],
+   "p31": [
+    "Q532",
+    "Q15642541"
+   ],
+   "description": "village in Keur Moussa Commune, Keur Moussa Arrondissement, Thiès Department, Thiès Region, Senegal"
+  }
+ ],
+ "SEN|Aire Marine Protégée de Niamone Kalounayes": [],
+ "SEN|Aire Marine Protégée de Kassa Balantacounda": [],
+ "SEN|Aire Marine Protégée du Kaalolaal Blouf-Fogny": [],
+ "SEN|Aire Marine Protégée de Gorée": [],
+ "SEN|Aire Marine Protégée de Sokone": [],
+ "SEN|Réserve Spéciale Botanique de Noflaye": [],
+ "SLE|Loma Mountains National Park": [],
+ "SLE|Kangari Hills Non-Hunting Forest Reserve": [],
+ "SLE|Tingi Hills Non-Hunting Forest Reserve": [],
+ "SLE|Tonkoli Forest Reserve": [],
+ "SLE|Dodo Hills Forest Reserve": [],
+ "SLE|Tama Forest Reserve": [],
+ "SLE|Nimini Hills Forest Reserve": [],
+ "SLE|Moyamba Hills Forest Reserve": [],
+ "SLE|Scarcies River Estuary Marine Protected Area": [],
+ "SLE|Yawri Bay Marine Protected Area": [],
+ "SLE|Sherbro River Estuary Marine Protected Area": [],
+ "SLE|Lake Sonfon": [
+  {
+   "qid": "Q3577165",
+   "labels": [
+    "Lake Sonfon"
+   ],
+   "points": [
+    [
+     -11.521497,
+     9.248345
+    ]
+   ],
+   "p31": [
+    "Q23397"
+   ],
+   "description": "lake in Diang, Sierra Leone, Sierra Leone"
+  }
+ ],
+ "SLE|Lakes Mape and Mabesi": [],
+ "TGO|Parc national Oti-Kéran": [],
+ "TGO|Réserve de faune Oti-Mandouri": [],
+ "TGO|Togodo-Sud": [],
+ "TGO|Togodo-Nord": [],
+ "TGO|Bayémé": [],
+ "TGO|Amou-Mono / Tchilla-Monota": [],
+ "TGO|Forêt de Doung": [],
+ "TGO|Forêt classée d'Assoukoko": [],
+ "TGO|Réserve de faune de Djamdè": [],
+ "UGA|Karuma Wildlife Reserve": [],
+ "UGA|Amudat Community Wildlife Area": [],
+ "UGA|Rwengara Community Wildlife Area": [],
+ "UGA|Kaiso-Tonya Community Wildlife Area": [],
+ "UGA|Kashaka Wildlife Sanctuary": [],
+ "UGA|Kahendero Wildlife Sanctuary": [],
+ "UGA|Kayanja Wildlife Sanctuary": [],
+ "UGA|Rwenshama Wildlife Sanctuary": [],
+ "UGA|Ntoroko-Kanara Wildlife Sanctuary": []
+}

@@ -1,0 +1,293 @@
+{
+ "merge": [
+  [
+   "SEN",
+   "Réserve Spéciale d'Avifaune du Ndiaël",
+   "ramsar-139"
+  ],
+  [
+   "SEN",
+   "Réserve Ornithologique de Kalissaye",
+   "ramsar-2326"
+  ],
+  [
+   "GNB",
+   "Área Marinha Protegida Comunitária das Ilhas de Formosa, Nago e Chediã (Ilhas Urok)",
+   "urok-community-mpa"
+  ],
+  [
+   "LBR",
+   "Lake Piso Multiple Sustainable Use Reserve",
+   "ramsar-1306"
+  ],
+  [
+   "LBR",
+   "Marshall Wetlands Proposed Protected Area",
+   "ramsar-1630"
+  ],
+  [
+   "TGO",
+   "Parc national Oti-Kéran",
+   "ramsar-735"
+  ]
+ ],
+ "overlap": [
+  [
+   "CIV",
+   "Parc national des Îles Ehotilé",
+   "ramsar-1584"
+  ],
+  [
+   "CPV",
+   "Ilhéu de Curral Velho",
+   "ramsar-1575"
+  ],
+  [
+   "GIN",
+   "Aire protégée transfrontalière du Bafing – Falémé",
+   "ramsar-1719"
+  ],
+  [
+   "BEN",
+   "Parc National de la Pendjari",
+   "ramsar-1669"
+  ],
+  [
+   "BWA",
+   "Okavango Wildlife Management Area",
+   "ramsar-879"
+  ],
+  [
+   "EGY",
+   "Zaranik and Sabkhat El-Bardawil",
+   "ramsar-407"
+  ],
+  [
+   "GAB",
+   "Parc national de l'Ivindo",
+   "ramsar-1852"
+  ],
+  [
+   "GAB",
+   "Parc national de Loango",
+   "ramsar-352"
+  ],
+  [
+   "GAB",
+   "Parc Marin de l'embouchure de Setté Cama",
+   "ramsar-353"
+  ],
+  [
+   "NAM",
+   "Bwabwata National Park",
+   "ramsar-2193"
+  ],
+  [
+   "NAM",
+   "Etosha National Park",
+   "ramsar-745"
+  ],
+  [
+   "NGA",
+   "Apoi National Park",
+   "ramsar-1751"
+  ],
+  [
+   "NGA",
+   "Pandam National Park",
+   "ramsar-1758"
+  ],
+  [
+   "SEN",
+   "Aire Marine Protégée de Somone",
+   "ramsar-2327"
+  ],
+  [
+   "TGO",
+   "Parc national Oti-Kéran",
+   "ramsar-735"
+  ],
+  [
+   "TGO",
+   "Réserve de faune Oti-Mandouri",
+   "ramsar-1721"
+  ],
+  [
+   "TGO",
+   "Togodo-Sud",
+   "ramsar-736"
+  ],
+  [
+   "TGO",
+   "Togodo-Nord",
+   "ramsar-736"
+  ],
+  [
+   "TZA",
+   "Lake Natron Game Controlled Area",
+   "ramsar-1080"
+  ],
+  [
+   "TZA",
+   "Kilombero Game Controlled Area",
+   "ramsar-1173"
+  ],
+  [
+   "TZA",
+   "Mafia Island Marine Park",
+   "ramsar-1443"
+  ],
+  [
+   "UGA",
+   "Lake Mburo National Park",
+   "ramsar-1634"
+  ],
+  [
+   "UGA",
+   "Murchison Falls National Park",
+   "ramsar-1640"
+  ],
+  [
+   "CIV",
+   "Site du parc national d'Azagny (AMP)",
+   "ramsar-790"
+  ]
+ ],
+ "acceptWikidata": [
+  [
+   "CIV",
+   "Parc national des Îles Ehotilé",
+   "Q2749744"
+  ],
+  [
+   "CIV",
+   "Réserve naturelle de Mabi-Yaya",
+   "Q126871475"
+  ],
+  [
+   "GHA",
+   "Kakum National Park",
+   "Q568693"
+  ],
+  [
+   "GHA",
+   "Bia National Park",
+   "Q855195"
+  ],
+  [
+   "GHA",
+   "Kogyae Strict Nature Reserve",
+   "Q25064132"
+  ],
+  [
+   "GIN",
+   "Parc National du Haut Niger",
+   "Q2944459"
+  ],
+  [
+   "GIN",
+   "Parc National du Badiar",
+   "Q3364507"
+  ],
+  [
+   "GIN",
+   "Réserve Naturelle Intégrale des Monts Nimba",
+   "Q924276"
+  ],
+  [
+   "MOZ",
+   "Parque Nacional do Gilé",
+   "Q122241242"
+  ],
+  [
+   "NGA",
+   "Gashaka-Gumti National Park",
+   "Q1495137"
+  ],
+  [
+   "NGA",
+   "Pandam National Park",
+   "Q15839443"
+  ],
+  [
+   "TGO",
+   "Réserve de faune de Galangachi",
+   "Q122213985"
+  ],
+  [
+   "TZA",
+   "Lake Manyara National Park",
+   "Q607533"
+  ],
+  [
+   "TZA",
+   "Swagaswaga Game Reserve",
+   "Q30621454"
+  ],
+  [
+   "UGA",
+   "Mount Elgon National Park",
+   "Q1273335"
+  ],
+  [
+   "UGA",
+   "Kibale National Park",
+   "Q1740785"
+  ],
+  [
+   "UGA",
+   "Matheniko Wildlife Reserve",
+   "Q6786914"
+  ],
+  [
+   "GAB",
+   "Lékédi",
+   "Q3364220"
+  ]
+ ],
+ "rejectWikidata": [
+  [
+   "GMB",
+   "Bamako Community Conservation Area",
+   "Q805917"
+  ],
+  [
+   "TZA",
+   "Igombe Game Reserve",
+   "Q856665"
+  ],
+  [
+   "TZA",
+   "Kimbanda Wildlife Management Area",
+   "Q5983627"
+  ],
+  [
+   "UGA",
+   "Toro-Semliki Wildlife Reserve",
+   "Q118339345"
+  ],
+  [
+   "BWA",
+   "Chobe Forest Reserve",
+   "Q859389"
+  ],
+  [
+   "TZA",
+   "Ugalla Game Reserve",
+   "Q7877571"
+  ],
+  [
+   "TZA",
+   "Rungwa River Game Controlled Area",
+   "Q7379872"
+  ]
+ ],
+ "rejectWikidataWhereNote": [
+  [
+   "CPV",
+   "Monte Santo António",
+   "Island: Maio",
+   "Q27929074"
+  ]
+ ]
+}

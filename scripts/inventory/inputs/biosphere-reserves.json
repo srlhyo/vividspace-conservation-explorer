@@ -1,0 +1,299 @@
+[
+ {
+  "slug": "badiar",
+  "title": "Badiar",
+  "year": "2002",
+  "country": "Guinea",
+  "area_ha": "505,000.00",
+  "lat": 12.334,
+  "lon": -13.265
+ },
+ {
+  "slug": "bia",
+  "title": "Bia",
+  "year": "1983",
+  "country": "Ghana",
+  "area_ha": "148,341.00",
+  "lat": 6.456,
+  "lon": -3.059
+ },
+ {
+  "slug": "bolama-bijagos",
+  "title": "Bolama-Bijagos",
+  "year": "1996",
+  "country": "Guinea-Bissau",
+  "area_ha": "1,047,953.00",
+  "lat": 11.23,
+  "lon": -16.03
+ },
+ {
+  "slug": "comoe",
+  "title": "Comoé",
+  "year": "1983",
+  "country": "Côte d'Ivoire",
+  "area_ha": "1,155,330.00",
+  "lat": 9.08,
+  "lon": -3.75
+ },
+ {
+  "slug": "delta-du-fleuve-senegal",
+  "title": "Delta du Fleuve Senegal",
+  "year": "2005",
+  "country": "Mauritania",
+  "area_ha": "131,355.00",
+  "lat": 16.4736,
+  "lon": -16.3919
+ },
+ {
+  "slug": "delta-du-saloum",
+  "title": "Delta du Saloum",
+  "year": "1980",
+  "country": "Senegal",
+  "area_ha": "408,906.00",
+  "lat": 13.938,
+  "lon": -16.532
+ },
+ {
+  "slug": "east-usambara",
+  "title": "East Usambara",
+  "year": "2000",
+  "country": "United Republic of Tanzania",
+  "area_ha": "90,478.00",
+  "lat": -4.988,
+  "lon": 38.691
+ },
+ {
+  "slug": "ferlo",
+  "title": "Ferlo",
+  "year": "2012",
+  "country": "Senegal",
+  "area_ha": "2,058,214.00",
+  "lat": 15.118,
+  "lon": -13.881
+ },
+ {
+  "slug": "fogo",
+  "title": "Fogo",
+  "year": "2020",
+  "country": "Cabo Verde",
+  "area_ha": "102,142.00",
+  "lat": 14.94,
+  "lon": -24.384
+ },
+ {
+  "slug": "gombe-masito-ugalla",
+  "title": "Gombe Masito Ugalla",
+  "year": "2018",
+  "country": "United Republic of Tanzania",
+  "area_ha": "1,658,466.00",
+  "lat": -5.355,
+  "lon": 30.393
+ },
+ {
+  "slug": "haut-niger",
+  "title": "Haut Niger",
+  "year": "2002",
+  "country": "Guinea",
+  "area_ha": "776,550.00",
+  "lat": 10.51,
+  "lon": -10.34
+ },
+ {
+  "slug": "island-principe",
+  "title": "Island of Principe",
+  "year": "2012",
+  "country": "Sao Tome and Principe",
+  "area_ha": "71,592.00",
+  "lat": 1.612,
+  "lon": 7.397
+ },
+ {
+  "slug": "jozani-chwaka-bay",
+  "title": "Jozani-Chwaka Bay",
+  "year": "2016",
+  "country": "United Republic of Tanzania",
+  "area_ha": "21,274.00",
+  "lat": -6.23,
+  "lon": 39.4
+ },
+ {
+  "slug": "lake-bosomtwe",
+  "title": "Lake Bosomtwe",
+  "year": "2016",
+  "country": "Ghana",
+  "area_ha": "28,698.00",
+  "lat": 6.5,
+  "lon": -1.41
+ },
+ {
+  "slug": "lake-manyara",
+  "title": "Lake Manyara",
+  "year": "1981",
+  "country": "United Republic of Tanzania",
+  "area_ha": "346,761.00",
+  "lat": -3.58,
+  "lon": 35.76
+ },
+ {
+  "slug": "maio",
+  "title": "Maio",
+  "year": "2020",
+  "country": "Cabo Verde",
+  "area_ha": "73,972.00",
+  "lat": 15.215,
+  "lon": -23.164
+ },
+ {
+  "slug": "massif-du-ziama",
+  "title": "Massif du Ziama",
+  "year": "1980",
+  "country": "Guinea",
+  "area_ha": "237,219.00",
+  "lat": 8.252,
+  "lon": -9.288
+ },
+ {
+  "slug": "mono",
+  "title": "Mono",
+  "year": "2017",
+  "country": "Benin",
+  "area_ha": "142,498.00",
+  "lat": 6.6028,
+  "lon": 1.7305
+ },
+ {
+  "slug": "mont-nimba",
+  "title": "Mont Nimba",
+  "year": "1980",
+  "country": "Guinea",
+  "area_ha": "145,200.00",
+  "lat": 7.711,
+  "lon": -8.308
+ },
+ {
+  "slug": "mount-elgon-0",
+  "title": "Mount Elgon",
+  "year": "2005",
+  "country": "Uganda",
+  "area_ha": "215,147.00",
+  "lat": 1.201,
+  "lon": 34.506
+ },
+ {
+  "slug": "niokolo-koba",
+  "title": "Niokolo-Koba",
+  "year": "1981",
+  "country": "Senegal",
+  "area_ha": "2,043,921.00",
+  "lat": 13.015,
+  "lon": -13.09
+ },
+ {
+  "slug": "niumi",
+  "title": "Niumi",
+  "year": "2024",
+  "country": "Gambia",
+  "area_ha": "193,665.00",
+  "lat": 13.5016,
+  "lon": -16.1282
+ },
+ {
+  "slug": "omayed",
+  "title": "Omayed",
+  "year": "1981",
+  "country": "Egypt",
+  "area_ha": "75,800.00",
+  "lat": 30.74,
+  "lon": 29.15
+ },
+ {
+  "slug": "omo",
+  "title": "Omo",
+  "year": "1977",
+  "country": "Nigeria",
+  "area_ha": "95,610.00",
+  "lat": 6.886,
+  "lon": 4.37
+ },
+ {
+  "slug": "pendjari",
+  "title": "Pendjari",
+  "year": "1986",
+  "country": "Benin",
+  "area_ha": "476,597.00",
+  "lat": 11.1762,
+  "lon": 1.5468
+ },
+ {
+  "slug": "queen-elizabeth",
+  "title": "Queen Elizabeth",
+  "year": "1979",
+  "country": "Uganda",
+  "area_ha": "479,045.00",
+  "lat": -0.21,
+  "lon": 30.0
+ },
+ {
+  "slug": "quirimbas",
+  "title": "Quirimbas",
+  "year": "2018",
+  "country": "Mozambique",
+  "area_ha": "1,481,234.00",
+  "lat": -12.6,
+  "lon": 39.98
+ },
+ {
+  "slug": "samba-dia",
+  "title": "Samba Dia",
+  "year": "1979",
+  "country": "Senegal",
+  "area_ha": "36,700.00",
+  "lat": 14.099,
+  "lon": -16.677
+ },
+ {
+  "slug": "serengeti-ngorongoro",
+  "title": "Serengeti-Ngorongoro",
+  "year": "1981",
+  "country": "United Republic of Tanzania",
+  "area_ha": "3,836,814.00",
+  "lat": -2.74,
+  "lon": 34.86
+ },
+ {
+  "slug": "songor",
+  "title": "Songor",
+  "year": "2011",
+  "country": "Ghana",
+  "area_ha": "37,596.00",
+  "lat": 5.853,
+  "lon": 0.523
+ },
+ {
+  "slug": "tai",
+  "title": "Taï",
+  "year": "1977",
+  "country": "Côte d'Ivoire",
+  "area_ha": "942,964.00",
+  "lat": 5.804,
+  "lon": -7.085
+ },
+ {
+  "slug": "w-region-1",
+  "title": "W Region",
+  "year": "2002",
+  "country": "Benin",
+  "area_ha": "2,048,313.00",
+  "lat": 11.5559,
+  "lon": 2.626
+ },
+ {
+  "slug": "wadi-allaqi",
+  "title": "Wadi Allaqi",
+  "year": "1993",
+  "country": "Egypt",
+  "area_ha": "223,464,300.00",
+  "lat": 22.5,
+  "lon": 33.99
+ }
+]

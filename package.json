@@ -12,7 +12,8 @@
     "preview": "vite preview",
     "data:geo": "node scripts/fetch-geodata.mjs",
     "data:coverage": "node scripts/coverage-report.mjs",
-    "data:export": "node scripts/export-csv.mjs"
+    "data:export": "node scripts/export-csv.mjs",
+    "data:build": "python3 scripts/inventory/build.py && npm run data:export && npm run data:coverage"
   },
   "dependencies": {
     "@fontsource/figtree": "^5.3.0",

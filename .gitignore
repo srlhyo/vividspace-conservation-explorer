@@ -25,3 +25,4 @@ dist-ssr
 
 # Local handoff packages (built from docs/)
 /handoff/
+__pycache__/

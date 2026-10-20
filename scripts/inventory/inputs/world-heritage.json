@@ -1,0 +1,489 @@
+[
+ {
+  "id": 1432,
+  "title": "Okavango Delta",
+  "category": "natural",
+  "inscribed": 2014,
+  "danger": false,
+  "countries": [
+   "BWA"
+  ],
+  "components": [
+   {
+    "state": "Botswana",
+    "name": "Okavango Delta",
+    "lonlat": [
+     22.9,
+     -19.2833333333
+    ],
+    "sp": "BWA"
+   }
+  ]
+ },
+ {
+  "id": 1430,
+  "title": "Namib Sand Sea",
+  "category": "natural",
+  "inscribed": 2013,
+  "danger": false,
+  "countries": [
+   "NAM"
+  ],
+  "components": [
+   {
+    "state": "Namibia",
+    "name": "Namib Sand Sea",
+    "lonlat": [
+     15.4077777778,
+     -24.8852777778
+    ],
+    "sp": "NAM"
+   }
+  ]
+ },
+ {
+  "id": 403,
+  "title": "Kilimanjaro National Park",
+  "category": "natural",
+  "inscribed": 1987,
+  "danger": false,
+  "countries": [
+   "TZA"
+  ],
+  "components": [
+   {
+    "state": "United Republic of Tanzania",
+    "name": "Kilimanjaro National Park",
+    "lonlat": [
+     37.36667,
+     -3.06667
+    ],
+    "sp": "TZA"
+   }
+  ]
+ },
+ {
+  "id": 199,
+  "title": "Selous Game Reserve",
+  "category": "natural",
+  "inscribed": 1982,
+  "danger": true,
+  "countries": [
+   "TZA"
+  ],
+  "components": [
+   {
+    "state": "United Republic of Tanzania",
+    "name": "Selous Game Reserve",
+    "lonlat": [
+     37.4,
+     -9.0
+    ],
+    "sp": "TZA"
+   }
+  ]
+ },
+ {
+  "id": 156,
+  "title": "Serengeti National Park",
+  "category": "natural",
+  "inscribed": 1981,
+  "danger": false,
+  "countries": [
+   "TZA"
+  ],
+  "components": [
+   {
+    "state": "United Republic of Tanzania",
+    "name": "Serengeti National Park",
+    "lonlat": [
+     34.859,
+     -2.74
+    ],
+    "sp": "TZA"
+   }
+  ]
+ },
+ {
+  "id": 39,
+  "title": "Ngorongoro Conservation Area",
+  "category": "mixed",
+  "inscribed": 1979,
+  "danger": false,
+  "countries": [
+   "TZA"
+  ],
+  "components": [
+   {
+    "state": "United Republic of Tanzania",
+    "name": "Ngorongoro Conservation Area",
+    "lonlat": [
+     35.54083,
+     -3.18722
+    ],
+    "sp": "TZA"
+   }
+  ]
+ },
+ {
+  "id": 914,
+  "title": "iSimangaliso Wetland Park – Maputo National Park",
+  "category": "natural",
+  "inscribed": 1999,
+  "danger": false,
+  "countries": [
+   "MOZ"
+  ],
+  "components": [
+   {
+    "state": "Mozambique",
+    "name": "Maputo National Park",
+    "lonlat": [
+     32.8705555556,
+     -26.4363888889
+    ],
+    "sp": "MOZ"
+   }
+  ]
+ },
+ {
+  "id": 682,
+  "title": "Bwindi Impenetrable National Park",
+  "category": "natural",
+  "inscribed": 1994,
+  "danger": false,
+  "countries": [
+   "UGA"
+  ],
+  "components": [
+   {
+    "state": "Uganda",
+    "name": "Bwindi Impenetrable National Park",
+    "lonlat": [
+     29.692,
+     -1.047
+    ],
+    "sp": "UGA"
+   }
+  ]
+ },
+ {
+  "id": 684,
+  "title": "Rwenzori Mountains National Park",
+  "category": "natural",
+  "inscribed": 1994,
+  "danger": false,
+  "countries": [
+   "UGA"
+  ],
+  "components": [
+   {
+    "state": "Uganda",
+    "name": "Rwenzori Mountains National Park",
+    "lonlat": [
+     29.92416667,
+     0.223611111
+    ],
+    "sp": "UGA"
+   }
+  ]
+ },
+ {
+  "id": 1186,
+  "title": "Wadi Al-Hitan (Whale Valley)",
+  "category": "natural",
+  "inscribed": 2005,
+  "danger": false,
+  "countries": [
+   "EGY"
+  ],
+  "components": [
+   {
+    "state": "Egypt",
+    "name": "Wadi Al-Hitan (Whale Valley)",
+    "lonlat": [
+     30.18333,
+     29.33333
+    ],
+    "sp": "EGY"
+   }
+  ]
+ },
+ {
+  "id": 1653,
+  "title": "Ivindo National Park",
+  "category": "natural",
+  "inscribed": 2021,
+  "danger": false,
+  "countries": [
+   "GAB"
+  ],
+  "components": [
+   {
+    "state": "Gabon",
+    "name": "Ivindo National Park",
+    "lonlat": [
+     12.648,
+     0.113
+    ],
+    "sp": "GAB"
+   }
+  ]
+ },
+ {
+  "id": 1147,
+  "title": "Ecosystem and Relict Cultural Landscape of Lopé-Okanda",
+  "category": "mixed",
+  "inscribed": 2007,
+  "danger": false,
+  "countries": [
+   "GAB"
+  ],
+  "components": [
+   {
+    "state": "Gabon",
+    "name": "Parc National de Lopé-Okanda; Doda; Mokékou",
+    "lonlat": [
+     11.5,
+     -0.5
+    ],
+    "sp": "GAB"
+   },
+   {
+    "state": "Gabon",
+    "name": "Elarmékora",
+    "lonlat": [
+     11.133333,
+     -0.083333
+    ],
+    "sp": "GAB"
+   },
+   {
+    "state": "Gabon",
+    "name": "Mount Iboundji",
+    "lonlat": [
+     11.791667,
+     -1.175
+    ],
+    "sp": "GAB"
+   }
+  ]
+ },
+ {
+  "id": 749,
+  "title": "W-Arly-Pendjari Complex",
+  "category": "natural",
+  "inscribed": 1996,
+  "danger": false,
+  "countries": [
+   "BEN"
+  ],
+  "components": [
+   {
+    "state": "Benin",
+    "name": "W-Arly-Pendjari Complex",
+    "lonlat": [
+     2.6544444444,
+     11.8841666667
+    ],
+    "sp": "BEN"
+   }
+  ]
+ },
+ {
+  "id": 227,
+  "title": "Comoé National Park",
+  "category": "natural",
+  "inscribed": 1983,
+  "danger": false,
+  "countries": [
+   "CIV"
+  ],
+  "components": [
+   {
+    "state": "Côte d'Ivoire",
+    "name": "Comoé National Park",
+    "lonlat": [
+     -3.758,
+     9.077
+    ],
+    "sp": "CIV"
+   }
+  ]
+ },
+ {
+  "id": 155,
+  "title": "Mount Nimba Strict Nature Reserve",
+  "category": "natural",
+  "inscribed": 1981,
+  "danger": true,
+  "countries": [
+   "CIV",
+   "GIN"
+  ],
+  "components": [
+   {
+    "state": "Côte d'Ivoire",
+    "name": "Mount Nimba Strict Nature Reserve",
+    "lonlat": [
+     -8.39097,
+     7.60318
+    ],
+    "sp": "CIV"
+   }
+  ]
+ },
+ {
+  "id": 195,
+  "title": "Taï National Park",
+  "category": "natural",
+  "inscribed": 1982,
+  "danger": false,
+  "countries": [
+   "CIV"
+  ],
+  "components": [
+   {
+    "state": "Côte d'Ivoire",
+    "name": "Taï National Park",
+    "lonlat": [
+     -7.0952777778,
+     5.6488888889
+    ],
+    "sp": "CIV"
+   }
+  ]
+ },
+ {
+  "id": 1431,
+  "title": "Coastal and Marine Ecosystems of the Bijagós Archipelago – Omatí Minhô",
+  "category": "natural",
+  "inscribed": 2025,
+  "danger": false,
+  "countries": [
+   "GNB"
+  ],
+  "components": [
+   {
+    "state": "Guinea-Bissau",
+    "name": "Coastal and Marine Ecosystems of the Bijagós Archipelago – Omatí Minhô",
+    "lonlat": [
+     -15.9488888889,
+     11.12
+    ],
+    "sp": "GNB"
+   }
+  ]
+ },
+ {
+  "id": 506,
+  "title": "Banc d'Arguin National Park",
+  "category": "natural",
+  "inscribed": 1989,
+  "danger": false,
+  "countries": [
+   "MRT"
+  ],
+  "components": [
+   {
+    "state": "Mauritania",
+    "name": "Banc d'Arguin National Park",
+    "lonlat": [
+     -16.10889,
+     20.23472
+    ],
+    "sp": "MRT"
+   }
+  ]
+ },
+ {
+  "id": 25,
+  "title": "Djoudj National Bird Sanctuary",
+  "category": "natural",
+  "inscribed": 1981,
+  "danger": false,
+  "countries": [
+   "SEN"
+  ],
+  "components": [
+   {
+    "state": "Senegal",
+    "name": "Djoudj National Bird Sanctuary",
+    "lonlat": [
+     -16.237906,
+     16.414602
+    ],
+    "sp": "SEN"
+   }
+  ]
+ },
+ {
+  "id": 153,
+  "title": "Niokolo-Koba National Park",
+  "category": "natural",
+  "inscribed": 1981,
+  "danger": false,
+  "countries": [
+   "SEN"
+  ],
+  "components": [
+   {
+    "state": "Senegal",
+    "name": "Niokolo-Koba National Park",
+    "lonlat": [
+     -13.004,
+     13.006
+    ],
+    "sp": "SEN"
+   }
+  ]
+ },
+ {
+  "id": 1746,
+  "title": "Gola-Tiwai Complex",
+  "category": "natural",
+  "inscribed": 2025,
+  "danger": false,
+  "countries": [
+   "SLE"
+  ],
+  "components": [
+   {
+    "state": "Sierra Leone",
+    "name": "Tiwai Island",
+    "lonlat": [
+     -11.3478888889,
+     7.5411666666
+    ],
+    "sp": "SLE"
+   },
+   {
+    "state": "Sierra Leone",
+    "name": "Gola South",
+    "lonlat": [
+     -11.2,
+     7.3666666667
+    ],
+    "sp": "SLE"
+   },
+   {
+    "state": "Sierra Leone",
+    "name": "Gola Central",
+    "lonlat": [
+     -10.8666666667,
+     7.65
+    ],
+    "sp": "SLE"
+   },
+   {
+    "state": "Sierra Leone",
+    "name": "Gola North",
+    "lonlat": [
+     -10.6666666667,
+     7.8
+    ],
+    "sp": "SLE"
+   }
+  ]
+ }
+]
