@@ -1,0 +1,68 @@
+﻿territory_id,designation_id,designation_name,source_ids,source_urls
+bijagos-archipelago,ramsar,Ramsar site,ramsar-ris-2198,https://rsis.ramsar.org/RISapp/files/RISrep/GW2198RIS.pdf
+bijagos-archipelago,biosphere-reserve,Biosphere reserve,unesco-mab-bolama-bijagos,https://www.unesco.org/en/mab/bolama-bijagos
+bijagos-archipelago,world-heritage,World Heritage site,whc-1431,https://whc.unesco.org/en/list/1431/
+orango-national-park,national-park,National or natural park,bioguinea-orango,https://www.bioguinea.org/protected-areas-in-guinea-bissau/the-orango-national-park/
+joao-vieira-poilao,national-park,National or natural park,bioguinea-jvp,https://www.bioguinea.org/protected-areas-in-guinea-bissau/the-joao-vieira-and-poilao-national-marine-park/
+urok-community-mpa,community-protected-area,Community protected area,bioguinea-urok,https://www.bioguinea.org/protected-areas-in-guinea-bissau/community-marine-protected-area-of-the-urok-islands/
+cacheu-mangroves-park,ramsar,Ramsar site,ramsar-annotated-gw; ramsar-ris-2229,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea-Bissau.pdf; https://rsis.ramsar.org/RISapp/files/RISrep/GW2229RIS_1505_fr.pdf
+cacheu-mangroves-park,national-park,National or natural park,ibap-pntc,https://ibapgbissau.org/pntc-ap/
+cantanhez-national-park,national-park,National or natural park,bioguinea-cantanhez,https://www.bioguinea.org/protected-areas-in-guinea-bissau/cantanhez-national-park/
+ramsar-1017,ramsar,Ramsar site,ramsar-annotated-bj,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Benin.pdf
+ramsar-1018,ramsar,Ramsar site,ramsar-annotated-bj,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Benin.pdf
+ramsar-1577,ramsar,Ramsar site,ramsar-annotated-cv,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cabo-Verde.pdf
+ramsar-2182,ramsar,Ramsar site,ramsar-annotated-cv,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cabo-Verde.pdf
+ramsar-1576,ramsar,Ramsar site,ramsar-annotated-cv,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cabo-Verde.pdf
+ramsar-1575,ramsar,Ramsar site,ramsar-annotated-cv,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cabo-Verde.pdf
+ramsar-1584,ramsar,Ramsar site,ramsar-annotated-ci,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cote-d-Ivoire.pdf
+ramsar-1581,ramsar,Ramsar site,ramsar-annotated-ci,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cote-d-Ivoire.pdf
+ramsar-1583,ramsar,Ramsar site,ramsar-annotated-ci,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cote-d-Ivoire.pdf
+ramsar-790,ramsar,Ramsar site,ramsar-annotated-ci,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cote-d-Ivoire.pdf
+ramsar-790,national-park,National or natural park,ramsar-annotated-ci,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cote-d-Ivoire.pdf
+ramsar-1582,ramsar,Ramsar site,ramsar-annotated-ci,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cote-d-Ivoire.pdf
+ramsar-1585,ramsar,Ramsar site,ramsar-annotated-ci,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Cote-d-Ivoire.pdf
+ramsar-1657,ramsar,Ramsar site,ramsar-annotated-gm,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Gambia.pdf
+ramsar-860,ramsar,Ramsar site,ramsar-annotated-gm,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Gambia.pdf
+ramsar-1840,ramsar,Ramsar site,ramsar-annotated-gm,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Gambia.pdf
+ramsar-1840,national-park,National or natural park,ramsar-annotated-gm,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Gambia.pdf
+ramsar-565,ramsar,Ramsar site,ramsar-annotated-gh,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Ghana.pdf
+ramsar-564,ramsar,Ramsar site,ramsar-annotated-gh,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Ghana.pdf
+ramsar-563,ramsar,Ramsar site,ramsar-annotated-gh,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Ghana.pdf
+ramsar-567,ramsar,Ramsar site,ramsar-annotated-gh,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Ghana.pdf
+ramsar-566,ramsar,Ramsar site,ramsar-annotated-gh,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Ghana.pdf
+ramsar-572,ramsar,Ramsar site,ramsar-annotated-gn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea.pdf
+ramsar-575,ramsar,Ramsar site,ramsar-annotated-gn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea.pdf
+ramsar-618,ramsar,Ramsar site,ramsar-annotated-gn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea.pdf
+ramsar-574,ramsar,Ramsar site,ramsar-annotated-gn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea.pdf
+ramsar-571,ramsar,Ramsar site,ramsar-annotated-gn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea.pdf
+ramsar-573,ramsar,Ramsar site,ramsar-annotated-gn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea.pdf
+ramsar-469,ramsar,Ramsar site,ramsar-annotated-gw,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Guinea-Bissau.pdf
+ramsar-1306,ramsar,Ramsar site,ramsar-annotated-lr,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Liberia.pdf
+ramsar-1630,ramsar,Ramsar site,ramsar-annotated-lr,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Liberia.pdf
+ramsar-1631,ramsar,Ramsar site,ramsar-annotated-lr,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Liberia.pdf
+ramsar-250,ramsar,Ramsar site,ramsar-annotated-mr,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Mauritania.pdf
+ramsar-250,national-park,National or natural park,ramsar-annotated-mr,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Mauritania.pdf
+ramsar-1044,ramsar,Ramsar site,ramsar-annotated-mr,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Mauritania.pdf
+ramsar-666,ramsar,Ramsar site,ramsar-annotated-mr,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Mauritania.pdf
+ramsar-666,national-park,National or natural park,ramsar-annotated-mr,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Mauritania.pdf
+ramsar-1751,ramsar,Ramsar site,ramsar-annotated-ng,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Nigeria.pdf
+ramsar-2564,ramsar,Ramsar site,ramsar-annotated-ng,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Nigeria.pdf
+ramsar-2593,ramsar,Ramsar site,ramsar-annotated-ng,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Nigeria.pdf
+ramsar-2326,ramsar,Ramsar site,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-288,ramsar,Ramsar site,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-288,national-park,National or natural park,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-288,biosphere-reserve,Biosphere reserve,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-2199,ramsar,Ramsar site,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-2199,community-protected-area,Community protected area,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-2199,biosphere-reserve,Biosphere reserve,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-338,ramsar,Ramsar site,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-2467,ramsar,Ramsar site,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-2467,national-park,National or natural park,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-2327,ramsar,Ramsar site,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-2327,community-protected-area,Community protected area,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-2328,ramsar,Ramsar site,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-2328,community-protected-area,Community protected area,ramsar-annotated-sn,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Senegal.pdf
+ramsar-1014,ramsar,Ramsar site,ramsar-annotated-sl,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Sierra-Leone.pdf
+ramsar-1722,ramsar,Ramsar site,ramsar-annotated-tg,https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-Togo.pdf
+mono-biosphere-reserve,biosphere-reserve,Biosphere reserve,unesco-mab-mono,https://www.unesco.org/en/mab/mono
+western-area-peninsula-np,national-park,National or natural park,wikidata-q256104,https://www.wikidata.org/wiki/Q256104

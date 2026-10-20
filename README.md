@@ -61,6 +61,7 @@ Use **Explore world** to zoom out to a global view, and switch between the **2D 
 ## Data
 
 - `public/data/catalogue.json` holds territories, ecosystems, themes, challenges, potential activities, organisations and sources. The rules every entry must follow are enforced by `src/domain/validate.ts` and `src/data/dataset.test.ts`.
+- [`docs/data-dictionary.md`](docs/data-dictionary.md) explains every entity, field and relationship. [`docs/data-export/`](docs/data-export/README.md) has the same records as linked CSV files for spreadsheets (regenerate with `npm run data:export`).
 - `public/data/geo/` holds the 13 WASOP country outlines (Natural Earth 1:50m, public domain) and the Guinea-Bissau region boundaries (geoBoundaries gbOpen, derived from OpenStreetMap, ODbL 1.0). Protected areas are shown as reference points only, because official protected-area boundaries (WDPA) are not used.
 - Outside Guinea-Bissau the catalogue is a researched selection, mainly coastal and marine Ramsar sites from the official Ramsar annotated lists. It is **not an exhaustive official inventory**. One area per country has researched challenges, potential activities and organisations (named in the coverage report); the other sites are location and designation records only. See [`docs/coverage-report.md`](docs/coverage-report.md) (regenerate with `npm run data:coverage`).
 

@@ -1,0 +1,58 @@
+﻿challenge_id,title,territory_ids,theme_ids,theme_names,statement_count,linked_opportunity_ids
+bijagos-pressure-context,Emerging development pressures,bijagos-archipelago,development; species,Development pressures; Species & habitats,3,
+bijagos-fishing-pressure,Fishing pressure from outside the archipelago,bijagos-archipelago; urok-community-mpa,fisheries; species,Fisheries & marine resources; Species & habitats,3,bijagos-community-fisheries-products
+bijagos-mangrove-fuelwood,Mangrove wood used for fish smoking,bijagos-archipelago,mangroves; fisheries,Mangrove conservation; Fisheries & marine resources,1,fuel-efficient-fish-processing
+bijagos-climate,Climate change and sea-level rise,bijagos-archipelago; orango-national-park; joao-vieira-poilao; urok-community-mpa,climate,Climate & coastal resilience,1,
+bijagos-sacred-forests-tourism,Pressure on sacred island forests,bijagos-archipelago,development; governance,Development pressures; Community governance,1,bijagos-community-tourism
+bijagos-cashew-shift,Cashew expansion changing traditional production,bijagos-archipelago; orango-national-park,land-use; livelihoods,Land use & agriculture; Community livelihoods,1,bijagos-palm-products
+cacheu-rice-conversion,Mangrove conversion and abandoned rice fields,cacheu-region; cacheu-mangroves-park,mangroves; land-use,Mangrove conservation; Land use & agriculture,2,cacheu-restoration-finance
+cacheu-fuelwood,Fuelwood demand on mangroves,cacheu-region; cacheu-mangroves-park,mangroves; livelihoods,Mangrove conservation; Community livelihoods,2,cacheu-solar-salt; fuel-efficient-fish-processing; cacheu-mangrove-honey
+cacheu-overfishing,Overfishing and illegal fishing,cacheu-region; cacheu-mangroves-park,fisheries,Fisheries & marine resources,2,
+cacheu-land-clearance,Cashew expansion and slash-and-burn agriculture,cacheu-region; cacheu-mangroves-park,land-use,Land use & agriculture,2,
+cacheu-climate,"Climate change, rainfall shifts and sea-level rise",cacheu-region; cacheu-mangroves-park,climate; land-use,Climate & coastal resilience; Land use & agriculture,1,cacheu-restoration-finance
+cantanhez-illegal-harvest,Illegal fishing and mangrove harvesting,cantanhez-national-park,fisheries; mangroves,Fisheries & marine resources; Mangrove conservation,1,
+cacheu-mining,Upstream phosphate mining prospects,cacheu-region; cacheu-mangroves-park,development,Development pressures,1,
+mono-pressures,"Agricultural expansion, overfishing and mining",mono-biosphere-reserve,land-use; fisheries; development,Land use & agriculture; Fisheries & marine resources; Development pressures,2,mono-ecotourism
+mono-mangrove-loss,Mangrove loss and degradation,mono-biosphere-reserve,mangroves; land-use,Mangrove conservation; Land use & agriculture,2,mono-mangrove-nurseries
+mono-infrastructure,"Dam, port and tourism-development pressure",mono-biosphere-reserve,development,Development pressures,2,
+ogoni-oil-pollution,Oil pollution of mangroves and creeks,ramsar-2593,mangroves; development,Mangrove conservation; Development pressures,3,ogoni-mangrove-nurseries
+ogoni-fisheries-damage,Damage to fisheries and livelihoods,ramsar-2593,fisheries; livelihoods,Fisheries & marine resources; Community livelihoods,2,
+ogoni-nipa,Invasive nipa palm in former mangrove areas,ramsar-2593,mangroves; species,Mangrove conservation; Species & habitats,2,ogoni-mangrove-nurseries
+maio-salinas-grazing,Livestock grazing and contamination of the salt pans,ramsar-2182,livelihoods; species,Community livelihoods; Species & habitats,2,maio-sea-salt
+maio-salinas-tourism,Tourism and construction pressure,ramsar-2182,development,Development pressures,2,
+maio-salinas-capacity,Limited management capacity,ramsar-2182,governance,Community governance,2,
+ehotile-overfishing,Overfishing in the Aby lagoon,ramsar-1584,fisheries,Fisheries & marine resources,2,
+ehotile-mangrove-wood,Mangrove and wood harvesting,ramsar-1584,mangroves; livelihoods,Mangrove conservation; Community livelihoods,3,ehotile-mangrove-restoration; ehotile-fish-smoking
+ehotile-tourism-hunting,"Unregulated tourism, timber exploitation and hunting",ramsar-1584,development; species,Development pressures; Species & habitats,2,
+ehotile-hydrology,Upstream dams and sand and gravel extraction,ramsar-1584,development,Development pressures,2,
+keta-mangrove-harvest,Mangrove over-harvesting for fuelwood and fish smoking,ramsar-567,mangroves; livelihoods,Mangrove conservation; Community livelihoods,2,keta-mangrove-woodlots
+keta-overfishing,Overfishing and blocked lagoon channels,ramsar-567,fisheries,Fisheries & marine resources,2,
+keta-salt-aquaculture,Industrial salt extraction and aquaculture,ramsar-567,development; livelihoods,Development pressures; Community livelihoods,2,
+keta-erosion,Coastal erosion and sediment deficit,ramsar-567,climate; development,Climate & coastal resilience; Development pressures,2,
+togo-mangrove-loss,Mangrove loss from fuelwood and charcoal demand,ramsar-1722,mangroves; livelihoods,Mangrove conservation; Community livelihoods,3,togo-women-mangrove-solar
+togo-erosion,Coastal erosion,ramsar-1722,climate,Climate & coastal resilience,2,
+togo-overfishing,Overfishing and destructive fishing,ramsar-1722,fisheries,Fisheries & marine resources,2,
+togo-governance,"Altered hydrology, invasive plants and no management plan",ramsar-1722,governance; development,Community governance; Development pressures,3,
+arguin-fishing,Fishing pressure and changing fishing practices,ramsar-250,fisheries; species,Fisheries & marine resources; Species & habitats,2,arguin-imraguen-products
+arguin-development,"Maritime, infrastructure and hydrocarbon development",ramsar-250,development,Development pressures,3,
+arguin-climate,Sea-level rise and coastal change,ramsar-250,climate,Climate & coastal resilience,1,
+saloum-mangrove-loss,"Mangrove loss from rice expansion, wood cutting and salinisation",ramsar-288,mangroves; land-use; climate,Mangrove conservation; Land use & agriculture; Climate & coastal resilience,2,saloum-women-shellfish
+saloum-pressures,"Overfishing, fires and collection of wood and eggs",ramsar-288,fisheries; species,Fisheries & marine resources; Species & habitats,2,saloum-women-shellfish; saloum-community-mpa
+saloum-sangomar,Breach and migration of the Sangomar spit,ramsar-288,climate,Climate & coastal resilience,1,
+saloum-capacity,Limited management capacity and unmanaged tourism,ramsar-288,governance; development,Community governance; Development pressures,3,
+tanbi-urban,Urban encroachment and land reclamation,ramsar-1657,development,Development pressures,2,
+tanbi-pollution,Waste dumping and water pollution,ramsar-1657,development,Development pressures,2,
+tanbi-mangrove-shellfish,Mangrove cutting and harvesting of juvenile shellfish,ramsar-1657,mangroves; fisheries,Mangrove conservation; Fisheries & marine resources,2,tanbi-oyster-enterprise
+tanbi-erosion-enforcement,Coastal erosion and weak enforcement,ramsar-1657,climate; governance,Climate & coastal resilience; Community governance,2,
+konkoure-fuelwood,"Mangrove wood cut for fuel, salt-making, fish smoking and rice parboiling",ramsar-575,mangroves; livelihoods,Mangrove conservation; Community livelihoods,2,konkoure-solar-salt; konkoure-improved-ovens
+konkoure-conversion,Rice and market-garden conversion and destructive fishing,ramsar-575,land-use; fisheries,Land use & agriculture; Fisheries & marine resources,1,
+konkoure-urban-hydrology,"Urban expansion, pollution and altered hydrology",ramsar-575,development,Development pressures,2,
+konkoure-protection,No legal protected-area status yet,ramsar-575,governance,Community governance,1,
+slre-clearance-fishing,Vegetation clearance and unsustainable fishing,ramsar-1014,mangroves; fisheries,Mangrove conservation; Fisheries & marine resources,1,slre-community-planting
+slre-encroachment,Urban encroachment at Aberdeen Creek,ramsar-1014,development; mangroves,Development pressures; Mangrove conservation,2,slre-community-planting
+slre-sand-pollution,Sand mining and pollution,ramsar-1014,development; species,Development pressures; Species & habitats,1,slre-bird-guiding
+slre-mandate,Gaps in the legal mandate for wetlands,ramsar-1014,governance,Community governance,1,
+piso-mangrove-fuel,"Mangrove wood used for fish smoking, firewood and charcoal",ramsar-1306,mangroves; livelihoods,Mangrove conservation; Community livelihoods,3,piso-improved-stoves
+piso-fishing,Unsustainable fishing with undersized nets,ramsar-1306,fisheries,Fisheries & marine resources,1,piso-sustainable-fishery
+piso-sand-pollution,Sand mining and pollution,ramsar-1306,development,Development pressures,2,
+piso-burning,"Bush burning, farming and hunting",ramsar-1306,land-use,Land use & agriculture,1,
