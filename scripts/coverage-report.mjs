@@ -1,99 +1,104 @@
-// Writes docs/coverage-report.md: per-country coverage of the catalogue and known research gaps.
-// Counts are computed from public/data/catalogue.json; the gap notes below are maintained by hand.
-// Run with: npm run data:coverage
+// Writes docs/coverage-report.md: per-country inventory status, catalogue coverage and known gaps.
+// Everything is computed from public/data/catalogue.json (countries[].inventory holds the official
+// inventory comparison and gaps). Run with: npm run data:coverage
 import { readFile, writeFile } from 'node:fs/promises'
 
 const catalogue = JSON.parse(await readFile(new URL('../public/data/catalogue.json', import.meta.url), 'utf8'))
+const sourceById = new Map(catalogue.sources.map((s) => [s.id, s]))
 
-/** Research gaps that cannot be derived from the data. */
-const GAPS = {
-  BEN: 'Researched area: Mono Transboundary Biosphere Reserve (challenges from GIZ, IUCN NL and NGO reports; restoration figures self-reported). Other coastal Ramsar sites are location records only. National marine/coastal protected areas not yet researched.',
-  CPV: 'Researched area: Salinas of the English Port, Maio (only one documented initiative, so its salt activity is a hypothesis). Other Ramsar sites are location records only. National marine protected areas and natural parks not yet researched.',
-  CIV: 'Researched area: Iles Ehotilé-Essouman (2018 Ramsar sheet, UNESCO, state news). No results found for the 2020 mangrove restoration agreement; no current park-authority website. Two sites had erroneous Ramsar header coordinates (description coordinates used).',
-  GMB: 'Researched area: Tanbi Wetlands Complex (2006 Ramsar sheet, 2012 shellfish co-management plan; whether the plan is still in force was not verified). Niumi coordinates taken from Wikidata (Ramsar coordinates erroneous). Other national protected areas not yet researched.',
-  GHA: 'Researched area: Keta Lagoon Complex (2023–2032 management plan; restoration figures self-reported). Muni-Pomadze coordinates taken from Wikidata (Ramsar coordinates erroneous).',
-  GIN: 'Researched area: Konkouré (EU-funded PROMAK project and Guinée Écologie 2025 report; the 1990 Ramsar sheet is illegible and project localities are not confirmed inside the Ramsar site). Other Ramsar summaries are dated (1990–1993). National marine protected areas not yet researched.',
-  GNB: 'Detailed research across the Bijagós, Cacheu and Cantanhez areas. Lagoa de Cufada added from Ramsar (location record only).',
-  LBR: 'Researched area: Lake Piso (2007 Ramsar sheet, which predates the reserve; current project results unpublished; no mangrove replanting documented yet). Lake Piso coordinates from its Ramsar description (header coordinates erroneous). Proposed/declared marine protected areas not yet researched.',
-  MRT: "Researched area: Banc d'Arguin (UNESCO, park authority, BACoMaB trust fund; Ramsar sheet not retrieved). National marine protected areas beyond Ramsar not yet researched.",
-  NGA: 'Researched area: Ogoniland Wetland (UNEP 2011 assessment, HYPREP clean-up; restoration figures self-reported). Only three coastal Ramsar sites (most Nigerian Ramsar sites are inland). Ebute Oni summary lists implausible species, so only habitat terms are used.',
-  SEN: 'Researched area: Delta du Saloum (UNESCO, IUCN 2011; the managing body is documented only in a 1993 Ramsar sheet; some initiatives from news). Community marine protected areas designated nationally not yet researched.',
-  SLE: 'Researched area: Sierra Leone River Estuary (Ramsar 1999, 2025 national audit; conflicting mangrove-trend figures are not shown; planting sites not confirmed inside the Ramsar site). Western Area Peninsula National Park from Wikidata only (location-only). Marine protected areas (e.g. Yawri Bay, Sherbro, Turtle Islands) not yet verified.',
-  TGO: 'Researched area: Zones Humides du Littoral du Togo (2007 Ramsar sheet, World Bank, a planned 2025 CTCN project; the site has no management plan). The Mono transboundary biosphere reserve is catalogued under Benin.',
+const CATEGORY = {
+  'national-park': 'National parks',
+  'nature-reserve': 'Nature reserves',
+  'marine-protected-area': 'Marine protected areas',
+  'wildlife-reserve': 'Wildlife / game reserves',
+  'forest-reserve': 'Forest reserves',
+  'community-conservation-area': 'Community conservation areas',
+  'other-protected-area': 'Other protected areas',
+  'international-designation': 'International designation only',
+  proposed: 'Proposed (not designated)',
+  context: 'Context (not a protected area)',
+}
+const GROUP = { wasop: 'WASOP', additional: 'Additional' }
+const has = (t, d) => t.designations.some((x) => x.designationId === d)
+const link = (id) => {
+  const s = sourceById.get(id)
+  return s ? `[${s.publisher.replace(/\s*\(.*\)$/, '')}](${s.url})` : id
 }
 
-const sourceById = new Map(catalogue.sources.map((s) => [s.id, s]))
 const rows = catalogue.countries.map((country) => {
   const ts = catalogue.territories.filter((t) => t.countryCode === country.code)
-  const ids = new Set(ts.map((t) => t.id))
-  const cited = new Set(
-    ts.flatMap((t) => [
-      t.location.pointSourceId,
-      ...t.location.descriptionSourceIds,
-      ...t.overview.flatMap((s) => s.sourceIds),
-      ...t.designations.flatMap((d) => d.sourceIds),
-    ]),
-  )
-  // Most-cited publishers first, normalised so variants of one organisation count once.
-  const tally = new Map()
-  for (const id of cited) {
-    const publisher = sourceById.get(id)?.publisher?.replace(/\s*\(.*\)$/, '').replace(/,.*$/, '')
-    if (publisher) tally.set(publisher, (tally.get(publisher) ?? 0) + 1)
-  }
-  const publishers = [...tally].sort((a, b) => b[1] - a[1]).slice(0, 5).map(([p]) => p)
-  const count = (pred) => ts.filter(pred).length
-  const linked = (items) => items.filter((i) => i.territoryIds.some((id) => ids.has(id))).length
+  const areas = ts.filter((t) => t.inventory?.category !== 'context')
+  const byCategory = {}
+  for (const t of areas) byCategory[t.inventory?.category] = (byCategory[t.inventory?.category] ?? 0) + 1
   return {
     country,
-    total: ts.length,
-    boundaries: count((t) => t.geometry.representation === 'boundary'),
-    points: count((t) => t.geometry.representation === 'point'),
-    corrected: count((t) => /erroneous/.test(t.verification.note)),
-    locationOnly: count((t) => t.verification.status === 'location-only'),
-    withEcosystems: count((t) => t.ecosystems.length > 0),
-    challenges: linked(catalogue.challenges),
-    opportunities: linked(catalogue.opportunities),
-    publishers,
+    areas,
+    byCategory,
+    national: areas.filter((t) => !['international-designation', 'proposed'].includes(t.inventory?.category)).length,
+    ramsar: areas.filter((t) => has(t, 'ramsar')).length,
+    whs: areas.filter((t) => has(t, 'world-heritage')).length,
+    mab: areas.filter((t) => has(t, 'biosphere-reserve')).length,
+    legal: areas.filter((t) => t.inventory?.legalStatus).length,
+    overlaps: areas.filter((t) => (t.inventory?.overlaps ?? []).length > 0).length,
   }
 })
 
+const total = rows.reduce((n, r) => n + r.areas.length, 0)
 const lines = [
-  '# Catalogue coverage report',
+  '# Protected-area inventory and coverage report',
   '',
   `Generated from \`public/data/catalogue.json\` (dataset v${catalogue.meta.version}, updated ${catalogue.meta.updated}). Regenerate with \`npm run data:coverage\`.`,
   '',
-  'The catalogue is a **researched selection** of marine and coastal conservation areas across the 13 WASOP countries, not an exhaustive official inventory. Outside Guinea-Bissau it consists mainly of Ramsar sites taken from the official Ramsar annotated lists, with one researched area per country. Locations are reference points; no protected-area boundaries are shown. WDPA/Protected Planet data is not used.',
+  `The catalogue holds **${total} catalogued areas** in **${catalogue.countries.length} countries**: the 13 WASOP countries and 9 additional African countries. **It is a partial inventory.** No country's coverage has been verified as exhaustive against an official register (see "Inventory status"). Each record appears once: when Ramsar, World Heritage or biosphere status applies to the same area as a national designation, it is recorded as an extra designation on that area. Designations that cover a different extent are separate records, linked as overlapping.`,
   '',
-  '| Country | Areas | Location quality | With habitats | Challenges / activities | Main sources |',
-  '|---|---:|---|---:|---|---|',
+  'Sources are national authorities, laws and government reports (found by desk research), plus the Ramsar annotated lists and UNESCO World Heritage pages. Locations are reference points: from Ramsar, from UNESCO, or from Wikidata (CC0) where official sources give none. No protected-area boundaries are shown. WDPA/Protected Planet data is not used, because its licence does not allow redistribution here, so the catalogue cannot be compared with it.',
+  '',
+  '## Summary',
+  '',
+  '| Country | Group | Catalogued areas | National / community designations | Ramsar | World Heritage | Biosphere | With documented legal basis | Inventory status |',
+  '|---|---|---:|---:|---:|---:|---:|---:|---|',
   ...rows.map((r) =>
-    [
-      r.country.name,
-      r.total,
-      [
-        r.points && `${r.points} point${r.points === 1 ? '' : 's'}`,
-        r.boundaries && `${r.boundaries} admin boundar${r.boundaries === 1 ? 'y' : 'ies'}`,
-        r.corrected && `${r.corrected} with corrected coordinates`,
-        r.locationOnly && `${r.locationOnly} location-only`,
-      ]
-        .filter(Boolean)
-        .join('; '),
-      r.withEcosystems,
-      `${r.challenges} / ${r.opportunities}`,
-      r.publishers.join('; '),
-    ].join(' | ').replace(/^/, '| ').replace(/$/, ' |'),
+    `| ${r.country.name} | ${GROUP[r.country.group]} | ${r.areas.length} | ${r.national} | ${r.ramsar} | ${r.whs} | ${r.mab} | ${r.legal} | ${r.country.inventory?.status === 'exhaustive' ? 'Exhaustive' : 'Partial'} |`,
   ),
   '',
-  '## Research gaps by country',
+  '## Catalogued areas by protection category',
   '',
-  ...rows.map((r) => `- **${r.country.name}** (${r.total}): ${GAPS[r.country.code] ?? 'No notes.'}`),
+  `| Country | ${Object.values(CATEGORY).slice(0, -1).join(' | ')} |`,
+  `|---|${Object.keys(CATEGORY).slice(0, -1).map(() => '---:').join('|')}|`,
+  ...rows.map((r) => `| ${r.country.name} | ${Object.keys(CATEGORY).slice(0, -1).map((k) => r.byCategory[k] ?? 0).join(' | ')} |`),
   '',
-  '## Notes',
+  '## Inventory status by country',
   '',
-  "- Ramsar's annotated-list export contains erroneous site-header coordinates for several sites. Each affected record states which coordinates are used: the site description's own coordinates, or Wikidata.",
-  '- Habitat tags for Ramsar sites reflect terms named in Ramsar\'s own site summary (reviewed for false matches). They are not mapped ecosystem extents.',
-  '- Outside Guinea-Bissau, challenges, organisations and potential regenerative activities have been researched for one area per country. Potential activities are interpretations or hypotheses that need validation, and organisation links state either documented related work or an unvalidated stakeholder to consult.',
+  'For each country: the best available official inventory found, totals stated by official or authoritative sources (to compare with the catalogue), and what is missing, duplicated or unverified.',
   '',
 ]
+for (const r of rows) {
+  const inv = r.country.inventory
+  lines.push(`### ${r.country.name} — ${inv?.status === 'exhaustive' ? 'exhaustive' : 'partial'} (${r.areas.length} catalogued)`, '')
+  if (!inv) {
+    lines.push('No inventory assessment recorded.', '')
+    continue
+  }
+  lines.push(inv.summary + (inv.sourceIds.length ? ` Sources: ${inv.sourceIds.map(link).join('; ')}.` : ''), '')
+  if (inv.officialCounts.length) {
+    lines.push('Stated official totals:', '')
+    for (const n of inv.officialCounts) lines.push(`- ${n.category}: ${n.count}${n.asOf ? ` (as of ${n.asOf})` : ''} — ${link(n.sourceId)}`)
+    lines.push('')
+  }
+  if (inv.gaps.length) {
+    lines.push('Gaps:', '')
+    for (const g of inv.gaps) lines.push(`- ${g}`)
+    lines.push('')
+  }
+}
+lines.push(
+  '## Notes',
+  '',
+  "- Ramsar's annotated-list export has erroneous site-header coordinates for several sites. Each affected record says which coordinates are used: the site description's own, UNESCO's, or Wikidata's.",
+  "- Habitat tags reflect terms named in the cited site summary, reviewed for false matches. They are not mapped ecosystem extents.",
+  '- Areas verified in an official list but without an openly licensed location are not mapped. They are listed in [`inventory/uncatalogued-areas.csv`](inventory/uncatalogued-areas.csv), together with candidate areas that are not yet verified.',
+  '- Conservation challenges, organisations and potential regenerative activities have been researched for Guinea-Bissau and for one area in each of the other 12 WASOP countries only.',
+  '',
+)
 await writeFile(new URL('../docs/coverage-report.md', import.meta.url), lines.join('\n'))
-console.log('wrote docs/coverage-report.md')
+console.log(`wrote docs/coverage-report.md (${total} areas, ${catalogue.countries.length} countries)`)

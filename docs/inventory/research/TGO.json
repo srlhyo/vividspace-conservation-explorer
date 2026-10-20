@@ -1,0 +1,394 @@
+{
+ "country": "TGO",
+ "countryName": "Togo",
+ "officialInventory": {
+  "summary": "The Ministère de l'Environnement et des Ressources Forestières (MERF) is responsible for PAs. Of 83 legally classified PAs (to 1990), a requalification programme (since 1999; décret 2003-237/PR) retained 10-14 priority PAs covering ~578,000 ha. No consolidated official list with legal acts exists in sources seen; records combine the government PoWPA table, NBSAP 2014, 6NR (2018) and the UICN 2008 RAPPAM. A new law on creation and management of PAs was adopted by the National Assembly in August 2026 (promulgation not verified).",
+  "sourceIds": [
+   "tgo-powpa",
+   "tgo-nbsap-2014",
+   "tgo-6nr",
+   "tgo-rappam-2008"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "legally classified protected areas (until 1990)",
+    "count": 83,
+    "asOf": "1990",
+    "sourceId": "tgo-nbsap-2014",
+    "quote": "Jusqu’en 1990, le Togo disposait légalement de 83 aires protégées"
+   },
+   {
+    "category": "priority protected areas / PA mosaics",
+    "count": 10,
+    "asOf": "c. 2012",
+    "sourceId": "tgo-powpa",
+    "quote": "Vue d’ensemble des dix AP et mosaïques d’AP prioritaires du Togo"
+   },
+   {
+    "category": "priority protected areas",
+    "count": 14,
+    "asOf": "2018",
+    "sourceId": "tgo-6nr",
+    "quote": "sécuriser 578 000 ha répartis dans 14 aires protégées prioritaires"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "tgo-powpa",
+   "title": "Feuille de travail pour la planification des actions et de leur mise en œuvre dans le cadre du PTAP (Programme de travail sur les aires protégées) — Togo",
+   "publisher": "Gouvernement du Togo (via CBD)",
+   "url": "https://www.cbd.int/doc/world/tg/tg-nbsap-powpa-fr.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Gouvernement du Togo (via CBD) — cited for reference (facts and short quotes)",
+   "note": "Undated (c. 2012). Table of the 10 priority PAs/PA mosaics with initial and revised areas."
+  },
+  {
+   "id": "tgo-rappam-2008",
+   "title": "Parcs et réserves du Togo — Évaluation de l'efficacité de la gestion des aires protégées (RAPPAM)",
+   "publisher": "UICN/PACO (hosted on Togo's national CBD Clearing-House Mechanism)",
+   "url": "https://tg.chm-cbd.net/sites/tg/files/2023-07/Evaluation%20de%20l%27efficacit%C3%A9%20des%20Ap%20Togo%20RAPPAM.pdf",
+   "date": "2008",
+   "kind": "report",
+   "licence": "© UICN/PACO (hosted on Togo's national CBD Clearing-House Mechanism) — cited for reference (facts and short quotes)",
+   "note": "Reputable NGO report; describes legal history of each evaluated PA."
+  },
+  {
+   "id": "tgo-nbsap-2014",
+   "title": "Stratégie et Plan d'Action Nationaux pour la Biodiversité du Togo 2011-2020",
+   "publisher": "Ministère de l'Environnement et des Ressources Forestières (MERF), Togo (via CBD)",
+   "url": "https://www.cbd.int/doc/world/tg/tg-nbsap-v2-fr.pdf",
+   "date": "2014",
+   "kind": "report",
+   "licence": "© Ministère de l'Environnement et des Ressources Forestières (MERF), Togo (via CBD) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tgo-6nr",
+   "title": "Sixième rapport national sur la diversité biologique du Togo (2014-2019)",
+   "publisher": "MERF, Togo (hosted on Togo's national CBD CHM)",
+   "url": "https://tg.chm-cbd.net/sites/tg/files/2023-07/Togo-6RN%20biodi%20corrig%C3%A9%20final.docx",
+   "date": "2018-12",
+   "kind": "report",
+   "licence": "© MERF, Togo (hosted on Togo's national CBD CHM) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tgo-keran-1973",
+   "title": "Décret n° 73-139 du 9 juillet 1973 portant création, classement d'une Réserve de Chasse dénommée Réserve de Chasse de la Kéran",
+   "publisher": "Journal Officiel de la République Togolaise (via FAO FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/Tog144586.pdf",
+   "date": "1973-07-09",
+   "kind": "report",
+   "licence": "© Journal Officiel de la République Togolaise (via FAO FAOLEX) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tgo-rot-2026",
+   "title": "Biodiversité : le Togo se dote d'un nouveau cadre juridique",
+   "publisher": "republicoftogo.com",
+   "url": "https://www.republicoftogo.com/toutes-les-rubriques/medias/biodiversite-le-togo-se-dote-d-un-nouveau-cadre-juridique",
+   "date": "2026-08-14",
+   "kind": "article",
+   "licence": "© republicoftogo.com — cited for reference (facts and short quotes)",
+   "note": "National Assembly adopted the bill on creation and management of protected areas (Aug 2026)."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parc national Oti-Kéran",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Erected national park from the Kéran classified forest by décret n° 77-117 du 25 avril 1977 (per UICN 2008); earlier Réserve de chasse de la Kéran created by décret n° 73-139 du 9 juillet 1973.",
+    "sourceIds": [
+     "tgo-rappam-2008",
+     "tgo-keran-1973"
+    ]
+   },
+   "established": "1977",
+   "areaKm2": 690,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr",
+    "tgo-rappam-2008",
+    "tgo-keran-1973"
+   ],
+   "notes": "Part of the Oti-Kéran-Mandouri (OKM) complex. Area after requalification 69,000 ha (initially 163,640 ha; 179,550 ha after 1981-82 extension); PoWPA notes 'Révision en cours'; 6NR (2018) says requalification of OKM was finalised. Ramsar site 1997 and Biosphere Reserve 2011 (PoWPA)."
+  },
+  {
+   "name": "Réserve de faune Oti-Mandouri",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1100,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr",
+    "tgo-rappam-2008"
+   ],
+   "notes": "OKM complex; 110,000 ha after requalification (initially 147,840 ha). Ramsar 1997, Biosphere Reserve 2011 (PoWPA)."
+  },
+  {
+   "name": "Parc national Fazao-Malfakassa",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national (legally a réserve de faune per UICN 2008)",
+   "legalStatus": {
+    "text": "Fazao classified as réserve de faune by arrêté n° 425/51/EF du 15 avril 1951; merged with Malfakassa forest in 1975 and called a national park, but 'aucun décret n'a été pris' (UICN 2008).",
+    "sourceIds": [
+     "tgo-rappam-2008"
+    ]
+   },
+   "established": "1975",
+   "areaKm2": 1920,
+   "coordinates": null,
+   "wikidataQid": "Q144029",
+   "marine": false,
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr",
+    "tgo-rappam-2008"
+   ],
+   "notes": "192,000 ha (UICN 2008); PoWPA gives 193,400 ha for the 'Fazao-Malfakassa/Anié' mosaic (Parc national / Réserve forestière). Managed under concession by the Fondation Franz Weber. Largest PA in Togo."
+  },
+  {
+   "name": "Réserve de faune d'Abdoulaye",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 300,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr",
+    "tgo-rappam-2008"
+   ],
+   "notes": "30,000 ha; requalification file prepared (PoWPA); conceded to SITEC-Europe in 1999 (UICN 2008)."
+  },
+  {
+   "name": "Togodo-Sud",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national (requalified 'Réserve de faune de Togodo Sud')",
+   "legalStatus": {
+    "text": "Created as forêt classée by arrêté n° 354/EF du 04/07/52; requalified by arrêté n° 004/MERF/CAB du 02-02-2005 with status 'parc national'.",
+    "sourceIds": [
+     "tgo-rappam-2008"
+    ]
+   },
+   "established": "1952",
+   "areaKm2": 150,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr",
+    "tgo-rappam-2008"
+   ],
+   "notes": "15,000 ha after requalification. Ramsar site (UICN 2008). PoWPA gives 25,500 ha for Togodo Sud/Nord combined (revised 2002)."
+  },
+  {
+   "name": "Togodo-Nord",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Zone de gestion des ressources naturelles (ex-Réserve de faune de Togodo Nord)",
+   "legalStatus": {
+    "text": "Classified by arrêté n° 174/EF du 26 février 1954 (13,000 ha); requalified by arrêté n° 005/MERF/CAB (dated '02/02', year not given) as zone de gestion des ressources naturelles.",
+    "sourceIds": [
+     "tgo-rappam-2008"
+    ]
+   },
+   "established": "1954",
+   "areaKm2": 105,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr",
+    "tgo-rappam-2008"
+   ],
+   "notes": "10,500 ha after requalification (UICN 2008)."
+  },
+  {
+   "name": "Réserve de faune de Galangachi",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": null,
+   "established": "1954",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-rappam-2008",
+    "tgo-nbsap-2014",
+    "tgo-6nr"
+   ],
+   "notes": "Oti prefecture; requalified (NBSAP 2014, 'Galengashie'). Area garbled in the UICN 2008 text — left null."
+  },
+  {
+   "name": "Parc national de la Fosse aux Lions",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 16.5,
+   "coordinates": null,
+   "wikidataQid": "Q19461810",
+   "marine": false,
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr",
+    "tgo-rappam-2008"
+   ],
+   "notes": "1,650 ha (PoWPA; UICN 2008). Elephants reported extirpated (6NR)."
+  },
+  {
+   "name": "Bayémé",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Zone de gestion des ressources naturelles",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1.58,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr",
+    "tgo-nbsap-2014"
+   ],
+   "notes": "Zio prefecture; 158 ha after 2005 revision (PoWPA); requalified (NBSAP)."
+  },
+  {
+   "name": "Amou-Mono / Tchilla-Monota",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Zone de gestion des ressources naturelles / Réserve forestière",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 264,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr",
+    "tgo-nbsap-2014"
+   ],
+   "notes": "Ogou prefecture; 26,400 ha after 2002 revision (PoWPA); requalified (NBSAP)."
+  },
+  {
+   "name": "Réserve de faune d'Alédjo",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 7.65,
+   "coordinates": null,
+   "wikidataQid": "Q4738849",
+   "marine": false,
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr"
+   ],
+   "notes": "765 ha; 'Révision en cours' (PoWPA). Also called forêt classée d'Alédjo in the 6NR."
+  },
+  {
+   "name": "Forêt de Doung",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Aire protégée requalifiée (forêt)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-nbsap-2014",
+    "tgo-rappam-2008"
+   ],
+   "notes": "Tandjouaré prefecture; requalified (NBSAP 2014; 'Doungh' in UICN 2008)."
+  },
+  {
+   "name": "Forêt classée d'Assoukoko",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forêt classée",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 100,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-rappam-2008"
+   ],
+   "notes": "10,000 ha; very degraded (UICN 2008)."
+  },
+  {
+   "name": "Réserve de faune de Djamdè",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tgo-6nr"
+   ],
+   "notes": "Has a management plan; buffalo, zebra and wildebeest introduced (6NR)."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "forêts classées / other historical PAs",
+   "approxCount": 83,
+   "reason": "Historical total of 83 classified areas (793,000 ha); many encroached and not requalified; no official current list.",
+   "sourceIds": [
+    "tgo-nbsap-2014",
+    "tgo-powpa"
+   ]
+  },
+  {
+   "category": "sacred forests and community forests",
+   "approxCount": null,
+   "reason": "Numerous; PoWPA lists the sacred groves of Assévé and Godjinmé (10 ha) as priority, the 6NR names Akissa and Godjinmé; no official list.",
+   "sourceIds": [
+    "tgo-powpa",
+    "tgo-6nr"
+   ]
+  }
+ ],
+ "gaps": [
+  "Togo has no marine protected area (6NR: 'le Togo ne dispose pas d’une aire marine protégée').",
+  "Requalification instruments (arrêtés/décrets) were seen only as citations in the UICN 2008 report; most current legal acts and post-requalification boundaries are undocumented.",
+  "Area figures differ between PoWPA (c. 2012) and UICN 2008; the most recent figure is used and conflicts are noted.",
+  "Anié (part of the Fazao-Malfakassa/Anié mosaic) and Balam forest are mentioned but not documented enough to record separately.",
+  "The 2026 PA law may lead to reclassification; outcome unknown.",
+  "areaKm2 values were converted from hectares (1 km² = 100 ha) where the cited source gives hectares; source figures are quoted in notes where they conflict."
+ ]
+}

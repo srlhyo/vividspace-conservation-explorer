@@ -1,0 +1,227 @@
+{
+ "country": "STP",
+ "countryName": "São Tomé and Príncipe",
+ "officialInventory": {
+  "summary": "No consolidated official list or protected-area authority website was found. The inventory is reconstructed from the founding legal texts in the Diário da República (via FAOLEX): Laws 6/2006 and 7/2006 creating the two terrestrial natural parks, and Decree-Laws 02/2026 (national MPA network framework) and 03/2026 (first two MPAs of São Tomé). The six MPAs planned around Príncipe are to be classified by a separate Príncipe regional instrument, which was not found.",
+  "sourceIds": [
+   "stp-lei-6-2006",
+   "stp-lei-7-2006",
+   "stp-dl-02-2026",
+   "stp-dl-03-2026"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "marine protected areas of São Tomé island (created)",
+    "count": 2,
+    "asOf": "2026-02-27",
+    "sourceId": "stp-dl-03-2026",
+    "quote": "às duas primeiras áreas marinhas protegidas de São Tomé"
+   },
+   {
+    "category": "marine protected areas planned (6 Príncipe + 2 São Tomé) — NGO figure",
+    "count": 8,
+    "asOf": "2025-10",
+    "sourceId": "stp-pga-mpa-factsheet-2025",
+    "quote": "six areas surrounding Príncipe island, and two areas surrounding São Tomé island"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "stp-lei-6-2006",
+   "title": "Lei n.º 6/2006 — Cria o Parque Natural Obô de São Tomé (Diário da República n.º 29, 2 de Agosto de 2006)",
+   "publisher": "Assembleia Nacional, São Tomé e Príncipe (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/sao83963.pdf",
+   "date": "2006-08-02",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of the Diário da República; text © Government of São Tomé and Príncipe — cited for reference (facts and short quotes)",
+   "note": "Full law: creation, limits (Annex I map, boundary description), zoning (integral preservation zones, controlled-use zones, buffer zone 250 m–10 km). No area figure is stated. LEAP record: https://leap.unep.org/en/countries/st/national-legislation/law-no-62006-obo-de-sao-tome-natural-park"
+  },
+  {
+   "id": "stp-lei-7-2006",
+   "title": "Lei n.º 7/2006 — Cria o Parque Natural Obô do Príncipe (Diário da República n.º 29, 2 de Agosto de 2006)",
+   "publisher": "Assembleia Nacional, São Tomé e Príncipe (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/sao83964.pdf",
+   "date": "2006-08-02",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of the Diário da República; text © Government of São Tomé and Príncipe — cited for reference (facts and short quotes)",
+   "note": "Full law: creation, limits by boundary points P1–P11+ (map annex), zoning. No area figure is stated. LEAP record: https://leap.unep.org/en/countries/st/national-legislation/law-no-72006-obo-do-principe-natural-park"
+  },
+  {
+   "id": "stp-dl-02-2026",
+   "title": "Decreto-Lei n.º 02/2026 — Rede Nacional de Áreas Marinhas Protegidas de São Tomé e Príncipe (Diário da República, I Série, n.º 10, 26 de Fevereiro de 2026)",
+   "publisher": "Governo de São Tomé e Príncipe (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/sao242311.pdf",
+   "date": "2026-02-26",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of the Diário da República; text © Government of São Tomé and Príncipe — cited for reference (facts and short quotes)",
+   "note": "Framework decree creating the national MPA network (RNAMP-STP), made up of the São Tomé network and the Autonomous Region of Príncipe network; Príncipe MPAs are to be classified 'em diploma próprio'. Enters into force 90 days after publication (LEAP)."
+  },
+  {
+   "id": "stp-dl-03-2026",
+   "title": "Decreto-Lei n.º 03/2026 — Rede das Áreas Marinhas Protegidas de São Tomé (Diário da República, I Série, n.º 11, 27 de Fevereiro de 2026)",
+   "publisher": "Governo de São Tomé e Príncipe (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/sao242310.pdf",
+   "date": "2026-02-27",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of the Diário da República; text © Government of São Tomé and Príncipe — cited for reference (facts and short quotes)",
+   "note": "Creates the first two MPAs of São Tomé (AMP/ST 01 and AMP/ST 02), classified as habitat/species management areas, with areas and zoning; approved by the Council of Ministers on 3 April 2025, promulgated on 19 February 2026, in force 90 days after publication."
+  },
+  {
+   "id": "stp-leap-dl-03-2026",
+   "title": "Decree-Law No. 03/2026 on the Network of Marine Protected Areas of São Tomé — LEAP record",
+   "publisher": "UNEP Law and Environment Assistance Platform (content from FAO/FAOLEX)",
+   "url": "https://leap.unep.org/en/countries/st/national-legislation/decree-law-no-032026-network-marine-protected-areas-sao-tome",
+   "date": "2026-02-27",
+   "kind": "webpage",
+   "licence": "© UNEP / FAO — cited for reference (facts and short quotes)",
+   "note": null
+  },
+  {
+   "id": "stp-cbd-nr6",
+   "title": "Sixth National Report to the Convention on Biological Diversity — São Tomé and Príncipe (English)",
+   "publisher": "Government of São Tomé and Príncipe, submitted to the CBD",
+   "url": "https://www.cbd.int/doc/nr/nr-06/st-nr-06-en.pdf",
+   "date": "2019 (PDF dated 2019-08-19)",
+   "kind": "report",
+   "licence": "© Government of São Tomé and Príncipe / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "Refers to the Obô de São Tomé Natural Park and Príncipe Natural Park (Laws 6 and 7 of 2006) and the Príncipe Biosphere Reserve (2012); marine protected areas only as projects at that date."
+  },
+  {
+   "id": "stp-pga-mpa-factsheet-2025",
+   "title": "Marine Protected Areas: A Catalyst for Marine Conservation and Human Rights in São Tomé and Príncipe — Factsheet for Parliamentarians",
+   "publisher": "Parliamentarians for Global Action (NGO)",
+   "url": "https://www.pgaction.org/pdf/2025/mpa-sao-tome-principe_en.pdf",
+   "date": "2025-10",
+   "kind": "report",
+   "licence": "© Parliamentarians for Global Action — cited for reference (facts and short quotes)",
+   "note": "NGO source, used only to fill gaps: draft decree-laws (2022–2024) for six MPAs around Príncipe and two around São Tomé, approved by the Council of Ministers in April 2025. Names of the Príncipe sites are only on a map image."
+  },
+  {
+   "id": "stp-ffi-news-2025",
+   "title": "Minister announces eight new marine protected areas for São Tomé and Príncipe",
+   "publisher": "Fauna & Flora (NGO)",
+   "url": "https://www.fauna-flora.org/news/minister-announces-eight-new-marine-protected-areas-for-sao-tome-and-principe/",
+   "date": "2025-06",
+   "kind": "article",
+   "licence": "© Fauna & Flora — cited for reference (facts and short quotes)",
+   "note": "NGO news: eight MPAs (six in Príncipe, two in São Tomé), about 93 km², pending publication in the official gazette."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parque Natural Obô de São Tomé",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Created by Lei n.º 6/2006 (Diário da República n.º 29, 2 August 2006), under the Lei de Conservação da Fauna, Flora e Áreas Protegidas",
+    "sourceIds": [
+     "stp-lei-6-2006"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q2943640",
+   "marine": null,
+   "sourceIds": [
+    "stp-lei-6-2006",
+    "stp-cbd-nr6"
+   ],
+   "notes": "Abbreviated in the law as 'Parque de São Tomé'. The law defines limits (Annex I) and zoning, plus a buffer zone 250 m–10 km wide, but states no total area. The 6th national report refers to it as PNOST."
+  },
+  {
+   "name": "Parque Natural Obô do Príncipe",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Created by Lei n.º 7/2006 (Diário da República n.º 29, 2 August 2006)",
+    "sourceIds": [
+     "stp-lei-7-2006"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q62685475",
+   "marine": null,
+   "sourceIds": [
+    "stp-lei-7-2006",
+    "stp-cbd-nr6"
+   ],
+   "notes": "Called 'Principe Natural Park' in the 6th national report. Part of its boundary follows the coastline (boundary points in the law), but the law does not describe a marine component. The 6th national report records the classification of Príncipe as a UNESCO Biosphere Reserve in 2012. No area stated in the law."
+  },
+  {
+   "name": "Ilhéu das Rolas – Malanza – Jalé (AMP/ST 01)",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Área marinha protegida — área para a gestão de habitats ou espécies",
+   "legalStatus": {
+    "text": "Created and classified by Decreto-Lei n.º 03/2026 (Diário da República, I Série, n.º 11, 27 February 2026), Arts. 4–6, within the national MPA network of Decreto-Lei n.º 02/2026; in force 90 days after publication",
+    "sourceIds": [
+     "stp-dl-03-2026",
+     "stp-leap-dl-03-2026",
+     "stp-dl-02-2026"
+    ]
+   },
+   "established": "2026",
+   "areaKm2": 55.8,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "stp-dl-03-2026",
+    "stp-leap-dl-03-2026"
+   ],
+   "notes": "55.8 km² total: 8 km² total-protection zone (equivalent to a marine nature reserve) and 47.8 km² partial-protection zone. The decree describes it as 'uma área costeira'. Management plan due within one year."
+  },
+  {
+   "name": "Santana (AMP/ST 02)",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Área marinha protegida — área para a gestão de habitats ou espécies",
+   "legalStatus": {
+    "text": "Created and classified by Decreto-Lei n.º 03/2026 (Diário da República, I Série, n.º 11, 27 February 2026), Arts. 4, 5 and 7; in force 90 days after publication",
+    "sourceIds": [
+     "stp-dl-03-2026",
+     "stp-leap-dl-03-2026",
+     "stp-dl-02-2026"
+    ]
+   },
+   "established": "2026",
+   "areaKm2": 7.4,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "stp-dl-03-2026",
+    "stp-leap-dl-03-2026"
+   ],
+   "notes": "7.4 km² total: 1 km² total-protection zone and 6.4 km² partial-protection zone. The decree describes it as 'uma área costeira'."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "marine protected areas of the Autonomous Region of Príncipe (planned)",
+   "approxCount": 6,
+   "reason": "Decree-Law 02/2026 leaves the classification of Príncipe MPAs to a separate instrument ('diploma próprio'). No published Príncipe instrument was found, and the site names appear only on an NGO map image, so they are not listed individually.",
+   "sourceIds": [
+    "stp-dl-02-2026",
+    "stp-pga-mpa-factsheet-2025",
+    "stp-ffi-news-2025"
+   ]
+  }
+ ],
+ "gaps": [
+  "Neither park law states a total area, so areaKm2 is null for both natural parks; no official area figure was found.",
+  "No official coordinates were found. The park laws describe boundaries by named landmarks and maps, and the MPA zoning maps are annexes (images) in the decree-law.",
+  "The legal status of the six planned Príncipe MPAs could not be confirmed. NGO sources (PGA 2025, Fauna & Flora 2025) report draft decree-laws approved by the Council of Ministers in April 2025, but only the São Tomé decree (03/2026) was found in FAOLEX.",
+  "Decree-Laws 02/2026 and 03/2026 enter into force 90 days after publication (about late May 2026); no later implementing acts (management plans) were checked.",
+  "The NGO factsheet says the whole country was designated a UNESCO Biosphere Reserve on 27 September 2025. This is left to the coordinator's UNESCO check and not used here.",
+  "Ramsar (e.g. Ilhéus Tinhosas, mentioned in the 6th national report as a Ramsar site since 2006) and biosphere designations are not recorded as separate areas, per the brief.",
+  "Wikidata QIDs for the two natural parks were checked with Special:EntityData. No Wikidata items were found for the two 2026 MPAs."
+ ]
+}

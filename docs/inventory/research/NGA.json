@@ -1,0 +1,684 @@
+{
+ "country": "NGA",
+ "countryName": "Nigeria",
+ "officialInventory": {
+  "summary": "Federal national parks are managed by the Nigeria National Park Service (NPS) under the National Park Service Act (Cap N65 LFN 2004, amended 2006), whose s.50 lists the seven pre-existing parks. Ten additional parks were declared by the National Park (Declaration) Order 2022 (National Assembly concurrence March 2023; NPS says gazetted) and are being handed over by the states in batches (Hadejia Wetlands, Oba Hills and Marhai in 2024; Kampe in Feb 2025), giving 17 national parks per NPS. Game reserves and forest reserves are state-managed; no official machine-readable or enumerable national list of them was found.",
+  "sourceIds": [
+   "nga-nps-act",
+   "nga-nps-home",
+   "nga-plac-2023",
+   "nga-nps-kampe-2025",
+   "nga-nbsap-2016"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "national parks (pre-2023)",
+    "count": 7,
+    "asOf": "2023",
+    "sourceId": "nga-nan-2023-scorecard",
+    "quote": "the service currently manages seven national parks"
+   },
+   {
+    "category": "national parks (after 10 upgrades)",
+    "count": 17,
+    "asOf": "2025-02",
+    "sourceId": "nga-nps-kampe-2025",
+    "quote": "increasing the total number of National Parks in Nigeria to 17"
+   },
+   {
+    "category": "forest reserves",
+    "count": 994,
+    "asOf": "2012 (cited in NBSAP 2016-2020)",
+    "sourceId": "nga-nbsap-2016",
+    "quote": "994 Forest Reserves; 32 Game Reserves; 1 Biosphere Reserve"
+   },
+   {
+    "category": "game reserves (state governments, a few community-managed)",
+    "count": 32,
+    "asOf": "2012 (cited in NBSAP 2016-2020)",
+    "sourceId": "nga-nbsap-2016",
+    "quote": "994 Forest Reserves; 32 Game Reserves"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "nga-nps-act",
+   "title": "National Park Service Act (Cap N65 LFN 2004), as amended by the National Park Service (Amendment) Act 2006",
+   "publisher": "Federal Republic of Nigeria (text via FAO FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/nig34266.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Federal Republic of Nigeria (text via FAO FAOLEX) — cited for reference (facts and short quotes)",
+   "note": "Legal text. s.50(2)-(3) lists the national parks that continue under the Act; s.50(14) removes Yankari from the list of national parks."
+  },
+  {
+   "id": "nga-nps-home",
+   "title": "Nigeria National Park Service — homepage ('About National Park')",
+   "publisher": "Nigeria National Park Service",
+   "url": "https://www.nigeriaparkservice.gov.ng/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Nigeria National Park Service — cited for reference (facts and short quotes)",
+   "note": "Official NPS site (fetched Oct 2026). Note: nigeriaparkservice.org and www.nps.gov.ng currently serve unrelated gambling content — not used."
+  },
+  {
+   "id": "nga-nps-cbnp",
+   "title": "Chad Basin National Park",
+   "publisher": "Nigeria National Park Service",
+   "url": "https://nigeriaparkservice.gov.ng/blog/2014/08/12/chad-basin-national-park/",
+   "date": "2014-08-12",
+   "kind": "webpage",
+   "licence": "© Nigeria National Park Service — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nga-nps-crnp",
+   "title": "Cross River National Park",
+   "publisher": "Nigeria National Park Service",
+   "url": "https://nigeriaparkservice.gov.ng/blog/2014/08/12/cross-river-national-park/",
+   "date": "2014-08-12",
+   "kind": "webpage",
+   "licence": "© Nigeria National Park Service — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nga-nps-ggnp",
+   "title": "Gashaka-Gumti National Park",
+   "publisher": "Nigeria National Park Service",
+   "url": "https://nigeriaparkservice.gov.ng/blog/2014/08/12/gashaka-gumti-national-park/",
+   "date": "2014-08-12",
+   "kind": "webpage",
+   "licence": "© Nigeria National Park Service — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nga-nps-klnp",
+   "title": "Kainji Lake National Park",
+   "publisher": "Nigeria National Park Service",
+   "url": "https://nigeriaparkservice.gov.ng/blog/2014/08/12/kainji-lake-national-park/",
+   "date": "2014-08-12",
+   "kind": "webpage",
+   "licence": "© Nigeria National Park Service — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nga-nps-onp",
+   "title": "Okomu National Park",
+   "publisher": "Nigeria National Park Service",
+   "url": "https://nigeriaparkservice.gov.ng/blog/2014/08/12/okomu-national-park/",
+   "date": "2014-08-12",
+   "kind": "webpage",
+   "licence": "© Nigeria National Park Service — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nga-nps-knp",
+   "title": "Kamuku National Park",
+   "publisher": "Nigeria National Park Service",
+   "url": "https://nigeriaparkservice.gov.ng/blog/2014/08/12/kamuku-national-park/",
+   "date": "2014-08-12",
+   "kind": "webpage",
+   "licence": "© Nigeria National Park Service — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nga-nps-oonp",
+   "title": "Old Oyo National Park",
+   "publisher": "Nigeria National Park Service",
+   "url": "https://nigeriaparkservice.gov.ng/blog/2014/08/12/old-oyo-national-park/",
+   "date": "2014-08-12",
+   "kind": "webpage",
+   "licence": "© Nigeria National Park Service — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nga-nps-kampe-2025",
+   "title": "National Park Service Takes Over Kampe Games Reserve as a National Park, Steering Committee Inaugurated for Seamless Transition",
+   "publisher": "Nigeria National Park Service",
+   "url": "https://nigeriaparkservice.gov.ng/blog/2025/02/06/national-park-service-takes-over-kampe-games-reserve-as-a-national-park-steering-committee-inaugurated-for-seamless-transition/",
+   "date": "2025-02-06",
+   "kind": "webpage",
+   "licence": "© Nigeria National Park Service — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nga-nan-2023-scorecard",
+   "title": "Environmental sustainability: National Park reassures commitment to wildlife conservation (NPS 2023 scorecard)",
+   "publisher": "News Agency of Nigeria (NAN)",
+   "url": "https://nannews.ng/environmental-sustainability-national-park-reassures-commitment-to-wildlife-conservation/",
+   "date": "2023-12-23",
+   "kind": "article",
+   "licence": "© News Agency of Nigeria (NAN) — cited for reference (facts and short quotes)",
+   "note": "Quotes the NPS Conservator-General."
+  },
+  {
+   "id": "nga-nan-2024-takeover",
+   "title": "National Park Service acquired three forest reserves in 2024: Official",
+   "publisher": "Gazette Nigeria (News Agency of Nigeria report)",
+   "url": "https://gazettengr.com/national-park-service-acquired-three-forest-reserves-in-2024-official/",
+   "date": "2024-12-23",
+   "kind": "article",
+   "licence": "© Gazette Nigeria (News Agency of Nigeria report) — cited for reference (facts and short quotes)",
+   "note": "Fetched via https://gazettengr.com/?p=344338; quotes the NPS Conservator-General."
+  },
+  {
+   "id": "nga-von-2023",
+   "title": "House of Representatives Approves Creation Of 10 New National Parks",
+   "publisher": "Voice of Nigeria",
+   "url": "https://von.gov.ng/?p=225115",
+   "date": "2023-03-30",
+   "kind": "article",
+   "licence": "© Voice of Nigeria — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nga-plac-2023",
+   "title": "National Assembly Approves Presidential Declaration Order on Establishment of Ten National Parks",
+   "publisher": "Policy and Legal Advocacy Centre (PLAC)",
+   "url": "https://placng.org/i/national-assembly-approves-presidential-declaration-order-on-establishment-of-ten-national-parks/",
+   "date": "2023-03-31",
+   "kind": "article",
+   "licence": "© Policy and Legal Advocacy Centre (PLAC) — cited for reference (facts and short quotes)",
+   "note": "NGO legislative tracker."
+  },
+  {
+   "id": "nga-nbsap-2016",
+   "title": "Nigeria National Biodiversity Strategy and Action Plan 2016-2020",
+   "publisher": "Government of Nigeria (via CBD)",
+   "url": "https://www.cbd.int/doc/world/ng/ng-nbsap-v2-en.pdf",
+   "date": "2015-12",
+   "kind": "report",
+   "licence": "© Government of Nigeria (via CBD) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nga-6nr",
+   "title": "Nigeria Sixth National Report to the Convention on Biological Diversity",
+   "publisher": "Government of Nigeria (via CBD)",
+   "url": "https://www.cbd.int/doc/world/ng/ng-nr-06-en.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Government of Nigeria (via CBD) — cited for reference (facts and short quotes)"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Chad Basin National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Continues as a national park under s.50(2)(a)-(3) of the National Park Service Act (Cap N65 LFN 2004).",
+    "sourceIds": [
+     "nga-nps-act"
+    ]
+   },
+   "established": "1991",
+   "areaKm2": 2258,
+   "coordinates": null,
+   "wikidataQid": "Q1107090",
+   "marine": false,
+   "sourceIds": [
+    "nga-nps-act",
+    "nga-nps-home",
+    "nga-nps-cbnp",
+    "nga-nbsap-2016"
+   ],
+   "notes": "Borno and Yobe States; three non-contiguous sectors (Chingurmi-Duguma, Wetlands, Bulatura Oases). 'Established 1991' = one of the five parks of the NPS created by Decree 36 of 1991 (NPS homepage). Area 2,258 km² per NPS page (2014)."
+  },
+  {
+   "name": "Cross River National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Continues as a national park under s.50(2)(b)-(3) of the National Park Service Act (Cap N65 LFN 2004).",
+    "sourceIds": [
+     "nga-nps-act"
+    ]
+   },
+   "established": "1991",
+   "areaKm2": 4000,
+   "coordinates": null,
+   "wikidataQid": "Q3015318",
+   "marine": false,
+   "sourceIds": [
+    "nga-nps-act",
+    "nga-nps-home",
+    "nga-nps-crnp",
+    "nga-nbsap-2016"
+   ],
+   "notes": "Cross River State; two non-contiguous divisions (Oban and Okwangwo). NPS gives 'about 4000 sq km' (approximate)."
+  },
+  {
+   "name": "Gashaka-Gumti National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Continues as a national park under s.50(2)(c)-(3) of the National Park Service Act (Cap N65 LFN 2004).",
+    "sourceIds": [
+     "nga-nps-act"
+    ]
+   },
+   "established": "1991",
+   "areaKm2": 6731,
+   "coordinates": null,
+   "wikidataQid": "Q1495137",
+   "marine": false,
+   "sourceIds": [
+    "nga-nps-act",
+    "nga-nps-home",
+    "nga-nps-ggnp",
+    "nga-nbsap-2016"
+   ],
+   "notes": "Taraba and Adamawa States; largest Nigerian national park (6,731 km² per NPS)."
+  },
+  {
+   "name": "Kainji Lake National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Legal instrument Decree 46 of 1979; reconstituted under Act 36 of 1991 and Act 46 of 1999 (Cap 65 LFN 2004); listed in s.50(2)(d) of the NPS Act.",
+    "sourceIds": [
+     "nga-nps-klnp",
+     "nga-nps-act"
+    ]
+   },
+   "established": "1979",
+   "areaKm2": 5340.82,
+   "coordinates": null,
+   "wikidataQid": "Q1473988",
+   "marine": false,
+   "sourceIds": [
+    "nga-nps-act",
+    "nga-nps-klnp",
+    "nga-nbsap-2016"
+   ],
+   "notes": "Niger and Kwara States; formed in 1976 by amalgamating the Borgu and Zugurma game reserves; Borgu sector 3,970.02 km² and Zugurma sector 1,370.80 km² (NPS)."
+  },
+  {
+   "name": "Kamuku National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in s.50(2)(f) of the National Park Service Act (inserted by the 2006 Amendment Act); NPS says established under Decree 46 of 1999.",
+    "sourceIds": [
+     "nga-nps-act",
+     "nga-nps-home"
+    ]
+   },
+   "established": "1999",
+   "areaKm2": 1120,
+   "coordinates": null,
+   "wikidataQid": "Q1107175",
+   "marine": false,
+   "sourceIds": [
+    "nga-nps-act",
+    "nga-nps-home",
+    "nga-nps-knp",
+    "nga-nbsap-2016"
+   ],
+   "notes": "Birnin Gwari, Kaduna State; 'about 1,120 sq km' (NPS); formerly a Native Authority forest reserve (1936 gazette)."
+  },
+  {
+   "name": "Okomu National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in s.50(2)(g) of the National Park Service Act (inserted by the 2006 Amendment Act); handed over by Edo State on 26 May 1999, the day Decree 46 of 1999 was signed (NPS).",
+    "sourceIds": [
+     "nga-nps-act",
+     "nga-nps-onp"
+    ]
+   },
+   "established": "1999",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1107161",
+   "marine": false,
+   "sourceIds": [
+    "nga-nps-act",
+    "nga-nps-home",
+    "nga-nps-onp",
+    "nga-nbsap-2016"
+   ],
+   "notes": "Edo State; smallest of the seven parks; derived from the Okomu Wildlife Sanctuary (70 sq km gazetted by Bendel State, 1985) within Okomu Forest Reserve. Current park area not stated on the NPS page."
+  },
+  {
+   "name": "Old Oyo National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Continues as a national park under s.50(2)(e)-(3) of the National Park Service Act (Cap N65 LFN 2004).",
+    "sourceIds": [
+     "nga-nps-act"
+    ]
+   },
+   "established": "1991",
+   "areaKm2": 2512,
+   "coordinates": null,
+   "wikidataQid": "Q3294859",
+   "marine": false,
+   "sourceIds": [
+    "nga-nps-act",
+    "nga-nps-home",
+    "nga-nps-oonp",
+    "nga-nbsap-2016"
+   ],
+   "notes": "Northern Oyo State; formed from the Upper Ogun (1936) and Oyo-Ile (1941) forest reserves, made game reserves in 1952."
+  },
+  {
+   "name": "Yankari Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve (Bauchi State)",
+   "legalStatus": {
+    "text": "Removed from the list of national parks by s.50(14) of the National Park Service Act as amended in 2006 ('ceases to be a national park'); staff and assets transferred to Bauchi State.",
+    "sourceIds": [
+     "nga-nps-act",
+     "nga-nps-home"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1473112",
+   "marine": false,
+   "sourceIds": [
+    "nga-nps-act",
+    "nga-nps-home"
+   ],
+   "notes": "Converted to a national park in 1992 and delisted in June 2006 at the request of the Bauchi State Government (NPS homepage). Now a state game reserve; area and current gazette not verified. The Wikidata item for this area is labelled 'Yankari National Park'."
+  },
+  {
+   "name": "Allawa National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in the National Park (Declaration) Order, 2022 under s.18 of the National Park Service Act; National Assembly concurrence 29-30 March 2023. The NPS Conservator-General stated (Dec 2023) that the ten parks 'had been recently gazetted by the Federal Ministry of Justice' — the gazette itself was not seen.",
+    "sourceIds": [
+     "nga-plac-2023",
+     "nga-von-2023",
+     "nga-nan-2023-scorecard"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nga-plac-2023",
+    "nga-von-2023",
+    "nga-nan-2023-scorecard"
+   ],
+   "notes": "One of the 10 additional national parks (State: Niger). Former Allawa Game Reserve (name as in the House motion reported by VON). Takeover by NPS not confirmed in sources seen."
+  },
+  {
+   "name": "Apoi National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in the National Park (Declaration) Order, 2022 under s.18 of the National Park Service Act; National Assembly concurrence 29-30 March 2023. The NPS Conservator-General stated (Dec 2023) that the ten parks 'had been recently gazetted by the Federal Ministry of Justice' — the gazette itself was not seen.",
+    "sourceIds": [
+     "nga-plac-2023",
+     "nga-von-2023",
+     "nga-nan-2023-scorecard"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nga-plac-2023",
+    "nga-von-2023",
+    "nga-nan-2023-scorecard",
+    "nga-6nr",
+    "nga-nbsap-2016"
+   ],
+   "notes": "One of the 10 additional national parks (State: Bayelsa). Former Apoi Forest Reserve (name as in the House motion reported by VON). Mangrove/swamp forest reserve in the Niger Delta (6NR). Apoi Creek is listed among Nigeria's Ramsar sites in the NBSAP. Takeover by NPS not confirmed in sources seen."
+  },
+  {
+   "name": "Edumanom National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in the National Park (Declaration) Order, 2022 under s.18 of the National Park Service Act; National Assembly concurrence 29-30 March 2023. The NPS Conservator-General stated (Dec 2023) that the ten parks 'had been recently gazetted by the Federal Ministry of Justice' — the gazette itself was not seen.",
+    "sourceIds": [
+     "nga-plac-2023",
+     "nga-von-2023",
+     "nga-nan-2023-scorecard"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nga-plac-2023",
+    "nga-von-2023",
+    "nga-nan-2023-scorecard",
+    "nga-6nr"
+   ],
+   "notes": "One of the 10 additional national parks (State: Bayelsa). Former Edumenum Reserve (name as in the House motion reported by VON). Spelled 'Edumenum' (VON), 'Edumenun' (PLAC) and 'Edumenum Forest Reserve' (6NR); mangrove forest reserve. Takeover by NPS not confirmed in sources seen."
+  },
+  {
+   "name": "Falgore National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in the National Park (Declaration) Order, 2022 under s.18 of the National Park Service Act; National Assembly concurrence 29-30 March 2023. The NPS Conservator-General stated (Dec 2023) that the ten parks 'had been recently gazetted by the Federal Ministry of Justice' — the gazette itself was not seen.",
+    "sourceIds": [
+     "nga-plac-2023",
+     "nga-von-2023",
+     "nga-nan-2023-scorecard"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nga-plac-2023",
+    "nga-von-2023",
+    "nga-nan-2023-scorecard"
+   ],
+   "notes": "One of the 10 additional national parks (State: Kano). Former Falgore Game Reserve (name as in the House motion reported by VON). Spelled 'Galgore' in the PLAC article. Takeover by NPS not confirmed in sources seen."
+  },
+  {
+   "name": "Hadejia Wetlands National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in the National Park (Declaration) Order, 2022 under s.18 of the National Park Service Act; National Assembly concurrence 29-30 March 2023. The NPS Conservator-General stated (Dec 2023) that the ten parks 'had been recently gazetted by the Federal Ministry of Justice' — the gazette itself was not seen.",
+    "sourceIds": [
+     "nga-plac-2023",
+     "nga-von-2023",
+     "nga-nan-2023-scorecard"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nga-plac-2023",
+    "nga-von-2023",
+    "nga-nan-2023-scorecard",
+    "nga-nan-2024-takeover",
+    "nga-6nr",
+    "nga-nbsap-2016"
+   ],
+   "notes": "One of the 10 additional national parks (State: Jigawa). Former Baturiya Wetland Game Reserve (name as in the House motion reported by VON). PLAC/6NR call it Hadejia Wetland (Game Reserve). NPS reported its takeover/conversion in 2024. Baturiya is listed among Nigeria's Ramsar sites in the NBSAP."
+  },
+  {
+   "name": "Kampe National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in the National Park (Declaration) Order, 2022 under s.18 of the National Park Service Act; National Assembly concurrence 29-30 March 2023. The NPS Conservator-General stated (Dec 2023) that the ten parks 'had been recently gazetted by the Federal Ministry of Justice' — the gazette itself was not seen.",
+    "sourceIds": [
+     "nga-plac-2023",
+     "nga-von-2023",
+     "nga-nan-2023-scorecard"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nga-plac-2023",
+    "nga-von-2023",
+    "nga-nan-2023-scorecard",
+    "nga-nps-kampe-2025"
+   ],
+   "notes": "One of the 10 additional national parks (State: Kwara). Former Kampe Forest Reserve (name as in the House motion reported by VON). Called 'Kampe Games Reserve' by NPS; handed over by Kwara State to the NPS on 4 February 2025."
+  },
+  {
+   "name": "Kogo National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in the National Park (Declaration) Order, 2022 under s.18 of the National Park Service Act; National Assembly concurrence 29-30 March 2023. The NPS Conservator-General stated (Dec 2023) that the ten parks 'had been recently gazetted by the Federal Ministry of Justice' — the gazette itself was not seen.",
+    "sourceIds": [
+     "nga-plac-2023",
+     "nga-von-2023",
+     "nga-nan-2023-scorecard"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nga-plac-2023",
+    "nga-von-2023",
+    "nga-nan-2023-scorecard"
+   ],
+   "notes": "One of the 10 additional national parks (State: Katsina). Former Kogo Forest Reserve (name as in the House motion reported by VON). Takeover by NPS not confirmed in sources seen."
+  },
+  {
+   "name": "Marhai National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in the National Park (Declaration) Order, 2022 under s.18 of the National Park Service Act; National Assembly concurrence 29-30 March 2023. The NPS Conservator-General stated (Dec 2023) that the ten parks 'had been recently gazetted by the Federal Ministry of Justice' — the gazette itself was not seen.",
+    "sourceIds": [
+     "nga-plac-2023",
+     "nga-von-2023",
+     "nga-nan-2023-scorecard"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nga-plac-2023",
+    "nga-von-2023",
+    "nga-nan-2023-scorecard",
+    "nga-nan-2024-takeover"
+   ],
+   "notes": "One of the 10 additional national parks (State: Nasarawa). Former Marhai Forest Reserve (name as in the House motion reported by VON). Spelled 'Marhi' (PLAC). NPS reported its takeover/conversion in 2024."
+  },
+  {
+   "name": "Oba Hills National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in the National Park (Declaration) Order, 2022 under s.18 of the National Park Service Act; National Assembly concurrence 29-30 March 2023. The NPS Conservator-General stated (Dec 2023) that the ten parks 'had been recently gazetted by the Federal Ministry of Justice' — the gazette itself was not seen.",
+    "sourceIds": [
+     "nga-plac-2023",
+     "nga-von-2023",
+     "nga-nan-2023-scorecard"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nga-plac-2023",
+    "nga-von-2023",
+    "nga-nan-2023-scorecard",
+    "nga-nan-2024-takeover",
+    "nga-nps-home"
+   ],
+   "notes": "One of the 10 additional national parks (State: Osun). Former Oba Hill Forest Reserve (name as in the House motion reported by VON). NPS reported its takeover/conversion in 2024 (an 'Osun State handing over' item is also on the NPS homepage)."
+  },
+  {
+   "name": "Pandam National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Listed in the National Park (Declaration) Order, 2022 under s.18 of the National Park Service Act; National Assembly concurrence 29-30 March 2023. The NPS Conservator-General stated (Dec 2023) that the ten parks 'had been recently gazetted by the Federal Ministry of Justice' — the gazette itself was not seen.",
+    "sourceIds": [
+     "nga-plac-2023",
+     "nga-von-2023",
+     "nga-nan-2023-scorecard"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nga-plac-2023",
+    "nga-von-2023",
+    "nga-nan-2023-scorecard"
+   ],
+   "notes": "One of the 10 additional national parks (State: Plateau). Former Pandam Forest Reserve (name as in the House motion reported by VON). Takeover by NPS not confirmed in sources seen."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "forest reserves (state)",
+   "approxCount": 994,
+   "reason": "No official list found; NBSAP (citing NCF 2012) gives 994, of which about half reportedly de-reserved or encroached. Other secondary sources quote 445 — not verified.",
+   "sourceIds": [
+    "nga-nbsap-2016"
+   ]
+  },
+  {
+   "category": "game reserves (state)",
+   "approxCount": 32,
+   "reason": "State-managed; no official national list found.",
+   "sourceIds": [
+    "nga-nbsap-2016"
+   ]
+  },
+  {
+   "category": "strict nature reserves, sacred groves and community areas",
+   "approxCount": null,
+   "reason": "No official list found.",
+   "sourceIds": []
+  }
+ ],
+ "gaps": [
+  "The gazette of the National Park (Declaration) Order 2022 was not seen; legal status of the ten new parks rests on the NASS concurrence (March 2023) and NPS statements that they were gazetted (Dec 2023). Areas and boundaries of the ten parks are undocumented in sources seen.",
+  "Only four of the ten new parks (Hadejia Wetlands, Oba Hills, Marhai, Kampe) have a documented handover to the NPS; the status of Allawa, Apoi, Edumanom, Falgore, Kogo and Pandam handovers is unknown.",
+  "Spellings of the new parks differ between sources (Allawa/Alawa, Falgore/Galgore, Marhai/Marhi, Edumanom/Edumenum/Edumenun, Hadejia Wetland/Baturiya Wetland); names used here follow the NAN/NPS wording.",
+  "Okomu National Park's current area and Yankari Game Reserve's area are not stated in official sources seen.",
+  "No Nigerian marine protected area was found in official sources.",
+  "The NPS park pages date from 2014; areas may have changed (e.g. the 2023 bill concerning Okwangwo was not followed up).",
+  "areaKm2 values were converted from hectares (1 km² = 100 ha) where the cited source gives hectares; source figures are quoted in notes where they conflict."
+ ]
+}

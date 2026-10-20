@@ -1,0 +1,245 @@
+{
+ "country": "MRT",
+ "countryName": "Mauritania",
+ "officialInventory": {
+  "summary": "No standalone official register was found. The most explicit official statement is Mauritania's 6th CBD national report (2019, section 7.2 'Situation des aires protégées'), which lists two national parks (Banc d'Arguin, Diawling), a recently created third park (Awleigatt), the Cap Blanc satellite reserve and the (unclassified) Chat Tboul reserve, plus several areas under study. The two main parks are public administrative establishments with their own laws/decrees and official websites (pnba.mr, pnd.mr); a Direction des aires protégées et du littoral (DAPL) exists within the environment ministry. The 'Zones protégées' page of the national CBD clearing-house (mr.chm-cbd.net) reproduces outdated WCMC-derived entries and was not used.",
+  "sourceIds": [
+   "mrt-cbd-nr6",
+   "mrt-loi-2000-024",
+   "mrt-decret-91-005",
+   "mrt-pnba-site",
+   "mrt-pnd-site"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "national parks",
+    "count": 3,
+    "asOf": "2019",
+    "sourceId": "mrt-cbd-nr6",
+    "quote": "deux parcs nationaux : le parc national du Banc d’Arguin et le parc national du Diawling ; un troisième parc récemment créé est celui d'Awleigatt"
+   },
+   {
+    "category": "reserves",
+    "count": 2,
+    "asOf": "2019",
+    "sourceId": "mrt-cbd-nr6",
+    "quote": "deux réserves: la réserve satellite du Cap Blanc (rattachée au Banc d’Arguin) et la réserve de Chott Boul (espace géré par la marine nationale, non classé"
+   },
+   {
+    "category": "terrestrial protected area coverage",
+    "count": null,
+    "asOf": "2019",
+    "sourceId": "mrt-cbd-nr6",
+    "quote": "ces aires protégées terrestres couvrent 0,65% du territoire auxquelles il faut ajouter 530 000 ha de partie marine du parc du Banc d’Arguin"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "mrt-cbd-nr6",
+   "title": "6ème Rapport national sur la diversité biologique — Mauritanie",
+   "publisher": "Ministère de l'Environnement et du Développement Durable / CBD Secretariat",
+   "url": "https://www.cbd.int/doc/nr/nr-06/mr-nr-06-fr.pdf",
+   "date": "2019-02-17",
+   "kind": "report",
+   "licence": "© République Islamique de Mauritanie — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "mrt-loi-2000-024",
+   "title": "Loi n° 2000/024 relative au Parc National du Banc d'Arguin (promulguée le 19 janvier 2000)",
+   "publisher": "République Islamique de Mauritanie — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/mau20609.pdf",
+   "date": "2000-01-19",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "mrt-decret-91-005",
+   "title": "Décret n° 91-005 du 14 janvier 1991 portant création et organisation d'un établissement public à caractère administratif dénommé Parc National du Diawling",
+   "publisher": "Journal Officiel de la République Islamique de Mauritanie — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/mau4232.pdf",
+   "date": "1991-01-14",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "mrt-pnba-site",
+   "title": "Accueil — Banc d'Arguin National Park (official website)",
+   "publisher": "Parc National du Banc d'Arguin",
+   "url": "https://pnba.mr/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© PNBA — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "mrt-pnd-site",
+   "title": "Bienvenue au Parc National du Diawling (official website)",
+   "publisher": "Parc National du Diawling",
+   "url": "https://www.pnd.mr/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© PND — cited for reference (facts and short quotes)"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parc National du Banc d'Arguin",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Governed by Loi n° 2000/024 of 19 January 2000 (defines the park as a 'réserve protégée' and its boundaries); park created in 1976 per the official website",
+    "sourceIds": [
+     "mrt-loi-2000-024",
+     "mrt-pnba-site"
+    ]
+   },
+   "established": "1976",
+   "areaKm2": 12000,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "mrt-loi-2000-024",
+    "mrt-pnba-site",
+    "mrt-cbd-nr6"
+   ],
+   "notes": "12 000 km² per pnba.mr ('délimitant son territoire à 12 000 km²'); includes maritime, insular and continental parts (law art. 3). World Heritage site and Ramsar site (handled separately)."
+  },
+  {
+   "name": "Réserve Satellite du Cap Blanc",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve satellite",
+   "legalStatus": {
+    "text": "Created in 1986 by Décret 86-060 (per NR6); attached to the Parc National du Banc d'Arguin by art. 4 of Loi n° 2000/024",
+    "sourceIds": [
+     "mrt-cbd-nr6",
+     "mrt-loi-2000-024"
+    ]
+   },
+   "established": "1986",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "mrt-cbd-nr6",
+    "mrt-loi-2000-024"
+   ],
+   "notes": "Created to protect the Mediterranean monk seal (Monachus monachus)."
+  },
+  {
+   "name": "Parc National du Diawling",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Created by Décret n° 91-005 of 14 January 1991 (public administrative establishment)",
+    "sourceIds": [
+     "mrt-decret-91-005"
+    ]
+   },
+   "established": "1991-01-14",
+   "areaKm2": 156,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "mrt-decret-91-005",
+    "mrt-pnd-site",
+    "mrt-cbd-nr6"
+   ],
+   "notes": "Decree: 'couvrira une superficie d’environ 15.600 ha'. Lower Senegal River delta, right bank (coastal zone per NR6). NR6 mentions a planned extension within the Senegal River Delta transboundary biosphere reserve. Ramsar site (handled separately)."
+  },
+  {
+   "name": "Parc National d'Awleigatt",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "mrt-cbd-nr6"
+   ],
+   "notes": "NR6 (2019): 'un troisième parc récemment créé est celui d'Awleigatt'. Spellings vary (Aouleigatt/Aouleygatt). Creation act, date and area not located."
+  },
+  {
+   "name": "Réserve de Chat Tboul",
+   "localName": "Chott Boul",
+   "category": "other-protected-area",
+   "designationLabel": "Réserve (non classée)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "mrt-cbd-nr6"
+   ],
+   "notes": "NR6 calls it a reserve but says it is 'non classé', managed by the national navy, and a core area of the Senegal River Delta transboundary biosphere reserve; Ramsar site since 10/11/2000. NR6 also lists 'la création d’une aire protégée au niveau du Chat TBoul' among projects, so legal protected-area status is doubtful."
+  },
+  {
+   "name": "Baie de l'Étoile",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Projet d'aire protégée",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "mrt-cbd-nr6"
+   ],
+   "notes": "Listed in NR6 (2019) among protected-area creation projects 'dans un état très avancé'; current status not verified."
+  },
+  {
+   "name": "Guelb er Richat",
+   "localName": "Guelb El Richat",
+   "category": "proposed",
+   "designationLabel": "Projet d'aire protégée",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "mrt-cbd-nr6"
+   ],
+   "notes": "Listed in NR6 (2019) among protected-area creation projects; current status not verified."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "sites under study / proposed protected areas (PoWPA)",
+   "approxCount": null,
+   "reason": "NR6 lists further candidate sites (Mahmouda, El Agher, El Atf, Bougahri–Metrewgha, Lac de Mal, Oudhne Levrass, Tilemci, Dhar Oualata Tichitt, El Agane, Kankossa) without any legal status; not recorded individually.",
+   "sourceIds": [
+    "mrt-cbd-nr6"
+   ]
+  },
+  {
+   "category": "classified forests",
+   "approxCount": null,
+   "reason": "No official list or count found.",
+   "sourceIds": []
+  }
+ ],
+ "gaps": [
+  "No official consolidated list after 2019 was found; Mauritania had not submitted a 7th CBD national report in the CBD index at time of research.",
+  "Creation act, date and area of the Parc National d'Awleigatt were not found in FAOLEX or official sources.",
+  "PNBA's original 1976 creation decree (n° 76-147, referenced in FAOLEX/LEAP as repealed) was not fetched; the 1976 date comes from pnba.mr.",
+  "Area of the Cap Blanc satellite reserve not documented in fetched sources.",
+  "The national CBD clearing-house page 'Zones protégées' (mr.chm-cbd.net/fr/zones-protegees) reproduces old WCMC entries (e.g. 'Las Cuevecillas', 'Réserve du Mouflon') of unclear validity; not used.",
+  "Wikidata QIDs not assigned (Wikidata services were rate-limiting); coordinates left null."
+ ]
+}

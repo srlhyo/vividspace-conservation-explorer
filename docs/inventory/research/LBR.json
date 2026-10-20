@@ -1,0 +1,441 @@
+{
+ "country": "LBR",
+ "countryName": "Liberia",
+ "officialInventory": {
+  "summary": "The Forestry Development Authority (FDA) is the statutory PA authority (National Forestry Reform Law 2006; Protected Forest Areas Network Act 2003). Its June 2026 Kwa gazettement package states the network comprises five legally established PAs and lists the proposed PAs; the NBSAP 2017-2025 (Table 10, source FDA) gives areas. No machine-readable list found.",
+  "sourceIds": [
+   "lbr-fda-kwa-2026",
+   "lbr-nbsap-2017"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "legally established protected areas",
+    "count": 5,
+    "asOf": "2026-06",
+    "sourceId": "lbr-fda-kwa-2026",
+    "quote": "Liberia’s Protected Area Network comprises five legally established protected areas"
+   },
+   {
+    "category": "proposed protected areas",
+    "count": 11,
+    "asOf": "2019",
+    "sourceId": "lbr-6nr",
+    "quote": "with 5 areas protected so far, and 11 others proposed"
+   },
+   {
+    "category": "national forests (production, partial protection)",
+    "count": 11,
+    "asOf": "2017",
+    "sourceId": "lbr-nbsap-2017",
+    "quote": "There are eleven (11) national forests currently under partial protection"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "lbr-fda-kwa-2026",
+   "title": "Draft Gazettement Package for the Establishment of Kwa National Park",
+   "publisher": "Forestry Development Authority (FDA), Liberia",
+   "url": "https://fda.gov.lr/sites/default/files/documents/PKNP%20Draft%20Gazettement%20Package%20June%202026_%20Updated.pdf",
+   "date": "2026-06-09",
+   "kind": "report",
+   "licence": "© Forestry Development Authority (FDA), Liberia — cited for reference (facts and short quotes)",
+   "note": "States the current legally established PA network (five areas) and the proposed PAs."
+  },
+  {
+   "id": "lbr-fda-wonegizi-notice-2026",
+   "title": "Notice of Intent Relating to the Legal Recognition of the Wonegizi Proposed Protected Area",
+   "publisher": "Forestry Development Authority (FDA), Liberia",
+   "url": "https://fda.gov.lr/sites/default/files/documents/Notice%20of%20Intent%20Relating%20to%20the%20Gazettement%20of_WPPA_080726.pdf",
+   "date": "2026-07-07",
+   "kind": "report",
+   "licence": "© Forestry Development Authority (FDA), Liberia — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "lbr-fda-wonegizi-package-2026",
+   "title": "Draft Gazettement Package of the Wonegizi Proposed Protected Area",
+   "publisher": "Forestry Development Authority (FDA), Liberia",
+   "url": "https://fda.gov.lr/sites/default/files/documents/Wonegizi_Gazettement_Package_DRAFT.pdf",
+   "date": "2026-07",
+   "kind": "report",
+   "licence": "© Forestry Development Authority (FDA), Liberia — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "lbr-sapo-act-2003",
+   "title": "Act – 2003 – Act for the Extension of the Sapo National Park – Liberia",
+   "publisher": "ClientEarth Africa Law Database (Government of Liberia text)",
+   "url": "https://www.clientearth.org/latest/documents/act-2003-act-for-the-extension-of-the-sapo-national-park-liberia/",
+   "date": "2003-10-10",
+   "kind": "webpage",
+   "licence": "© ClientEarth Africa Law Database (Government of Liberia text) — cited for reference (facts and short quotes)",
+   "note": "Act approved 10 Oct 2003, published 24 Oct 2003."
+  },
+  {
+   "id": "lbr-ennr-act-2003",
+   "title": "Act – 2003 – Act for the Establishment of the East Nimba Nature Reserve – Liberia",
+   "publisher": "ClientEarth Africa Law Database (Government of Liberia text)",
+   "url": "https://www.clientearth.org/latest/documents/act-2003-act-for-the-establishment-of-the-east-nimba-nature-reserve-liberia/",
+   "date": "2003-10-10",
+   "kind": "webpage",
+   "licence": "© ClientEarth Africa Law Database (Government of Liberia text) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "lbr-nbsap-2017",
+   "title": "Liberia National Biodiversity Strategy and Action Plan 2017-2025",
+   "publisher": "Government of Liberia (via CBD)",
+   "url": "https://www.cbd.int/doc/world/lr/lr-nbsap-v2-en.pdf",
+   "date": "2017-03",
+   "kind": "report",
+   "licence": "© Government of Liberia (via CBD) — cited for reference (facts and short quotes)",
+   "note": "Table 10 (source: FDA) lists protected and proposed protected areas with areas."
+  },
+  {
+   "id": "lbr-5nr",
+   "title": "Liberia Fifth National Report to the CBD",
+   "publisher": "Government of Liberia (via CBD)",
+   "url": "https://www.cbd.int/doc/world/lr/lr-nr-05-en.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Government of Liberia (via CBD) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "lbr-6nr",
+   "title": "Liberia Sixth National Report to the CBD",
+   "publisher": "Government of Liberia (via CBD)",
+   "url": "https://www.cbd.int/doc/world/lr/lr-nr-06-en.pdf",
+   "date": "2019",
+   "kind": "report",
+   "licence": "© Government of Liberia (via CBD) — cited for reference (facts and short quotes)"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Sapo National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Created 1983; extended by the Act for the Extension of the Sapo National Park (approved 10 Oct 2003), managed as a permanent component of the Protected Forest Area Network.",
+    "sourceIds": [
+     "lbr-sapo-act-2003",
+     "lbr-fda-kwa-2026"
+    ]
+   },
+   "established": "1983",
+   "areaKm2": 1804,
+   "coordinates": null,
+   "wikidataQid": "Q1969043",
+   "marine": false,
+   "sourceIds": [
+    "lbr-fda-kwa-2026",
+    "lbr-sapo-act-2003",
+    "lbr-nbsap-2017",
+    "lbr-6nr"
+   ],
+   "notes": "Sinoe, River Gee and Grand Gedeh counties. Area: 180,400 ha after the 2003 extension (FDA 2026); NBSAP table gives 184,406 ha; the 2003 Act's title says 445,677 acres (body text 445,667 acres)."
+  },
+  {
+   "name": "East Nimba Nature Reserve",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Nature Reserve",
+   "legalStatus": {
+    "text": "Act for the Establishment of the East Nimba Nature Reserve (2003).",
+    "sourceIds": [
+     "lbr-ennr-act-2003",
+     "lbr-fda-kwa-2026"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 135.69,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "lbr-fda-kwa-2026",
+    "lbr-ennr-act-2003",
+    "lbr-nbsap-2017"
+   ],
+   "notes": "Nimba County. Area 13,569 ha per NBSAP Table 10 (FDA). The FDA 2026 package also titles the Act '(2011)' while stating the reserve was gazetted in 2003. The FDA links its creation to the international importance of the Mount Nimba UNESCO World Heritage site."
+  },
+  {
+   "name": "Lake Piso Multiple Sustainable Use Reserve",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Multiple Sustainable Use Reserve",
+   "legalStatus": {
+    "text": "Legally established protected area (2011) per FDA.",
+    "sourceIds": [
+     "lbr-fda-kwa-2026"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "lbr-fda-kwa-2026",
+    "lbr-nbsap-2017",
+    "lbr-5nr"
+   ],
+   "notes": "North-western Liberia; NBSAP photo caption shows the Atlantic beach at Lake Piso. Also a Ramsar site (5NR). Area figures conflict: 97,975 ha in NBSAP Table 10 vs 48,593 ha in the 5th National Report (which gives 97,975 ha for Gola) — left null."
+  },
+  {
+   "name": "Gola Forest National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "An Act Establishing the Gola Forest National Park, enacted (handbill) 27 January 2017.",
+    "sourceIds": [
+     "lbr-fda-kwa-2026"
+    ]
+   },
+   "established": "2016",
+   "areaKm2": 880,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "lbr-fda-kwa-2026",
+    "lbr-6nr",
+    "lbr-nbsap-2017"
+   ],
+   "notes": "Mostly Gbarpolu County; transboundary with Gola Rainforest NP (Sierra Leone). Year: 2016 per FDA network list and 6NR ('September, 2016'), Act handbill dated 27 Jan 2017. Area 88,000 ha (6NR); NBSAP gives 88,130 ha."
+  },
+  {
+   "name": "Grebo-Krahn National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "An Act Establishing the Grebo-Krahn National Park, enacted (handbill) 9 October 2017.",
+    "sourceIds": [
+     "lbr-fda-kwa-2026"
+    ]
+   },
+   "established": "2017",
+   "areaKm2": 971.36,
+   "coordinates": null,
+   "wikidataQid": "Q113468505",
+   "marine": false,
+   "sourceIds": [
+    "lbr-fda-kwa-2026",
+    "lbr-6nr"
+   ],
+   "notes": "Grand Gedeh and River Gee counties; 97,136 ha (6NR). Part of the Taï-Grebo-Krahn-Sapo transboundary forest landscape."
+  },
+  {
+   "name": "Wonegizi Proposed Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed Multiple Sustainable Use Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 279.79,
+   "coordinates": null,
+   "wikidataQid": "Q8031950",
+   "marine": false,
+   "sourceIds": [
+    "lbr-fda-wonegizi-notice-2026",
+    "lbr-fda-wonegizi-package-2026",
+    "lbr-fda-kwa-2026",
+    "lbr-nbsap-2017"
+   ],
+   "notes": "Lofa County. FDA notice of intent (7 July 2026; comment period 9 July-6 Sept 2026) to designate it a Multiple Sustainable Use Reserve under s.9.1a of the National Forestry Reform Law 2006; 27,979 ha pending final validated boundary. Earlier listed as 'Wonegizi Nature Reserve' (NBSAP, 37,979 ha)."
+  },
+  {
+   "name": "Kwa National Park (proposed)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1722,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "lbr-fda-kwa-2026"
+   ],
+   "notes": "Grand Gedeh, Sinoe and Rivercess counties; 172,200 ha per FDA draft gazettement package (June 2026)."
+  },
+  {
+   "name": "Wologizi Proposed Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed Protected Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "lbr-fda-kwa-2026"
+   ],
+   "notes": "Listed by FDA (2026) among proposed protected areas."
+  },
+  {
+   "name": "Foya Proposed Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed Protected Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1646.28,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "lbr-fda-kwa-2026",
+    "lbr-nbsap-2017"
+   ],
+   "notes": "Lofa County. 164,628 ha per NBSAP Table 10 (FDA source, 2017)."
+  },
+  {
+   "name": "Kpo Mountains Proposed Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed Protected Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 837.09,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "lbr-fda-kwa-2026",
+    "lbr-nbsap-2017"
+   ],
+   "notes": "'Kpo Mountains (near Zelekai)', 83,709 ha per NBSAP Table 10."
+  },
+  {
+   "name": "Cestos-Senkwehn Proposed Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed Protected Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 803.48,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "lbr-fda-kwa-2026",
+    "lbr-nbsap-2017",
+    "lbr-6nr"
+   ],
+   "notes": "Coastal centre of Liberia (6NR). 80,348 ha per NBSAP Table 10."
+  },
+  {
+   "name": "Grand Kru-River Gee Proposed Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed Protected Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1351,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "lbr-fda-kwa-2026",
+    "lbr-nbsap-2017"
+   ],
+   "notes": "135,100 ha per NBSAP Table 10."
+  },
+  {
+   "name": "Marshall Wetlands Proposed Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed Protected Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 238.13,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "lbr-fda-kwa-2026",
+    "lbr-nbsap-2017"
+   ],
+   "notes": "Listed as 'Margibi Mangroves “Marshall Islands”', 23,813 ha in NBSAP Table 10."
+  },
+  {
+   "name": "Gbi Proposed Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed Protected Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 884.09,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "lbr-nbsap-2017"
+   ],
+   "notes": "88,409 ha per NBSAP Table 10 (2017); not named in the FDA 2026 list of proposed areas."
+  },
+  {
+   "name": "Bong Mountains (Yoma) Proposed Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed Protected Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 248.13,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "lbr-nbsap-2017"
+   ],
+   "notes": "24,813 ha per NBSAP Table 10 (2017); not named in the FDA 2026 list."
+  },
+  {
+   "name": "West Nimba Proposed Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed Protected Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 104.82,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "lbr-nbsap-2017"
+   ],
+   "notes": "10,482 ha per NBSAP Table 10 (2017); not named in the FDA 2026 list."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "national forests (production forests)",
+   "approxCount": 11,
+   "reason": "Production forests from which concessions are carved; not protected areas in the strict sense.",
+   "sourceIds": [
+    "lbr-nbsap-2017",
+    "lbr-5nr"
+   ]
+  },
+  {
+   "category": "community forests / sacred forests",
+   "approxCount": null,
+   "reason": "No official enumerable list found.",
+   "sourceIds": []
+  }
+ ],
+ "gaps": [
+  "Liberia has no designated marine protected area in sources seen; the 6NR sets a target to 'Establish at least 2 marine protected areas'.",
+  "Lake Piso's legal instrument (2011) and area were not verified; NBSAP and 5NR area figures conflict.",
+  "The FDA (2026) lists 8 proposed PAs whereas NBSAP 2017 lists 10 and the 6NR says 11; Gbi, Bong Mountains and West Nimba were not in the FDA 2026 list, so their current proposal status is unclear.",
+  "Wonegizi gazettement was in public-comment stage (to 6 Sept 2026); outcome unknown.",
+  "The Protected Forest Areas Network Act (2003) text itself was not fetched (only referenced by the FDA and ClientEarth).",
+  "areaKm2 values were converted from hectares (1 km² = 100 ha) where the cited source gives hectares; source figures are quoted in notes where they conflict."
+ ]
+}

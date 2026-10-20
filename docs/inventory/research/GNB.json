@@ -1,0 +1,392 @@
+{
+ "country": "GNB",
+ "countryName": "Guinea-Bissau",
+ "officialInventory": {
+  "summary": "The Sistema Nacional de Áreas Protegidas (SNAP) is managed by the Instituto da Biodiversidade e das Áreas Protegidas (IBAP) under the Lei-Quadro das Áreas Protegidas (Decreto-Lei 5-A/2011, replacing Decreto-Lei 3/97). IBAP's website lists the protected areas and publishes the creation decrees (scanned Boletim Oficial pages), which were checked for the 2000, 2005, 2011 and 2017 decrees. The 6th CBD report (2019) states the SNAP covers 26.3% of the territory (~750,000 ha) with 8 protected areas plus 3 ecological corridors created by Decrees 11–15/2017. The list appears complete for state protected areas; community forests (104) are not enumerated. Note: the IBAP website (ibapgbissau.org) also carries unrelated spam blog posts, suggesting partial compromise; facts were cross-checked against the decree scans and NR6.",
+  "sourceIds": [
+   "gnb-ibap-site",
+   "gnb-cbd-nr6",
+   "gnb-bo-2000-49",
+   "gnb-bo-2000-34",
+   "gnb-bo-2005-28",
+   "gnb-bo-2011-8",
+   "gnb-bo-2017-26"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "protected areas (SNAP)",
+    "count": 8,
+    "asOf": "2019-03",
+    "sourceId": "gnb-cbd-nr6",
+    "quote": "Existência de oito (8) Áreas Protegidas"
+   },
+   {
+    "category": "ecological corridors",
+    "count": 3,
+    "asOf": "2019-03",
+    "sourceId": "gnb-cbd-nr6",
+    "quote": "Três (3) de corredores ecológicos existentes"
+   },
+   {
+    "category": "SNAP coverage",
+    "count": null,
+    "asOf": "2019-03",
+    "sourceId": "gnb-cbd-nr6",
+    "quote": "passando assim o SNAP a cobrir 26,3% (750.000 ha) do território nacional através da sua oficialização por Decretos nº 11, 12, 13, 14 e 15/2017"
+   },
+   {
+    "category": "community forests",
+    "count": 104,
+    "asOf": "2019-03",
+    "sourceId": "gnb-cbd-nr6",
+    "quote": "Criação de florestas comunitárias 104 que representa cerca de 26.050 ha"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "gnb-ibap-site",
+   "title": "IBAP — Áreas Protegidas, Legislação and protected-area pages (PNB, PND, AMPCI Urok, PNC, PNLC, PNMJVP, PNO, PNTC)",
+   "publisher": "Instituto da Biodiversidade e das Áreas Protegidas (IBAP), Guiné-Bissau",
+   "url": "https://ibapgbissau.org/areas-protegidas/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© IBAP — cited for reference (facts and short quotes)",
+   "note": "Pages fetched: /areas-protegidas/, /legislacao/, /pnb/, /pnd/, /urok/, /pnc-ap/, /pnlc-ap/, /pnmjvp-ap/, /pno-ap/, /pntc-ap/. The site also hosts unrelated spam posts (pharmaceutical texts), so it may be partially compromised; the protected-area pages and decree PDFs look genuine."
+  },
+  {
+   "id": "gnb-cbd-nr6",
+   "title": "6º Relatório Nacional sobre a Diversidade Biológica — Guiné-Bissau",
+   "publisher": "Government of Guinea-Bissau / CBD Secretariat",
+   "url": "https://www.cbd.int/doc/nr/nr-06/gw-nr-06-pt.pdf",
+   "date": "2019-11-07",
+   "kind": "report",
+   "licence": "© República da Guiné-Bissau — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "gnb-bo-2000-49",
+   "title": "Boletim Oficial n.º 49, 4 de Dezembro de 2000 — Decretos n.º 11/2000 (Parque Nacional do Grupo de Ilhas de Orango), 12/2000 (Parque Natural dos Tarrafes do Rio Cacheu), 13/2000 (Parque Natural das Lagoas de Cufada)",
+   "publisher": "República da Guiné-Bissau (scan hosted by IBAP)",
+   "url": "https://ibapgbissau.org/wp-content/uploads/2022/06/Decreto-criacao-Cacheu-1.pdf",
+   "date": "2000-12-04",
+   "kind": "report",
+   "licence": "Official gazette — cited for reference",
+   "note": "Scanned; contents (sumário) read from page 1."
+  },
+  {
+   "id": "gnb-bo-2000-34",
+   "title": "Boletim Oficial n.º 34, 2.º Suplemento, 23 de Agosto de 2000 — Decreto n.º 6-A/2000 (cria o Parque Nacional Marinho João Vieira e Poilão)",
+   "publisher": "República da Guiné-Bissau (scan hosted by IBAP)",
+   "url": "https://ibapgbissau.org/wp-content/uploads/2022/06/Decreto-PNMJVP-1.pdf",
+   "date": "2000-08-23",
+   "kind": "report",
+   "licence": "Official gazette — cited for reference"
+  },
+  {
+   "id": "gnb-bo-2005-28",
+   "title": "Boletim Oficial n.º 28, Suplemento, 12 de Julho de 2005 — Decreto n.º 8/2005 (cria a Área Marinha Protegida Comunitária das Ilhas de Formosa, Nago e Chediã — Ilhas Urok)",
+   "publisher": "República da Guiné-Bissau (scan hosted by IBAP)",
+   "url": "https://ibapgbissau.org/wp-content/uploads/2022/06/Decreto-Urok-1.pdf",
+   "date": "2005-07-12",
+   "kind": "report",
+   "licence": "Official gazette — cited for reference"
+  },
+  {
+   "id": "gnb-bo-2011-8",
+   "title": "Boletim Oficial n.º 8, Suplemento, 22 de Fevereiro de 2011 — Decreto n.º 14/2011 (cria o Parque Nacional de Cantanhez)",
+   "publisher": "República da Guiné-Bissau (scan hosted by IBAP)",
+   "url": "https://ibapgbissau.org/wp-content/uploads/2022/06/Decreto-Cantanhez-1.pdf",
+   "date": "2011-02-22",
+   "kind": "report",
+   "licence": "Official gazette — cited for reference"
+  },
+  {
+   "id": "gnb-bo-2017-26",
+   "title": "Suplemento ao Boletim Oficial n.º 26, 28 de Junho de 2017 — Decretos n.º 11/2017 to 15/2017 (Complexo Dulombi–Boé–Tchetche)",
+   "publisher": "República da Guiné-Bissau (PDF hosted by IBAP)",
+   "url": "https://ibapgbissau.org/wp-content/uploads/2022/06/Decreto-lei-Criacao-das-AP-do-Comlexo-Dulombi-Boe-Tchetche-Sul.-B.-O.-n.o-26-RESUMIDO%EF%80%A22017-.pdf",
+   "date": "2017-06-28",
+   "kind": "report",
+   "licence": "Official gazette — cited for reference",
+   "note": "Text-searchable; gives classification and area (hectares) for each unit; promulgated 27 June 2017."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parque Nacional Marinho João Vieira e Poilão",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parque Nacional Marinho",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 6-A/2000 of 23 August 2000 (BO n.º 34, 2.º Suplemento)",
+    "sourceIds": [
+     "gnb-bo-2000-34",
+     "gnb-ibap-site"
+    ]
+   },
+   "established": "2000-08-23",
+   "areaKm2": 495,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gnb-bo-2000-34",
+    "gnb-ibap-site",
+    "gnb-cbd-nr6"
+   ],
+   "notes": "49 500 ha (IBAP). Marine national park within the Bolama-Bijagós Biosphere Reserve; Ramsar site (handled separately)."
+  },
+  {
+   "name": "Parque Nacional das Ilhas de Orango",
+   "localName": "Parque Nacional do Grupo de Ilhas de Orango",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 11/2000 (BO n.º 49, 4 December 2000)",
+    "sourceIds": [
+     "gnb-bo-2000-49",
+     "gnb-ibap-site"
+    ]
+   },
+   "established": "2000-12-04",
+   "areaKm2": 1582.35,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gnb-bo-2000-49",
+    "gnb-ibap-site",
+    "gnb-cbd-nr6"
+   ],
+   "notes": "158 235 ha incl. marine sector (IBAP). The decree title reads 'Parque Nacional do Grupo de Ilhas de Orango'; IBAP calls it Decreto-lei n.º 11/2000, the gazette 'Decreto n.º 11/2000'. Within the Bolama-Bijagós Biosphere Reserve."
+  },
+  {
+   "name": "Parque Natural dos Tarrafes do Rio Cacheu",
+   "localName": "Parque Natural dos Mangais do Rio Cacheu",
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 12/2000 (BO n.º 49, 4 December 2000)",
+    "sourceIds": [
+     "gnb-bo-2000-49",
+     "gnb-ibap-site"
+    ]
+   },
+   "established": "2000-12-04",
+   "areaKm2": 886.15,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gnb-bo-2000-49",
+    "gnb-ibap-site",
+    "gnb-cbd-nr6"
+   ],
+   "notes": "88 615 ha, 68% mangrove (IBAP). Designation is 'Parque Natural' (not national park)."
+  },
+  {
+   "name": "Parque Natural das Lagoas de Cufada",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 13/2000 (BO n.º 49, 4 December 2000)",
+    "sourceIds": [
+     "gnb-bo-2000-49",
+     "gnb-ibap-site"
+    ]
+   },
+   "established": "2000-12-04",
+   "areaKm2": 890,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gnb-bo-2000-49",
+    "gnb-ibap-site",
+    "gnb-cbd-nr6"
+   ],
+   "notes": "Estimated 89 000 ha (IBAP). IBAP's page dates it 'Dezembro de 2000 – Decreto 13/2000'. Ramsar site (handled separately)."
+  },
+  {
+   "name": "Área Marinha Protegida Comunitária das Ilhas de Formosa, Nago e Chediã (Ilhas Urok)",
+   "localName": "AMPC Urok",
+   "category": "marine-protected-area",
+   "designationLabel": "Área Marinha Protegida Comunitária",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 8/2005 of 12 July 2005 (BO n.º 28, Suplemento); management plan approved by Decreto n.º 9/2005",
+    "sourceIds": [
+     "gnb-bo-2005-28",
+     "gnb-ibap-site"
+    ]
+   },
+   "established": "2005-07-12",
+   "areaKm2": 545,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gnb-bo-2005-28",
+    "gnb-ibap-site",
+    "gnb-cbd-nr6"
+   ],
+   "notes": "545 km² (147 km² land, 66 km² mangrove, 203 km² intertidal mudflats, 8 km² deep channels) per decree preamble and IBAP. Community-governed MPA within the Bolama-Bijagós Biosphere Reserve."
+  },
+  {
+   "name": "Parque Nacional de Cantanhez",
+   "localName": "Matas de Cantanhez",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 14/2011 (BO n.º 8, Suplemento, 22 February 2011)",
+    "sourceIds": [
+     "gnb-bo-2011-8",
+     "gnb-ibap-site"
+    ]
+   },
+   "established": "2011-02-22",
+   "areaKm2": 1067.67,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gnb-bo-2011-8",
+    "gnb-ibap-site",
+    "gnb-cbd-nr6"
+   ],
+   "notes": "106 767 ha (IBAP). Tombali region."
+  },
+  {
+   "name": "Parque Nacional de Dulombi",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Classified by Decreto n.º 13/2017 (Suplemento ao BO n.º 26, 28 June 2017)",
+    "sourceIds": [
+     "gnb-bo-2017-26",
+     "gnb-ibap-site"
+    ]
+   },
+   "established": "2017-06-28",
+   "areaKm2": 1600.96,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gnb-bo-2017-26",
+    "gnb-ibap-site",
+    "gnb-cbd-nr6"
+   ],
+   "notes": "160 096 ha (decree and IBAP). Part of the Dulombi–Boé–Tchetche (DBT) complex."
+  },
+  {
+   "name": "Parque Nacional de Boé",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Classified by Decreto n.º 15/2017 (Suplemento ao BO n.º 26, 28 June 2017)",
+    "sourceIds": [
+     "gnb-bo-2017-26",
+     "gnb-ibap-site"
+    ]
+   },
+   "established": "2017-06-28",
+   "areaKm2": 1053.73,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gnb-bo-2017-26",
+    "gnb-ibap-site",
+    "gnb-cbd-nr6"
+   ],
+   "notes": "105 373 ha (decree and IBAP). Gabú region, upper Corubal basin."
+  },
+  {
+   "name": "Corredor Ecológico de Tchetche",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Corredor Ecológico",
+   "legalStatus": {
+    "text": "Classified by Decreto n.º 11/2017 (Suplemento ao BO n.º 26, 28 June 2017)",
+    "sourceIds": [
+     "gnb-bo-2017-26",
+     "gnb-ibap-site"
+    ]
+   },
+   "established": "2017-06-28",
+   "areaKm2": 499.22,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gnb-bo-2017-26",
+    "gnb-ibap-site"
+   ],
+   "notes": "49 922 ha. Legally classified ecological corridor linking Boé and Dulombi national parks; tutelage of IBAP."
+  },
+  {
+   "name": "Corredor Ecológico de Salifo-Xitole",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Corredor Ecológico",
+   "legalStatus": {
+    "text": "Classified by Decreto n.º 12/2017 (Suplemento ao BO n.º 26, 28 June 2017)",
+    "sourceIds": [
+     "gnb-bo-2017-26"
+    ]
+   },
+   "established": "2017-06-28",
+   "areaKm2": 361.62,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gnb-bo-2017-26",
+    "gnb-cbd-nr6"
+   ],
+   "notes": "36 162 ha. NR6 also refers to a 'corredor salifo-fifiol' extension mission."
+  },
+  {
+   "name": "Corredor Ecológico de Cuntabane-Quebo",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Corredor Ecológico",
+   "legalStatus": {
+    "text": "Classified by Decreto n.º 14/2017 (Suplemento ao BO n.º 26, 28 June 2017)",
+    "sourceIds": [
+     "gnb-bo-2017-26"
+    ]
+   },
+   "established": "2017-06-28",
+   "areaKm2": 550.03,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gnb-bo-2017-26"
+   ],
+   "notes": "55 003 ha."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "community forests (florestas comunitárias)",
+   "approxCount": 104,
+   "reason": "NR6 gives only a count (104, ~26,050 ha); no official list found.",
+   "sourceIds": [
+    "gnb-cbd-nr6"
+   ]
+  }
+ ],
+ "gaps": [
+  "Guinea-Bissau had not submitted a 7th CBD national report in the CBD index at time of research; the 2019 NR6 is the latest official summary.",
+  "The Reserva da Biosfera do Arquipélago Bolama-Bijagós (listed by IBAP among its areas) is a UNESCO designation handled separately and is not recorded here.",
+  "Areas are as stated by IBAP pages; decree texts for the 2000/2005/2011 areas are scans and their annex areas were not re-read in full.",
+  "The 2019 NR6 count of '8 protected areas' versus 8 park/MPA units listed here is consistent, but any area created after 2019 was not identified.",
+  "Wikidata QIDs not assigned (Wikidata services were rate-limiting); coordinates left null."
+ ]
+}

@@ -1,0 +1,1238 @@
+{
+ "country": "UGA",
+ "countryName": "Uganda",
+ "officialInventory": {
+  "summary": "Uganda Wildlife Authority manages the wildlife conservation areas and states their counts (10 national parks, 12 wildlife reserves, 5 community wildlife management areas, 13 wildlife sanctuaries) but its website names only the national parks and 11 wildlife reserves. The legal declarations are statutory instruments under the Uganda Wildlife Act (most from 2003, SI 41–64 of 2003), indexed on ULII. The National Forestry Authority manages 506 central forest reserves (no list published on its website); local forest reserves are managed by district governments.",
+  "sourceIds": [
+   "uga-uwa-home",
+   "uga-uwa-parks-reserves",
+   "uga-nfa-home"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "national parks",
+    "count": 10,
+    "asOf": null,
+    "sourceId": "uga-uwa-home",
+    "quote": "Uganda Wildlife Authority, (UWA) manages 10 National Parks"
+   },
+   {
+    "category": "wildlife reserves",
+    "count": 12,
+    "asOf": null,
+    "sourceId": "uga-uwa-home",
+    "quote": "12 Wildlife Reserves"
+   },
+   {
+    "category": "community wildlife management areas",
+    "count": 5,
+    "asOf": null,
+    "sourceId": "uga-uwa-home",
+    "quote": "5 Community Wildlife Management Areas"
+   },
+   {
+    "category": "wildlife sanctuaries",
+    "count": 13,
+    "asOf": null,
+    "sourceId": "uga-uwa-home",
+    "quote": "and 13 Wildlife Sanctuaries"
+   },
+   {
+    "category": "central forest reserves",
+    "count": 506,
+    "asOf": null,
+    "sourceId": "uga-nfa-home",
+    "quote": "mandated to sustainably manage the country's 506 Central Forest Reserves (CFRs)"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "uga-uwa-home",
+   "title": "Uganda Wildlife Authority — home page",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)",
+   "note": "States: 'UWA manages 10 National Parks; 12 Wildlife Reserves; 5 Community Wildlife Management Areas; and 13 Wildlife Sanctuaries' and names the ten national parks."
+  },
+  {
+   "id": "uga-uwa-parks-reserves",
+   "title": "UWA — Parks & Reserves (navigation lists 10 national parks and 11 wildlife reserves)",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/parks-reserves/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-nfa-home",
+   "title": "National Forestry Authority — home page",
+   "publisher": "National Forestry Authority (NFA), Uganda",
+   "url": "https://www.nfa.go.ug/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© National Forestry Authority (NFA), Uganda — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-nfa-catalogue",
+   "title": "NFA — CFR Catalogue (introduction)",
+   "publisher": "National Forestry Authority (NFA), Uganda",
+   "url": "https://nfa.go.ug/central-forest-reserves-catalogue/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© National Forestry Authority (NFA), Uganda — cited for reference (facts and short quotes)",
+   "note": "The page describes CFR functions and states total hectares but does not list individual reserves."
+  },
+  {
+   "id": "uga-uwa-queen-elizabeth-national-park",
+   "title": "UWA — Queen Elizabeth National Park",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/national-parks/queen-elizabeth-national-park/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-41",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Queen Elizabeth National Park) Instrument, 2003 (Statutory Instrument 41 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/41/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-mount-elgon-national-park",
+   "title": "UWA — Mount Elgon National Park",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/national-parks/mount-elgon-national-park/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-42",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Mount Elgon National Park) Instrument, 2003 (Statutory Instrument 42 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/42/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-bwindi-impenetrable-national-park",
+   "title": "UWA — Bwindi Impenetrable National Park",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/national-parks/bwindi-impenetrable-national-park/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-43",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Bwindi Impenetrable National Park) Instrument, 2003 (Statutory Instrument 43 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/43/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-lake-mburo",
+   "title": "UWA — Lake Mburo National Park",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/national-parks/lake-mburo/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-44",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Lake Mburo National Park) Instrument, 2003 (Statutory Instrument 44 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/44/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-mgahinga-gorilla-national-park",
+   "title": "UWA — Mgahinga Gorilla National Park",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/national-parks/mgahinga-gorilla-national-park/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-45",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Mgahinga Gorilla National Park) Instrument, 2003 (Statutory Instrument 45 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/45/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-kibale-national-park",
+   "title": "UWA — Kibale National Park",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/national-parks/kibale-national-park/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-46",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kibale National Park) Instrument, 2003 (Statutory Instrument 46 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/46/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-kidepo-valley-national-park",
+   "title": "UWA — Kidepo Valley National Park",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/national-parks/kidepo-valley-national-park/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-uwa-murchison-falls-national-park",
+   "title": "UWA — Murchison Falls National Park",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/national-parks/murchison-falls-national-park/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-uwa-rwenzori-mountains",
+   "title": "UWA — Rwenzori Mountains National Park",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/national-parks/rwenzori-mountains/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-uwa-semuliki-national-park",
+   "title": "UWA — Semuliki National Park",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/national-parks/semuliki-national-park/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-uwa-wr-toro-semliki",
+   "title": "UWA — Toro-Semliki Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/toro-semliki/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-53",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Toro-Semliki Wildlife Reserve) Instrument, 2003 (Statutory Instrument 53 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/53/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-wr-katonga",
+   "title": "UWA — Katonga Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/katonga/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-uwa-wr-ajai",
+   "title": "UWA — Ajai Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/ajai/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-52",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Ajais Wildlife Reserve) Instrument, 2003 (Statutory Instrument 52 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/52/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-wr-bugungu",
+   "title": "UWA — Bugungu Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/bugungu/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-50",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Bugungu Wildlife Reserve) Instrument, 2003 (Statutory Instrument 50 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/50/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-wr-karuma",
+   "title": "UWA — Karuma Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/karuma/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-uwa-wr-kigezi",
+   "title": "UWA — Kigezi Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/kigezi/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-uwa-wr-kyambura",
+   "title": "UWA — Kyambura Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/kyambura/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-51",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kyambura Wildlife Reserve) Instrument, 2003 (Statutory Instrument 51 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/51/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-wr-pian-upe",
+   "title": "UWA — Pian Upe Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/pian-upe/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-49",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Pian Upe Wildlife Reserve) Instrument, 2003 (Statutory Instrument 49 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/49/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-wr-matheniko",
+   "title": "UWA — Matheniko Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/matheniko/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-48",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Matheniko Wildlife Reserve) Instrument, 2003 (Statutory Instrument 48 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/48/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-wr-bokora-wildlife-reserve",
+   "title": "UWA — Bokora Corridor Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/bokora-wildlife-reserve/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-47",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Bokora Corridor Wildlife Reserve) Instrument, 2003 (Statutory Instrument 47 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/47/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-uwa-wr-kabwoya",
+   "title": "UWA — Kabwoya Wildlife Reserve",
+   "publisher": "Uganda Wildlife Authority (UWA)",
+   "url": "https://ugandawildlife.org/wildlifereserves/kabwoya/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Uganda Wildlife Authority (UWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "uga-ulii-si-2003-54",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kabwoya Wildlife Reserve) Instrument, 2003 (Statutory Instrument 54 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/54/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-ulii-si-2011-49",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (East Madi Wildlife Reserve) Instrument, 2011 (Statutory Instrument 49 of 2011)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2011/49/eng@2011-09-23",
+   "date": "2011-09-23",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-ulii-si-2003-55",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Karenga Community Wildlife Area) Instrument, 2003 (Statutory Instrument 55 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/55/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-ulii-si-2003-56",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Amudat Community Wildlife Area) Instrument, 2003 (Statutory Instrument 56 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/56/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-ulii-si-2003-57",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Rwengara Community Wildlife Area) Instrument, 2003 (Statutory Instrument 57 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/57/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-ulii-si-2003-58",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kaiso-Tonya Community Wildlife Area) Instrument, 2003 (Statutory Instrument 58 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/58/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-ulii-si-2003-59",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kashaka Wildlife Sanctuary) Instrument, 2003 (Statutory Instrument 59 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/59/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-ulii-si-2003-61",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kahendero Wildlife Sanctuary) Instrument, 2003 (Statutory Instrument 61 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/61/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-ulii-si-2003-62",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kayanja Wildlife Sanctuary) Instrument, 2003 (Statutory Instrument 62 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/62/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-ulii-si-2003-63",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Rwenshama Wildlife Sanctuary) Instrument, 2003 (Statutory Instrument 63 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/63/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "uga-ulii-si-2003-64",
+   "title": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Ntoroko-Kanara Wildlife Sanctuary) Instrument, 2003 (Statutory Instrument 64 of 2003)",
+   "publisher": "ULII (Uganda Legal Information Institute)",
+   "url": "https://ulii.org/akn/ug/act/si/2003/64/eng@2003-09-05",
+   "date": "2003-09-05",
+   "kind": "dataset",
+   "licence": "© ULII (Uganda Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, SI number and date taken from the ULII document record returned by the ULII search API (https://ulii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Queen Elizabeth National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Queen Elizabeth National Park) Instrument, 2003 (SI 41 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-41"
+    ]
+   },
+   "established": "1952",
+   "areaKm2": 1978,
+   "coordinates": null,
+   "wikidataQid": "Q530084",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-queen-elizabeth-national-park",
+    "uga-ulii-si-2003-41"
+   ],
+   "notes": "UWA: 'Originally founded as Kazinga National Park in 1952, it was renamed in 1954'. Area is the UWA page headline figure (1,978 km²)."
+  },
+  {
+   "name": "Mount Elgon National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Mount Elgon National Park) Instrument, 2003 (SI 42 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-42"
+    ]
+   },
+   "established": null,
+   "areaKm2": 1121,
+   "coordinates": null,
+   "wikidataQid": "Q1273335",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-mount-elgon-national-park",
+    "uga-ulii-si-2003-42"
+   ],
+   "notes": "Area is the UWA page headline figure (1,121 km²)."
+  },
+  {
+   "name": "Bwindi Impenetrable National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Bwindi Impenetrable National Park) Instrument, 2003 (SI 43 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-43"
+    ]
+   },
+   "established": null,
+   "areaKm2": 321,
+   "coordinates": null,
+   "wikidataQid": "Q500397",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-bwindi-impenetrable-national-park",
+    "uga-ulii-si-2003-43"
+   ],
+   "notes": "Area is the UWA page headline figure (321 km²). Also a UNESCO World Heritage site."
+  },
+  {
+   "name": "Lake Mburo National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Lake Mburo National Park) Instrument, 2003 (SI 44 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-44"
+    ]
+   },
+   "established": null,
+   "areaKm2": 370,
+   "coordinates": null,
+   "wikidataQid": "Q591283",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-lake-mburo",
+    "uga-ulii-si-2003-44"
+   ],
+   "notes": "Area is the UWA page headline figure (370 km²)."
+  },
+  {
+   "name": "Mgahinga Gorilla National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Mgahinga Gorilla National Park) Instrument, 2003 (SI 45 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-45"
+    ]
+   },
+   "established": "1991",
+   "areaKm2": 33.7,
+   "coordinates": null,
+   "wikidataQid": "Q636655",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-mgahinga-gorilla-national-park",
+    "uga-ulii-si-2003-45"
+   ],
+   "notes": "UWA: 'declared the area a game sanctuary in 1930; it was gazetted as a National Park in 1991'; 'Size: 33.7km2'."
+  },
+  {
+   "name": "Kibale National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kibale National Park) Instrument, 2003 (SI 46 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-46"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1740785",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-kibale-national-park",
+    "uga-ulii-si-2003-46"
+   ],
+   "notes": "UWA page headline shows '321 km2', identical to Bwindi's figure and apparently a template error, so no area is recorded."
+  },
+  {
+   "name": "Kidepo Valley National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": "1962",
+   "areaKm2": 1442,
+   "coordinates": null,
+   "wikidataQid": "Q1740874",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-kidepo-valley-national-park"
+   ],
+   "notes": "UWA: 'First gazetted as a national park in 1962'; area is the UWA headline figure (1,442 km²). 2003-era declaration instrument not found on ULII."
+  },
+  {
+   "name": "Murchison Falls National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": "1952",
+   "areaKm2": 3840,
+   "coordinates": null,
+   "wikidataQid": "Q1893242",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-murchison-falls-national-park"
+   ],
+   "notes": "UWA: 'Originally gazetted as a game reserve in 1926, the park was officially designated as one of Uganda's first national parks in 1952'; area is the UWA headline figure (3,840 km²); the UWA Karuma page gives 3,877 km² for the park."
+  },
+  {
+   "name": "Rwenzori Mountains National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": "1991",
+   "areaKm2": 996,
+   "coordinates": null,
+   "wikidataQid": "Q838928",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-rwenzori-mountains"
+   ],
+   "notes": "UWA: 'The park was gazetted in 1991, declared a UNESCO World Heritage Site in 1994, and later designated a Ramsar Wetland ... in 2008'."
+  },
+  {
+   "name": "Semuliki National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": "1993",
+   "areaKm2": 220,
+   "coordinates": null,
+   "wikidataQid": "Q1429741",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-semuliki-national-park"
+   ],
+   "notes": "UWA: 'established as a forest reserve in 1932 and upgraded to national park status in 1993'; area 220 km² (UWA headline)."
+  },
+  {
+   "name": "Toro-Semliki Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Toro-Semliki Wildlife Reserve) Instrument, 2003 (SI 53 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-53"
+    ]
+   },
+   "established": "1926",
+   "areaKm2": 542,
+   "coordinates": null,
+   "wikidataQid": "Q16901899",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-toro-semliki",
+    "uga-ulii-si-2003-53"
+   ],
+   "notes": "UWA: 'established as a game reserve in 1926'; 'It covers an area of 542 km2'. UWA notes the Ntoroko community area (~4 km²) was excised and gazetted as a wildlife sanctuary."
+  },
+  {
+   "name": "Katonga Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": null,
+   "established": "1964",
+   "areaKm2": 207,
+   "coordinates": null,
+   "wikidataQid": "Q6377791",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-katonga"
+   ],
+   "notes": "UWA: 'with an area of 207 square kilometers was gazetted in 1964 as a game reserve ... became a Wildlife Reserve in 1996'. 2003-era declaration instrument not found on ULII."
+  },
+  {
+   "name": "Ajai Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Ajais Wildlife Reserve) Instrument, 2003 (SI 52 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-52"
+    ]
+   },
+   "established": "1965",
+   "areaKm2": 148,
+   "coordinates": null,
+   "wikidataQid": "Q14201706",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-ajai",
+    "uga-ulii-si-2003-52"
+   ],
+   "notes": "UWA: 'Established in 1962 as the White Rhino Sanctuary. Established as Ajai Game Reserve in 1965'; 'Area 148km2 (15,800ha)' (the two figures are inconsistent on the UWA page). The 2003 SI title spells it 'Ajais'."
+  },
+  {
+   "name": "Bugungu Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Bugungu Wildlife Reserve) Instrument, 2003 (SI 50 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-50"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q119142245",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-bugungu",
+    "uga-ulii-si-2003-50"
+   ],
+   "notes": "UWA: '1968 originally established as a Controlled Hunting Area in 1963'. UWA Karuma page gives Bugungu as 473 km² (not used: secondary mention)."
+  },
+  {
+   "name": "Karuma Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": null,
+   "established": "1964",
+   "areaKm2": 675,
+   "coordinates": null,
+   "wikidataQid": "Q119294640",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-karuma"
+   ],
+   "notes": "UWA: '1964 Previously a Controlled Hunting Area 1962'; 'Area 675km2 (82,000ha)' (inconsistent figures on the UWA page). 2003-era declaration instrument not found on ULII."
+  },
+  {
+   "name": "Kigezi Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": null,
+   "established": "1952",
+   "areaKm2": 265,
+   "coordinates": null,
+   "wikidataQid": "Q6405935",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-kigezi"
+   ],
+   "notes": "UWA: 'Date Established 1952'; 'Area 265km2 (33,000ha)'. 2003-era declaration instrument not found on ULII."
+  },
+  {
+   "name": "Kyambura Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kyambura Wildlife Reserve) Instrument, 2003 (SI 51 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-51"
+    ]
+   },
+   "established": "1965",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q6450702",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-kyambura",
+    "uga-ulii-si-2003-51"
+   ],
+   "notes": "UWA: 'Established 1965'."
+  },
+  {
+   "name": "Pian Upe Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Pian Upe Wildlife Reserve) Instrument, 2003 (SI 49 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-49"
+    ]
+   },
+   "established": "1964",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q7190050",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-pian-upe",
+    "uga-ulii-si-2003-49"
+   ],
+   "notes": "UWA: 'Established 1964. Previously declared as Debasien Animal Sanctuary'."
+  },
+  {
+   "name": "Matheniko Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Matheniko Wildlife Reserve) Instrument, 2003 (SI 48 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-48"
+    ]
+   },
+   "established": "1964",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q6786914",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-matheniko",
+    "uga-ulii-si-2003-48"
+   ],
+   "notes": "UWA: 'Established 1964.'"
+  },
+  {
+   "name": "Bokora Corridor Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Bokora Corridor Wildlife Reserve) Instrument, 2003 (SI 47 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-47"
+    ]
+   },
+   "established": "1964",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q15202809",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-bokora-wildlife-reserve",
+    "uga-ulii-si-2003-47"
+   ],
+   "notes": "UWA page title 'Bokora'; 'Gazetted in 1964 to ensure freedom of movement for the game during migration between the Matheniko plains and Pian-Upe Game Reserve'."
+  },
+  {
+   "name": "Kabwoya Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kabwoya Wildlife Reserve) Instrument, 2003 (SI 54 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-54"
+    ]
+   },
+   "established": "2002",
+   "areaKm2": 87,
+   "coordinates": null,
+   "wikidataQid": "Q6344551",
+   "marine": false,
+   "sourceIds": [
+    "uga-uwa-home",
+    "uga-uwa-parks-reserves",
+    "uga-uwa-wr-kabwoya",
+    "uga-ulii-si-2003-54"
+   ],
+   "notes": "UWA: 'This area was gazetted as a reserve in 2002'; 'Kabwoya Wildlife Reserve (KWR, area 87 sq. km)'. Declaration instrument is dated 2003 on ULII."
+  },
+  {
+   "name": "East Madi Wildlife Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Reserve",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (East Madi Wildlife Reserve) Instrument, 2011 (SI 49 of 2011)",
+    "sourceIds": [
+     "uga-ulii-si-2011-49"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q119295750",
+   "marine": false,
+   "sourceIds": [
+    "uga-ulii-si-2011-49",
+    "uga-uwa-home"
+   ],
+   "notes": "Not in the UWA website navigation (which lists 11 reserves while the home page states 12); likely the 12th wildlife reserve, but this inference was not confirmed by UWA."
+  },
+  {
+   "name": "Karenga Community Wildlife Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Wildlife Area",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Karenga Community Wildlife Area) Instrument, 2003 (SI 55 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-55"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "uga-ulii-si-2003-55",
+    "uga-uwa-home"
+   ],
+   "notes": "Declared under the Uganda Wildlife Act (2003 instrument, ULII). "
+  },
+  {
+   "name": "Amudat Community Wildlife Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Wildlife Area",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Amudat Community Wildlife Area) Instrument, 2003 (SI 56 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-56"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "uga-ulii-si-2003-56",
+    "uga-uwa-home"
+   ],
+   "notes": "Declared under the Uganda Wildlife Act (2003 instrument, ULII). The SI page snippet also shows the OCR variant 'Amudal'."
+  },
+  {
+   "name": "Rwengara Community Wildlife Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Wildlife Area",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Rwengara Community Wildlife Area) Instrument, 2003 (SI 57 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-57"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "uga-ulii-si-2003-57",
+    "uga-uwa-home"
+   ],
+   "notes": "Declared under the Uganda Wildlife Act (2003 instrument, ULII). "
+  },
+  {
+   "name": "Kaiso-Tonya Community Wildlife Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Wildlife Area",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kaiso-Tonya Community Wildlife Area) Instrument, 2003 (SI 58 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-58"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 107,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "uga-ulii-si-2003-58",
+    "uga-uwa-home",
+    "uga-uwa-wr-kabwoya"
+   ],
+   "notes": "Declared under the Uganda Wildlife Act (2003 instrument, ULII). UWA Kabwoya page: 'the adjacent Kaiso-Tonya Community Wildlife Area (KTCWA, area 107 sq. km)'."
+  },
+  {
+   "name": "Kashaka Wildlife Sanctuary",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Sanctuary",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kashaka Wildlife Sanctuary) Instrument, 2003 (SI 59 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-59"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "uga-ulii-si-2003-59",
+    "uga-uwa-home"
+   ],
+   "notes": "Wildlife sanctuary declared in 2003 (ULII title)."
+  },
+  {
+   "name": "Kahendero Wildlife Sanctuary",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Sanctuary",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kahendero Wildlife Sanctuary) Instrument, 2003 (SI 61 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-61"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "uga-ulii-si-2003-61",
+    "uga-uwa-home"
+   ],
+   "notes": "Wildlife sanctuary declared in 2003 (ULII title)."
+  },
+  {
+   "name": "Kayanja Wildlife Sanctuary",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Sanctuary",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Kayanja Wildlife Sanctuary) Instrument, 2003 (SI 62 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-62"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "uga-ulii-si-2003-62",
+    "uga-uwa-home"
+   ],
+   "notes": "Wildlife sanctuary declared in 2003 (ULII title)."
+  },
+  {
+   "name": "Rwenshama Wildlife Sanctuary",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Sanctuary",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Rwenshama Wildlife Sanctuary) Instrument, 2003 (SI 63 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-63"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "uga-ulii-si-2003-63",
+    "uga-uwa-home"
+   ],
+   "notes": "Wildlife sanctuary declared in 2003 (ULII title)."
+  },
+  {
+   "name": "Ntoroko-Kanara Wildlife Sanctuary",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Sanctuary",
+   "legalStatus": {
+    "text": "Uganda Wildlife (Declaration of Wildlife Conservation Area) (Ntoroko-Kanara Wildlife Sanctuary) Instrument, 2003 (SI 64 of 2003)",
+    "sourceIds": [
+     "uga-ulii-si-2003-64"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "uga-ulii-si-2003-64",
+    "uga-uwa-home"
+   ],
+   "notes": "Wildlife sanctuary declared in 2003 (ULII title). Probably the area excised from Toro-Semliki WR described by UWA ('gazetted as a Wildlife Sanctuary'), not confirmed."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "central forest reserves",
+   "approxCount": 506,
+   "reason": "NFA states 506 CFRs (1,265,741 ha) but its CFR catalogue page does not list them; the declaring orders (Forest (Declaration of Central Forest Reserves) Orders) are on ULII but full text is blocked to automated fetch.",
+   "sourceIds": [
+    "uga-nfa-home",
+    "uga-nfa-catalogue"
+   ]
+  },
+  {
+   "category": "local forest reserves",
+   "approxCount": null,
+   "reason": "Managed by District Local Governments (NFA catalogue page); no list found.",
+   "sourceIds": [
+    "uga-nfa-catalogue"
+   ]
+  },
+  {
+   "category": "wildlife sanctuaries not found in legal records",
+   "approxCount": 8,
+   "reason": "UWA states 13 sanctuaries; only 5 declaration instruments (2003) were found on ULII and UWA's sanctuary page shows only Ziwa Rhino Sanctuary (privately run; legal status not verified).",
+   "sourceIds": [
+    "uga-uwa-home"
+   ]
+  },
+  {
+   "category": "community wildlife areas not found in legal records",
+   "approxCount": 1,
+   "reason": "UWA states 5; only 4 declaration instruments (2003) were found on ULII.",
+   "sourceIds": [
+    "uga-uwa-home"
+   ]
+  }
+ ],
+ "gaps": [
+  "ULII document pages are behind a Cloudflare challenge; only instrument titles, numbers and dates from the ULII search API were used. SI 60 of 2003 (gap in the series 41–64) could not be identified.",
+  "No 2003-era declaration instruments were found for Kidepo Valley, Murchison Falls, Rwenzori Mountains and Semuliki national parks or for Katonga, Karuma and Kigezi wildlife reserves; these may have been declared under earlier legislation (e.g. National Parks Act; National Parks (Declaration) (Amendment) Order, SI 76 of 1993).",
+  "UWA page areas are headline figures; the Kibale figure (321 km², identical to Bwindi) appears erroneous and was omitted; Ajai, Karuma and Kigezi pages give inconsistent km²/ha pairs (km² value recorded).",
+  "Whether East Madi is UWA's 12th wildlife reserve is inferred, not confirmed.",
+  "Ramsar sites and World Heritage sites (Bwindi, Rwenzori) are noted only where they coincide with a park.",
+  "No official coordinates were found for any area.",
+  "Wikidata QIDs were matched (search + entity check of label, P17 country and P31 type) only for national parks and selected major reserves; the Wikidata API was heavily rate-limited (HTTP 429) during this run, so other areas were not attempted or the lookup failed. A null QID does not mean no item exists."
+ ]
+}

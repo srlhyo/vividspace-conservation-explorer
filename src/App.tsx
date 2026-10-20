@@ -130,6 +130,7 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
                 name={selectedCountry.name}
                 count={scope.length}
                 breakdown={kindBreakdown(countByKind(scope))}
+                inventory={selectedCountry.inventory}
                 onClose={() => selectCountry(null)}
               />
             )}
@@ -148,7 +149,7 @@ function Explorer({ catalogue, boundaries }: { catalogue: Catalogue; boundaries:
               <MapButton onClick={() => requestView({ view: 'world' })} title="Zoom out to a world-scale view">
                 Explore world
               </MapButton>
-              <MapButton onClick={() => requestView({ view: 'region' })} title="Return to the WASOP regional overview">
+              <MapButton onClick={() => requestView({ view: 'region' })} title="Return to the overview of all catalogued countries">
                 Reset view
               </MapButton>
             </div>

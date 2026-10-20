@@ -1,0 +1,585 @@
+{
+ "country": "AGO",
+ "countryName": "Angola",
+ "officialInventory": {
+  "summary": "The national conservation-area network is managed by INBAC (Instituto Nacional da Biodiversidade e Áreas de Conservação, under the ministry responsible for the environment, currently the Ministério da Cultura, Turismo e Ambiente per INBAC park pages). INBAC's website lists 14 areas — 9 national parks, 1 regional natural park (Chimalavera) and 4 reserves — with creating instruments and areas on each page; this matches the counts in the 2019-2025 NBSAP and INBAC's November 2023 status report (156,909.9 km2, 12.58% of the territory). No machine-readable register exists. The legal framework is Lei 8/20 (Áreas de Conservação Ambiental), amended by Lei 12/21. Four further areas, including the first marine conservation area (Baía dos Tigres), are being created but no creating instrument was found.",
+  "sourceIds": [
+   "ago-inbac-parques",
+   "ago-inbac-reservas",
+   "ago-inbac-situacao-2023",
+   "ago-nbsap-2019",
+   "ago-cbd-nr5",
+   "ago-lei-12-21"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "conservation areas (9 national parks, 1 natural park, 4 reserves)",
+    "count": 14,
+    "asOf": "2020",
+    "sourceId": "ago-nbsap-2019",
+    "quote": "To date, Angola has 14 Conservation Areas: nine National Parks, one Natural Park and four Reserves."
+   },
+   {
+    "category": "national parks (2012; six until 2010)",
+    "count": 9,
+    "asOf": "2012",
+    "sourceId": "ago-cbd-nr5",
+    "quote": "Until 2010 - Six (6) National Parks; - A regional park; - Six (6) reserves ... Data in 2012 - Nine (9) National Parks, - A natural park; - Four (4) Reserves"
+   },
+   {
+    "category": "national parks",
+    "count": 9,
+    "asOf": "2023-11-06",
+    "sourceId": "ago-inbac-situacao-2023",
+    "quote": "156.909,9 km2 representadas em 9 Parques Nacionais, 1 parque Natural regional e 4 Reservas"
+   },
+   {
+    "category": "reserves",
+    "count": 4,
+    "asOf": "2023-11-06",
+    "sourceId": "ago-inbac-situacao-2023",
+    "quote": "9 Parques Nacionais, 1 parque Natural regional e 4 Reservas"
+   },
+   {
+    "category": "new conservation areas being created",
+    "count": 4,
+    "asOf": "2023-11-06",
+    "sourceId": "ago-inbac-situacao-2023",
+    "quote": "Angola, está a criar 4 novas áreas de conservação ambiental de âmbito nacional"
+   },
+   {
+    "category": "marine conservation areas",
+    "count": 0,
+    "asOf": "2023-03-30",
+    "sourceId": "ago-dp-88-23",
+    "quote": "Actualmente Angola não possui áreas de conservação marinhas."
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "ago-inbac-parques",
+   "title": "Parques Nacionais de Angola (list and park pages /Site/areasConservacao/parque/<id>)",
+   "publisher": "Instituto Nacional da Biodiversidade e Áreas de Conservação (INBAC)",
+   "url": "https://inbac.gov.ao/Site/areasConservacao/parque",
+   "date": "2026 (site footer ©2026)",
+   "kind": "webpage",
+   "licence": "© INBAC / Ministério da Cultura, Turismo e Ambiente (Angola) — cited for reference (facts and short quotes)",
+   "note": "Lists 10 areas: 9 national parks + Parque Regional da Chimalavera. Park pages: Iona /7, Chimalavera /9, Maiombe /10, Mavinga /13, Bicuar /14, Mupa /15, Cameia /16, Quiçama /18, Luengue-Luiana /19, Cangandala /20."
+  },
+  {
+   "id": "ago-inbac-reservas",
+   "title": "Reservas (list)",
+   "publisher": "INBAC",
+   "url": "https://inbac.gov.ao/Site/areasConservacao/reservas",
+   "date": "2026 (site footer)",
+   "kind": "webpage",
+   "licence": "© INBAC / Ministério da Cultura, Turismo e Ambiente (Angola) — cited for reference (facts and short quotes)",
+   "note": "Lists 4 reserves: Reserva Parcial do Búfalo, Reserva Integral do Luando, Reserva Parcial do Namibe, Reserva do Ilhéu dos Pássaros."
+  },
+  {
+   "id": "ago-inbac-situacao-2023",
+   "title": "Situação actual da biodiversidade em Angola",
+   "publisher": "Ministério do Ambiente / Instituto Nacional da Biodiversidade e Conservação (INBC)",
+   "url": "http://inbac.gov.ao/assets_admin/images/documento/038120a4e2e93e6af96d110264eba860.pdf",
+   "date": "2023-11-06",
+   "kind": "report",
+   "licence": "© INBAC / Ministério da Cultura, Turismo e Ambiente (Angola) — cited for reference (facts and short quotes)",
+   "note": "Signed 'Luanda aos 06 de Novembro de 2023'. States 9 national parks, 1 regional natural park and 4 reserves (156,909.9 km2, 12.58%) and 4 new conservation areas being created."
+  },
+  {
+   "id": "ago-inbac-acs",
+   "title": "2. Áreas de Conservação Ambiental (status of each conservation area)",
+   "publisher": "INBAC",
+   "url": "http://inbac.gov.ao/assets_admin/images/documento/42dbb1299e216f78158bc9a966cc6198.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© INBAC / Ministério da Cultura, Turismo e Ambiente (Angola) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "ago-lei-38-11",
+   "title": "Lei n.º 38/11 de 29 de Dezembro — Cria os Parques Nacionais de Luengue-Luiana, de Mavinga e do Mayombe",
+   "publisher": "Assembleia Nacional (Diário da República I Série n.º 251, 29/12/2011, p. 6340); text via lex.ao",
+   "url": "https://lex.ao/docs/assembleia-nacional/2011/lei-n-o-38-11-de-29-de-dezembro/",
+   "date": "2011-12-29",
+   "kind": "webpage",
+   "licence": "Angolan legislation (official text) via lex.ao — cited for reference"
+  },
+  {
+   "id": "ago-nbsap-2019",
+   "title": "National Biodiversity Strategy and Action Plan 2019-2025 (Presidential Decree 26/20 of 6 February)",
+   "publisher": "Ministry of Environment, Angola (submitted to CBD)",
+   "url": "https://www.cbd.int/doc/world/ao/ao-nbsap-v2-en.pdf",
+   "date": "2020-02-06",
+   "kind": "report",
+   "licence": "© Government of Angola — cited for reference (facts and short quotes)",
+   "note": "Portuguese version: https://www.cbd.int/doc/world/ao/ao-nbsap-v2-pt.pdf"
+  },
+  {
+   "id": "ago-cbd-nr5",
+   "title": "5th National Report on the Implementation of the CBD in Angola, 2007-2012",
+   "publisher": "Ministério do Ambiente — Direcção Nacional da Biodiversidade",
+   "url": "https://www.cbd.int/doc/world/ao/ao-nr-05-en.pdf",
+   "date": "2014",
+   "kind": "report",
+   "licence": "© Government of Angola — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "ago-dp-88-23",
+   "title": "Decreto Presidencial n.º 88/23 de 30 de Março (Plano de Ordenamento do Espaço Marinho)",
+   "publisher": "Presidente da República (text via lex.ao)",
+   "url": "https://lex.ao/docs/presidente-da-republica/2023/decreto-presidencial-n-o-88-23-de-30-de-marco/",
+   "date": "2023-03-30",
+   "kind": "webpage",
+   "licence": "Angolan legislation via lex.ao — cited for reference"
+  },
+  {
+   "id": "ago-cipra-2025",
+   "title": "Angola vai ter primeira área de conservação marinha e reserva da biosfera",
+   "publisher": "CIPRA (Centro de Imprensa da Presidência da República)",
+   "url": "https://www.cipra.gov.ao/noticias/2218/governo/a-partir-deste-ano/angola-vai-ter-primeira-area-de-conservacao-marinha-e-reserva-da-biosfera",
+   "date": "2025-01-30",
+   "kind": "article",
+   "licence": "© CIPRA — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "ago-forbes-2026",
+   "title": "Angola emite 2.952 licenças ambientais entre 2022 e 2026",
+   "publisher": "Forbes África Lusófona",
+   "url": "https://forbesafricalusofona.com/angola-emite-2-952-licencas-ambientais-entre-2022-e-2026/",
+   "date": "2026-10-19",
+   "kind": "article",
+   "licence": "© Forbes África Lusófona — cited for reference (facts and short quotes)",
+   "note": "Reports the 2026 State of the Nation speech: 'o avanço para a criação da primeira Área de Conservação Marinha na Baía dos Tigres'. News source, used only for status."
+  },
+  {
+   "id": "ago-lei-12-21",
+   "title": "Lei n.º 12/21 de 7 de Maio — altera a Lei n.º 8/20, de 16 de Abril (Lei das Áreas de Conservação Ambiental)",
+   "publisher": "Assembleia Nacional (Diário da República I Série n.º 82; copy hosted by INBAC)",
+   "url": "https://inbac.gov.ao/assets_admin/images/documento/b66e0a47fb6628053b0aab549ee11ef5.pdf",
+   "date": "2021-05-07",
+   "kind": "report",
+   "licence": "Angolan legislation (official text) — cited for reference",
+   "note": "Lei 8/20 (scanned copy at https://inbac.gov.ao/assets_admin/images/documento/30d3780d87e3f08e4b7482a9939dece3.pdf) sets categories I-V (Reservas Naturais, Parques Nacionais, Monumentos Naturais, Sítios para Gestão de Habitat ou Espécies, Paisagens Protegidas); Lei 12/21 amends it to allow mining and oil/gas activities to be considered in conservation areas."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Iona National Park",
+   "localName": "Parque Nacional do Iona",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Game park by Portaria 2421 of 2/10/1937; game reserve by Portaria 4880 of 6/9/1944; elevated to Parque Nacional de Porto Alexandre by Diploma Legislativo 2873 of 11/12/1957; renamed Iona with new limits by Diploma Legislativo 3524 of 26/12/1964; 90 km2 excised by Portaria 516 of 17/8/1973",
+    "sourceIds": [
+     "ago-inbac-parques",
+     "ago-inbac-acs"
+    ]
+   },
+   "established": "1957",
+   "areaKm2": 15150,
+   "coordinates": null,
+   "wikidataQid": "Q3123422",
+   "marine": true,
+   "sourceIds": [
+    "ago-inbac-parques",
+    "ago-inbac-acs",
+    "ago-dp-88-23"
+   ],
+   "notes": "INBAC: lies between the Atlantic and the Cunene and Curoca rivers with ~150 km of coastline; DP 88/23 lists it as one of three terrestrial areas bordered by the ocean. Forms the Iona-Skeleton Coast Transfrontier Park with Namibia. First protected 1937."
+  },
+  {
+   "name": "Quiçama National Park",
+   "localName": "Parque Nacional da Quiçama",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Game reserve by Portaria 2620 of 16/4/1938; elevated to Parque Nacional by Diploma Legislativo 2873 of 11/12/1957 (B.O. I Série n.º 50)",
+    "sourceIds": [
+     "ago-inbac-parques",
+     "ago-inbac-acs"
+    ]
+   },
+   "established": "1957",
+   "areaKm2": 9960,
+   "coordinates": null,
+   "wikidataQid": "Q3179197",
+   "marine": true,
+   "sourceIds": [
+    "ago-inbac-parques",
+    "ago-inbac-acs",
+    "ago-dp-88-23"
+   ],
+   "notes": "Also spelled Kissama/Quissama. INBAC: ~120 km of Atlantic coastline between the Kwanza and Longa river mouths; DP 88/23 lists it as bordered by the ocean. The 2025 presidential announcement mentions a planned biosphere reserve 'do Parque Nacional da Quiçama ao mar' (not designated)."
+  },
+  {
+   "name": "Cameia National Park",
+   "localName": "Parque Nacional da Cameia",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Game reserve (Portaria number/date blank on INBAC page); elevated to Parque Nacional by Diploma Legislativo 2873 of 11/12/1957",
+    "sourceIds": [
+     "ago-inbac-parques"
+    ]
+   },
+   "established": "1957",
+   "areaKm2": 14450,
+   "coordinates": null,
+   "wikidataQid": "Q3123444",
+   "marine": null,
+   "sourceIds": [
+    "ago-inbac-parques",
+    "ago-inbac-acs"
+   ],
+   "notes": "Moxico province."
+  },
+  {
+   "name": "Bicuar National Park",
+   "localName": "Parque Nacional do Bicuar",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Game reserve by Portaria 2620 of 16/4/1938; elevated by Diploma Legislativo 3527 of 26/12/1964 (INBAC park page says to 'Reserva parcial'; the INBAC 2023 report says to Parque Nacional)",
+    "sourceIds": [
+     "ago-inbac-parques",
+     "ago-inbac-situacao-2023"
+    ]
+   },
+   "established": "1964",
+   "areaKm2": 7900,
+   "coordinates": null,
+   "wikidataQid": "Q3123455",
+   "marine": null,
+   "sourceIds": [
+    "ago-inbac-parques",
+    "ago-inbac-acs"
+   ],
+   "notes": "Huíla province. INBAC summary: game reserve 1938, partial reserve 1957, national park 1964, current limits defined 1972."
+  },
+  {
+   "name": "Mupa National Park",
+   "localName": "Parque Nacional do Mupa",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Game reserve by Portaria 2620 of 16/4/1938; elevated to park by Diploma Legislativo 3527 of 26/12/1964 (B.O. I Série n.º 52)",
+    "sourceIds": [
+     "ago-inbac-situacao-2023",
+     "ago-inbac-parques"
+    ]
+   },
+   "established": "1964",
+   "areaKm2": 6600,
+   "coordinates": null,
+   "wikidataQid": "Q3123450",
+   "marine": null,
+   "sourceIds": [
+    "ago-inbac-parques",
+    "ago-inbac-acs"
+   ],
+   "notes": "Cunene province. The INBAC park page text mistakenly says it was elevated to 'Reserva natural integral de Bicuar'."
+  },
+  {
+   "name": "Cangandala National Park",
+   "localName": "Parque Nacional de Cangandala",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Game reserve by Portaria 3740 (25 May, year not given); elevated to Parque Nacional by Diploma Legislativo 4017 of June 1970",
+    "sourceIds": [
+     "ago-inbac-parques"
+    ]
+   },
+   "established": "1970",
+   "areaKm2": 630,
+   "coordinates": null,
+   "wikidataQid": "Q3123440",
+   "marine": null,
+   "sourceIds": [
+    "ago-inbac-parques",
+    "ago-inbac-acs"
+   ],
+   "notes": "Malanje province; giant sable sanctuary."
+  },
+  {
+   "name": "Luengue-Luiana National Park",
+   "localName": "Parque Nacional de Luengue-Luiana",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Created by Lei n.º 38/11 de 29 de Dezembro (Diário da República I Série n.º 251), covering the former Reserva Parcial de Luiana and parts of the Longa-Mavinga, Luengue, Luiana and Mucusso public hunting areas",
+    "sourceIds": [
+     "ago-lei-38-11",
+     "ago-inbac-parques"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": 22610,
+   "coordinates": null,
+   "wikidataQid": "Q6699917",
+   "marine": null,
+   "sourceIds": [
+    "ago-lei-38-11",
+    "ago-inbac-parques",
+    "ago-inbac-acs",
+    "ago-nbsap-2019"
+   ],
+   "notes": "Area conflict: Lei 38/11 art. 4 gives approx. 22,610 km2; INBAC gives 45,816 km2 (park page) / 45,818 km2 (report). Cuando Cubango; part of KAZA TFCA. Former partial reserve from 1966 (INBAC)."
+  },
+  {
+   "name": "Mavinga National Park",
+   "localName": "Parque Nacional de Mavinga",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Created by Lei n.º 38/11 de 29 de Dezembro; previously Reserva Parcial by Diploma Legislativo 3677 of 17/9/1966",
+    "sourceIds": [
+     "ago-lei-38-11",
+     "ago-inbac-parques"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": 46072,
+   "coordinates": null,
+   "wikidataQid": "Q115273895",
+   "marine": null,
+   "sourceIds": [
+    "ago-lei-38-11",
+    "ago-inbac-parques",
+    "ago-inbac-acs"
+   ],
+   "notes": "Cuando Cubango; part of KAZA TFCA."
+  },
+  {
+   "name": "Maiombe National Park",
+   "localName": "Parque Nacional do Maiombe",
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Created by Lei n.º 38/11 de 29 de Dezembro (as 'Parque Nacional do Mayombe'); INBAC pages call it 'decreto nº 38/11'",
+    "sourceIds": [
+     "ago-lei-38-11",
+     "ago-inbac-parques"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": 1930,
+   "coordinates": null,
+   "wikidataQid": "Q115275295",
+   "marine": null,
+   "sourceIds": [
+    "ago-lei-38-11",
+    "ago-inbac-parques",
+    "ago-inbac-acs"
+   ],
+   "notes": "Also spelled Mayombe; Cabinda province; part of the Mayombe transboundary initiative."
+  },
+  {
+   "name": "Chimalavera Regional Natural Park",
+   "localName": "Parque Natural Regional da Chimalavera",
+   "category": "other-protected-area",
+   "designationLabel": "Parque Natural Regional (INBAC list: 'Parque Regional')",
+   "legalStatus": {
+    "text": "Established as a reserve by Diploma Legislativo 4124 of May 1971; INBAC also cites '352 de 15.04.1974 (B.O. I série nº 88)'",
+    "sourceIds": [
+     "ago-inbac-parques"
+    ]
+   },
+   "established": "1971",
+   "areaKm2": 150,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "ago-inbac-parques",
+    "ago-inbac-acs"
+   ],
+   "notes": "Benguela province, 24 km from Benguela city."
+  },
+  {
+   "name": "Luando Integral Nature Reserve",
+   "localName": "Reserva Natural Integral do Luando",
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural Integral",
+   "legalStatus": {
+    "text": "Proclaimed a game reserve in 1938 and raised to Reserva Natural Integral in 1955 (instruments not named by INBAC)",
+    "sourceIds": [
+     "ago-inbac-reservas"
+    ]
+   },
+   "established": "1955",
+   "areaKm2": 8280,
+   "coordinates": null,
+   "wikidataQid": "Q21413267",
+   "marine": null,
+   "sourceIds": [
+    "ago-inbac-reservas",
+    "ago-inbac-situacao-2023"
+   ],
+   "notes": "Habitat of the giant sable. Area 8,280 km2 per the INBAC 2023 report."
+  },
+  {
+   "name": "Namibe Partial Reserve",
+   "localName": "Reserva Parcial do Namibe",
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Parcial",
+   "legalStatus": {
+    "text": "Created by Diploma Legislativo of 12/6/1957 (B.O. I Série n.º 24) for a limited period to 31/12/1959, maintained with altered limits by Diploma Legislativo 3060 of 24/8/1960",
+    "sourceIds": [
+     "ago-inbac-reservas",
+     "ago-inbac-acs"
+    ]
+   },
+   "established": "1957",
+   "areaKm2": 4450,
+   "coordinates": null,
+   "wikidataQid": "Q6961825",
+   "marine": true,
+   "sourceIds": [
+    "ago-inbac-reservas",
+    "ago-inbac-acs",
+    "ago-dp-88-23"
+   ],
+   "notes": "DP 88/23 calls it 'Reserva Natural do Namibe (estabelecida aos 12 de Junho de 1957)' and lists it among three conservation areas with the Atlantic as western limit. INBAC: functions as a buffer for Iona NP. INBAC lists no later renewal after the 1960 extension."
+  },
+  {
+   "name": "Búfalo Partial Reserve",
+   "localName": "Reserva Parcial do Búfalo",
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Parcial",
+   "legalStatus": {
+    "text": "Established as Reserva Parcial by Diploma Legislativo 325 of 5/4/1971 (B.O. I série n.º 81) (INBAC report; the INBAC list page truncates the date to '5/4/7')",
+    "sourceIds": [
+     "ago-inbac-acs",
+     "ago-inbac-reservas"
+    ]
+   },
+   "established": "1971",
+   "areaKm2": 400,
+   "coordinates": null,
+   "wikidataQid": "Q111352359",
+   "marine": null,
+   "sourceIds": [
+    "ago-inbac-reservas",
+    "ago-inbac-acs"
+   ],
+   "notes": "Namibe province; protects forest buffalo (pacaça); patrolled by Iona NP staff."
+  },
+  {
+   "name": "Ilhéu dos Pássaros Integral Nature Reserve",
+   "localName": "Reserva Natural Integral do Ilhéu dos Pássaros",
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural Integral",
+   "legalStatus": {
+    "text": "Created by Decreto Provincial n.º 55 of 21/12/1973 (B.O. I Série n.º 297)",
+    "sourceIds": [
+     "ago-inbac-reservas",
+     "ago-inbac-acs"
+    ]
+   },
+   "established": "1973",
+   "areaKm2": 1.7,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "ago-inbac-reservas",
+    "ago-inbac-acs"
+   ],
+   "notes": "Mussulo bay, Belas municipality, Luanda. INBAC gives 1.7 km2 surface but also 'área estimada em 152 Km2' for the bounding lat/long box; 1.7 used here. Protects waterbirds."
+  },
+  {
+   "name": "Cumbira Forest (proposed conservation area)",
+   "localName": "Floresta da Cumbira",
+   "category": "proposed",
+   "designationLabel": "Nova área de conservação ambiental (em criação)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 224.52,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "ago-inbac-situacao-2023"
+   ],
+   "notes": "INBAC (Nov 2023): 'Angola, está a criar 4 novas áreas de conservação ambiental de âmbito nacional'. Not legally designated as of the sources found. Cuanza Sul province."
+  },
+  {
+   "name": "Morro do Moco (proposed conservation area)",
+   "localName": "Morro Mocô",
+   "category": "proposed",
+   "designationLabel": "Nova área de conservação ambiental (em criação)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "ago-inbac-situacao-2023"
+   ],
+   "notes": "INBAC (Nov 2023): 'Angola, está a criar 4 novas áreas de conservação ambiental de âmbito nacional'. Not legally designated as of the sources found. Huambo province. The INBAC report gives '250.812,15 Km2', which cannot be correct for a mountain massif (larger than the stated total of new areas allows); area left null."
+  },
+  {
+   "name": "Serra do Pingano (proposed conservation area)",
+   "localName": "Serra do Pingano",
+   "category": "proposed",
+   "designationLabel": "Nova área de conservação ambiental (em criação)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 570.91,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "ago-inbac-situacao-2023"
+   ],
+   "notes": "INBAC (Nov 2023): 'Angola, está a criar 4 novas áreas de conservação ambiental de âmbito nacional'. Not legally designated as of the sources found. Uíge province."
+  },
+  {
+   "name": "Baía dos Tigres Marine Conservation Area (proposed)",
+   "localName": "Área de Conservação Marinha da Baía dos Tigres",
+   "category": "proposed",
+   "designationLabel": "Nova área de conservação ambiental (em criação)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 9207,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "ago-inbac-situacao-2023",
+    "ago-dp-88-23",
+    "ago-cipra-2025",
+    "ago-forbes-2026"
+   ],
+   "notes": "INBAC (Nov 2023): 'Angola, está a criar 4 novas áreas de conservação ambiental de âmbito nacional'. Not legally designated as of the sources found. Namibe province. Would be Angola's first marine conservation area: DP 88/23 states 'Actualmente Angola não possui áreas de conservação marinhas'; the President announced in Jan 2025 that it would be created that year, and in Oct 2026 still referred to 'o avanço para a criação' — no creating instrument found."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "coutadas (public and private hunting areas)",
+   "approxCount": null,
+   "reason": "Hunting concessions, not conservation areas under Lei 8/20; no official current list found (Lei 38/11 names Longa-Mavinga, Luengue, Luiana and Mucusso coutadas partly absorbed into Luengue-Luiana).",
+   "sourceIds": [
+    "ago-lei-38-11"
+   ]
+  },
+  {
+   "category": "forest reserves (reservas florestais)",
+   "approxCount": null,
+   "reason": "No official list found online.",
+   "sourceIds": []
+  }
+ ],
+ "gaps": [
+  "INBAC pages contain copy-paste errors (Mupa page cites 'Reserva natural integral de Bicuar'; Bicuar page says the 1964 diploma created a 'Reserva parcial'; Cameia's Portaria number and date are blank) — legal histories should be checked against the original Boletim Oficial texts, which were not available online.",
+  "Luengue-Luiana area conflicts: 22,610 km2 in Lei 38/11 vs 45,816/45,818 km2 in INBAC documents (possibly reflecting later boundary changes not found).",
+  "INBAC's conservation-areas document (ago-inbac-acs) highlights an extension of Iona's limits into the marine environment; no instrument confirming a marine extension was found.",
+  "Status of the four areas 'em criação' (Cumbira, Morro do Moco, Serra do Pingano, Baía dos Tigres) after November 2023 could not be confirmed from a Diário da República text; as of the October 2026 State of the Nation report Baía dos Tigres was still being advanced.",
+  "Lei 8/20 was only available as a scanned PDF (checked by OCR); it defines categories but does not itself list the existing areas.",
+  "No official coordinates were used; points depend on Wikidata matches. Chimalavera and Ilhéu dos Pássaros had no matching Wikidata item in a keyword search (Wikidata was rate-limited during this run)."
+ ]
+}

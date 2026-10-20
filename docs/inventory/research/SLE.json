@@ -1,0 +1,530 @@
+{
+ "country": "SLE",
+ "countryName": "Sierra Leone",
+ "officialInventory": {
+  "summary": "The National Protected Area Authority (NPAA), created by the National Protected Areas Authority and Conservation Trust Fund Act 2012, manages national parks and wildlife sanctuaries; forest reserves remain with the Forestry Division, and the four estuarine Marine Protected Areas were declared by the Ministry of Fisheries and Marine Resources. NPAA's website has a 'List of National Protected Areas' page, but it was empty when fetched (Oct 2026) and the site contains template placeholder content. The best official descriptions are the NBSAP 2017–2026 (protected-area categories under the Wildlife Conservation Act 1972, gazetted national parks, Table 9 of major forest-estate components, Table 2 of estuarine MPAs) and the 6th CBD national report (2020). No complete official register was found.",
+  "sourceIds": [
+   "sle-nbsap-2017",
+   "sle-cbd-nr6",
+   "sle-cbd-nr7",
+   "sle-npaa-list"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "designated protected areas (within 48 reserve areas)",
+    "count": 15,
+    "asOf": "2011",
+    "sourceId": "sle-cbd-nr6",
+    "quote": "The country has an existing network of 48 reserve areas with 15 designated protected areas, covering 284,591 hectares (Government of Sierra Leone 2011). This includes four national parks, two wildlife sanctuaries and a collection of forest reserves"
+   },
+   {
+    "category": "gazetted national parks",
+    "count": 4,
+    "asOf": "2017",
+    "sourceId": "sle-nbsap-2017",
+    "quote": "The gazetted national parks are Outamba-Kilimi NP, Gola Forest NP, Loma Mountain NP and Western Area Peninsula NP."
+   },
+   {
+    "category": "marine protected areas",
+    "count": 4,
+    "asOf": "2017",
+    "sourceId": "sle-nbsap-2017",
+    "quote": "Four Marine Protected Areas (MPAs) were declared in 2010 as significant component of the protection of coastal and marine ecosystems."
+   },
+   {
+    "category": "forest reserves",
+    "count": 29,
+    "asOf": "2017",
+    "sourceId": "sle-nbsap-2017",
+    "quote": "In total there are 29 forest reserves, a significant number of which have been upgraded for higher protection categories across the country."
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "sle-nbsap-2017",
+   "title": "Sierra Leone's National Biodiversity Strategy and Action Plan 2017–2026",
+   "publisher": "Government of Sierra Leone / CBD Secretariat",
+   "url": "https://www.cbd.int/doc/world/sl/sl-nbsap-v2-en.pdf",
+   "date": "2017",
+   "kind": "report",
+   "licence": "© Government of Sierra Leone — cited for reference (facts and short quotes)",
+   "note": "Section 'Sierra Leone’s Protected Area Network' (pp. 22–24), Table 2 (estuarine MPAs) and Table 9 (major forest-estate components)."
+  },
+  {
+   "id": "sle-cbd-nr6",
+   "title": "Sixth National Report to the CBD — Sierra Leone",
+   "publisher": "Government of Sierra Leone / CBD Secretariat",
+   "url": "https://www.cbd.int/doc/nr/nr-06/sl-nr-06-en.pdf",
+   "date": "2020-02-14",
+   "kind": "report",
+   "licence": "© Government of Sierra Leone — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "sle-cbd-nr7",
+   "title": "Sierra Leone — Seventh National Report to the CBD",
+   "publisher": "Government of Sierra Leone / CBD Secretariat",
+   "url": "https://ort.cbd.int/database/record?documentID=290957",
+   "date": "2026-03-01",
+   "kind": "report",
+   "licence": "© Government of Sierra Leone — cited for reference (facts and short quotes)",
+   "note": "Text fetched from https://api.cbd.int/api/v2013/documents/FEA8A176-4CD3-DF5E-969E-CC858DC696CC"
+  },
+  {
+   "id": "sle-npaa-list",
+   "title": "List of National Protected Areas — NPAA",
+   "publisher": "National Protected Area Authority, Sierra Leone",
+   "url": "https://npaa.gov.sl/list-of-national-protected-areas/",
+   "date": "2026-02-07",
+   "kind": "webpage",
+   "licence": "© NPAA — cited for reference",
+   "note": "Page existed (published 2026-02-07 per page metadata) but contained no list when fetched."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Outamba-Kilimi National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Gazetted in 1995 (NBSAP 2017–2026)",
+    "sourceIds": [
+     "sle-nbsap-2017"
+    ]
+   },
+   "established": "1995",
+   "areaKm2": 1109,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6"
+   ],
+   "notes": "110,900 ha in two portions: Outamba 74,100 ha and Kilimi 36,800 ha (NBSAP)."
+  },
+  {
+   "name": "Gola Rainforest National Park",
+   "localName": "Gola Forest National Park",
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Upgraded from forest reserves to national park status (December 2011 per NBSAP; 2013 per NR6)",
+    "sourceIds": [
+     "sle-nbsap-2017",
+     "sle-cbd-nr6"
+    ]
+   },
+   "established": null,
+   "areaKm2": 770.44,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6",
+    "sle-cbd-nr7"
+   ],
+   "notes": "77,044 ha in NBSAP Table 9; 'a little over 74,000 ha' elsewhere in NBSAP. Year conflict 2011 vs 2013. Part of the Gola-Tiwai Complex World Heritage site (2025, per NR7; handled separately)."
+  },
+  {
+   "name": "Loma Mountains National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Upgraded from Non-hunting Forest Reserve to National Park in 2015 (NR6)",
+    "sourceIds": [
+     "sle-cbd-nr6"
+    ]
+   },
+   "established": "2015",
+   "areaKm2": 332,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6"
+   ],
+   "notes": "33,200 ha (NBSAP Table 9). Includes Bintumani peak."
+  },
+  {
+   "name": "Western Area Peninsula National Park",
+   "localName": "Western Area Peninsula Forest National Park",
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared a National Park following a 2012 biodiversity and carbon assessment (NR6); formerly a Non-hunting Forest Reserve",
+    "sourceIds": [
+     "sle-cbd-nr6",
+     "sle-nbsap-2017"
+    ]
+   },
+   "established": null,
+   "areaKm2": 178,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6",
+    "sle-cbd-nr7"
+   ],
+   "notes": "17,800 ha (NBSAP Table 9, listed as 'Western Area Peninsula Forest NHFR'). Declaration year not stated precisely."
+  },
+  {
+   "name": "Tiwai Island Wildlife Sanctuary",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Wildlife Sanctuary / Game Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-cbd-nr6",
+    "sle-nbsap-2017",
+    "sle-cbd-nr7"
+   ],
+   "notes": "NBSAP describes Tiwai Island under the Game Reserve category and calls it a sanctuary; NR6 names it 'Tiwai Island Wildlife Sanctuary'; NR7 'Tiwai Island Game Sanctuary'. Part of the Gola-Tiwai Complex World Heritage site (2025)."
+  },
+  {
+   "name": "Mamunta-Mayosso Wildlife Sanctuary",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Sanctuary / Wildlife Sanctuary",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6"
+   ],
+   "notes": "NBSAP: 'Mamunta-Mayosso is currently the only Game Sanctuary in the country.' Inland wetland with two lakes; co-management plan 2015 (NR6)."
+  },
+  {
+   "name": "Kangari Hills Non-Hunting Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Non-hunting Forest Reserve",
+   "legalStatus": {
+    "text": "Gazetted non-hunting forest reserve (NBSAP)",
+    "sourceIds": [
+     "sle-nbsap-2017"
+    ]
+   },
+   "established": null,
+   "areaKm2": 85.73,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6"
+   ],
+   "notes": "8,573 ha (NBSAP Table 9)."
+  },
+  {
+   "name": "Tingi Hills Non-Hunting Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Non-hunting Forest Reserve",
+   "legalStatus": {
+    "text": "Gazetted non-hunting forest reserve (NBSAP)",
+    "sourceIds": [
+     "sle-nbsap-2017"
+    ]
+   },
+   "established": null,
+   "areaKm2": 118.85,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6"
+   ],
+   "notes": "11,885 ha (NBSAP Table 9)."
+  },
+  {
+   "name": "Tonkoli Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 476.56,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017"
+   ],
+   "notes": "47,656 ha (NBSAP Table 9, Northern Province)."
+  },
+  {
+   "name": "Kambui Hills Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 212.13,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr7"
+   ],
+   "notes": "21,213 ha (NBSAP Table 9, Eastern Province)."
+  },
+  {
+   "name": "Dodo Hills Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 211.85,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017"
+   ],
+   "notes": "21,185 ha (NBSAP Table 9, Eastern Province)."
+  },
+  {
+   "name": "Tama Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 170.94,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017"
+   ],
+   "notes": "17,094 ha (NBSAP Table 9, Northern Province)."
+  },
+  {
+   "name": "Nimini Hills Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 155.57,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017"
+   ],
+   "notes": "Printed 'Nimimi Hills Forest Reserve' in NBSAP Table 9; 15,557 ha (Eastern Province)."
+  },
+  {
+   "name": "Kuru Hills Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 70.01,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017"
+   ],
+   "notes": "7,001 ha (NBSAP Table 9, Northern Province)."
+  },
+  {
+   "name": "Kasewe Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 23.33,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017"
+   ],
+   "notes": "2,333 ha (NBSAP Table 9, Northern Province)."
+  },
+  {
+   "name": "Moyamba Hills Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017"
+   ],
+   "notes": "'ca4000' ha (approximate) in NBSAP Table 9, Southern Province."
+  },
+  {
+   "name": "Scarcies River Estuary Marine Protected Area",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Protected Area",
+   "legalStatus": {
+    "text": "Declared by the Ministry of Fisheries and Marine Resources (2010 per NBSAP; NR6 also refers to 'the declaration of Marine Protected in 2012')",
+    "sourceIds": [
+     "sle-nbsap-2017",
+     "sle-cbd-nr6"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6"
+   ],
+   "notes": "Mangrove estate 13,407 ha (NBSAP Table 2); total MPA area not given."
+  },
+  {
+   "name": "Sierra Leone River Estuary Marine Protected Area",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Protected Area",
+   "legalStatus": {
+    "text": "Declared by the Ministry of Fisheries and Marine Resources (2010 per NBSAP; 2012 per NR6)",
+    "sourceIds": [
+     "sle-nbsap-2017",
+     "sle-cbd-nr6"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6"
+   ],
+   "notes": "Estuary spatial extent ~259,000 ha, mangroves 34,234 ha (NBSAP Table 2). Also an IBA and Ramsar site (handled separately)."
+  },
+  {
+   "name": "Yawri Bay Marine Protected Area",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Protected Area",
+   "legalStatus": {
+    "text": "Declared by the Ministry of Fisheries and Marine Resources (2010 per NBSAP; 2012 per NR6)",
+    "sourceIds": [
+     "sle-nbsap-2017",
+     "sle-cbd-nr6"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6"
+   ],
+   "notes": "Printed 'Yaw Bay' in NBSAP Table 2 (spatial extent ~31,605 ha, mangroves 24,505 ha)."
+  },
+  {
+   "name": "Sherbro River Estuary Marine Protected Area",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Protected Area",
+   "legalStatus": {
+    "text": "Declared by the Ministry of Fisheries and Marine Resources (2010 per NBSAP; 2012 per NR6)",
+    "sourceIds": [
+     "sle-nbsap-2017",
+     "sle-cbd-nr6"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6",
+    "sle-cbd-nr7"
+   ],
+   "notes": "Mangrove estate 99,854 ha (NBSAP Table 2)."
+  },
+  {
+   "name": "Lake Sonfon",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed national park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017",
+    "sle-cbd-nr6"
+   ],
+   "notes": "NBSAP: 'There are proposals for Lake Sonfon and environs, Lakes Mape and Mabesi to be upgraded to national park status.'"
+  },
+  {
+   "name": "Lakes Mape and Mabesi",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Proposed national park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sle-nbsap-2017"
+   ],
+   "notes": "Proposed for national park status (NBSAP 2017–2026)."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "other forest reserves",
+   "approxCount": 29,
+   "reason": "NBSAP gives 29 forest reserves in total (also 'about 24 forest reserves' elsewhere) but lists only the major ones (Table 9); no complete official list found.",
+   "sourceIds": [
+    "sle-nbsap-2017"
+   ]
+  }
+ ],
+ "gaps": [
+  "No complete official list was retrievable: the NPAA 'List of National Protected Areas' page was empty when fetched.",
+  "Gazettement instruments (Government Notices/Statutory Instruments) were not located for any area; years come from NBSAP/NR6 narrative and conflict for Gola (2011 vs 2013) and the MPAs (2010 vs 2012).",
+  "MPA boundaries/areas not documented in fetched sources (only mangrove areas). Whether additional MPAs were declared after 2017 was not verified.",
+  "NR7 (2026) states a target to expand protected areas but gives no updated list.",
+  "Wikidata QIDs not assigned (Wikidata services were rate-limiting); coordinates left null."
+ ]
+}

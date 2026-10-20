@@ -1,0 +1,820 @@
+{
+ "country": "EGY",
+ "countryName": "Egypt",
+ "officialInventory": {
+  "summary": "The Egyptian Environmental Affairs Agency (EEAA, Nature Conservation Sector) maintains the official list of natural protectorates declared by Prime Ministerial decree under Law No. 102 of 1983. Its July 2026 list (English and Arabic PDFs) enumerates all 31 protectorates with declaration year, area, governorate, management type and declaring/amending decrees; this matches the count of 31 (up to 2025) stated on the EEAA protectorates page. The list appears complete for nationally declared protectorates. It is a PDF table, not a dataset, and gives no coordinates or boundaries.",
+  "sourceIds": [
+   "egy-eeaa-protectorates-page",
+   "egy-eeaa-list-en",
+   "egy-eeaa-list-ar"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "natural protectorates (Law 102/1983)",
+    "count": 31,
+    "asOf": "2025",
+    "sourceId": "egy-eeaa-protectorates-page",
+    "quote": "عدد 31 محمية طبيعية حتى 2025 بنسبة مابين 14% إلى 15% من اجمالى مساحة مصر"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "egy-eeaa-protectorates-page",
+   "title": "المحميات الطبيعية (Natural Protectorates) — Nature Conservation topic page",
+   "publisher": "Egyptian Environmental Affairs Agency (EEAA), Ministry of Local Development and Environment",
+   "url": "https://www.eeaa.gov.eg/Topics/85/36/Details",
+   "date": "2025 (page states the count 'until 2025'; fetched 2026-10-20)",
+   "kind": "webpage",
+   "licence": "© Egyptian Environmental Affairs Agency (EEAA) — cited for reference (facts and short quotes)",
+   "note": "Arabic page; states that Prime Ministerial decrees have declared 31 protectorates up to 2025 under Law 102/1983, covering 14-15% of Egypt; links the official list PDFs below."
+  },
+  {
+   "id": "egy-eeaa-list-en",
+   "title": "Protectorates Areas declared framework of Law No. 102 of 1983 concerning Natural Protectorates (Nature Conservation Sector)",
+   "publisher": "Egyptian Environmental Affairs Agency (EEAA) — Nature Conservation Sector",
+   "url": "https://www.eeaa.gov.eg/Uploads/Topics/Files/20260720125008622.pdf",
+   "date": "2026-07-20 (PDF creation date)",
+   "kind": "report",
+   "licence": "© Egyptian Environmental Affairs Agency (EEAA) — cited for reference (facts and short quotes)",
+   "note": "Official 4-page table of all 31 protectorates: name, declaration year, area (km²), governorate, type, and declaring Prime Minister's decrees (with amendments). Primary source for names, years, areas, types and legal basis in this file."
+  },
+  {
+   "id": "egy-eeaa-list-ar",
+   "title": "المحميات الطبيعية التي تم إعلانها في إطار القانون 102 لسنة 1983 في شأن المحميات الطبيعية",
+   "publisher": "Egyptian Environmental Affairs Agency (EEAA) — Nature Conservation Sector",
+   "url": "https://www.eeaa.gov.eg/Uploads/Topics/Files/20260720125008613.pdf",
+   "date": "2026-07-20 (PDF creation date)",
+   "kind": "report",
+   "licence": "© Egyptian Environmental Affairs Agency (EEAA) — cited for reference (facts and short quotes)",
+   "note": "Arabic version of the same list; source of localName values. PDF text extraction mangles lam-alef ligatures; four names were corrected by hand (الأحراش, العلاقي, الأسيوطي, الأحمر), cross-checked against the EEAA 'about' page headings."
+  },
+  {
+   "id": "egy-eeaa-about",
+   "title": "عن المحميات الطبيعية (About the natural protectorates)",
+   "publisher": "Egyptian Environmental Affairs Agency (EEAA)",
+   "url": "https://www.eeaa.gov.eg/Topics/85/36/65/Details",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Egyptian Environmental Affairs Agency (EEAA) — cited for reference (facts and short quotes)",
+   "note": "Per-protectorate descriptions (declaration year, area, type, description). Used for marine/coastal flags and overlap notes. The parent page carries a notice that protectorate pages are being updated."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Ras Mohammad",
+   "localName": "محمية رأس محمد",
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1068 of 1983, amended by Decree No. 2035 of 1996",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1983",
+   "areaKm2": 778.2,
+   "coordinates": null,
+   "wikidataQid": "Q1028367",
+   "marine": true,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 1; governorate: South Sinai. EEAA describes the gulf waters and coral reefs surrounding Ras Mohammed on all its marine sides."
+  },
+  {
+   "name": "Zaranik and Sabkhat El-Bardawil",
+   "localName": "محمية الزرانيق وسبخة البردويل",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1429 of 1985, amended by Decree No. 3379 of 1996",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1985",
+   "areaKm2": 225,
+   "coordinates": null,
+   "wikidataQid": "Q12241350",
+   "marine": null,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 2; governorate: North Sinai. Declared by the same decree as Al-Ahrash (1429/1985)."
+  },
+  {
+   "name": "Al-Ahrash",
+   "localName": "محمية الأحراش",
+   "category": "nature-reserve",
+   "designationLabel": "Habitat and Species Managed Protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1429 of 1985, amended by Decree No. 3379 of 1996",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1985",
+   "areaKm2": 3.3,
+   "coordinates": null,
+   "wikidataQid": "Q28791878",
+   "marine": true,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 3; governorate: North Sinai. EEAA 'about' page heads it 'منطقة الأحراش الساحلية برفح' (the coastal Ahrash area at Rafah) and describes coastal sand dunes on the Mediterranean coast. Declared by the same decree as Zaranik and Sabkhat El-Bardawil (1429/1985)."
+  },
+  {
+   "name": "Al-Omayed Natural",
+   "localName": "محمية العميد الطبيعية",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 671 of 1986, amended by Decree No. 3276 of 1996, and further amended by Decree No. 909 of 2021",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1986",
+   "areaKm2": 87,
+   "coordinates": null,
+   "wikidataQid": "Q12241361",
+   "marine": null,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 4; governorate: Matrouh."
+  },
+  {
+   "name": "Elba Natural",
+   "localName": "محميات علبة الطبيعية",
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 450 of 1986, amended by Decree No. 642 of 1995, and further amended by Decree No. 1618 of 2020",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1986",
+   "areaKm2": 35056,
+   "coordinates": null,
+   "wikidataQid": "Q47069184",
+   "marine": true,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 5; governorate: Red Sea. EEAA lists coastal mangroves, coastal dunes and sabkhas, and Red Sea islands among Elba's habitats."
+  },
+  {
+   "name": "Saluga and Ghazal",
+   "localName": "محمية سالوجا وغزال",
+   "category": "nature-reserve",
+   "designationLabel": "Habitat and Species Managed Protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 928 of 1986",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1986",
+   "areaKm2": 0.4,
+   "coordinates": null,
+   "wikidataQid": "Q12241391",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 6; governorate: Aswan. Nile islands at the First Cataract, Aswan (EEAA 'about' page)."
+  },
+  {
+   "name": "St. Catherine",
+   "localName": "محمية سانت كاترين",
+   "category": "nature-reserve",
+   "designationLabel": "Landscape Protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 613 of 1988, amended by Decree No. 940 of 1996, and further amended by Decree No. 1778 of 2020",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1988",
+   "areaKm2": 4412,
+   "coordinates": null,
+   "wikidataQid": "Q3499363",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 7; governorate: South Sinai. Coincides with the UNESCO 'Saint Catherine Area' World Heritage site (coordinator to confirm from UNESCO)."
+  },
+  {
+   "name": "Ashtum El-Gamil",
+   "localName": "محمية أشتوم الجميل",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 459 of 1988, amended by Decree No. 2780 of 1998, and further amended by Decree No. 2423 of 2019",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1988",
+   "areaKm2": 202.8,
+   "coordinates": null,
+   "wikidataQid": "Q12241334",
+   "marine": null,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 8; governorate: Port Said. EEAA: includes the El-Gamil inlets, Ashtum El-Gamil and Lake Manzala, with Tanis Island inside Lake Manzala (coastal lagoon; marine extent not stated)."
+  },
+  {
+   "name": "Lake Qarun",
+   "localName": "محمية قارون",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 943 of 1989, amended by Decree No. 2954 of 1997, and further amended by Decree No. 3155 of 2019",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1989",
+   "areaKm2": 1298.3,
+   "coordinates": null,
+   "wikidataQid": "Q4119367",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 9; governorate: Faiyum. Declared by the same decree as Wadi El-Rayan (943/1989)."
+  },
+  {
+   "name": "Wadi El-Rayan",
+   "localName": "محمية وادي الريان",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 943 of 1989, amended by Decree No. 2954 of 1997, and further amended by Decree No. 3155 of 2019",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1989",
+   "areaKm2": 1757.9,
+   "coordinates": null,
+   "wikidataQid": "Q6562520",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 10; governorate: Faiyum. EEAA's description places Wadi Al-Hitan (Whale Valley) fossil area in the north-west of this protectorate; Wadi Al-Hitan is a UNESCO World Heritage site (coordinator to confirm). Declared by the same decree as Lake Qarun (943/1989)."
+  },
+  {
+   "name": "Wadi El-Allaqi",
+   "localName": "محمية وادي العلاقي",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 945 of 1989, amended by Decree No. 2378 of 1996",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1989",
+   "areaKm2": 22779,
+   "coordinates": null,
+   "wikidataQid": "Q12241412",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 11; governorate: Aswan."
+  },
+  {
+   "name": "Wadi El-Assiouti",
+   "localName": "محمية وادي الأسيوطي",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 942 of 1989, amended by Decree No. 710 of 1997",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1989",
+   "areaKm2": 35,
+   "coordinates": null,
+   "wikidataQid": "Q12241411",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 12; governorate: Assiut."
+  },
+  {
+   "name": "Hassana Dome",
+   "localName": "محمية قبة الحسنة",
+   "category": "nature-reserve",
+   "designationLabel": "Natural Monument protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 946 of 1989, amended by Decree No. 685 of 2012",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1989",
+   "areaKm2": 0.8,
+   "coordinates": null,
+   "wikidataQid": "Q12241402",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 13; governorate: Giza."
+  },
+  {
+   "name": "Petrified Forest",
+   "localName": "محمية الغابة المتحجرة",
+   "category": "nature-reserve",
+   "designationLabel": "Natural Monument protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 944 of 1989, amended by Decree No. 1441 of 2017",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1989",
+   "areaKm2": 3.3,
+   "coordinates": null,
+   "wikidataQid": "Q12241337",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 14; governorate: Cairo."
+  },
+  {
+   "name": "Wadi Sannur Cave",
+   "localName": "محمية كهف وادي سنور",
+   "category": "nature-reserve",
+   "designationLabel": "Natural Monument protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1204 of 1992, amended by Decree No. 709 of 1997",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1992",
+   "areaKm2": 12,
+   "coordinates": null,
+   "wikidataQid": "Q13142213",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 15; governorate: Beni Suef."
+  },
+  {
+   "name": "Nabq",
+   "localName": "محمية نبق",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1511 of 1992, amended by Decree No. 33 of 1996",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1992",
+   "areaKm2": 518,
+   "coordinates": null,
+   "wikidataQid": "Q4311219",
+   "marine": true,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 16; governorate: South Sinai. EEAA lists coral reefs, marine organisms and dense mangroves among Nabq's ecosystems. Declared by the same decree as Abu Galum (1511/1992)."
+  },
+  {
+   "name": "Abu Galum",
+   "localName": "محمية أبو جالوم",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1511 of 1992, amended by Decree No. 33 of 1996",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1992",
+   "areaKm2": 425.7,
+   "coordinates": null,
+   "wikidataQid": "Q12241331",
+   "marine": true,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 17; governorate: South Sinai. EEAA lists coral reefs, marine organisms, seagrasses and lagoons among Abu Galum's ecosystems. Declared by the same decree as Nabq (1511/1992)."
+  },
+  {
+   "name": "Taba",
+   "localName": "محمية طابا",
+   "category": "nature-reserve",
+   "designationLabel": "Natural Monument protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 316 of 1998",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1998",
+   "areaKm2": 2977.8,
+   "coordinates": null,
+   "wikidataQid": "Q12241398",
+   "marine": null,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 18; governorate: South Sinai."
+  },
+  {
+   "name": "Lake Burullus",
+   "localName": "محمية البرلس",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1444 of 1998, amended by Decree No. 330 of 2018",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1998",
+   "areaKm2": 484,
+   "coordinates": null,
+   "wikidataQid": "Q12241338",
+   "marine": null,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 19; governorate: Kafr El-Sheikh. Coastal lake (lagoon) per EEAA description; marine extent not stated."
+  },
+  {
+   "name": "Nile River Islands (127 islands)",
+   "localName": "محميات جزر نهر النيل (127)",
+   "category": "nature-reserve",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1969 of 1998, amended by PM Decree No. 1310 of 2017, and further amended by Decree No. 828 of 2019",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1998",
+   "areaKm2": 160,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 20; governorate: Various Governorates. Counted by EEAA as one protectorate comprising 127 Nile islands across several governorates."
+  },
+  {
+   "name": "Wadi Degla",
+   "localName": "محمية وادي دجلة",
+   "category": "nature-reserve",
+   "designationLabel": "Natural Monument protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 47 of 1999, amended by Decree No. 3057 of 1999, and further amended by Decree No. 2074 of 2018",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "1999",
+   "areaKm2": 27.6,
+   "coordinates": null,
+   "wikidataQid": "Q12241414",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 21; governorate: Cairo."
+  },
+  {
+   "name": "Siwa",
+   "localName": "محمية سيوة",
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1219 of 2002",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "2002",
+   "areaKm2": 7731,
+   "coordinates": null,
+   "wikidataQid": "Q12241396",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 22; governorate: Matrouh."
+  },
+  {
+   "name": "White Desert",
+   "localName": "محمية الصحراء البيضاء",
+   "category": "nature-reserve",
+   "designationLabel": "Landscape Protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1220 of 2002",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "2002",
+   "areaKm2": 3133.5,
+   "coordinates": null,
+   "wikidataQid": "Q2556953",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 23; governorate: New Valley."
+  },
+  {
+   "name": "Wadi El-Gemal - Hamata",
+   "localName": "محمية وادي الجمال - حماطة",
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 143 of 2003, amended by Decree No. 1777 of 2020",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 7636.7,
+   "coordinates": null,
+   "wikidataQid": "Q2538716",
+   "marine": true,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 24; governorate: Red Sea. EEAA: includes ~60 km of Red Sea coast and extends ~10 km into the Red Sea (coral reefs, seagrass, islands)."
+  },
+  {
+   "name": "Northern Red Sea Islands",
+   "localName": "محمية الجزر الشمالية للبحر الأحمر",
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 1618 of 2006",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 1709.7,
+   "coordinates": null,
+   "wikidataQid": "Q12241343",
+   "marine": true,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 25; governorate: Red Sea. Islands in the Red Sea (per official name); EEAA gives no description text for this protectorate."
+  },
+  {
+   "name": "Gilf Kebir",
+   "localName": "محمية الجلف الكبير",
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 10 of 2007",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "2007",
+   "areaKm2": 48524,
+   "coordinates": null,
+   "wikidataQid": "Q14300376",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 26; governorate: New Valley."
+  },
+  {
+   "name": "Al-Dababiya",
+   "localName": "محمية الدبابية",
+   "category": "nature-reserve",
+   "designationLabel": "Natural Monument protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 109 of 2007, and Minister of Environment's Decree for the surrounding area No. 100 of 2017",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "2007",
+   "areaKm2": 6.9,
+   "coordinates": null,
+   "wikidataQid": "Q117257731",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 27; governorate: Qena."
+  },
+  {
+   "name": "Salloum Gulf",
+   "localName": "محمية السلوم",
+   "category": "nature-reserve",
+   "designationLabel": "Landscape Protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 533 of 2010",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "2010",
+   "areaKm2": 389.6,
+   "coordinates": null,
+   "wikidataQid": "Q117258353",
+   "marine": null,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 28; governorate: Matrouh. English list names it 'Salloum Gulf'; EEAA gives no description, so marine extent is not documented here."
+  },
+  {
+   "name": "Bahariya Oasis",
+   "localName": "محمية الواحات البحرية",
+   "category": "nature-reserve",
+   "designationLabel": "Natural Monument protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 2656 of 2010",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "2010",
+   "areaKm2": 102.6,
+   "coordinates": null,
+   "wikidataQid": "Q117257732",
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 29; governorate: Giza."
+  },
+  {
+   "name": "Gebel Kamil Meteorite",
+   "localName": "محمية نيزك جبل كامل",
+   "category": "nature-reserve",
+   "designationLabel": "Natural Monument protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 271 of 2012",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 17,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 30; governorate: New Valley."
+  },
+  {
+   "name": "Great Fringing Reefs",
+   "localName": "محمية الشعاب المرجانية الحافية",
+   "category": "marine-protected-area",
+   "designationLabel": "Sustainable use of natural resources protected Area",
+   "legalStatus": {
+    "text": "Declared under Law No. 102 of 1983 on Natural Protectorates by Prime Minister's Decree No. 4419 of 2025",
+    "sourceIds": [
+     "egy-eeaa-list-en",
+     "egy-eeaa-list-ar"
+    ]
+   },
+   "established": "2025",
+   "areaKm2": 1800,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "egy-eeaa-list-en",
+    "egy-eeaa-list-ar",
+    "egy-eeaa-about"
+   ],
+   "notes": "EEAA serial no. 31; governorate: Red Sea. EEAA: declaration of the whole Egyptian fringing coral reef ('الحيد المرجاني الحافي') as a natural protectorate. Newest protectorate (2025). Press reports (not official, not used as evidence) describe the 2025 decree as adding marine areas around protectorates declared by decrees 450/1986, 143/2003 and 1618/2006; its exact relation to Elba, Wadi El-Gemal and Northern Red Sea Islands is not verified."
+  }
+ ],
+ "notEnumerated": [],
+ "gaps": [
+  "No official coordinates or boundaries were found; the EEAA protectorates map (https://www.eeaa.gov.eg/Uploads/Topics/Files/20230308115635941.pdf, 2023) is image-only, so coordinates are left null.",
+  "Marine/coastal flags rely on EEAA's short descriptions; protectorates whose description does not mention marine or coastal waters (e.g. Zaranik/Bardawil, Ashtum El-Gamil, Burullus, Taba, Salloum Gulf, Al-Omayed) are left null rather than guessed.",
+  "The boundaries of the 2025 Great Fringing Reefs protectorate (Decree 4419/2025), and how it overlaps the existing Red Sea protectorates, were not verified from an official text; the decree itself was not obtained.",
+  "The EEAA page notes that protectorate pages are being updated; the English 'Regulations' PDF on the page is image-only and was not used.",
+  "Arabic local names come from a PDF whose text extraction breaks lam-alef ligatures; they were corrected by hand and should be spot-checked.",
+  "Ramsar, World Heritage and Biosphere overlaps are mentioned only where EEAA text or well-known coincidence supports them; the coordinator should confirm them from Ramsar/UNESCO.",
+  "Wikidata QIDs were checked one by one with Special:EntityData (label incl. Arabic, P17=Egypt, P31). No item was found for Nile River Islands, Gebel Kamil Meteorite or Great Fringing Reefs. The Dababiya, Salloum and Bahariya items are bare protected-area items without coordinates. Elba also has a second, bare item (Q117258352) besides the one used (Q47069184). Omayed's item is typed as a biosphere reserve but carries the protectorate's Arabic name."
+ ]
+}

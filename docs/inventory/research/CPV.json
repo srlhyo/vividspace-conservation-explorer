@@ -1,0 +1,1193 @@
+{
+ "country": "CPV",
+ "countryName": "Cabo Verde",
+ "officialInventory": {
+  "summary": "The legal inventory is the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (regime jurídico dos espaços naturais; amended by Decreto-Lei n.º 44/2006), which declares 47 areas by island in six categories (Parque Nacional, Parque Natural, Reserva Natural, Monumento Natural, Paisagem Protegida, Sítio de Interesse Científico). Individual areas are subsequently delimited by Decreto-Regulamentar and given management plans by Resolução; some categories and limits have changed since 2003 (e.g. Barreiro e Figueira now a Paisagem Protegida). All 47 annex entries are recorded below with the 2003 category; later instruments verified in FAOLEX are added to legalStatus. Later additions to the network (if any) were not systematically searched. The 2003 annex is an official list but only as a scanned gazette page (not machine-readable).",
+  "sourceIds": [
+   "cpv-dl-3-2003",
+   "cpv-res-142-2020",
+   "cpv-nbsap-2014"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "protected areas in the initial national network",
+    "count": 47,
+    "asOf": "2003-02-24",
+    "sourceId": "cpv-dl-3-2003",
+    "quote": "A Rede Nacional de Áreas Protegidas inicia-se com as 47 Unidades que se declaram no anexo ao presente diploma"
+   },
+   {
+    "category": "protected areas (6 categories)",
+    "count": 47,
+    "asOf": "2020-09",
+    "sourceId": "cpv-res-142-2020",
+    "quote": "47 áreas protegidas, com 6 categorias: Parque Nacional, Parque Natural, Reservas Naturais, Paisagem Protegida, Monumento Natural e Sítios de Interesse Científico"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "cpv-dl-3-2003",
+   "title": "Decreto-Lei n.º 3/2003, de 24 de Fevereiro — regime jurídico dos espaços naturais, paisagens, monumentos e lugares (B.O. I Série n.º 5), with Anexo 'Rede Nacional Inicial de Áreas Protegidas'",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi38666.pdf",
+   "date": "2003-02-24",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference",
+   "note": "Annex (page 50 of the B.O.) read from the scanned page image; 47 entries."
+  },
+  {
+   "id": "cpv-res-142-2020",
+   "title": "Resolução n.º 142/2020 — Plano de Gestão das Áreas Protegidas da ilha do Maio",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi198137.pdf",
+   "date": "2020-09-27",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference",
+   "note": "Covers Reserva Natural Casas Velhas, Lagoa Cimidor, Praia do Morro, Parque Natural do Norte da Ilha do Maio, Paisagens Protegidas Barreiro e Figueira, Monte Penoso e Monte Branco, Salinas do Porto Inglês."
+  },
+  {
+   "id": "cpv-dr-4-2013",
+   "title": "Decreto-Regulamentar n.º 4/2013 — delimitação da Reserva Natural Integral Ilhéu de Baluarte (Boa Vista)",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi122521.pdf",
+   "date": "2013",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "cpv-dr-5-2013",
+   "title": "Decreto-Regulamentar n.º 5/2013, de 5 de Abril — delimitação do Parque Natural do Norte (Boa Vista)",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi122520original.pdf",
+   "date": "2013-04-05",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "cpv-dr-18-2022",
+   "title": "Decreto-Regulamentar n.º 18/2022 — primeira alteração ao Decreto-Regulamentar n.º 1/2014 (delimitação da Reserva Natural Monte do Alto das Cabaças, São Nicolau)",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi208485original.pdf",
+   "date": "2022",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "cpv-dr-25-2022",
+   "title": "Decreto-Regulamentar n.º 25/2022, de 24 de março — alteração ao Decreto-Regulamentar n.º 8/2014 (Paisagem Protegida Buracona-Ragona, Sal)",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi131248.pdf",
+   "date": "2022-03-24",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "cpv-dr-5-2022",
+   "title": "Decreto-Regulamentar n.º 5/2022 — alteração ao Decreto-Regulamentar n.º 3/2008 (Parque Natural do Fogo)",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi81892.pdf",
+   "date": "2022",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "cpv-dr-10-2007",
+   "title": "Decreto-Regulamentar n.º 10/2007, de 3 de Setembro — delimitação do Parque Natural de Monte Gordo (São Nicolau)",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi77873.pdf",
+   "date": "2007-09-03",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "cpv-res-40-2008",
+   "title": "Resolução n.º 40/2008, de 8 de Dezembro — Plano de gestão do Parque Natural de Serra Malagueta",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi97543.pdf",
+   "date": "2008-12-08",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "cpv-res-41-2008",
+   "title": "Resolução n.º 41/2008, de 8 de Dezembro — Plano de gestão do Parque Natural de Monte Gordo",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi97544.pdf",
+   "date": "2008-12-08",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "cpv-bo-2014-8",
+   "title": "B.O. I Série n.º 8, 10 de Fevereiro de 2014 — Decretos-Regulamentares n.º 16/2014 and 17/2014 (delimitation of Boa Vista protected areas incl. Monumento Natural Rocha Estância, Reserva Natural Boa Esperança, Reserva Natural Morro de Areia)",
+   "publisher": "República de Cabo Verde — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cvi131323original.pdf",
+   "date": "2014-02-10",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference",
+   "note": "Extract; the exact mapping of DR numbers to areas was not confirmed."
+  },
+  {
+   "id": "cpv-nbsap-2014",
+   "title": "Estratégia e Plano de Ação Nacional para a Biodiversidade (NBSAP v2) — Cabo Verde",
+   "publisher": "Government of Cabo Verde / CBD Secretariat",
+   "url": "https://www.cbd.int/doc/world/cv/cv-nbsap-v2-pt.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© República de Cabo Verde — cited for reference (facts and short quotes)",
+   "note": "States 'Decreto-Lei 3/2003 criando a rede nacional composta por 47 espaços protegidos'."
+  },
+  {
+   "id": "cpv-cbd-nr6",
+   "title": "Sixth National Report to the CBD — Cabo Verde",
+   "publisher": "Government of Cabo Verde / CBD Secretariat",
+   "url": "https://www.cbd.int/doc/nr/nr-06/cv-nr-06-en.pdf",
+   "date": "2020-10-15",
+   "kind": "report",
+   "licence": "© República de Cabo Verde — cited for reference (facts and short quotes)",
+   "note": "Reports 80,660 ha of terrestrial protected areas and a gap analysis for the marine component; no list."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Moroços",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Santo Antão. Category in the 2003 annex: Parque Natural. 'Parque Natural' (natural park) is distinct from the law's 'Parque Nacional' category."
+  },
+  {
+   "name": "Cova/Ribeiras Paúl/Torre",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Santo Antão. Category in the 2003 annex: Parque Natural. 'Parque Natural' (natural park) is distinct from the law's 'Parque Nacional' category."
+  },
+  {
+   "name": "Cruzinha",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Santo Antão. Category in the 2003 annex: Reserva Natural."
+  },
+  {
+   "name": "Pombas",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Paisagem Protegida",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Santo Antão. Category in the 2003 annex: Paisagem Protegida."
+  },
+  {
+   "name": "Tope de Coroa",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Santo Antão. Category in the 2003 annex: Parque Natural. 'Parque Natural' (natural park) is distinct from the law's 'Parque Nacional' category."
+  },
+  {
+   "name": "Monte Verde",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: São Vicente. Category in the 2003 annex: Parque Natural. 'Parque Natural' (natural park) is distinct from the law's 'Parque Nacional' category."
+  },
+  {
+   "name": "Santa Luzia",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Santa Luzia. Category in the 2003 annex: Reserva Natural. Art. 34 integrates Santa Luzia and the islets protected by Lei 76/III/90 into the network with the category of Reserva Integral."
+  },
+  {
+   "name": "Ilhéus Branco e Raso",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Integral",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Ilhéus Branco e Raso. Category in the 2003 annex: Reserva Integral. Islets previously protected by Lei 76/III/90 (art. 34)."
+  },
+  {
+   "name": "Monte Gordo",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006); Delimitation approved by Decreto-Regulamentar n.º 10/2007 of 3 September 2007; management plan approved by Resolução n.º 41/2008",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-dr-10-2007",
+     "cpv-res-41-2008"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-dr-10-2007",
+    "cpv-res-41-2008"
+   ],
+   "notes": "Island: São Nicolau. Category in the 2003 annex: Parque Natural. 'Parque Natural' (natural park) is distinct from the law's 'Parque Nacional' category."
+  },
+  {
+   "name": "Monte do Alto das Cabaças",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006); Delimitation approved by Decreto-Regulamentar n.º 1/2014 of 10 February 2014, amended by Decreto-Regulamentar n.º 18/2022",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-dr-18-2022"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-dr-18-2022"
+   ],
+   "notes": "Island: São Nicolau. Category in the 2003 annex: Reserva Natural."
+  },
+  {
+   "name": "Salinas de Pedra Lume e Cagarral",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Paisagem Protegida",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Paisagem Protegida."
+  },
+  {
+   "name": "Monte Grande",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Paisagem Protegida",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Paisagem Protegida."
+  },
+  {
+   "name": "Rabo de Junco",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Reserva Natural."
+  },
+  {
+   "name": "Baía da Murdeira",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Reserva Natural (Marinha)",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Reserva Natural (Marinha)."
+  },
+  {
+   "name": "Costa da Fragata",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Reserva Natural."
+  },
+  {
+   "name": "Serra Negra",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Reserva Natural."
+  },
+  {
+   "name": "Buracona-Ragona",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Paisagem Protegida",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006); Delimitation approved by Decreto-Regulamentar n.º 8/2014 of 10 February 2014, amended by Decreto-Regulamentar n.º 25/2022 of 24 March 2022",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-dr-25-2022"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-dr-25-2022"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Paisagem Protegida."
+  },
+  {
+   "name": "Salinas de Santa Maria",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Paisagem Protegida",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Paisagem Protegida."
+  },
+  {
+   "name": "Morrinho do Filho",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Monumento Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Monumento Natural."
+  },
+  {
+   "name": "Ponta de Sino",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Reserva Natural."
+  },
+  {
+   "name": "Morrinho do Açucar",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Monumento Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Sal. Category in the 2003 annex: Monumento Natural."
+  },
+  {
+   "name": "Terras Salgadas",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Maio. Category in the 2003 annex: Reserva Natural."
+  },
+  {
+   "name": "Casas Velhas",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-res-142-2020"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-res-142-2020"
+   ],
+   "notes": "Island: Maio. Category in the 2003 annex: Reserva Natural. Covered by the Maio protected areas management plan approved by Resolução n.º 142/2020."
+  },
+  {
+   "name": "Barreiro e Figueira",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-res-142-2020"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-res-142-2020"
+   ],
+   "notes": "Island: Maio. Category in the 2003 annex: Parque Natural. 'Parque Natural' (natural park) is distinct from the law's 'Parque Nacional' category. Printed 'Barareiro e Figueira' in the 2003 annex; Resolução n.º 142/2020 refers to it as 'Paisagem Protegida Barreiro e Figueira', so its category appears to have changed. Covered by the Maio protected areas management plan approved by Resolução n.º 142/2020."
+  },
+  {
+   "name": "Lagoa Cimidor",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-res-142-2020"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-res-142-2020"
+   ],
+   "notes": "Island: Maio. Category in the 2003 annex: Reserva Natural. Covered by the Maio protected areas management plan approved by Resolução n.º 142/2020."
+  },
+  {
+   "name": "Praia do Morro",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-res-142-2020"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-res-142-2020"
+   ],
+   "notes": "Island: Maio. Category in the 2003 annex: Reserva Natural. Covered by the Maio protected areas management plan approved by Resolução n.º 142/2020."
+  },
+  {
+   "name": "Salinas de Porto Inglês",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Paisagem Protegida",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-res-142-2020"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-res-142-2020"
+   ],
+   "notes": "Island: Maio. Category in the 2003 annex: Paisagem Protegida. Covered by the Maio protected areas management plan approved by Resolução n.º 142/2020."
+  },
+  {
+   "name": "Monte Penoso e Monte Branco",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Paisagem Protegida",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-res-142-2020"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-res-142-2020"
+   ],
+   "notes": "Island: Maio. Category in the 2003 annex: Paisagem Protegida. Covered by the Maio protected areas management plan approved by Resolução n.º 142/2020."
+  },
+  {
+   "name": "Monte Santo António",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Paisagem Protegida",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Maio. Category in the 2003 annex: Paisagem Protegida."
+  },
+  {
+   "name": "Boa Esperança",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006); Delimitation approved by Decreto-Regulamentar published in BO I Série n.º 8 of 10 February 2014 (DR 16/2014 or 17/2014)",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-bo-2014-8"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-bo-2014-8"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Reserva Natural. The 2014 text names it 'Reserva Natural Zona Periférica de Protecção Norte Boa Esperança'."
+  },
+  {
+   "name": "Ilhéu de Baluarte",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural Integral",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006); Delimitation approved by Decreto-Regulamentar n.º 4/2013",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-dr-4-2013"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-dr-4-2013"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Reserva Natural Integral."
+  },
+  {
+   "name": "Ilhéu dos Pássaros",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural Integral",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Reserva Natural Integral."
+  },
+  {
+   "name": "Ilhéu de Curral Velho",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural Integral",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Reserva Natural Integral."
+  },
+  {
+   "name": "Ponta do Sol",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Reserva Natural."
+  },
+  {
+   "name": "Tartaruga",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Reserva Natural."
+  },
+  {
+   "name": "Parque Natural do Norte",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006); Delimitation approved by Decreto-Regulamentar n.º 5/2013 of 5 April 2013",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-dr-5-2013"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-dr-5-2013"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Parque Natural. 'Parque Natural' (natural park) is distinct from the law's 'Parque Nacional' category."
+  },
+  {
+   "name": "Monte Caçador e Pico Forçado",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Paisagem Protegida",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Paisagem Protegida."
+  },
+  {
+   "name": "Morro de Areia",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006); Delimitation approved by Decreto-Regulamentar published in BO I Série n.º 8 of 10 February 2014 (DR 16/2014 or 17/2014)",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-bo-2014-8"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-bo-2014-8"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Reserva Natural."
+  },
+  {
+   "name": "Curral Velho",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Paisagem Protegida",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Paisagem Protegida."
+  },
+  {
+   "name": "Monte Santo António",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Monumento Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Monumento Natural."
+  },
+  {
+   "name": "Ilhéu de Sal-Rei",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Monumento Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Monumento Natural."
+  },
+  {
+   "name": "Monte Estância",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Monumento Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Monumento Natural."
+  },
+  {
+   "name": "Rocha Estância",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Monumento Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006); Delimitation approved by Decreto-Regulamentar published in BO I Série n.º 8 of 10 February 2014",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-bo-2014-8"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-bo-2014-8"
+   ],
+   "notes": "Island: Boa Vista. Category in the 2003 annex: Monumento Natural."
+  },
+  {
+   "name": "Serra da Malagueta",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006); Management plan approved by Resolução n.º 40/2008 of 8 December 2008",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-res-40-2008"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-res-40-2008"
+   ],
+   "notes": "Island: Santiago. Category in the 2003 annex: Parque Natural. 'Parque Natural' (natural park) is distinct from the law's 'Parque Nacional' category."
+  },
+  {
+   "name": "Serra do Pico de António",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Santiago. Category in the 2003 annex: Parque Natural. 'Parque Natural' (natural park) is distinct from the law's 'Parque Nacional' category."
+  },
+  {
+   "name": "Bordeira, Chã das Caldeiras e Pico Novo",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Natural",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006); Parque Natural do Fogo declared/delimited by Decreto-Regulamentar n.º 3/2008 of 2 June 2008, amended by Decreto-Regulamentar n.º 5/2022",
+    "sourceIds": [
+     "cpv-dl-3-2003",
+     "cpv-dr-5-2022"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003",
+    "cpv-dr-5-2022"
+   ],
+   "notes": "Island: Fogo. Category in the 2003 annex: Parque Natural. Known as Parque Natural do Fogo; DR 5/2022 refers to the area as including Pico Novo, Orela and Bordeira. 'Parque Natural' (natural park) is distinct from the law's 'Parque Nacional' category."
+  },
+  {
+   "name": "Ilhéus do Rombo",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Reserva Integral",
+   "legalStatus": {
+    "text": "Listed in the annex 'Rede Nacional Inicial de Áreas Protegidas' of Decreto-Lei n.º 3/2003 of 24 February 2003 (amended by Decreto-Lei n.º 44/2006)",
+    "sourceIds": [
+     "cpv-dl-3-2003"
+    ]
+   },
+   "established": "2003-02-24",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cpv-dl-3-2003"
+   ],
+   "notes": "Island: Ilhéus do Rombo. Category in the 2003 annex: Reserva Integral. Islets previously protected by Lei 76/III/90 (art. 34)."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "protected areas declared after 2003 (if any) and marine protected areas proposed by the marine gap analysis",
+   "approxCount": null,
+   "reason": "Not systematically searched; NR6 mentions proposals for new PAs in the marine component.",
+   "sourceIds": [
+    "cpv-cbd-nr6"
+   ]
+  }
+ ],
+ "gaps": [
+  "Areas (ha) were not extracted per site; individual Decretos-Regulamentares give delimitations for some sites only.",
+  "Categories are those of the 2003 annex; some have changed (e.g. Barreiro e Figueira, Maio, became Paisagem Protegida; Terras Salgadas/Parque Natural do Norte da Ilha do Maio relationship unclear).",
+  "Only a sample of later Decretos-Regulamentares/Resoluções was checked; legalStatus lists only those verified in FAOLEX.",
+  "Any protected areas added to the network after 2003 (e.g. new marine areas) were not identified.",
+  "Wikidata QIDs not assigned (Wikidata services were rate-limiting); coordinates left null."
+ ]
+}

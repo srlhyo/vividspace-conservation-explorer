@@ -127,6 +127,8 @@ export interface TerritoryProfile {
   territory: Territory
   parent?: Territory
   children: Territory[]
+  /** Catalogued areas recorded as overlapping this one (in either direction). */
+  overlaps: Territory[]
   countryName: string
   designations: (DesignationType & { sourceIds: string[] })[]
   ecosystems: (TerritoryEcosystem & { ecosystem: Ecosystem })[]
@@ -169,6 +171,7 @@ export function getTerritoryProfile(
     ...opportunities.flatMap((o) => o.rationale),
     ...opportunities.flatMap((o) => o.organisationLinks.map((l) => l.statement)),
     ...organisations.map((o) => o.role),
+    ...(territory.inventory?.legalStatus ? [territory.inventory.legalStatus] : []),
   ]
   const designations = territory.designations.flatMap((d) => {
     const type = catalogue.designationTypes.find((x) => x.id === d.designationId)
@@ -190,6 +193,11 @@ export function getTerritoryProfile(
     territory,
     parent: catalogue.territories.find((t) => t.id === territory.parentId),
     children: catalogue.territories.filter((t) => t.parentId === territory.id),
+    overlaps: catalogue.territories.filter(
+      (t) =>
+        t.id !== territory.id &&
+        (territory.inventory?.overlaps?.includes(t.id) || t.inventory?.overlaps?.includes(territory.id)),
+    ),
     countryName:
       catalogue.countries.find((c) => c.code === territory.countryCode)?.name ??
       territory.countryCode,

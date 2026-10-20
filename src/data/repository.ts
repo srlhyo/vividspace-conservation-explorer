@@ -45,7 +45,7 @@ export function createStaticRepository(baseUrl: string): ConservationRepository 
     getCatalogue: () => fetchJson<Catalogue>(`${baseUrl}/catalogue.json`),
     getBoundaries: async () => {
       const [countries, regions] = await Promise.all([
-        fetchJson<CountryCollection>(`${baseUrl}/geo/wasop-countries.geojson`),
+        fetchJson<CountryCollection>(`${baseUrl}/geo/countries.geojson`),
         fetchJson<BoundaryCollection>(`${baseUrl}/geo/gnb-adm1.geojson`),
       ])
       return { countries, regions }

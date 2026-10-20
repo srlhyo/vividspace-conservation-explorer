@@ -1,0 +1,1314 @@
+{
+ "country": "GAB",
+ "countryName": "Gabon",
+ "officialInventory": {
+  "summary": "No consolidated official list was retrievable online: the ANPN (Agence Nationale des Parcs Nationaux) website did not resolve/respond. The inventory here is assembled from the founding legal texts: the 13 decrees of 30 August 2002 classifying the national parks (FAOLEX/LEAP; governed since by Loi 003/2007) and Décret 00161/PR of 31 May 2017, which creates 9 marine parks and 11 aquatic reserves with areas and boundaries. Counts are confirmed by Gabon's 6th national report to the CBD (2019). Other protected areas (presidential reserve, arboreta, hunting domains, proposed sites) come from the 2012 PoWPA action plan and the 2019 national report and are dated or partly verified.",
+  "sourceIds": [
+   "gab-decret-161-2017",
+   "gab-cbd-nr6-2019",
+   "gab-cbd-powpa-2012",
+   "gab-carpe-recueil-2009"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "national parks",
+    "count": 13,
+    "asOf": "2019",
+    "sourceId": "gab-cbd-nr6-2019",
+    "quote": "13 parcs nationaux représentant 11% du territoire national"
+   },
+   {
+    "category": "marine parks",
+    "count": 9,
+    "asOf": "2017",
+    "sourceId": "gab-decret-161-2017",
+    "quote": "neuf (9) parcs marins d'une superficie totale de 1 731 Km2"
+   },
+   {
+    "category": "aquatic reserves",
+    "count": 11,
+    "asOf": "2017",
+    "sourceId": "gab-decret-161-2017",
+    "quote": "onze (11) réserves aquatiques d'une superficie totale de 51 028 Km2"
+   },
+   {
+    "category": "arboreta",
+    "count": 2,
+    "asOf": "2019",
+    "sourceId": "gab-cbd-nr6-2019",
+    "quote": "2 arboreta, 1 réserve présidentielle (réserve biologique)"
+   },
+   {
+    "category": "presidential reserve",
+    "count": 1,
+    "asOf": "2019",
+    "sourceId": "gab-cbd-nr6-2019",
+    "quote": "1 réserve présidentielle (réserve biologique)"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "gab-decret-161-2017",
+   "title": "Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques en République Gabonaise (Journal Officiel N°351 bis du 1 juin 2017)",
+   "publisher": "Présidence de la République gabonaise (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/gab240602.pdf",
+   "date": "2017-05-31",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Full text: creates 9 marine parks (1,731 km²) and 11 aquatic reserves (51,028 km²) = 26.2% of Gabonese marine waters, each with area and boundary coordinates."
+  },
+  {
+   "id": "gab-leap-161-2017",
+   "title": "Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques — LEAP record",
+   "publisher": "UNEP Law and Environment Assistance Platform (content from FAO/FAOLEX)",
+   "url": "https://leap.unep.org/en/countries/ga/national-legislation/decret-ndeg-00161pr-du-31052017-portant-creation-daires-protegees",
+   "date": "2017-05-31",
+   "kind": "webpage",
+   "licence": "© UNEP / FAO — cited for reference (facts and short quotes)",
+   "note": "Gives Journal Officiel No. 351 bis, 1 June 2017."
+  },
+  {
+   "id": "gab-carpe-recueil-2009",
+   "title": "Recueil des textes juridiques en matière de conservation et d'utilisation des ressources naturelles au Gabon (version du 22 septembre 2009)",
+   "publisher": "CARPE (Central African Regional Program for the Environment, USAID) archive",
+   "url": "https://carpe.umd.edu/sites/default/files/documentsarchive/Repertoire_Lois_et_decrets_sur_la_gestion_des_RN_au_Gabon_2009.pdf",
+   "date": "2009-09-22",
+   "kind": "report",
+   "licence": "© CARPE — cited for reference (facts and short quotes)",
+   "note": "Donor-programme compilation (not an official publication) listing Loi 03/2007 and the 13 park-classification decrees n° 607–619/PR/MEFEPEPN of 30 August 2002. Used to cross-check decree numbers."
+  },
+  {
+   "id": "gab-cbd-nr6-2019",
+   "title": "Sixième Rapport National sur la Diversité Biologique (Gabon)",
+   "publisher": "Ministère des Eaux, des Forêts, de la Mer, de l'Environnement (Gabon), submitted to the CBD",
+   "url": "https://www.cbd.int/doc/nr/nr-06/ga-nr-06-fr.pdf",
+   "date": "2019-11-18",
+   "kind": "report",
+   "licence": "© Government of Gabon / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "States 13 national parks (11% of territory), 2 arboreta, 1 presidential reserve, 9 Ramsar sites, 20 marine areas (9 marine parks + 11 aquatic reserves). Swaps the hectare totals of marine parks and aquatic reserves relative to Decree 161/2017."
+  },
+  {
+   "id": "gab-cbd-powpa-2012",
+   "title": "Plan d'action pour l'application du Programme de travail sur les aires protégées de la CDB (Gabon)",
+   "publisher": "Government of Gabon (PoWPA focal point), submitted to the CBD",
+   "url": "https://www.cbd.int/doc/world/ga/ga-nbsap-powpa-fr.pdf",
+   "date": "2012 (PDF dated 2012-09-17)",
+   "kind": "report",
+   "licence": "© Government of Gabon / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "Table of 'Sites classés' (23: a hunting reserve, forest/scientific reserves, 7 hunting domains, 13 national parks with areas) and 'Sites en cours de classement' (3). Dated; pre-dates the 2017 marine network."
+  },
+  {
+   "id": "gab-decret-607-2002",
+   "title": "Décret n° 607/PR/MEFEPEPN du 30 août 2002 (Parc national de la Lopé)",
+   "publisher": "Présidence de la République gabonaise (scan via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/gab143225.pdf",
+   "date": "2002-08-30",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Scanned official text (Hebdo Informations); read directly."
+  },
+  {
+   "id": "gab-decret-608-2002",
+   "title": "Décret n° 608/PR/MEFEPEPN du 30 août 2002 portant classement du parc national d'Akanda — LEAP/FAOLEX record",
+   "publisher": "UNEP LEAP (content from FAO/FAOLEX); official text in FAOLEX",
+   "url": "https://leap.unep.org/en/countries/ga/national-legislation/decret-ndeg-608prmefepepn-du-30-aout-2002-portant-classement-du",
+   "date": "2002-08-30",
+   "kind": "webpage",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Abstract gives area and provinces; full text PDF: https://faolex.fao.org/docs/pdf/gab143226.pdf"
+  },
+  {
+   "id": "gab-decret-609-2002",
+   "title": "Décret n° 609/PR/MEFEPEPN du 30 août 2002 (Parc national des Plateaux Batéké)",
+   "publisher": "Présidence de la République gabonaise (scan via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/gab143227.pdf",
+   "date": "2002-08-30",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Scanned official text (Hebdo Informations); read directly."
+  },
+  {
+   "id": "gab-decret-610-2002",
+   "title": "Décret n° 610/PR/MEFEPEPN du 30 août 2002 portant classement du parc national des Monts Birougou — LEAP/FAOLEX record",
+   "publisher": "UNEP LEAP (content from FAO/FAOLEX); official text in FAOLEX",
+   "url": "https://leap.unep.org/en/countries/ga/national-legislation/decret-ndeg-610prmefepepn-du-30-aout-2002-portant-classement-du",
+   "date": "2002-08-30",
+   "kind": "webpage",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Abstract gives area and provinces; full text PDF: https://faolex.fao.org/docs/pdf/gab143228.pdf"
+  },
+  {
+   "id": "gab-decret-611-2002",
+   "title": "Décret n° 611/PR/MEFEPEPN du 30 août 2002 portant classement du parc national des Monts de Cristal — LEAP/FAOLEX record",
+   "publisher": "UNEP LEAP (content from FAO/FAOLEX); official text in FAOLEX",
+   "url": "https://leap.unep.org/en/countries/ga/national-legislation/decret-ndeg-611prmefepepn-du-30-aout-2002-portant-classement-du",
+   "date": "2002-08-30",
+   "kind": "webpage",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Abstract gives area and provinces; full text PDF: https://faolex.fao.org/docs/pdf/gab143229.pdf"
+  },
+  {
+   "id": "gab-decret-612-2002",
+   "title": "Décret n° 612/PR/MEFEPEPN du 30 août 2002 portant classement du parc national de l'Ivindo — LEAP/FAOLEX record",
+   "publisher": "UNEP LEAP (content from FAO/FAOLEX); official text in FAOLEX",
+   "url": "https://leap.unep.org/en/countries/ga/national-legislation/decret-ndeg-612prmefepepn-du-30-aout-2002-portant-classement-du",
+   "date": "2002-08-30",
+   "kind": "webpage",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Abstract gives area and provinces; full text PDF: https://faolex.fao.org/docs/pdf/gab143230.pdf"
+  },
+  {
+   "id": "gab-decret-613-2002",
+   "title": "Décret n° 613/PR/MEFEPEPN du 30 août 2002 portant classement du parc national de Loango — LEAP/FAOLEX record",
+   "publisher": "UNEP LEAP (content from FAO/FAOLEX); official text in FAOLEX",
+   "url": "https://leap.unep.org/en/countries/ga/national-legislation/decret-ndeg-613prmefepepn-du-30-aout-2002-portant-classement-du",
+   "date": "2002-08-30",
+   "kind": "webpage",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Abstract gives area and provinces; full text PDF: https://faolex.fao.org/docs/pdf/gab143231.pdf"
+  },
+  {
+   "id": "gab-decret-614-2002",
+   "title": "Décret n° 614/PR/MEFEPEPN du 30 août 2002 portant classement du parc national de Mayumba — LEAP/FAOLEX record",
+   "publisher": "UNEP LEAP (content from FAO/FAOLEX); official text in FAOLEX",
+   "url": "https://leap.unep.org/en/countries/ga/national-legislation/decret-ndeg-614prmefepepn-du-30-aout-2002-portant-classement-du",
+   "date": "2002-08-30",
+   "kind": "webpage",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Abstract gives area and provinces; full text PDF: https://faolex.fao.org/docs/pdf/gab143232.pdf"
+  },
+  {
+   "id": "gab-decret-615-2002",
+   "title": "Décret n° 615/PR/MEFEPEPN du 30 août 2002 (Parc national de Minkébé)",
+   "publisher": "Présidence de la République gabonaise (scan via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/gab143233.pdf",
+   "date": "2002-08-30",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Scanned official text (Hebdo Informations); read directly."
+  },
+  {
+   "id": "gab-decret-616-2002",
+   "title": "Décret n° 616/PR/MEFEPEPN du 30 août 2002 portant classement du parc national de Moukalaba-Doudou — LEAP/FAOLEX record",
+   "publisher": "UNEP LEAP (content from FAO/FAOLEX); official text in FAOLEX",
+   "url": "https://leap.unep.org/en/countries/ga/national-legislation/decret-ndeg-616prmefepepn-du-30-aout-2002-portant-classement-du",
+   "date": "2002-08-30",
+   "kind": "webpage",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Abstract gives area and provinces; full text PDF: https://faolex.fao.org/docs/pdf/gab143234.pdf"
+  },
+  {
+   "id": "gab-decret-617-2002",
+   "title": "Décret n° 617/PR/MEFEPEPN du 30 août 2002 (Parc national de Mwagné)",
+   "publisher": "Présidence de la République gabonaise (scan via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/gab143235.pdf",
+   "date": "2002-08-30",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Scanned official text (Hebdo Informations); read directly."
+  },
+  {
+   "id": "gab-decret-618-2002",
+   "title": "Décret n° 618/PR/MEFEPEPN du 30 août 2002 portant classement du parc national de Pongara — LEAP/FAOLEX record",
+   "publisher": "UNEP LEAP (content from FAO/FAOLEX); official text in FAOLEX",
+   "url": "https://leap.unep.org/en/countries/ga/national-legislation/decret-ndeg-618prmefepepn-du-30-aout-2002-portant-classement-du",
+   "date": "2002-08-30",
+   "kind": "webpage",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Abstract gives area and provinces; full text PDF: https://faolex.fao.org/docs/pdf/gab143236.pdf"
+  },
+  {
+   "id": "gab-decret-619-2002",
+   "title": "Décret n° 619/PR/MEFEPEPN du 30 août 2002 portant classement du parc national de Waka — LEAP/FAOLEX record",
+   "publisher": "UNEP LEAP (content from FAO/FAOLEX); official text in FAOLEX",
+   "url": "https://leap.unep.org/en/countries/ga/national-legislation/decret-ndeg-619prmefepepn-du-30-aout-2002-portant-classement-du",
+   "date": "2002-08-30",
+   "kind": "webpage",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of Gabon — cited for reference (facts and short quotes)",
+   "note": "Abstract gives area and provinces; full text PDF: https://faolex.fao.org/docs/pdf/gab143237.pdf"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parc national de la Lopé",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 607/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-607-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 4848.94,
+   "coordinates": null,
+   "wikidataQid": "Q9055976",
+   "marine": null,
+   "sourceIds": [
+    "gab-decret-607-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Ogooué-Ivindo, Ogooué-Lolo, Moyen-Ogooué, Ngounié. Decree 607 creates a protected area of about 491,291 ha comprising the park (about 484,894 ha) and multiple-use zones (about 6,397 ha). The 6th national report records Lopé as a mixed World Heritage site (2015). Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national d'Akanda",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 608/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-608-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 537.8,
+   "coordinates": null,
+   "wikidataQid": "Q3105583",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-608-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Estuaire. Area per the FAOLEX abstract ('53,780 hectares'); the 2012 PoWPA table gives 5 780 ha (apparent typo). PoWPA marks it '(zone marine)'; the 6th national report lists Akanda (Parc National) as a Ramsar site and a sea-turtle feeding area. Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national des Plateaux Batéké",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 609/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-609-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 2048.54,
+   "coordinates": null,
+   "wikidataQid": "Q3695605",
+   "marine": false,
+   "sourceIds": [
+    "gab-decret-609-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Haut-Ogooué. Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national des Monts Birougou",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 610/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-610-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 690.21,
+   "coordinates": null,
+   "wikidataQid": "Q662606",
+   "marine": false,
+   "sourceIds": [
+    "gab-decret-610-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Ngounié, Ogooué-Lolo. The 6th national report lists 'Monts Birougou (Parc National)' as a Ramsar site (with a larger Ramsar area). Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national des Monts de Cristal",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 611/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-611-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 1196.36,
+   "coordinates": null,
+   "wikidataQid": "Q5191298",
+   "marine": false,
+   "sourceIds": [
+    "gab-decret-611-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Estuaire, Woleu-Ntem. Two sectors: Mont Seni and Mbé (FAOLEX abstract). Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national de l'Ivindo",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 612/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-612-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 3002.74,
+   "coordinates": null,
+   "wikidataQid": "Q9055979",
+   "marine": false,
+   "sourceIds": [
+    "gab-decret-612-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Ogooué-Ivindo, Ogooué-Lolo. The 6th national report mentions the Ipassa-Makokou biosphere reserve and the 'Chutes et Rapides sur Ivindo' Ramsar site in this area; exact coincidence not verified. Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national de Loango",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 613/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-613-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 1552.24,
+   "coordinates": null,
+   "wikidataQid": "Q1756690",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-613-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Ogooué-Maritime. Decree 161/2017 places the Iguéla and Setté Cama marine parks contiguous to Loango NP's coastal façade (coastal park). Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national de Mayumba",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 614/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-614-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 971.63,
+   "coordinates": null,
+   "wikidataQid": "Q3102654",
+   "marine": null,
+   "sourceIds": [
+    "gab-decret-614-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Nyanga. Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national de Minkébé",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 615/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-615-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 7566.69,
+   "coordinates": null,
+   "wikidataQid": "Q1961377",
+   "marine": false,
+   "sourceIds": [
+    "gab-decret-615-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Woleu-Ntem, Ogooué-Ivindo. The LEAP abstract for decree 615 wrongly repeats the Moukalaba-Doudou text; name and area here are taken from the FAOLEX PDF of decree 615. Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national de Moukalaba-Doudou",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 616/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-616-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 4495.48,
+   "coordinates": null,
+   "wikidataQid": "Q6918943",
+   "marine": null,
+   "sourceIds": [
+    "gab-decret-616-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Nyanga, Ogooué-Maritime. Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national de Mwagné",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 617/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-617-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 1164.75,
+   "coordinates": null,
+   "wikidataQid": "Q9055981",
+   "marine": false,
+   "sourceIds": [
+    "gab-decret-617-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Ogooué-Ivindo. Area read from the scanned decree (FAOLEX PDF); matches the 2012 PoWPA table (116 475 ha). Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national de Pongara",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 618/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-618-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 929.69,
+   "coordinates": null,
+   "wikidataQid": "Q7227798",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-618-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Estuaire. PoWPA marks it '(zone marine)'; the 6th national report lists Pongara (Parc National) as a Ramsar site with mangroves and sea-turtle nesting. Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc national de Waka",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classified by Décret n° 619/PR/MEFEPEPN du 30 août 2002 (under Loi 16/2001 Code forestier); national parks now governed by Loi n° 003/2007 relative aux parcs nationaux",
+    "sourceIds": [
+     "gab-decret-619-2002",
+     "gab-carpe-recueil-2009"
+    ]
+   },
+   "established": "2002-08-30",
+   "areaKm2": 1069.38,
+   "coordinates": null,
+   "wikidataQid": "Q1101416",
+   "marine": false,
+   "sourceIds": [
+    "gab-decret-619-2002",
+    "gab-carpe-recueil-2009",
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Ngounié. Area converted from hectares in the decree."
+  },
+  {
+   "name": "Parc Marin de l'Ile de Mbanié",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parc Marin (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 9 and 10; under Loi 15/2005 Code des pêches et de l'aquaculture",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 312.5,
+   "coordinates": null,
+   "wikidataQid": "Q118157466",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 10. Boundary points are given in the decree (not converted here). "
+  },
+  {
+   "name": "Parc Marin de la Pointe Denis",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parc Marin (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 9 and 11; under Loi 15/2005 Code des pêches et de l'aquaculture",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 614.4,
+   "coordinates": null,
+   "wikidataQid": "Q118157465",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 11. Boundary points are given in the decree (not converted here). "
+  },
+  {
+   "name": "Parc Marin du Cap Lopez",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parc Marin (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 9 and 12; under Loi 15/2005 Code des pêches et de l'aquaculture",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 12.1,
+   "coordinates": null,
+   "wikidataQid": "Q118157468",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 12. Boundary points are given in the decree (not converted here). "
+  },
+  {
+   "name": "Parc Marin de l'embouchure d'Ozouri",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parc Marin (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 9 and 13; under Loi 15/2005 Code des pêches et de l'aquaculture",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 115.5,
+   "coordinates": null,
+   "wikidataQid": "Q118157470",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 13. Boundary points are given in the decree (not converted here). "
+  },
+  {
+   "name": "Parc Marin de l'embouchure d'Olendé",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parc Marin (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 9 and 14; under Loi 15/2005 Code des pêches et de l'aquaculture",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 138.8,
+   "coordinates": null,
+   "wikidataQid": "Q118157462",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 14. Boundary points are given in the decree (not converted here). "
+  },
+  {
+   "name": "Parc Marin de l'embouchure d'Iguéla",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parc Marin (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 9 and 15; under Loi 15/2005 Code des pêches et de l'aquaculture",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 220.8,
+   "coordinates": null,
+   "wikidataQid": "Q118157473",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 15. Boundary points are given in the decree (not converted here). Contiguous to the northern limit of Loango National Park's coastal façade (Art. 15)."
+  },
+  {
+   "name": "Parc Marin de l'embouchure de Setté Cama",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parc Marin (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 9 and 16; under Loi 15/2005 Code des pêches et de l'aquaculture",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 210.0,
+   "coordinates": null,
+   "wikidataQid": "Q118157475",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 16. Boundary points are given in the decree (not converted here). Contiguous to the southern limit of Loango National Park's coastal façade (Art. 16)."
+  },
+  {
+   "name": "Parc Marin de l'embouchure de la Nyanga",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parc Marin (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 9 and 17; under Loi 15/2005 Code des pêches et de l'aquaculture",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 68.3,
+   "coordinates": null,
+   "wikidataQid": "Q118157461",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 17. Boundary points are given in the decree (not converted here). "
+  },
+  {
+   "name": "Parc Marin de l'embouchure de la Banio",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parc Marin (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 9 and 18; under Loi 15/2005 Code des pêches et de l'aquaculture",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 38.7,
+   "coordinates": null,
+   "wikidataQid": "Q118157472",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 18. Boundary points are given in the decree (not converted here). Spelled 'Banio' in Art. 9 and 'Banjo' in Art. 18 of the FAOLEX text."
+  },
+  {
+   "name": "Réserve Aquatique du Cap Estérias",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 28",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 156.1,
+   "coordinates": null,
+   "wikidataQid": "Q118157240",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 28. Two separate parts (2 tenants); industrial fishing prohibited (Art. 39)."
+  },
+  {
+   "name": "Réserve Aquatique du Caillou",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 29",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 86.1,
+   "coordinates": null,
+   "wikidataQid": "Q118157266",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 29."
+  },
+  {
+   "name": "Réserve Aquatique des Canyons du Cap Lopez",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 31",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 9869.1,
+   "coordinates": null,
+   "wikidataQid": "Q118157246",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 31."
+  },
+  {
+   "name": "Réserve Aquatique du Delta de l'Ogooué",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 30",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 418.4,
+   "coordinates": null,
+   "wikidataQid": "Q118157263",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 30."
+  },
+  {
+   "name": "Réserve Aquatique de Mandji-Etimboué",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 32",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 4052.0,
+   "coordinates": null,
+   "wikidataQid": "Q118157241",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 32."
+  },
+  {
+   "name": "Réserve Aquatique de Koumandji",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 33",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 1347.7,
+   "coordinates": null,
+   "wikidataQid": "Q118157248",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 33. Three parts, contiguous to the Iguéla and Setté Cama marine parks along the coast."
+  },
+  {
+   "name": "Réserve Aquatique de Tchatamba",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 34",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 227.0,
+   "coordinates": null,
+   "wikidataQid": "Q118157236",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 34."
+  },
+  {
+   "name": "Réserve Aquatique de Gamba",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 35",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 107.0,
+   "coordinates": null,
+   "wikidataQid": "Q118157243",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 35."
+  },
+  {
+   "name": "Réserve Aquatique d'Olowi",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 36",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 215.7,
+   "coordinates": null,
+   "wikidataQid": "Q118157237",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 36."
+  },
+  {
+   "name": "Réserve Aquatique de l'Abysse Bleu",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 37",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 7030.3,
+   "coordinates": null,
+   "wikidataQid": "Q118157249",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 37."
+  },
+  {
+   "name": "Réserve Aquatique du Grand Sud du Gabon",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve Aquatique (aire protégée aquatique)",
+   "legalStatus": {
+    "text": "Created by Décret N° 00161/PR du 31/05/2017 portant création d'aires protégées aquatiques (JO N°351 bis, 1 June 2017), Art. 27 and 38",
+    "sourceIds": [
+     "gab-decret-161-2017",
+     "gab-leap-161-2017"
+    ]
+   },
+   "established": "2017-05-31",
+   "areaKm2": 27518.1,
+   "coordinates": null,
+   "wikidataQid": "Q118157233",
+   "marine": true,
+   "sourceIds": [
+    "gab-decret-161-2017",
+    "gab-leap-161-2017"
+   ],
+   "notes": "Area from decree Art. 38."
+  },
+  {
+   "name": "Wonga-Wongué",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve présidentielle (6th national report) / Réserve de chasse (2012 PoWPA)",
+   "legalStatus": {
+    "text": "Listed among 'Sites classés' (Réserve de chasse, managed by the Présidence de la République) in Gabon's 2012 PoWPA action plan; the 6th national report (2019) calls it the presidential reserve (réserve biologique). Creating act not obtained.",
+    "sourceIds": [
+     "gab-cbd-powpa-2012",
+     "gab-cbd-nr6-2019"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q2252269",
+   "marine": true,
+   "sourceIds": [
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Provinces Estuaire/Ogooué-Maritime/Moyen-Ogooué (PoWPA). Area conflicts: 480 000 ha (PoWPA) vs 380 000 ha (6th national report Ramsar table), so left null. PoWPA marks '(zone marine)'; 6NR describes a coastal region. Also a Ramsar site per the 6th national report (designated 1986)."
+  },
+  {
+   "name": "Arboretum de Sibang",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Réserve Forestière (PoWPA) / arboretum",
+   "legalStatus": {
+    "text": "Listed among 'Sites classés' (Réserve Forestière, 16 ha, managed by CENAREST) in the 2012 PoWPA action plan; the 6th national report counts it as one of Gabon's 2 arboreta (laid out in 1931). Creating act not obtained.",
+    "sourceIds": [
+     "gab-cbd-powpa-2012",
+     "gab-cbd-nr6-2019"
+    ]
+   },
+   "established": null,
+   "areaKm2": 0.16,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Area 16 ha per PoWPA (2012). Name in PoWPA: 'Sibang'. 6NR: '1931 : Aménagement de l'arboretum de Sibang'. Year of legal classification not documented."
+  },
+  {
+   "name": "Arboretum Raponda Walker (forêt classée de la Mondah)",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Arboretum within the Mondah classified forest (Réserve scientifique / forêt classée)",
+   "legalStatus": {
+    "text": "6th national report: 'Création de l'arboretum Raponda Walker au sein de la forêt classée de la Mondah' (2011). The 2012 PoWPA lists 'Mondah — Réserve scientifique (forêt classée), 493 ha' among 'Sites classés'. Creating decree not obtained.",
+    "sourceIds": [
+     "gab-cbd-nr6-2019",
+     "gab-cbd-powpa-2012"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q6898591",
+   "marine": null,
+   "sourceIds": [
+    "gab-cbd-nr6-2019",
+    "gab-cbd-powpa-2012"
+   ],
+   "notes": "The PoWPA 493 ha figure is for 'Mondah' and may not equal the arboretum's extent, so area left null. Press in 2023–2026 reported disputes and a draft partial declassification decree (May 2026); not verified from official text."
+  },
+  {
+   "name": "Petit Loango",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Listed among 'Sites classés' (Domaine de chasse) in Gabon's 2012 PoWPA action plan; creating act and current status not verified.",
+    "sourceIds": [
+     "gab-cbd-powpa-2012"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q118158584",
+   "marine": true,
+   "sourceIds": [
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Ogooué-Maritime. PoWPA gives 480.000 ha and marks '(zone marine)'; the 6th national report lists 'Petit Loango (Réserve de faune)' as a Ramsar site (480 000 ha). Probably overlaps Loango National Park (not verified). Status dated 2012; several hunting domains were partly or wholly absorbed into the 2002 national parks, so this record may be historical."
+  },
+  {
+   "name": "Moukalaba",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Listed among 'Sites classés' (Domaine de chasse) in Gabon's 2012 PoWPA action plan; creating act and current status not verified.",
+    "sourceIds": [
+     "gab-cbd-powpa-2012"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q118164061",
+   "marine": null,
+   "sourceIds": [
+    "gab-cbd-powpa-2012"
+   ],
+   "notes": "Province(s): Nyanga/Ngounié/Ogooué-Maritime. Probably overlaps Moukalaba-Doudou National Park (not verified). Status dated 2012; several hunting domains were partly or wholly absorbed into the 2002 national parks, so this record may be historical."
+  },
+  {
+   "name": "Iguéla",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Listed among 'Sites classés' (Domaine de chasse) in Gabon's 2012 PoWPA action plan; creating act and current status not verified.",
+    "sourceIds": [
+     "gab-cbd-powpa-2012"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q5994439",
+   "marine": null,
+   "sourceIds": [
+    "gab-cbd-powpa-2012"
+   ],
+   "notes": "Province(s): Ogooué-Maritime.  Status dated 2012; several hunting domains were partly or wholly absorbed into the 2002 national parks, so this record may be historical."
+  },
+  {
+   "name": "Mont Doudou",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Listed among 'Sites classés' (Domaine de chasse) in Gabon's 2012 PoWPA action plan; creating act and current status not verified.",
+    "sourceIds": [
+     "gab-cbd-powpa-2012"
+    ]
+   },
+   "established": null,
+   "areaKm2": 5072.28,
+   "coordinates": null,
+   "wikidataQid": "Q118164049",
+   "marine": null,
+   "sourceIds": [
+    "gab-cbd-powpa-2012"
+   ],
+   "notes": "Province(s): Ogooué-Maritime/Ngounié. Area 507 228 ha per PoWPA. Probably overlaps Moukalaba-Doudou National Park (not verified). Status dated 2012; several hunting domains were partly or wholly absorbed into the 2002 national parks, so this record may be historical."
+  },
+  {
+   "name": "Ngove-Ndogo",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Listed among 'Sites classés' (Domaine de chasse) in Gabon's 2012 PoWPA action plan; creating act and current status not verified.",
+    "sourceIds": [
+     "gab-cbd-powpa-2012"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q118164036",
+   "marine": null,
+   "sourceIds": [
+    "gab-cbd-powpa-2012"
+   ],
+   "notes": "Province(s): Ogooué-Maritime.  Status dated 2012; several hunting domains were partly or wholly absorbed into the 2002 national parks, so this record may be historical."
+  },
+  {
+   "name": "Setté-Cama",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Listed among 'Sites classés' (Domaine de chasse) in Gabon's 2012 PoWPA action plan; creating act and current status not verified.",
+    "sourceIds": [
+     "gab-cbd-powpa-2012"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q7456862",
+   "marine": true,
+   "sourceIds": [
+    "gab-cbd-powpa-2012",
+    "gab-cbd-nr6-2019"
+   ],
+   "notes": "Province(s): Ogooué-Maritime. PoWPA marks '(zone marine)'; the 6th national report lists 'Setté Cama (Réserve de faune et Domaine de chasse)' as a Ramsar site (220 000 ha). Status dated 2012; several hunting domains were partly or wholly absorbed into the 2002 national parks, so this record may be historical."
+  },
+  {
+   "name": "Lékédi",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Listed among 'Sites classés' (Domaine de chasse) in Gabon's 2012 PoWPA action plan; creating act and current status not verified.",
+    "sourceIds": [
+     "gab-cbd-powpa-2012"
+    ]
+   },
+   "established": null,
+   "areaKm2": 192.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gab-cbd-powpa-2012"
+   ],
+   "notes": "Province(s): Haut-Ogooué. Area 19 200 ha per PoWPA. Status dated 2012; several hunting domains were partly or wholly absorbed into the 2002 national parks, so this record may be historical."
+  },
+  {
+   "name": "Iboudji",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Sanctuaire de biodiversité (site en cours de classement)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 40.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gab-cbd-powpa-2012"
+   ],
+   "notes": "Listed under 'Sites en cours de classement' in the 2012 PoWPA action plan (province: Ogooué-Lolo; 4000 ha). Whether it was later classified is not verified."
+  },
+  {
+   "name": "Plaine Ouanga",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Réserve de faune (site en cours de classement)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 200.0,
+   "coordinates": null,
+   "wikidataQid": "Q118158585",
+   "marine": null,
+   "sourceIds": [
+    "gab-cbd-powpa-2012"
+   ],
+   "notes": "Listed under 'Sites en cours de classement' in the 2012 PoWPA action plan (province: Ogooué-Maritime; 20000 ha). Whether it was later classified is not verified."
+  },
+  {
+   "name": "Evaro",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Sanctuaire de biodiversité (site en cours de classement)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 2249.51,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gab-cbd-powpa-2012"
+   ],
+   "notes": "Listed under 'Sites en cours de classement' in the 2012 PoWPA action plan (province: Moyen-Ogooué; 224951 ha). Whether it was later classified is not verified."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "classified forests (forêts classées) and other forest reserves",
+   "approxCount": null,
+   "reason": "No official list found; only Sibang and Mondah appear in the 2012 PoWPA table.",
+   "sourceIds": [
+    "gab-cbd-powpa-2012"
+   ]
+  },
+  {
+   "category": "conservation series (séries de conservation) in managed forest concessions",
+   "approxCount": null,
+   "reason": "Mentioned in the 6th national report as additional conservation areas, but not listed.",
+   "sourceIds": [
+    "gab-cbd-nr6-2019"
+   ]
+  }
+ ],
+ "gaps": [
+  "The ANPN website (parcsgabon.ga / anpn.ga) could not be reached (DNS failure/timeout), so no current official ANPN list was checked; possible changes after 2019 (new parks, boundary changes, the extension of Akanda/Pongara buffer zones or the May 2026 draft partial declassification of Arboretum Raponda Walker reported in the press) are not verified.",
+  "National park areas are the classification-decree figures from 2002 (FAOLEX abstracts or scanned decrees). Later boundary changes, if any, are not reflected. The LEAP abstract for decree 615 (Minkébé) is wrong (it repeats Moukalaba-Doudou), so the Minkébé area comes from the scanned decree.",
+  "Gabon's 6th national report swaps the marine totals (aquatic reserves 173,100 ha; marine parks 5,102,800 ha); Decree 161/2017 gives marine parks 1,731 km² and aquatic reserves 51,028 km², and the decree figures are used here.",
+  "Decree 161/2017 gives boundary coordinates for each marine park and aquatic reserve. They were not converted to points, so coordinates are left null.",
+  "The status of hunting domains (domaines de chasse) and of Wonga-Wongué rests on the 2012 PoWPA table only. Their creating acts were not found, and several probably overlap or were absorbed by the 2002 national parks.",
+  "Marine flags for Mayumba and Moukalaba-Doudou national parks are left null because the fetched texts do not describe them as marine or coastal.",
+  "Ramsar, World Heritage (Lopé, 2015) and biosphere (Ipassa-Makokou) overlaps are noted only as stated in the 6th national report.",
+  "Wikidata QIDs were checked with Special:EntityData (label, P17=Gabon, P31). The 20 marine-network items and most hunting-domain items have no coordinates on Wikidata. No QID was assigned to Lékédi (the Wikidata 'parc de la Lékédi' may not be the same unit), Arboretum de Sibang, Iboudji or Evaro. The Raponda Walker record is linked to 'Mondah Forest' (Q6898591)."
+ ]
+}

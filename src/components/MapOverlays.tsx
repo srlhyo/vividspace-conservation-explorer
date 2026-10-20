@@ -1,10 +1,11 @@
 import { palette } from '../map/palette'
+import type { CountryInventory } from '../domain/types'
 import { kindBreakdownHint } from './labels'
 /** Compact single-row legend; explains what boundaries and points do and do not represent. */
 export function MapLegend({ filtersActive = false }: { filtersActive?: boolean }) {
   return (
     <div className="pointer-events-auto flex min-w-0 flex-wrap items-center gap-x-4 gap-y-1 rounded-2xl bg-white/95 px-4 py-1.5 text-[12px] text-ink shadow-card ring-1 ring-line backdrop-blur">
-      <span className="flex items-center gap-1.5" title="WASOP country outline (Natural Earth, generalised).">
+      <span className="flex items-center gap-1.5" title="Catalogued country outline (Natural Earth, generalised).">
         <span className="h-0 w-3.5 border-t-2 border-forest/70" />
         Country
       </span>
@@ -41,7 +42,7 @@ export function FilterSummary({
   matching: number
   /** Catalogued areas in the current scope (selected country or whole region). */
   total: number
-  /** e.g. "in Senegal" or "across 13 countries". */
+  /** e.g. "in Senegal" or "across 22 countries". */
   scopeLabel: string
   labels: string[]
   onClear: () => void
@@ -73,11 +74,13 @@ export function CountryCard({
   name,
   count,
   breakdown,
+  inventory,
   onClose,
 }: {
   name: string
   count: number
   breakdown: string
+  inventory?: CountryInventory
   onClose: () => void
 }) {
   return (
@@ -92,7 +95,11 @@ export function CountryCard({
             {breakdown}
           </span>
         )}
-        <span className="mt-0.5 block text-[11px] text-ink-muted">Researched selection, not a complete inventory.</span>
+        <span className="mt-0.5 block text-[11px] text-ink-muted" title={inventory?.summary}>
+          {inventory?.status === 'exhaustive'
+            ? 'Every area in the official inventory is catalogued.'
+            : 'Partial inventory: not every protected area is catalogued yet.'}
+        </span>
       </p>
       <button type="button" onClick={onClose} className="shrink-0 rounded-full bg-white px-2.5 py-1 text-[11.5px] font-medium text-forest ring-1 ring-line hover:bg-cream">
         Whole region

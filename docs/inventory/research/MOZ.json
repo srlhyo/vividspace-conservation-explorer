@@ -1,0 +1,694 @@
+{
+ "country": "MOZ",
+ "countryName": "Mozambique",
+ "officialInventory": {
+  "summary": "ANAC (Administração Nacional das Áreas de Conservação) administers the national system of conservation areas and its website lists 10 national parks, 2 national reserves and 1 special reserve (plus transfrontier areas), but its 'sobre' text is out of date ('7 Parques e 7 Reservas Nacionais') and it does not list environmental protection areas, partial reserves or municipal parks. Creation instruments are decrees published in the Boletim da República (several available on FAOLEX). Hunting areas (20 coutadas oficiais, 9 blocos de caça, 13 community programmes, 31 fazendas do bravio) are stated by ANAC without a published list.",
+  "sourceIds": [
+   "moz-anac-areas",
+   "moz-anac-about",
+   "moz-anac-cinegetico",
+   "moz-cbd-5nr"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "national parks (ANAC list)",
+    "count": 10,
+    "asOf": "2026",
+    "sourceId": "moz-anac-areas",
+    "quote": "Parque Nacional: Maputo, Banhine, Bazaruto, Chimanimani, Gilé, Gorongosa, Limpopo, Mágoè, Quirimbas, Zinave"
+   },
+   {
+    "category": "national parks and national reserves (ANAC 'sobre', dated)",
+    "count": 14,
+    "asOf": null,
+    "sourceId": "moz-anac-about",
+    "quote": "incluindo 7 Parques e 7 Reservas Nacionais"
+   },
+   {
+    "category": "coutadas oficiais",
+    "count": 20,
+    "asOf": null,
+    "sourceId": "moz-anac-cinegetico",
+    "quote": "O País possui cerca de 70 áreas de caça, divididas em 20 coutadas oficiais, 9 blocos de caça, 13 programas comunitários e 31 fazendas do bravio."
+   },
+   {
+    "category": "fazendas do bravio",
+    "count": 31,
+    "asOf": null,
+    "sourceId": "moz-anac-cinegetico",
+    "quote": "31 fazendas do bravio"
+   },
+   {
+    "category": "community hunting programmes",
+    "count": 13,
+    "asOf": null,
+    "sourceId": "moz-anac-cinegetico",
+    "quote": "13 programas comunitários"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "moz-anac-areas",
+   "title": "Áreas de Conservação (list: Parque Nacional, Reserva Nacional, Reserva Especial, Área Transfronteiriça)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Lists 10 national parks (Maputo, Banhine, Bazaruto, Chimanimani, Gilé, Gorongosa, Limpopo, Mágoè, Quirimbas, Zinave), 2 national reserves (Marromeu, Pomene), 1 special reserve (Niassa) and 4 transfrontier areas; an entry for 'Reserva Marinha Parcial da Ponta do Ouro' is commented out in the HTML."
+  },
+  {
+   "id": "moz-anac-about",
+   "title": "ANAC — sobre a ANAC",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/anac/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-anac-cinegetico",
+   "title": "ANAC — Turismo Cinegético",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/turismo/turismo-cinegetico/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-br-dec-100-2021",
+   "title": "Decreto n.º 100/2021, de 31 de Dezembro — Cria o Parque Nacional de Maputo e estabelece a Zona Tampão",
+   "publisher": "Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/moz207771.pdf",
+   "date": "2021-12-31",
+   "kind": "report",
+   "licence": "© Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-br-dec-38-2001",
+   "title": "Decreto n.º 38/2001, de 27 de Novembro — Cria o Parque Nacional do Limpopo",
+   "publisher": "Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/moz50005.pdf",
+   "date": "2001-11-27",
+   "kind": "report",
+   "licence": "© Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX — cited for reference (facts and short quotes)",
+   "note": "Published in BR I Série n.º 48, 28 Nov 2001 (summary: https://faolex.fao.org/docs/pdf/moz50003.pdf). OCR quality is poor."
+  },
+  {
+   "id": "moz-br-dec-39-2001",
+   "title": "Decreto n.º 39/2001, de 27 de Novembro — Altera os limites do Parque Nacional do Bazaruto",
+   "publisher": "Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/moz50006.pdf",
+   "date": "2001-11-27",
+   "kind": "report",
+   "licence": "© Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-br-dec-14-2002",
+   "title": "Decreto n.º 14/2002 — Cria o Parque Nacional das Quirimbas",
+   "publisher": "Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/moz51108.pdf",
+   "date": "2002",
+   "kind": "report",
+   "licence": "© Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX — cited for reference (facts and short quotes)",
+   "note": "Decree text (OCR); publication date not legible in the extract."
+  },
+  {
+   "id": "moz-br-dec-67-2013",
+   "title": "Decreto n.º 67/2013, de 11 de Dezembro — Cria o Parque Nacional de Mágoè e a Zona Tampão",
+   "publisher": "Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/moz130746.pdf",
+   "date": "2013-12-11",
+   "kind": "report",
+   "licence": "© Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-br-dec-34-2003",
+   "title": "Decreto n.º 34/2003, de 19 de Agosto — Cria a Reserva Nacional de Chimanimani",
+   "publisher": "Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/moz52142.pdf",
+   "date": "2003-08-19",
+   "kind": "report",
+   "licence": "© Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-br-despacho-pm-chimanimani",
+   "title": "Despacho (Ministério da Terra e Ambiente) — Aprova o Plano de Maneio do Parque Nacional de Chimanimani, 2021–2030 (BR I Série n.º 20, 28 Jan 2022)",
+   "publisher": "Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/moz208056.pdf",
+   "date": "2022-01-28",
+   "kind": "report",
+   "licence": "© Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-br-dec-59-2011",
+   "title": "Decreto n.º 59/2011, de 17 de Novembro — Cria a Reserva Parcial do Lago Niassa e a respectiva Zona Tampão",
+   "publisher": "Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/moz117273.pdf",
+   "date": "2011-11-17",
+   "kind": "report",
+   "licence": "© Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-br-dec-42-2012",
+   "title": "Decreto n.º 42/2012, de 12 de Dezembro — Cria a Área de Protecção Ambiental das Ilhas Primeiras e Segundas",
+   "publisher": "Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/moz118660.pdf",
+   "date": "2012-12-12",
+   "kind": "report",
+   "licence": "© Boletim da República (Imprensa Nacional de Moçambique), via FAOLEX — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "moz-cbd-5nr",
+   "title": "Fifth National Report on the Implementation of Convention on Biological Diversity in Mozambique",
+   "publisher": "Ministry for the Coordination of Environmental Affairs (MICOA), Mozambique",
+   "url": "https://www.cbd.int/doc/world/mz/mz-nr-05-en.pdf",
+   "date": "2014",
+   "kind": "report",
+   "licence": "© Ministry for the Coordination of Environmental Affairs (MICOA), Mozambique — cited for reference (facts and short quotes)",
+   "note": "Several hectare figures in this report are evidently garbled (e.g. 137,165,366 ha for Lake Niassa Partial Reserve) and were not used."
+  },
+  {
+   "id": "moz-news-club-2020",
+   "title": "Mozambique: Gilé and Chimanimani become National Parks, Niassa becomes Special Reserve",
+   "publisher": "Club of Mozambique (news, reporting the Council of Ministers' 17th ordinary session)",
+   "url": "https://clubofmozambique.com/news/mozambique-gile-and-chimanimani-become-national-parks-niassa-becomes-special-reserve/",
+   "date": "2020-05-21",
+   "kind": "article",
+   "licence": "© Club of Mozambique (news, reporting the Council of Ministers' 17th ordinary session) — cited for reference (facts and short quotes)",
+   "note": "News report, used only to fill the gap left by the unlocated 2020 recategorisation decrees."
+  },
+  {
+   "id": "moz-anac-reserva-especial-do-maputo",
+   "title": "ANAC — painel 'Parque Nacional de Maputo' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#reserva-especial-do-maputo); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-banhine",
+   "title": "ANAC — painel 'Banhine' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#banhine); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-bazaruto",
+   "title": "ANAC — painel 'Bazaruto' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#bazaruto); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-chimanimani",
+   "title": "ANAC — painel 'Chimanimani' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#chimanimani); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-gile",
+   "title": "ANAC — painel 'Gilé' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#gile); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-gorongosa",
+   "title": "ANAC — painel 'Gorongosa' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#gorongosa); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-limpopo",
+   "title": "ANAC — painel 'Limpopo' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#limpopo); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-magoe",
+   "title": "ANAC — painel 'Mágoè' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#magoe); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-quirimbas",
+   "title": "ANAC — painel 'Quirimbas' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#quirimbas); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-zinave",
+   "title": "ANAC — painel 'Zinave' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#zinave); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-marromeu",
+   "title": "ANAC — painel 'Marromeu' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#marromeu); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-pomene",
+   "title": "ANAC — painel 'Pomene' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#pomene); fetched 2026-10-20."
+  },
+  {
+   "id": "moz-anac-niassa",
+   "title": "ANAC — painel 'Reserva Especial do Niassa' (Áreas de Conservação)",
+   "publisher": "Administração Nacional das Áreas de Conservação (ANAC)",
+   "url": "https://www.anac.gov.mz/areas-de-conservacao/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Administração Nacional das Áreas de Conservação (ANAC) — cited for reference (facts and short quotes)",
+   "note": "Detail panel loaded by the page from https://www.anac.gov.mz/wp-admin/admin-ajax.php (POST action=anac_ajax_handler, slug=#niassa); fetched 2026-10-20."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parque Nacional de Maputo",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 100/2021, de 31 de Dezembro (approved by the Council of Ministers on 7 Dec 2021), which extinguished the Reserva Especial de Maputo (Diploma Legislativo n.º 1994, de 23 de Julho de 1960) and the Reserva Marinha Parcial da Ponta do Ouro (Decreto n.º 42/2009, de 21 de Agosto)",
+    "sourceIds": [
+     "moz-br-dec-100-2021"
+    ]
+   },
+   "established": "2021-12-31",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q130019294",
+   "marine": true,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-reserva-especial-do-maputo",
+    "moz-br-dec-100-2021"
+   ],
+   "notes": "Coastal and marine (includes the former Ponta do Ouro Partial Marine Reserve). ANAC panel still says 'Estabelecida em 1960 ... Com uma extensão de 1040 km2', which describes the former special reserve, so that area is not used. Part of the Lubombo transfrontier conservation area (ANAC)."
+  },
+  {
+   "name": "Parque Nacional de Banhine",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": null,
+   "established": "1973",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q4855656",
+   "marine": false,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-banhine"
+   ],
+   "notes": "ANAC: 'Em 1973, foi nomeado Parque nacional'. Part of the Great Limpopo transfrontier area (ANAC)."
+  },
+  {
+   "name": "Parque Nacional do Arquipélago de Bazaruto",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Limits extended and renamed by Decreto n.º 39/2001, de 27 de Novembro (revoking Diploma Legislativo n.º 46/71)",
+    "sourceIds": [
+     "moz-br-dec-39-2001"
+    ]
+   },
+   "established": "1971",
+   "areaKm2": 1583,
+   "coordinates": null,
+   "wikidataQid": "Q1102054",
+   "marine": true,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-bazaruto",
+    "moz-br-dec-39-2001"
+   ],
+   "notes": "ANAC: 'Criado em 1971 ... com uma extensão de 1583 km²' covering the islands of Bazaruto, Benguerra, Magaruque, Santa Carolina and Bangué; marine park created to protect dugong and marine turtles."
+  },
+  {
+   "name": "Parque Nacional de Chimanimani",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Created as Reserva Nacional de Chimanimani by Decreto n.º 34/2003, de 19 de Agosto; recategorised as national park in 2020 (decree not located; Council of Ministers decision reported 21 May 2020); a management plan for the 'Parque Nacional de Chimanimani' 2021–2030 was approved by Despacho published in BR of 28 Jan 2022",
+    "sourceIds": [
+     "moz-br-dec-34-2003",
+     "moz-news-club-2020",
+     "moz-br-despacho-pm-chimanimani"
+    ]
+   },
+   "established": "2003-08-19",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-chimanimani",
+    "moz-br-dec-34-2003",
+    "moz-br-despacho-pm-chimanimani",
+    "moz-news-club-2020"
+   ],
+   "notes": "ANAC panel says 'Criada em 2000' (conflicts with the 2003 decree; decree date used). National park status since 2020."
+  },
+  {
+   "name": "Parque Nacional do Gilé",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Recategorised from national reserve to national park by the Council of Ministers in 2020 (decree not located; reported 21 May 2020)",
+    "sourceIds": [
+     "moz-news-club-2020"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-gile",
+    "moz-news-club-2020"
+   ],
+   "notes": "ANAC: 'foi primeiro proclamada Reserva Parcial de Caça em 1932'."
+  },
+  {
+   "name": "Parque Nacional da Gorongosa",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q113952",
+   "marine": false,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-gorongosa",
+    "moz-cbd-5nr"
+   ],
+   "notes": "ANAC mentions the 2008 20-year public-private partnership with the Carr Foundation; the CBD 5NR records the incorporation of the Gorongosa ridge (mountain) into the park in 2010. Establishment year/instrument not verified from an official source."
+  },
+  {
+   "name": "Parque Nacional do Limpopo",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 38/2001, de 27 de Novembro (revoking Portaria n.º 22357, de 23 de Agosto de 1969)",
+    "sourceIds": [
+     "moz-br-dec-38-2001"
+    ]
+   },
+   "established": "2001-11-27",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1968897",
+   "marine": false,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-limpopo",
+    "moz-br-dec-38-2001"
+   ],
+   "notes": "Part of the Great Limpopo Transfrontier Park/Conservation Area."
+  },
+  {
+   "name": "Parque Nacional de Mágoè",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 67/2013, de 11 de Dezembro, with a 5 km buffer zone",
+    "sourceIds": [
+     "moz-br-dec-67-2013"
+    ]
+   },
+   "established": "2013-12-11",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q15243648",
+   "marine": false,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-magoe",
+    "moz-br-dec-67-2013",
+    "moz-cbd-5nr"
+   ],
+   "notes": "ANAC: 'foi estabelecido em 2013'. CBD 5NR gives 350,000 ha (not used: other hectare figures in the same table are garbled)."
+  },
+  {
+   "name": "Parque Nacional das Quirimbas",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 14/2002",
+    "sourceIds": [
+     "moz-br-dec-14-2002"
+    ]
+   },
+   "established": "2002",
+   "areaKm2": 7500,
+   "coordinates": null,
+   "wikidataQid": "Q1546990",
+   "marine": true,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-quirimbas",
+    "moz-br-dec-14-2002"
+   ],
+   "notes": "ANAC: 'foi criado em 2002, com uma extensão terrestre e marinha de cerca de 7.500 km2'; 11 of the 27 Quirimbas islands are in the park. Area approximate per ANAC."
+  },
+  {
+   "name": "Parque Nacional do Zinave",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parque Nacional",
+   "legalStatus": null,
+   "established": "1973",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q8072261",
+   "marine": false,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-zinave"
+   ],
+   "notes": "ANAC: 'estabelecido em 1973'."
+  },
+  {
+   "name": "Reserva Nacional de Marromeu",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Reserva Nacional",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q6773018",
+   "marine": false,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-marromeu"
+   ],
+   "notes": "ANAC still lists it as 'Reserva Nacional' although Lei 5/2017 removed that category (per news reports; not verified in the law text). Part of the Marromeu Complex with Coutadas Oficiais 10, 11, 12 and 14 and the Zambezi Delta Ramsar site (2003, per ANAC)."
+  },
+  {
+   "name": "Reserva Nacional de Pomene",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Reserva Nacional",
+   "legalStatus": null,
+   "established": "1964",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-pomene"
+   ],
+   "notes": "ANAC: 'Estabelecida em 1964, possui diversos habitats terrestres e marinhos'."
+  },
+  {
+   "name": "Reserva Especial do Niassa",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Reserva Especial",
+   "legalStatus": {
+    "text": "Recategorised from Reserva Nacional do Niassa to Reserva Especial by the Council of Ministers in 2020 (decree not located; reported 21 May 2020)",
+    "sourceIds": [
+     "moz-news-club-2020"
+    ]
+   },
+   "established": "1960",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "moz-anac-areas",
+    "moz-anac-niassa",
+    "moz-news-club-2020"
+   ],
+   "notes": "ANAC: 'Fundada em 1960, a Reserva Nacional do Niassa é a maior área protegida do país'. Hunting blocks (blocos de caça) operate inside the reserve (ANAC). Linked to Tanzania's Selous via the Niassa-Selous transfrontier area."
+  },
+  {
+   "name": "Reserva Parcial do Lago Niassa",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Reserva Parcial",
+   "legalStatus": {
+    "text": "Created with its buffer zone by Decreto n.º 59/2011, de 17 de Novembro (approved 29 April 2011)",
+    "sourceIds": [
+     "moz-br-dec-59-2011"
+    ]
+   },
+   "established": "2011-11-17",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "moz-br-dec-59-2011",
+    "moz-cbd-5nr"
+   ],
+   "notes": "Freshwater (lake) partial reserve managed under fisheries legislation; also a Ramsar site (Lake Niassa and its coastal zone). Not listed on the ANAC conservation-areas page."
+  },
+  {
+   "name": "Área de Protecção Ambiental das Ilhas Primeiras e Segundas",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Área de Protecção Ambiental",
+   "legalStatus": {
+    "text": "Created by Decreto n.º 42/2012, de 12 de Dezembro",
+    "sourceIds": [
+     "moz-br-dec-42-2012"
+    ]
+   },
+   "established": "2012-12-12",
+   "areaKm2": 10409.26,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "moz-br-dec-42-2012",
+    "moz-cbd-5nr"
+   ],
+   "notes": "Decree: 'com uma superfície de um milhão e quarenta mil e novecentos e vinte e seis hectares (1.040.926ha)' plus a 205 km terrestrial strip from Angoche to Pebane districts. Not listed on the ANAC conservation-areas page."
+  },
+  {
+   "name": "Parque Ecológico de Malhazine",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Parque Ecológico (Malhazine Ecological Park)",
+   "legalStatus": null,
+   "established": "2012",
+   "areaKm2": 5.68,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "moz-cbd-5nr"
+   ],
+   "notes": "Listed in CBD 5NR Table 13 (protected areas created 2009–2014): 'Malhazine Ecological Park 2012 568' ha. Legal instrument not verified; other figures in that table are garbled, so the area is uncertain."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "coutadas oficiais (official hunting areas)",
+   "approxCount": 20,
+   "reason": "Hunting areas; ANAC states the count but publishes no list. Under Lei 16/2014 they are sustainable-use conservation areas, but per the brief they are not recorded without an official list.",
+   "sourceIds": [
+    "moz-anac-cinegetico",
+    "moz-anac-about"
+   ]
+  },
+  {
+   "category": "fazendas do bravio (game farms)",
+   "approxCount": 31,
+   "reason": "Private/commercial hunting areas; no official list found.",
+   "sourceIds": [
+    "moz-anac-cinegetico"
+   ]
+  },
+  {
+   "category": "community conservation areas / community hunting programmes (e.g. Tchuma Tchato, Chipanje Chetu)",
+   "approxCount": 13,
+   "reason": "ANAC mentions 13 community programmes; no list or legal designations found.",
+   "sourceIds": [
+    "moz-anac-cinegetico"
+   ]
+  },
+  {
+   "category": "forest reserves, sanctuaries and municipal ecological parks",
+   "approxCount": null,
+   "reason": "No official consolidated list found (e.g. Santuário Bravio de Vilanculos, Cabo de São Sebastião, Inhaca reserves were seen only in non-official sources).",
+   "sourceIds": []
+  }
+ ],
+ "gaps": [
+  "The 2020 recategorisation decrees (Gilé and Chimanimani to national parks; Niassa to special reserve) were not located; the status rests on ANAC's current list plus a dated news report (and, for Chimanimani, a 2022 Boletim despacho naming the national park).",
+  "Creation instruments and dates for Gorongosa, Banhine, Zinave, Marromeu, Pomene and Niassa were not verified from legal texts (only ANAC's narrative years).",
+  "ANAC still lists Marromeu and Pomene as 'Reserva Nacional' although that category was reportedly abolished by Lei 5/2017; their current legal category is unclear.",
+  "Areas: only Bazaruto (ANAC), Quirimbas (ANAC, approximate) and the Primeiras e Segundas APA (decree) have documented areas; the CBD 5NR table contains garbled hectare figures.",
+  "Lake Niassa Partial Reserve and the Primeiras e Segundas APA are not on ANAC's conservation-areas page; Ponta do Ouro Partial Marine Reserve and Maputo Special Reserve were extinguished in 2021 and merged into Maputo National Park, so they are not recorded separately.",
+  "Transfrontier conservation areas (Grande Limpopo, Lubombo, Niassa-Selous, ZIMOZA) are treaty frameworks over national areas, not separate national designations, and are not recorded.",
+  "No official coordinates were found (decrees contain boundary coordinates but no single reference point).",
+  "Wikidata QIDs were matched (search + entity check of label, P17 country and P31 type) only for national parks and selected major reserves; the Wikidata API was heavily rate-limited (HTTP 429) during this run, so other areas were not attempted or the lookup failed. A null QID does not mean no item exists."
+ ]
+}

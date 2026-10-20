@@ -1,0 +1,414 @@
+{
+ "country": "GIN",
+ "countryName": "Guinea",
+ "officialInventory": {
+  "summary": "No published official list of Guinea's protected areas was found. Guinea's PoWPA document (CBD) says the national protected-area network was 'validated' in 2010 with 53 identified protected areas, many without validated creation acts, but gives no list. Management lies with the Office Guinéen des Parcs Nationaux et Réserves de Faune (OGPNRF) and the forestry administration; Mount Nimba is managed by CEGENS. The most detailed descriptive source is the 2008 IUCN/PAPACO management-effectiveness evaluation of 12 areas (hosted on Guinea's national CBD clearing-house), which itself warns that the legal status of most areas has not been updated since independence. Records below combine that evaluation with Guinea's 6th (2018) and 7th (2026) CBD reports and the Haut Niger creation decree; legal status is uncertain for several sites. Ramsar sites are handled separately.",
+  "sourceIds": [
+   "gin-powpa",
+   "gin-iucn-2008",
+   "gin-cbd-nr6",
+   "gin-cbd-nr7"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "identified protected areas (national network validated 2010)",
+    "count": 53,
+    "asOf": "2010",
+    "sourceId": "gin-powpa",
+    "quote": "Le réseau couvre 8 % du territoire national et compte 53 aires protégées identifiées, dont les actes de création pour certaines sont validés et dont les actes de création pour d’autres aires protégées, sont à préparer et à valider."
+   },
+   {
+    "category": "protected areas by governance type (state / community / private)",
+    "count": 53,
+    "asOf": "2010",
+    "sourceId": "gin-powpa",
+    "quote": "Aires protégées 45 07 1 0 ... Total général 53"
+   },
+   {
+    "category": "community forests",
+    "count": 186,
+    "asOf": "2018",
+    "sourceId": "gin-cbd-nr6",
+    "quote": "des réserves naturelles intégrales, 186 forêts communautaires, des sanctuaires de faune, etc."
+   },
+   {
+    "category": "classified state forests at independence",
+    "count": 156,
+    "asOf": "1958",
+    "sourceId": "gin-powpa",
+    "quote": "A son indépendance en 1958, la République de Guinée disposait de 4 parcs et refuges de faune et de 156 forêts classées domaniales."
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "gin-powpa",
+   "title": "Action plan for implementing the CBD Programme of Work on Protected Areas — Guinée",
+   "publisher": "Government of Guinea / CBD Secretariat",
+   "url": "https://www.cbd.int/doc/world/gn/gn-nbsap-powpa-fr.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© République de Guinée — cited for reference (facts and short quotes)",
+   "note": "Undated (refers to the 2011–2020 period)."
+  },
+  {
+   "id": "gin-iucn-2008",
+   "title": "Évaluation de l'efficacité de la gestion des aires protégées : aires protégées de la République de Guinée ('Parcs et réserves de Guinée')",
+   "publisher": "UICN/PACO (IUCN Central and West Africa Programme) — hosted on Guinea's national CBD clearing-house",
+   "url": "https://gn.chm-cbd.net/sites/gn/files/2021-07/Parcs%26ReservesDeGuinee.pdf",
+   "date": "2008",
+   "kind": "report",
+   "licence": "© 2008 IUCN — non-commercial reproduction permitted with source citation (per publication)",
+   "note": "Reputable NGO report used to fill gaps; describes 12 areas with creation acts and areas."
+  },
+  {
+   "id": "gin-chm-haut-niger",
+   "title": "Parc National du Haut Niger (fiche)",
+   "publisher": "Centre d'échange national de Guinée (gn.chm-cbd.net)",
+   "url": "https://gn.chm-cbd.net/sites/gn/files/2026-08/Parc-Haut-Niger.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© République de Guinée — cited for reference (facts and short quotes)",
+   "note": "Undated fact sheet (uploaded 2026-08 per URL path)."
+  },
+  {
+   "id": "gin-decret-97-011",
+   "title": "Décret D/97/011/PRG/SGG du 28 janvier 1997 portant création du Parc National du Haut Niger",
+   "publisher": "République de Guinée — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/gui13830.pdf",
+   "date": "1997-01-28",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference",
+   "note": "Decree number is written differently across sources (PRG vs PRE)."
+  },
+  {
+   "id": "gin-cbd-nr6",
+   "title": "Sixième Rapport national sur la diversité biologique — Guinée",
+   "publisher": "Government of Guinea / CBD Secretariat",
+   "url": "https://www.cbd.int/doc/nr/nr-06/gn-nr-06-fr.pdf",
+   "date": "2018-12-30",
+   "kind": "report",
+   "licence": "© République de Guinée — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "gin-cbd-nr7",
+   "title": "Guinea — Seventh National Report to the CBD",
+   "publisher": "Government of Guinea / CBD Secretariat",
+   "url": "https://ort.cbd.int/database/record?documentID=291677",
+   "date": "2026-03-03",
+   "kind": "report",
+   "licence": "© République de Guinée — cited for reference (facts and short quotes)",
+   "note": "Text fetched from https://api.cbd.int/api/v2013/documents/423F8135-A248-1F73-E83C-9FF50F742B27"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parc National du Haut Niger",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Created by Décret D/97/011/PRG/SGG of 28 January 1997 around the former Mafou classified forest; extended to the Kouya forest by arrêté A/97/8210/MAEF/SGG of 15 September 1997; buffer zone defined by arrêté A/2002/5048/MAE/SGG of 23 September 2002",
+    "sourceIds": [
+     "gin-decret-97-011",
+     "gin-chm-haut-niger",
+     "gin-iucn-2008"
+    ]
+   },
+   "established": "1997-01-28",
+   "areaKm2": 7158,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gin-decret-97-011",
+    "gin-chm-haut-niger",
+    "gin-iucn-2008",
+    "gin-cbd-nr6",
+    "gin-cbd-nr7"
+   ],
+   "notes": "715 800 ha 'd’après les décrets de création' (596 000 ha buffer + 119 800 ha core areas) per the CHM fact sheet. Other figures: 1 247 000 ha incl. an unapproved extra buffer (IUCN 2008), 1 200 000 ha (NR6, from the 1995–2005 management plan). Haut Niger Biosphere Reserve (2002) and Ramsar sites overlap (handled separately)."
+  },
+  {
+   "name": "Parc National du Badiar",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Réserve spéciale de faune dénommée 'Parc National du Badiar'",
+   "legalStatus": {
+    "text": "Created on 30 May 1985 by ordonnance 124/PRG/SGG/85 as a special fauna reserve named 'parc national du Badiar'",
+    "sourceIds": [
+     "gin-iucn-2008"
+    ]
+   },
+   "established": "1985-05-30",
+   "areaKm2": 382,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gin-iucn-2008",
+    "gin-powpa",
+    "gin-cbd-nr6",
+    "gin-cbd-nr7"
+   ],
+   "notes": "38 200 ha park (IUCN 2008). NR6 gives 284 300 ha, which is the Badiar Biosphere Reserve (2002) including buffer and transition zones. Adjoins Niokolo-Koba NP (Senegal)."
+  },
+  {
+   "name": "Parc National du Moyen Bafing",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 6766.95,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gin-cbd-nr7",
+    "gin-cbd-nr6"
+   ],
+   "notes": "NR7 (2026): 'le Parc National du Moyen Bafing (6.766.95 km 2 ) a été créé'. NR6 (2018) described the creation as being finalised (6 426 km²; elsewhere 6 249 km²). Creation decree number/date not verified from an official text."
+  },
+  {
+   "name": "Réserve Naturelle Intégrale des Monts Nimba",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle intégrale",
+   "legalStatus": {
+    "text": "Created on 5 July 1944 by the French colonial authorities",
+    "sourceIds": [
+     "gin-iucn-2008"
+    ]
+   },
+   "established": "1944-07-05",
+   "areaKm2": 125.4,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gin-iucn-2008",
+    "gin-cbd-nr6"
+   ],
+   "notes": "12 540 ha (IUCN 2008); NR6 gives 13 000 ha for the World Heritage property. Also World Heritage site (in danger) and biosphere reserve — handled separately. Managed by CEGENS."
+  },
+  {
+   "name": "Réserve de faune de Kankan",
+   "localName": "Folonigbè / Diwassi",
+   "category": "game-reserve",
+   "designationLabel": "Réserve partielle de faune",
+   "legalStatus": {
+    "text": "Created by the decree of 10 March 1925 on hunting regulation and wildlife refuge parks in French West Africa and Arrêté n° 0010 of 16 April 1926 ('parc de Kankan'); legal status never updated",
+    "sourceIds": [
+     "gin-iucn-2008"
+    ]
+   },
+   "established": "1925-03-10",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gin-iucn-2008",
+    "gin-cbd-nr6",
+    "gin-cbd-nr7"
+   ],
+   "notes": "Area conflict: ~530 000 ha / 531 448 ha (IUCN 2008, 'Kankan – Folonigbè'); NR6 lists 'Réserve de faune de Foloningbè : 255 000 ha'; NR7 names 'la Réserve naturelle de Kankan (Diwassi)'. Partly within a Ramsar site."
+  },
+  {
+   "name": "Sanctuaire de faune des Îles de Loos",
+   "localName": "Île Blanche",
+   "category": "marine-protected-area",
+   "designationLabel": "Sanctuaire de faune",
+   "legalStatus": {
+    "text": "Established by Loi L/92/0354/CTRN of 3 September 1992 and Décret N° 92/236/PRG/SGG of the same day",
+    "sourceIds": [
+     "gin-iucn-2008"
+    ]
+   },
+   "established": "1992-09-03",
+   "areaKm2": 0.1,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gin-iucn-2008",
+    "gin-cbd-nr6"
+   ],
+   "notes": "IUCN 2008: three uninhabited islands (île Blanche 8.75 ha, îlot Cabri 0.65 ha and a third), ~10 ha; NR6 calls it among 'aires marines protégées' and says the Îles de Loos were made a fauna sanctuary in 1992. Ramsar site (handled separately)."
+  },
+  {
+   "name": "Aire Marine Protégée des Îles Tristao",
+   "localName": "Réserve Naturelle Communautaire de Tristao",
+   "category": "marine-protected-area",
+   "designationLabel": "Aire marine protégée / Réserve naturelle communautaire",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gin-iucn-2008",
+    "gin-cbd-nr6",
+    "gin-cbd-nr7"
+   ],
+   "notes": "IUCN 2008: 'en cours de création' (process begun May 2003; future AMP of ~85 000 ha). NR6 refers to it as 'Réserve Naturelle Communautaire de Tristao' / 'Réserve naturelle gérée de Tristao' and NR7 as 'l’aire marine protégée des iles Tristao'. Creation act not located. Ramsar site (handled separately)."
+  },
+  {
+   "name": "Réserve Naturelle Intégrale de l'Île d'Alcatraz",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle intégrale",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gin-cbd-nr6",
+    "gin-iucn-2008"
+   ],
+   "notes": "NR6: 'la Réserve naturelle intégrale d’Alkatraz' (island of 0.75 ha; brown booby colony). IUCN 2008 listed it as a future AMP 'en cours de création'. Creation act not located. Ramsar site (handled separately)."
+  },
+  {
+   "name": "Forêt classée de Ziama",
+   "localName": "Massif du Ziama",
+   "category": "forest-reserve",
+   "designationLabel": "Forêt classée",
+   "legalStatus": {
+    "text": "Classified on 12 September 1942",
+    "sourceIds": [
+     "gin-iucn-2008"
+    ]
+   },
+   "established": "1942-09-12",
+   "areaKm2": 1123,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gin-iucn-2008",
+    "gin-cbd-nr6"
+   ],
+   "notes": "112 300 ha per the classification decree (IUCN 2008; NR6). Also UNESCO biosphere reserve (handled separately)."
+  },
+  {
+   "name": "Forêt classée de Diécké",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forêt classée",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 640,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gin-iucn-2008",
+    "gin-cbd-nr6"
+   ],
+   "notes": "64 000 ha (IUCN 2008). Included because it is one of the 12 areas assessed as part of the protected-area network."
+  },
+  {
+   "name": "Forêt classée de Kounounkan",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forêt classée",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gin-cbd-nr7",
+    "gin-cbd-nr6"
+   ],
+   "notes": "Called 'forêt classée de Kounounkan' (NR7) and 'réserve de Kounounkan' (NR6), Forécariah prefecture. No area or act verified."
+  },
+  {
+   "name": "Réserve naturelle de Manden Woula – Warandogoba",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Réserve naturelle (domaine des collectivités décentralisées)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1360,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gin-iucn-2008"
+   ],
+   "notes": "136 000 ha; IUCN 2008 describes it as a domain of decentralised local authorities. Legal status not verified."
+  },
+  {
+   "name": "Aire protégée transfrontalière du Bafing – Falémé",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Aire protégée transfrontalière (Guinée–Mali)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gin-iucn-2008"
+   ],
+   "notes": "IUCN 2008: 1 777 333 ha in Guinea incl. 132 868 ha of classified forests; 'Elle aurait été classée par arrêté, mais cela doit être confirmé par un décret'. Overlaps the later Moyen Bafing NP landscape."
+  },
+  {
+   "name": "Aire protégée transfrontalière du Rio Kogon, Korubal et Nunez",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Aire protégée transfrontalière (Guinée–Guinée-Bissau)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gin-iucn-2008"
+   ],
+   "notes": "IUCN 2008: ~800 000 ha in Guinea (51 849 ha protected); classification 'doit être confirmé par un décret'."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "remaining identified protected areas (of 53 in the 2010 national network), incl. other fauna reserves and sanctuaries",
+   "approxCount": 53,
+   "reason": "Only a count is published (PoWPA); no list found.",
+   "sourceIds": [
+    "gin-powpa"
+   ]
+  },
+  {
+   "category": "forêts classées (classified forests)",
+   "approxCount": null,
+   "reason": "No official list found; 156 classified state forests existed at independence (PoWPA).",
+   "sourceIds": [
+    "gin-powpa"
+   ]
+  },
+  {
+   "category": "forêts communautaires (community forests)",
+   "approxCount": 186,
+   "reason": "Count only (NR6).",
+   "sourceIds": [
+    "gin-cbd-nr6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No official, named list of Guinea's 53 identified protected areas was found; OGPNRF has no reliable web presence located during this run.",
+  "Legal status of many sites (Tristao, Alcatraz, Manden Woula, transboundary areas, Kounounkan) is unclear; the IUCN 2008 review notes most statuses were not updated since independence.",
+  "Moyen Bafing NP creation is stated by NR7 but the decree text was not retrieved; press/partner pages reporting a 2021 decree could not be fetched.",
+  "Area figures conflict between sources for Haut Niger, Badiar and Kankan/Foloningbè; conflicts are recorded in notes.",
+  "Wikidata QIDs not assigned (Wikidata services were rate-limiting); coordinates left null."
+ ]
+}

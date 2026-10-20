@@ -1,0 +1,860 @@
+{
+ "country": "CIV",
+ "countryName": "Côte d'Ivoire",
+ "officialInventory": {
+  "summary": "Parks and reserves are managed by the Office Ivoirien des Parcs et Réserves (OIPR) under Loi n° 2002-102, whose Annexes 1-2 are the official list as of 2002 (8 national parks, 6 reserves with creating instrument and area). Later creations are by decree (2013-2026), traced via FAOLEX/LEAP, the national CBD CHM and Council-of-Ministers communiqués. Forêts classées (~231-234, SODEFOR) were not enumerated. oipr.ci was not used.",
+  "sourceIds": [
+   "civ-loi-2002-102",
+   "civ-leap-loi-2002-102",
+   "civ-6nr"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "national parks",
+    "count": 8,
+    "asOf": "2002",
+    "sourceId": "civ-loi-2002-102",
+    "quote": "LISTE DES PARCS NATIONAUX … TOTAL 1 732 100"
+   },
+   {
+    "category": "national parks and nature reserves",
+    "count": 15,
+    "asOf": "6th National Report (c. 2019)",
+    "sourceId": "civ-6nr",
+    "quote": "8 parcs nationaux et 7 réserves naturelles couvrent une superficie totale de 2 075 866 ha"
+   },
+   {
+    "category": "forêts classées",
+    "count": 234,
+    "asOf": "6th National Report (c. 2019)",
+    "sourceId": "civ-6nr",
+    "quote": "234 Forêts Classées couvrent une superficie totale de 4 196 000 ha"
+   },
+   {
+    "category": "réserves botaniques",
+    "count": 16,
+    "asOf": "2016",
+    "sourceId": "civ-nbsap-2016",
+    "quote": "16 réserves botaniques d’une superficie totale de 198.418 hectares"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "civ-loi-2002-102",
+   "title": "Loi n° 2002-102 du 11 février 2002 relative à la création, à la gestion et au financement des parcs nationaux et réserves naturelles (Annexes 1 et 2)",
+   "publisher": "République de Côte d'Ivoire (text via FAO FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/ivc81290.pdf",
+   "date": "2002-02-11",
+   "kind": "report",
+   "licence": "© République de Côte d'Ivoire (text via FAO FAOLEX) — cited for reference (facts and short quotes)",
+   "note": "Art. 6: Annex 1 lists the national parks and Annex 2 the nature reserves, with creating instrument and area."
+  },
+  {
+   "id": "civ-leap-loi-2002-102",
+   "title": "Loi n° 2002-102 … (record with implementing decrees)",
+   "publisher": "UNEP LEAP (FAOLEX content)",
+   "url": "https://leap.unep.org/en/countries/ci/national-legislation/loi-ndeg-2002-102-relative-la-creation-la-gestion-et-au",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© UNEP LEAP (FAOLEX content) — cited for reference (facts and short quotes)",
+   "note": "Lists 2013-2018 decrees modifying PA limits and creating reserves."
+  },
+  {
+   "id": "civ-leap-dahliafleur",
+   "title": "Décret 2013-127 du 20 février 2013 portant création de la réserve naturelle de Dalhiafleur",
+   "publisher": "UNEP LEAP (FAOLEX content)",
+   "url": "https://leap.unep.org/en/countries/ci/national-legislation/decret-2013-127-du-20-fevrier-2013-portant-creation-de-la-reserve",
+   "date": "2013-02-20",
+   "kind": "webpage",
+   "licence": "© UNEP LEAP (FAOLEX content) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-leap-nzi",
+   "title": "Décret n° 2018-511 du 30 mai 2018 portant création de la réserve naturelle volontaire « N'ZI RIVER LODGE »",
+   "publisher": "UNEP LEAP (FAOLEX content)",
+   "url": "https://leap.unep.org/en/countries/ci/national-legislation/decret-ndeg-2018-511-du-30-mai-2018-portant-creation-de-la",
+   "date": "2018-05-30",
+   "kind": "webpage",
+   "licence": "© UNEP LEAP (FAOLEX content) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-leap-mabiyaya",
+   "title": "Décret No. 2019-897 du 30 octobre 2019 portant création de la réserve naturelle de Mabi-Yaya",
+   "publisher": "UNEP LEAP (FAOLEX content)",
+   "url": "https://leap.unep.org/en/countries/ci/national-legislation/decret-no-2019-897-du-30-octobre-2019-portant-creation-de-la",
+   "date": "2019-10-30",
+   "kind": "webpage",
+   "licence": "© UNEP LEAP (FAOLEX content) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-leap-cavally",
+   "title": "Décret n° 2023-731 du 13 septembre 2023 portant création de la Réserve Naturelle du Cavally",
+   "publisher": "UNEP LEAP (FAOLEX content)",
+   "url": "https://leap.unep.org/en/countries/ci/national-legislation/decret-ndeg-2023-731-du-13-septembre-2023-portant-creation-de-la",
+   "date": "2023-09-13",
+   "kind": "webpage",
+   "licence": "© UNEP LEAP (FAOLEX content) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-peko",
+   "title": "Parc national du Mont Péko",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/node/420",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-azagny",
+   "title": "Parc national d'Azagny",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/node/421",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-lamto",
+   "title": "Réserve de Lamto",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/node/423",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-sangbe",
+   "title": "Parc national du Mont Sangbé",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/node/424",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-dahliafleur",
+   "title": "Réserve naturelle partielle de Dahliafleur",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/node/425",
+   "date": "2022",
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-nimba",
+   "title": "Réserve naturelle intégrale du Mont Nimba",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/node/426",
+   "date": "2022",
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-abokouamekro",
+   "title": "Réserve de faune d'Abokouamékro",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/node/429",
+   "date": "2022",
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-ehotile",
+   "title": "Parc national des îles Ehotilé",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/node/430",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-mabiyaya",
+   "title": "Réserve naturelle de Mabi-Yaya",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/node/431",
+   "date": "2022",
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-aghien",
+   "title": "Réserve naturelle partielle d'Aghien",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/node/432",
+   "date": "2022",
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-chm-hautbandama",
+   "title": "Réserve du Haut Bandama",
+   "publisher": "Côte d'Ivoire national CBD Clearing-House Mechanism",
+   "url": "https://ci.chm-cbd.net/protected-areas/reserve-du-haut-bandama",
+   "date": "2022",
+   "kind": "webpage",
+   "licence": "© Côte d'Ivoire national CBD Clearing-House Mechanism — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-cm-2022-07-06",
+   "title": "Communiqué du Conseil des Ministres du mercredi 06 juillet 2022",
+   "publisher": "Gouvernement de Côte d'Ivoire (Porte-parolat), document hosted by CEPF",
+   "url": "https://cepf.net/resources/documents/decree-establishing-marine-protected-area-grand-grand-bereby-republic-cote",
+   "date": "2022-07-06",
+   "kind": "report",
+   "licence": "© Gouvernement de Côte d'Ivoire (Porte-parolat), document hosted by CEPF — cited for reference (facts and short quotes)",
+   "note": "Item 10: adoption of the decree creating the Aire Marine Protégée de Grand Béréby (272,375 ha)."
+  },
+  {
+   "id": "civ-sgg-0967-2020",
+   "title": "Attestation 0967/SGG/CM and Communication en Conseil des Ministres: projet de création de cinq (05) aires marines protégées",
+   "publisher": "Secrétariat Général du Gouvernement, Côte d'Ivoire (document hosted by Maritimafrica)",
+   "url": "https://maritimafrica.com/wp-content/uploads/2025/06/Communication-0967-SGG-CM-portant-Projet-de-creation-de-cinq-05-Aires-Marines-Protegees-en-Cote-dlvoire.pdf",
+   "date": "2020-09-23",
+   "kind": "report",
+   "licence": "© Secrétariat Général du Gouvernement, Côte d'Ivoire (document hosted by Maritimafrica) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-abidjannet-2025",
+   "title": "Le gouvernement annonce la création d'une réserve naturelle d'environ 49 hectares à Alani (Rubino)",
+   "publisher": "Abidjan.net (CICG-Côte d'Ivoire)",
+   "url": "https://news.abidjan.net/articles/740148/protection-de-la-faune-et-la-flore-le-gouvernement-annonce-la-creation-dune-reserve-naturelle-denviron-49-hectares-a-alani-rubino",
+   "date": "2025-03-14",
+   "kind": "article",
+   "licence": "© Abidjan.net (CICG-Côte d'Ivoire) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-aip-2026-sogb",
+   "title": "3 512 ha de forêts de la SOGB classés en réserve naturelle volontaire",
+   "publisher": "Agence Ivoirienne de Presse (AIP)",
+   "url": "https://www.aip.ci/?p=415772",
+   "date": "2026-09-11",
+   "kind": "article",
+   "licence": "© Agence Ivoirienne de Presse (AIP) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "civ-nbsap-2016",
+   "title": "Stratégie et Plan d'Action pour la Diversité Biologique Nationale 2016-2020",
+   "publisher": "Government of Côte d'Ivoire (via CBD)",
+   "url": "https://www.cbd.int/doc/world/ci/ci-nbsap-v2-fr.pdf",
+   "date": "2016",
+   "kind": "report",
+   "licence": "© Government of Côte d'Ivoire (via CBD) — cited for reference (facts and short quotes)",
+   "note": "Tableau 2 (source Lauginie et al. 1996) lists 12 parks and reserves."
+  },
+  {
+   "id": "civ-6nr",
+   "title": "Sixième Rapport National de la Côte d'Ivoire à la CDB",
+   "publisher": "Government of Côte d'Ivoire (via CBD)",
+   "url": "https://www.cbd.int/doc/world/ci/ci-nr-06-fr.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Government of Côte d'Ivoire (via CBD) — cited for reference (facts and short quotes)"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parc national d'Azagny",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Arrêté n° 536 du 25/06/1960 puis Décret n° 81-218 du 2/4/1981; classed national park by Loi 2002-102 (Annexe 1).",
+    "sourceIds": [
+     "civ-loi-2002-102"
+    ]
+   },
+   "established": "1981",
+   "areaKm2": 194,
+   "coordinates": null,
+   "wikidataQid": "Q3091738",
+   "marine": true,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-chm-azagny",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Grand-Lahou. 19,400 ha. Coastal ('x + zone côtière', NBSAP). Ramsar site (CHM). CHM gives the decree date as 04/04/81."
+  },
+  {
+   "name": "Parc national du Banco",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Décret du 31/10/1953; Loi 2002-102 (Annexe 1); limits modified by Décret n° 2018-510 du 30 mai 2018.",
+    "sourceIds": [
+     "civ-loi-2002-102",
+     "civ-leap-loi-2002-102"
+    ]
+   },
+   "established": "1953",
+   "areaKm2": 30,
+   "coordinates": null,
+   "wikidataQid": "Q1858100",
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-leap-loi-2002-102",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Abidjan. 3,000 ha (Annexe 1)."
+  },
+  {
+   "name": "Parc national de la Comoé",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Décret n° 68-81 du 09/02/1968; Loi 2002-102 (Annexe 1); limits redefined by Décret n° 2018-497 du 23 mai 2018.",
+    "sourceIds": [
+     "civ-loi-2002-102",
+     "civ-leap-loi-2002-102"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 11491.5,
+   "coordinates": null,
+   "wikidataQid": "Q501344",
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-leap-loi-2002-102",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Bouna. 1,149,150 ha. Also a Biosphere Reserve and World Heritage site (NBSAP)."
+  },
+  {
+   "name": "Parc national des Îles Ehotilé",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Décret n° 74-179 du 25/04/1974; Loi 2002-102 (Annexe 1); limits modified by Décret n° 2018-509 du 30 mai 2018.",
+    "sourceIds": [
+     "civ-loi-2002-102",
+     "civ-leap-loi-2002-102"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 5.5,
+   "coordinates": null,
+   "wikidataQid": "Q2749744",
+   "marine": true,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-leap-loi-2002-102",
+    "civ-chm-ehotile",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Adiaké; six islands in the Aby lagoon. 550 ha (Annexe 1) vs 722 ha (CHM). Coastal ('x + zone côtière', NBSAP); Ramsar site since 2005 (CHM)."
+  },
+  {
+   "name": "Parc national de la Marahoué",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Décret n° 68-80 du 09/02/1968; Loi 2002-102 (Annexe 1).",
+    "sourceIds": [
+     "civ-loi-2002-102"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 1010,
+   "coordinates": null,
+   "wikidataQid": "Q1668658",
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Bouaflé. 101,000 ha."
+  },
+  {
+   "name": "Parc national du Mont Péko",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Décret n° 68-79 du 09/02/1968; Loi 2002-102 (Annexe 1).",
+    "sourceIds": [
+     "civ-loi-2002-102"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 340,
+   "coordinates": null,
+   "wikidataQid": "Q370370",
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-chm-peko",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Duékoué/Bangolo. 34,000 ha. CHM cites the decree as '68-69'."
+  },
+  {
+   "name": "Parc national du Mont Sangbé",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Décret n° 76-215 du 19/02/1976; Loi 2002-102 (Annexe 1); limits modified by Décret n° 2018-458 du 09 mai 2018.",
+    "sourceIds": [
+     "civ-loi-2002-102",
+     "civ-leap-loi-2002-102"
+    ]
+   },
+   "established": "1976",
+   "areaKm2": 950,
+   "coordinates": null,
+   "wikidataQid": "Q3364520",
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-leap-loi-2002-102",
+    "civ-chm-sangbe",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Biankouma. 95,000 ha (Annexe 1); CHM gives 97,554 ha."
+  },
+  {
+   "name": "Parc national de Taï",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Décret n° 72-544 du 28/08/72 puis n° 77-348 du 03/06/1977; Loi 2002-102 (Annexe 1); limits modified by Décret n° 2018-496 du 23 mai 2018.",
+    "sourceIds": [
+     "civ-loi-2002-102",
+     "civ-leap-loi-2002-102"
+    ]
+   },
+   "established": "1972",
+   "areaKm2": 3300,
+   "coordinates": null,
+   "wikidataQid": "Q328577",
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-leap-loi-2002-102",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Guiglo/Soubré. 330,000 ha. Also a Biosphere Reserve and World Heritage site (NBSAP)."
+  },
+  {
+   "name": "Réserve de faune d'Abokouamékro",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": {
+    "text": "Décret n° 93-695 du 19/08/93; classed réserve naturelle by Loi 2002-102 (Annexe 2).",
+    "sourceIds": [
+     "civ-loi-2002-102"
+    ]
+   },
+   "established": "1993",
+   "areaKm2": 204.3,
+   "coordinates": null,
+   "wikidataQid": "Q4668232",
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-chm-abokouamekro",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Yamoussoukro. 20,430 ha. CHM cites the decree as 93-693."
+  },
+  {
+   "name": "Réserve de faune et de flore du Haut-Bandama",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune (et de flore)",
+   "legalStatus": {
+    "text": "Décret n° 73-133 du 21/03/73; Loi 2002-102 (Annexe 2); limits modified by Décret n° 2018-457 du 09 mai 2018.",
+    "sourceIds": [
+     "civ-loi-2002-102",
+     "civ-leap-loi-2002-102"
+    ]
+   },
+   "established": "1973",
+   "areaKm2": 1230,
+   "coordinates": null,
+   "wikidataQid": "Q5682925",
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-leap-loi-2002-102",
+    "civ-chm-hautbandama",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Katiola. 123,000 ha (Annexe 2); CHM gives 122,162 ha."
+  },
+  {
+   "name": "Réserve scientifique de Lamto",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve scientifique",
+   "legalStatus": {
+    "text": "Arrêté n° 857/AGRI/DOM du 12/07/1968; Loi 2002-102 (Annexe 2); limits modified by Décret n° 2018-545 du 06 juin 2018.",
+    "sourceIds": [
+     "civ-loi-2002-102",
+     "civ-leap-loi-2002-102"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 25,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-leap-loi-2002-102",
+    "civ-chm-lamto"
+   ],
+   "notes": "Toumodi/Tiassalé (Taabo). 2,500 ha (Annexe 2); CHM gives 2,617 ha."
+  },
+  {
+   "name": "Réserve naturelle intégrale du Mont Nimba",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve intégrale",
+   "legalStatus": {
+    "text": "Décret du 05/07/1944; Loi 2002-102 (Annexe 2); limits modified by Décret n° 2018-459 du 09 mai 2018.",
+    "sourceIds": [
+     "civ-loi-2002-102",
+     "civ-leap-loi-2002-102"
+    ]
+   },
+   "established": "1944",
+   "areaKm2": 50,
+   "coordinates": null,
+   "wikidataQid": "Q924276",
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-leap-loi-2002-102",
+    "civ-chm-nimba",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Danané. 5,000 ha (Annexe 2); CHM gives 5,092 ha. Ivorian part of the Mount Nimba Strict Nature Reserve World Heritage site."
+  },
+  {
+   "name": "Réserve de faune du N'Zo",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune (partielle)",
+   "legalStatus": {
+    "text": "Décret n° 72-545 du 28/08/1972 puis n° 73-132 du 21/03/73; Loi 2002-102 (Annexe 2); limits modified by Décret n° 2018-495 du 23 mai 2018.",
+    "sourceIds": [
+     "civ-loi-2002-102",
+     "civ-leap-loi-2002-102"
+    ]
+   },
+   "established": "1972",
+   "areaKm2": 927,
+   "coordinates": null,
+   "wikidataQid": "Q6951313",
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102",
+    "civ-leap-loi-2002-102",
+    "civ-nbsap-2016"
+   ],
+   "notes": "Taï. 92,700 ha."
+  },
+  {
+   "name": "Zone périphérique de protection du Parc de Taï",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Zone périphérique de protection",
+   "legalStatus": {
+    "text": "Décret n° 77-348 du 03/06/77; listed among the réserves naturelles in Loi 2002-102 (Annexe 2).",
+    "sourceIds": [
+     "civ-loi-2002-102"
+    ]
+   },
+   "established": "1977",
+   "areaKm2": 960,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "civ-loi-2002-102"
+   ],
+   "notes": "Soubré. 96,000 ha. Current status after the 2018 Taï boundary decree not verified."
+  },
+  {
+   "name": "Réserve naturelle partielle de Dahliafleur",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle (partielle)",
+   "legalStatus": {
+    "text": "Décret 2013-127 du 20 février 2013 portant création de la réserve naturelle de Dalhiafleur.",
+    "sourceIds": [
+     "civ-leap-dahliafleur"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": 1.48,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "civ-leap-dahliafleur",
+    "civ-chm-dahliafleur"
+   ],
+   "notes": "Bingerville (Abidjan). 148 ha (CHM). CHM also says the site was created on 14 Oct 2004 and declared of public utility in 2007."
+  },
+  {
+   "name": "Réserve naturelle volontaire N'Zi River Lodge",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle volontaire",
+   "legalStatus": {
+    "text": "Décret n° 2018-511 du 30 mai 2018.",
+    "sourceIds": [
+     "civ-leap-nzi"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "civ-leap-nzi"
+   ],
+   "notes": "N'Dokro, sous-préfecture de Brobo (Gbêkê). Voluntary (privately initiated) reserve under Loi 2002-102."
+  },
+  {
+   "name": "Réserve naturelle de Mabi-Yaya",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle",
+   "legalStatus": {
+    "text": "Décret n° 2019-897 du 30 octobre 2019.",
+    "sourceIds": [
+     "civ-leap-mabiyaya"
+    ]
+   },
+   "established": "2019",
+   "areaKm2": 612.83,
+   "coordinates": null,
+   "wikidataQid": "Q126871475",
+   "marine": false,
+   "sourceIds": [
+    "civ-leap-mabiyaya",
+    "civ-chm-mabiyaya"
+   ],
+   "notes": "La Mé region; 61,282 ha 559 a; formed from the ex-forêts classées of Mabi and Yaya."
+  },
+  {
+   "name": "Réserve naturelle partielle d'Aghien",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle partielle",
+   "legalStatus": {
+    "text": "Décret n° 2020-561 du 8 juillet 2020.",
+    "sourceIds": [
+     "civ-chm-aghien"
+    ]
+   },
+   "established": "2020",
+   "areaKm2": 56.75,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "civ-chm-aghien"
+   ],
+   "notes": "Bingerville/Brofodoumé (Abidjan); 5,675 ha including the Aghien lagoon (CHM)."
+  },
+  {
+   "name": "Réserve naturelle du Cavally",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle",
+   "legalStatus": {
+    "text": "Décret n° 2023-731 du 13 septembre 2023.",
+    "sourceIds": [
+     "civ-leap-cavally"
+    ]
+   },
+   "established": "2023",
+   "areaKm2": 664.53,
+   "coordinates": null,
+   "wikidataQid": "Q125218811",
+   "marine": false,
+   "sourceIds": [
+    "civ-leap-cavally"
+   ],
+   "notes": "Cavally region, Taï department; created on the current outline of the ex-Forêt classée de Cavally; 66,453 ha."
+  },
+  {
+   "name": "Aire Marine Protégée de Grand-Béréby",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Decree creating the AMP adopted by the Council of Ministers on 6 July 2022 (decree number not verified).",
+    "sourceIds": [
+     "civ-cm-2022-07-06"
+    ]
+   },
+   "established": "2022",
+   "areaKm2": 2723.75,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "civ-cm-2022-07-06",
+    "civ-sgg-0967-2020"
+   ],
+   "notes": "Sous-préfecture de Grand-Béréby (San-Pédro); 272,375 ha along 50 km of coast; first Ivorian MPA."
+  },
+  {
+   "name": "Réserve naturelle volontaire Eden de Agnéby-Tiassa",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle volontaire",
+   "legalStatus": {
+    "text": "Decree adopted by the Council of Ministers (reported 14 March 2025).",
+    "sourceIds": [
+     "civ-abidjannet-2025"
+    ]
+   },
+   "established": "2025",
+   "areaKm2": 0.49,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "civ-abidjannet-2025"
+   ],
+   "notes": "Rubino, rural domain of Alani village; 'environ 49 hectares'."
+  },
+  {
+   "name": "Réserve naturelle volontaire de la SOGB",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle volontaire",
+   "legalStatus": {
+    "text": "Decree adopted by the Council of Ministers on 9 September 2026.",
+    "sourceIds": [
+     "civ-aip-2026-sogb"
+    ]
+   },
+   "established": "2026",
+   "areaKm2": 35.12,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "civ-aip-2026-sogb"
+   ],
+   "notes": "Grand-Béréby area; forests maintained by the Société des caoutchoucs de Grand-Béréby (SOGB); 3,512 ha per AIP (another press report says about 4,000 ha in 16 forest islets). Official name not confirmed."
+  },
+  {
+   "name": "Site transfrontalier de l'embouchure du fleuve Cavally (AMP)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Aire marine protégée (projet)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "civ-sgg-0967-2020"
+   ],
+   "notes": "One of five MPA sites identified by the Council of Ministers (23 Sept 2020); not designated in sources seen."
+  },
+  {
+   "name": "Site de la forêt classée de Dassioko (AMP)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Aire marine protégée (projet)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "civ-sgg-0967-2020"
+   ],
+   "notes": "Proposed MPA site (Council of Ministers, 23 Sept 2020)."
+  },
+  {
+   "name": "Site du parc national d'Azagny (AMP)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Aire marine protégée (projet)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "civ-sgg-0967-2020"
+   ],
+   "notes": "Proposed MPA site adjoining Azagny NP (Council of Ministers, 23 Sept 2020)."
+  },
+  {
+   "name": "Zone côtière transfrontière Côte d'Ivoire-Ghana (AMP)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Aire marine protégée (projet)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "civ-sgg-0967-2020"
+   ],
+   "notes": "Proposed MPA site (Council of Ministers, 23 Sept 2020)."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "forêts classées (SODEFOR)",
+   "approxCount": 234,
+   "reason": "List too large; no official list found (NBSAP gives 231, 6NR 234).",
+   "sourceIds": [
+    "civ-6nr",
+    "civ-nbsap-2016"
+   ]
+  },
+  {
+   "category": "réserves botaniques",
+   "approxCount": 16,
+   "reason": "Names not listed in sources seen.",
+   "sourceIds": [
+    "civ-nbsap-2016"
+   ]
+  },
+  {
+   "category": "other réserves naturelles volontaires",
+   "approxCount": null,
+   "reason": "RNVs are created ad hoc by decree; no consolidated list found.",
+   "sourceIds": [
+    "civ-leap-loi-2002-102"
+   ]
+  }
+ ],
+ "gaps": [
+  "Annex areas date from 2002; boundaries of most parks/reserves were redefined by 2018 decrees whose new areas were not extracted.",
+  "Decree numbers for the Grand-Béréby MPA (2022), Eden de Agnéby-Tiassa RNV (2025) and SOGB RNV (2026) were not verified from the Journal Officiel; only Council-of-Ministers communiqués/press were seen.",
+  "Whether the 'Zone périphérique de protection du Parc de Taï' still exists as a separate reserve after 2018 is unknown.",
+  "The OIPR website (oipr.ci) was not used; OIPR's current count of '15 parks and reserves' appears only in press reports.",
+  "Proposed MPA sites from the 2020 Council-of-Ministers communication have no defined boundaries in sources seen.",
+  "areaKm2 values were converted from hectares (1 km² = 100 ha) where the cited source gives hectares; source figures are quoted in notes where they conflict."
+ ]
+}

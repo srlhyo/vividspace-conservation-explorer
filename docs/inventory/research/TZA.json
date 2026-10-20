@@ -1,0 +1,3221 @@
+{
+ "country": "TZA",
+ "countryName": "Tanzania",
+ "officialInventory": {
+  "summary": "No single consolidated official list. Inventories are split by managing authority: TANAPA (national parks; 21 park sections on its website, Kigosi National Park was revoked by GN 616 of 2023), TAWA (an official table of game reserves, game controlled areas and wildlife management areas with area, region and gazettement GN), NCAA (Ngorongoro Conservation Area), the Marine Parks and Reserves Unit (3 marine parks + 15 marine reserves, Tanzania mainland), and TFS (465 forest reserves incl. 25 nature forest reserves and 18 bee reserves; no public list). Zanzibar's protected areas are managed separately by the Revolutionary Government of Zanzibar; no official Zanzibar list could be fetched. Legal instruments (GNs) are indexed on TanzLII. The TAWA table is the most complete official list; the TANAPA list comes from the site's park sections, not from a stated list.",
+  "sourceIds": [
+   "tza-tanapa-site",
+   "tza-tawa-pa",
+   "tza-tawa-about",
+   "tza-ncaa-about",
+   "tza-mpru-history",
+   "tza-tfs-natural-forests",
+   "tza-cbd-5nr"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "marine parks",
+    "count": 3,
+    "asOf": null,
+    "sourceId": "tza-mpru-history",
+    "quote": "three (3) are designated as Marine Parks"
+   },
+   {
+    "category": "marine reserves (mainland)",
+    "count": 15,
+    "asOf": null,
+    "sourceId": "tza-mpru-history",
+    "quote": "there are 15 designated Protected Areas"
+   },
+   {
+    "category": "marine parks and reserves (total)",
+    "count": 18,
+    "asOf": null,
+    "sourceId": "tza-mpru-history",
+    "quote": "oversees 18 marine reserves and protected areas in the Indian Ocean, covering a total area of approximately 2,000 square kilometers"
+   },
+   {
+    "category": "forest reserves managed by TFS",
+    "count": 465,
+    "asOf": null,
+    "sourceId": "tza-tfs-natural-forests",
+    "quote": "TFS manages 465 forest reserves of different types with a total of 14.5 million hectares"
+   },
+   {
+    "category": "nature forest reserves",
+    "count": 25,
+    "asOf": null,
+    "sourceId": "tza-tfs-natural-forests",
+    "quote": "25 Nature Forest Reserves made of 42 forest reserves with 962,500.64 ha"
+   },
+   {
+    "category": "bee reserves",
+    "count": 18,
+    "asOf": null,
+    "sourceId": "tza-tfs-natural-forests",
+    "quote": "there are 18 bee reserves with a total of 35,918.28 hectares"
+   },
+   {
+    "category": "national parks",
+    "count": 16,
+    "asOf": "2013",
+    "sourceId": "tza-cbd-5nr",
+    "quote": "includes 16 national parks, Ngorongoro Conservation Area, 28 Game Reserves, 42 Game Controlled Areas, 38 Wildlife Management Areas"
+   },
+   {
+    "category": "game reserves",
+    "count": 28,
+    "asOf": "2013",
+    "sourceId": "tza-cbd-5nr",
+    "quote": "Game Reserves 28 114,782.47"
+   },
+   {
+    "category": "game controlled areas",
+    "count": 42,
+    "asOf": "2013",
+    "sourceId": "tza-cbd-5nr",
+    "quote": "Game Controlled Areas 42 58,565.02"
+   },
+   {
+    "category": "wildlife management areas",
+    "count": 38,
+    "asOf": "2013",
+    "sourceId": "tza-cbd-5nr",
+    "quote": "Wildlife Management Areas 38 29,518.40"
+   },
+   {
+    "category": "marine protected areas (Zanzibar)",
+    "count": 3,
+    "asOf": "2014",
+    "sourceId": "tza-cbd-5nr",
+    "quote": "three marine parks in Zanzibar (Menai Bay Conservation Area, Mnemba Island Marine Conservation Area and Pemba Channel Conservation Area)"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "tza-tanapa-site",
+   "title": "Tanzania National Parks (TANAPA) website: park sections (site route manifest lists 21 park sections)",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)",
+   "note": "Park list derived from the park sections of the official site (Next.js build manifest https://www.tanzaniaparks.go.tz/_next/static/0ehgUTAsbQPXr4_j1g3o5/_buildManifest.js, fetched 2026-10-20); each park has an /<slug>/about page. No stated total count found on the site."
+  },
+  {
+   "id": "tza-tawa-pa",
+   "title": "TAWA | Protected Areas (table: protected area, category, coverage km², location, gazettement year)",
+   "publisher": "Tanzania Wildlife Management Authority (TAWA)",
+   "url": "https://www.tawa.go.tz/protected-areas",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Wildlife Management Authority (TAWA) — cited for reference (facts and short quotes)",
+   "note": "Table of 75 rows fetched 2026-10-20: 25 game reserve rows, 25 game controlled areas, 21 wildlife management areas, 3 Ramsar sites, 1 cultural heritage site."
+  },
+  {
+   "id": "tza-tawa-about",
+   "title": "TAWA | About Us",
+   "publisher": "Tanzania Wildlife Management Authority (TAWA)",
+   "url": "https://www.tawa.go.tz/about-us",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Wildlife Management Authority (TAWA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-ncaa-about",
+   "title": "About NCAA",
+   "publisher": "Ngorongoro Conservation Area Authority (NCAA)",
+   "url": "https://www.ncaa.go.tz/about-ncaa/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Ngorongoro Conservation Area Authority (NCAA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-ncaa-home",
+   "title": "NCAA home page (NCA area figure)",
+   "publisher": "Ngorongoro Conservation Area Authority (NCAA)",
+   "url": "https://www.ncaa.go.tz/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Ngorongoro Conservation Area Authority (NCAA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-mpru-history",
+   "title": "Marine Parks and Reserves Unit — History (English version)",
+   "publisher": "Marine Parks and Reserves Unit (MPRU), Tanzania",
+   "url": "https://www.marineparks.go.tz/pages/marine-history",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Marine Parks and Reserves Unit (MPRU), Tanzania — cited for reference (facts and short quotes)",
+   "note": "Swahili version (Historia) gives the same list."
+  },
+  {
+   "id": "tza-mpru-reserves",
+   "title": "Marine Parks and Reserves Unit — Marine Reserves",
+   "publisher": "Marine Parks and Reserves Unit (MPRU), Tanzania",
+   "url": "https://www.marineparks.go.tz/pages/marine-reserves",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Marine Parks and Reserves Unit (MPRU), Tanzania — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-mpru-gmp-tacmp",
+   "title": "Tanga Coelacanth Marine Park General Management Plan (September 2011)",
+   "publisher": "Marine Parks and Reserves Unit (MPRU), Tanzania",
+   "url": "https://www.marineparks.go.tz/uploads/documents/en-1681994803-TCMP%20GMP.pdf",
+   "date": "2011-09",
+   "kind": "report",
+   "licence": "© Marine Parks and Reserves Unit (MPRU), Tanzania — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-mpru-gmp-mimp",
+   "title": "Mafia Island Marine Park General Management Plan (September 2011)",
+   "publisher": "Marine Parks and Reserves Unit (MPRU), Tanzania",
+   "url": "https://www.marineparks.go.tz/uploads/documents/en-1681994732-MIMP%20GMP.pdf",
+   "date": "2011-09",
+   "kind": "report",
+   "licence": "© Marine Parks and Reserves Unit (MPRU), Tanzania — cited for reference (facts and short quotes)",
+   "note": "Text extraction partly garbled by font encoding; the boundary annex cites Government Notice No. 200 published on 6/9/96, in operation from 1 July 1995."
+  },
+  {
+   "id": "tza-mpru-gmp-mbremp",
+   "title": "Mnazi Bay-Ruvuma Estuary Marine Park General Management Plan (September 2011)",
+   "publisher": "Marine Parks and Reserves Unit (MPRU), Tanzania",
+   "url": "https://www.marineparks.go.tz/uploads/documents/en-1681994878-MBREMP%20GMP.pdf",
+   "date": "2011-09",
+   "kind": "report",
+   "licence": "© Marine Parks and Reserves Unit (MPRU), Tanzania — cited for reference (facts and short quotes)",
+   "note": "Text extraction garbled (font encoding); no establishment facts could be read."
+  },
+  {
+   "id": "tza-mpru-gmp-dmrs",
+   "title": "Dar es Salaam Marine Reserves (DMRs) General Management Plan",
+   "publisher": "Marine Parks and Reserves Unit (MPRU), Tanzania",
+   "url": "https://www.marineparks.go.tz/uploads/documents/en-1681994707-DMRS.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Marine Parks and Reserves Unit (MPRU), Tanzania — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tfs-natural-forests",
+   "title": "TFS — Natural Forests",
+   "publisher": "Tanzania Forest Services Agency (TFS)",
+   "url": "https://www.tfs.go.tz/forests/category/natural_forests",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Forest Services Agency (TFS) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tfs-home",
+   "title": "TFS home page (Nature Forest Reserves destinations)",
+   "publisher": "Tanzania Forest Services Agency (TFS)",
+   "url": "https://www.tfs.go.tz/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Forest Services Agency (TFS) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-cbd-5nr",
+   "title": "Fifth National Report on the Implementation of the Convention on Biological Diversity (United Republic of Tanzania)",
+   "publisher": "Vice President's Office, Division of Environment, United Republic of Tanzania",
+   "url": "https://www.cbd.int/doc/world/tz/tz-nr-05-en.pdf",
+   "date": "2014-03",
+   "kind": "report",
+   "licence": "© Vice President's Office, Division of Environment, United Republic of Tanzania — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tfs-kalambo-nature-forest-reserve",
+   "title": "TFS destination page: Kalambo Nature Forest Reserve",
+   "publisher": "Tanzania Forest Services Agency (TFS)",
+   "url": "https://www.tfs.go.tz/forests/destinations/kalambo_nature_forest_reserve",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Forest Services Agency (TFS) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tfs-lake-duluti-forest-reserve",
+   "title": "TFS destination page: Lake Duluti Forest Reserve",
+   "publisher": "Tanzania Forest Services Agency (TFS)",
+   "url": "https://www.tfs.go.tz/forests/destinations/lake_duluti_forest_reserve",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Forest Services Agency (TFS) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tfs-lake-ngozi-nature-reserves",
+   "title": "TFS destination page: Lake Ngozi Nature Reserves",
+   "publisher": "Tanzania Forest Services Agency (TFS)",
+   "url": "https://www.tfs.go.tz/forests/destinations/lake_ngozi_nature_reserves",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Forest Services Agency (TFS) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tfs-magamba-nature-forest-reserve",
+   "title": "TFS destination page: Magamba Nature Forest Reserve",
+   "publisher": "Tanzania Forest Services Agency (TFS)",
+   "url": "https://www.tfs.go.tz/forests/destinations/magamba_nature_forest_reserve",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Forest Services Agency (TFS) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tfs-meru-usa-nature-forest-reserves",
+   "title": "TFS destination page: Meru-Usa Nature Forest Reserves",
+   "publisher": "Tanzania Forest Services Agency (TFS)",
+   "url": "https://www.tfs.go.tz/forests/destinations/meru_usa_nature_forest_reserves",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Forest Services Agency (TFS) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tfs-mt-hanang-nature-forest-reserves",
+   "title": "TFS destination page: Mt Hanang Nature Forest Reserves",
+   "publisher": "Tanzania Forest Services Agency (TFS)",
+   "url": "https://www.tfs.go.tz/forests/destinations/mt_hanang_nature_forest_reserves",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Forest Services Agency (TFS) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tfs-pugu-kazimzumbwi-nature-forest-reserve",
+   "title": "TFS destination page: Pugu Kazimzumbwi Nature Forest Reserve",
+   "publisher": "Tanzania Forest Services Agency (TFS)",
+   "url": "https://www.tfs.go.tz/forests/destinations/pugu_kazimzumbwi_nature_forest_reserve",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Forest Services Agency (TFS) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tfs-uluguru-mountain-nature-forest-reserve",
+   "title": "TFS destination page: Uluguru Mountain Nature Forest Reserve",
+   "publisher": "Tanzania Forest Services Agency (TFS)",
+   "url": "https://www.tfs.go.tz/forests/destinations/uluguru_mountain_nature_forest_reserve",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania Forest Services Agency (TFS) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-arusha",
+   "title": "TANAPA — About Arusha National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/arusha/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanzlii-gn-2005-280",
+   "title": "Declaration of Arusha National Park to include Ngurudoto and Meru Forest Reserve Proclamation, 2005 (GN 280 of 2005)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2005/280/eng@2005-09-16",
+   "date": "2005-09-16",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanapa-burigi-chato",
+   "title": "TANAPA — About Burigi-Chato National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/burigi-chato/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-gombe",
+   "title": "TANAPA — About Gombe National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/gombe/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-ibanda-kyerwa",
+   "title": "TANAPA — About Ibanda-Kyerwa National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/ibanda-kyerwa/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-katavi",
+   "title": "TANAPA — About Katavi National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/katavi/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-kilimanjaro",
+   "title": "TANAPA — About Kilimanjaro National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/kilimanjaro/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanzlii-gn-2005-278",
+   "title": "Declaration of Kilimanjaro National Park Proclamation, 2005 (GN 278 of 2005)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2005/278/eng@2005-09-16",
+   "date": "2005-09-16",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanapa-kitulo",
+   "title": "TANAPA — About Kitulo National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/kitulo/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanzlii-gn-2005-279",
+   "title": "Declaration of Kitulo National Park Proclamation, 2005 (GN 279 of 2005)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2005/279/eng@2005-09-16",
+   "date": "2005-09-16",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanapa-lake-manyara",
+   "title": "TANAPA — About Lake Manyara National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/lake-manyara/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanzlii-gn-2009-105",
+   "title": "Declaration for Alteration of Boundaries of Manyara National Park (GN 105 of 2009)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2009/105/eng@2009-05-01",
+   "date": "2009-05-01",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanapa-mahale",
+   "title": "TANAPA — About Mahale Mountains National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/mahale/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-mikumi",
+   "title": "TANAPA — About Mikumi National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/mikumi/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-mkomazi",
+   "title": "TANAPA — About Mkomazi National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/mkomazi/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-nyerere",
+   "title": "TANAPA — About Nyerere National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/nyerere/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanzlii-gn-2025-595",
+   "title": "Tamko la Kurekebisha Mpaka wa Hifadhi ya Taifa Nyerere, 2025 (GN 595 of 2025)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2025/595/eng@2025-10-03",
+   "date": "2025-10-03",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanapa-ruaha",
+   "title": "TANAPA — About Ruaha National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/ruaha/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanzlii-gn-2023-754",
+   "title": "Tamko la Kurekebisha Mipaka ya Hifadhi ya Taifa Ruaha la Mwaka, 2023 (GN 754 of 2023)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2023/754/eng@2023-10-20",
+   "date": "2023-10-20",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanapa-rubondo",
+   "title": "TANAPA — About Rubondo Island National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/rubondo/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-rumanyika-karagwe",
+   "title": "TANAPA — About Rumanyika-Karagwe National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/rumanyika-karagwe/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-saadani",
+   "title": "TANAPA — About Saadani National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/saadani/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanzlii-gn-2005-281",
+   "title": "Declaration of Saadani National Park Order, 2005 (GN 281 of 2005)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2005/281/eng@2005-09-16",
+   "date": "2005-09-16",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanapa-saanane",
+   "title": "TANAPA — About Saanane National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/saanane/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanzlii-gn-2013-227",
+   "title": "Declaration of Saanane Island National Park (GN 227 of 2013)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2013/227/eng@2013-07-19",
+   "date": "2013-07-19",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanapa-serengeti",
+   "title": "TANAPA — About Serengeti National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/serengeti/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-tarangire",
+   "title": "TANAPA — About Tarangire National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/tarangire/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-udzungwa",
+   "title": "TANAPA — About Udzungwa Mountains National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/udzungwa/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanapa-ugalla-river",
+   "title": "TANAPA — About Ugalla-River National Park",
+   "publisher": "Tanzania National Parks (TANAPA)",
+   "url": "https://www.tanzaniaparks.go.tz/ugalla-river/about",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Tanzania National Parks (TANAPA) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "tza-tanzlii-gn-2021-459",
+   "title": "Game Reserve (Establishment) (Selous Game Reserve) Declaration, 2021 (GN 459 of 2021)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2021/459/eng@2021-06-25",
+   "date": "2021-06-25",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2021-458",
+   "title": "Game Reserve (Establishment) (Ugalla Game Reserve) Declaration, 2021 (GN 458 of 2021)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2021/458/eng@2021-06-25",
+   "date": "2021-06-25",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2021-457",
+   "title": "Game Reserve (Establishment) (Wami-Mbiki Game Reserve) Declaration, 2021 (GN 457 of 2021)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2021/457/eng@2021-06-25",
+   "date": "2021-06-25",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2021-461",
+   "title": "Game Reserve (Establishment) (Inyonga Game Reserve) Declaration, 2021 (GN 461 of 2021)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2021/461/eng@2021-06-25",
+   "date": "2021-06-25",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2021-456",
+   "title": "Game Reserve (Establishment) (Wembere Game Reserve) Declaration, 2021 (GN 456 of 2021)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2021/456/eng@2021-06-25",
+   "date": "2021-06-25",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2021-455",
+   "title": "Game Reserve (Establishment) (Igombe Game Reserve) Declaration, 2021 (GN 455 of 2021)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2021/455/eng@2021-06-25",
+   "date": "2021-06-25",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2012-64",
+   "title": "Wildlife Conservation (Declaration of Chingoli Wildlife Management Area) Order, 2012 (GN 64 of 2012)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2012/64/eng@2012-02-24",
+   "date": "2012-02-24",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2013-102",
+   "title": "Wildlife Conservation (Declaration of Iluma Wildlife Management Area) (Prohibition) Order, 2013 (GN 102 of 2013)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2013/102/eng@2013-05-10",
+   "date": "2013-05-10",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2012-63",
+   "title": "Wildlife Conservation (Declaration of Kimbanda Wildlife Management Area) Order, 2012 (GN 63 of 2012)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2012/63/eng@2012-02-24",
+   "date": "2012-02-24",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2012-62",
+   "title": "Wildlife Conservation (Declaration of Kisungule Wildlife Management Area) Order, 2012 (GN 62 of 2012)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2012/62/eng@2012-02-24",
+   "date": "2012-02-24",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2013-21",
+   "title": "Wildlife Conservation (Declaration of Randilen Wildlife Management Area) Order, 2013 (GN 21 of 2013)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2013/21/eng@2013-02-01",
+   "date": "2013-02-01",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2022-421",
+   "title": "Wildlife Conservation (Pololeti Game Controlled Area) (Declaration) Order, 2022 (GN 421 of 2022)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2022/421/eng@2022-06-17",
+   "date": "2022-06-17",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2025-226",
+   "title": "Amri ya Kuanzisha Shoroba ya Wanyamapori Nyerere-Udzungwa, 2025 (GN 226 of 2025)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2025/226/eng@2025-04-04",
+   "date": "2025-04-04",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  },
+  {
+   "id": "tza-tanzlii-gn-2009-307",
+   "title": "Marine Parks and Reserves (Tanga Coelacanth Marine Park) Declaration Notice, 2009 (GN 307 of 2009)",
+   "publisher": "TanzLII (Tanzania Legal Information Institute)",
+   "url": "https://tanzlii.org/akn/tz/act/gn/2009/307/eng@2009-08-28",
+   "date": "2009-08-28",
+   "kind": "dataset",
+   "licence": "© TanzLII (Tanzania Legal Information Institute) — cited for reference (facts and short quotes)",
+   "note": "Title, GN number and date taken from the TanzLII document record returned by the TanzLII search API (https://tanzlii.org/search/api/documents/); the full-text page is behind a Cloudflare challenge and could not be fetched."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Arusha National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declaration of Arusha National Park to include Ngurudoto and Meru Forest Reserve Proclamation, 2005 (GN 280 of 2005)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2005-280"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q716801",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-arusha",
+    "tza-tanzlii-gn-2005-280"
+   ],
+   "notes": "2005 proclamation extended the park to include Ngurdoto and Meru Forest Reserve (per TanzLII title); original establishment date not verified."
+  },
+  {
+   "name": "Burigi-Chato National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-burigi-chato"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Gombe National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q856665",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-gombe"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Ibanda-Kyerwa National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-ibanda-kyerwa"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Katavi National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": "1974",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1422525",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-katavi"
+   ],
+   "notes": "TANAPA: 'gazetted as a national park in 1974'."
+  },
+  {
+   "name": "Kilimanjaro National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declaration of Kilimanjaro National Park Proclamation, 2005 (GN 278 of 2005)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2005-278"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q756790",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-kilimanjaro",
+    "tza-tanzlii-gn-2005-278"
+   ],
+   "notes": "The 2005 proclamation is listed on TanzLII; whether it is the original establishment or a re-declaration of boundaries was not verified (full text not fetchable). The TANAPA Kilimanjaro page repeats a Serengeti-history sentence ('In 1930, a 2,286 square kilometer area ... was designated'), apparently a template error, so no area/year is taken from it. Also a UNESCO World Heritage site."
+  },
+  {
+   "name": "Kitulo National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declaration of Kitulo National Park Proclamation, 2005 (GN 279 of 2005)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2005-279"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1743959",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-kitulo",
+    "tza-tanzlii-gn-2005-279"
+   ],
+   "notes": "TANAPA: 'Gazetted in 2005'."
+  },
+  {
+   "name": "Lake Manyara National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declaration for Alteration of Boundaries of Manyara National Park (GN 105 of 2009)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2009-105"
+    ]
+   },
+   "established": null,
+   "areaKm2": 648.7,
+   "coordinates": null,
+   "wikidataQid": "Q607533",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-lake-manyara",
+    "tza-tanzlii-gn-2009-105"
+   ],
+   "notes": "Area 648.7 km² per TANAPA ('Spanning 648.7 km²'). GN 105 of 2009 altered the boundaries (TanzLII); original establishment instrument not verified. Lake Manyara is also a UNESCO biosphere reserve (CBD 5NR)."
+  },
+  {
+   "name": "Mahale Mountains National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1478367",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-mahale"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Mikumi National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1124728",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-mikumi"
+   ],
+   "notes": "TANAPA: 'Gazetted in the 1960s and expanded over time' (exact year not stated)."
+  },
+  {
+   "name": "Mkomazi National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 3245,
+   "coordinates": null,
+   "wikidataQid": "Q2671889",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-mkomazi"
+   ],
+   "notes": "Area per TANAPA ('Stretching across 3,245 sq km')."
+  },
+  {
+   "name": "Nyerere National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Tamko la Kurekebisha Mpaka wa Hifadhi ya Taifa Nyerere, 2025 (GN 595 of 2025) — boundary revision",
+    "sourceIds": [
+     "tza-tanzlii-gn-2025-595"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q104873228",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-nyerere",
+    "tza-tanzlii-gn-2025-595"
+   ],
+   "notes": "Boundary revised by GN 595 of 2025 (TanzLII). Original 2019 establishment instrument not located. Formed from part of the former Selous Game Reserve; overlaps the Selous World Heritage site."
+  },
+  {
+   "name": "Ruaha National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Tamko la Kurekebisha Mipaka ya Hifadhi ya Taifa Ruaha la Mwaka, 2023 (GN 754 of 2023) — boundary revision",
+    "sourceIds": [
+     "tza-tanzlii-gn-2023-754"
+    ]
+   },
+   "established": null,
+   "areaKm2": 20226,
+   "coordinates": null,
+   "wikidataQid": "Q656363",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-ruaha",
+    "tza-tanzlii-gn-2023-754"
+   ],
+   "notes": "Area per TANAPA ('Spanning 20,226 sq. km'); boundaries revised by GN 754 of 2023 (TanzLII), so the area may predate or postdate that revision."
+  },
+  {
+   "name": "Rubondo Island National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1782797",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-rubondo"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Rumanyika-Karagwe National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q121494132",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-rumanyika-karagwe"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Saadani National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declaration of Saadani National Park Order, 2005 (GN 281 of 2005)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2005-281"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q2032704",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-saadani",
+    "tza-tanzlii-gn-2005-281"
+   ],
+   "notes": "Establishment year taken from the 2005 declaration order listed on TanzLII."
+  },
+  {
+   "name": "Saanane National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declaration of Saanane Island National Park (GN 227 of 2013)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2013-227"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q15274198",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-saanane",
+    "tza-tanzlii-gn-2013-227"
+   ],
+   "notes": "TANAPA: 'Established as a game reserve in the 1960s and later upgraded to a national park'; declaration as Saanane Island National Park per GN 227 of 2013 (TanzLII)."
+  },
+  {
+   "name": "Serengeti National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": "1951",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q11812902",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-serengeti"
+   ],
+   "notes": "TANAPA: 'Established in 1951'; NCAA notes the 1948 National Park Ordinance implemented in 1951. Also UNESCO World Heritage site (1981, per TANAPA)."
+  },
+  {
+   "name": "Tarangire National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 2850,
+   "coordinates": null,
+   "wikidataQid": "Q1432744",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-tarangire"
+   ],
+   "notes": "TANAPA: 'covers an area of 2850 km 2'."
+  },
+  {
+   "name": "Udzungwa Mountains National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1294175",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-udzungwa"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Ugalla-River National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q7877571",
+   "marine": false,
+   "sourceIds": [
+    "tza-tanapa-site",
+    "tza-tanapa-ugalla-river"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Ngorongoro Conservation Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Conservation Area (multiple land use area)",
+   "legalStatus": null,
+   "established": "1959",
+   "areaKm2": 8292,
+   "coordinates": null,
+   "wikidataQid": "Q1217726",
+   "marine": false,
+   "sourceIds": [
+    "tza-ncaa-about",
+    "tza-ncaa-home",
+    "tza-cbd-5nr"
+   ],
+   "notes": "NCAA: 'NCA was designated a Conservation Area as far back as 1959'; area 8,292 km² (NCAA home page and CBD 5NR table). Also UNESCO World Heritage site (1979) and biosphere reserve (with Serengeti)."
+  },
+  {
+   "name": "Lake Natron Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 3000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'LAKE NATRON' | Game Controlled Areas | 3,000.00 km² | Arusha | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Burunge Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 400.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'BURUNGE' | Game Controlled Areas | 400.00 km² | Arusha | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Handeni Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 3500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'HANDENI' | Game Controlled Areas | 3,500.00 km² | Tanga | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Igombe Dam Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 100.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'IGOMBE DAM' | Game Controlled Areas | 100.00 km² | Tabora | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Kalimawe Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 300.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'KALIMAWE' | Game Controlled Areas | 300.00 km² | Tanga | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Kihurumira Pool Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 100.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'KIHURUMIRA POOL' | Game Controlled Areas | 100.00 km² | Lindi | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Kitwai Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 3500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'KITWAI' | Game Controlled Areas | 3,500.00 km² | Manyara | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Lolkisale Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 1500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'LOLKISALE' | Game Controlled Areas | 1,500.00 km² | Arusha | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Lunda Mkwambi Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1985 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1985",
+   "areaKm2": 1000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'LUNDA MKWAMBI' | Game Controlled Areas | 1,000.00 km² | Iringa | gazettement '1985 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Mlele Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 3000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MLELE' | Game Controlled Areas | 3,000.00 km² | Katavi | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Msima Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 2000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MSIMA' | Game Controlled Areas | 2,000.00 km² | Katavi | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Muhuwesi Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 1500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MUHUWESI' | Game Controlled Areas | 1,500.00 km² | Ruvuma | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Mwambesi Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 1000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MWAMBESI' | Game Controlled Areas | 1,000.00 km² | Ruvuma | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Rungwa River Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 1500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'RUNGWA RIVER' | Game Controlled Areas | 1,500.00 km² | Katavi | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Ruvu Maasai Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 1500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'RUVU MAASAI' | Game Controlled Areas | 1,500.00 km² | Manyara | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Ruvu Same Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 1000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'RUVU SAME' | Game Controlled Areas | 1,000.00 km² | Manyara | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Simanjiro Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 2000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'SIMANJIRO' | Game Controlled Areas | 2,000.00 km² | Manyara | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Speke Gulf Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 300.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'SPEKE GULF' | Game Controlled Areas | 300.00 km² | Mara | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Mto Wa Mbu Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 1500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MTO WA MBU' | Game Controlled Areas | 1,500.00 km² | Arusha | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Kilombero Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1997 (GN 459)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1997",
+   "areaKm2": 6500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'KILOMBERO' | Game Controlled Areas | 6,500.00 km² | Morogoro | gazettement '1997 (GN 459)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Longido Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 1500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'LONGIDO' | Game Controlled Areas | 1,500.00 km² | Arusha | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Rau Forest Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 100.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'RAU FOREST' | Game Controlled Areas | 100.00 km² | Kilimanjaro | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Ugunda Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 1500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'UGUNDA' | Game Controlled Areas | 1,500.00 km² | Tabora | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Umba River Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 300.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'UMBA RIVER' | Game Controlled Areas | 300.00 km² | Tanga | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Utengule Swamps Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 269)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 500.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'UTENGULE SWAMPS' | Game Controlled Areas | 500.00 km² | Mbeya | gazettement '1974 (GN 269)'. Game controlled areas are wildlife areas where hunting is regulated (TAWA mandate); GN 269 of 1974 = Wildlife Conservation (Game Controlled Areas) Order, 1974 (TanzLII)."
+  },
+  {
+   "name": "Ikorongo and Grumeti Game Reserves",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1994 (GN 214)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1994",
+   "areaKm2": 5000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'IKORONGO & GRUMET GR' | Game Reserves | 5,000.00 km² | Mara | gazettement '1994 (GN 214)'. TAWA lists these two reserves in a single row. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Selous Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Game Reserve (Establishment) (Selous Game Reserve) Declaration, 2021 (GN 459 of 2021)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2021-459"
+    ]
+   },
+   "established": null,
+   "areaKm2": 18020.0,
+   "coordinates": null,
+   "wikidataQid": "Q2268839",
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2021-459"
+   ],
+   "notes": "TAWA table row: 'SELOUS GR' | Game Reserves | 18,020.00 km² | Lindi and Coast | gazettement '2021 (GN 459)'. The 2021 declaration altered the reserve after Nyerere National Park was carved out of it; overlaps the Selous Game Reserve World Heritage site (inscribed 1982). The 2021 GN re-declared/altered an existing reserve (TanzLII record: 'The alteration of the Selous Game Reserve' / 'This declaration revokes the former Ugalla ...'), so 2021 is not the original establishment year, which is not given by TAWA."
+  },
+  {
+   "name": "Maswa Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2002 (GN 482)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2002",
+   "areaKm2": 2200.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MASWA GR' | Game Reserves | 2,200.00 km² | Simiyu | gazettement '2002 (GN 482)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Mpanga Kipengere Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2002 (GN 483)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2002",
+   "areaKm2": 1574.25,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MPANGA KIPENGERE GR' | Game Reserves | 1,574.25 km² | Njombe and Mbeya | gazettement '2002 (GN 483)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Kijereshi Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1994 (GN 215)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1994",
+   "areaKm2": 82.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'KIJERESHI GR' | Game Reserves | 82.00 km² | Simiyu | gazettement '1994 (GN 215)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Lukwati and Piti Game Reserves",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: Lukwati 1997 (GN 459) and Piti 2013 (GN 75)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": null,
+   "areaKm2": 6118.93,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'LUKWATI & PITI GR' | Game Reserves | 6,118.93 km² | Songwe | gazettement 'Lukwati 1997 (GN 459) and Piti 2013 (GN 75)'. TAWA lists these two reserves in a single row. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Moyowosi Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1981 (GN 01)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1981",
+   "areaKm2": 6000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MOYOWOSI GR' | Game Reserves | 6,000.00 km² | Kigoma | gazettement '1981 (GN 01)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Mkungunero Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1996 (GN 307)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1996",
+   "areaKm2": 743.9,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MKUNGUNERO GR' | Game Reserves | 743.90 km² | Dodoma and Manyara | gazettement '1996 (GN 307)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Swagaswaga Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1997 ( GN 72)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1997",
+   "areaKm2": 871.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'SWAGASWAGA GR' | Game Reserves | 871.00 km² | Dodoma and Manyara | gazettement '1997 ( GN 72)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Luganzo-Tongwe Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2021 (GN 460)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2021",
+   "areaKm2": 5746.16,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'LUGANZO-TONGWE GR' | Game Reserves | 5,746.16 km² | Katavi, Tabora and Kigoma | gazettement '2021 (GN 460)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Rungwa Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 275)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 9000.0,
+   "coordinates": null,
+   "wikidataQid": "Q7379872",
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'RUNGWA GR' | Game Reserves | 9,000.00 km² | Singida and Mbeya | gazettement '1974 (GN 275)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Muhesi Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1991 (GN 531)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1991",
+   "areaKm2": 2000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MUHESI GR' | Game Reserves | 2,000.00 km² | Singida | gazettement '1991 (GN 531)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Kizigo Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 275)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 4000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'KIZIGO GR' | Game Reserves | 4,000.00 km² | Singida | gazettement '1974 (GN 275)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Liparamba Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2000 (GN 289)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2000",
+   "areaKm2": 570.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'LIPARAMBA GR' | Game Reserves | 570.00 km² | Ruvuma | gazettement '2000 (GN 289)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Lwafi Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1993 (GN 284)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1993",
+   "areaKm2": 2228.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'LWAFI GR' | Game Reserves | 2,228.00 km² | Rukwa | gazettement '1993 (GN 284)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Lukwika Lumesule Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1996 (GN 07)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1996",
+   "areaKm2": 444.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'LUKWIKA LUMESULE GR' | Game Reserves | 444.00 km² | Mtwara | gazettement '1996 (GN 07)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Msanjesi Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1996 (GN 07)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1996",
+   "areaKm2": 210.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MSANJESI GR' | Game Reserves | 210.00 km² | Mtwara | gazettement '1996 (GN 07)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Pande Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1994 (GN 216)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1994",
+   "areaKm2": 15.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'PANDE GR' | Game Reserves | 15.00 km² | Dar es Salaam | gazettement '1994 (GN 216)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Rukwa Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1995 (GN 700)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1995",
+   "areaKm2": 4000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'RUKWA GR' | Game Reserves | 4,000.00 km² | Katavi | gazettement '1995 (GN 700)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Ugalla Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Game Reserve (Establishment) (Ugalla Game Reserve) Declaration, 2021 (GN 458 of 2021)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2021-458"
+    ]
+   },
+   "established": null,
+   "areaKm2": 7577.36,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2021-458"
+   ],
+   "notes": "TAWA table row: 'UGALLA GR' | Game Reserves | 7,577.36 km² | Tabora | gazettement '2021 (GN 458)'. The 2021 GN re-declared/altered an existing reserve (TanzLII record: 'The alteration of the Selous Game Reserve' / 'This declaration revokes the former Ugalla ...'), so 2021 is not the original establishment year, which is not given by TAWA."
+  },
+  {
+   "name": "Uwanda Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 1974 (GN 275)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "1974",
+   "areaKm2": 5000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'UWANDA GR' | Game Reserves | 5,000.00 km² | Rukwa | gazettement '1974 (GN 275)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Wami-Mbiki Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Game Reserve (Establishment) (Wami-Mbiki Game Reserve) Declaration, 2021 (GN 457 of 2021)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2021-457"
+    ]
+   },
+   "established": "2021",
+   "areaKm2": 2466.58,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2021-457"
+   ],
+   "notes": "TAWA table row: 'WAMIMBIKI GR' | Game Reserves | 2,466.58 km² | Morogoro and Pwani | gazettement '2021 (GN 457)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Inyonga Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Game Reserve (Establishment) (Inyonga Game Reserve) Declaration, 2021 (GN 461 of 2021)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2021-461"
+    ]
+   },
+   "established": "2021",
+   "areaKm2": 6569.93,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2021-461"
+   ],
+   "notes": "TAWA table row: 'INYONGA GR' | Game Reserves | 6,569.93 km² | Katavi | gazettement '2021 (GN 461)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Wembere Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Game Reserve (Establishment) (Wembere Game Reserve) Declaration, 2021 (GN 456 of 2021)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2021-456"
+    ]
+   },
+   "established": "2021",
+   "areaKm2": 5385.81,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2021-456"
+   ],
+   "notes": "TAWA table row: 'WEMBERE GR' | Game Reserves | 5,385.81 km² | Tabora and Singida | gazettement '2021 (GN 2021)'. TAWA's 'GN 2021' is evidently a typo; TanzLII lists GN 456 of 2021. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Igombe Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Game Reserve (Establishment) (Igombe Game Reserve) Declaration, 2021 (GN 455 of 2021)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2021-455"
+    ]
+   },
+   "established": "2021",
+   "areaKm2": 1367.14,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2021-455"
+   ],
+   "notes": "TAWA table row: 'IGOMBE GR' | Game Reserves | 1,367.14 km² | Tabora | gazettement '2021 (GN 455)'. 'established' = gazettement year given by TAWA."
+  },
+  {
+   "name": "Burunge (Juhibu) Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2006 (GN 37)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 617.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'BURUNGE (JUHIBU)' | Wildlife Management Areas | 617.00 km² | Babati | gazettement '2006 (GN 37)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Chingoli Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Wildlife Conservation (Declaration of Chingoli Wildlife Management Area) Order, 2012 (GN 64 of 2012)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2012-64"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 938.1,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2012-64"
+   ],
+   "notes": "TAWA table row: 'CHINGOLI' | Wildlife Management Areas | 938.10 km² | Tunduru | gazettement '2012 (GN 64)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Enduimet Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2007 (GN 57)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2007",
+   "areaKm2": 751.44,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'ENDUIMET' | Wildlife Management Areas | 751.44 km² | Longido | gazettement '2007 (GN 57)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Ikona (Juhiwaiko) Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2007 (GN 57)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2007",
+   "areaKm2": 242.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'IKONA (JUHIWAIKO)' | Wildlife Management Areas | 242.00 km² | Serengeti and Tarime | gazettement '2007 (GN 57)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Iluma Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Wildlife Conservation (Declaration of Iluma Wildlife Management Area) (Prohibition) Order, 2013 (GN 102 of 2013)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2013-102"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": 509.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2013-102"
+   ],
+   "notes": "TAWA table row: 'ILUMA' | Wildlife Management Areas | 509.00 km² | Kilombero and Mahenge | gazettement '2013 (GN 102)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Ipole (Juhiwai) Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2006 (GN 37)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 2406.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'IPOLE ( JUHIWAI)' | Wildlife Management Areas | 2,406.00 km² | Sikonge | gazettement '2006 (GN 37)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Juhiwangumiwa Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2016 (GN 204)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2016",
+   "areaKm2": 496.5,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'JUHIWANGUMIWA' | Wildlife Management Areas | 496.50 km² | Rufiji | gazettement '2016 (GN 204)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Ukutu (Jukumu) Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2010 (GN 261)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2010",
+   "areaKm2": 639.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'UKUTU (JUKUMU)' | Wildlife Management Areas | 639.00 km² | Morogoro | gazettement '2010 (GN 261)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Kimbanda Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Wildlife Conservation (Declaration of Kimbanda Wildlife Management Area) Order, 2012 (GN 63 of 2012)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2012-63"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 2150.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2012-63"
+   ],
+   "notes": "TAWA table row: 'KIMBANDA' | Wildlife Management Areas | 2,150.00 km² | Namtumbo | gazettement '2012 (GN 63)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Kisungule Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Wildlife Conservation (Declaration of Kisungule Wildlife Management Area) Order, 2012 (GN 62 of 2012)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2012-62"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 1345.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2012-62"
+   ],
+   "notes": "TAWA table row: 'KISUNGULE' | Wildlife Management Areas | 1,345.00 km² | Namtumbo | gazettement '2012 (GN 62)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Magingo Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2009 (GN103)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2009",
+   "areaKm2": 4515.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MAGINGO' | Wildlife Management Areas | 4,515.00 km² | Liwale | gazettement '2009 (GN103)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Makame (Indema) Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2009 (GN 389)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2009",
+   "areaKm2": 5372.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MAKAME (INDEMA)' | Wildlife Management Areas | 5,372.00 km² | Kiteto | gazettement '2009 (GN 389)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Makao Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2009 (GN 369)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2009",
+   "areaKm2": 768.9,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MAKAO' | Wildlife Management Areas | 768.90 km² | Meatu | gazettement '2009 (GN 369)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Mbarang'andu Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2006 (GN 37)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 2471.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MBARANG'ANDU' | Wildlife Management Areas | 2,471.00 km² | Namtumbo | gazettement '2006 (GN 37)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Mbomipa (Pawaga-idodi) Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2007 (GN 57)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2007",
+   "areaKm2": 777.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'MBOMIPA (PAWAGA-IDODI)' | Wildlife Management Areas | 777.00 km² | Iringa | gazettement '2007 (GN 57)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Nalika Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2007 (GN 217)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2007",
+   "areaKm2": 1391.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'NALIKA' | Wildlife Management Areas | 1,391.00 km² | Tunduru | gazettement '2007 (GN 217)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Ngarambe/tapika (Mungata) Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2006 (GN 37)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 767.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'NGARAMBE/TAPIKA (MUNGATA)' | Wildlife Management Areas | 767.00 km² | Rufiji | gazettement '2006 (GN 37)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Randilen (Lolkisale ) Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Wildlife Conservation (Declaration of Randilen Wildlife Management Area) Order, 2013 (GN 21 of 2013)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2013-21"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": 312.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa",
+    "tza-tanzlii-gn-2013-21"
+   ],
+   "notes": "TAWA table row: 'RANDILEN (LOLKISALE )' | Wildlife Management Areas | 312.00 km² | Monduli | gazettement '2013 (GN 21)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Umemaruwa Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2015 (GN 185)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2015",
+   "areaKm2": 600.92,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'UMEMARUWA' | Wildlife Management Areas | 600.92 km² | Mbarali and Njombe | gazettement '2015 (GN 185)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Uyumbu (Uwima) Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2006 (GN 37)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 839.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'UYUMBU (UWIMA)' | Wildlife Management Areas | 839.00 km² | Urambo | gazettement '2006 (GN 37)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Waga Wildlife Management Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Gazettement per TAWA: 2015 (GN 184)",
+    "sourceIds": [
+     "tza-tawa-pa"
+    ]
+   },
+   "established": "2015",
+   "areaKm2": 315.27,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tawa-pa"
+   ],
+   "notes": "TAWA table row: 'WAGA' | Wildlife Management Areas | 315.27 km² | Mbarali | gazettement '2015 (GN 184)'. The location column for WMAs gives districts."
+  },
+  {
+   "name": "Pololeti Game Controlled Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Controlled Area",
+   "legalStatus": {
+    "text": "Wildlife Conservation (Pololeti Game Controlled Area) (Declaration) Order, 2022 (GN 421 of 2022)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2022-421"
+    ]
+   },
+   "established": "2022",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tanzlii-gn-2022-421"
+   ],
+   "notes": "Not in the TAWA protected-areas table (fetched 2026-10-20); recorded from the TanzLII legal record only."
+  },
+  {
+   "name": "Nyerere-Udzungwa Wildlife Corridor",
+   "localName": "Shoroba ya Wanyamapori Nyerere-Udzungwa",
+   "category": "other-protected-area",
+   "designationLabel": "Shoroba ya Wanyamapori (wildlife corridor)",
+   "legalStatus": {
+    "text": "Amri ya Kuanzisha Shoroba ya Wanyamapori Nyerere-Udzungwa, 2025 (GN 226 of 2025)",
+    "sourceIds": [
+     "tza-tanzlii-gn-2025-226"
+    ]
+   },
+   "established": "2025",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tanzlii-gn-2025-226"
+   ],
+   "notes": "Legally established wildlife corridor (order under wildlife legislation) per TanzLII title; area not verified. Local name: Shoroba ya Wanyamapori Nyerere-Udzungwa."
+  },
+  {
+   "name": "Mafia Island Marine Park",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Park",
+   "legalStatus": {
+    "text": "Government Notice No. 200 published on 6/9/96, deemed in operation from 1 July 1995 (boundary description annexed to the GMP)",
+    "sourceIds": [
+     "tza-mpru-gmp-mimp"
+    ]
+   },
+   "established": "1995",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q12287382",
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history",
+    "tza-mpru-gmp-mimp",
+    "tza-cbd-5nr"
+   ],
+   "notes": "One of 3 marine parks listed by MPRU. Established under the Marine Parks and Reserves Act No. 29 of 1994."
+  },
+  {
+   "name": "Mnazi Bay-Ruvuma Estuary Marine Park",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q6885856",
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history",
+    "tza-mpru-gmp-mbremp",
+    "tza-cbd-5nr"
+   ],
+   "notes": "MPRU: 'Mnazi Bay and Ruvuma River Estuary (Mtwara)'. Gazettement instrument and year not verified (GMP text not machine-readable)."
+  },
+  {
+   "name": "Tanga Coelacanth Marine Park",
+   "localName": "Hifadhi ya Bahari ya Silikanti Tanga",
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Park",
+   "legalStatus": {
+    "text": "Gazetted through Government Notice No. 307 of 28th August, 2009 under the Marine Parks and Reserves Act No. 29 of 1994",
+    "sourceIds": [
+     "tza-mpru-gmp-tacmp"
+    ]
+   },
+   "established": "2009-08-28",
+   "areaKm2": 552,
+   "coordinates": null,
+   "wikidataQid": "Q109293097",
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history",
+    "tza-mpru-gmp-tacmp",
+    "tza-cbd-5nr",
+    "tza-tanzlii-gn-2009-307"
+   ],
+   "notes": "GMP: 'about 552 km² of which 85 km² are terrestrial and 467 km² are marine'. TanzLII also lists 'Marine Parks and Reserves (Tanga Coelacanth Marine Park) Declaration Notice, 2009' (GN 307 of 2009). MPRU Swahili name: Silikanti (Tanga)."
+  },
+  {
+   "name": "Bongoyo Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": "1975-06",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history",
+    "tza-mpru-reserves",
+    "tza-mpru-gmp-dmrs"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Dar es Salaam. Part of the Dar es Salaam Marine Reserves System (DMRS). DMRS GMP: Bongoyo, Pangavini, Fungu Yasin and Mbudya 'gazetted separately in June 1975'. Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Sinda Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history",
+    "tza-mpru-reserves"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Dar es Salaam. Part of the Dar es Salaam Marine Reserves System (DMRS). Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Makatube Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history",
+    "tza-mpru-reserves"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Dar es Salaam. Part of the Dar es Salaam Marine Reserves System (DMRS). Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Pangavini Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": "1975-06",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history",
+    "tza-mpru-reserves",
+    "tza-mpru-gmp-dmrs"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Dar es Salaam. Part of the Dar es Salaam Marine Reserves System (DMRS). DMRS GMP: Bongoyo, Pangavini, Fungu Yasin and Mbudya 'gazetted separately in June 1975'. Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Funguyasini Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": "1975-06",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history",
+    "tza-mpru-reserves",
+    "tza-mpru-gmp-dmrs"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Dar es Salaam. Part of the Dar es Salaam Marine Reserves System (DMRS). DMRS GMP: Bongoyo, Pangavini, Fungu Yasin and Mbudya 'gazetted separately in June 1975'. Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Mbudya Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": "1975-06",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history",
+    "tza-mpru-reserves",
+    "tza-mpru-gmp-dmrs"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Dar es Salaam. Part of the Dar es Salaam Marine Reserves System (DMRS). DMRS GMP: Bongoyo, Pangavini, Fungu Yasin and Mbudya 'gazetted separately in June 1975'. Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Kendwa Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history",
+    "tza-mpru-reserves"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Dar es Salaam. Part of the Dar es Salaam Marine Reserves System (DMRS). Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Maziwe Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Tanga. Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Kirui Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Tanga. Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Ulenge Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Tanga. Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Kwale Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Tanga. Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Mwewe Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Tanga. Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Nyororo Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Coast. Mafia Island marine reserves system (MPRU marine reserves page heading). Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Shungimbili Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Coast. Mafia Island marine reserves system (MPRU marine reserves page heading). Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Mbarakuni Island Marine Reserve",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-mpru-history"
+   ],
+   "notes": "Listed by MPRU among the 15 marine reserves ('designated Protected Areas'), Coast. Mafia Island marine reserves system (MPRU marine reserves page heading). Name formed from the island name and the designation; MPRU lists only the island names."
+  },
+  {
+   "name": "Menai Bay Conservation Area",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine conservation area (Zanzibar)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-cbd-5nr"
+   ],
+   "notes": "Named in the CBD Fifth National Report (2014) as one of three marine protected areas in Zanzibar; no Zanzibar Government source could be fetched to confirm legal instrument, year or area."
+  },
+  {
+   "name": "Mnemba Island Marine Conservation Area",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine conservation area (Zanzibar)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-cbd-5nr"
+   ],
+   "notes": "Named in the CBD Fifth National Report (2014) as one of three marine protected areas in Zanzibar; no Zanzibar Government source could be fetched to confirm legal instrument, year or area."
+  },
+  {
+   "name": "Pemba Channel Conservation Area",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine conservation area (Zanzibar)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "tza-cbd-5nr"
+   ],
+   "notes": "Named in the CBD Fifth National Report (2014) as one of three marine protected areas in Zanzibar; no Zanzibar Government source could be fetched to confirm legal instrument, year or area."
+  },
+  {
+   "name": "Kalambo Nature Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Nature Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 433.34,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tfs-home",
+    "tza-tfs-kalambo-nature-forest-reserve"
+   ],
+   "notes": "TFS page: 'covers an area of 43,334 ha' (text partly duplicated in extraction). Partial enumeration: TFS states there are 25 Nature Forest Reserves; only those with TFS destination pages are recorded."
+  },
+  {
+   "name": "Lake Ngozi Nature Reserves",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Nature Reserves",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 246.8,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tfs-home",
+    "tza-tfs-lake-ngozi-nature-reserves"
+   ],
+   "notes": "TFS page: 'covers an area of 24,680 ha'. Partial enumeration: TFS states there are 25 Nature Forest Reserves; only those with TFS destination pages are recorded."
+  },
+  {
+   "name": "Magamba Nature Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Nature Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 92.839,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tfs-home",
+    "tza-tfs-magamba-nature-forest-reserve"
+   ],
+   "notes": "TFS page: 'covers an area of 9283.9 ha'. Partial enumeration: TFS states there are 25 Nature Forest Reserves; only those with TFS destination pages are recorded."
+  },
+  {
+   "name": "Meru-Usa Nature Forest Reserves",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Nature Forest Reserves",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 81.7,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tfs-home",
+    "tza-tfs-meru-usa-nature-forest-reserves"
+   ],
+   "notes": "TFS page: 'total area of 8,170 ha'. Partial enumeration: TFS states there are 25 Nature Forest Reserves; only those with TFS destination pages are recorded."
+  },
+  {
+   "name": "Mt Hanang Nature Forest Reserves",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Nature Forest Reserves",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 58.71,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tfs-home",
+    "tza-tfs-mt-hanang-nature-forest-reserves"
+   ],
+   "notes": "TFS page: 'an area of 5,871ha'. Partial enumeration: TFS states there are 25 Nature Forest Reserves; only those with TFS destination pages are recorded."
+  },
+  {
+   "name": "Pugu Kazimzumbwi Nature Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Nature Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 89.65,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tfs-home",
+    "tza-tfs-pugu-kazimzumbwi-nature-forest-reserve"
+   ],
+   "notes": "TFS page: 'The reserve with 8,965 ha'. Partial enumeration: TFS states there are 25 Nature Forest Reserves; only those with TFS destination pages are recorded."
+  },
+  {
+   "name": "Uluguru Mountain Nature Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Nature Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tfs-home",
+    "tza-tfs-uluguru-mountain-nature-forest-reserve"
+   ],
+   "notes": "TFS page: 'The area covered by forest is 24,115ha' — stated as forest cover, so not used as the reserve area. Partial enumeration: TFS states there are 25 Nature Forest Reserves; only those with TFS destination pages are recorded."
+  },
+  {
+   "name": "Lake Duluti Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 0.8624,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "tza-tfs-home",
+    "tza-tfs-lake-duluti-forest-reserve"
+   ],
+   "notes": "TFS page: 'covers an area of 86.24Ha including a crater lake of 60Ha'. Shown among TFS ecotourism destinations; designated 'Forest Reserve', not 'Nature Forest Reserve'. Partial enumeration: TFS states there are 25 Nature Forest Reserves; only those with TFS destination pages are recorded."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "forest reserves (TFS national forest reserves, incl. remaining nature forest reserves)",
+   "approxCount": 465,
+   "reason": "No official list published on the TFS website; only 8 destination pages found. Local authority forest reserves and village land forest reserves are additional.",
+   "sourceIds": [
+    "tza-tfs-natural-forests"
+   ]
+  },
+  {
+   "category": "national bee reserves",
+   "approxCount": 18,
+   "reason": "TFS states 18 bee reserves but publishes no list; several were declared by GN in 2024 (e.g. Malinga GN 526, Aghondi GN 530, Kwenyunga-Magiri GN 550, Shinji GN 551 of 2024 per TanzLII). Bee reserves are forest/beekeeping reserves rather than wildlife conservation areas.",
+   "sourceIds": [
+    "tza-tfs-natural-forests"
+   ]
+  },
+  {
+   "category": "Zanzibar terrestrial protected areas (e.g. Jozani-Chwaka Bay National Park, forest reserves)",
+   "approxCount": null,
+   "reason": "No Zanzibar Government source could be fetched (sites unreachable or blocked); only third-party sources were found, so none are recorded.",
+   "sourceIds": []
+  },
+  {
+   "category": "wildlife corridors and other recent wildlife declarations",
+   "approxCount": null,
+   "reason": "Only the Nyerere-Udzungwa corridor (GN 226 of 2025) was found; a systematic search of TanzLII for all corridor orders was not possible because full-text pages are blocked to automated fetch.",
+   "sourceIds": []
+  }
+ ],
+ "gaps": [
+  "TANAPA's website lists 21 national parks but does not state a total count, establishment instruments or areas for most parks; the original declaration GNs for the 2019 parks (Burigi-Chato, Ibanda-Kyerwa, Rumanyika-Karagwe, Ugalla-River, Nyerere) were not found.",
+  "Kigosi National Park (2019) is excluded: GN 616 of 2023 ('Tamko la Kufuta Hifadhi ya Taifa Kigosi la Mwaka 2023') revoked it per TanzLII; a 2025 High Court judgment indexed on TanzLII describes the area as now 'Hifadhi ya Msitu ya Taifa Kigosi' (national forest reserve), which could not be confirmed from TFS.",
+  "TanzLII document pages (National Parks Act Cap 282 consolidated 2025 with its Second Schedule; individual GNs) are behind a Cloudflare challenge; only titles, GN numbers and dates from the TanzLII search API were used.",
+  "TAWA's table has 25 game reserve rows (two rows combine two reserves: Ikorongo & Grumeti; Lukwati & Piti), versus 28 game reserves in the 2014 CBD report; some reserves were upgraded to national parks since 2019 (e.g. Burigi, Biharamulo, Kimisi, Ibanda, Rumanyika, Kigosi, Ugalla parts). TAWA areas are rounded figures for many reserves.",
+  "TAWA's table lists 25 game controlled areas and 21 WMAs, versus 42 GCAs and 38 WMAs (33 established) in the 2014 CBD report; differences could not be reconciled.",
+  "Marine reserve names are given by MPRU only as island names; individual gazettement years are known only for the four DMRS islands gazetted in June 1975. Mnazi Bay-Ruvuma Estuary Marine Park's gazettement could not be read from the GMP PDF.",
+  "Zanzibar: Jozani-Chwaka Bay National Park, Changuu-Bawe and other Zanzibar conservation areas could not be verified from official sources; the three Zanzibar marine areas are recorded only from the 2014 CBD report.",
+  "Ramsar sites (Malagarasi-Muyovozi, Kilombero Valley Floodplain, Lake Natron) and the Kilwa/Songo Mnara cultural heritage site appear in the TAWA table but are not recorded as separate areas per the brief.",
+  "No official coordinates were found for any area.",
+  "Wikidata QIDs were matched (search + entity check of label, P17 country and P31 type) only for national parks and selected major reserves; the Wikidata API was heavily rate-limited (HTTP 429) during this run, so other areas were not attempted or the lookup failed. A null QID does not mean no item exists."
+ ]
+}

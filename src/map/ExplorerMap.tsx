@@ -39,7 +39,7 @@ export type ViewRequest = { id: number } & (
 type MapStatus = 'loading' | 'ready' | 'offline' | 'error'
 
 const SRC = {
-  countries: 'wasop-countries',
+  countries: 'catalogued-countries',
   regions: 'gnb-regions',
   areas: 'territory-areas',
   points: 'territory-points',
@@ -176,7 +176,7 @@ export function ExplorerMap({
 
         const selected: ExpressionSpecification = ['boolean', ['feature-state', 'selected'], false]
         const countryHover: ExpressionSpecification = ['boolean', ['feature-state', 'hover'], false]
-        // WASOP countries: a near-transparent fill keeps them clickable; selection tints them.
+        // Catalogued countries: a near-transparent fill keeps them clickable; selection tints them.
         map.addLayer(
           {
             id: 'countries-fill',
@@ -457,7 +457,7 @@ export function ExplorerMap({
 
   const notices: string[] = []
   if (zoom !== null && zoom < config.map.coverageNoticeBelowZoom) {
-    notices.push('Conservation records cover the 13 WASOP countries only')
+    notices.push('Conservation records cover the 22 catalogued African countries only')
   }
 
   return (
@@ -466,7 +466,7 @@ export function ExplorerMap({
       <div
         ref={containerRef}
         style={{ position: 'absolute', inset: 0 }}
-        aria-label="Map of the WASOP countries"
+        aria-label="Map of the catalogued countries"
         role="region"
       />
       {status === 'loading' && (

@@ -1,0 +1,506 @@
+{
+ "country": "GMB",
+ "countryName": "The Gambia",
+ "officialInventory": {
+  "summary": "Wildlife protected areas are designated under the Biodiversity/Wildlife Act 2003 and managed by the Department of Parks and Wildlife Management (DPWM); forest reserves/parks are under the Department of Forestry. The best official list found is Table 1 'Protected Areas of the Gambia' in the revised NBSAP (March 2015), giving 22 entries (7 established parks/reserves, 1 proposed national park, 1 community wildlife reserve and 13 community conservation areas then 'in process'). The 6th national report (2019) repeats the count of 22 wildlife protected areas (8 reserves/national parks + 14 community-based conservation areas) without names. No DPWM-published list was used (dpwm.gov.gm reported hijacked/dead).",
+  "sourceIds": [
+   "gmb-nbsap-2015",
+   "gmb-cbd-nr6",
+   "gmb-cbd-nr7"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "wildlife protected areas (DPWM)",
+    "count": 22,
+    "asOf": "2019",
+    "sourceId": "gmb-cbd-nr6",
+    "quote": "Currently there are (22) wildlife Protected Areas, occupying a total area of 76,064 hectares, approximately 6.4% of Gambia's total surface area."
+   },
+   {
+    "category": "reserves and national parks",
+    "count": 8,
+    "asOf": "2019",
+    "sourceId": "gmb-cbd-nr6",
+    "quote": "Eight of these Protected Areas are reserves and national parks while 14 are community based conservation areas under the mandate of the Department of Parks and Wildlife (DPWM)."
+   },
+   {
+    "category": "community-based conservation areas",
+    "count": 14,
+    "asOf": "2019",
+    "sourceId": "gmb-cbd-nr6",
+    "quote": "14 are community based conservation areas under the mandate of the Department of Parks and Wildlife (DPWM)"
+   },
+   {
+    "category": "forest reserves (Department of Forestry)",
+    "count": 66,
+    "asOf": "2015",
+    "sourceId": "gmb-nbsap-2015",
+    "quote": "There are 66 forest reserves covering a total of 34,029 hectares managed by the Department of Forestry."
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "gmb-nbsap-2015",
+   "title": "The National Biodiversity Strategy and Action Plan (2015–2020) of The Gambia (Reviewed NBSAP, March 2015)",
+   "publisher": "Government of The Gambia / CBD Secretariat",
+   "url": "https://www.cbd.int/doc/world/gm/gm-nbsap-v2-en.pdf",
+   "date": "2015-03",
+   "kind": "report",
+   "licence": "© Government of The Gambia — cited for reference (facts and short quotes)",
+   "note": "Table 1 'Protected Areas of the Gambia' (page 11) lists name, date established, area (ha) and remarks."
+  },
+  {
+   "id": "gmb-cbd-nr6",
+   "title": "Gambia (the) — Sixth National Report to the CBD",
+   "publisher": "Government of The Gambia / CBD Secretariat",
+   "url": "https://chm.cbd.int/database/record?documentID=243051",
+   "date": "2019-03-15",
+   "kind": "report",
+   "licence": "© Government of The Gambia — cited for reference (facts and short quotes)",
+   "note": "Text fetched from https://api.cbd.int/api/v2013/documents/72F99C09-A17F-497F-7B00-EE38CDE69E5D"
+  },
+  {
+   "id": "gmb-cbd-nr7",
+   "title": "Gambia (the) — Seventh National Report to the CBD",
+   "publisher": "Government of The Gambia / CBD Secretariat",
+   "url": "https://ort.cbd.int/database/record?documentID=284161",
+   "date": "2026-02-25",
+   "kind": "report",
+   "licence": "© Government of The Gambia — cited for reference (facts and short quotes)",
+   "note": "Text fetched from https://api.cbd.int/api/v2013/documents/4B731737-7F0B-FA08-DE21-53C320F30EC2. Mentions Tanbi Wetland National Park and Bao Bolong Wetland Reserve but no full list."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Abuko Nature Reserve",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Nature Reserve",
+   "legalStatus": null,
+   "established": "1968",
+   "areaKm2": 1.34,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "134 ha; 'The first Protected area in the Gambia' (NBSAP 2015)."
+  },
+  {
+   "name": "Kiang West National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": "1987",
+   "areaKm2": 190.51,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "19,051 ha 'This includes the Extension' (NBSAP 2015)."
+  },
+  {
+   "name": "Niumi National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": "1986",
+   "areaKm2": 77.58,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "7,758 ha. NR6 calls it one of 'the Gambia’s marine PAs'. Part of the transboundary Niumi–Saloum Delta Ramsar site (handled separately)."
+  },
+  {
+   "name": "Bao Bolong Wetland Reserve",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Wetland Reserve",
+   "legalStatus": null,
+   "established": "1993",
+   "areaKm2": 220,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr7"
+   ],
+   "notes": "Spelled 'Boa Bolong Wetland Reserve' in the NBSAP table: established 1993, 22,000 ha, 'Was designated a RAMSAR site in 1996'."
+  },
+  {
+   "name": "Tanji Bird Reserve",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Bird Reserve",
+   "legalStatus": null,
+   "established": "1993",
+   "areaKm2": 6.12,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "612 ha. NBSAP lists it among coastal habitats under protection."
+  },
+  {
+   "name": "Tanbi Wetland National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 60.34,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6",
+    "gmb-cbd-nr7"
+   ],
+   "notes": "6,034 ha; establishment date blank in NBSAP table. NR6 calls it one of 'the Gambia’s marine PAs'. Ramsar date differs between NBSAP (December 2002) and NR7 (2007)."
+  },
+  {
+   "name": "River Gambia National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": "1978",
+   "areaKm2": 5.89,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gmb-nbsap-2015"
+   ],
+   "notes": "589 ha; 'managed as a project' (NBSAP 2015)."
+  },
+  {
+   "name": "Jokadou National Park",
+   "localName": "Jokadu",
+   "category": "proposed",
+   "designationLabel": "National Park (proposed)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 150.28,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015"
+   ],
+   "notes": "15,028 ha, 'In process of designation … Proposed' (NBSAP 2015). NR6 (2019) counts 8 reserves/national parks, which could include it, but no designation was verified."
+  },
+  {
+   "name": "Bolong Fenyo Community Wildlife Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Wildlife Reserve",
+   "legalStatus": null,
+   "established": "2007",
+   "areaKm2": 3.2,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015"
+   ],
+   "notes": "320 ha; 'The first community owned reserve' (NBSAP 2015)."
+  },
+  {
+   "name": "Bamako Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 10.32,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "1,032 ha. 'In process' in NBSAP 2015; NR6 (2019) reports DPWM 'managed to establish thirteen new community protected areas' and counts 14 community-based conservation areas, consistent with the 13 'in process' CCAs plus Bolong Fenyo, but NR6 does not name them — formal status unverified."
+  },
+  {
+   "name": "Barrow Kunda Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 3.59,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "359 ha. 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Badari Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 0.02,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "2 ha (as printed). 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Demba Kunda Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 0.07,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "7 ha. 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Kass Wolof Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 0.24,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "24 ha. 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Chamen Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 0.32,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "32 ha. 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Faraba Bantang Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 5.02,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "502 ha. 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Pakau Njogu Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 0.59,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "59 ha. 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Kassagne Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1.32,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "132 ha. 'In process' in 2015; see note on Bamako CCA regarding status. NR6 separately mentions a 'Kassagne private game sanctuary'."
+  },
+  {
+   "name": "Kanuma Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 0.47,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "47 ha. 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Tintiba and Dumbuto Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1.723,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "172.3 ha. 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Berefet Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 9.849,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "984.9 ha. 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Bintang Community Conservation Area",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Conservation Area",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 11.849,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "gmb-nbsap-2015",
+    "gmb-cbd-nr6"
+   ],
+   "notes": "1184.9 ha. 'In process' in 2015; see note on Bamako CCA regarding status."
+  },
+  {
+   "name": "Kartong – Allahein River Marine Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Marine Protected Area (planned)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gmb-cbd-nr6"
+   ],
+   "notes": "NR6: 'two Marine protected areas (Kartong Allahein and Labor Canyon) identified through the EBSA process … will be established'. Not verified as designated."
+  },
+  {
+   "name": "Labor Canyon Marine Protected Area",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Marine Protected Area (planned)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "gmb-cbd-nr6"
+   ],
+   "notes": "Deep-sea EBSA site planned as MPA per NR6 (also written 'Labour Canyon'). Not verified as designated."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "forest reserves / forest parks (Department of Forestry)",
+   "approxCount": 66,
+   "reason": "No official list found; NBSAP gives 66 forest reserves (34,029 ha), of which 34 forest parks (22,239 ha) designated as protected forest; NBSAP notes most are not categorised as protected areas, except e.g. Bijilo, Pirang, Kungkilling and Dobo which are 'managed for conservation'.",
+   "sourceIds": [
+    "gmb-nbsap-2015"
+   ]
+  },
+  {
+   "category": "community forests and joint forest parks",
+   "approxCount": null,
+   "reason": "NR6 mentions 29 community forests and 23 joint forest parks; no list found.",
+   "sourceIds": [
+    "gmb-cbd-nr6"
+   ]
+  }
+ ],
+ "gaps": [
+  "No legal instrument (gazette notice) was verified for any Gambian protected area; establishment years come from the NBSAP table.",
+  "The status of the 13 community conservation areas listed 'in process' in 2015 is inferred, not confirmed by name, from NR6's statement that 13 new community protected areas were established.",
+  "NR7 (2026) mentions 'new site designations' without naming them; any post-2019 designations (e.g. Jokadu NP, Kartong MPA) remain unverified.",
+  "The Biodiversity and Wildlife Act 2003 text (and any schedule of protected areas) was not located in FAOLEX during this run.",
+  "Wikidata QIDs not assigned (Wikidata services were rate-limiting); coordinates left null."
+ ]
+}

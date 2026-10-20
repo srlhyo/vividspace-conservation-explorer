@@ -1,0 +1,744 @@
+{
+ "country": "BWA",
+ "countryName": "Botswana",
+ "officialInventory": {
+  "summary": "No public protected-area register from the Department of Wildlife and National Parks (DWNP) was found online (DWNP has no standalone website; the Botswana Tourism site returned errors). The authoritative list is statutory: the Wildlife Conservation and National Parks Act (Cap. 38:01) declares national parks (First Schedule), game reserves and sanctuaries (Second Schedule), wildlife management areas (Third Schedule) and controlled hunting areas (Fourth Schedule). The freely available consolidated text (FAOLEX) runs to 2007; the Sua Pan Flamingo Sanctuary (S.I. 38 of 2010) was added from its own order. Forest reserves come from the Forest (Declaration of Forest Reserves) Order. The current (2023-2024 amended) consolidated Act is behind a paywall, so later changes may be missing. Category totals from the 5th CBD report (2015, Table 5): national parks 44,390 km2 (7%); game reserves 59,590 + 408 km2 (10%); legislated WMAs 72,090 km2 (23%) plus 65,780 km2 not legislated; forest reserves 4,095.4 km2 (1%). DWNP's PoWPA submission: 'About 40% of the Botswana’s land area has been devoted to protected areas, with 17% being national parks and game reserves'.",
+  "sourceIds": [
+   "bwa-faolex-wcnpa",
+   "bwa-botswanalaws-wcnpa",
+   "bwa-botswanalaws-forest",
+   "bwa-cbd-nr5",
+   "bwa-cbd-powpa"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "national parks (First Schedule)",
+    "count": 4,
+    "asOf": "2007",
+    "sourceId": "bwa-faolex-wcnpa",
+    "quote": "1. Chobe National Park ... 2. Gemsbok National Park ... 3. Nxai Pan National Park ... 4. Makgadikgadi Pans National Park"
+   },
+   {
+    "category": "game reserves and sanctuaries (Second Schedule)",
+    "count": 9,
+    "asOf": "2007",
+    "sourceId": "bwa-faolex-wcnpa",
+    "quote": "SECOND SCHEDULE GAME RESERVES AND SANCTUARIES (Section 12)"
+   },
+   {
+    "category": "wildlife management areas (Third Schedule)",
+    "count": 9,
+    "asOf": "2007",
+    "sourceId": "bwa-faolex-wcnpa",
+    "quote": "THIRD SCHEDULE WILDLIFE MANAGEMENT AREAS"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "bwa-faolex-wcnpa",
+   "title": "Wildlife Conservation and National Parks Act (Chapter 38:01), consolidated text with First to Fourth Schedules",
+   "publisher": "Government of Botswana (text via FAOLEX, FAO)",
+   "url": "https://faolex.fao.org/docs/pdf/bot4728.pdf",
+   "date": "consolidated to S.I. 80 of 2007",
+   "kind": "report",
+   "licence": "Copyright Government of Botswana (as marked on each page); accessed via FAOLEX — cited for reference",
+   "note": "Act 28 of 1992, commenced 11 December 1992. First Schedule = National Parks (s.5); Second Schedule = Game Reserves and Sanctuaries (s.12); Third Schedule = Wildlife Management Areas (s.15); Fourth Schedule = Controlled Hunting Areas (s.16). Later amendments (Act 15 of 2023; S.I. 122 of 2023; S.I. 16 and 74 of 2024) are listed on botswanalaws.com but the current schedules there are paywalled."
+  },
+  {
+   "id": "bwa-botswanalaws-wcnpa",
+   "title": "Wildlife Conservation and National Parks (principal legislation page) and its subsidiary legislation index",
+   "publisher": "Botswana Laws (Blackhall Publishing)",
+   "url": "https://botswanalaws.com/consolidated-statutes/subsidiary-legislation/wildlife-conservation-and-national-parks-subsidiary-legislation-previously-fauna-conservation",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Blackhall Publishing — cited for reference (facts and short quotes)",
+   "note": "Index lists 'Declaration of Sua Pan Flamingo Sanctuary Order', 'Declaration of Private Game Reserve(s) Order', 'Gemsbok National Park Regulations' etc. Principal Act page (https://botswanalaws.com/consolidated-statutes/principle-legislation/wildlife-conservation-and-national-parks) shows amendments up to S.I. 74 of 2024."
+  },
+  {
+   "id": "bwa-faolex-suapan",
+   "title": "Declaration of Sua Pan Flamingo Sanctuary Order (S.I. 38 of 2010)",
+   "publisher": "Government of Botswana (text via FAOLEX, FAO)",
+   "url": "https://faolex.fao.org/docs/pdf/bot187093.pdf",
+   "date": "2010-04-23",
+   "kind": "report",
+   "licence": "Government of Botswana statutory instrument via FAOLEX — cited for reference"
+  },
+  {
+   "id": "bwa-botswanalaws-forest",
+   "title": "Forest: Subsidiary Legislation — Forest (Declaration of Forest Reserves) Order (S.I. 42 of 1968, as amended by S.I. 106 of 1981 and S.I. 11 of 1987)",
+   "publisher": "Botswana Laws (Blackhall Publishing)",
+   "url": "https://botswanalaws.com/consolidated-statutes/subsidiary-legislation/forest-subsidiary-legislation",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Blackhall Publishing — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "bwa-cbd-nr5",
+   "title": "Fifth National Report to the Convention on Biological Diversity (Table 5: Types of protected areas in Botswana)",
+   "publisher": "Department of Environmental Affairs, Botswana",
+   "url": "https://www.cbd.int/doc/world/bw/bw-nr-05-en.pdf",
+   "date": "2015",
+   "kind": "report",
+   "licence": "© Government of Botswana — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "bwa-cbd-powpa",
+   "title": "Programme of Work on Protected Areas — Botswana action plan",
+   "publisher": "Department of Wildlife and National Parks, Botswana (submitted to CBD)",
+   "url": "https://www.cbd.int/doc/world/bw/bw-nbsap-powpa-en.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Government of Botswana — cited for reference (facts and short quotes)"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Chobe National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared a national park by s.5(1) and the First Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q859389",
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Gemsbok National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared a national park by s.5(1) and the First Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Botswana component of the Kgalagadi Transfrontier Park (name of the transfrontier park not stated in the Act text fetched)."
+  },
+  {
+   "name": "Nxai Pan National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared a national park by s.5(1) and the First Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q859377",
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Makgadikgadi Pans National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Declared a national park by s.5(1) and the First Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1747195",
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Mogobane Bird Sanctuary",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Bird Sanctuary",
+   "legalStatus": {
+    "text": "Declared a game reserve or sanctuary by s.12(1) and the Second Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Protects all wild birds other than game birds within 1,61 km of Mogobane Dam (Bamalete Tribal Territory)."
+  },
+  {
+   "name": "Bathoen Dam Bird Sanctuary",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Bird Sanctuary",
+   "legalStatus": {
+    "text": "Declared a game reserve or sanctuary by s.12(1) and the Second Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Protects all wild birds other than game birds within 1,61 km of Bathoen Dam (Bangwaketse Tribal Territory)."
+  },
+  {
+   "name": "Central Kalahari Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Declared a game reserve or sanctuary by s.12(1) and the Second Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q194732",
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Schedule entry reads 'The Central Kalahari Game Reserve'."
+  },
+  {
+   "name": "Moremi Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Declared a game reserve or sanctuary by s.12(1) and the Second Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q353112",
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Lies in the Okavango Delta, which the 5th CBD report lists as a World Heritage Site (coordinator to confirm overlap)."
+  },
+  {
+   "name": "Maun Game Sanctuary",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Game Sanctuary",
+   "legalStatus": {
+    "text": "Declared a game reserve or sanctuary by s.12(1) and the Second Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Nnywane Dam Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Declared a game reserve or sanctuary by s.12(1) and the Second Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Portion 1 of the farm 'Moroekwe' per the schedule."
+  },
+  {
+   "name": "Khutse Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Declared a game reserve or sanctuary by s.12(1) and the Second Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q6403231",
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Gaborone Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Declared a game reserve or sanctuary by s.12(1) and the Second Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q123671197",
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Lots 10028 and 13042, Gaborone City, per the schedule."
+  },
+  {
+   "name": "Mannyelanong Game Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Reserve",
+   "legalStatus": {
+    "text": "Declared a game reserve or sanctuary by s.12(1) and the Second Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01, Act 28 of 1992)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q106949973",
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Mannyelanong Hill, per the schedule."
+  },
+  {
+   "name": "Sua Pan Flamingo Sanctuary",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Sanctuary (Flamingo Sanctuary)",
+   "legalStatus": {
+    "text": "Declared by the Declaration of Sua Pan Flamingo Sanctuary Order, S.I. 38 of 2010 (23 April 2010), under s.12 of the Wildlife Conservation and National Parks Act",
+    "sourceIds": [
+     "bwa-faolex-suapan",
+     "bwa-botswanalaws-wcnpa"
+    ]
+   },
+   "established": "2010",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-suapan",
+    "bwa-cbd-nr5"
+   ],
+   "notes": "Order: 'The rectangular area measuring 24 kilometres by 17 kilometres encompassing the main Flamingo Breeding sites', corner points approx. 20.85-21.09 S, 25.93-26.10 E (degree symbols garbled in the FAOLEX text). The 5th CBD report calls it the 'Flamingo Sanctuary declared 2010' in the Makgadikgadi Pans. Search snippets indicate an earlier S.I. 9 of 2010 was revoked by S.I. 38 of 2010 (not verified from fetched text)."
+  },
+  {
+   "name": "Kwando Wildlife Management Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Declared a wildlife management area by s.15(1) and the Third Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Multiple-use wildlife area (IUCN category V per the 5th CBD report), not a strict protected area. Listed in the Act's Third Schedule as consolidated to 2007; later gazetted WMAs may be missing."
+  },
+  {
+   "name": "Okavango Wildlife Management Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Declared a wildlife management area by s.15(1) and the Third Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Multiple-use wildlife area (IUCN category V per the 5th CBD report), not a strict protected area. Listed in the Act's Third Schedule as consolidated to 2007; later gazetted WMAs may be missing."
+  },
+  {
+   "name": "Ngamiland Statelands Wildlife Management Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Declared a wildlife management area by s.15(1) and the Third Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Multiple-use wildlife area (IUCN category V per the 5th CBD report), not a strict protected area. Listed in the Act's Third Schedule as consolidated to 2007; later gazetted WMAs may be missing."
+  },
+  {
+   "name": "Nunga Wildlife Management Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Declared a wildlife management area by s.15(1) and the Third Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Multiple-use wildlife area (IUCN category V per the 5th CBD report), not a strict protected area. Listed in the Act's Third Schedule as consolidated to 2007; later gazetted WMAs may be missing."
+  },
+  {
+   "name": "Nata Statelands Wildlife Management Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Declared a wildlife management area by s.15(1) and the Third Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Multiple-use wildlife area (IUCN category V per the 5th CBD report), not a strict protected area. Listed in the Act's Third Schedule as consolidated to 2007; later gazetted WMAs may be missing."
+  },
+  {
+   "name": "Southern District Wildlife Management Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Declared a wildlife management area by s.15(1) and the Third Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Multiple-use wildlife area (IUCN category V per the 5th CBD report), not a strict protected area. Listed in the Act's Third Schedule as consolidated to 2007; later gazetted WMAs may be missing."
+  },
+  {
+   "name": "Matlho-a-Phuduhudu Wildlife Management Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Declared a wildlife management area by s.15(1) and the Third Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Multiple-use wildlife area (IUCN category V per the 5th CBD report), not a strict protected area. Listed in the Act's Third Schedule as consolidated to 2007; later gazetted WMAs may be missing."
+  },
+  {
+   "name": "Okwa Wildlife Management Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Declared a wildlife management area by s.15(1) and the Third Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Multiple-use wildlife area (IUCN category V per the 5th CBD report), not a strict protected area. Listed in the Act's Third Schedule as consolidated to 2007; later gazetted WMAs may be missing."
+  },
+  {
+   "name": "Quago Wildlife Management Area",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Wildlife Management Area",
+   "legalStatus": {
+    "text": "Declared a wildlife management area by s.15(1) and the Third Schedule of the Wildlife Conservation and National Parks Act (Cap. 38:01)",
+    "sourceIds": [
+     "bwa-faolex-wcnpa"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ],
+   "notes": "Multiple-use wildlife area (IUCN category V per the 5th CBD report), not a strict protected area. Listed in the Act's Third Schedule as consolidated to 2007; later gazetted WMAs may be missing."
+  },
+  {
+   "name": "Kasane Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": {
+    "text": "Declared by the Forest (Declaration of Forest Reserves) Order, S.I. 42 of 1968 (24 May 1968), under s.4 of the Forest Act (Cap. 38:04)",
+    "sourceIds": [
+     "bwa-botswanalaws-forest"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q21860961",
+   "marine": false,
+   "sourceIds": [
+    "bwa-botswanalaws-forest",
+    "bwa-cbd-nr5"
+   ],
+   "notes": "The 5th CBD report (2015) notes 'Partial degazetting of Kasane, Chobe and Kazuma FRs'."
+  },
+  {
+   "name": "Kasane Forest Reserve Extension",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": {
+    "text": "Declared a forest reserve under the Forest (Declaration of Forest Reserves) Order as amended by S.I. 106 of 1981 (boundaries delineated on Plan BP-105)",
+    "sourceIds": [
+     "bwa-botswanalaws-forest"
+    ]
+   },
+   "established": "1981",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q21860959",
+   "marine": false,
+   "sourceIds": [
+    "bwa-botswanalaws-forest"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Kazuma Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": {
+    "text": "Declared a forest reserve under the Forest (Declaration of Forest Reserves) Order as amended by S.I. 106 of 1981 (boundaries delineated on Plan BP-105)",
+    "sourceIds": [
+     "bwa-botswanalaws-forest"
+    ]
+   },
+   "established": "1981",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-botswanalaws-forest"
+   ],
+   "notes": "The 5th CBD report (2015) notes partial degazetting of Kazuma FR."
+  },
+  {
+   "name": "Maikaelelo Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": {
+    "text": "Declared a forest reserve under the Forest (Declaration of Forest Reserves) Order as amended by S.I. 106 of 1981 (boundaries delineated on Plan BP-105)",
+    "sourceIds": [
+     "bwa-botswanalaws-forest"
+    ]
+   },
+   "established": "1981",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-botswanalaws-forest"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Sibuyu Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": {
+    "text": "Declared a forest reserve under the Forest (Declaration of Forest Reserves) Order as amended by S.I. 106 of 1981 (boundaries delineated on Plan BP-105)",
+    "sourceIds": [
+     "bwa-botswanalaws-forest"
+    ]
+   },
+   "established": "1981",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-botswanalaws-forest"
+   ],
+   "notes": null
+  },
+  {
+   "name": "Chobe Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Forest Reserve",
+   "legalStatus": {
+    "text": "Declared a forest reserve under the Forest (Declaration of Forest Reserves) Order as amended by S.I. 106 of 1981 (boundaries delineated on Plan BP-105)",
+    "sourceIds": [
+     "bwa-botswanalaws-forest"
+    ]
+   },
+   "established": "1981",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "bwa-botswanalaws-forest"
+   ],
+   "notes": "Within the Chobe Land Board area; the 5th CBD report (2015) notes partial degazetting of Chobe FR."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "controlled hunting areas (Fourth Schedule)",
+   "approxCount": 80,
+   "reason": "Hunting/land-use zoning units (NG/, CH/, GH/ etc.), not protected areas; 80 numbered entries counted in the 2007 consolidated Fourth Schedule.",
+   "sourceIds": [
+    "bwa-faolex-wcnpa"
+   ]
+  },
+  {
+   "category": "private game reserves (Declaration of Private Game Reserve(s) Orders)",
+   "approxCount": null,
+   "reason": "Declared farm by farm under orders amended many times (1968-2008); full current list not freely available.",
+   "sourceIds": [
+    "bwa-botswanalaws-wcnpa"
+   ]
+  },
+  {
+   "category": "non-legislated (proposed) wildlife management areas",
+   "approxCount": null,
+   "reason": "5th CBD report: Kgalagadi District WMAs have land board approval but were not gazetted (65,780 km2 'not legislated').",
+   "sourceIds": [
+    "bwa-cbd-nr5"
+   ]
+  }
+ ],
+ "gaps": [
+  "The freely available consolidated Wildlife Conservation and National Parks Act (FAOLEX) is current only to S.I. 80 of 2007; amendments by Act 15 of 2023 and S.I.s of 2023-2024 could not be read (paywalled), so any newer parks, reserves or WMAs are missing.",
+  "Establishment years for national parks and game reserves (pre-1992 declarations under the National Parks Act and Fauna Conservation Act) were not found in an official source and are left null.",
+  "Per-area sizes are not given in the Act or the 5th CBD report (which only gives category totals), so areaKm2 is null except where stated.",
+  "Areas often described as protected (Khama Rhino Sanctuary, Mokolodi Nature Reserve, Nata Bird Sanctuary, Mashatu, Okavango Delta as a whole) do not appear in the Act's schedules; they are community, private or international designations and were not added.",
+  "Current status of the forest reserves after the partial degazetting noted in the 5th CBD report (2015) was not verified.",
+  "No official coordinates were used; points depend on Wikidata matches. Gemsbok National Park has no QID because Wikidata only has the binational Kgalagadi Transfrontier Park (Q859385); sanctuaries, WMAs and most forest reserves had no matching item (Wikidata was rate-limited, so only a keyword search was run)."
+ ]
+}

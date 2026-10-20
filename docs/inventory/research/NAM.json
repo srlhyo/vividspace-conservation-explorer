@@ -1,0 +1,4029 @@
+{
+ "country": "NAM",
+ "countryName": "Namibia",
+ "officialInventory": {
+  "summary": "State protected areas are managed by the Ministry of Environment, Forestry and Tourism (MEFT); its website lists 20 state protected areas (national parks, game parks, recreation resorts, Cape Cross Seal Reserve, South West Nature Reserve) with size and proclamation year per park, but no machine-readable register and no Government Notice references. Communal conservancies are registered by MEFT under s.24A of the Nature Conservation Ordinance; the most complete public list is NACSO's table (86 conservancies, matching MEFT's stated 86) plus NACSO's compilation of gazette numbers. A further conservancy (Ekango Lyomongwa) was gazetted in September 2025. Community forests (Forest Act 2001) and inland fisheries reserves (Inland Fisheries Resources Act 2003) were enumerated directly from the Government Gazettes hosted by NACSO. The marine protected area is the Namibian Islands' Marine Protected Area (Marine Resources Act 2000).",
+  "sourceIds": [
+   "nam-meft-parks",
+   "nam-meft-conservancies",
+   "nam-nacso-conservancies",
+   "nam-nacso-gazette-numbers"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "state-run protected areas",
+    "count": 20,
+    "asOf": null,
+    "sourceId": "nam-meft-parks",
+    "quote": "Namibia has 20 state run protected areas coverring about 17 per cent of the country's land surface"
+   },
+   {
+    "category": "registered communal conservancies",
+    "count": 86,
+    "asOf": null,
+    "sourceId": "nam-meft-conservancies",
+    "quote": "at present there are 86 registered by the MET, covering 19.6% of the country"
+   },
+   {
+    "category": "communal conservancies (NACSO listing)",
+    "count": 86,
+    "asOf": "2025",
+    "sourceId": "nam-nacso-conservancies",
+    "quote": "All regions | 86 | 166,179 | 244,587"
+   },
+   {
+    "category": "community forests (registered and emerging)",
+    "count": 43,
+    "asOf": null,
+    "sourceId": "nam-nacso-community-forests",
+    "quote": "There are currently 43 registered and emerging community forests across ten regions in northern Namibia"
+   },
+   {
+    "category": "gazetted fisheries reserves",
+    "count": 10,
+    "asOf": null,
+    "sourceId": "nam-nacso-fisheries",
+    "quote": "There are currently 10 gazetted reserves in Namibia, all in the Zambezi region"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "nam-meft-parks",
+   "title": "National Parks (Overview of National Parks and individual park pages)",
+   "publisher": "Ministry of Environment, Forestry and Tourism (MEFT), Namibia",
+   "url": "https://www.meft.gov.na/national-parks/overview-of-national-parks/292/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Ministry of Environment, Forestry and Tourism (Namibia) — cited for reference (facts and short quotes)",
+   "note": "Overview lists 20 state protected areas in its menu and states 'Namibia has 20 state run protected areas'. Individual park pages (https://www.meft.gov.na/national-parks/<slug>/<id>/) give 'Park size' and 'Proclamation' year; fetched 2026-10-20."
+  },
+  {
+   "id": "nam-meft-conservancies",
+   "title": "Conservancies",
+   "publisher": "Ministry of Environment, Forestry and Tourism (MEFT), Namibia",
+   "url": "https://www.meft.gov.na/services/conservancies/193/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Ministry of Environment, Forestry and Tourism (Namibia) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nam-nacso-conservancies",
+   "title": "Communal Conservancies — conservancy listing",
+   "publisher": "Namibian Association of CBNRM Support Organisations (NACSO)",
+   "url": "https://nacso.org.na/communal-conservancies/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© NACSO — cited for reference (facts and short quotes)",
+   "note": "NGO umbrella body; table of 86 registered communal conservancies with region, date registered, area (km2) and population. Site copyright 2025."
+  },
+  {
+   "id": "nam-nacso-gazette-numbers",
+   "title": "Summary table of gazette numbers for all registered conservancies",
+   "publisher": "NACSO (compilation of Government Gazette references)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/05/Gazette-Numbers.pdf",
+   "date": "2025",
+   "kind": "dataset",
+   "licence": "© NACSO — cited for reference (facts and short quotes)",
+   "note": "Lists gazette number, gazette date and declaration date for conservancies 1-86. Linked from https://nacso.org.na/gazettes/ which also hosts the individual gazettes."
+  },
+  {
+   "id": "nam-gg-8744",
+   "title": "Government Gazette No. 8744 — GN 248 of 2025: Declaration of area as conservancy: Ekango Lyomongwa Conservancy",
+   "publisher": "Government of the Republic of Namibia (copy hosted by Legal Assistance Centre)",
+   "url": "https://www.lac.org.na/laws/2025/8744.pdf",
+   "date": "2025-09-17",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference"
+  },
+  {
+   "id": "nam-nacso-community-forests",
+   "title": "Community Forests",
+   "publisher": "NACSO",
+   "url": "https://nacso.org.na/community-forests/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© NACSO — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nam-nacso-fisheries",
+   "title": "Community Fisheries Reserves",
+   "publisher": "NACSO",
+   "url": "https://nacso.org.na/community-fisheries-reserves/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© NACSO — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nam-nacso-parks",
+   "title": "National Parks",
+   "publisher": "NACSO",
+   "url": "https://nacso.org.na/national-parks/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© NACSO — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "nam-gg-3590",
+   "title": "Government Gazette No. 3590 (14 February 2006) — GN 30-42 of 2006: Forest Act, 2001: Declaration of areas as Community Forests",
+   "publisher": "Government of the Republic of Namibia (copy hosted by NACSO)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/06/Gazette-3590-Feb-2006-Community-Forests.pdf",
+   "date": "2006-02-14",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference"
+  },
+  {
+   "id": "nam-gg-5145",
+   "title": "Government Gazette No. 5145 (8 March 2013) — GN 43-61 of 2013: Declaration of areas as Community Forests: Forest Act, 2001",
+   "publisher": "Government of the Republic of Namibia (copy hosted by NACSO)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/06/Gazette-5145-March-2013-Community-Forests.pdf",
+   "date": "2013-03-08",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference"
+  },
+  {
+   "id": "nam-gg-6743",
+   "title": "Government Gazette No. 6743 (24 October 2018) — GN 267-276 of 2018: Declaration of areas as Community Forests: Forest Act, 2001",
+   "publisher": "Government of the Republic of Namibia (copy hosted by NACSO)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/06/Gazette-6743-Oct-2018-Community-Forests.pdf",
+   "date": "2018-10-24",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference",
+   "note": "Cover page reads No. 6743; running page headers inside read 6742."
+  },
+  {
+   "id": "nam-gg-6844",
+   "title": "Government Gazette No. 6844 (15 February 2019) — GN 29 of 2019: Declaration of Epukiro Community Forest: Forest Act, 2001",
+   "publisher": "Government of the Republic of Namibia (copy hosted by NACSO)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/06/Gazette-6844-Feb-2019-Community-Forests.pdf",
+   "date": "2019-02-15",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference"
+  },
+  {
+   "id": "nam-gg-7828",
+   "title": "Government Gazette No. 7828 (15 June 2022) — GN 170-171 of 2022: Ozonahi and Ambrosius Haingura Community Forests",
+   "publisher": "Government of the Republic of Namibia (copy hosted by NACSO)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/06/Gazette-7828-Jun-2022-Community-Forests.pdf",
+   "date": "2022-06-15",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference"
+  },
+  {
+   "id": "nam-gg-7904",
+   "title": "Government Gazette No. 7904 (15 September 2022) — GN 274 of 2022: Declaration of area as Aminuis Community Forest",
+   "publisher": "Government of the Republic of Namibia (copy hosted by NACSO)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/06/Gazette-7904-Sep-2022-Community-Forests.pdf",
+   "date": "2022-09-15",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference"
+  },
+  {
+   "id": "nam-gg-8089",
+   "title": "Government Gazette No. 8089 (15 May 2023) — GN 145 (Otjinene Community Forest) and GN 147 (Zambezi State Forest Reserve) of 2023",
+   "publisher": "Government of the Republic of Namibia (copy hosted by NACSO)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/06/Gazette-8089-May-2023-Community-Forests.pdf",
+   "date": "2023-05-15",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference"
+  },
+  {
+   "id": "nam-gg-5883",
+   "title": "Government Gazette No. 5883 (25 November 2015) — GN 276 of 2015: Declaration of Sikunga Channel and Kasaya Channel as fisheries reserves: Inland Fisheries Resources Act, 2003",
+   "publisher": "Government of the Republic of Namibia (copy hosted by NACSO)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/06/Sikunga-FR-5883-N276.pdf",
+   "date": "2015-11-25",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference"
+  },
+  {
+   "id": "nam-gg-6197",
+   "title": "Government Gazette No. 6197 (15 December 2016) — GN 297 (Zambezi/Chobe River System seasonal fisheries reserve) and GN 298 of 2016 (Kasaya Channel in Impalila Conservancy)",
+   "publisher": "Government of the Republic of Namibia (copy hosted by NACSO)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/06/Kasaya-FR-6197-N298.pdf",
+   "date": "2016-12-15",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference"
+  },
+  {
+   "id": "nam-gg-7138",
+   "title": "Government Gazette No. 7138 (6 March 2020) — GN 65-68 of 2020: Declarations of inland waters as fisheries reserves (Zambezi Region)",
+   "publisher": "Government of the Republic of Namibia (copy hosted by NACSO)",
+   "url": "https://nacso.org.na/wp-content/uploads/2025/06/Luhingi-FR-7138.pdf",
+   "date": "2020-03-06",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference",
+   "note": "NACSO hosts the same gazette under eight file names (Kabweza-, Kalume-, Luhingi-, Lwezuba-, Makumbi-, Munga-, Nsala-, QhuQhumupa-FR-7138.pdf)."
+  },
+  {
+   "id": "nam-gg-4210",
+   "title": "Government Gazette No. 4210 (16 February 2009) — GN 17 of 2009: Declaration of Namibian Islands as Marine Reserve: Marine Resources Act, 2000",
+   "publisher": "Government of the Republic of Namibia (copy hosted by Legal Assistance Centre)",
+   "url": "https://www.lac.org.na/laws/2009/4210.pdf",
+   "date": "2009-02-16",
+   "kind": "report",
+   "licence": "Government Gazette of the Republic of Namibia (official publication) — cited for reference"
+  },
+  {
+   "id": "nam-lac-nimpa-regs",
+   "title": "Regulations relating to Namibian Islands' Marine Protected Area (GN 316 of 2012, GG 5111) — annotated",
+   "publisher": "Legal Assistance Centre (annotated statutes)",
+   "url": "https://www.lac.org.na/laws/annoREG/Marine%20Resources%20Act%2027%20of%202000-Regulations%202012-316.pdf",
+   "date": "2012-12-31",
+   "kind": "report",
+   "licence": "© Legal Assistance Centre — annotated statute, cited for reference"
+  },
+  {
+   "id": "nam-lac-ordinance",
+   "title": "Nature Conservation Ordinance 4 of 1975 — annotated statute",
+   "publisher": "Legal Assistance Centre (annotated statutes)",
+   "url": "https://www.lac.org.na/laws/annoSTAT/Nature%20Conservation%20Ordinance%204%20of%201975.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Legal Assistance Centre — annotated statute, cited for reference",
+   "note": "s.13: Etosha National Park is a game park defined in Schedule 2; s.14: Minister may declare game parks and nature reserves by notice in the Official Gazette; s.24A: communal conservancies."
+  }
+ ],
+ "areas": [
+  {
+   "name": "/Ai-/Ais Hot Springs Game Park",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Park",
+   "legalStatus": {
+    "text": "Proclaimed 1968 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 4611,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "MEFT: 'Proclaimed in 1968, the rugged and relatively unexplored Huns Mountains were added in 1988'. Namibian part of the /Ai-/Ais-Richtersveld Transfrontier Park (treaty with South Africa, August 2003). MEFT page: https://www.meft.gov.na/national-parks/-ai-ais-hot-springs-game-park/212/"
+  },
+  {
+   "name": "Bwabwata National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Proclaimed 2007 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2007",
+   "areaKm2": 6100,
+   "coordinates": null,
+   "wikidataQid": "Q3364406",
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "MEFT: first proclaimed as the Caprivi Game Reserve in 1966, upgraded to Caprivi Game Park in 1968, gazetted as Bwabwata National Park in 2007 incorporating the former Mahango Game Reserve. Part of KAZA TFCA. MEFT page: https://www.meft.gov.na/national-parks/bwabwata-national-park/213/"
+  },
+  {
+   "name": "Cape Cross Seal Reserve",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Seal Reserve",
+   "legalStatus": {
+    "text": "Proclaimed 1968 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 60,
+   "coordinates": null,
+   "wikidataQid": "Q1727299",
+   "marine": true,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "Coastal seal colony; MEFT notes the area is also listed as a National Heritage Site. MEFT page: https://www.meft.gov.na/national-parks/cape-cross-seal-reserve/214/"
+  },
+  {
+   "name": "Daan Viljoen Game Park",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Park",
+   "legalStatus": {
+    "text": "Proclaimed 1968 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 40,
+   "coordinates": null,
+   "wikidataQid": "Q1156470",
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "MEFT page: https://www.meft.gov.na/national-parks/daan-viljoen-game-park/215/"
+  },
+  {
+   "name": "Dorob National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Proclaimed 2010 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2010",
+   "areaKm2": 7800,
+   "coordinates": null,
+   "wikidataQid": "Q1246079",
+   "marine": true,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "NACSO: with the proclamation of Dorob (between Namib-Naukluft and Skeleton Coast) Namibia placed its whole coastline under protection. MEFT page: https://www.meft.gov.na/national-parks/dorob-national-park/216/"
+  },
+  {
+   "name": "Etosha National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Game park by s.13 and Schedule 2 of the Nature Conservation Ordinance 4 of 1975; first proclaimed 1907 (MEFT)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1907",
+   "areaKm2": 22935,
+   "coordinates": null,
+   "wikidataQid": "Q675633",
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "Defined as a game park by s.13 and Schedule 2 of the Nature Conservation Ordinance 4 of 1975; boundaries amendable only by ordinance. MEFT: size reduced considerably since first proclaimed in 1907. MEFT page: https://www.meft.gov.na/national-parks/etosha-national-park/217/"
+  },
+  {
+   "name": "Gross-Barmen Hot Springs",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Hot Springs (recreation resort)",
+   "legalStatus": {
+    "text": "Proclaimed 1968 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 1,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "NACSO describes Gross-Barmen as a recreation resort combining leisure with conservation. MEFT page: https://www.meft.gov.na/national-parks/gross-barmen-hot-springs/218/"
+  },
+  {
+   "name": "Hardap Game Park",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Park (page also says 'Hardap Game Reserve (Hardap Recreation Resort)')",
+   "legalStatus": {
+    "text": "Proclaimed 1968 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 252,
+   "coordinates": null,
+   "wikidataQid": "Q1351009",
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "Surrounds Hardap Dam on the Fish River. MEFT page: https://www.meft.gov.na/national-parks/hardap-game-park/219/"
+  },
+  {
+   "name": "Khaudum National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Proclaimed 1989 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1989",
+   "areaKm2": 3842,
+   "coordinates": null,
+   "wikidataQid": "Q1516690",
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "Part of KAZA TFCA. MEFT page: https://www.meft.gov.na/national-parks/khaudum-national-park/220/"
+  },
+  {
+   "name": "Nkasa Rupara National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Proclaimed 1990 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1990",
+   "areaKm2": 320,
+   "coordinates": null,
+   "wikidataQid": "Q1392554",
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "Formerly Mamili National Park; MEFT: officially proclaimed on 1 March 1990. Part of KAZA TFCA. MEFT page: https://www.meft.gov.na/national-parks/nkasa-rupara-national-park/221/"
+  },
+  {
+   "name": "Mangetti National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Proclaimed 2008 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2008",
+   "areaKm2": 420,
+   "coordinates": null,
+   "wikidataQid": "Q602768",
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "MEFT: previously managed as a game camp; land originally set aside by the Ukwangali Traditional Authority. MEFT page: https://www.meft.gov.na/national-parks/mangetti-national-park/222/"
+  },
+  {
+   "name": "Mudumu National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Proclaimed 1990 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1990",
+   "areaKm2": 1010,
+   "coordinates": null,
+   "wikidataQid": "Q265132",
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "Part of KAZA TFCA (Mudumu North complex). MEFT page: https://www.meft.gov.na/national-parks/mudumu-national-park/223/"
+  },
+  {
+   "name": "Namib-Naukluft Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Park (MEFT overview also calls it 'Namib Naukluft National Park')",
+   "legalStatus": {
+    "text": "Proclaimed 1979 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1979",
+   "areaKm2": 49768,
+   "coordinates": null,
+   "wikidataQid": "Q1773441",
+   "marine": true,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "MEFT: proclaimed in 1979 as an amalgamation of the Naukluft Mountain Zebra Park (1968), the Namib Desert Park (1907) and state land; coastal (includes Sandwich Harbour). Namib Sand Sea World Heritage site lies within it. MEFT page: https://www.meft.gov.na/national-parks/namib-naukluft-park/224/"
+  },
+  {
+   "name": "Naute Game Park",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Park",
+   "legalStatus": {
+    "text": "Proclaimed 1988 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1988",
+   "areaKm2": 225,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "Surrounds Naute Dam. MEFT page: https://www.meft.gov.na/national-parks/naute-game-park/225/"
+  },
+  {
+   "name": "Popa Falls Game Park",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Park",
+   "legalStatus": {
+    "text": "Proclaimed 1989 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1989",
+   "areaKm2": 0.25,
+   "coordinates": null,
+   "wikidataQid": "Q2104080",
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "MEFT: Namibia's smallest game park. MEFT page: https://www.meft.gov.na/national-parks/popa-falls-game-park/226/"
+  },
+  {
+   "name": "Skeleton Coast Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Park (MEFT overview also calls it 'Skeleton Coast National Park')",
+   "legalStatus": {
+    "text": "Proclaimed 1971 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1971",
+   "areaKm2": 16390,
+   "coordinates": null,
+   "wikidataQid": "Q3695317",
+   "marine": true,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "MEFT: initially proclaimed in 1971, in its present form in 1973; extends ~500 km from the Ugab River to the Kunene River and ~40 km inland. Forms the Iona-Skeleton Coast Transfrontier Park with Angola's Iona National Park. MEFT page: https://www.meft.gov.na/national-parks/skeleton-coast-park/227/"
+  },
+  {
+   "name": "South West Nature Reserve",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Nature Reserve",
+   "legalStatus": {
+    "text": "State protected area listed by MEFT; legal instrument not verified",
+    "sourceIds": [
+     "nam-meft-parks"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "Listed in MEFT's national-parks menu (one of the 20 state protected areas), but its menu link points to the Skeleton Coast Park page; no size, date or location could be verified from MEFT. "
+  },
+  {
+   "name": "Tsau //Khaeb (Sperrgebiet) National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Proclaimed 2008 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2008",
+   "areaKm2": 22000,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "Formerly Sperrgebiet National Park (diamond 'forbidden area' closed since 1908). MEFT page: https://www.meft.gov.na/national-parks/tsau-khaeb-sperrgebiet-national-park/229/"
+  },
+  {
+   "name": "Von Bach Game Park",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Game Park",
+   "legalStatus": {
+    "text": "Proclaimed 1972 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1972",
+   "areaKm2": 43,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "Surrounds Von Bach Dam. MEFT page: https://www.meft.gov.na/national-parks/von-bach-game-park/230/"
+  },
+  {
+   "name": "Waterberg Plateau Park",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Plateau Park",
+   "legalStatus": {
+    "text": "Proclaimed 1972 (MEFT 'Proclamation' field); state protected area under Nature Conservation Ordinance 4 of 1975 (game parks / nature reserves declared under s.14; specific Government Notice not verified)",
+    "sourceIds": [
+     "nam-meft-parks",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1972",
+   "areaKm2": 405,
+   "coordinates": null,
+   "wikidataQid": "Q1691293",
+   "marine": null,
+   "sourceIds": [
+    "nam-meft-parks"
+   ],
+   "notes": "MEFT: proclaimed in 1972 as a sanctuary for rare and endangered game species. MEFT page: https://www.meft.gov.na/national-parks/waterberg-plateau-park/231/"
+  },
+  {
+   "name": "Namibian Islands' Marine Protected Area",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Marine Reserve (declared as 'Namibian Islands Marine Reserve'); regulated as 'Namibian Islands' Marine Protected Area'",
+   "legalStatus": {
+    "text": "Declared a marine reserve under s.51 of the Marine Resources Act, 2000 (Act 27 of 2000) by GN 17 of 2009 (GG 4210, 16 February 2009; signed 26 January 2009); regulations GN 316 of 2012 (GG 5111, 31 December 2012)",
+    "sourceIds": [
+     "nam-gg-4210",
+     "nam-lac-nimpa-regs"
+    ]
+   },
+   "established": "2009",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "nam-gg-4210",
+    "nam-lac-nimpa-regs"
+   ],
+   "notes": "Covers all islands, rocks, islets and the marine area between Meob Bay (24°29'10\"S) and Chamais Bay (27°57'34\"S) per the 2009 schedule; zoned (buffer zone plus four protection levels) by the 2012 regulations. Area not stated in the fetched texts."
+  },
+  {
+   "name": "!Gawachab Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 132.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: //Karas. NACSO: registered September 2005; approx. 200 people."
+  },
+  {
+   "name": "!Han/Awab Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4047 of 2008-05-15 (declaration dated 2008-04-23)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2008",
+   "areaKm2": 1923.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: //Karas. NACSO: registered May 2008; approx. 584 people."
+  },
+  {
+   "name": "!Khob !Naub Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3027 of 2003-07-24 (declaration dated 2003-06-30)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 2747.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: //Karas. NACSO: registered July 2003; approx. 2,187 people."
+  },
+  {
+   "name": "//Gamaseb Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3027 of 2003-07-24 (declaration dated 2003-06-30)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 1748.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: //Karas. NACSO: registered July 2003; approx. 1,665 people."
+  },
+  {
+   "name": "#Gaingu Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3169 of 2004-03-15 (declaration dated 2004-01-29)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2004",
+   "areaKm2": 7731.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Erongo. NACSO: registered March 2004; approx. 3,050 people."
+  },
+  {
+   "name": "Ohungu Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3726 of 2006-10-23 (declaration dated 2006-10-04)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 1196.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Erongo. NACSO: registered October 2006; approx. 1,383 people."
+  },
+  {
+   "name": "Otjimboyo Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2925 of 2003-03-01",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 448.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Erongo. NACSO: registered March 2003; approx. 351 people."
+  },
+  {
+   "name": "Tsiseb Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2474 of 2001-01-15 (declaration dated 2000-11-27)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2001",
+   "areaKm2": 7914.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Erongo. NACSO: registered January 2001; approx. 2,810 people."
+  },
+  {
+   "name": "Huibes Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4350 of 2009-10-01 (declaration dated 2009-09-07)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2009",
+   "areaKm2": 1328.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Hardap. NACSO: registered October 2009; approx. 750 people."
+  },
+  {
+   "name": "Oskop Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2486 of 2001-02-15 (declaration dated 2001-01-31)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2001",
+   "areaKm2": 96.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Hardap. NACSO: registered February 2001; approx. 88 people."
+  },
+  {
+   "name": "George Mukoya Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 486.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kavango East. NACSO: registered September 2005; approx. 1,194 people."
+  },
+  {
+   "name": "Joseph Mbambangandu Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3181 of 2004-04-01 (declaration dated 2004-03-4)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2004",
+   "areaKm2": 43.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kavango East. NACSO: registered March 2004; approx. 1,873 people."
+  },
+  {
+   "name": "Kapinga Kamwalye Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 6673 of 2018-08-03 (declaration dated 2018-07-17)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": 1269.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kavango East. NACSO: registered July 2018; approx. 3,752 people."
+  },
+  {
+   "name": "Muduva Nyangana Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 615.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kavango East. NACSO: registered September 2005; approx. 1,740 people."
+  },
+  {
+   "name": "Shamungwa Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 53.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kavango East. NACSO: registered September 2005; approx. 140 people."
+  },
+  {
+   "name": "Maurus Nekaro Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 6374 of 2017-08-01 (declaration dated 2017-07-12)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2017",
+   "areaKm2": 1117.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kavango West. NACSO: registered August 2017; approx. 13,328 people."
+  },
+  {
+   "name": "!Khoro !Goreb Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4792 of 2011-09-15 (declaration dated 2011-08-29)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": 1283.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered September 2011; approx. 2,254 people."
+  },
+  {
+   "name": "//Audi Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3726 of 2006-10-23 (declaration dated 2006-10-04)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 335.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered October 2006; approx. 980 people."
+  },
+  {
+   "name": "//Huab Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3027 of 2003-07-24 (declaration dated 2003-06-30)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 1817.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered July 2003; approx. 1,720 people."
+  },
+  {
+   "name": "Anabeb Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3027 of 2003-07-24 (declaration dated 2003-06-30)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 1570.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered July 2003; approx. 1,562 people."
+  },
+  {
+   "name": "Doro !nawas Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2248 of 1999-12-15 (declaration dated 1999-11-04)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1999",
+   "areaKm2": 4135.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered December 1999; approx. 1,636 people. Gazette list spells it 'Doros !nawas'."
+  },
+  {
+   "name": "Ehi-Rovipuka Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2474 of 2001-01-15 (declaration dated 2000-11-27)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2001",
+   "areaKm2": 1980.0,
+   "coordinates": null,
+   "wikidataQid": "Q5348586",
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered January 2001; approx. 1,346 people."
+  },
+  {
+   "name": "Epupa Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 5060 of 2012-10-15 (declaration dated 2012-09-24)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 2912.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered October 2012; approx. 5,864 people."
+  },
+  {
+   "name": "Etanga Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 5143 of 2013-03-01 (declaration dated 2013-02-13)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": 908.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered March 2013; approx. 1,963 people."
+  },
+  {
+   "name": "Kunene River Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3726 of 2006-10-23 (declaration dated 2006-10-04)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 2764.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered October 2006; approx. 8,499 people."
+  },
+  {
+   "name": "Marienfluss Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2474 of 2001-01-15 (declaration dated 2000-11-27)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2001",
+   "areaKm2": 3036.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered January 2001; approx. 340 people."
+  },
+  {
+   "name": "Okanguati Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4947 of 2012-05-15 (declaration dated 2012-04-13)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 1159.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered May 2012; approx. 2,421 people."
+  },
+  {
+   "name": "Okangundumba Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3027 of 2003-07-24 (declaration dated 2003-06-30)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 1131.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered July 2003; approx. 2,331 people."
+  },
+  {
+   "name": "Okatjandja Kozomenje Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4947 of 2012-05-15 (declaration dated 2012-04-13)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 656.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered May 2012; approx. 2,145 people."
+  },
+  {
+   "name": "Okondjombo Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4120 of 2008-09-01 (declaration dated 2008-08-19)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2008",
+   "areaKm2": 1644.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered August 2008; approx. 100 people."
+  },
+  {
+   "name": "Okongoro Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4875 of 2012-02-01 (declaration dated 2012-01-09)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 956.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered February 2012; approx. 2,230 people."
+  },
+  {
+   "name": "Omatendeka Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2925 of 2003-03-01",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 1619.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered March 2003; approx. 2,939 people."
+  },
+  {
+   "name": "Ombazu Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4947 of 2012-05-15 (declaration dated 2012-04-13)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 871.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered May 2012; approx. 3,828 people."
+  },
+  {
+   "name": "Ombombo Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 5579 of 2014-10-01 (declaration dated 2014-09-03)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2014",
+   "areaKm2": 1487.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered October 2014; approx. 3,180 people."
+  },
+  {
+   "name": "Ombujokanguindi Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4875 of 2012-02-01 (declaration dated 2012-01-09)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 1160.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered February 2012; approx. 652 people."
+  },
+  {
+   "name": "Ongongo Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4875 of 2012-02-01 (declaration dated 2012-01-09)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 501.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered February 2012; approx. 971 people."
+  },
+  {
+   "name": "Orupembe Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3027 of 2003-07-24 (declaration dated 2003-06-30)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 3565.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered July 2003; approx. 176 people."
+  },
+  {
+   "name": "Orupupa Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4669 of 2011-03-15 (declaration dated 2011-02-23)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": 1234.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered March 2011; approx. 1,387 people."
+  },
+  {
+   "name": "Otjambangu Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4225 of 2009-03-16",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2009",
+   "areaKm2": 348.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered March 2009; approx. 2,664 people. Gazette list gives declaration date '23-02-1009' (typo, presumably 2009)."
+  },
+  {
+   "name": "Otjikondavirongo Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 5143 of 2013-03-01 (declaration dated 2013-02-13)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": 1067.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered March 2013; approx. 5,264 people."
+  },
+  {
+   "name": "Otjikongo Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 6673 of 2018-08-03 (declaration dated 2018-07-17)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": 1028.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered July 2018; approx. 210 people."
+  },
+  {
+   "name": "Otjindjerese Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 6673 of 2018-08-03 (declaration dated 2018-07-17)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": 731.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered July 2018; approx. 2,173 people."
+  },
+  {
+   "name": "Otjitanda Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4669 of 2011-03-15 (declaration dated 2011-02-23)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": 1174.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered March 2011; approx. 631 people."
+  },
+  {
+   "name": "Otjiu-West Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4947 of 2012-05-15 (declaration dated 2012-04-19)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 1100.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered May 2012; approx. 847 people."
+  },
+  {
+   "name": "Otjombande Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4875 of 2012-02-01 (declaration dated 2012-01-09)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 329.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered February 2012; approx. 1,806 people."
+  },
+  {
+   "name": "Otuzemba Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4875 of 2012-02-01 (declaration dated 2012-01-09)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 742.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered February 2012; approx. 449 people."
+  },
+  {
+   "name": "Ozondundu Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3027 of 2003-07-24 (declaration dated 2003-06-30)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 745.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered July 2003; approx. 390 people."
+  },
+  {
+   "name": "Puros Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2331 of 2000-05-15 (declaration dated 2000-04-14)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2000",
+   "areaKm2": 3562.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered May 2000; approx. 1,584 people."
+  },
+  {
+   "name": "Sanitatas Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3027 of 2003-07-24 (declaration dated 2003-06-30)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 1446.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered July 2003; approx. 165 people."
+  },
+  {
+   "name": "Sesfontein Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3027 of 2003-07-24 (declaration dated 2003-06-30)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 2465.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered July 2003; approx. 2,088 people."
+  },
+  {
+   "name": "Sorris Sorris Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2630 of 2001-10-15 (declaration dated 2001-09-19)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2001",
+   "areaKm2": 2290.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered October 2001; approx. 950 people."
+  },
+  {
+   "name": "Torra Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 1891 of 1998-06-19 (declaration dated 1998-06-15)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1998",
+   "areaKm2": 3493.0,
+   "coordinates": null,
+   "wikidataQid": "Q127463351",
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered June 1998; approx. 1,520 people."
+  },
+  {
+   "name": "Uibasen Twyfelfontein Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2238 of 1999-12-01 (declaration dated 1999-11-04)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1999",
+   "areaKm2": 286.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered December 1999; approx. 230 people."
+  },
+  {
+   "name": "≠Khoadi-//Hôas Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 1891 of 1998-06-19 (declaration dated 1998-06-15)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1998",
+   "areaKm2": 3364.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Kunene. NACSO: registered July 1998; approx. 5,629 people."
+  },
+  {
+   "name": "Okongo Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4331 of 2009-09-01 (declaration dated 2009-08-03)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2009",
+   "areaKm2": 1339.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Ohangwena. NACSO: registered September 2009; approx. 3,092 people."
+  },
+  {
+   "name": "Eiseb Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4225 of 2009-03-16",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2009",
+   "areaKm2": 6626.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Omaheke. NACSO: registered March 2009; approx. 1,653 people. Gazette list gives declaration date '23-02-1009' (typo, presumably 2009)."
+  },
+  {
+   "name": "Omuramba Ua Mbinda Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4669 of 2011-03-15 (declaration dated 2011-02-23)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": 3217.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Omaheke. NACSO: registered March 2011; approx. 526 people."
+  },
+  {
+   "name": "Otjombinde Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4669 of 2011-03-15 (declaration dated 2011-02-23)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": 5891.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Omaheke. NACSO: registered March 2011; approx. 4,821 people."
+  },
+  {
+   "name": "Sheya Shuushona Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 5067.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Omusati. NACSO: registered September 2005; approx. 3,789 people."
+  },
+  {
+   "name": "Uukolonkadhi-Ruacana Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 2993.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Omusati. NACSO: registered September 2005; approx. 37,712 people."
+  },
+  {
+   "name": "Uukwaluudhi Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2925 of 2003-03-01",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 1437.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Omusati. NACSO: registered March 2003; approx. 1,088 people."
+  },
+  {
+   "name": "Iipumbu ya Tshilongo Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4947 of 2012-05-15 (declaration dated 2012-04-19)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": 1548.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Oshana. NACSO: registered May 2012; approx. 2,578 people."
+  },
+  {
+   "name": "King Nehale Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 508.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Oshikoto. NACSO: registered September 2005; approx. 5,330 people."
+  },
+  {
+   "name": "African Wild Dog Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 3824.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Otjozondjupa. NACSO: registered September 2005; approx. 4,713 people."
+  },
+  {
+   "name": "N#a-Jaqna Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3027 of 2003-07-24 (declaration dated 2003-06-30)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 9120.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Otjozondjupa. NACSO: registered July 2003; approx. 4,032 people."
+  },
+  {
+   "name": "Nyae Nyae Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 1796 of 1998-02-16 (declaration dated 1998-02-16)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1998",
+   "areaKm2": 8994.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Otjozondjupa. NACSO: registered February 1998; approx. 3,400 people."
+  },
+  {
+   "name": "Okamatapati Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 3096.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Otjozondjupa. NACSO: registered September 2005; approx. 2,066 people."
+  },
+  {
+   "name": "Ondjou Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3726 of 2006-10-23 (declaration dated 2006-10-04)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 8730.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Otjozondjupa. NACSO: registered October 2006; approx. 3,068 people."
+  },
+  {
+   "name": "Otjituuo Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 6134.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Otjozondjupa. NACSO: registered September 2005; approx. 5,971 people."
+  },
+  {
+   "name": "Ovitoto Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4047 of 2008-05-15 (declaration dated 2008-04-23)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2008",
+   "areaKm2": 625.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Otjozondjupa. NACSO: registered May 2008; approx. 5,117 people."
+  },
+  {
+   "name": "Ozonahi Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3501 of 2005-09-20",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 3204.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Otjozondjupa. NACSO: registered September 2005; approx. 11,614 people."
+  },
+  {
+   "name": "Balyerwa Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3726 of 2006-10-23 (declaration dated 2006-10-04)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 225.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered October 2006; approx. 1,462 people."
+  },
+  {
+   "name": "Bamunu Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4669 of 2011-03-15 (declaration dated 2011-02-23)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": 556.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered March 2011; approx. 2,302 people."
+  },
+  {
+   "name": "Dzoti Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4350 of 2009-10-01 (declaration dated 2009-09-07)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2009",
+   "areaKm2": 287.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered October 2009; approx. 2,286 people."
+  },
+  {
+   "name": "Impalila Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3547 of 2005-12-01 (declaration dated 2005-11-07)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 73.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered December 2005; approx. 1,000 people."
+  },
+  {
+   "name": "Kabulabula Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4823 of 2011-11-01 (declaration dated 2011-10-10)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": 89.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered November 2011; approx. 421 people."
+  },
+  {
+   "name": "Kasika Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3547 of 2005-12-01 (declaration dated 2005-11-07)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2005",
+   "areaKm2": 147.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered December 2005; approx. 1,085 people."
+  },
+  {
+   "name": "Kwandu Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2238 of 1999-12-01 (declaration dated 1999-11-04)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1999",
+   "areaKm2": 190.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered December 1999; approx. 4,005 people."
+  },
+  {
+   "name": "Lusese Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 5579 of 2014-10-01 (declaration dated 2014-09-03)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2014",
+   "areaKm2": 207.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered October 2014; approx. 1,340 people."
+  },
+  {
+   "name": "Mashi Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2925 of 2003-03-01",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2003",
+   "areaKm2": 297.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered March 2003; approx. 2,523 people."
+  },
+  {
+   "name": "Mayuni Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2238 of 1999-12-01 (declaration dated 1999-11-04)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1999",
+   "areaKm2": 151.0,
+   "coordinates": null,
+   "wikidataQid": "Q6798102",
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered December 1999; approx. 2,759 people."
+  },
+  {
+   "name": "Nakabolelwa Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 5579 of 2014-10-01 (declaration dated 2014-09-03)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2014",
+   "areaKm2": 114.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered October 2014; approx. 842 people. Gazette list spells it 'Nakobolelwa'."
+  },
+  {
+   "name": "Salambala Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 1891 of 1998-06-19 (declaration dated 1998-06-15)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1998",
+   "areaKm2": 930.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered June 1998; approx. 9,193 people."
+  },
+  {
+   "name": "Sikunga Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 4310 of 2009-07-31 (declaration dated 2009-07-06)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2009",
+   "areaKm2": 287.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered July 2009; approx. 2,478 people."
+  },
+  {
+   "name": "Sobbe Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 3726 of 2006-10-23 (declaration dated 2006-10-04)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 391.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered October 2006; approx. 1,115 people."
+  },
+  {
+   "name": "Wuparo Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Communal conservancy (registered)",
+   "legalStatus": {
+    "text": "Declared a conservancy under s.24A of the Nature Conservation Ordinance 4 of 1975; Government Gazette No. 2248 of 1999-12-15 (declaration dated 1999-11-19)",
+    "sourceIds": [
+     "nam-nacso-gazette-numbers",
+     "nam-lac-ordinance"
+    ]
+   },
+   "established": "1999",
+   "areaKm2": 148.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-nacso-conservancies",
+    "nam-nacso-gazette-numbers"
+   ],
+   "notes": "Region: Zambezi. NACSO: registered December 1999; approx. 987 people."
+  },
+  {
+   "name": "Ekango Lyomongwa Conservancy",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Conservancy (communal)",
+   "legalStatus": {
+    "text": "Declared under s.24A(2) of the Nature Conservation Ordinance 4 of 1975 by GN 248 of 2025 (Government Gazette No. 8744, 17 September 2025; signed 4 September 2025)",
+    "sourceIds": [
+     "nam-gg-8744"
+    ]
+   },
+   "established": "2025",
+   "areaKm2": 1326.5194,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-8744"
+   ],
+   "notes": "Oshikoto Region (Omuntele constituency); gazette states 132 651.94 hectares. Declared after the NACSO/MEFT count of 86, so not in the NACSO table."
+  },
+  {
+   "name": "Bukalo Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 30 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": 53.23,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO). Gazette states the Bukalo community forest areas total 5323 ha."
+  },
+  {
+   "name": "Hans Kanyinga Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 31 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Kwandu Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 32 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Lubuta Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 33 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Masida Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 34 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Mbeyo Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 35 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "M'kata Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 36 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Ncamagoro Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 37 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Ncaute Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 38 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Ncumcara Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 39 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Okongo Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 40 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Sikanjabuka Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 41 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Uukolonkadhi Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 42 of 2006 (GG 3590 of 14 February 2006)",
+    "sourceIds": [
+     "nam-gg-3590"
+    ]
+   },
+   "established": "2006",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-3590",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Cuma Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 43 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Gcwatjinga Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 44 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "George Mukoya Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 45 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Kahenge Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 46 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Katope Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 47 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Likwaterera Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 48 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Marienfluss Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 49 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Muduva Nyangana Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 50 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Nyae Nyae Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 51 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Okondjombo Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 52 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Ohepi Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 53 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Omufituwekuta Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 54 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Orupembe Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 55 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Oshaampula Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 56 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Otjiu-West Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 57 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Puros Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 58 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Sachona Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 59 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Sanitatas Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 60 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Zilitene Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 61 of 2013 (GG 5145 of 8 March 2013)",
+    "sourceIds": [
+     "nam-gg-5145"
+    ]
+   },
+   "established": "2013",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-5145",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Omuramba Ua Mbinda Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 267 of 2018 (GG 6743 of 24 October 2018)",
+    "sourceIds": [
+     "nam-gg-6743"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6743",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Ondjou Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 268 of 2018 (GG 6743 of 24 October 2018)",
+    "sourceIds": [
+     "nam-gg-6743"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6743",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Otjituuo Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 269 of 2018 (GG 6743 of 24 October 2018)",
+    "sourceIds": [
+     "nam-gg-6743"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6743",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Otjombinde Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 270 of 2018 (GG 6743 of 24 October 2018)",
+    "sourceIds": [
+     "nam-gg-6743"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6743",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Otshiku-ShiIthilonde Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 271 of 2018 (GG 6743 of 24 October 2018)",
+    "sourceIds": [
+     "nam-gg-6743"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6743",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "African Wild Dog Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 272 of 2018 (GG 6743 of 24 October 2018)",
+    "sourceIds": [
+     "nam-gg-6743"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6743",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Ehi-Rovipuka Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 273 of 2018 (GG 6743 of 24 October 2018)",
+    "sourceIds": [
+     "nam-gg-6743"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6743",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Eiseb Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 274 of 2018 (GG 6743 of 24 October 2018)",
+    "sourceIds": [
+     "nam-gg-6743"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6743",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "N#aJagna Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 275 of 2018 (GG 6743 of 24 October 2018)",
+    "sourceIds": [
+     "nam-gg-6743"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6743",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Omundaungilo Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 276 of 2018 (GG 6743 of 24 October 2018)",
+    "sourceIds": [
+     "nam-gg-6743"
+    ]
+   },
+   "established": "2018",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6743",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Epukiro Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 29 of 2019 (GG 6844 of 15 February 2019)",
+    "sourceIds": [
+     "nam-gg-6844"
+    ]
+   },
+   "established": "2019",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-6844",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Ozonahi Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 170 of 2022 (GG 7828 of 15 June 2022)",
+    "sourceIds": [
+     "nam-gg-7828"
+    ]
+   },
+   "established": "2022",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-7828",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Ambrosius Haingura Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 171 of 2022 (GG 7828 of 15 June 2022)",
+    "sourceIds": [
+     "nam-gg-7828"
+    ]
+   },
+   "established": "2022",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-7828",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Aminuis Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 274 of 2022 (GG 7904 of 15 September 2022)",
+    "sourceIds": [
+     "nam-gg-7904"
+    ]
+   },
+   "established": "2022",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-7904",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Otjinene Community Forest",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Community Forest",
+   "legalStatus": {
+    "text": "Declared a community forest under the Forest Act, 2001 (Act 12 of 2001) by GN 145 of 2023 (GG 8089 of 15 May 2023)",
+    "sourceIds": [
+     "nam-gg-8089"
+    ]
+   },
+   "established": "2023",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-8089",
+    "nam-nacso-community-forests"
+   ],
+   "notes": "Many community forests overlap communal conservancies (NACSO)."
+  },
+  {
+   "name": "Zambezi State Forest Reserve",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "State Forest Reserve",
+   "legalStatus": {
+    "text": "Communal land declared a state forest reserve under s.13(8) of the Forest Act, 2001 by GN 147 of 2023 (GG 8089, 15 May 2023; signed 19 April 2023)",
+    "sourceIds": [
+     "nam-gg-8089"
+    ]
+   },
+   "established": "2023",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "nam-gg-8089"
+   ],
+   "notes": "Kongola constituency, Zambezi Region, along the border with Zambia. Area not stated in the fetched text."
+  },
+  {
+   "name": "Sikunga Fisheries Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Fisheries Reserve (community fisheries reserve, inland waters)",
+   "legalStatus": {
+    "text": "Declared under s.22(1) of the Inland Fisheries Resources Act, 2003 (Act 1 of 2003) by GN 276 of 2015 (GG 5883, 25 November 2015)",
+    "sourceIds": [
+     "nam-gg-5883"
+    ]
+   },
+   "established": "2015",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nam-gg-5883",
+    "nam-nacso-fisheries"
+   ],
+   "notes": "Declared as 'Sikunga Channel' together with Kasaya Channel. Zambezi Region river/channel reserve initiated by the community (NACSO lists 10 gazetted reserves)."
+  },
+  {
+   "name": "Kasaya Fisheries Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Fisheries Reserve (community fisheries reserve, inland waters)",
+   "legalStatus": {
+    "text": "Declared under s.22(1) of the Inland Fisheries Resources Act, 2003 (Act 1 of 2003) by GN 276 of 2015 (GG 5883, 25 November 2015) and again GN 298 of 2016 (GG 6197, 15 December 2016: 'Kasaya Channel in Impalila Conservancy')",
+    "sourceIds": [
+     "nam-gg-5883",
+     "nam-gg-6197"
+    ]
+   },
+   "established": "2015",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nam-gg-5883",
+    "nam-gg-6197",
+    "nam-nacso-fisheries"
+   ],
+   "notes": "Declared as 'Kasaya Channel'. Zambezi Region river/channel reserve initiated by the community (NACSO lists 10 gazetted reserves)."
+  },
+  {
+   "name": "Luhingi Fisheries Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Fisheries Reserve (community fisheries reserve, inland waters)",
+   "legalStatus": {
+    "text": "Declared under s.22(1) of the Inland Fisheries Resources Act, 2003 (Act 1 of 2003) by GN 65 of 2020 (GG 7138, 6 March 2020)",
+    "sourceIds": [
+     "nam-gg-7138"
+    ]
+   },
+   "established": "2020",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nam-gg-7138",
+    "nam-nacso-fisheries"
+   ],
+   "notes": "Luhingi fishing area in Mayuni Conservancy. Zambezi Region river/channel reserve initiated by the community (NACSO lists 10 gazetted reserves)."
+  },
+  {
+   "name": "QhuQhumupa Fisheries Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Fisheries Reserve (community fisheries reserve, inland waters)",
+   "legalStatus": {
+    "text": "Declared under s.22(1) of the Inland Fisheries Resources Act, 2003 (Act 1 of 2003) by GN 66 of 2020 (GG 7138, 6 March 2020)",
+    "sourceIds": [
+     "nam-gg-7138"
+    ]
+   },
+   "established": "2020",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nam-gg-7138",
+    "nam-nacso-fisheries"
+   ],
+   "notes": "Qhuqhumupa fishing area in Balyerwa Conservancy. Zambezi Region river/channel reserve initiated by the community (NACSO lists 10 gazetted reserves)."
+  },
+  {
+   "name": "Kalume Fisheries Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Fisheries Reserve (community fisheries reserve, inland waters)",
+   "legalStatus": {
+    "text": "Declared under s.22(1) of the Inland Fisheries Resources Act, 2003 (Act 1 of 2003) by GN 66 of 2020 (GG 7138, 6 March 2020)",
+    "sourceIds": [
+     "nam-gg-7138"
+    ]
+   },
+   "established": "2020",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nam-gg-7138",
+    "nam-nacso-fisheries"
+   ],
+   "notes": "Kalume fishing area in Balyerwa Conservancy. Zambezi Region river/channel reserve initiated by the community (NACSO lists 10 gazetted reserves)."
+  },
+  {
+   "name": "Lwezuba Fisheries Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Fisheries Reserve (community fisheries reserve, inland waters)",
+   "legalStatus": {
+    "text": "Declared under s.22(1) of the Inland Fisheries Resources Act, 2003 (Act 1 of 2003) by GN 67 of 2020 (GG 7138, 6 March 2020)",
+    "sourceIds": [
+     "nam-gg-7138"
+    ]
+   },
+   "established": "2020",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nam-gg-7138",
+    "nam-nacso-fisheries"
+   ],
+   "notes": "Lwezuba fishing area in Lusese Conservancy. Zambezi Region river/channel reserve initiated by the community (NACSO lists 10 gazetted reserves)."
+  },
+  {
+   "name": "Kabweza Fisheries Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Fisheries Reserve (community fisheries reserve, inland waters)",
+   "legalStatus": {
+    "text": "Declared under s.22(1) of the Inland Fisheries Resources Act, 2003 (Act 1 of 2003) by GN 67 of 2020 (GG 7138, 6 March 2020)",
+    "sourceIds": [
+     "nam-gg-7138"
+    ]
+   },
+   "established": "2020",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nam-gg-7138",
+    "nam-nacso-fisheries"
+   ],
+   "notes": "Kabweza fishing area in Lusese Conservancy. Zambezi Region river/channel reserve initiated by the community (NACSO lists 10 gazetted reserves)."
+  },
+  {
+   "name": "Munga Fisheries Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Fisheries Reserve (community fisheries reserve, inland waters)",
+   "legalStatus": {
+    "text": "Declared under s.22(1) of the Inland Fisheries Resources Act, 2003 (Act 1 of 2003) by GN 68 of 2020 (GG 7138, 6 March 2020)",
+    "sourceIds": [
+     "nam-gg-7138"
+    ]
+   },
+   "established": "2020",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nam-gg-7138",
+    "nam-nacso-fisheries"
+   ],
+   "notes": "Declared together with Nsala and Makumbi fishing areas. Zambezi Region river/channel reserve initiated by the community (NACSO lists 10 gazetted reserves)."
+  },
+  {
+   "name": "Nsala Fisheries Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Fisheries Reserve (community fisheries reserve, inland waters)",
+   "legalStatus": {
+    "text": "Declared under s.22(1) of the Inland Fisheries Resources Act, 2003 (Act 1 of 2003) by GN 68 of 2020 (GG 7138, 6 March 2020)",
+    "sourceIds": [
+     "nam-gg-7138"
+    ]
+   },
+   "established": "2020",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nam-gg-7138",
+    "nam-nacso-fisheries"
+   ],
+   "notes": "Declared together with Munga and Makumbi fishing areas. Zambezi Region river/channel reserve initiated by the community (NACSO lists 10 gazetted reserves)."
+  },
+  {
+   "name": "Makumbi Fisheries Reserve",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Fisheries Reserve (community fisheries reserve, inland waters)",
+   "legalStatus": {
+    "text": "Declared under s.22(1) of the Inland Fisheries Resources Act, 2003 (Act 1 of 2003) by GN 68 of 2020 (GG 7138, 6 March 2020)",
+    "sourceIds": [
+     "nam-gg-7138"
+    ]
+   },
+   "established": "2020",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "nam-gg-7138",
+    "nam-nacso-fisheries"
+   ],
+   "notes": "Declared together with Munga and Nsala fishing areas. Zambezi Region river/channel reserve initiated by the community (NACSO lists 10 gazetted reserves)."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "freehold conservancies",
+   "approxCount": null,
+   "reason": "Voluntary associations of commercial farmers; not declared under the Nature Conservation Ordinance's protected-area provisions and no official list found.",
+   "sourceIds": [
+    "nam-nacso-parks"
+   ]
+  },
+  {
+   "category": "tourism and hunting concessions",
+   "approxCount": null,
+   "reason": "Use rights granted by MEFT inside/outside parks, not protected-area designations.",
+   "sourceIds": []
+  },
+  {
+   "category": "private game parks / private nature reserves (s.22 of the Ordinance)",
+   "approxCount": null,
+   "reason": "No official list found.",
+   "sourceIds": [
+    "nam-lac-ordinance"
+   ]
+  },
+  {
+   "category": "state forest reserves other than Zambezi",
+   "approxCount": null,
+   "reason": "Only the 2023 Zambezi State Forest Reserve declaration was found; no consolidated list of state forest reserves was located.",
+   "sourceIds": [
+    "nam-gg-8089"
+   ]
+  }
+ ],
+ "gaps": [
+  "MEFT gives proclamation years and sizes but not the Government Notice numbers for the 20 state protected areas; the specific notices (e.g. Bwabwata 2007, Dorob 2010, Tsau //Khaeb 2008, Mangetti 2008, Nkasa Rupara renaming) were not verified (NamibLII was behind a bot challenge).",
+  "'South West Nature Reserve' appears in MEFT's list but its link points to the Skeleton Coast page; its location, size and legal basis could not be verified.",
+  "MEFT's state-protected-area list does not include the Namibian Islands' Marine Protected Area, Cape Cross is listed as a 'Seal Reserve', and Gross-Barmen / Hardap / Von Bach / Naute are recreation-oriented game parks or resorts; categories here follow MEFT labels.",
+  "Conservancy registrations after 2018 other than Ekango Lyomongwa (GN 248 of 2025) could not be checked systematically; the NACSO/MEFT count of 86 may be out of date.",
+  "NACSO says '43 registered and emerging' community forests, but 47 gazetted declarations (2006-2023) were found in the gazettes NACSO hosts; the gazette list is used here and community forests declared outside these gazettes may be missing.",
+  "GN 297 of 2016 declares the whole Zambezi/Chobe River system a seasonal fisheries reserve (1 December to 28 February each year); it is a seasonal closure and is not recorded as an area.",
+  "No official coordinates were used; points depend on Wikidata matches. Wikidata was heavily rate-limited (HTTP 429) during this run, so only a keyword search (haswbstatement:P17) was possible; most conservancies, community forests and fisheries reserves appear to have no Wikidata item and have null QIDs."
+ ]
+}

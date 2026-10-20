@@ -46,6 +46,12 @@ Rules: a potential activity is never `verified`. An organisation linked as `rela
 |---|---|
 | `code` | ISO 3166-1 alpha-3 code, the country's id. |
 | `name` | Display name. |
+| `group` | `wasop` (the 13 West Africa Sustainable Ocean Programme countries) or `additional` (the 9 other African countries). |
+| `inventory.status` | `partial` or `exhaustive`. `exhaustive` may only be used when every area in the best available official inventory has been checked and catalogued; no country currently qualifies. |
+| `inventory.summary` | The best available official inventory and how the catalogue compares with it (areas listed, catalogued, verified but unmapped). |
+| `inventory.sourceIds` | Sources for the official inventory. |
+| `inventory.officialCounts[]` | Totals stated by official or authoritative sources (`category`, `count`, `asOf`, `sourceId`), for comparison. |
+| `inventory.gaps[]` | What is missing, duplicated or unverified, and why (unavailable source, licensing, no openly licensed coordinates). |
 
 ### Territory (`territories`)
 A catalogued conservation area, or a broader landscape or administrative region used for context.
@@ -54,7 +60,7 @@ A catalogued conservation area, or a broader landscape or administrative region 
 |---|---|
 | `id` | Stable id. Ramsar records use `ramsar-<site number>`. |
 | `name`, `shortName`, `localName` | Official or common name, a compact map label, and the name in the local language. |
-| `kind` | Record type used by this catalogue: `ramsar-site` (shown as "Wetland site"), `protected-area`, `community-protected-area`, `archipelago` or `administrative-region`. It is a record category, **not** an official designation. |
+| `kind` | Record type used by this catalogue: `ramsar-site` (shown as "Wetland site"; a Ramsar record with no documented national designation), `protected-area`, `community-protected-area`, `archipelago` or `administrative-region`. It is a record category, **not** an official designation. |
 | `countryCode` | The country's id. |
 | `parentId` | The enclosing territory, if catalogued (e.g. a park inside the Bijagós Archipelago). |
 | `location.description` + `descriptionSourceIds` | Where it is, as stated by the source. |
@@ -67,6 +73,14 @@ A catalogued conservation area, or a broader landscape or administrative region 
 | `ecosystems[]` | Habitats documented for this place: `ecosystemId` plus a statement saying which source names them. These are not mapped ecosystem extents. |
 | `verification.status` | `verified`, `partially-verified` or `location-only` (only a location is sourced). |
 | `verification.note`, `reviewed` | What was checked, which coordinates are used and known gaps, and the review date. |
+| `inventory.category` | Protection category as documented: `national-park`, `nature-reserve`, `marine-protected-area`, `wildlife-reserve`, `forest-reserve`, `community-conservation-area`, `other-protected-area`, `international-designation` (only an international status — Ramsar, World Heritage or biosphere — is documented), `proposed` (not legally designated) or `context` (a landscape or region, not a protected area). |
+| `inventory.legalStatus` | The documented legal basis (e.g. a decree) as a verified, sourced statement, or `null` when the sources reviewed do not document it. |
+| `inventory.sourceDate` | Date of the record's main source or listing (e.g. Ramsar designation date, list date), as written. |
+| `inventory.overlaps[]` | Other catalogued areas that overlap this one but cover a different extent (e.g. a biosphere reserve and the national park at its core). Recorded where names, documented areas and locations indicate the overlap; boundaries were not compared. |
+
+**Avoiding double counting.** When a Ramsar, World Heritage or biosphere designation applies to the same area as a national designation, it is recorded as an extra designation on that one territory. A separate record is kept only when the extents clearly differ, and it is linked through `inventory.overlaps`. Biosphere reserves are always separate records with category `international-designation`, because they are zoned landscapes larger than their core protected areas.
+
+**Locations.** Points come from the cited official source where it gives coordinates, from Ramsar or UNESCO, or otherwise from Wikidata (CC0). The geometry `caveat` says which applies. A Wikidata point is an approximate reference location, not an official boundary or centroid. Areas verified in an official list but with no openly licensed location are not in the catalogue; they are listed in [`inventory/uncatalogued-areas.csv`](inventory/uncatalogued-areas.csv).
 
 ### Designation type (`designationTypes`), Ecosystem (`ecosystems`), Theme (`themes`)
 Controlled vocabularies with `id`, `name` and a generic `description`/`definition`. They are used for filters and tags. A definition is a glossary entry, not a claim about any place.
@@ -111,8 +125,8 @@ Controlled vocabularies with `id`, `name` and a generic `description`/`definitio
 
 | CSV file | One row per | Key | Links to |
 |---|---|---|---|
-| `countries.csv` | country | `country_code` | — |
-| `territories.csv` | territory | `territory_id` | `country_code`, `parent_id`, designation and ecosystem ids, `location_source_id` |
+| `countries.csv` | country, with group and inventory status | `country_code` | inventory source ids |
+| `territories.csv` | territory, with protection category, legal status, source date and overlaps | `territory_id` | `country_code`, `parent_id`, designation and ecosystem ids, `location_source_id`, `overlaps_territory_ids` |
 | `territory_designations.csv` | territory × designation | `territory_id` + `designation_id` | `designation_types.csv`, `sources.csv` |
 | `territory_ecosystems.csv` | territory × ecosystem statement | `territory_id` + `ecosystem_id` | `ecosystems.csv`, `sources.csv` |
 | `challenges.csv` | challenge | `challenge_id` | `territory_ids`, `theme_ids`, `linked_opportunity_ids` |
@@ -123,4 +137,4 @@ Controlled vocabularies with `id`, `name` and a generic `description`/`definitio
 | `sources.csv` | source | `source_id` | — |
 | `designation_types.csv`, `ecosystems.csv`, `themes.csv` | vocabulary entry | id | — |
 
-`statements.csv` holds every sourced sentence with its evidence level: territory key facts, livelihoods, challenges, activity rationale and organisation roles. Organisation-link statements are in `opportunity_organisation_links.csv`, and ecosystem statements in `territory_ecosystems.csv`. The `*_source_urls` columns repeat the URLs of the listed source ids for convenience.
+`statements.csv` holds every sourced sentence with its evidence level: territory key facts, livelihoods, documented legal status, challenges, activity rationale and organisation roles. Organisation-link statements are in `opportunity_organisation_links.csv`, and ecosystem statements in `territory_ecosystems.csv`. The `*_source_urls` columns repeat the URLs of the listed source ids for convenience.

@@ -1,0 +1,530 @@
+{
+ "country": "GHA",
+ "countryName": "Ghana",
+ "officialInventory": {
+  "summary": "Wildlife protected areas are managed by the Wildlife Division of the Forestry Commission and are legally established by the Wildlife Reserves Regulations 1971 (L.I. 710) and its amendments (kept in force by the Wildlife Resources Management Act 2023, Act 1115). The NBSAP (Nov 2016, Table 4, source FDMP 2016) gives the most complete official list with areas and years. Forest reserves (~280) are managed by the Forest Services Division and were not enumerated. The Forestry Commission website was not used (reported hijacked/dead).",
+  "sourceIds": [
+   "gha-nbsap-2016",
+   "gha-li710",
+   "gha-act1115"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "wildlife protected areas (national parks, resource reserves, wildlife sanctuaries, strict nature reserve)",
+    "count": 16,
+    "asOf": "2018",
+    "sourceId": "gha-6nr",
+    "quote": "there are 16 protected areas that include 7 national parks, 6 resource reserves, 2 wildlife sanctuaries and 1 strict nature reserve"
+   },
+   {
+    "category": "legally-constituted wildlife conservation areas incl. Ramsar sites",
+    "count": 21,
+    "asOf": "2016",
+    "sourceId": "gha-nbsap-2016",
+    "quote": "There are 21 legally-constituted wildlife conservation areas, notably six national parks, six resource reserves, three wildlife sanctuaries, one strict nature reserve as well as six Ramsar Sites"
+   },
+   {
+    "category": "forest reserves",
+    "count": 280,
+    "asOf": "2016",
+    "sourceId": "gha-nbsap-2016",
+    "quote": "Currently, there are 280 forest reserves in Ghana"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "gha-li710",
+   "title": "Wildlife Reserves Regulations, 1971 (L.I. 710)",
+   "publisher": "Government of Ghana (text via FAO FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/gha40796.pdf",
+   "date": "1971-09-20",
+   "kind": "report",
+   "licence": "© Government of Ghana (text via FAO FAOLEX) — cited for reference (facts and short quotes)",
+   "note": "Legal text (OCR copy). Regulation 1 establishes six reserves."
+  },
+  {
+   "id": "gha-li1022",
+   "title": "Wildlife Reserves (Amendment) Regulations, 1975 (L.I. 1022)",
+   "publisher": "Government of Ghana (text via ClientEarth)",
+   "url": "https://www.clientearth.org/media/aycj32zr/l-i-1022-wildlife-reserves-amendment-regulations-1975-ext-en.pdf",
+   "date": "1975-06-19",
+   "kind": "report",
+   "licence": "© Government of Ghana (text via ClientEarth) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "gha-li1085",
+   "title": "Wildlife Reserves (Amendment) (Declaration of Game Reserves) Regulations, 1976 (L.I. 1085)",
+   "publisher": "Government of Ghana (text via ClientEarth)",
+   "url": "https://www.clientearth.org/media/3wrn4kr5/wildlife-reserve-amendment-regulation-1976-ext-en.pdf",
+   "date": "1976-07-27",
+   "kind": "report",
+   "licence": "© Government of Ghana (text via ClientEarth) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "gha-li1105",
+   "title": "Wildlife Reserves (Amendment) Regulations, 1977 (L.I. 1105)",
+   "publisher": "Government of Ghana (text via FAO FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/gha40797.pdf",
+   "date": "1977-04-21",
+   "kind": "report",
+   "licence": "© Government of Ghana (text via FAO FAOLEX) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "gha-li1525",
+   "title": "Wildlife Reserves (Declaration of Game Reserves) (Amendment) Regulations, 1991 (L.I. 1525)",
+   "publisher": "Government of Ghana (text via ClientEarth)",
+   "url": "https://www.clientearth.org/media/fnpmwhi0/wildlife-reserve-amendment-regulation-1991-l-i-1525-ext-en.pdf",
+   "date": "1991-11-29",
+   "kind": "report",
+   "licence": "© Government of Ghana (text via ClientEarth) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "gha-act1115",
+   "title": "Wildlife Resources Management Act, 2023 (Act 1115)",
+   "publisher": "Parliament of Ghana (copy hosted by A Rocha Ghana)",
+   "url": "https://ghana.arocha.org/wp-content/uploads/sites/42/2024/04/WILDLIFE-RESOURCES-MANAGEMENT-ACT-2023-ACT-1115.pdf",
+   "date": "2023",
+   "kind": "report",
+   "licence": "© Parliament of Ghana (copy hosted by A Rocha Ghana) — cited for reference (facts and short quotes)",
+   "note": "s.40(3) keeps instruments made under the repealed Act 43 in force; s.39 recognises existing Management Areas."
+  },
+  {
+   "id": "gha-nbsap-2016",
+   "title": "Ghana National Biodiversity Strategy and Action Plan",
+   "publisher": "Government of Ghana (via CBD)",
+   "url": "https://www.cbd.int/doc/world/gh/gh-nbsap-v2-en.pdf",
+   "date": "2016-11",
+   "kind": "report",
+   "licence": "© Government of Ghana (via CBD) — cited for reference (facts and short quotes)",
+   "note": "Table 4 'Wildlife Conservation Areas in Ghana' (source: FDMP 2016) lists each area with area and year."
+  },
+  {
+   "id": "gha-6nr",
+   "title": "Ghana Sixth National Report to the CBD",
+   "publisher": "Government of Ghana (via CBD)",
+   "url": "https://www.cbd.int/doc/world/gh/gh-nr-06-en.pdf",
+   "date": "2018-12",
+   "kind": "report",
+   "licence": "© Government of Ghana (via CBD) — cited for reference (facts and short quotes)"
+  }
+ ],
+ "areas": [
+  {
+   "name": "Mole National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Established by the Wildlife Reserves Regulations, 1971 (L.I. 710), reg. 1(a).",
+    "sourceIds": [
+     "gha-li710"
+    ]
+   },
+   "established": "1971",
+   "areaKm2": 4840,
+   "coordinates": null,
+   "wikidataQid": "Q1585600",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li710"
+   ],
+   "notes": "Northern Region (NBSAP Table 4)."
+  },
+  {
+   "name": "Digya National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Established by L.I. 710 (1971), reg. 1(b).",
+    "sourceIds": [
+     "gha-li710"
+    ]
+   },
+   "established": "1971",
+   "areaKm2": 3478,
+   "coordinates": null,
+   "wikidataQid": "Q491509",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li710"
+   ],
+   "notes": "Volta Region (NBSAP)."
+  },
+  {
+   "name": "Bui National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Established by L.I. 710 (1971), reg. 1(c).",
+    "sourceIds": [
+     "gha-li710"
+    ]
+   },
+   "established": "1971",
+   "areaKm2": 1821,
+   "coordinates": null,
+   "wikidataQid": "Q1002702",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li710"
+   ],
+   "notes": "Northern / Brong Ahafo (NBSAP)."
+  },
+  {
+   "name": "Kyabobo National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": null,
+   "established": "2009",
+   "areaKm2": 360,
+   "coordinates": null,
+   "wikidataQid": "Q1638856",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016"
+   ],
+   "notes": "Volta Region; year 2009 per NBSAP Table 4 (shown in italics in the table); legal instrument not seen."
+  },
+  {
+   "name": "Kakum National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Established by the Wildlife Reserves (Declaration of Game Reserves) (Amendment) Regulations, 1991 (L.I. 1525), made 29 Nov 1991.",
+    "sourceIds": [
+     "gha-li1525"
+    ]
+   },
+   "established": "1991",
+   "areaKm2": 207,
+   "coordinates": null,
+   "wikidataQid": "Q568693",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li1525"
+   ],
+   "notes": "Central Region. NBSAP Table 4 gives 1990; L.I. 1525 is dated 1991."
+  },
+  {
+   "name": "Nini-Suhien National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Established by L.I. 1085 (in force 1 Aug 1976).",
+    "sourceIds": [
+     "gha-li1085"
+    ]
+   },
+   "established": "1976",
+   "areaKm2": 160.2,
+   "coordinates": null,
+   "wikidataQid": "Q556596",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li1085"
+   ],
+   "notes": "Western Region; adjoins Ankasa Resource Reserve."
+  },
+  {
+   "name": "Bia National Park",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "National Park",
+   "legalStatus": {
+    "text": "Boundary particulars substituted by L.I. 1105 (1977) amending L.I. 710; original instrument (L.I. 881 of 1974, revoked by L.I. 1105) not seen.",
+    "sourceIds": [
+     "gha-li1105"
+    ]
+   },
+   "established": "1977",
+   "areaKm2": 78,
+   "coordinates": null,
+   "wikidataQid": "Q855195",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li1105"
+   ],
+   "notes": "Western Region; year 1977 per NBSAP."
+  },
+  {
+   "name": "Bomfobiri Wildlife Sanctuary",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Wildlife Sanctuary",
+   "legalStatus": {
+    "text": "Established by L.I. 1022 (1975).",
+    "sourceIds": [
+     "gha-li1022"
+    ]
+   },
+   "established": "1975",
+   "areaKm2": 53,
+   "coordinates": null,
+   "wikidataQid": "Q891947",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li1022"
+   ],
+   "notes": "Ashanti Region; L.I. 1022 describes c. 20.5 sq miles."
+  },
+  {
+   "name": "Owabi Wildlife Sanctuary",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Wildlife Sanctuary",
+   "legalStatus": {
+    "text": "Established by L.I. 710 (1971), reg. 1(f).",
+    "sourceIds": [
+     "gha-li710"
+    ]
+   },
+   "established": "1971",
+   "areaKm2": 13,
+   "coordinates": null,
+   "wikidataQid": "Q7114231",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li710"
+   ],
+   "notes": "Ashanti Region; also a Ramsar site (NBSAP: 'The sixth Ramsar site, the Owabi Wildlife Sanctuary')."
+  },
+  {
+   "name": "Boabeng-Fiema Wildlife Sanctuary",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Wildlife Sanctuary",
+   "legalStatus": null,
+   "established": "1974",
+   "areaKm2": 4.4,
+   "coordinates": null,
+   "wikidataQid": "Q997322",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016"
+   ],
+   "notes": "Spelled 'Buabeng-Fiema' in NBSAP Table 4; Brong-Ahafo. Legal instrument not seen. The 6NR counts only 2 wildlife sanctuaries, so its status is uncertain."
+  },
+  {
+   "name": "Agumatsa Wildlife Sanctuary",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Wildlife Sanctuary (proposed)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 3,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016"
+   ],
+   "notes": "Volta Region; 'Proposed' in NBSAP Table 4."
+  },
+  {
+   "name": "Gbele Resource Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Resource Reserve (gazetted as Gbele Game Production Reserve)",
+   "legalStatus": {
+    "text": "Established as Gbele Game Production Reserve by L.I. 1022 (1975).",
+    "sourceIds": [
+     "gha-li1022"
+    ]
+   },
+   "established": "1975",
+   "areaKm2": 565,
+   "coordinates": null,
+   "wikidataQid": "Q1496750",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li1022"
+   ],
+   "notes": "Upper West Region."
+  },
+  {
+   "name": "Ankasa Resource Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Resource Reserve (gazetted as Ankasa Game Production Reserve)",
+   "legalStatus": {
+    "text": "Established as Ankasa Game Production Reserve by L.I. 1085 (1976).",
+    "sourceIds": [
+     "gha-li1085"
+    ]
+   },
+   "established": "1976",
+   "areaKm2": 343,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li1085"
+   ],
+   "notes": "Western Region."
+  },
+  {
+   "name": "Kalakpa Resource Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Resource Reserve (gazetted as Kalakpa Game Production Reserve)",
+   "legalStatus": {
+    "text": "Established as Kalakpa Game Production Reserve by L.I. 1022 (1975).",
+    "sourceIds": [
+     "gha-li1022"
+    ]
+   },
+   "established": "1975",
+   "areaKm2": 320,
+   "coordinates": null,
+   "wikidataQid": "Q1563279",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li1022"
+   ],
+   "notes": "Volta Region."
+  },
+  {
+   "name": "Bia Resource Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Resource Reserve (gazetted as Bia Game Production Reserve)",
+   "legalStatus": {
+    "text": "Bia Game Production Reserve inserted by L.I. 1105 (1977), replacing the Bia West and Bia South Game Production Reserves of L.I. 1085.",
+    "sourceIds": [
+     "gha-li1105",
+     "gha-li1085"
+    ]
+   },
+   "established": "1977",
+   "areaKm2": 228,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li1105",
+    "gha-li1085"
+   ],
+   "notes": "Western Region."
+  },
+  {
+   "name": "Assin Attandaso Resource Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Resource Reserve (gazetted as Assin Attandanso Game Production Reserve)",
+   "legalStatus": {
+    "text": "Established by L.I. 1525 (1991).",
+    "sourceIds": [
+     "gha-li1525"
+    ]
+   },
+   "established": "1991",
+   "areaKm2": 140,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li1525"
+   ],
+   "notes": "Central Region; NBSAP gives 1990. Spelled 'Assin-Attandaso' (NBSAP) / 'Assin Attandanso' (L.I. 1525)."
+  },
+  {
+   "name": "Shai Hills Resource Reserve",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Resource Reserve (gazetted as Shai Hills Game Production Reserve)",
+   "legalStatus": {
+    "text": "Established as Shai Hills Game Production Reserve by L.I. 710 (1971), reg. 1(d).",
+    "sourceIds": [
+     "gha-li710"
+    ]
+   },
+   "established": "1971",
+   "areaKm2": 49,
+   "coordinates": null,
+   "wikidataQid": "Q1440461",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li710"
+   ],
+   "notes": "Greater Accra Region."
+  },
+  {
+   "name": "Kogyae Strict Nature Reserve",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Strict Nature Reserve",
+   "legalStatus": {
+    "text": "Established by L.I. 710 (1971), reg. 1(e).",
+    "sourceIds": [
+     "gha-li710"
+    ]
+   },
+   "established": "1971",
+   "areaKm2": 386,
+   "coordinates": null,
+   "wikidataQid": "Q25064132",
+   "marine": false,
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-li710"
+   ],
+   "notes": "Ashanti Region (Ejura District)."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "forest reserves (Forest Services Division)",
+   "approxCount": 280,
+   "reason": "List too large; no official machine-readable list found (official FC site unreliable).",
+   "sourceIds": [
+    "gha-nbsap-2016"
+   ]
+  },
+  {
+   "category": "Globally Significant Biodiversity Areas (forest reserves)",
+   "approxCount": 29,
+   "reason": "Designated within forest reserves; names not listed in sources seen.",
+   "sourceIds": [
+    "gha-nbsap-2016",
+    "gha-6nr"
+   ]
+  },
+  {
+   "category": "Community Resource Management Areas (CREMAs)",
+   "approxCount": null,
+   "reason": "No official list found; recognised under s.39 of Act 1115.",
+   "sourceIds": [
+    "gha-act1115"
+   ]
+  }
+ ],
+ "gaps": [
+  "Counts conflict: NBSAP text says six national parks and three sanctuaries while its Table 4 lists seven national parks and three gazetted sanctuaries (+1 proposed); the 6NR says 7 NP, 6 RR, 2 WS, 1 SNR. Records follow Table 4.",
+  "Legal instruments for Kyabobo NP, Boabeng-Fiema WS and the original Bia NP gazette (L.I. 881, 1974) and L.I. 1283 (1983) were not seen.",
+  "The NBSAP mentions one proposed national park whose name is not given.",
+  "No Ghanaian marine protected area was found in official sources.",
+  "Areas are taken from NBSAP Table 4 (FDMP 2016) and may differ from current gazetted boundaries.",
+  "areaKm2 values were converted from hectares (1 km² = 100 ha) where the cited source gives hectares; source figures are quoted in notes where they conflict."
+ ]
+}

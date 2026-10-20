@@ -39,7 +39,7 @@ const territory = (id: string, ecosystemIds: string[], parentId?: string): Terri
 
 const fixture: Catalogue = {
   meta: { version: 'test', updated: '2026-10-18', description: '' },
-  countries: [{ code: 'GNB', name: 'Guinea-Bissau' }],
+  countries: [{ code: 'GNB', name: 'Guinea-Bissau', group: 'wasop' }],
   designationTypes: [],
   territories: [territory('a', ['mangrove']), territory('b', ['mangrove', 'mudflat'], 'a'), territory('c', ['marine'])],
   ecosystems: [
@@ -271,6 +271,21 @@ describe('validateCatalogue', () => {
       ],
     }
     expect(validateCatalogue(programme)).toEqual([])
+  })
+
+  it('requires a documented legal status to be a sourced, verified statement', () => {
+    const t = { ...fixture.territories[0], inventory: { category: 'national-park' as const, legalStatus: { text: 'Created by decree.', evidence: 'interpretation' as const, sourceIds: [] } } }
+    const problems = validateCatalogue({ ...fixture, territories: [t, ...fixture.territories.slice(1)] })
+    expect(problems).toContainEqual(expect.stringMatching(/legal status must be a verified statement/))
+    expect(problems).toContainEqual(expect.stringMatching(/interpretation statement has no source/))
+  })
+
+  it('flags unknown overlaps and exhaustive claims without sources', () => {
+    const t = { ...fixture.territories[0], inventory: { category: 'national-park' as const, legalStatus: null, overlaps: ['nope'] } }
+    const countries = [{ ...fixture.countries[0], inventory: { status: 'exhaustive' as const, summary: '', sourceIds: [], officialCounts: [], gaps: [] } }]
+    const problems = validateCatalogue({ ...fixture, countries, territories: [t, ...fixture.territories.slice(1)] })
+    expect(problems).toContainEqual(expect.stringMatching(/overlaps: unknown territory "nope"/))
+    expect(problems).toContainEqual(expect.stringMatching(/exhaustive inventory claimed without a source/))
   })
 
   it('flags opportunities linked to a challenge from another territory', () => {

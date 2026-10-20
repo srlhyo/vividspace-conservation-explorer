@@ -1,0 +1,340 @@
+{
+ "country": "BEN",
+ "countryName": "Benin",
+ "officialInventory": {
+  "summary": "National parks, hunting zones and MPAs are PA categories under the wildlife regime (Décret 2011-394); Pendjari NP is under delegated management (6NR). The NBSAP Tableau 1 (DGFRN 2013) gives official counts by category (2 national parks, 4 zones cynégétiques, 46 forêts classées, 6 périmètres de reboisement) but no names; two MPAs were created in 2022. cenagref.net was not used (reported hijacked).",
+  "sourceIds": [
+   "ben-nbsap",
+   "ben-6nr",
+   "ben-decree-2011-394"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "parcs nationaux",
+    "count": 2,
+    "asOf": "2013",
+    "sourceId": "ben-nbsap",
+    "quote": "Parcs nationaux 2 869867"
+   },
+   {
+    "category": "zones cynégétiques",
+    "count": 4,
+    "asOf": "2013",
+    "sourceId": "ben-nbsap",
+    "quote": "Zones cynégétiques 4 443679"
+   },
+   {
+    "category": "forêts classées",
+    "count": 46,
+    "asOf": "2013",
+    "sourceId": "ben-nbsap",
+    "quote": "Forêts classées 46 1345298"
+   },
+   {
+    "category": "forêts classées",
+    "count": 56,
+    "asOf": "6th National Report",
+    "sourceId": "ben-6nr",
+    "quote": "56 forêts classées que compte le pays"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "ben-nbsap",
+   "title": "Stratégie et Plan d'Action pour la Biodiversité 2011-2020 (Bénin)",
+   "publisher": "Government of Benin (via CBD)",
+   "url": "https://www.cbd.int/doc/world/bj/bj-nbsap-v2-fr.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Government of Benin (via CBD) — cited for reference (facts and short quotes)",
+   "note": "Tableau 1 (source DGFRN 2013) gives counts and areas by PA category."
+  },
+  {
+   "id": "ben-6nr",
+   "title": "Sixième Rapport National du Bénin à la CDB",
+   "publisher": "Government of Benin (via CBD)",
+   "url": "https://www.cbd.int/doc/nr/nr-06/bj-nr-06-fr.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Government of Benin (via CBD) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "ben-whc-wap-2016",
+   "title": "Proposition d'inscription du Complexe W-Arly-Pendjari — Résumé analytique",
+   "publisher": "UNESCO World Heritage Centre (République du Bénin, Burkina Faso)",
+   "url": "https://whc.unesco.org/document/155698",
+   "date": null,
+   "kind": "report",
+   "licence": "© UNESCO World Heritage Centre (République du Bénin, Burkina Faso) — cited for reference (facts and short quotes)",
+   "note": "Gives central-point coordinates of Pendjari and W-Bénin national parks and names adjoining hunting zones."
+  },
+  {
+   "id": "ben-whc-wap-2017",
+   "title": "Complément d'informations au dossier d'inscription du Complexe W-Arly-Pendjari",
+   "publisher": "UNESCO World Heritage Centre (République du Bénin, Burkina Faso)",
+   "url": "https://whc.unesco.org/document/156364",
+   "date": "2017-01",
+   "kind": "report",
+   "licence": "© UNESCO World Heritage Centre (République du Bénin, Burkina Faso) — cited for reference (facts and short quotes)"
+  },
+  {
+   "id": "ben-gouv-2023",
+   "title": "Lâcher de tortues marines à la plage Donaten d'Akpakpa",
+   "publisher": "Gouvernement de la République du Bénin (gouv.bj)",
+   "url": "https://www.gouv.bj/article/2115/lacher-tortues-marines-plage-donaten-akpakpa-ministre-gaston-dossouhoui-appelle-protection-especes-menacees-disparition/",
+   "date": "2023-02-04",
+   "kind": "webpage",
+   "licence": "© Gouvernement de la République du Bénin (gouv.bj) — cited for reference (facts and short quotes)",
+   "note": "States the Council of Ministers of 5 Jan 2022 decided to create the Donaten and Bouche du Roy MPAs."
+  },
+  {
+   "id": "ben-iucn-tdr-2026",
+   "title": "TDR — évaluation halieutique de l'AMP de la Bouche du Roy",
+   "publisher": "IUCN",
+   "url": "https://iucn.org/sites/default/files/2026-05/tdr-evaluation-halieutique-amp-br.pdf",
+   "date": "2026",
+   "kind": "report",
+   "licence": "© IUCN — cited for reference (facts and short quotes)",
+   "note": "Cites Décret n°2022-003 du 05 janvier 2022."
+  },
+  {
+   "id": "ben-decree-2011-394",
+   "title": "Décret n° 2011-394 du 28 mai 2011 fixant les modalités de conservation, de développement et de gestion durable de la faune et de ses habitats",
+   "publisher": "République du Bénin (text via FAO FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/Ben224997.pdf",
+   "date": "2011-05-28",
+   "kind": "report",
+   "licence": "© République du Bénin (text via FAO FAOLEX) — cited for reference (facts and short quotes)",
+   "note": "Lists the PA categories: parcs nationaux, aires marines protégées, réserves de faune, réserves spéciales ou sanctuaires, zones cynégétiques."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parc National de la Pendjari",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": {
+    "lon": 1.5292,
+    "lat": 11.2389,
+    "sourceId": "ben-whc-wap-2016"
+   },
+   "wikidataQid": "Q1474363",
+   "marine": false,
+   "sourceIds": [
+    "ben-nbsap",
+    "ben-whc-wap-2016",
+    "ben-6nr"
+   ],
+   "notes": "Atacora. Part of the W-Arly-Pendjari World Heritage complex and Pendjari Biosphere Reserve; managed under delegation (6NR). Coordinates = central point given in the WHC nomination. Area/legal act not documented in sources seen (NBSAP gives 869,867 ha for the two national parks combined)."
+  },
+  {
+   "name": "Parc National du W (Bénin)",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": {
+    "lon": 2.6544,
+    "lat": 11.8842,
+    "sourceId": "ben-whc-wap-2016"
+   },
+   "wikidataQid": "Q64188731",
+   "marine": false,
+   "sourceIds": [
+    "ben-nbsap",
+    "ben-whc-wap-2016"
+   ],
+   "notes": "Alibori/Atacora. Part of the W-Arly-Pendjari World Heritage complex. Coordinates = central point in the WHC nomination."
+  },
+  {
+   "name": "Zone cynégétique de la Pendjari",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Zone cynégétique",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "ben-whc-wap-2016",
+    "ben-nbsap"
+   ],
+   "notes": "Hunting zone south of Pendjari NP. The WHC nomination names the hunting areas of Konkombri and Mékrou as part of the Pendjari/Atacora hunting zones; the 2017 WHC supplement says the Konkombri and Mékrou hunting zones have the same protection status as national parks except for sport hunting."
+  },
+  {
+   "name": "Zone cynégétique de l'Atacora",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Zone cynégétique",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "ben-whc-wap-2016",
+    "ben-nbsap",
+    "ben-whc-wap-2017"
+   ],
+   "notes": "Hunting zone between Pendjari and W national parks (see Pendjari ZC note on Konkombri/Mékrou)."
+  },
+  {
+   "name": "Zone cynégétique de la Djona",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Zone cynégétique",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q118164192",
+   "marine": false,
+   "sourceIds": [
+    "ben-whc-wap-2016",
+    "ben-nbsap"
+   ],
+   "notes": "East of W National Park (WHC nomination)."
+  },
+  {
+   "name": "Aire Marine Protégée de la Bouche du Roy",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Décret n° 2022-003 du 05 janvier 2022 (as cited by IUCN); creation decided by the Council of Ministers on 5 Jan 2022.",
+    "sourceIds": [
+     "ben-iucn-tdr-2026",
+     "ben-gouv-2023"
+    ]
+   },
+   "established": "2022",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "ben-iucn-tdr-2026",
+    "ben-gouv-2023"
+   ],
+   "notes": "Mouth of the Mono river, between Grand-Popo, Ouidah and Abomey-Calavi; lies within Ramsar site 1017. Bounded by 6°15'15''-6°24'40''N and 1°52'20''-2°1'3''E (IUCN)."
+  },
+  {
+   "name": "Aire Marine Protégée de Donaten",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Creation decided by the Council of Ministers on 5 January 2022 (IUCN cites Décret n° 2022-003 for the two MPAs).",
+    "sourceIds": [
+     "ben-gouv-2023",
+     "ben-iucn-tdr-2026"
+    ]
+   },
+   "established": "2022",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "ben-gouv-2023",
+    "ben-iucn-tdr-2026"
+   ],
+   "notes": "Cotonou (Akpakpa beach)."
+  },
+  {
+   "name": "Aire Communautaire de Conservation de la Biodiversité de Togbin-Adounko",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Aire Communautaire de Conservation de la Biodiversité (ACCB)",
+   "legalStatus": {
+    "text": "Arrêté communal n°21/050/C-AC/SG/DST/SEE/SAC du 05 juin 2012.",
+    "sourceIds": [
+     "ben-6nr"
+    ]
+   },
+   "established": "2012",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "ben-6nr"
+   ],
+   "notes": "Spelled 'TogbinAdounko' in the 6NR."
+  },
+  {
+   "name": "Aire Communautaire de Conservation de la Biodiversité de Vodounto",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Aire Communautaire de Conservation de la Biodiversité (ACCB)",
+   "legalStatus": {
+    "text": "Arrêté communal n°05/072/CO/SG/SAG du 09 novembre 2011.",
+    "sourceIds": [
+     "ben-6nr"
+    ]
+   },
+   "established": "2011",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "ben-6nr"
+   ],
+   "notes": null
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "forêts classées",
+   "approxCount": 56,
+   "reason": "No official list found; counts conflict (46 in NBSAP/DGFRN 2013, 56 in 6NR).",
+   "sourceIds": [
+    "ben-nbsap",
+    "ben-6nr"
+   ]
+  },
+  {
+   "category": "périmètres de reboisement",
+   "approxCount": 6,
+   "reason": "Plantations; names not given.",
+   "sourceIds": [
+    "ben-nbsap"
+   ]
+  },
+  {
+   "category": "forêts sacrées",
+   "approxCount": 2940,
+   "reason": "About 2,940 sacred forests (18,360 ha); no list.",
+   "sourceIds": [
+    "ben-nbsap"
+   ]
+  },
+  {
+   "category": "other community conservation areas",
+   "approxCount": null,
+   "reason": "Only two ACCB arrêtés were found (6NR); others (e.g. Dèmè-Lokoli-Koussoukpa community reserve mentioned in NBSAP) lack documented legal status.",
+   "sourceIds": [
+    "ben-6nr",
+    "ben-nbsap"
+   ]
+  }
+ ],
+ "gaps": [
+  "Only three of the four zones cynégétiques could be named (Pendjari, Atacora, Djona); the relationship of the Konkombri and Mékrou hunting areas to them is ambiguous in UNESCO documents.",
+  "Creation acts, years and individual areas of Pendjari NP, W NP and the hunting zones were not documented in sources seen.",
+  "The text of Décret n° 2022-003 (MPAs) was not seen; areas of the two MPAs unknown.",
+  "Benin's 'réserves de faune' and 'sanctuaires' categories (Décret 2011-394) had no named examples in sources seen."
+ ]
+}

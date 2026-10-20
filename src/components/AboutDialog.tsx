@@ -50,11 +50,13 @@ export function AboutDialog({
           <p className="mt-3 text-sm leading-relaxed text-ink-muted">
             This is a discussion prototype exploring a potential collaboration. It is not an
             existing joint product or an agreed partnership. No figure, boundary or species record
-            is shown unless a cited source supports it. Outside Guinea-Bissau, the catalogue is a
-            researched selection of marine and coastal sites across the 13 WASOP countries, mostly
-            Ramsar sites. It is not an exhaustive official inventory. In each of those 12 countries one
-            area has researched challenges, potential activities and organisations; the other sites
-            are location and designation records only.
+            is shown unless a cited source supports it. The catalogue covers the 13 WASOP countries
+            and 9 additional African countries. It is a partial, source-checked inventory of
+            protected areas: nationally designated areas from national authorities and legal texts,
+            Ramsar sites, World Heritage properties and biosphere reserves. No country's inventory has
+            been verified as complete; each country card states this, and the coverage report lists
+            the gaps. Conservation challenges, potential activities and organisations have been
+            researched for Guinea-Bissau and for one area in each other WASOP country only.
           </p>
 
           <h3 className="mt-6 mb-3 font-display text-[13px] font-semibold uppercase tracking-wider text-ink-muted">

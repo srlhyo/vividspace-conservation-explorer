@@ -1,9 +1,4 @@
-import type {
-  EvidenceLevel,
-  OrganisationType,
-  TerritoryKind,
-  VerificationStatus,
-} from '../domain/types'
+import type { EvidenceLevel, OrganisationType, ProtectionCategory, TerritoryKind, VerificationStatus } from '../domain/types'
 
 export const evidenceMeta: Record<
   EvidenceLevel,
@@ -62,6 +57,19 @@ export function kindBreakdown(items: { kind: TerritoryKind; count: number }[]): 
 
 export const kindBreakdownHint =
   'Record types used in this catalogue. Official designations (Ramsar site, national park, …) are shown on each area and in the Designation filter.'
+
+export const protectionCategoryLabel: Record<ProtectionCategory, string> = {
+  'national-park': 'National park',
+  'nature-reserve': 'Nature reserve',
+  'marine-protected-area': 'Marine protected area',
+  'wildlife-reserve': 'Wildlife or game reserve',
+  'forest-reserve': 'Forest reserve',
+  'community-conservation-area': 'Community conservation area',
+  'other-protected-area': 'Other protected area',
+  'international-designation': 'International designation only',
+  proposed: 'Proposed — not legally designated',
+  context: 'Landscape or region (context, not a protected area)',
+}
 
 export const verificationMeta: Record<VerificationStatus, { label: string; tone: string }> = {
   verified: { label: 'Verified', tone: 'bg-forest-soft text-forest ring-forest/30' },

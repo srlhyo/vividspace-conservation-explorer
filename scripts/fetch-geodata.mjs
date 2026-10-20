@@ -1,7 +1,8 @@
 // Downloads the boundaries used by the explorer and writes them to public/data/geo.
 // URLs are pinned to release tags/commits so the output is reproducible. Run with: npm run data:geo
 //
-// - WASOP country outlines: Natural Earth 1:50m admin-0 countries, v5.1.2 — public domain.
+// - Country outlines (the 13 WASOP countries and 9 additional African countries): Natural Earth
+//   1:50m admin-0 countries, v5.1.2 — public domain.
 // - Guinea-Bissau regions: geoBoundaries gbOpen ADM1 (Runfola et al. 2020), derived from
 //   OpenStreetMap — ODbL 1.0, © OpenStreetMap contributors.
 import { mkdir, writeFile } from 'node:fs/promises'
@@ -14,6 +15,9 @@ const GEOBOUNDARIES_ADM1 =
 
 /** The 13 West Africa Sustainable Ocean Programme (WASOP) countries, ISO 3166-1 alpha-3. */
 const WASOP = ['BEN', 'CPV', 'CIV', 'GMB', 'GHA', 'GIN', 'GNB', 'LBR', 'MRT', 'NGA', 'SEN', 'SLE', 'TGO']
+/** Additional African countries catalogued for the webinar. */
+const ADDITIONAL = ['AGO', 'BWA', 'EGY', 'GAB', 'MOZ', 'NAM', 'STP', 'TZA', 'UGA']
+const CODES = [...WASOP, ...ADDITIONAL]
 
 const round = (coords) =>
   typeof coords[0] === 'number'
@@ -30,22 +34,22 @@ await mkdir(OUT_DIR, { recursive: true })
 
 const ne = await download(NATURAL_EARTH)
 const countries = ne.features
-  .filter((f) => WASOP.includes(f.properties.ADM0_A3))
+  .filter((f) => CODES.includes(f.properties.ADM0_A3))
   .map((f) => ({
     type: 'Feature',
     properties: { code: f.properties.ADM0_A3, name: f.properties.NAME },
     geometry: { type: f.geometry.type, coordinates: round(f.geometry.coordinates) },
   }))
-if (countries.length !== WASOP.length) throw new Error(`Expected ${WASOP.length} countries, got ${countries.length}`)
+if (countries.length !== CODES.length) throw new Error(`Expected ${CODES.length} countries, got ${countries.length}`)
 await writeFile(
-  new URL('wasop-countries.geojson', OUT_DIR),
+  new URL('countries.geojson', OUT_DIR),
   JSON.stringify({
     type: 'FeatureCollection',
     metadata: { source: NATURAL_EARTH, dataset: 'Natural Earth 1:50m admin-0 countries v5.1.2', licence: 'Public domain' },
     features: countries,
   }),
 )
-console.log(`wrote wasop-countries.geojson (${countries.length} features)`)
+console.log(`wrote countries.geojson (${countries.length} features)`)
 
 const adm1 = await download(GEOBOUNDARIES_ADM1)
 await writeFile(

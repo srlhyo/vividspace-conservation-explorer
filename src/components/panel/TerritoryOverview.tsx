@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { unlinkedOpportunities, type TerritoryProfile } from '../../domain/catalogue'
 import { EvidenceBadge } from '../EvidenceBadge'
 import { GeometryGlyph } from '../GeometryGlyph'
-import { verificationMeta } from '../labels'
+import { protectionCategoryLabel, verificationMeta } from '../labels'
 import { Citations, StatementList } from '../StatementList'
 import { ChallengeItem } from './ChallengeItem'
 import { Chevron, Disclosure, LinkChip, OpportunityCards, OrganisationList, Section, SourceList } from './parts'
@@ -81,6 +81,42 @@ export function TerritoryOverview({
                 {d.name}
                 <Citations sourceIds={d.sourceIds} citations={citations} />
               </span>
+            ))}
+          </div>
+        )}
+        {territory.inventory && (
+          <div className="flex flex-col gap-1 text-[12.5px] leading-snug">
+            <p>
+              <span className="text-ink-muted">Protection status</span>{' '}
+              <span className="font-semibold text-ink">{protectionCategoryLabel[territory.inventory.category]}</span>
+              {territory.inventory.sourceDate && (
+                <span className="text-ink-muted"> · source dated {territory.inventory.sourceDate}</span>
+              )}
+            </p>
+            {territory.inventory.legalStatus ? (
+              <p className="text-ink">
+                <span className="mr-1.5 align-middle">
+                  <EvidenceBadge level={territory.inventory.legalStatus.evidence} />
+                </span>
+                {territory.inventory.legalStatus.text}
+                <Citations sourceIds={territory.inventory.legalStatus.sourceIds} citations={citations} />
+              </p>
+            ) : (
+              !['context', 'international-designation'].includes(territory.inventory.category) && (
+                <p className="italic text-ink-muted">Legal basis not documented in the sources reviewed.</p>
+              )
+            )}
+          </div>
+        )}
+        {profile.overlaps.length > 0 && (
+          <div className="flex flex-wrap items-center gap-1.5 text-[12px]">
+            <span className="text-ink-muted" title="Catalogued separately because the designations cover different extents.">
+              Overlaps with
+            </span>
+            {profile.overlaps.map((t) => (
+              <LinkChip key={t.id} onClick={() => onSelectTerritory(t.id)}>
+                {t.shortName ?? t.name}
+              </LinkChip>
             ))}
           </div>
         )}

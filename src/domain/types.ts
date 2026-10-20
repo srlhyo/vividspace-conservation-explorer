@@ -33,10 +33,41 @@ export interface Statement {
   sourceIds: string[]
 }
 
+/** 'wasop': the 13 West Africa Sustainable Ocean Programme countries; 'additional': other African countries. */
+export type CountryGroup = 'wasop' | 'additional'
+
+/**
+ * How completely the catalogue covers a country's protected areas.
+ * - partial: some areas are catalogued, but coverage of the official inventory is not established.
+ * - exhaustive: every area in the best available official inventory has been checked and catalogued.
+ */
+export type InventoryCompleteness = 'partial' | 'exhaustive'
+
+/** A total stated by an official or authoritative source, to compare the catalogue against. */
+export interface OfficialCount {
+  category: string
+  count: number
+  /** As-of date or year given by the source, if any. */
+  asOf?: string
+  sourceId: string
+}
+
+export interface CountryInventory {
+  status: InventoryCompleteness
+  /** The best available official inventory and how the catalogue compares with it. */
+  summary: string
+  sourceIds: string[]
+  officialCounts: OfficialCount[]
+  /** What is missing, duplicated or unverified, and why (unavailable source, licensing, no coordinates). */
+  gaps: string[]
+}
+
 export interface Country {
   /** ISO 3166-1 alpha-3 code. */
   code: string
   name: string
+  group: CountryGroup
+  inventory?: CountryInventory
 }
 
 export type TerritoryKind =
@@ -74,6 +105,34 @@ export interface DesignationType {
   description: string
 }
 
+/**
+ * What kind of protection an area has, as documented. International designations (Ramsar, World
+ * Heritage, biosphere reserve) are recorded on the area they coincide with; a record whose only
+ * documented status is international is 'international-designation'.
+ */
+export type ProtectionCategory =
+  | 'national-park'
+  | 'nature-reserve'
+  | 'marine-protected-area'
+  | 'wildlife-reserve'
+  | 'forest-reserve'
+  | 'community-conservation-area'
+  | 'other-protected-area'
+  | 'international-designation'
+  | 'proposed'
+  | 'context'
+
+/** Protected-area inventory metadata for a territory. */
+export interface TerritoryInventory {
+  category: ProtectionCategory
+  /** Documented legal basis (e.g. a decree), or null when the sources reviewed do not document it. */
+  legalStatus: Statement | null
+  /** Date of the record's main source or listing (e.g. designation date or list date), as written. */
+  sourceDate?: string
+  /** Other catalogued areas that overlap this one, so the same ground is not counted twice. */
+  overlaps?: string[]
+}
+
 export interface Territory {
   id: string
   name: string
@@ -103,6 +162,7 @@ export interface Territory {
     note: string
     reviewed: string
   }
+  inventory?: TerritoryInventory
 }
 
 export interface Ecosystem {

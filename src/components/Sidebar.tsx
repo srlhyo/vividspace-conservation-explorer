@@ -11,7 +11,7 @@ import {
   type FilterOption,
   type TerritoryFilters,
 } from '../domain/catalogue'
-import type { Catalogue, Country, EvidenceLevel, Territory } from '../domain/types'
+import type { Catalogue, Country, CountryGroup, EvidenceLevel, Territory } from '../domain/types'
 import { EvidenceBadge } from './EvidenceBadge'
 import { GeometryGlyph } from './GeometryGlyph'
 import { kindBreakdown, kindBreakdownHint, territoryKindLabel } from './labels'
@@ -36,6 +36,11 @@ const groups: { key: FilterKey; title: string }[] = [
   { key: 'designations', title: 'Designation' },
   { key: 'ecosystems', title: 'Ecosystem type' },
   { key: 'themes', title: 'Conservation theme' },
+]
+
+const countryGroups: { key: CountryGroup; title: string }[] = [
+  { key: 'wasop', title: 'WASOP countries' },
+  { key: 'additional', title: 'Additional African countries' },
 ]
 
 const journey = [
@@ -210,8 +215,8 @@ function CountryTree({
         Countries & catalogued areas
       </h2>
       <p className="mt-1 px-2 text-[11.5px] leading-snug text-ink-muted">
-        {catalogue.countries.length} WASOP countries · {catalogue.territories.length} catalogued areas. A researched
-        selection of marine and coastal sites, not a complete inventory of protected areas.
+        {catalogue.countries.length} countries · {catalogue.territories.length} catalogued areas. A partial,
+        source-checked inventory of protected areas, not yet complete for any country.
       </p>
       {selectedCountry && (
         <button
@@ -223,70 +228,81 @@ function CountryTree({
           Show the whole region
         </button>
       )}
-      <ul className="mt-2 flex flex-col gap-0.5">
-        {catalogue.countries.map((country) => {
-          const own = catalogue.territories.filter((t) => t.countryCode === country.code)
-          const shown = own.filter((t) => matching.has(t.id))
-          const open = expanded.has(country.code)
-          const isSelected = country.code === selectedCountry?.code
-          const noMatch = filtering && shown.length === 0
-          const listId = `country-areas-${country.code}`
-          return (
-            <li key={country.code}>
-              <div
-                className={[
-                  'flex items-center rounded-md transition-colors',
-                  isSelected ? 'bg-gold-soft ring-1 ring-gold' : 'hover:bg-cream',
-                ].join(' ')}
-              >
-                <button
-                  type="button"
-                  aria-expanded={open}
-                  aria-controls={listId}
-                  aria-label={`${open ? 'Hide' : 'Show'} catalogued areas in ${country.name}`}
-                  title={`${open ? 'Hide' : 'Show'} catalogued areas`}
-                  onClick={() => toggleExpanded(country.code)}
-                  className="grid size-7 shrink-0 place-items-center rounded-md text-ink-muted hover:bg-forest-soft hover:text-forest"
-                >
-                  <Chevron direction={open ? 'down' : 'right'} />
-                </button>
-                <button
-                  type="button"
-                  aria-pressed={isSelected}
-                  onClick={() => (isSelected ? onFocusCountry(country.code) : onSelectCountry(country.code))}
-                  title={isSelected ? `${country.name} is selected — show it on the map` : `Select ${country.name} and show it on the map`}
-                  className={[
-                    'flex min-w-0 flex-1 items-center gap-1.5 rounded-md py-1.5 pr-2 pl-0.5 text-left text-[13px]',
-                    isSelected ? 'font-semibold' : '',
-                    noMatch ? 'text-ink-muted' : 'text-ink',
-                  ].join(' ')}
-                >
-                  <span className="min-w-0 flex-1">{country.name}</span>
-                  <span
-                    className={[
-                      'shrink-0 text-[12px]',
-                      filtering && shown.length > 0 ? 'rounded-full bg-forest-soft px-1.5 font-semibold text-forest' : 'text-ink-muted',
-                    ].join(' ')}
-                  >
-                    {own.length === 0 ? 'no areas yet' : filtering ? `${shown.length} of ${own.length}` : own.length}
-                  </span>
-                </button>
-              </div>
-              {open && (
-                <div id={listId}>
-                  <CountryAreas
-                    catalogue={catalogue}
-                    own={own}
-                    shown={shown}
-                    selectedId={selectedId}
-                    onSelect={onSelect}
-                  />
-                </div>
-              )}
-            </li>
-          )
-        })}
-      </ul>
+      {countryGroups.map((group) => {
+        const members = catalogue.countries.filter((c) => c.group === group.key)
+        if (members.length === 0) return null
+        return (
+          <section key={group.key} aria-label={group.title}>
+            <h3 className="mt-3 px-2 text-[11px] font-semibold uppercase tracking-wide text-ink-muted">
+              {group.title} <span className="font-normal normal-case tracking-normal">({members.length})</span>
+            </h3>
+            <ul className="mt-1 flex flex-col gap-0.5">
+              {members.map((country) => {
+                const own = catalogue.territories.filter((t) => t.countryCode === country.code)
+                const shown = own.filter((t) => matching.has(t.id))
+                const open = expanded.has(country.code)
+                const isSelected = country.code === selectedCountry?.code
+                const noMatch = filtering && shown.length === 0
+                const listId = `country-areas-${country.code}`
+                return (
+                  <li key={country.code}>
+                    <div
+                      className={[
+                        'flex items-center rounded-md transition-colors',
+                        isSelected ? 'bg-gold-soft ring-1 ring-gold' : 'hover:bg-cream',
+                      ].join(' ')}
+                    >
+                      <button
+                        type="button"
+                        aria-expanded={open}
+                        aria-controls={listId}
+                        aria-label={`${open ? 'Hide' : 'Show'} catalogued areas in ${country.name}`}
+                        title={`${open ? 'Hide' : 'Show'} catalogued areas`}
+                        onClick={() => toggleExpanded(country.code)}
+                        className="grid size-7 shrink-0 place-items-center rounded-md text-ink-muted hover:bg-forest-soft hover:text-forest"
+                      >
+                        <Chevron direction={open ? 'down' : 'right'} />
+                      </button>
+                      <button
+                        type="button"
+                        aria-pressed={isSelected}
+                        onClick={() => (isSelected ? onFocusCountry(country.code) : onSelectCountry(country.code))}
+                        title={isSelected ? `${country.name} is selected — show it on the map` : `Select ${country.name} and show it on the map`}
+                        className={[
+                          'flex min-w-0 flex-1 items-center gap-1.5 rounded-md py-1.5 pr-2 pl-0.5 text-left text-[13px]',
+                          isSelected ? 'font-semibold' : '',
+                          noMatch ? 'text-ink-muted' : 'text-ink',
+                        ].join(' ')}
+                      >
+                        <span className="min-w-0 flex-1">{country.name}</span>
+                        <span
+                          className={[
+                            'shrink-0 text-[12px]',
+                            filtering && shown.length > 0 ? 'rounded-full bg-forest-soft px-1.5 font-semibold text-forest' : 'text-ink-muted',
+                          ].join(' ')}
+                        >
+                          {own.length === 0 ? 'no areas yet' : filtering ? `${shown.length} of ${own.length}` : own.length}
+                        </span>
+                      </button>
+                    </div>
+                    {open && (
+                      <div id={listId}>
+                        <CountryAreas
+                          catalogue={catalogue}
+                          own={own}
+                          shown={shown}
+                          selectedId={selectedId}
+                          onSelect={onSelect}
+                        />
+                      </div>
+                    )}
+                  </li>
+                )
+              })}
+            </ul>
+          </section>
+        )
+      })}
     </div>
   )
 }

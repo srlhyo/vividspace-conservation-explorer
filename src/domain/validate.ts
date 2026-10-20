@@ -10,7 +10,9 @@ import type { Catalogue, Statement } from './types'
  * - every opportunity lists what must be validated;
  * - an opportunity only responds to challenges documented in one of its territories;
  * - organisation links on an opportunity are explicit and sourced: documented initiative work
- *   must be verified, potential stakeholders must not be presented as verified.
+ *   must be verified, potential stakeholders must not be presented as verified;
+ * - a documented legal status is a verified, sourced statement; overlaps refer to other areas;
+ * - a country inventory cites its sources, and "exhaustive" is never claimed without them.
  */
 export function validateCatalogue(catalogue: Catalogue): string[] {
   const problems: string[] = []
@@ -48,6 +50,18 @@ export function validateCatalogue(catalogue: Catalogue): string[] {
     }
   }
 
+  for (const c of catalogue.countries) {
+    const where = `country ${c.code}`
+    if (c.group !== 'wasop' && c.group !== 'additional') problems.push(`${where}: unknown group "${c.group}"`)
+    if (c.inventory) {
+      c.inventory.sourceIds.forEach((id) => ref('source', id, where))
+      c.inventory.officialCounts.forEach((n) => ref('source', n.sourceId, `${where} official count`))
+      if (c.inventory.status === 'exhaustive' && c.inventory.sourceIds.length === 0) {
+        problems.push(`${where}: exhaustive inventory claimed without a source`)
+      }
+    }
+  }
+
   for (const t of catalogue.territories) {
     const where = `territory ${t.id}`
     ref('country', t.countryCode, where)
@@ -69,6 +83,17 @@ export function validateCatalogue(catalogue: Catalogue): string[] {
       d.sourceIds.forEach((id) => ref('source', id, where))
       if (d.sourceIds.length === 0) problems.push(`${where}: designation "${d.designationId}" has no source`)
     })
+    if (t.inventory) {
+      const legal = t.inventory.legalStatus
+      if (legal) {
+        statement(legal, `${where} legal status`)
+        if (legal.evidence !== 'verified') problems.push(`${where}: a legal status must be a verified statement`)
+      }
+      for (const id of t.inventory.overlaps ?? []) {
+        ref('territory', id, `${where} overlaps`)
+        if (id === t.id) problems.push(`${where}: overlaps itself`)
+      }
+    }
   }
 
   for (const c of catalogue.challenges) {

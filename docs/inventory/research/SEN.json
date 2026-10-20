@@ -1,0 +1,716 @@
+{
+ "country": "SEN",
+ "countryName": "Senegal",
+ "officialInventory": {
+  "summary": "No single consolidated, current official list was found online. Protected areas are split between the Direction des Parcs Nationaux (DPN: national parks, special/fauna reserves), the Direction des Aires Marines Communautaires Protégées (DAMCP, created by decree 2012-543: marine protected areas and coastal community reserves) and the forestry service DEFCCS (213 forêts classées, sylvopastoral reserves, hunting zones). The best official lists found are: the DPN's PoWPA document (table of 16 DPN-administered areas, c. 2011), the 2013 National MPA Strategy (14 coastal areas), Senegal's 2018 AEWA national-report annex (22 sites incl. later AMPs), and individual creation decrees (2004, 2014, 2020, 2023). Lists are dated and partial; the DPN and DAMCP websites were not used (reported hijacked/dead).",
+  "sourceIds": [
+   "sen-dpn-powpa",
+   "sen-snamps-2013",
+   "sen-aewa-2018",
+   "sen-cbd-nr6",
+   "sen-cbd-nr7"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "national parks and strict/special reserves (DPN)",
+    "count": 10,
+    "asOf": "2019",
+    "sourceId": "sen-cbd-nr6",
+    "quote": "10 parcs nationaux et réserves intégrales et spéciales qui couvrent une superficie de 1 613 790 ha"
+   },
+   {
+    "category": "forêts classées (classified forests, incl. sylvopastoral reserves and hunting zones)",
+    "count": 213,
+    "asOf": "2019",
+    "sourceId": "sen-cbd-nr6",
+    "quote": "213 forêts classées de 6 237 648 hectares de superficie totale, y compris 20 réserves sylvopastorales (1 514 000 ha) et 8 zones d’intérêt cynégétique (1 976 315 ha)"
+   },
+   {
+    "category": "coastal protected areas forming the basis of the MPA network",
+    "count": 14,
+    "asOf": "2013-12",
+    "sourceId": "sen-snamps-2013",
+    "quote": "un réseau de 14 aires protégées, toutes localisées sur la frange côtière : 04 parcs nationaux ... 05 aires marines protégées ... 03 réserves naturelles ... et 02 réserves naturelles communautaires"
+   },
+   {
+    "category": "marine protected area coverage",
+    "count": null,
+    "asOf": "2024",
+    "sourceId": "sen-cbd-nr7",
+    "quote": "La couverture des AMP est passée de 0,72 % en 2012 à environ 4,9 % en 2024."
+   },
+   {
+    "category": "total protected area surface",
+    "count": null,
+    "asOf": "2026",
+    "sourceId": "sen-cbd-nr7",
+    "quote": "La superficie totale des aires protégées est estimée à environ 7,1 millions d’hectares."
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "sen-dpn-powpa",
+   "title": "Programme de Travail des Aires Protégées du Sénégal (PoWPA) — Action Plan for implementing PoWPA and achieving Target 11: Senegal",
+   "publisher": "Ministère de l'Environnement et de la Protection de la Nature, Direction des Parcs Nationaux (via CBD Secretariat)",
+   "url": "https://www.cbd.int/doc/world/sn/sn-nbsap-powpa-fr.pdf",
+   "date": null,
+   "kind": "report",
+   "licence": "© Direction des Parcs Nationaux du Sénégal — cited for reference (facts and short quotes)",
+   "note": "Undated; its network map is credited 'DPNS, 2011'. Contains the table 'Tableau récapitulatif des aires protégées administrées par la Direction des Parcs Nationaux' with creation years and areas."
+  },
+  {
+   "id": "sen-snamps-2013",
+   "title": "Stratégie Nationale pour les Aires Marines Protégées du Sénégal (SNAMPS)",
+   "publisher": "République du Sénégal (DAMCP) — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/sen160731.pdf",
+   "date": "2013-12",
+   "kind": "report",
+   "licence": "© République du Sénégal — cited for reference (facts and short quotes)",
+   "note": "Lists the 14 coastal protected areas and has fact sheets (Annexe 4) with creation acts and areas for DAMCP sites."
+  },
+  {
+   "id": "sen-decret-2004-1408",
+   "title": "Décret portant création d'aires marines protégées (décret n° 2004-1408 du 4 novembre 2004)",
+   "publisher": "République du Sénégal — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/sen60721.pdf",
+   "date": "2004-11-04",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference",
+   "note": "The FAOLEX copy shows 'Fait à Dakar, le 04 novembre 2004'; the number 2004-1408 is given by sen-snamps-2013. Annex gives boundary coordinates and areas in km²."
+  },
+  {
+   "id": "sen-jo-7335-2020",
+   "title": "Journal Officiel de la République du Sénégal n° 7335 du 4 juillet 2020 (décrets n° 2020-1131, 2020-1132 et 2020-1133 du 27 mai 2020)",
+   "publisher": "République du Sénégal (Vie-Publique.sn)",
+   "url": "https://www.vie-publique.sn/docs/38195b35-cbda-4fe4-a919-9a3dbbf9b8b8/JO-7335-du-04-juillet-2020.pdf",
+   "date": "2020-07-04",
+   "kind": "report",
+   "licence": "Official gazette — cited for reference",
+   "note": "Also on FAOLEX as https://faolex.fao.org/docs/pdf/sen198168.pdf (partial)."
+  },
+  {
+   "id": "sen-decret-2023-337",
+   "title": "Décret n° 2023-337 du 15 février 2023 portant création de l'Aire marine protégée de Sokone (JO du 3 juin 2023)",
+   "publisher": "République du Sénégal — via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/sen221747.pdf",
+   "date": "2023-02-15",
+   "kind": "report",
+   "licence": "Official legal text — cited for reference"
+  },
+  {
+   "id": "sen-aewa-2018",
+   "title": "Tableau récapitulatif des sites d'importance national et international pour les oiseaux d'eau au Sénégal (annex to Senegal's AEWA national report)",
+   "publisher": "Government of Senegal, submitted to UNEP/AEWA Online Reporting System",
+   "url": "https://ors.unep-aewa.org/answers/2640538/documents/1552",
+   "date": "2018-07-20",
+   "kind": "report",
+   "licence": "© Government of Senegal / UNEP-AEWA — cited for reference (facts and short quotes)",
+   "note": "Word document; date taken from file metadata (created 2018-07-20). Lists 22 'aires protégées' with creation years and areas (ha), including the AMPs of Gandoul, Sangomar, Niamone Kalounayes and Kassa Balantacounda."
+  },
+  {
+   "id": "sen-cbd-nr6",
+   "title": "Senegal — Sixth National Report to the CBD",
+   "publisher": "Government of Senegal / CBD Secretariat",
+   "url": "https://chm.cbd.int/database/record?documentID=241356",
+   "date": "2019-12-05",
+   "kind": "report",
+   "licence": "© Government of Senegal — cited for reference (facts and short quotes)",
+   "note": "Text fetched from https://api.cbd.int/api/v2013/documents/58DAD993-C79B-6275-8330-99B6F44BA483"
+  },
+  {
+   "id": "sen-cbd-nr7",
+   "title": "Senegal — Seventh National Report to the CBD",
+   "publisher": "Government of Senegal / CBD Secretariat",
+   "url": "https://ort.cbd.int/database/record?documentID=288627",
+   "date": "2026-03-25",
+   "kind": "report",
+   "licence": "© Government of Senegal — cited for reference (facts and short quotes)",
+   "note": "Text fetched from https://api.cbd.int/api/v2013/documents/81525DF6-3EE7-41DA-2F4C-4EC93015B090. Mentions decree 2024-790 on AMP management."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parc National du Niokolo-Koba",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": null,
+   "established": "1954",
+   "areaKm2": 9130,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sen-dpn-powpa",
+    "sen-aewa-2018"
+   ],
+   "notes": "913 000 ha per DPN PoWPA table and AEWA 2018. PoWPA notes extension to its definitive limits in 1969. Also a UNESCO World Heritage site and biosphere reserve (per sen-aewa-2018)."
+  },
+  {
+   "name": "Parc National de Basse Casamance",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": null,
+   "established": "1970",
+   "areaKm2": 50,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-dpn-powpa",
+    "sen-aewa-2018",
+    "sen-snamps-2013"
+   ],
+   "notes": "5 000 ha (PoWPA, AEWA 2018). Listed among the 14 coastal protected areas in the 2013 MPA strategy."
+  },
+  {
+   "name": "Parc National des Oiseaux du Djoudj",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": null,
+   "established": "1971",
+   "areaKm2": 160,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "sen-dpn-powpa",
+    "sen-aewa-2018"
+   ],
+   "notes": "16 000 ha. Also World Heritage site, Ramsar site and core area of the Senegal River Delta transboundary biosphere reserve (per sen-aewa-2018)."
+  },
+  {
+   "name": "Parc National du Delta du Saloum",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": null,
+   "established": "1976",
+   "areaKm2": 760,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-dpn-powpa",
+    "sen-aewa-2018",
+    "sen-snamps-2013"
+   ],
+   "notes": "76 000 ha. Core area of the Saloum Delta Biosphere Reserve; part of a transboundary Ramsar site with Niumi (The Gambia) per sen-aewa-2018."
+  },
+  {
+   "name": "Parc National de la Langue de Barbarie",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": null,
+   "established": "1976",
+   "areaKm2": 20,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-dpn-powpa",
+    "sen-aewa-2018",
+    "sen-snamps-2013"
+   ],
+   "notes": "2 000 ha. Core area of the Senegal River Delta transboundary biosphere reserve (sen-aewa-2018)."
+  },
+  {
+   "name": "Parc National des Îles de la Madeleine",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": null,
+   "established": "1976",
+   "areaKm2": 0.45,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-dpn-powpa",
+    "sen-aewa-2018",
+    "sen-snamps-2013"
+   ],
+   "notes": "45 ha (land area as given by DPN)."
+  },
+  {
+   "name": "Réserve Ornithologique de Kalissaye",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve Ornithologique",
+   "legalStatus": null,
+   "established": "1978",
+   "areaKm2": 0.16,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-dpn-powpa",
+    "sen-aewa-2018",
+    "sen-snamps-2013"
+   ],
+   "notes": "16 ha."
+  },
+  {
+   "name": "Réserve Spéciale de Faune de Gueumbeul",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve Spéciale de Faune",
+   "legalStatus": null,
+   "established": "1983",
+   "areaKm2": 7.2,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-dpn-powpa",
+    "sen-aewa-2018",
+    "sen-snamps-2013"
+   ],
+   "notes": "720 ha. Spelled 'Guembeul' in PoWPA text. Ramsar site; core area of Senegal River Delta transboundary biosphere reserve (sen-aewa-2018)."
+  },
+  {
+   "name": "Réserve Naturelle de Popenguine",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve Naturelle",
+   "legalStatus": null,
+   "established": "1986",
+   "areaKm2": 10.09,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-dpn-powpa",
+    "sen-aewa-2018",
+    "sen-snamps-2013"
+   ],
+   "notes": "1 009 ha."
+  },
+  {
+   "name": "Réserve de Faune du Ferlo Nord",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de Faune",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 4870,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sen-dpn-powpa",
+    "sen-aewa-2018"
+   ],
+   "notes": "487 000 ha. The PoWPA table and AEWA 2018 say 'crée en 1996', but the PoWPA narrative says it was 'placée sous la tutelle de la DPN en 1996' — 1996 may be the transfer date, not the creation date; left null. Core area of the Ferlo Biosphere Reserve (sen-aewa-2018)."
+  },
+  {
+   "name": "Réserve Naturelle d'Intérêt Communautaire de la Somone",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Réserve Naturelle d'Intérêt Communautaire",
+   "legalStatus": {
+    "text": "Created by délibération N° 003/CRS of the Conseil Rural de Sindia, 19 July 1999",
+    "sourceIds": [
+     "sen-snamps-2013"
+    ]
+   },
+   "established": "1999-07-19",
+   "areaKm2": 7,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-snamps-2013",
+    "sen-dpn-powpa",
+    "sen-aewa-2018"
+   ],
+   "notes": "700 ha. Date conflict: SNAMPS and the PoWPA narrative give July 1999; the PoWPA table and AEWA 2018 give 2001. Ramsar site (sen-aewa-2018). Overlaps the AMP de Somone created in 2020."
+  },
+  {
+   "name": "Réserve Naturelle Communautaire de Palmarin",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Réserve Naturelle Communautaire",
+   "legalStatus": {
+    "text": "Created by délibération No 10/CRP of the Conseil Rural de Palmarin, 15 May 2001",
+    "sourceIds": [
+     "sen-snamps-2013"
+    ]
+   },
+   "established": "2001-05-15",
+   "areaKm2": 104.3,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-snamps-2013",
+    "sen-dpn-powpa",
+    "sen-aewa-2018"
+   ],
+   "notes": "10 430 ha per SNAMPS; 10 450 ha per PoWPA/AEWA. PoWPA table and AEWA 2018 give 2003 as creation year. Ramsar site (sen-aewa-2018)."
+  },
+  {
+   "name": "Aire Marine Protégée de Saint-Louis",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Created by décret n° 2004-1408 of 4 November 2004",
+    "sourceIds": [
+     "sen-decret-2004-1408",
+     "sen-snamps-2013"
+    ]
+   },
+   "established": "2004-11-04",
+   "areaKm2": 496,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-decret-2004-1408",
+    "sen-snamps-2013",
+    "sen-aewa-2018"
+   ],
+   "notes": "496 km² in the decree annex (49 600 ha in SNAMPS)."
+  },
+  {
+   "name": "Aire Marine Protégée de Kayar",
+   "localName": "Cayar",
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Created by décret n° 2004-1408 of 4 November 2004",
+    "sourceIds": [
+     "sen-decret-2004-1408",
+     "sen-snamps-2013"
+    ]
+   },
+   "established": "2004-11-04",
+   "areaKm2": 171,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-decret-2004-1408",
+    "sen-snamps-2013",
+    "sen-aewa-2018"
+   ],
+   "notes": "Spelled 'Kayar' in the decree and 'Cayar' in SNAMPS. 171 km² (decree annex)."
+  },
+  {
+   "name": "Aire Marine Protégée de Joal-Fadiouth",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Created by décret n° 2004-1408 of 4 November 2004",
+    "sourceIds": [
+     "sen-decret-2004-1408",
+     "sen-snamps-2013"
+    ]
+   },
+   "established": "2004-11-04",
+   "areaKm2": 174,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-decret-2004-1408",
+    "sen-snamps-2013",
+    "sen-aewa-2018"
+   ],
+   "notes": "174 km² (decree annex)."
+  },
+  {
+   "name": "Aire Marine Protégée de Bamboung",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Created by décret n° 2004-1408 of 4 November 2004 (previously a community nature reserve created in 2002)",
+    "sourceIds": [
+     "sen-decret-2004-1408",
+     "sen-dpn-powpa"
+    ]
+   },
+   "established": "2004-11-04",
+   "areaKm2": 70,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-decret-2004-1408",
+    "sen-snamps-2013",
+    "sen-aewa-2018"
+   ],
+   "notes": "70 km² (decree annex). Within the Saloum Delta Biosphere Reserve."
+  },
+  {
+   "name": "Aire Marine Protégée d'Abéné",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Created by décret n° 2004-1408 of 4 November 2004",
+    "sourceIds": [
+     "sen-decret-2004-1408",
+     "sen-snamps-2013"
+    ]
+   },
+   "established": "2004-11-04",
+   "areaKm2": 119,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-decret-2004-1408",
+    "sen-snamps-2013",
+    "sen-aewa-2018"
+   ],
+   "notes": "119 km² (decree annex; 11 900 ha in SNAMPS)."
+  },
+  {
+   "name": "Aire Marine Protégée du Gandoule",
+   "localName": "Gandoul",
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Created by décret n° 2014-416 of 31 March 2014; article 1 replaced (boundary extension to the bolongs of Félir, Ngadior and Soum) by décret n° 2020-1131 of 27 May 2020",
+    "sourceIds": [
+     "sen-jo-7335-2020"
+    ]
+   },
+   "established": "2014-03-31",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-jo-7335-2020",
+    "sen-aewa-2018"
+   ],
+   "notes": "AEWA 2018 gives 15 732 (ha), i.e. before the 2020 extension; current area not documented. Communes of Djirnda and Soum, Foundiougne."
+  },
+  {
+   "name": "Aire Marine Protégée de Sangomar",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 874.37,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-aewa-2018"
+   ],
+   "notes": "Listed as an AMP with 87 437 (ha) in Senegal's 2018 AEWA report; SNAMPS (2013) lists it as 'en cours'. Creation decree not located."
+  },
+  {
+   "name": "Aire Marine Protégée de Niamone Kalounayes",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 660.32,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-aewa-2018"
+   ],
+   "notes": "66 032 (ha) per AEWA 2018. Creation decree not located."
+  },
+  {
+   "name": "Aire Marine Protégée de Kassa Balantacounda",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 232,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-aewa-2018"
+   ],
+   "notes": "Written 'Kassa Balantacouda' in the source; 23 200 (ha). Creation decree not located."
+  },
+  {
+   "name": "Aire Marine Protégée de Somone",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Created by décret n° 2020-1132 of 27 May 2020 (JO n° 7335, 4 July 2020)",
+    "sourceIds": [
+     "sen-jo-7335-2020"
+    ]
+   },
+   "established": "2020-05-27",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-jo-7335-2020"
+   ],
+   "notes": "Communes of Somone and Sindia; lagoon and bordering mangrove plus a marine part extending 5 km from the coast. Overlaps the earlier Réserve Naturelle d'Intérêt Communautaire de la Somone."
+  },
+  {
+   "name": "Aire Marine Protégée du Kaalolaal Blouf-Fogny",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Created by décret n° 2020-1133 of 27 May 2020 (JO n° 7335, 4 July 2020)",
+    "sourceIds": [
+     "sen-jo-7335-2020"
+    ]
+   },
+   "established": "2020-05-27",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-jo-7335-2020"
+   ],
+   "notes": "Communes of Suelle, Djibidione, Diégoune, Djinacky, Kartiack, Kataba 1, Thionk-Essil, Mlomp and Diouloulou (Bignona department)."
+  },
+  {
+   "name": "Aire Marine Protégée de Gorée",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Created by décret n° 2020-1133 of 27 May 2020 (JO n° 7335, 4 July 2020)",
+    "sourceIds": [
+     "sen-jo-7335-2020"
+    ]
+   },
+   "established": "2020-05-27",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-jo-7335-2020",
+    "sen-cbd-nr7"
+   ],
+   "notes": "Maritime limits of Gorée, Dakar-Plateau, Hann Bel-Air, Thiaroye-sur-Mer, Mbao and Rufisque-Ouest, including the Hann protected fishing zone and Hann Bay."
+  },
+  {
+   "name": "Aire Marine Protégée de Sokone",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Aire Marine Protégée",
+   "legalStatus": {
+    "text": "Created by décret n° 2023-337 of 15 February 2023",
+    "sourceIds": [
+     "sen-decret-2023-337"
+    ]
+   },
+   "established": "2023-02-15",
+   "areaKm2": 214.26,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "sen-decret-2023-337"
+   ],
+   "notes": "21 426 ha (art. 2). Communes of Sokone, Diossong, Djilor and Toubacouta."
+  },
+  {
+   "name": "Réserve Naturelle Communautaire de Tocc Tocc",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Réserve Naturelle Communautaire",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 2.73,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sen-aewa-2018",
+    "sen-snamps-2013"
+   ],
+   "notes": "273 ha per AEWA 2018 ('Toc Tocc'); described there as Senegal's first community Ramsar site. Creation act not located."
+  },
+  {
+   "name": "Réserve Spéciale d'Avifaune du Ndiaël",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve Spéciale d'Avifaune",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "sen-snamps-2013"
+   ],
+   "notes": "Named in SNAMPS (2013) as 'la réserve spéciale d’avifaune du Ndiaêl (RSAN)'. No creation act, date or area verified; also a Ramsar site (handled separately)."
+  },
+  {
+   "name": "Réserve Spéciale Botanique de Noflaye",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve Spéciale Botanique",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": false,
+   "sourceIds": [
+    "sen-dpn-powpa"
+   ],
+   "notes": "Named in the DPN PoWPA document among areas managed outside the DPN system; no date or area given."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "forêts classées (classified forests) incl. réserves sylvopastorales and zones d'intérêt cynégétique",
+   "approxCount": 213,
+   "reason": "No official list found; NR6 gives counts only (213 classified forests incl. 20 sylvopastoral reserves and 8 hunting zones).",
+   "sourceIds": [
+    "sen-cbd-nr6",
+    "sen-dpn-powpa"
+   ]
+  },
+  {
+   "category": "réserves naturelles communautaires and APAC (community/indigenous conserved areas) other than those listed",
+   "approxCount": null,
+   "reason": "Mentioned in NR7 (recognition of APAC, AMCEZ, community reserves, e.g. APAC Kawawana) but no official list with legal status was found.",
+   "sourceIds": [
+    "sen-cbd-nr7"
+   ]
+  },
+  {
+   "category": "Réserve de Faune du Ferlo Sud",
+   "approxCount": 1,
+   "reason": "Not found in any fetched official source (only in Wikipedia/WDPA-derived sites), so not recorded.",
+   "sourceIds": []
+  }
+ ],
+ "gaps": [
+  "The DPN PoWPA table is undated (c. 2011) and the AEWA list is from 2018; no current consolidated official list was found, and dpn.sn / damcp.sn were not used.",
+  "Creation decrees for the AMPs of Sangomar, Niamone-Kalounayes and Kassa-Balantacounda were not located; they are recorded as AMPs on the basis of Senegal's 2018 AEWA report only.",
+  "Creation acts (decree numbers) for the national parks and DPN reserves were not verified; only creation years from DPN/AEWA tables are given.",
+  "Areas for AMP de Somone, Kaalolaal Blouf-Fogny, Gorée and the extended Gandoule are only given as coordinate polygons in the decrees, so areaKm2 is null.",
+  "NR7 (2026) reports that AMP coverage reached ~4.9% in 2024 and cites decree 2024-790 on AMP management; any AMPs created after 2023 were not identified.",
+  "Date conflicts: Somone community reserve (1999 vs 2001), Palmarin (2001 vs 2003), Ferlo Nord (1996 = creation or transfer to DPN?).",
+  "Wikidata QIDs not assigned (Wikidata API was rate-limiting during this run); coordinates left null."
+ ]
+}

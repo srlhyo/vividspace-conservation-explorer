@@ -14,7 +14,7 @@ export function Header({ onOpenAbout }: { onOpenAbout: () => void }) {
         <div className="min-w-0">
           <h1 className="truncate font-display text-lg font-medium leading-tight">{config.appName}</h1>
           <p className="truncate text-xs text-white/60">
-            West Africa · 13 WASOP countries · detailed focus on Guinea-Bissau
+            13 WASOP countries + 9 additional African countries · detailed focus on Guinea-Bissau
           </p>
         </div>
       </div>

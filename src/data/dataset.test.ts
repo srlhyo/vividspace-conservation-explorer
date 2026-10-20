@@ -41,7 +41,7 @@ const nearOutline = (g: Geometry, x: number, y: number, tol: number) =>
 
 const catalogue = read<Catalogue>('catalogue.json')
 const regions = read<BoundaryCollection>('geo/gnb-adm1.geojson')
-const countries = read<CountryCollection>('geo/wasop-countries.geojson')
+const countries = read<CountryCollection>('geo/countries.geojson')
 
 describe('public catalogue', () => {
   it('passes referential-integrity and provenance validation', () => {
@@ -61,13 +61,27 @@ describe('public catalogue', () => {
     }
   })
 
-  it('lists exactly the 13 WASOP countries, each with an outline', () => {
+  it('lists the 13 WASOP countries and the 9 additional countries, each with an outline', () => {
     const wasop = ['BEN', 'CPV', 'CIV', 'GMB', 'GHA', 'GIN', 'GNB', 'LBR', 'MRT', 'NGA', 'SEN', 'SLE', 'TGO']
-    expect(catalogue.countries.map((c) => c.code).sort()).toEqual([...wasop].sort())
-    expect(countries.features.map((f) => f.properties.code).sort()).toEqual([...wasop].sort())
+    const additional = ['AGO', 'BWA', 'EGY', 'GAB', 'MOZ', 'NAM', 'STP', 'TZA', 'UGA']
+    const codes = (group: string) => catalogue.countries.filter((c) => c.group === group).map((c) => c.code).sort()
+    expect(codes('wasop')).toEqual([...wasop].sort())
+    expect(codes('additional')).toEqual([...additional].sort())
+    expect(countries.features.map((f) => f.properties.code).sort()).toEqual([...wasop, ...additional].sort())
   })
 
-  it('represents every WASOP country with at least one catalogued area', () => {
+  it('states an inventory status for every country and never claims exhaustive coverage without a stated official count', () => {
+    for (const c of catalogue.countries) {
+      expect(c.inventory, c.code).toBeDefined()
+      if (c.inventory?.status === 'exhaustive') expect(c.inventory.officialCounts.length, c.code).toBeGreaterThan(0)
+    }
+  })
+
+  it('records a protection category for every territory', () => {
+    for (const t of catalogue.territories) expect(t.inventory?.category, t.id).toBeDefined()
+  })
+
+  it('represents every country with at least one catalogued area', () => {
     for (const c of catalogue.countries) {
       expect(catalogue.territories.some((t) => t.countryCode === c.code), c.code).toBe(true)
     }
