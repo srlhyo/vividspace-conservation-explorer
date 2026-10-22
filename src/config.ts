@@ -4,7 +4,8 @@
 const env = import.meta.env
 
 export const config = {
-  appName: 'Conservation Opportunity Explorer',
+  appName: 'Conservation Explorer',
+  appSubtitle: 'Map of protected conservation areas in Africa',
   brand: {
     name: 'Vivid Space',
     url: 'https://vividspace.io',

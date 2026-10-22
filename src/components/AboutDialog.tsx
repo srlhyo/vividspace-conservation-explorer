@@ -14,6 +14,7 @@ export function AboutDialog({
   onClose: () => void
 }) {
   const ref = useRef<HTMLDialogElement>(null)
+  const wasop = catalogue.countries.filter((c) => c.group === 'wasop').length
 
   useEffect(() => {
     const dialog = ref.current
@@ -50,13 +51,14 @@ export function AboutDialog({
           <p className="mt-3 text-sm leading-relaxed text-ink-muted">
             This is a discussion prototype exploring a potential collaboration. It is not an
             existing joint product or an agreed partnership. No figure, boundary or species record
-            is shown unless a cited source supports it. The catalogue covers the 13 WASOP countries
-            and 9 additional African countries. It is a partial, source-checked inventory of
+            is shown unless a cited source supports it. The catalogue covers {wasop} WASOP countries
+            and {catalogue.countries.length - wasop} other African countries. It is a partial, source-checked inventory of
             protected areas: nationally designated areas from national authorities and legal texts,
             Ramsar sites, World Heritage properties and biosphere reserves. No country's inventory has
             been verified as complete; each country card states this, and the coverage report lists
             the gaps. Conservation challenges, potential activities and organisations have been
-            researched for Guinea-Bissau and for one area in each of the other 21 countries only. An
+            researched for Guinea-Bissau and for one area in each of the other {catalogue.countries.length - 1}{' '}
+            countries only. An
             area without researched challenges is not an area without challenges.
           </p>
 

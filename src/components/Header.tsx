@@ -13,9 +13,7 @@ export function Header({ onOpenAbout }: { onOpenAbout: () => void }) {
         <span className="h-6 w-px bg-white/20" aria-hidden />
         <div className="min-w-0">
           <h1 className="truncate font-display text-lg font-medium leading-tight">{config.appName}</h1>
-          <p className="truncate text-xs text-white/60">
-            13 WASOP countries + 9 additional African countries · detailed focus on Guinea-Bissau
-          </p>
+          <p className="truncate text-xs text-white/60">{config.appSubtitle}</p>
         </div>
       </div>
       <div className="flex shrink-0 items-center gap-3">

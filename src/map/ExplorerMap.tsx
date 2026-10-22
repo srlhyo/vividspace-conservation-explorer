@@ -457,7 +457,7 @@ export function ExplorerMap({
 
   const notices: string[] = []
   if (zoom !== null && zoom < config.map.coverageNoticeBelowZoom) {
-    notices.push('Conservation records cover the 22 catalogued African countries only')
+    notices.push(`Conservation records cover the ${boundaries.countries.features.length} catalogued African countries only`)
   }
 
   return (
