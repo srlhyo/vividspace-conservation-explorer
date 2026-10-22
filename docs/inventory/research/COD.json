@@ -1,0 +1,1397 @@
+{
+ "country": "COD",
+ "countryName": "Democratic Republic of the Congo",
+ "officialInventory": {
+  "summary": "The Institut Congolais pour la Conservation de la Nature (ICCN) manages nearly all protected areas (Luki and Yangambi are exceptions). It publishes counts but no list: its website (2026) states 8 national parks, 63 hunting domains and reserves, 4 botanical and 4 zoological gardens. It names the 8 parks, the Okapi faunal reserve, Lomako-Yokokala, Tumba-Lediima, the Couloir Vert, and in a 2026 news item Bili-Uere, Itombwe and Abumonbazi. Older government reports give 7 national parks and 57 or 63 reserves and hunting domains, plus 3 biosphere reserves and 117 forest reserves (NR4 2009, ICCN strategy 2012, NBSAP 2016). The 6th national report (2019) has a list, but it is copied from WDPA and was not used. This inventory comes from creation and delimitation acts on FAOLEX (many from the Journal Officiel) and UNESCO pages. An IUCN/PACO 2010 assessment of 19 sites (labelled NGO) fills gaps. Most of the 57-63 hunting domains and reserves are not enumerated.",
+  "sourceIds": [
+   "cod-iccn-ap",
+   "cod-iccn-home",
+   "cod-iccn-keystone-2026",
+   "cod-cbd-nr4",
+   "cod-nbsap-2016",
+   "cod-iccn-strategie-2012",
+   "cod-cbd-nr6",
+   "cod-iucn-papaco-2010"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "national parks",
+    "count": 8,
+    "asOf": "2026",
+    "sourceId": "cod-iccn-ap",
+    "quote": "8 parcs nationaux, 63 domaines de chasse et réserves, 4 Jardins Botaniques et 4 Jardins Zoologiques"
+   },
+   {
+    "category": "hunting domains and reserves",
+    "count": 63,
+    "asOf": "2026",
+    "sourceId": "cod-iccn-ap",
+    "quote": "63 domaines de chasse et réserves"
+   },
+   {
+    "category": "botanical and zoological gardens (ex situ)",
+    "count": 8,
+    "asOf": "2026",
+    "sourceId": "cod-iccn-ap",
+    "quote": "4 Jardins Botaniques et 4 Jardins Zoologiques"
+   },
+   {
+    "category": "protected areas (headline)",
+    "count": 60,
+    "asOf": "2026",
+    "sourceId": "cod-iccn-home",
+    "quote": "plus de 60 aires protégées"
+   },
+   {
+    "category": "national parks",
+    "count": 7,
+    "asOf": "2016",
+    "sourceId": "cod-nbsap-2016",
+    "quote": "sept parcs nationaux"
+   },
+   {
+    "category": "reserves and hunting domains",
+    "count": 57,
+    "asOf": "2016",
+    "sourceId": "cod-nbsap-2016",
+    "quote": "réserves et domaines de chasse (57), de réserves de la biosphère (3) et des réserves forestières (117)"
+   },
+   {
+    "category": "forest reserves",
+    "count": 117,
+    "asOf": "2016",
+    "sourceId": "cod-nbsap-2016",
+    "quote": "des réserves forestières (117)"
+   },
+   {
+    "category": "biosphere reserves",
+    "count": 3,
+    "asOf": "2016",
+    "sourceId": "cod-nbsap-2016",
+    "quote": "de réserves de la biosphère (3)"
+   },
+   {
+    "category": "reserves and hunting domains",
+    "count": 57,
+    "asOf": "2012",
+    "sourceId": "cod-iccn-strategie-2012",
+    "quote": "de 57 réserves et domaines de chasse"
+   },
+   {
+    "category": "reserves and hunting domains",
+    "count": 63,
+    "asOf": "2009",
+    "sourceId": "cod-cbd-nr4",
+    "quote": "7 parcs nationaux, 63 réserves et domaines de chasse, 3 réserves de la biosphère"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "cod-iccn-ap",
+   "title": "Nos Aires Protégées (Patrimoine naturel)",
+   "publisher": "Institut Congolais pour la Conservation de la Nature (ICCN)",
+   "url": "https://iccn.cd/aires-protegees/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© ICCN — cited for reference (facts and short quotes)",
+   "note": "Fetched 2026-10-22. States the network as 8 national parks, 63 hunting domains and reserves, 4 botanical and 4 zoological gardens; names the 8 national parks, the Okapi faunal reserve, Lomako-Yokokala, Tumba Lediima, the Couloir Vert and Ramsar sites. No full list of the 63 reserves/domains. English version: https://iccn.cd/en/protected-areas/."
+  },
+  {
+   "id": "cod-iccn-home",
+   "title": "ICCN — page d'accueil",
+   "publisher": "Institut Congolais pour la Conservation de la Nature (ICCN)",
+   "url": "https://iccn.cd/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© ICCN — cited for reference (facts and short quotes)",
+   "note": "Fetched 2026-10-22. Headline: 'plus de 60 aires protégées ... plus de 30% du territoire national conservé et 5 sites inscrits au patrimoine mondiale de l'UNESCO'."
+  },
+  {
+   "id": "cod-iccn-keystone-2026",
+   "title": "Conservation & climat : la RDC au cœur de l'Initiative Keystone pour la préservation de ses aires protégées prioritaires",
+   "publisher": "Institut Congolais pour la Conservation de la Nature (ICCN)",
+   "url": "https://iccn.cd/conservation-climat-la-rdc-au-coeur-de-linitiative-keystone-pour-la-preservation-de-ses-aires-protegees-prioritaires/",
+   "date": "2026-09-16",
+   "kind": "article",
+   "licence": "© ICCN — cited for reference (facts and short quotes)",
+   "note": "Names 13 priority sites: 8 national parks plus Réserve de faune à Okapis, Domaine de chasse de Bili-Uere, Réserve naturelle de Tumba-Lediima, Réserve naturelle d'Itombwe and Réserve d'Abumonbazi."
+  },
+  {
+   "id": "cod-iccn-couloir-vert",
+   "title": "Couloir Vert (Nos projets)",
+   "publisher": "Institut Congolais pour la Conservation de la Nature (ICCN)",
+   "url": "https://iccn.cd/couloir-vert/",
+   "date": "2026-05-03 (page modified)",
+   "kind": "webpage",
+   "licence": "© ICCN — cited for reference (facts and short quotes)",
+   "note": "Chronology cites Décret n°24/22 of 11 Dec 2024 'portant création et organisation du projet Couloir Vert Kivu-Kinshasa'; gives 544 270 km²."
+  },
+  {
+   "id": "cod-cbd-nr6",
+   "title": "Sixième rapport national de la République Démocratique du Congo à la Convention sur la Diversité Biologique",
+   "publisher": "Ministère de l'Environnement et Développement Durable (RDC), submitted to the CBD",
+   "url": "https://www.cbd.int/doc/nr/nr-06/cd-nr-06-fr.pdf",
+   "date": "2019-10-22",
+   "kind": "report",
+   "licence": "© Government of the DRC / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "Narrative facts only are used. Its IUCN-category table (Tableau 2/19) and Annexe 1 to Objectif 5 ('Liste des aires protégées (WDPA 2019)') are copied from Protected Planet/WDPA and were NOT used."
+  },
+  {
+   "id": "cod-cbd-nr4",
+   "title": "Quatrième rapport national sur la mise en œuvre de la Convention sur la Diversité Biologique (RDC)",
+   "publisher": "Ministère de l'Environnement, Conservation de la Nature et Tourisme (RDC), submitted to the CBD",
+   "url": "https://www.cbd.int/doc/world/cd/cd-nr-04-fr.pdf",
+   "date": "2009",
+   "kind": "report",
+   "licence": "© Government of the DRC / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "States the network as 7 national parks, 63 reserves and hunting domains, 3 biosphere reserves, 3 zoos and 3 botanical gardens; elsewhere ±57 hunting reserves and 117 forest reserves."
+  },
+  {
+   "id": "cod-nbsap-2016",
+   "title": "Stratégie et Plan d'Action Nationaux de la Biodiversité 2016-2020 (RDC)",
+   "publisher": "Ministère de l'Environnement, Conservation de la Nature et Développement Durable (RDC), submitted to the CBD",
+   "url": "https://www.cbd.int/doc/world/cd/cd-nbsap-v3-fr.pdf",
+   "date": "2016",
+   "kind": "report",
+   "licence": "© Government of the DRC / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "States 7 national parks, 57 reserves and hunting domains, 3 biosphere reserves, 117 forest reserves, 3 zoos and 3 botanical gardens; network ~312 139 km² (13.3%)."
+  },
+  {
+   "id": "cod-iccn-strategie-2012",
+   "title": "Stratégie nationale de conservation de la biodiversité dans les aires protégées de la RDC (septembre 2012)",
+   "publisher": "Institut Congolais pour la Conservation de la Nature (ICCN), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/Cng147230.pdf",
+   "date": "2012-09",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "ICCN strategy; states 7 national parks and 57 reserves and hunting domains; no full list."
+  },
+  {
+   "id": "cod-iccn-strategie-cc-2015",
+   "title": "Stratégie nationale de conservation communautaire dans les aires protégées de la RDC (2015-2020), version révisée 2015",
+   "publisher": "Institut Congolais pour la Conservation de la Nature (ICCN), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng240505.pdf",
+   "date": "2015",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Names the community-managed ICCN nature reserves Tayna, Kisimba-Ikobo, Kokolopori and Sankuru."
+  },
+  {
+   "id": "cod-iucn-papaco-2010",
+   "title": "Parcs et réserves de la République Démocratique du Congo : évaluation de l'efficacité de gestion des aires protégées",
+   "publisher": "UICN/PACO (Programme Aires Protégées pour l'Afrique du Centre et de l'Ouest)",
+   "url": "https://africanelephantdatabase.org/population_submission_attachments/download/427",
+   "date": "2010",
+   "kind": "report",
+   "licence": "© 2010 UICN — non-commercial reproduction permitted with citation; cited for reference (facts and short quotes)",
+   "note": "NGO/IUCN report (not an official government publication), used to fill gaps: describes 19 assessed sites with creation acts and areas, compiled from ICCN site reports and legal texts. Its location map is sourced from WDPA and was not used."
+  },
+  {
+   "id": "cod-whc-virunga",
+   "title": "Virunga National Park (World Heritage List, 63)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/63/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© UNESCO 1992-2026 — cited for reference (facts and short quotes)",
+   "note": "'The property has benefited from the status of National Park since 1925.'"
+  },
+  {
+   "id": "cod-whc-garamba",
+   "title": "Garamba National Park (World Heritage List, 136)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/136/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© UNESCO 1992-2026 — cited for reference (facts and short quotes)",
+   "note": "'Initially established by royal decree in 1938'."
+  },
+  {
+   "id": "cod-whc-kahuzi",
+   "title": "Kahuzi-Biega National Park (World Heritage List, 137)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/137/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© UNESCO 1992-2026 — cited for reference (facts and short quotes)",
+   "note": "Property 600,000 ha; extension in 1975."
+  },
+  {
+   "id": "cod-whc-salonga",
+   "title": "Salonga National Park (World Heritage List, 280)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/280/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© UNESCO 1992-2026 — cited for reference (facts and short quotes)",
+   "note": "'managed in accordance with Law 70-318 of 30 November 1970'; 'created in 1970, with an area of 3,334,600 ha'."
+  },
+  {
+   "id": "cod-whc-okapi",
+   "title": "Okapi Wildlife Reserve (World Heritage List, 718)",
+   "publisher": "UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/en/list/718/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© UNESCO 1992-2026 — cited for reference (facts and short quotes)",
+   "note": "Property 1,372,625 ha."
+  },
+  {
+   "id": "cod-whc-tent-lomami",
+   "title": "Parc National de la Lomami (Liste indicative, 6699)",
+   "publisher": "UNESCO World Heritage Centre (submitted by the DRC)",
+   "url": "https://whc.unesco.org/fr/listesindicatives/6699/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© UNESCO 1992-2026 — cited for reference (facts and short quotes)",
+   "note": "'a été créé en 2016 ainsi protégeant un bloc de 8,874 km2'; buffer zone 'délimitée dans le même décret qui a créé le parc en juillet 2016'."
+  },
+  {
+   "id": "cod-am-044-1992",
+   "title": "Arrêté ministériel 044/CM/ECN/92 du 2 mai 1992 portant création et délimitation d'une réserve dénommée 'Réserve naturelle des Mangroves' ou 'Parc marin'",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng70219.pdf",
+   "date": "1992-05-02",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Pages from the 'Recueil des textes juridiques en matière environnementale en RDC'. LEAP record: https://leap.unep.org/en/countries/cd/national-legislation/arrete-ministeriel-no-044cmecn92-du-2-mai-1992-portant-creation"
+  },
+  {
+   "id": "cod-am-045-1992",
+   "title": "Arrêté ministériel 045/CM/ECN/92 du 2 mai 1992 portant création et délimitation d'une réserve naturelle dénommée 'Réserve de faune à Okapis'",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng70224.pdf",
+   "date": "1992-05-02",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Pages from the 'Recueil des textes juridiques en matière environnementale en RDC'."
+  },
+  {
+   "id": "cod-am-024-2006",
+   "title": "Arrêté ministériel n°024/CAB/MIN/ECN-EF/2006 du 28 juin 2006 portant création d'une réserve naturelle dénommée Réserve de Faune de Lomako-Yokokala « RFLY »",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng68011.pdf",
+   "date": "2006-06-28",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Journal Officiel RDC n°16, 15 août 2006."
+  },
+  {
+   "id": "cod-am-038-2006",
+   "title": "Arrêté ministériel n°038/CAB/MIN/ECN-EF/2006 du 11 octobre 2006 portant création d'une réserve naturelle dénommée Réserve Naturelle d'Itombwe « RNI »",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng74717.pdf",
+   "date": "2006-10-11",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Journal Officiel RDC n°7, 1er avril 2007."
+  },
+  {
+   "id": "cod-am-053-2006",
+   "title": "Arrêté ministériel n°053/CAB/MIN/ECN-EF/2006 du 07 décembre 2006 portant création d'une réserve naturelle dénommée Réserve Tumba-Lediima « RTL »",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng74697.pdf",
+   "date": "2006-12-07",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": null
+  },
+  {
+   "id": "cod-am-045-2007",
+   "title": "Arrêté ministériel n°045/CAB/MIN/ECN-EF/03/PDB/07 du 06 novembre 2007 portant création d'une réserve naturelle dénommée « Réserve Naturelle du Sankuru » « RNSA »",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng85726.pdf",
+   "date": "2007-11-06",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": null
+  },
+  {
+   "id": "cod-am-001-2011",
+   "title": "Arrêté ministériel n°001/CAB/MIN/ECN-T/27/JEB/10 du 8 janvier 2011 portant création d'une réserve naturelle dénommée Réserve Naturelle du Triangle de la Ngiri",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng109823.pdf",
+   "date": "2011-01-08",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": null
+  },
+  {
+   "id": "cod-am-012-2006",
+   "title": "Arrêté ministériel n°012/CAB/MIN/ECN-EF/2006 du 03 avril 2006 portant création d'une réserve naturelle dénommée Réserve naturelle de Tayna « RNT »",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng79280.pdf",
+   "date": "2006-04-03",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Journal Officiel RDC n°12, 15 juin 2007. The LEAP/FAOLEX title misspells it 'Tanya'; the text says 'Reserve naturelle de Tayna'."
+  },
+  {
+   "id": "cod-am-013-2006",
+   "title": "Arrêté ministériel n°013/CAB/MIN/ECN-EF/2006 du 03 avril 2006 portant création d'une réserve naturelle dénommée Réserve des Primates de Kisimba-Ikobo « RPKI »",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng79281.pdf",
+   "date": "2006-04-03",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Journal Officiel RDC n°12, 15 juin 2007."
+  },
+  {
+   "id": "cod-am-056-2006",
+   "title": "Arrêté ministériel n°056/CAB/MIN/ECN-EF/2006 du 08 décembre 2006 portant création du domaine et réserve de chasse de Swa-Kibula dans le territoire de Kasongo-Lunda, District du Kwango",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng74706.pdf",
+   "date": "2006-12-08",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Journal Officiel RDC n°3, 1er février 2007. Recites earlier arrêtés of 24 Dec 1951, including n°656/AGRI fixing the limits of the Swa-Chutes hunting domain (the second number is illegible in the scan)."
+  },
+  {
+   "id": "cod-a-036-2004",
+   "title": "Arrêté n°036/CAB/MIN/ECN-EF/2004 du 7 juin 2004 portant création d'un domaine de chasse dans le territoire d'Oshwe",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/Cng189381.pdf",
+   "date": "2004-06-07",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Journal Officiel RDC n°17, 1er septembre 2004."
+  },
+  {
+   "id": "cod-am-057-2006",
+   "title": "Arrêté ministériel n°057/CAB/MIN/ECN-EF/2006 du 08 décembre 2006 portant révision de l'arrêté n°036/CAB/MIN/ECN-EF/2004 portant création d'un domaine de chasse dans le territoire d'Oshwe",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng74707.pdf",
+   "date": "2006-12-08",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": null
+  },
+  {
+   "id": "cod-am-054-2006",
+   "title": "Arrêté ministériel n°054/CAB/MIN/ECN-EF/2006 du 07 décembre 2006 portant révision de l'arrêté 52/47 du 06 mai 1954 créant une réserve intégrale de chasse dans le territoire de Kipushi",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng74700.pdf",
+   "date": "2006-12-07",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Creates the 'Domaine de Chasse de Kiziba-Baluba'. Journal Officiel RDC n°3, 1er février 2007."
+  },
+  {
+   "id": "cod-am-055-2006",
+   "title": "Arrêté ministériel n°055/CAB/MIN/ECN-EF/2006 du 07 décembre 2006 portant révision de l'arrêté 52/48 du 27 mars 1957 créant une réserve totale de chasse dans le territoire de Kolwezi et de Lubudi",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng74705.pdf",
+   "date": "2006-12-07",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Creates the 'Domaine de Chasse de Basse Kando'. The LEAP title gives the 1957 arrêté date as 6 May 1954; the text says 27 March 1957."
+  },
+  {
+   "id": "cod-a-00024-1974",
+   "title": "Arrêté n°00024 du 14 février 1974 créant un domaine de chasse réservée en zone de Rutshuru",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng70228.pdf",
+   "date": "1974-02-14",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Pages from the 'Recueil des textes juridiques en matière environnementale en RDC'."
+  },
+  {
+   "id": "cod-am-002-2011",
+   "title": "Arrêté ministériel n°002/CAB/MIN/ECN-T/03/JEB/11 du 19 janvier 2011 portant désaffectation partielle et délimitation du domaine de chasse de Luama Katanga",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng109824.pdf",
+   "date": "2011-01-19",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": null
+  },
+  {
+   "id": "cod-ord-75-097",
+   "title": "Ordonnance 75-097 du 1er mars 1975 relative à la délimitation du parc national des Kundelungu et au régime applicable à son périmètre",
+   "publisher": "Présidence de la République (Zaïre), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng70162.pdf",
+   "date": "1975-03-01",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Abrogates Ordonnance 70-317 du 30 novembre 1970 portant création du parc national des Kundelungu."
+  },
+  {
+   "id": "cod-ord-75-238",
+   "title": "Ordonnance 75-238 du 22 juillet 1975 portant modification des limites du parc national du Kahuzi-Biega",
+   "publisher": "Présidence de la République (Zaïre), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng70163.pdf",
+   "date": "1975-07-22",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Abrogates Ordonnance 70-316 du 30 novembre 1970."
+  },
+  {
+   "id": "cod-ord-75-241",
+   "title": "Ordonnance 75-241 du 22 juillet 1975 relative à la délimitation du parc national de l'Upemba et au régime applicable dans son périmètre",
+   "publisher": "Présidence de la République (Zaïre), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng70164.pdf",
+   "date": "1975-07-22",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Refers to the 'décret du 15 mai 1939 portant création du parc national de l'Upemba'; park = réserve naturelle intégrale + zone annexe."
+  },
+  {
+   "id": "cod-a-tang-10-060-2016",
+   "title": "Arrêté n°10/060/CAB.GOUV/TANG/NKR/2016 du 21 décembre 2016 portant mesures provisoires de protection et de conservation de la Réserve de Faune de Kabobo dans la Province du Tanganyika",
+   "publisher": "Gouvernement provincial du Tanganyika (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/Cng174148.pdf",
+   "date": "2016-12-21",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Provincial act (Gouverneur du Tanganyika), Journal Officiel RDC n°3, 1er février 2017."
+  },
+  {
+   "id": "cod-decret-25-01-2025",
+   "title": "Décret n°25/01 du 15 janvier 2025 portant création de l'aire protégée à vocation de réserve communautaire « Couloir Vert Kivu-Kinshasa »",
+   "publisher": "Primature (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/Cng232221.pdf",
+   "date": "2025-01-15",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": null
+  },
+  {
+   "id": "cod-loi-24-020-2024",
+   "title": "Loi n°24/020 du 30 décembre 2024 modifiant et complétant la Loi n°14/003 du 11 février 2014 relative à la conservation de la nature",
+   "publisher": "Parlement / Présidence (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/Cng232220.pdf",
+   "date": "2024-12-30",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Introduces protected areas 'à vocation de réserve communautaire'; Art. 26 sets a 30% protected-area target."
+  },
+  {
+   "id": "cod-am-094-2009",
+   "title": "Arrêté ministériel n°094/CAB/MIN/ECN-T/27/JEB/09 annulant l'Arrêté ministériel n°029/CAB/MIN/ECN-T/00/JEB/08 du 11 août 2008 portant création des sanctuaires en RDC",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/cng161034.pdf",
+   "date": "2009-02-11",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "The 2008 sanctuaries were annulled; none recorded."
+  },
+  {
+   "id": "cod-a-22-2005",
+   "title": "Arrêté n°22/CAB/MIN/ECN-EF/2005 portant transfert des domaines de chasse de l'ICCN au Secrétariat Général à l'Environnement",
+   "publisher": "Ministère de l'Environnement (RDC), via FAOLEX",
+   "url": "https://faolex.fao.org/docs/pdf/Cng174522.pdf",
+   "date": "2005-04-14",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the DRC — cited for reference (facts and short quotes)",
+   "note": "Transferred the 'Réserves et Domaines de Chasse' office to the Ministry's Direction des Ressources Fauniques et Chasse (Arrêté 057/2006 later recites that hunting domains fall under ICCN)."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parc National des Virunga",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Created 21 April 1925 as Parc National Albert (royal decree, per IUCN/PACO 2010); boundaries per a 1954 ordinance (UNESCO). Creating act not fetched.",
+    "sourceIds": [
+     "cod-iucn-papaco-2010",
+     "cod-whc-virunga"
+    ]
+   },
+   "established": "1925-04-21",
+   "areaKm2": 7843.68,
+   "coordinates": null,
+   "wikidataQid": "Q223589",
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-ap",
+    "cod-whc-virunga",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Area 784,368 ha per IUCN/PACO 2010; UNESCO property 800,000 ha. Also a World Heritage site (inscribed 1979; in danger since 1994) and a Ramsar site (6th national report)."
+  },
+  {
+   "name": "Parc National de la Garamba",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Royal decree of 17 March 1938 (per IUCN/PACO 2010; UNESCO: 'established by royal decree in 1938'). Creating act not fetched.",
+    "sourceIds": [
+     "cod-iucn-papaco-2010",
+     "cod-whc-garamba"
+    ]
+   },
+   "established": "1938-03-17",
+   "areaKm2": 4900,
+   "coordinates": null,
+   "wikidataQid": "Q308893",
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-ap",
+    "cod-whc-garamba",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Area 4,900 km² per IUCN/PACO 2010 (UNESCO property 512,736 ha). Surrounded by three hunting domains, which IUCN/PACO does not name. World Heritage site (inscribed 1980; in danger since 1996)."
+  },
+  {
+   "name": "Parc National de Kahuzi-Biega",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Created by Ordonnance 70-316 du 30 novembre 1970; limits fixed by Ordonnance 75-238 du 22 juillet 1975 (which abrogates 70-316)",
+    "sourceIds": [
+     "cod-ord-75-238",
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1970-11-30",
+   "areaKm2": 6000,
+   "coordinates": null,
+   "wikidataQid": "Q457324",
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-ap",
+    "cod-ord-75-238",
+    "cod-iucn-papaco-2010",
+    "cod-whc-kahuzi"
+   ],
+   "notes": "Area 600,000 ha after the 1975 extension (IUCN/PACO 2010; UNESCO property 600,000 ha). Preceded by a 1937 integral reserve (IUCN/PACO). World Heritage site (inscribed 1980; in danger since 1997)."
+  },
+  {
+   "name": "Parc National de la Salonga",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Ordonnance(-loi) 70-318 du 30 novembre 1970 (per UNESCO and IUCN/PACO 2010). Text not fetched.",
+    "sourceIds": [
+     "cod-whc-salonga",
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1970-11-30",
+   "areaKm2": 36000,
+   "coordinates": null,
+   "wikidataQid": "Q328488",
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-ap",
+    "cod-whc-salonga",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Area 3,600,000 ha per IUCN/PACO 2010 and the UNESCO property; the UNESCO integrity statement gives 3,334,600 ha. Two blocks (North and South). World Heritage site (inscribed 1984; on the danger list 1999-2021)."
+  },
+  {
+   "name": "Parc National de l'Upemba",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Created by décret du 15 mai 1939; limits fixed by Ordonnance 75-241 du 22 juillet 1975 (réserve naturelle intégrale + zone annexe)",
+    "sourceIds": [
+     "cod-ord-75-241",
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1939-05-15",
+   "areaKm2": 17730,
+   "coordinates": null,
+   "wikidataQid": "Q263406",
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-ap",
+    "cod-ord-75-241",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Area 1,773,000 ha per IUCN/PACO 2010, which also describes a 10,000 km² integral reserve plus a zone annexe of about 3,000 km², so the figures are inconsistent. ICCN lists the Upemba lakes complex as a Ramsar site."
+  },
+  {
+   "name": "Parc National de Kundelungu",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Created by Ordonnance 70-317 du 30 novembre 1970; delimitation and regime by Ordonnance 75-097 du 1er mars 1975 (which abrogates 70-317)",
+    "sourceIds": [
+     "cod-ord-75-097",
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1970-11-30",
+   "areaKm2": 7600,
+   "coordinates": null,
+   "wikidataQid": "Q743112",
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-ap",
+    "cod-ord-75-097",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Area 760,000 ha (220,000 ha integral reserve + 540,000 ha zone annexe) per IUCN/PACO 2010. Park staff also manage the Tshangalele partial reserve."
+  },
+  {
+   "name": "Parc National de la Maiko",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Ordonnance(-loi) n°70-312 du 20 novembre 1970 (per IUCN/PACO 2010). Text not fetched.",
+    "sourceIds": [
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1970-11-20",
+   "areaKm2": 10830,
+   "coordinates": null,
+   "wikidataQid": "Q428123",
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-ap",
+    "cod-iccn-keystone-2026",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Area 1,083,000 ha per IUCN/PACO 2010; spans the former Province Orientale, Maniema and Nord-Kivu."
+  },
+  {
+   "name": "Parc National de la Lomami",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc National",
+   "legalStatus": {
+    "text": "Created by a decree of July 2016 (per the DRC's UNESCO tentative-list submission). Decree number and text not found.",
+    "sourceIds": [
+     "cod-whc-tent-lomami",
+     "cod-cbd-nr6"
+    ]
+   },
+   "established": "2016-07",
+   "areaKm2": 8879,
+   "coordinates": null,
+   "wikidataQid": "Q28223432",
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-ap",
+    "cod-cbd-nr6",
+    "cod-whc-tent-lomami"
+   ],
+   "notes": "Area 887,900 ha per the 6th national report; the tentative-list entry gives an 8,874 km² block plus a 22,000 km² buffer zone set by the same decree. ICCN calls it the newest national park."
+  },
+  {
+   "name": "Parc Marin des Mangroves",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve naturelle des Mangroves ou Parc marin",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel 044/CM/ECN/92 du 2 mai 1992 (zone A integral protection, zone B partial protection, 2 km coastal marine strip)",
+    "sourceIds": [
+     "cod-am-044-1992"
+    ]
+   },
+   "established": "1992-05-02",
+   "areaKm2": 768,
+   "coordinates": null,
+   "wikidataQid": "Q1164634",
+   "marine": true,
+   "sourceIds": [
+    "cod-am-044-1992",
+    "cod-iccn-ap",
+    "cod-iucn-papaco-2010",
+    "cod-cbd-nr6"
+   ],
+   "notes": "In Moanda, Kongo Central. The arrêté gives no area; 768 km² (20% in the Atlantic) is from IUCN/PACO 2010. The 6th national report calls it 'Parc national des mangroves', but ICCN's 2026 count of 8 national parks excludes it. A Ramsar site (ICCN; 6th national report)."
+  },
+  {
+   "name": "Réserve de Faune à Okapis",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve naturelle dénommée « Réserve de faune à okapis »",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel 045/CM/ECN/92 du 2 mai 1992",
+    "sourceIds": [
+     "cod-am-045-1992"
+    ]
+   },
+   "established": "1992-05-02",
+   "areaKm2": 13726.25,
+   "coordinates": null,
+   "wikidataQid": "Q457304",
+   "marine": null,
+   "sourceIds": [
+    "cod-am-045-1992",
+    "cod-iccn-ap",
+    "cod-iccn-keystone-2026",
+    "cod-whc-okapi",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Area 1,372,625 ha per the arrêté. In the Mambasa, Wamba and Watsa zones (Haut-Zaïre region, per the arrêté). World Heritage site (inscribed 1996; in danger since 1997)."
+  },
+  {
+   "name": "Réserve de Faune de Lomako-Yokokala",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve naturelle dénommée Réserve de Faune",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel n°024/CAB/MIN/ECN-EF/2006 du 28 juin 2006",
+    "sourceIds": [
+     "cod-am-024-2006"
+    ]
+   },
+   "established": "2006-06-28",
+   "areaKm2": 3625,
+   "coordinates": null,
+   "wikidataQid": "Q3457163",
+   "marine": null,
+   "sourceIds": [
+    "cod-am-024-2006",
+    "cod-iccn-ap",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Territoires of Befale and Bongandanga (former Equateur). Area 3,625 km² per the arrêté. Bonobo site."
+  },
+  {
+   "name": "Réserve Naturelle d'Itombwe",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel n°038/CAB/MIN/ECN-EF/2006 du 11 octobre 2006",
+    "sourceIds": [
+     "cod-am-038-2006"
+    ]
+   },
+   "established": "2006-10-11",
+   "areaKm2": 7600,
+   "coordinates": null,
+   "wikidataQid": "Q16898921",
+   "marine": null,
+   "sourceIds": [
+    "cod-am-038-2006",
+    "cod-iccn-keystone-2026",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "South Kivu (Mwenga, Fizi, Uvira, Walungu). The arrêté gives no area; 760,000 ha is from IUCN/PACO 2010. The 6th national report still lists the Itombwe mountains as an unprotected IBA/AZE, which conflicts with the 2006 arrêté."
+  },
+  {
+   "name": "Réserve Naturelle de Tumba-Lediima",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel n°053/CAB/MIN/ECN-EF/2006 du 07 décembre 2006",
+    "sourceIds": [
+     "cod-am-053-2006"
+    ]
+   },
+   "established": "2006-12-07",
+   "areaKm2": 7500,
+   "coordinates": null,
+   "wikidataQid": "Q3457111",
+   "marine": null,
+   "sourceIds": [
+    "cod-am-053-2006",
+    "cod-iccn-ap",
+    "cod-iccn-keystone-2026",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Bikoro, Lokolela and Inongo territories. Area 7,500 km² per the arrêté. Lies within the Ngiri-Tumba-Maindombe Ramsar site (named in the 6th national report)."
+  },
+  {
+   "name": "Réserve Naturelle du Sankuru",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel n°045/CAB/MIN/ECN-EF/03/PDB/07 du 06 novembre 2007",
+    "sourceIds": [
+     "cod-am-045-2007"
+    ]
+   },
+   "established": "2007-11-06",
+   "areaKm2": 30570,
+   "coordinates": null,
+   "wikidataQid": "Q3457460",
+   "marine": null,
+   "sourceIds": [
+    "cod-am-045-2007",
+    "cod-iccn-strategie-cc-2015"
+   ],
+   "notes": "Katako-Kombe and Lomela territories (Sankuru). Area 30,570 km² per the arrêté. Community-based management under contract with ICCN (2015 strategy)."
+  },
+  {
+   "name": "Réserve Naturelle du Triangle de la Ngiri",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel n°001/CAB/MIN/ECN-T/27/JEB/10 du 8 janvier 2011",
+    "sourceIds": [
+     "cod-am-001-2011"
+    ]
+   },
+   "established": "2011-01-08",
+   "areaKm2": 5500,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-am-001-2011",
+    "cod-iccn-ap"
+   ],
+   "notes": "Bomongo and Makanza territories. Area 5,500 km² per the arrêté. ICCN names 'la zone humide de Ngiri' as a Ramsar site (part of Ngiri-Tumba-Maindombe). No Wikidata item found."
+  },
+  {
+   "name": "Réserve Naturelle de Tayna",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel n°012/CAB/MIN/ECN-EF/2006 du 03 avril 2006 (revising the 2002 'Réserve des Gorilles de Tayna' agrément)",
+    "sourceIds": [
+     "cod-am-012-2006"
+    ]
+   },
+   "established": "2006-04-03",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q22469610",
+   "marine": null,
+   "sourceIds": [
+    "cod-am-012-2006",
+    "cod-iccn-strategie-cc-2015"
+   ],
+   "notes": "Lubero and Walikale territories, North Kivu. No area in the arrêté. Community-managed under contract with ICCN. The Wikidata item is labelled 'Réserve des gorilles de Tayna' (the predecessor name)."
+  },
+  {
+   "name": "Réserve des Primates de Kisimba-Ikobo",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel n°013/CAB/MIN/ECN-EF/2006 du 03 avril 2006",
+    "sourceIds": [
+     "cod-am-013-2006"
+    ]
+   },
+   "established": "2006-04-03",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q3457191",
+   "marine": null,
+   "sourceIds": [
+    "cod-am-013-2006",
+    "cod-iccn-strategie-cc-2015"
+   ],
+   "notes": "Walikale territory, North Kivu. No area in the arrêté. Community-managed under contract with ICCN (RECOPRIBA)."
+  },
+  {
+   "name": "Réserve Naturelle de Kokolopori",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q115661442",
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-strategie-cc-2015"
+   ],
+   "notes": "Named by ICCN's 2015 strategy as a community-based nature reserve under contract with ICCN. No creating act was found. The 6th national report (2019) instead lists the 'Forêts de Kokolopori' as an unprotected AZE site, so the sources conflict."
+  },
+  {
+   "name": "Réserve Communautaire des Bonobos d'Iyondji",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Réserve communautaire",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q22463877",
+   "marine": null,
+   "sourceIds": [
+    "cod-cbd-nr6"
+   ],
+   "notes": "6th national report: governance shared between ICCN and local communities, with AWF and Forests of Bonobos. It also calls the reserve a 'forêt classifiée' managed collaboratively. No creating act found; the year and area appear only in the WDPA-derived annex, which was not used."
+  },
+  {
+   "name": "Réserve Scientifique de la Luo",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve scientifique",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q15243133",
+   "marine": null,
+   "sourceIds": [
+    "cod-cbd-nr6"
+   ],
+   "notes": "6th national report: managed by the Centre de recherche en sciences naturelles (CRSN/Mabali), private-type governance. No creating act found."
+  },
+  {
+   "name": "Réserve intégrale du Mont Hoyo",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve intégrale (réserve géologique et forestière)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 60,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-iucn-papaco-2010",
+    "cod-nbsap-2016"
+   ],
+   "notes": "About 125 km north of Beni (Ituri). Area 6,000 ha per IUCN/PACO 2010; no creating act found. The NBSAP and 6th national report list Mont Hoyo as an IBA under 0% protection, which conflicts with this. No Wikidata item for the reserve."
+  },
+  {
+   "name": "Réserve naturelle intégrale de la Nsele",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle intégrale (ex 'Parc Président Mobutu')",
+   "legalStatus": {
+    "text": "Ordonnance n°83-110 du 5 mai 1983 (per IUCN/PACO 2010). Text not fetched.",
+    "sourceIds": [
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1983-05-05",
+   "areaKm2": 35.5,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Area 3,550 ha, about 60 km east of Kinshasa, next to the Nsele presidential domain (IUCN/PACO 2010). Current status unverified. The Wikidata items 'Domaine de la Nsele' and 'parc de la vallée de la N'sele' were not matched."
+  },
+  {
+   "name": "Réserve partielle de Tshangalele",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve partielle (protection des oiseaux)",
+   "legalStatus": {
+    "text": "Arrêté n°52/72 du 28/07/1955 (per IUCN/PACO 2010). Text not fetched.",
+    "sourceIds": [
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1955-07-28",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Bird reserve managed by Kundelungu National Park staff (IUCN/PACO 2010). Area not documented."
+  },
+  {
+   "name": "Réserve d'Abumonbazi",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Réserve",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-keystone-2026"
+   ],
+   "notes": "Named by ICCN (2026) among 13 priority protected areas. Type, creating act and area not found. Also spelled Abumombazi."
+  },
+  {
+   "name": "Réserve de Luki",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Réserve forestière (réserve de biosphère)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q22674929",
+   "marine": null,
+   "sourceIds": [
+    "cod-nbsap-2016",
+    "cod-cbd-nr6",
+    "cod-cbd-nr4"
+   ],
+   "notes": "The 6th national report says Luki is one of the reserves not managed by ICCN. The NBSAP calls it 'Reserve forestière de Luki' and 'réserve de la Biosphère de la Luki' (Mayumbe). Also a UNESCO biosphere reserve. No national creating act found; area not given in narrative text."
+  },
+  {
+   "name": "Réserve de Yangambi",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Réserve (réserve de biosphère)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q4537903",
+   "marine": null,
+   "sourceIds": [
+    "cod-cbd-nr6",
+    "cod-cbd-nr4"
+   ],
+   "notes": "The 6th national report names the 'Reserve de Yangambi' as a protected area not managed by ICCN. Also a UNESCO biosphere reserve. National legal status and area not documented in the fetched sources."
+  },
+  {
+   "name": "Domaine de chasse de Bili-Uere",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Arrêté ministériel n°00023 du 12/03/1974 (per IUCN/PACO 2010). Text not fetched.",
+    "sourceIds": [
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1974-03-12",
+   "areaKm2": 60000,
+   "coordinates": null,
+   "wikidataQid": "Q5289840",
+   "marine": null,
+   "sourceIds": [
+    "cod-iccn-keystone-2026",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Area 6,000,000 ha in seven blocks, blocks 1 and 2 being integral reserves (IUCN/PACO 2010). On the borders with Sudan and the Central African Republic."
+  },
+  {
+   "name": "Domaine de chasse et réserve à hippopotames de Mangai",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse et réserve",
+   "legalStatus": {
+    "text": "Arrêtés n°205/Agri du 14 juin 1940 and 414/Agri du 3 juillet 1944; transferred to ICCN by arrêté départemental n°036/DECNT/BCE/78 (per IUCN/PACO 2010). Texts not fetched.",
+    "sourceIds": [
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1940-06-14",
+   "areaKm2": 11768.75,
+   "coordinates": null,
+   "wikidataQid": "Q6748617",
+   "marine": null,
+   "sourceIds": [
+    "cod-iucn-papaco-2010",
+    "cod-cbd-nr6"
+   ],
+   "notes": "Area 1,176,875 ha (IUCN/PACO 2010): Idiofa hunting domain plus Mangai hippopotamus reserve. The 6th national report calls it 'Reserve naturelle de Mangai'."
+  },
+  {
+   "name": "Domaine et réserve de chasse de Bombo-Lumene",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse et réserve",
+   "legalStatus": {
+    "text": "Domain created 1968, reserve within it 1976 (per IUCN/PACO 2010). Acts not identified.",
+    "sourceIds": [
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 3500,
+   "coordinates": null,
+   "wikidataQid": "Q3034622",
+   "marine": null,
+   "sourceIds": [
+    "cod-iucn-papaco-2010",
+    "cod-nbsap-2016"
+   ],
+   "notes": "About 120 km from Kinshasa, Batéké plateau. Approximate area 350,000 ha (IUCN/PACO 2010)."
+  },
+  {
+   "name": "Domaine de chasse et réserve de Bushimaie",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse et réserve",
+   "legalStatus": {
+    "text": "Four blocks created by successive arrêtés in 1939, 1947 and 1959 (per IUCN/PACO 2010). Acts not identified.",
+    "sourceIds": [
+     "cod-iucn-papaco-2010"
+    ]
+   },
+   "established": "1939",
+   "areaKm2": 4870,
+   "coordinates": null,
+   "wikidataQid": "Q3034621",
+   "marine": null,
+   "sourceIds": [
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Luiza, Dibaya and Luilu territories (Kasaï). Area 487,000 ha (IUCN/PACO 2010). Wikidata has a duplicate item, Q5001514."
+  },
+  {
+   "name": "Domaine de Chasse de Basse Kando",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel n°055/CAB/MIN/ECN-EF/2006 du 07 décembre 2006, revising Arrêté 52/48 du 27 mars 1957 (réserve totale de chasse)",
+    "sourceIds": [
+     "cod-am-055-2006"
+    ]
+   },
+   "established": "2006-12-07",
+   "areaKm2": 175,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-am-055-2006",
+    "cod-iucn-papaco-2010"
+   ],
+   "notes": "Kolwezi and Lubudi territories. Area 17,500 ha per IUCN/PACO 2010; the arrêté gives none. The original reserve dates from 1957."
+  },
+  {
+   "name": "Domaine de Chasse de Kiziba-Baluba",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel n°054/CAB/MIN/ECN-EF/2006 du 07 décembre 2006, revising Arrêté 52/47 du 06 mai 1954 (réserve intégrale de chasse, Kipushi)",
+    "sourceIds": [
+     "cod-am-054-2006"
+    ]
+   },
+   "established": "2006-12-07",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-am-054-2006"
+   ],
+   "notes": "Kipushi territory. No area in the arrêté."
+  },
+  {
+   "name": "Domaine et Réserve de Chasse de Swa-Kibula",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine et réserve de chasse",
+   "legalStatus": {
+    "text": "Created by Arrêté ministériel n°056/CAB/MIN/ECN-EF/2006 du 08 décembre 2006 (recites 1951 arrêtés incl. n°656/AGRI du 24 décembre 1951, Swa-Chutes)",
+    "sourceIds": [
+     "cod-am-056-2006"
+    ]
+   },
+   "established": "2006-12-08",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-am-056-2006"
+   ],
+   "notes": "Kasongo-Lunda territory, Kwango. No area in the arrêté."
+  },
+  {
+   "name": "Domaine de chasse d'Oshwe",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse réservé",
+   "legalStatus": {
+    "text": "Created by Arrêté n°036/CAB/MIN/ECN-EF/2004 du 7 juin 2004; article 5 revised by Arrêté ministériel n°057/CAB/MIN/ECN-EF/2006 du 08 décembre 2006",
+    "sourceIds": [
+     "cod-a-036-2004",
+     "cod-am-057-2006"
+    ]
+   },
+   "established": "2004-06-07",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-a-036-2004",
+    "cod-am-057-2006"
+   ],
+   "notes": "Oshwe territory (Bandundu province at the time of the act). Customary hunting rights kept. No area given."
+  },
+  {
+   "name": "Domaine de chasse de Rutshuru",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse réservée",
+   "legalStatus": {
+    "text": "Created by Arrêté n°00024 du 14 février 1974",
+    "sourceIds": [
+     "cod-a-00024-1974"
+    ]
+   },
+   "established": "1974-02-14",
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-a-00024-1974"
+   ],
+   "notes": "Rutshuru zone, North Kivu, bounded east by the national border. Area not given. Current status not verified."
+  },
+  {
+   "name": "Domaine de chasse de Luama-Katanga",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse (also called 'réserve naturelle de la Luama Katanga' in the act)",
+   "legalStatus": {
+    "text": "Arrêté n°52/36 du 15 avril 1954 (creation, abrogated); limits redefined and 5,967.81 ha partly déclassé by Arrêté ministériel n°002/CAB/MIN/ECN-T/03/JEB/11 du 19 janvier 2011",
+    "sourceIds": [
+     "cod-am-002-2011"
+    ]
+   },
+   "established": "1954-04-15",
+   "areaKm2": 3435,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-am-002-2011"
+   ],
+   "notes": "Area 343,500 ha per the 2011 arrêté, which says an equal area is to be added elsewhere. The 1954 creating arrêté placed it in Katanga province."
+  },
+  {
+   "name": "Domaine de chasse de Lubudi-Sampwe",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-iucn-papaco-2010",
+    "cod-cbd-nr4"
+   ],
+   "notes": "Mentioned by IUCN/PACO 2010 as a hunting domain forming an ecological corridor with Upemba and Kundelungu. Also listed as a conservation-priority site in the 4th national report. Creating act and area not found."
+  },
+  {
+   "name": "Couloir Vert Kivu-Kinshasa",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Aire protégée à vocation de réserve communautaire",
+   "legalStatus": {
+    "text": "Created by Décret n°25/01 du 15 janvier 2025 under Loi 14/003 as amended by Loi 24/020 of 30 Dec 2024",
+    "sourceIds": [
+     "cod-decret-25-01-2025"
+    ]
+   },
+   "established": "2025-01-15",
+   "areaKm2": 544270,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-decret-25-01-2025",
+    "cod-loi-24-020-2024",
+    "cod-iccn-couloir-vert",
+    "cod-iccn-ap"
+   ],
+   "notes": "Area 544,270 km² per the decree; it aims to protect over 100,000 km² of primary forest. It covers the RN4 (Beni-Kisangani), the Congo River (Kisangani-Kinshasa) and territories north and south of this corridor; the decree text read does not say how it relates to existing protected areas. The decree keeps pre-existing community rights until zoning. Management may be delegated by PPP. ICCN's page also cites Décret n°24/22 of 11 Dec 2024 creating the project. No Wikidata item found."
+  },
+  {
+   "name": "Réserve de Faune de Kabobo",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Réserve de faune (provisional protection pending a definitive act)",
+   "legalStatus": {
+    "text": "Provisional protection measures by provincial Arrêté n°10/060/CAB.GOUV/TANG/NKR/2016 du 21 décembre 2016, 'en attendant la signature par le Premier ministre d'un acte définitif'",
+    "sourceIds": [
+     "cod-a-tang-10-060-2016"
+    ]
+   },
+   "established": null,
+   "areaKm2": 1500,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-a-tang-10-060-2016",
+    "cod-cbd-nr6"
+   ],
+   "notes": "Kalemie territory (Tumbwe chiefdom). The provincial act gives about 1,500 km². The 6th national report says a 'Reserve naturelle de Kabobo (147700 ha)' was classified between 2014 and 2018, citing an NGO. No definitive classification act was found."
+  },
+  {
+   "name": "Réserve de Ngandja",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve",
+   "legalStatus": null,
+   "established": "2016-06",
+   "areaKm2": 3170,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cod-cbd-nr6"
+   ],
+   "notes": "6th national report: 'la réserve de Ngandja, créée en juin 2016 (317000 ha)', citing a Rainforest Trust web page. No creating act found; status unverified."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "hunting domains and reserves (domaines et réserves de chasse) not listed above",
+   "approxCount": 63,
+   "reason": "ICCN states 63 'domaines de chasse et réserves' (57 in the 2012 strategy and NBSAP 2016) but publishes no list. The only list found (6th national report annex) is copied from WDPA. Recorded here: hunting domains and reserves whose act was fetched or that ICCN or IUCN/PACO name. Gangala-na-Bodio, Maika-Penge, Rubi-Tele, Bomu, Luama-Kivu and others appear only in WDPA-derived tables or priority lists and are not recorded.",
+   "sourceIds": [
+    "cod-iccn-ap",
+    "cod-iccn-strategie-2012",
+    "cod-nbsap-2016"
+   ]
+  },
+  {
+   "category": "forest reserves (réserves forestières)",
+   "approxCount": 117,
+   "reason": "Counted in the NBSAP 2016 and NR4 (2009), which say many colonial-era forest reserves exist only on paper. No official list found.",
+   "sourceIds": [
+    "cod-nbsap-2016",
+    "cod-cbd-nr4"
+   ]
+  },
+  {
+   "category": "botanical and zoological gardens (ex situ)",
+   "approxCount": 8,
+   "reason": "ICCN names them, but they are ex situ facilities, not in-situ protected areas: Jardins botaniques de Kinshasa, Kisantu, Eala and Gbadolite; Jardins zoologiques de Kinshasa, Lubumbashi, Kisangani and Gbadolite.",
+   "sourceIds": [
+    "cod-iccn-ap"
+   ]
+  },
+  {
+   "category": "local community forest concessions (concessions forestières des communautés locales) and other community-conserved areas",
+   "approxCount": null,
+   "reason": "The 6th national report and the 2015 ICCN strategy mention community forests and community-conserved areas, but give no list of those with protected-area status.",
+   "sourceIds": [
+    "cod-cbd-nr6",
+    "cod-iccn-strategie-cc-2015"
+   ]
+  }
+ ],
+ "gaps": [
+  "No official list of the DRC protected-area network was found. ICCN's site gives only counts and a few names, and the CBD 6th national report's lists (Tableau 2/19 and Annexe 1 to Objectif 5) are taken from Protected Planet/WDPA and were deliberately not used.",
+  "Counts disagree across sources and dates. National parks: 7 in 2009-2016, 8 since Lomami (2016) per ICCN. The Parc Marin des Mangroves is counted as a park by the 6th national report but not by ICCN. Reserves and hunting domains: 57 (2012 strategy, NBSAP 2016) or 63 (NR4 2009, ICCN 2026).",
+  "The founding acts of Virunga (1925), Garamba (1938), Salonga (Ord. 70-318), Maiko (Ord. 70-312), Lomami (decree of July 2016), Bili-Uere, Mangai, Bombo-Lumene, Bushimaie, Nsele and Tshangalele were not fetched. Their legal bases rest on UNESCO pages, the DRC's tentative-list entry and the IUCN/PACO 2010 report (NGO).",
+  "Kahuzi-Biega, Kundelungu and Upemba legal bases come from the 1975 delimitation ordinances, which cite the original 1970 ordinances and the 1939 decree. Park areas come mostly from IUCN/PACO 2010 or UNESCO; later boundary changes are not reflected.",
+  "Kokolopori, Iyondji, Luo, Abumonbazi, Luki, Yangambi, Mont Hoyo, Lubudi-Sampwe and Ngandja are recorded from mentions in official reports, ICCN or IUCN/PACO without a creating act. Kokolopori and Mont Hoyo are described elsewhere in the 6th national report as unprotected.",
+  "Kabobo is recorded as 'proposed'. The 2016 provincial arrêté gives only provisional protection pending a Prime Minister's act. The 6th national report claims a 147,700 ha 'Reserve naturelle de Kabobo' was classified, but no act was found.",
+  "The Bassin de la Lufira, which the 6th national report says was added to the protected-area network in 2017 (4,470,993 ha), appears to be the Ramsar designation. No national creating act was found, so it is left to the coordinator's Ramsar handling. The Ngiri-Tumba-Maindombe Ramsar site overlaps the Ngiri and Tumba-Lediima reserves.",
+  "The Couloir Vert Kivu-Kinshasa (2025, 544,270 km²) covers a quarter of the country. Its relationship to existing protected areas inside its perimeter is not stated in the decree text read, and its zoning was still to follow a public inquiry.",
+  "A 2008 arrêté creating 'sanctuaires' was annulled in 2009 (Arrêté 094/2009), so no sanctuaries are recorded. The Arrêté départemental of 1977 protecting the 'parc de la Révolution' concerns the Kinshasa botanical garden (ex situ) and is not recorded.",
+  "The ICCN pages fetched (2026) give no creation dates or areas. Coordinates were left null: legal texts give boundary descriptions or ranges, not point coordinates.",
+  "Wikidata QIDs were checked with wbsearchentities/wbgetentities (P17 = DR Congo, P31 park/reserve/protected area). No QID was assigned where no matching protected-area item was found: Ngiri, Basse Kando, Kiziba-Baluba, Swa-Kibula, Oshwe, Rutshuru, Luama-Katanga, Lubudi-Sampwe, Mont Hoyo reserve, Nsele, Tshangalele, Abumonbazi, Kabobo, Ngandja and Couloir Vert. The Luki and Yangambi QIDs are the biosphere-reserve items."
+ ]
+}

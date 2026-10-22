@@ -1,7 +1,7 @@
 // Downloads the boundaries used by the explorer and writes them to public/data/geo.
 // URLs are pinned to release tags/commits so the output is reproducible. Run with: npm run data:geo
 //
-// - Country outlines (the 13 WASOP countries and 9 additional African countries): Natural Earth
+// - Country outlines (the 13 WASOP countries and 12 additional African countries): Natural Earth
 //   1:50m admin-0 countries, v5.1.2 — public domain.
 // - Guinea-Bissau regions: geoBoundaries gbOpen ADM1 (Runfola et al. 2020), derived from
 //   OpenStreetMap — ODbL 1.0, © OpenStreetMap contributors.
@@ -16,7 +16,7 @@ const GEOBOUNDARIES_ADM1 =
 /** The 13 West Africa Sustainable Ocean Programme (WASOP) countries, ISO 3166-1 alpha-3. */
 const WASOP = ['BEN', 'CPV', 'CIV', 'GMB', 'GHA', 'GIN', 'GNB', 'LBR', 'MRT', 'NGA', 'SEN', 'SLE', 'TGO']
 /** Additional African countries catalogued for the webinar. */
-const ADDITIONAL = ['AGO', 'BWA', 'EGY', 'GAB', 'MOZ', 'NAM', 'STP', 'TZA', 'UGA']
+const ADDITIONAL = ['AGO', 'BWA', 'CMR', 'COD', 'COG', 'EGY', 'GAB', 'MOZ', 'NAM', 'STP', 'TZA', 'UGA']
 const CODES = [...WASOP, ...ADDITIONAL]
 
 const round = (coords) =>

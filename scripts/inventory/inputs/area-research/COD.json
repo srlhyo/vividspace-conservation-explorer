@@ -1,0 +1,586 @@
+{
+ "country": "COD",
+ "territoryId": "ramsar-787",
+ "selectionReason": "First choice kept. Virunga has very recent, area-specific and fetchable evidence: the World Heritage Committee's 2026 decision, the State Party's 2024 conservation report, and the IUCN World Heritage Outlook assessment finalised in October 2025. The Virunga Alliance's hydropower, agro-processing and reforestation work is one of the best-documented conservation-linked enterprise programmes in the region.",
+ "sources": [
+  {
+   "id": "cod-whc-decision-48com-7a51",
+   "title": "Decision 48 COM 7A.51 — Virunga National Park (Democratic Republic of the Congo)",
+   "publisher": "UNESCO World Heritage Committee",
+   "url": "https://whc.unesco.org/en/decisions/9037/",
+   "date": "2026",
+   "kind": "webpage",
+   "licence": "© UNESCO — cited for reference (facts and short quotes)",
+   "note": "Adopted at the 48th session (Busan, 2026); exact adoption date not shown on the page. The 2026 State of Conservation page (whc.unesco.org/en/soc/4995) was blocked by a bot challenge and could not be fetched. The decision itself states that the State Party has not answered several requests made since 2019."
+  },
+  {
+   "id": "cod-virunga-sp-soc-2024",
+   "title": "Rapport sur l'État de Conservation, exercice 2024 — Parc National des Virunga (PNVi)",
+   "publisher": "Democratic Republic of the Congo (State Party) / ICCN, via UNESCO World Heritage Centre",
+   "url": "https://whc.unesco.org/document/219293",
+   "date": "2025-02-14",
+   "kind": "report",
+   "licence": "© UNESCO / State Party — cited for reference (facts and short quotes)",
+   "note": "In French. Self-reported by the park authority. Covers 2024, with some figures only to September or October 2024. Date taken from the PDF metadata (last modified 14 February 2025)."
+  },
+  {
+   "id": "cod-iucn-who-2025",
+   "title": "Virunga National Park — 2025 Conservation Outlook Assessment",
+   "publisher": "IUCN World Heritage Outlook",
+   "url": "https://worldheritageoutlook.iucn.org/node/970",
+   "date": "2025-10-11",
+   "kind": "report",
+   "licence": "© IUCN — cited for reference (facts and short quotes)",
+   "note": "Finalised 11 October 2025; outlook rated 'critical'. Several passages carry over older text (for example, 2010–2019 encroachment figures) and cite secondary sources such as news reports and donor reports. Only passages based on 2023–2024 information are used here."
+  },
+  {
+   "id": "cod-mongabay-m23-poaching-2025",
+   "title": "Poaching intensifies in M23-occupied areas of Virunga National Park",
+   "publisher": "Mongabay",
+   "url": "https://news.mongabay.com/2025/04/poaching-intensifies-in-m23-occupied-areas-of-virunga-national-park/",
+   "date": "2025-04-30",
+   "kind": "webpage",
+   "licence": "© Mongabay — cited for reference (facts and short quotes)",
+   "note": "Reputable environmental news. Wildlife-loss figures are statements by park officials and an ICCN director, not survey results published in the article."
+  },
+  {
+   "id": "cod-iucnnl-lake-edward-2021",
+   "title": "Transboundary collaboration for improved safety on Lake Edward",
+   "publisher": "IUCN National Committee of the Netherlands (IUCN NL)",
+   "url": "https://www.iucn.nl/en/story/transboundary-collaboration-for-improved-safety-on-lake-edward/",
+   "date": "2021-02-24",
+   "kind": "webpage",
+   "licence": "© IUCN NL — cited for reference (facts and short quotes)",
+   "note": "Project story describing IUCN NL's own EU-funded work; the current status of that project was not found."
+  },
+  {
+   "id": "cod-virunga-alliance-page",
+   "title": "Virunga Alliance",
+   "publisher": "Virunga National Park (Virunga Foundation)",
+   "url": "https://virunga.org/alliance/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Virunga Foundation — cited for reference (facts and short quotes)",
+   "note": "Undated, self-reported, with figures of mixed age (2018–2022). Used only for how the programme is structured and governed, not for current figures."
+  },
+  {
+   "id": "cod-virunga-annual-2025",
+   "title": "Annual Report 2025",
+   "publisher": "Virunga National Park (Virunga Foundation)",
+   "url": "https://virunga.org/annual-report-2025/",
+   "date": "2025",
+   "kind": "webpage",
+   "licence": "© Virunga Foundation — cited for reference (facts and short quotes)",
+   "note": "Self-reported summary page for 2025; the full report is only available by email sign-up and was not fetched."
+  },
+  {
+   "id": "cod-virunga-energies",
+   "title": "Virunga Energies — Renewable Energy",
+   "publisher": "Virunga Energies",
+   "url": "https://energies.virunga.org/en/",
+   "date": "2025",
+   "kind": "webpage",
+   "licence": "© Virunga Energies — cited for reference (facts and short quotes)",
+   "note": "Company website; self-reported capacity and customer figures ('by the end of 2025')."
+  },
+  {
+   "id": "cod-virunga-agriculture-page",
+   "title": "Sustainable Agriculture",
+   "publisher": "Virunga National Park (Virunga Foundation)",
+   "url": "https://virunga.org/sustainable-agriculture/",
+   "date": null,
+   "kind": "webpage",
+   "licence": "© Virunga Foundation — cited for reference (facts and short quotes)",
+   "note": "Undated and self-reported."
+  }
+ ],
+ "overview": [
+  {
+   "text": "Virunga National Park covers about 790,000 ha in eastern DRC. It has been a World Heritage site since 1979 and on the List of World Heritage in Danger since 1994. The World Heritage Committee kept it on that list again in 2026.",
+   "evidence": "verified",
+   "sourceIds": [
+    "unesco-whc-63",
+    "cod-iucn-who-2025",
+    "cod-whc-decision-48com-7a51"
+   ]
+  },
+  {
+   "text": "The park is run under a public-private partnership between the Congolese Institute for Nature Conservation (ICCN) and the Virunga Foundation, a UK-registered conservation charity. The park says the partnership was first signed in 2015 and was extended in 2025 to run until 2050.",
+   "evidence": "verified",
+   "sourceIds": [
+    "cod-virunga-alliance-page",
+    "cod-virunga-annual-2025"
+   ]
+  },
+  {
+   "text": "IUCN's 2025 assessment rates the park's conservation outlook as 'critical'. It judges that management is unlikely to be able to protect the whole park until the conflict with the M23 rebels is resolved.",
+   "evidence": "verified",
+   "sourceIds": [
+    "cod-iucn-who-2025"
+   ]
+  }
+ ],
+ "livelihoods": [
+  {
+   "text": "The park authority lists five legal fisheries on Lake Edward inside the park: Lunyasenge, Kisaka, Kyavinyonge, Nyakakoma and Vitshumbi. IUCN NL reported in 2021 that an agreement between ICCN and the local fishing cooperative allows the cooperative's members to fish in the lake.",
+   "evidence": "verified",
+   "sourceIds": [
+    "cod-virunga-sp-soc-2024",
+    "cod-iucnnl-lake-edward-2021"
+   ]
+  },
+  {
+   "text": "Around the park, the Virunga Alliance supports wheat growing in Lubero, cocoa (498 farmers trained in 2024 on cooperatives and traceability) and market gardening. In 2025 it reported finishing three agro-processing units, including the Virunga Origins refinery and a chocolate factory.",
+   "evidence": "verified",
+   "sourceIds": [
+    "cod-virunga-sp-soc-2024",
+    "cod-virunga-annual-2025"
+   ]
+  },
+  {
+   "text": "Tourism has shrunk to a single site. IUCN's 2025 assessment reports that in 2024 the Virunga Foundation declared US$106,114 in tourism revenue, all from Tchegera Island, because all other tourism in the park was suspended for security reasons.",
+   "evidence": "verified",
+   "sourceIds": [
+    "cod-iucn-who-2025"
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "id": "cod-virunga-armed-conflict",
+   "title": "Armed conflict and loss of management access",
+   "themeIds": [
+    "governance",
+    "species"
+   ],
+   "statements": [
+    {
+     "text": "IUCN's 2025 assessment reports that the M23 rebels, which it describes as Rwandan-supported, occupied much of the park in 2024, including the Mikeno sector. It says M23 has controlled Mikeno since 2022, which prevents uniformed ICCN staff from carrying out direct counts of the mountain gorillas there.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "According to the North Kivu research centre CREDHO, quoted by Mongabay, rangers have had to leave several posts since April 2024 because of M23 threats, including Rwindi and the lake posts of Vitshumbi and Nyamusengera. Park officials told Mongabay that wildlife has fallen by 50% since the M23 resurgence and that poaching is spreading.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-mongabay-m23-poaching-2025"
+     ]
+    },
+    {
+     "text": "In 2026 the World Heritage Committee noted that ICCN was again operating across about 65% of the property. It remained concerned about persistent pockets of instability, a continuing high number of environmental crimes, and the 41 poaching cases recorded in 2025.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-whc-decision-48com-7a51"
+     ]
+    },
+    {
+     "text": "IUCN and the park authority report that insecurity has suspended mountain gorilla tourism, and that the M23 advance made the new lodge at Lulimbi inaccessible, halting its opening.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-iucn-who-2025",
+      "cod-virunga-sp-soc-2024"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cod-virunga-charcoal",
+   "title": "Charcoal production and forest loss",
+   "themeIds": [
+    "land-use",
+    "climate"
+   ],
+   "statements": [
+    {
+     "text": "The park authority reports that Goma used to rely on charcoal for about 80% of its energy, mostly from illegal production inside the park. It recorded 69 arrests for illegal charcoal making in 2024 (January to October).",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    },
+    {
+     "text": "IUCN's 2025 assessment notes that more than 97% of the roughly 6 million people around Virunga use wood or charcoal for energy, and that armed groups such as Mai-Mai militias and the FDLR tax charcoal production and transport.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-iucn-who-2025"
+     ]
+    },
+    {
+     "text": "In its 2024 report the park authority said camps for displaced people, such as Kanyaruchinya and Bulengo, lay 500 m to 3 km from the park boundary near the Nyiragongo and Nyamulagira volcanoes. Firewood collection and farming were degrading those forests, and more than 300 ha had been destroyed by displaced people's pressure on resources.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024",
+      "cod-iucn-who-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cod-virunga-lake-edward-fisheries",
+   "title": "Declining fish stocks and insecurity on Lake Edward",
+   "themeIds": [
+    "fisheries",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "The park authority reports that catches at the five legal fisheries on Lake Edward fall year after year, mainly because of poor fishing practices. It also names overcrowding of the legal fisheries as a threat.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    },
+    {
+     "text": "The park authority reports that patrols from January to September 2024 seized nearly 35,000 juvenile fish, several hundred nets and about 240 dugout canoes of different sizes.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    },
+    {
+     "text": "The park authority reports that the M23 took the Vitshumbi fishery in March 2024, so catch data can no longer be collected there, and that parts of the lake's southern zone have been out of reach for patrols since then.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    },
+    {
+     "text": "IUCN NL (2021) and IUCN (2025) report that armed groups on the lake use illegal or destructive fishing methods and make fishers pay to fish. IUCN links overfishing to the wider security crisis.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-iucnnl-lake-edward-2021",
+      "cod-iucn-who-2025"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cod-virunga-encroachment",
+   "title": "Illegal occupation of park land",
+   "themeIds": [
+    "land-use",
+    "governance"
+   ],
+   "statements": [
+    {
+     "text": "The World Heritage Committee noted that human encroachment rose from 12% of the park in 2021 to 14.2% in 2024.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-whc-decision-48com-7a51"
+     ]
+    },
+    {
+     "text": "The park authority describes permanent homes and pasture inside the park at Kirolirwe. At Mavivi-Mayangos, it says army (FARDC) units stationed in the park farm park land in complicity with some local chiefs. At Nzulo, near Goma, occupation followed a court judgment the authority calls fraudulent.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    },
+    {
+     "text": "Work to mark the boundary with communities at Binza/Kiseguro was close to settling land disputes in 2022, but the M23 war interrupted it.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "cod-virunga-electric-cooking",
+   "title": "Electric cooking on the park's hydropower grid to replace charcoal",
+   "themeIds": [
+    "climate",
+    "development",
+    "land-use"
+   ],
+   "challengeIds": [
+    "cod-virunga-charcoal"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "Virunga Energies says it runs four run-of-river hydropower plants of about 43 MW in total in and around the park, and reports more than 42,000 customers by the end of 2025.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-energies"
+     ]
+    },
+    {
+     "text": "The park authority reports that a pilot in Goma, completed at the end of 2023, distributed 946 electric cookers to households on this grid. It reported 30–40% less charcoal use in those homes and average savings of about US$6 a month on cooking fuel. The goal is to equip 80% of grid households by 2028 through instalment payments.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    },
+    {
+     "text": "The same report names low awareness and the limited means of the poorest households as barriers to wider uptake.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    },
+    {
+     "text": "Small local businesses that sell, finance and repair efficient electric cookers for grid customers could help close that gap, cutting demand for charcoal from the park.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024",
+      "cod-virunga-energies"
+     ]
+    }
+   ],
+   "validationNeeded": [
+    "Does the self-reported 30–40% cut in charcoal use hold beyond the 946 pilot households?",
+    "Are electricity tariffs and supply reliability competitive with charcoal prices in Goma?",
+    "Can independent vendors take part, or does the instalment scheme run only through Virunga Energies?",
+    "How has the 2025 offensive on Goma affected the grid and customers?"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "virunga-foundation",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "The Virunga Alliance works through Virunga Energies, a DRC subsidiary of the Virunga Foundation. Virunga Energies runs the hydropower grid, and the park's electric-cooker pilot targeted households connected to it.",
+      "evidence": "verified",
+      "sourceIds": [
+       "cod-virunga-alliance-page",
+       "cod-virunga-sp-soc-2024",
+       "cod-virunga-energies"
+      ]
+     }
+    },
+    {
+     "organisationId": "iccn",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "ICCN enforces the law against illegal charcoal production in the park, so any scheme to replace charcoal would affect its work.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "cod-virunga-sp-soc-2024"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "cod-virunga-community-woodlots",
+   "title": "Community woodlots for fuelwood and timber outside the park",
+   "themeIds": [
+    "land-use",
+    "climate",
+    "livelihoods"
+   ],
+   "challengeIds": [
+    "cod-virunga-charcoal",
+    "cod-virunga-encroachment"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "The CLiMA Virunga programme (2020–2024) was funded by the Flemish Region's climate fund and run by the Virunga Foundation, ICCN and Meise Botanic Garden. It reached its goal of reforesting 1,500 ha around the park, working through 49 local associations.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    },
+    {
+     "text": "The park authority says the programme created jobs and that the plantations offer alternative livelihoods. It relies on collaboration with customary chiefdoms and local associations to keep the plantations going long term.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    },
+    {
+     "text": "Goma's charcoal has largely come from illegal cutting inside the park, and land encroachment keeps growing. Legal wood from managed woodlots outside the boundary would meet the same demand.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024",
+      "cod-whc-decision-48com-7a51"
+     ]
+    },
+    {
+     "text": "The associations that manage these plantations could run them as businesses, selling legal, traceable fuelwood, charcoal or poles in Goma and other towns now that the grant-funded programme period has ended.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "Who holds land and harvest rights on the planted sites, and are they secure?",
+    "Is selling charcoal from plantations legal in North Kivu, and can it be traced apart from charcoal cut in the park?",
+    "Would armed-group taxation of charcoal transport take most of the income?",
+    "How many plantations survived after the programme ended in 2024?"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "virunga-foundation",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "The Virunga Foundation co-implemented CLiMA Virunga, which reforested 1,500 ha around the park with local associations.",
+      "evidence": "verified",
+      "sourceIds": [
+       "cod-virunga-sp-soc-2024"
+      ]
+     }
+    },
+    {
+     "organisationId": "iccn",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "ICCN co-implemented the CLiMA Virunga reforestation programme around the park.",
+      "evidence": "verified",
+      "sourceIds": [
+       "cod-virunga-sp-soc-2024"
+      ]
+     }
+    },
+    {
+     "organisationId": "meise-botanic-garden",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "Meise Botanic Garden co-implemented the CLiMA Virunga reforestation programme around the park.",
+      "evidence": "verified",
+      "sourceIds": [
+       "cod-virunga-sp-soc-2024"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "cod-virunga-legal-fish-cold-chain",
+   "title": "Cold storage and processing for legal Lake Edward fishers",
+   "themeIds": [
+    "fisheries",
+    "livelihoods"
+   ],
+   "challengeIds": [
+    "cod-virunga-lake-edward-fisheries"
+   ],
+   "evidence": "hypothesis",
+   "rationale": [
+    {
+     "text": "Catches at Lake Edward's legal fisheries keep falling, and the fisheries are overcrowded.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-sp-soc-2024"
+     ]
+    },
+    {
+     "text": "The Virunga Alliance reports that access to its electricity has enabled a network of more than 30 cold rooms serving fishing and vegetable value chains, which it says let produce reach town markets outside harvest seasons at better prices.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cod-virunga-agriculture-page"
+     ]
+    },
+    {
+     "text": "Cold storage and processing could let legal fishers earn more from each kilogram rather than catch more fish, but only if they come with rules on fishing gear and effort.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "What is the current state of the fish stock, and what catch is sustainable?",
+    "Is it safe to work at each landing site, given that Vitshumbi was under M23 control from March 2024?",
+    "Is there a working fishers' cooperative? IUCN notes the historical cooperative COOPEVI no longer functions.",
+    "Could higher value per kilogram end up increasing fishing pressure?"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "virunga-foundation",
+     "relationship": "related-initiative",
+     "statement": {
+      "text": "The Virunga Alliance, which operates through the Virunga Foundation's subsidiary Virunga Energies, says it supports small-scale fishers and agro-processing around the park, and that its electricity has enabled more than 30 cold rooms serving fishing and vegetable value chains.",
+      "evidence": "verified",
+      "sourceIds": [
+       "cod-virunga-agriculture-page",
+       "cod-virunga-alliance-page"
+      ]
+     }
+    },
+    {
+     "organisationId": "iucn-nl",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "IUCN NL has worked with fishing communities on both sides of Lake Edward, so its experience could help organise legal fishers.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "cod-iucnnl-lake-edward-2021"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "organisations": [
+  {
+   "id": "iccn",
+   "name": "Institut Congolais pour la Conservation de la Nature",
+   "acronym": "ICCN",
+   "type": "government-agency",
+   "role": {
+    "text": "The Congolese state body legally responsible for the park and for law enforcement in it. In 2024 it had 517 staff at the park, and it co-manages Virunga with the Virunga Foundation.",
+    "evidence": "verified",
+    "sourceIds": [
+     "cod-iucn-who-2025",
+     "cod-virunga-sp-soc-2024",
+     "cod-virunga-annual-2025"
+    ]
+   }
+  },
+  {
+   "id": "virunga-foundation",
+   "name": "Virunga Foundation",
+   "type": "international-ngo",
+   "url": "https://virunga.org/",
+   "role": {
+    "text": "UK-registered conservation charity that co-manages the park with ICCN under a public-private partnership that, it says, now runs to 2050. The Virunga Alliance's energy and agriculture programmes are implemented through its DRC subsidiary, Virunga Energies.",
+    "evidence": "verified",
+    "sourceIds": [
+     "cod-virunga-annual-2025",
+     "cod-virunga-alliance-page"
+    ]
+   }
+  },
+  {
+   "id": "meise-botanic-garden",
+   "name": "Meise Botanic Garden",
+   "type": "research-institution",
+   "url": "https://www.plantentuinmeise.be/en/",
+   "role": {
+    "text": "Co-implemented the CLiMA Virunga reforestation programme (2020–2024) around the park with the Virunga Foundation and ICCN.",
+    "evidence": "verified",
+    "sourceIds": [
+     "cod-virunga-sp-soc-2024"
+    ]
+   }
+  },
+  {
+   "id": "iucn-nl",
+   "name": "IUCN National Committee of the Netherlands",
+   "acronym": "IUCN NL",
+   "type": "international-ngo",
+   "url": "https://www.iucn.nl/",
+   "role": {
+    "text": "It reported in 2021 that, with the partner organisation FECOPEILE and EU support, it was working on safety and illegal fishing on Lake Edward, building on community protection networks in 12 Congolese villages that report illegal activities.",
+    "evidence": "verified",
+    "sourceIds": [
+     "cod-iucnnl-lake-edward-2021"
+    ]
+   }
+  }
+ ],
+ "verificationNote": "Every fact was checked against text fetched on 2026-10-22. The main sources are the World Heritage Committee decision 48 COM 7A.51 (2026), the State Party's 2024 State of Conservation report (French PDF, self-reported, submitted about February 2025), the IUCN World Heritage Outlook assessment (finalised 11 October 2025) and Mongabay (April 2025). Figures on the Virunga Alliance, Virunga Energies and agriculture come from the park's own websites and the State Party report and are self-reported. Conflict is described only through those sources, without attributing responsibility beyond what they state; 'Rwandan-supported M23' is IUCN's wording. Sources disagree on encroachment: the World Heritage decision gives 14.2% (2024), the State Party report 'nearly 14%', and a park official quoted by Mongabay '13% of its surface area lost'. The decision's figure is used. Sources also differ on the end date of the ICCN–Virunga Foundation partnership: the undated Virunga Alliance page and IUCN (citing a 2024 UNESCO document) give 2040, while the park's 2025 annual report says it was extended in 2025 to 2050; the newer statement is used and attributed to the park. The pending 2022 oil-block tender overlapping the park is documented (2026 decision, State Party report) but was left out of the challenges to keep the focus. The Wikidata item Q223589 was confirmed as this park: national park, country DRC, World Heritage id 63, inception 1925.",
+ "gaps": [
+  "The UNESCO State of Conservation pages (whc.unesco.org/en/soc/4995 for 2026 and /4664 for 2025) were blocked by a Cloudflare challenge. The 2026 decision and the State Party's 2024 report were used instead, and the 2025 UNESCO SOC analysis was not read.",
+  "No independent stock assessment of Lake Edward fish was found. Catch trends come from the park authority's report and older figures quoted by IUCN.",
+  "Meise Botanic Garden's own CLiMA Virunga pages could not be fetched (a queue or redirect wall). The programme's details rely on the State Party report only, and the plantations' status after 2024 is unknown.",
+  "ICCN's official website (iccnrdc.org) redirects to an unrelated site, so no URL is given for ICCN.",
+  "Virunga Alliance job and income figures (for example the '21,000 jobs' from electricity access given in the State Party report) are self-reported and were not used.",
+  "Current security conditions after the 2025 M23 offensive on Goma, and the state of the grid, tourism and fisheries since then, are only partly documented (Virunga Foundation's 2025 summary page and the 2026 decision).",
+  "FECOPEILE, IUCN NL's Lake Edward partner, is mentioned only by acronym in the source and is not added as an organisation.",
+  "The International Gorilla Conservation Programme (igcp) and other Greater Virunga partners were not linked because no fetched source documents their current role in this park."
+ ]
+}

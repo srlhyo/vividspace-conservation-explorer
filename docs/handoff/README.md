@@ -1,6 +1,6 @@
 # Conservation Explorer: protected-area inventory handoff
 
-Prepared for Fatima on 2026-10-20 from dataset v0.6.0 of the VividSpace Conservation Opportunity Explorer. This package holds the dataset behind the dashboard as linked spreadsheets, plus the list of verified areas that are not on the map yet.
+Prepared for Fatima on 2026-10-22 from dataset v0.7.0 of the VividSpace Conservation Explorer. This package holds the dataset behind the dashboard as linked spreadsheets, plus the list of verified areas that are not on the map yet.
 
 ## What is inside
 
@@ -9,14 +9,14 @@ Prepared for Fatima on 2026-10-20 from dataset v0.6.0 of the VividSpace Conserva
 | `coverage-report.md` | Start here. Per-country inventory status, a reconciliation table (areas listed by the national sources reviewed, mapped or unmapped) and the known gaps. |
 | `data-dictionary.md` | What every entity, field and relationship means, and the rules behind them. |
 | `data-export/*.csv` | The complete dashboard catalogue as 13 linked tables (see `data-export/README.md` for row counts). |
-| `inventory/uncatalogued-areas.csv` | 448 areas verified in official or authoritative sources but **not on the map**, because no official or openly licensed location was found. |
+| `inventory/uncatalogued-areas.csv` | 490 areas verified in official or authoritative sources but **not on the map**: 485 from the national lists, with no official or openly licensed location, and 5 Ramsar sites whose listed coordinates are erroneous. |
 | `inventory/research/<ISO3>.json` | The desk research for each country: the official inventory found, stated official totals, every verified area and the gaps. |
 
 ## Totals
 
-- 22 countries: the 13 WASOP countries and 9 additional African countries.
-- 387 mapped areas: 266 with national or community legal protection, 4 proposed, and 117 with an international designation only (Ramsar site, World Heritage property or biosphere reserve). There is also 1 context record, the Cacheu Region, which is an administrative region and not a protected area.
-- 719 nationally designated or proposed areas were found in the national sources reviewed: 271 are on the map, and 448 are in `uncatalogued-areas.csv`.
+- 25 countries: the 13 WASOP countries and 12 additional African countries (Cameroon, the Republic of the Congo and the Democratic Republic of the Congo were added in this version).
+- 481 mapped areas: 333 with national or community legal protection, 6 proposed, and 142 with an international designation only (Ramsar site, World Heritage property or biosphere reserve). There is also 1 context record, the Cacheu Region, which is an administrative region and not a protected area.
+- 825 nationally designated or proposed areas were found in the national sources reviewed: 340 are on the map, and 485 are in `uncatalogued-areas.csv`.
 - Every country's inventory is **partial**. None has been verified as exhaustive.
 
 ## How to use the files
@@ -33,7 +33,7 @@ Prepared for Fatima on 2026-10-20 from dataset v0.6.0 of the VividSpace Conserva
 - **No WDPA / Protected Planet data.** It was not used, because its licence does not allow redistribution. The inventory has therefore not been compared with that global compilation.
 - **Source licences.** Most sources are cited for reference: facts and short quotes only. Check `licence` in `sources.csv` before reusing any source's content. Wikidata coordinates are public domain (CC0).
 - **Evidence levels.** Every sentence in `statements.csv` is marked `verified`, `interpretation` or `hypothesis`. Potential regenerative activities are never verified facts and need field, regulatory and market validation.
-- **Research depth.** Conservation challenges, organisations and potential activities have been researched only for Guinea-Bissau and for one area in each of the other 21 countries. An area without researched challenges is not an area without challenges.
+- **Research depth.** Conservation challenges, organisations and potential activities have been researched only for Guinea-Bissau and for one area in each of the other 24 countries. An area without researched challenges is not an area without challenges.
 - **Snapshot.** The files reflect the sources as checked on the access dates shown. Some legal texts could not be retrieved (for example Tanzania's and Uganda's legal databases block automated access). Conflicts between sources are recorded in the notes and the coverage report.
 
 The files are generated from the project repository by `npm run data:export` and `npm run data:coverage`, and the dashboard reads the same catalogue. Some links in `data-dictionary.md` point to source files in that repository, which are not part of this package.

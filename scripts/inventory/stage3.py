@@ -9,17 +9,18 @@ OUT_CAT = f'{ROOT}/public/data/catalogue.json'
 OUT_CSV = f'{ROOT}/docs/inventory/uncatalogued-areas.csv'
 sys.path.insert(0, HERE)
 from norm import similar, same, core
-A = '2026-10-20'
+from access import accessed, LATEST
 cat = json.load(open(f'{WORK}/stage2.json'))
 report = json.load(open(f'{WORK}/stage2-report.json'))
 unc = json.load(open(f'{WORK}/uncatalogued.json'))
+ramsar_unmapped = json.load(open(f'{WORK}/ramsar-unmapped.json'))
 T = {t['id']: t for t in cat['territories']}
 NAMES = {c['code']: c['name'] for c in cat['countries']}
 src_ids = {s['id'] for s in cat['sources']}
 def add_source(s):
     if s['id'] not in src_ids: cat['sources'].append(s); src_ids.add(s['id'])
 UNESCO_TERMS = dict(licence='© UNESCO — cited for reference (facts and short quotes)', licenceUrl='https://www.unesco.org/en/terms-use')
-COUNTRY_BY_NAME = {v: k for k, v in NAMES.items()} | {'Gambia': 'GMB', 'United Republic of Tanzania': 'TZA', 'Sao Tome and Principe': 'STP', "Cote d'Ivoire": 'CIV', 'Guinea Bissau': 'GNB', 'Cabo Verde': 'CPV', 'Cape Verde': 'CPV'}
+COUNTRY_BY_NAME = {v: k for k, v in NAMES.items()} | {'Gambia': 'GMB', 'United Republic of Tanzania': 'TZA', 'Sao Tome and Principe': 'STP', "Cote d'Ivoire": 'CIV', 'Guinea Bissau': 'GNB', 'Cabo Verde': 'CPV', 'Cape Verde': 'CPV', 'Congo': 'COG', 'Republic of the Congo': 'COG', 'Democratic Republic of the Congo': 'COD'}
 from geo import inside
 
 # --- Biosphere reserves --------------------------------------------------------------------
@@ -35,7 +36,7 @@ for mab in json.load(open(f'{IN}/biosphere-reserves.json')):
     sid = f'unesco-mab-{slug}'
     if slug == 'delta-du-saloum' and 'unesco-mab-saloum' in src_ids: sid = 'unesco-mab-saloum'
     if slug == 'mono' and 'unesco-mab-mono' in src_ids: sid = 'unesco-mab-mono'
-    add_source(dict(id=sid, title=f'{title} — biosphere reserve', publisher='UNESCO Man and the Biosphere Programme', url=f'https://www.unesco.org/en/mab/{slug}', accessed=A, kind='webpage', **UNESCO_TERMS))
+    add_source(dict(id=sid, title=f'{title} — biosphere reserve', publisher='UNESCO Man and the Biosphere Programme', url=f'https://www.unesco.org/en/mab/{slug}', accessed=accessed(countries[0]), kind='webpage', **UNESCO_TERMS))
     fact = dict(text=f"Designated a UNESCO biosphere reserve in {year}" + (f", with a listed area of {area} ha." if area else '.'), evidence='verified', sourceIds=[sid])
     # Already catalogued as a biosphere reserve?
     existing = EXISTING_MAB.get(slug) or next((t['id'] for t in cat['territories'] if t['countryCode'] in countries and any(d['designationId'] == 'biosphere-reserve' for d in t['designations']) and similar(title, t['name'])), None)
@@ -52,7 +53,7 @@ for mab in json.load(open(f'{IN}/biosphere-reserves.json')):
              location=dict(description=f"{', '.join(NAMES[c] for c in countries)}.", descriptionSourceIds=[sid], point=[round(lon, 5), round(lat, 5)], pointSourceId=sid),
              geometry=dict(representation='point', sourceId=sid, caveat='Shown at the reference coordinates given by UNESCO; the biosphere reserve and its zones are not shown.'),
              designations=[dict(designationId='biosphere-reserve', sourceIds=[sid])], overview=[fact], livelihoods=[], ecosystems=[],
-             verification=dict(status='partially-verified', reviewed=A, note='Name, year, area and reference location from UNESCO. A biosphere reserve is a zoned landscape whose core areas are usually national protected areas, so it overlaps them and is not counted as a separate legally designated area. No conservation challenge, organisation or potential activity has been researched for it.'),
+             verification=dict(status='partially-verified', reviewed=accessed(code), note='Name, year, area and reference location from UNESCO. A biosphere reserve is a zoned landscape whose core areas are usually national protected areas, so it overlaps them and is not counted as a separate legally designated area. No conservation challenge, organisation or potential activity has been researched for it.'),
              inventory={k: v for k, v in dict(category='international-designation', legalStatus=None, sourceDate=year, overlaps=overlaps or None).items() if k == 'legalStatus' or v})
     if len(countries) > 1: t['verification']['note'] = f"Transboundary reserve shared by {', '.join(NAMES[c] for c in countries)}; listed under {NAMES[code]}, where UNESCO's reference point lies. " + t['verification']['note']
     cat['territories'].append(t); T[tid] = t; added_mab.append((tid, overlaps))
@@ -66,12 +67,15 @@ WHS_TARGETS = {1432: ['ramsar-879'], 1430: ['pa-nam-namib-naukluft-park'], 403: 
     1147: ['pa-gab-parc-national-de-la-lope'], 749: ['pa-ben-parc-national-de-la-pendjari', 'pa-ben-parc-national-du-w-benin'], 227: ['pa-civ-parc-national-de-la-comoe'],
     155: ['pa-civ-reserve-naturelle-integrale-du-mont-nimba', 'pa-gin-reserve-naturelle-integrale-des-monts-nimba'], 195: ['pa-civ-parc-national-de-tai'],
     1431: ['bijagos-archipelago'], 506: ['ramsar-250'], 25: ['ramsar-138'], 153: ['pa-sen-parc-national-du-niokolo-koba'],
-    1746: ['pa-sle-tiwai-island-wildlife-sanctuary', 'pa-sle-gola-rainforest-national-park']}
-PART = {1430, 1186, 749, 1746, 914, 1147}  # the property and the catalogued area differ in extent
+    1746: ['pa-sle-tiwai-island-wildlife-sanctuary', 'pa-sle-gola-rainforest-national-park'],
+    63: ['ramsar-787'], 136: ['pa-cod-parc-national-de-la-garamba'], 137: ['pa-cod-parc-national-de-kahuzi-biega'],
+    280: ['pa-cod-parc-national-de-la-salonga'], 718: ['pa-cod-reserve-de-faune-a-okapis'], 692: ['ramsar-2080'],
+    407: ['pa-cmr-reserve-de-faune-du-dja'], 1380: ['pa-cmr-parc-national-de-lobeke', 'pa-cog-parc-national-de-nouabale-ndoki']}
+PART = {1430, 1186, 749, 1746, 914, 1147, 1380}  # the property and the catalogued area differ in extent
 whs_missing = []
 for w in json.load(open(f'{IN}/world-heritage.json')):
     sid = f"unesco-whc-{w['id']}"
-    add_source(dict(id=sid, title=f"{w['title']} — World Heritage List", publisher='UNESCO World Heritage Centre', url=f"https://whc.unesco.org/en/list/{w['id']}/", accessed=A, kind='webpage', **UNESCO_TERMS))
+    add_source(dict(id=sid, title=f"{w['title']} — World Heritage List", publisher='UNESCO World Heritage Centre', url=f"https://whc.unesco.org/en/list/{w['id']}/", accessed=accessed(w['countries'][0]), kind='webpage', **UNESCO_TERMS))
     targets = [x for x in WHS_TARGETS.get(w['id'], []) if x in T]
     if not targets: whs_missing.append(w['title']); continue
     for tid in targets:
@@ -105,7 +109,7 @@ for path in sorted(glob.glob(f'{IN}/area-research/*.json')):
         if s['id'] in src_ids: raise SystemExit(f"{path}: source id {s['id']} already exists")
         note = ' '.join(x for x in [f"Dated {s['date']}." if s.get('date') else None, s.get('note')] if x) or None
         add_source({k: v for k, v in dict(id=s['id'], title=s['title'], publisher=s['publisher'], url=s['url'], licence=s['licence'],
-                                          accessed=A, kind=s['kind'], note=note).items() if v})
+                                          accessed=accessed(t['countryCode']), kind=s['kind'], note=note).items() if v})
     t['overview'] += r.get('overview', [])
     t['livelihoods'] += r.get('livelihoods', [])
     note, found = NOT_RESEARCHED.subn('', t['verification']['note'])
@@ -148,23 +152,34 @@ for c in cat['countries']:
     for n in d.get('notEnumerated', []):
         gaps.append(f"Not enumerated: {n['category']}" + (f" (about {n['approxCount']})" if n.get('approxCount') else '') + f" — {n['reason']}")
     if unmapped: gaps.append(f"{unmapped} verified area{'s' if unmapped != 1 else ''} not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.")
+    for s in (s for s in ramsar_unmapped if s['code'] == code):
+        gaps.append(f"Ramsar site no. {s['number']} ({s['name']}) is not mapped: the coordinates in Ramsar's annotated list are erroneous. It is listed in docs/inventory/uncatalogued-areas.csv.")
     gaps.append('WDPA/Protected Planet, the most complete global compilation, is not used because its licence does not allow redistribution here, so the catalogue cannot be compared with it.')
     counts = [dict({k: v for k, v in dict(category=n['category'], count=n['count'], asOf=str(n['asOf']) if n.get('asOf') else None).items() if v is not None}, sourceId=amap.get(n['sourceId'], n['sourceId']))
               for n in d['officialInventory'].get('statedCounts', []) if isinstance(n.get('count'), int) and amap.get(n['sourceId'], n['sourceId']) in src_ids]
     c['inventory'] = dict(status='partial', summary=summary, sourceIds=[amap.get(x, x) for x in d['officialInventory'].get('sourceIds', []) if amap.get(x, x) in src_ids], officialCounts=counts, gaps=gaps)
 
-cat['meta']['version'] = '0.6.0'; cat['meta']['updated'] = A
-cat['meta']['description'] = ('Demonstration dataset covering the 13 West Africa Sustainable Ocean Programme (WASOP) countries and 9 additional African countries. '
-    'It combines detailed Guinea-Bissau research (Bijagós Archipelago, Cacheu region, Cantanhez), researched challenges and potential activities for one area in each of the other 21 countries, '
-    'and a partial, source-checked protected-area inventory for all 22 countries: nationally designated areas from national authorities and legal texts, Ramsar sites, World Heritage properties and biosphere reserves. '
+cat['meta']['version'] = '0.7.0'; cat['meta']['updated'] = LATEST
+n_all = len(cat['countries']); n_wasop = sum(1 for c in cat['countries'] if c['group'] == 'wasop')
+cat['meta']['description'] = (f'Demonstration dataset covering the {n_wasop} West Africa Sustainable Ocean Programme (WASOP) countries and {n_all - n_wasop} other African countries. '
+    f'It combines detailed Guinea-Bissau research (Bijagós Archipelago, Cacheu region, Cantanhez), researched challenges and potential activities for one area in each of the other {n_all - 1} countries, '
+    f'and a partial, source-checked protected-area inventory for all {n_all} countries: nationally designated areas from national authorities and legal texts, Ramsar sites, World Heritage properties and biosphere reserves. '
     'No country inventory has been verified as exhaustive. Every factual statement cites a publicly accessible source that was checked on the access date shown. '
     'Potential regenerative activities are presented as interpretations or hypotheses, never as validated businesses.')
 json.dump(cat, open(OUT_CAT, 'w'), ensure_ascii=False, indent=1)
 os.makedirs(os.path.dirname(OUT_CSV), exist_ok=True)
+# Ramsar sites without usable coordinates are listed too; their record_id is the catalogue id they would get.
+src_url = {s['id']: s['url'] for s in cat['sources']}
+for s in ramsar_unmapped:
+    unc.append(dict(record_id=f"ramsar-{s['number']}", country_code=s['code'], name=s['name'], category='international-designation',
+                    designation='Ramsar site (Wetland of International Importance)', established='-'.join(reversed(s['designated'].split('-'))),
+                    area_km2=round(float(s['area_ha'].replace(',', '')) / 100, 2),
+                    status="verified in Ramsar's annotated list; its listed coordinates are erroneous and no openly licensed location was found",
+                    source_ids=s['source'], source_urls=src_url[s['source']], notes=f"Ramsar site no. {s['number']}, listed area {s['area_ha']} ha."))
 # record_id follows the catalogue's id pattern and is unique across the catalogue and this list.
 from norm import slug
-taken = set(T) | {t['id'] for t in cat['territories']}
-for row in unc:
+taken = set(T) | {t['id'] for t in cat['territories']} | {row['record_id'] for row in unc if row.get('record_id')}
+for row in (row for row in unc if not row.get('record_id')):
     rid = f"pa-{row['country_code'].lower()}-{slug(row['name'])}"
     while rid in taken: rid += '-2'
     taken.add(rid); row['record_id'] = rid

@@ -7,7 +7,7 @@ RESEARCH = f'{ROOT}/docs/inventory/research'              # committed country re
 WORK = sys.argv[1]                                        # temporary directory for intermediate files
 sys.path.insert(0, HERE)
 from norm import core, same, similar, slug, ascii
-A = '2026-10-20'
+from access import accessed
 cat = json.load(open(f'{WORK}/stage1.json'))
 NAMES = {c['code']: c['name'] for c in cat['countries']}
 OVR = json.load(open(f'{IN}/overrides.json'))
@@ -52,7 +52,7 @@ for key, cands in json.load(open(f'{IN}/wikidata-name-search.json')).items():
 QCACHE = json.load(open(f'{IN}/wikidata-items.json'))
 COUNTRY_Q = dict(AGO='Q916', BWA='Q963', NAM='Q1030', TZA='Q924', MOZ='Q1029', UGA='Q1036', EGY='Q79', GAB='Q1000', STP='Q1039',
                  BEN='Q962', CPV='Q1011', CIV='Q1008', GMB='Q1005', GHA='Q117', GIN='Q1006', GNB='Q1007', LBR='Q1014', MRT='Q1025',
-                 NGA='Q1033', SEN='Q1041', SLE='Q1044', TGO='Q945')
+                 NGA='Q1033', SEN='Q1041', SLE='Q1044', TGO='Q945', CMR='Q1009', COG='Q971', COD='Q974')
 def agent_qid_item(code, q):
     """An agent-verified QID, from the per-country query results or the direct lookup cache."""
     if q in WD.get(code, {}): return WD[code][q]
@@ -80,13 +80,13 @@ def add_source(s):
     if s['id'] in src_ids: return
     cat['sources'].append(s); src_ids.add(s['id'])
 def named_feature(it): return it['types'].startswith('(name search)')
-def wikidata_source(it, name):
+def wikidata_source(it, name, code):
     sid = f"wikidata-{it['qid'].lower()}"
     label = sorted(it['labels'])[0] if it['labels'] else name
     title = (f"{label} ({it['qid']}: {it['types'].replace('(name search) ', '') or 'named feature'}) — coordinate location" if named_feature(it)
              else f"{name} ({it['qid']}) — coordinate location")
     add_source(dict(id=sid, title=title, publisher='Wikidata', url=f"https://www.wikidata.org/wiki/{it['qid']}",
-                    licence='CC0 1.0', licenceUrl='https://creativecommons.org/publicdomain/zero/1.0/', accessed=A, kind='dataset'))
+                    licence='CC0 1.0', licenceUrl='https://creativecommons.org/publicdomain/zero/1.0/', accessed=accessed(code), kind='dataset'))
     return sid
 
 DESIG = {'national-park': 'national-park', 'nature-reserve': 'nature-reserve', 'marine-protected-area': 'marine-protected-area',
@@ -113,7 +113,7 @@ for path in sorted(glob.glob(f'{RESEARCH}/*.json')):
         # Verified to serve the same documents over HTTPS (2026-10-20).
         url = s['url'].replace('http://inbac.gov.ao/', 'https://inbac.gov.ao/')
         add_source({k: v for k, v in dict(id=sid, title=s['title'], publisher=s['publisher'], url=url,
-                    licence=s.get('licence') or f"© {s['publisher']} — cited for reference (facts and short quotes)", accessed=A,
+                    licence=s.get('licence') or f"© {s['publisher']} — cited for reference (facts and short quotes)", accessed=accessed(code),
                     kind=s.get('kind') if s.get('kind') in ('webpage', 'report', 'dataset', 'article') else 'webpage', note=note).items() if v})
     sdate = {srcmap[s['id']]: s.get('date') for s in d['sources']}
     pub = {srcmap[s['id']]: s['publisher'] for s in d['sources']}
@@ -180,7 +180,7 @@ for path in sorted(glob.glob(f'{RESEARCH}/*.json')):
                         review.append(f'{code} FUZZY {sc:.2f} "{a["name"]}" ~ {it["qid"]} {sorted(it["labels"])[:3]} [{it["types"][:40]}]')
             if pick:
                 p = wd_point(code, pick)
-                if p: point, psrc, how = p, wikidata_source(pick, a['name']), ('feature' if named_feature(pick) else 'wikidata')
+                if p: point, psrc, how = p, wikidata_source(pick, a['name'], code), ('feature' if named_feature(pick) else 'wikidata')
                 else: review.append(f'{code} OUTSIDE "{a["name"]}" {pick["qid"]} {pick["points"]}')
         if not point:
             uncatalogued.append(dict(country_code=code, name=a['name'], local_name=a.get('localName'), category=catg, designation=a.get('designationLabel'),
@@ -207,7 +207,7 @@ for path in sorted(glob.glob(f'{RESEARCH}/*.json')):
                  geometry=dict(representation='point', sourceId=psrc, caveat=caveat),
                  designations=[dict(designationId=DESIG[a['category']], sourceIds=sids)] if a['category'] in DESIG else [],
                  overview=overview, livelihoods=[], ecosystems=[],
-                 verification=dict(status='partially-verified', reviewed=A, note=note.strip()),
+                 verification=dict(status='partially-verified', reviewed=accessed(code), note=note.strip()),
                  inventory={k: v for k, v in dict(category=catg, legalStatus=legal, sourceDate=dates[0] if dates else None,
                                                    overlaps=[overlap_with['id']] if overlap_with else None).items() if k == 'legalStatus' or v})
         # Not added to terr_by_country: areas listed separately by the same source are distinct areas.

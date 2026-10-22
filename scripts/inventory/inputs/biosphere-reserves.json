@@ -295,5 +295,68 @@
   "area_ha": "223,464,300.00",
   "lat": 22.5,
   "lon": 33.99
+ },
+ {
+  "slug": "benoue",
+  "title": "Benoué",
+  "year": "1981",
+  "country": "Cameroon",
+  "area_ha": "728,346.00",
+  "lat": 8.321,
+  "lon": 13.892
+ },
+ {
+  "slug": "dimonika",
+  "title": "Dimonika",
+  "year": "1988",
+  "country": "Congo",
+  "area_ha": "136,000.00",
+  "lat": -4.16,
+  "lon": 12.41
+ },
+ {
+  "slug": "dja",
+  "title": "Dja",
+  "year": "1981",
+  "country": "Cameroon",
+  "area_ha": "1,328,097.00",
+  "lat": 3.01,
+  "lon": 12.98
+ },
+ {
+  "slug": "luki",
+  "title": "Luki",
+  "year": "1976",
+  "country": "Democratic Republic of the Congo",
+  "area_ha": "33,811.00",
+  "lat": -5.59,
+  "lon": 13.17
+ },
+ {
+  "slug": "odzala",
+  "title": "Kokoua-Odzala",
+  "year": "1977",
+  "country": "Congo",
+  "area_ha": "1,294,900.00",
+  "lat": 0.916,
+  "lon": 14.945
+ },
+ {
+  "slug": "waza",
+  "title": "Waza",
+  "year": "1979",
+  "country": "Cameroon",
+  "area_ha": "300,000.00",
+  "lat": 11.27,
+  "lon": 14.72
+ },
+ {
+  "slug": "yangambi",
+  "title": "Yangambi",
+  "year": "1976",
+  "country": "Democratic Republic of the Congo",
+  "area_ha": "243,755.00",
+  "lat": 0.973,
+  "lon": 24.727
  }
 ]

@@ -485,5 +485,192 @@
     "sp": "SLE"
    }
   ]
+ },
+ {
+  "id": 407,
+  "title": "Dja Faunal Reserve",
+  "category": "natural",
+  "inscribed": 1987,
+  "danger": false,
+  "countries": [
+   "CMR"
+  ],
+  "components": [
+   {
+    "state": "Cameroon",
+    "name": "Dja Faunal Reserve",
+    "lonlat": [
+     12.995,
+     3.125
+    ],
+    "sp": "CMR"
+   }
+  ]
+ },
+ {
+  "id": 1380,
+  "title": "Sangha Trinational",
+  "category": "natural",
+  "inscribed": 2012,
+  "danger": false,
+  "countries": [
+   "CMR",
+   "COG"
+  ],
+  "components": [
+   {
+    "state": "Cameroon",
+    "name": "Parc National de Lobeké - Cameroon ",
+    "lonlat": [
+     15.8141666667,
+     2.3672222223
+    ],
+    "sp": "CMR"
+   },
+   {
+    "state": "Congo",
+    "name": "Parc National de Nouabalé-Ndoki - Congo",
+    "lonlat": [
+     16.5541666667,
+     2.6094444444
+    ],
+    "sp": "COG"
+   }
+  ]
+ },
+ {
+  "id": 692,
+  "title": "Forest Massif of Odzala-Kokoua",
+  "category": "natural",
+  "inscribed": 2023,
+  "danger": false,
+  "countries": [
+   "COG"
+  ],
+  "components": [
+   {
+    "state": "Congo",
+    "name": "Forest Massif of Odzala-Kokoua",
+    "lonlat": [
+     14.8602777778,
+     1.3355555556
+    ],
+    "sp": "COG"
+   }
+  ]
+ },
+ {
+  "id": 136,
+  "title": "Garamba National Park",
+  "category": "natural",
+  "inscribed": 1980,
+  "danger": true,
+  "countries": [
+   "COD"
+  ],
+  "components": [
+   {
+    "state": "Democratic Republic of the Congo",
+    "name": "Garamba National Park",
+    "lonlat": [
+     29.4997222222,
+     4.1666666667
+    ],
+    "sp": "COD"
+   }
+  ]
+ },
+ {
+  "id": 137,
+  "title": "Kahuzi-Biega National Park",
+  "category": "natural",
+  "inscribed": 1980,
+  "danger": true,
+  "countries": [
+   "COD"
+  ],
+  "components": [
+   {
+    "state": "Democratic Republic of the Congo",
+    "name": "Kahuzi-Biega National Park",
+    "lonlat": [
+     28.180743,
+     -2.334053
+    ],
+    "sp": "COD"
+   }
+  ]
+ },
+ {
+  "id": 718,
+  "title": "Okapi Wildlife Reserve",
+  "category": "natural",
+  "inscribed": 1996,
+  "danger": true,
+  "countries": [
+   "COD"
+  ],
+  "components": [
+   {
+    "state": "Democratic Republic of the Congo",
+    "name": "Okapi Wildlife Reserve",
+    "lonlat": [
+     28.5,
+     2.0
+    ],
+    "sp": "COD"
+   }
+  ]
+ },
+ {
+  "id": 280,
+  "title": "Salonga National Park",
+  "category": "natural",
+  "inscribed": 1984,
+  "danger": false,
+  "countries": [
+   "COD"
+  ],
+  "components": [
+   {
+    "state": "Democratic Republic of the Congo",
+    "name": "Parc national de la Salonga Nord",
+    "lonlat": [
+     21.6661880712,
+     -1.5026432572
+    ],
+    "sp": "COD"
+   },
+   {
+    "state": "Democratic Republic of the Congo",
+    "name": "Parc national de la Salonga Sud",
+    "lonlat": [
+     20.8946151951,
+     -2.3937284658
+    ],
+    "sp": "COD"
+   }
+  ]
+ },
+ {
+  "id": 63,
+  "title": "Virunga National Park",
+  "category": "natural",
+  "inscribed": 1979,
+  "danger": true,
+  "countries": [
+   "COD"
+  ],
+  "components": [
+   {
+    "state": "Democratic Republic of the Congo",
+    "name": "Virunga National Park",
+    "lonlat": [
+     29.16666667,
+     0.916666667
+    ],
+    "sp": "COD"
+   }
+  ]
  }
 ]

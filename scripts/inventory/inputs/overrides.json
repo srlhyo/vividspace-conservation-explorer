@@ -29,6 +29,11 @@
    "TGO",
    "Parc national Oti-Kéran",
    "ramsar-735"
+  ],
+  [
+   "COG",
+   "Réserve communautaire du Lac Télé",
+   "ramsar-950"
   ]
  ],
  "overlap": [
@@ -151,6 +156,16 @@
    "CIV",
    "Site du parc national d'Azagny (AMP)",
    "ramsar-790"
+  ],
+  [
+   "COG",
+   "Parc national de Nouabalé-Ndoki",
+   "ramsar-1858"
+  ],
+  [
+   "CMR",
+   "Parc national de Waza",
+   "ramsar-1609"
   ]
  ],
  "acceptWikidata": [

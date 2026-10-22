@@ -1,0 +1,573 @@
+{
+ "country": "CMR",
+ "territoryId": "pa-cmr-parc-national-de-douala-edea",
+ "selectionReason": "Douala-Edéa, the first choice, had strong recent area-specific sources: the 2018 creation decree, a 2021 IMET management-effectiveness sheet, two 2025 peer-reviewed studies (mangrove cover change; artisanal fishing in its marine part) and 2024–2025 news on trawler incursions and community committees. Its mangroves, fishing camps, fish- and clam-smoking economy and ecotourism mandate tie it closely to fisheries, mangrove-restoration and livelihood enterprises. Mount Cameroon and Campo Ma'an were not researched in depth because the first choice was well documented.",
+ "sources": [
+  {
+   "id": "cmr-decree-2018-8399-douala-edea",
+   "title": "Décret n° 2018/8399/PM du 11 octobre 2018 portant mutation de la Réserve de Faune de Douala-Edéa en Parc National de Douala-Edéa",
+   "publisher": "Services du Premier Ministre, République du Cameroun",
+   "url": "https://www.spm.gov.cm/site/sites/default/files/mutation%20de%20la%20reserve%20de%20la%20faune.pdf",
+   "date": "2018-10-11",
+   "kind": "report",
+   "licence": "© Services du Premier Ministre (Cameroon) — official legal text, cited for reference (facts and short quotes)",
+   "note": "In French. Scanned certified copy; the decree number and date are partly illegible in the scan and were confirmed from the IMET sheet (cmr-ofac-imet-douala-edea-2021)."
+  },
+  {
+   "id": "cmr-ofac-imet-douala-edea-2021",
+   "title": "Fiche IMET — Parc National de Douala Edéa, évaluation 2021",
+   "publisher": "Observatoire des Forêts d'Afrique Centrale (OFAC, COMIFAC); prepared by the OFAC-CE project",
+   "url": "https://www.observatoire-comifac.net/file/eyJtb2RlbCI6IkFwcFxcTW9kZWxzXFxMaWJyYXJ5XFxNb2R1bGVzXFxGaWxlIiwiZmllbGQiOiJkb2N1bWVudF9maWxlIiwiaWQiOjQ2ODd9",
+   "date": "2021",
+   "kind": "report",
+   "licence": "© Observatoire des Forêts d'Afrique Centrale — cited for reference (facts and short quotes)",
+   "note": "In French. Management-effectiveness self-assessment (IMET) for 2021; threat scores are assessment ratings, not measurements. The sheet also lists a protected-area database code, which is not used here."
+  },
+  {
+   "id": "cmr-mumbang-2025-forests",
+   "title": "Four Decades of Cover Change, Degradative, and Restitution Stages of Mangrove Forest in Douala-Edea National Park, Cameroon (Forests 16(4): 555; doi:10.3390/f16040555)",
+   "publisher": "MDPI (Forests)",
+   "url": "https://mdpi-res.com/d_attachment/forests/forests-16-00555/article_deploy/forests-16-00555.pdf",
+   "date": "2025-03-21",
+   "kind": "article",
+   "licence": "CC BY 4.0",
+   "note": "Peer-reviewed; Landsat analysis 1980–2022. Some socio-economic figures (population, wood use per household) are cited from older studies. The article's projection passages are internally inconsistent (abstract warns of continued decline, conclusion says improvement), so projections are not used. The mdpi.com landing page blocked automated access; the PDF was fetched from MDPI's file server. The abstract's '17%' loss of mature mangrove and '6.84%' gain in regeneration are changes in share of the study area (percentage points, Table 2), so the hectare figures from Table 2 are used instead."
+  },
+  {
+   "id": "cmr-mbock-2025-vertigo",
+   "title": "La pêche ghanéenne ou artisanale dans l'aire marine protégée de Douala-Edéa : ressources exploitées, pratiques et organisations spatiales (VertigO 25-2; doi:10.4000/15ern)",
+   "publisher": "VertigO – la revue électronique en sciences de l'environnement (OpenEdition)",
+   "url": "https://journals.openedition.org/vertigo/50913",
+   "date": "2025-10",
+   "kind": "article",
+   "licence": "CC BY-NC-ND 4.0",
+   "note": "In French. Peer-reviewed. Fieldwork including GPS tracking in April–July 2024. Supported by a CWCS project funded by Oceans 5."
+  },
+  {
+   "id": "cmr-globalvoices-2025-iuu-douala-edea",
+   "title": "Can local communities curb illegal, unregulated, and unreported (IUU) fishing in Cameroon's Douala Edea National Park?",
+   "publisher": "Global Voices (Leocadia Bongben)",
+   "url": "https://globalvoices.org/2025/10/08/iuu-fishing-at-the-douala-edea-national-park-can-local-communities-participation-reverse-the-trend/",
+   "date": "2025-10-08",
+   "kind": "article",
+   "licence": "CC BY 3.0 (Global Voices)",
+   "note": "Reportage based on interviews; claims of shootings and net destruction are fishers' testimony, not independently verified. The article gives the park's size as '2,630 hectares', which conflicts with the decree (262,935 ha) and is not used."
+  },
+  {
+   "id": "cmr-globalvoices-2024-dase",
+   "title": "Environmental Justice Foundation seeks a solution with the Dase app to battle illegal fishing",
+   "publisher": "Global Voices (Leocadia Bongben)",
+   "url": "https://globalvoices.org/2024/02/15/environmental-justice-foundation-seeks-a-solution-with-the-dase-app-to-battle-illegal-fishing/",
+   "date": "2024-02-15",
+   "kind": "article",
+   "licence": "CC BY 3.0 (Global Voices)",
+   "note": "Reportage; describes EJF's own project, partly from EJF statements."
+  },
+  {
+   "id": "cmr-cwcs-wsfi-2019",
+   "title": "Community sensitization and awareness raising on migratory waterbirds and their habitats within and around the newly created Douala-Edea National Park, Cameroon (final project report)",
+   "publisher": "Cameroon Wildlife Conservation Society (CWCS), for the Common Wadden Sea Secretariat / Wadden Sea Flyway Initiative",
+   "url": "https://flyway.waddensea-worldheritage.org/sites/default/files/2022-07/Final%20Project%20Report%20-%20Douala-Edea%20National%20Park%20Community%20Sensitisation%20_%20Awareness%20Raising%20Project%20TD.pdf",
+   "date": "2019-11",
+   "kind": "report",
+   "licence": "© Cameroon Wildlife Conservation Society — cited for reference (facts and short quotes)",
+   "note": "Self-reported project report by the implementing NGO."
+  },
+  {
+   "id": "cmr-fao-gef-mangroves-2022",
+   "title": "Sustainable community-based management and conservation of mangrove ecosystems in Cameroon",
+   "publisher": "Food and Agriculture Organization of the United Nations (FAO) — FAO and the GEF",
+   "url": "https://www.fao.org/gef/knowledge/knowledge-detail/sustainable-community-based-management-and-conservation-of-mangrove-ecosystems-in-cameroon/en",
+   "date": "2022-09-19",
+   "kind": "webpage",
+   "licence": "© FAO — cited for reference (facts and short quotes)",
+   "note": "Programme summary of a completed FAO-GEF project; outcomes are self-reported and project dates are not given on the page."
+  },
+  {
+   "id": "cmr-ndjamou-2024-clams",
+   "title": "Dynamics of Smoking Practices of Clams Galatea schwabi (Clench, 1929) in the Lower Sanaga, Littoral Region (Cameroon) (Trends in Medical Research 19(1): 44–56; doi:10.3923/tmr.2024.44.56)",
+   "publisher": "Science Alert (Trends in Medical Research)",
+   "url": "https://tmr.scione.com/cms/fulltext.php?id=139",
+   "date": "2024-03-06",
+   "kind": "article",
+   "licence": "CC BY 4.0",
+   "note": "Survey of 142 clam smokers, February–June 2022, in villages described as enclaves of or peripheral to the park. Published in a medical journal outside the fisheries field; used only for basic descriptive findings."
+  },
+  {
+   "id": "cmr-gws-2018-douala-edea-np",
+   "title": "Cameroon | Douala-Edea Wildlife Reserve expanded, redesignated as NP; now includes vast mangroves",
+   "publisher": "George Wright Society (Parkwire)",
+   "url": "https://www.georgewrightsociety.org/post/cameroon-douala-edea-wildlife-reserve-expanded-redesignated-as-np-now-includes-vast-mangroves",
+   "date": "2018-10-16",
+   "kind": "article",
+   "licence": "© George Wright Society — cited for reference (facts and short quotes)",
+   "note": "Secondary news digest that summarises a Rainforest Trust announcement. The Rainforest Trust pages could not be fetched (404 or no response)."
+  }
+ ],
+ "overview": [
+  {
+   "text": "A decree of 11 October 2018 converted the Douala-Edéa Wildlife Reserve into Douala-Edéa National Park, covering 262,935 ha in the Wouri and Sanaga-Maritime divisions of the Littoral Region, with its headquarters at Mouanko. Its stated aims include protecting forest, mangrove, river, lake and marine ecosystems, promoting ecotourism income and improving the well-being of neighbouring communities.",
+   "evidence": "verified",
+   "sourceIds": [
+    "cmr-decree-2018-8399-douala-edea"
+   ]
+  },
+  {
+   "text": "The park is under the Ministry of Forestry and Wildlife (MINFOF) and governed by the state. The 2021 assessment lists CWCS, ZSL, AMMCO, PAPAYE International and Mouanko Horizon 2000 as partners and notes manatees, chimpanzees, leatherback turtles, forest elephants and grey parrots among its key species.",
+   "evidence": "verified",
+   "sourceIds": [
+    "cmr-ofac-imet-douala-edea-2021"
+   ]
+  },
+  {
+   "text": "According to a 2025 study, the upgrade to national park put about 40,000 ha of mangroves and about 100,000 ha of marine habitat under full protection.",
+   "evidence": "verified",
+   "sourceIds": [
+    "cmr-mumbang-2025-forests"
+   ]
+  }
+ ],
+ "livelihoods": [
+  {
+   "text": "More than 60 villages lie inside the park. Their main activity is fishing and selling fish products to Douala, Edéa and Kribi, and most of the catch is preserved by smoking it over mangrove wood.",
+   "evidence": "verified",
+   "sourceIds": [
+    "cmr-mumbang-2025-forests"
+   ]
+  },
+  {
+   "text": "In the marine part of the park, Cameroonian residents harvest clams, while foreign fishers dominate fish catches. These are mainly Nigerians (Ilaje and Yoruba) and Ghanaians (Adan).",
+   "evidence": "verified",
+   "sourceIds": [
+    "cmr-mbock-2025-vertigo"
+   ]
+  },
+  {
+   "text": "A 2022 survey of clam smokers in villages in the park's enclaves or on its edge found that most were women. Smoking was the main way of storing clams, and Nigerian buyers were the main customers.",
+   "evidence": "verified",
+   "sourceIds": [
+    "cmr-ndjamou-2024-clams"
+   ]
+  }
+ ],
+ "challenges": [
+  {
+   "id": "cmr-douala-edea-industrial-trawling",
+   "title": "Industrial trawler incursions into the marine park",
+   "themeIds": [
+    "fisheries",
+    "governance",
+    "livelihoods"
+   ],
+   "statements": [
+    {
+     "text": "Fishers in Mbiako, Yoyo I and Yoyo II say industrial trawlers fish illegally in the park's waters. They report that trawler crews cut and take their nets and catch and threaten them with guns.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-globalvoices-2025-iuu-douala-edea"
+     ]
+    },
+    {
+     "text": "Fishers who must replace destroyed nets borrow money and fall into debt. They say complaints to the fisheries ministry have not brought a solution.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-globalvoices-2025-iuu-douala-edea"
+     ]
+    },
+    {
+     "text": "A 2024 report on the Douala-Edéa marine area says trawler incursions into Cameroon's marine protected areas have continued since 2018 and that the fisheries and forestry ministries have very limited capacity to stop them. The park's conservator called for more operational capacity.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-globalvoices-2024-dase"
+     ]
+    },
+    {
+     "text": "The 2021 management assessment lists large-scale fishing among the park's main threats.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-ofac-imet-douala-edea-2021"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cmr-douala-edea-mangrove-wood",
+   "title": "Mangrove loss from wood cutting for fish smoking",
+   "themeIds": [
+    "mangroves",
+    "livelihoods",
+    "land-use"
+   ],
+   "statements": [
+    {
+     "text": "Mature mangroves in the park covered about 80,600 ha in 1980 and about 28,600 ha in 2022, according to the study's Landsat classification. They were replaced mainly by settlements, invasive Nypa palms, bare ground left by over-exploitation, and river and coastal sedimentation.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-mumbang-2025-forests"
+     ]
+    },
+    {
+     "text": "Cutting logs for fuelwood and poles for construction is the main cause of mangrove degradation, especially around the fishing camps of Yoyo 1 and 2, Youme 1 and 2, and Mbiako. Women fish smokers cut poles and chainsaw operators supply logs to Douala, both illegally. Selective cutting of young red mangrove (Rhizophora) stems greatly hampers natural regeneration.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-mumbang-2025-forests"
+     ]
+    },
+    {
+     "text": "Civil-society efforts to introduce improved fish-smoking ovens have not met their goals, and fish smokers still stockpile large amounts of mangrove wood in the fishing settlements.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-mumbang-2025-forests"
+     ]
+    },
+    {
+     "text": "Clam smoking in villages in the park's enclaves or on its edge uses traditional smokehouses and firewood from fields and forest. The 2024 study's authors suggest it is a non-negligible factor in deforestation in Mouanko municipality.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-ndjamou-2024-clams"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cmr-douala-edea-juvenile-catch",
+   "title": "Non-selective artisanal gear catching immature fish",
+   "themeIds": [
+    "fisheries",
+    "species"
+   ],
+   "statements": [
+    {
+     "text": "Between August and January, Ghanaian fishers in the park use beach seines on its beaches and cast nets in the lagoons and mangroves around Yoyo. Both gears are non-selective and prohibited.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-mbock-2025-vertigo"
+     ]
+    },
+    {
+     "text": "In Ghanaian fishers' landings sampled at Yoyo in 2024, about 35% of fish caught with beach seines and cast nets were immature, against 15% with purse seines. A quarter of the catch of the most-landed species, the bonga shad (Ethmalosa fimbriata), was immature.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-mbock-2025-vertigo"
+     ]
+    },
+    {
+     "text": "Citing earlier work, the study names many foreign fishers, weak enforcement of fisheries law and over-exploitation as the main obstacles to sustainable management of Cameroon's marine fisheries, which include those of the park.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "cmr-mbock-2025-vertigo"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "cmr-douala-edea-management-gaps",
+   "title": "No management plan, and thin staff and funding",
+   "themeIds": [
+    "governance",
+    "finance",
+    "species"
+   ],
+   "statements": [
+    {
+     "text": "The 2021 assessment found that the park had no management plan or zoning plan, too few rangers to cover threatened zones, a severe shortage of equipment and too few financial partners to carry out its work.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-ofac-imet-douala-edea-2021"
+     ]
+    },
+    {
+     "text": "The decree says local people's use rights are to be set through a participatory process within the park's management plan.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-decree-2018-8399-douala-edea"
+     ]
+    },
+    {
+     "text": "The same assessment reports that poaching and nearby large towns threaten flagship species, and that population growth, including people displaced from Cameroon's North-West and South-West regions, adds to the pressure.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-ofac-imet-douala-edea-2021"
+     ]
+    },
+    {
+     "text": "A 2025 study links mangrove degradation in the park partly to too few forest control teams and difficulties in enforcing the law.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-mumbang-2025-forests"
+     ]
+    }
+   ]
+  }
+ ],
+ "opportunities": [
+  {
+   "id": "cmr-douala-edea-efficient-smoking-kilns",
+   "title": "Locally built, fuel-saving fish-smoking kilns for the fishing camps",
+   "themeIds": [
+    "mangroves",
+    "livelihoods",
+    "fisheries"
+   ],
+   "challengeIds": [
+    "cmr-douala-edea-mangrove-wood"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "Fish caught in the park are mostly smoked over mangrove wood, and wood cutting around the fishing camps is the main cause of mangrove degradation.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-mumbang-2025-forests"
+     ]
+    },
+    {
+     "text": "Modern ovens are reported to cut the amount of mangrove wood needed. However, existing designs are small and burn the women who use them, and the study's authors suggest new restoration projects consider ovens that take more fish and avoid burns.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-mumbang-2025-forests"
+     ]
+    },
+    {
+     "text": "A kiln redesigned with the women fish smokers, then built and serviced by local artisans and sold or leased to camps, could address the design problems the study reports while cutting demand for mangrove wood.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "cmr-mumbang-2025-forests"
+     ]
+    },
+    {
+     "text": "Such a business would need a legal, sustainable wood or alternative fuel supply and prices smokers can afford. Neither is documented for the park.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "Why did earlier improved-oven efforts in the park fail, according to the fish smokers themselves?",
+    "What would a larger, safer kiln cost, and would camps pay for it or need finance?",
+    "What fuel could be legally sourced under the park's rules and the 2024 forestry law?",
+    "Would the park authority allow kiln production or fuel supply within park villages?"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "cwcs",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "CWCS runs a coastal forests and mangrove programme based in Mouanko and has worked with the park's villages and fishing camps, so it could be a partner for testing kiln designs. No source shows it currently runs a kiln initiative in the park.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "cmr-cwcs-wsfi-2019",
+       "cmr-ofac-imet-douala-edea-2021"
+      ]
+     }
+    },
+    {
+     "organisationId": "minfof",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As the park's managing ministry, MINFOF would need to agree to any fuel-supply or kiln activity, because local use rights are still to be defined in the park's management plan.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "cmr-ofac-imet-douala-edea-2021",
+       "cmr-decree-2018-8399-douala-edea"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "cmr-douala-edea-community-mangrove-restoration",
+   "title": "Community mangrove nurseries and restoration crews",
+   "themeIds": [
+    "mangroves",
+    "livelihoods",
+    "climate"
+   ],
+   "challengeIds": [
+    "cmr-douala-edea-mangrove-wood"
+   ],
+   "evidence": "interpretation",
+   "rationale": [
+    {
+     "text": "The area classed as regenerating mangrove in the park grew by about 19,000 ha between 1980 and 2022. The authors attribute this to natural and assisted regeneration, including efforts by ministries and NGOs; CWCS data cited in the study show about 50 ha restored in 2009–2018.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-mumbang-2025-forests"
+     ]
+    },
+    {
+     "text": "The same study calls for stepped-up restoration of degraded areas and for strategies that bring local communities into restoration willingly, backed by alternative livelihoods.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-mumbang-2025-forests"
+     ]
+    },
+    {
+     "text": "Nursery groups and paid planting and monitoring crews from park villages, contracted by restoration programmes, could turn restoration into local income. Removing invasive Nypa palm could be one of their tasks.",
+     "evidence": "interpretation",
+     "sourceIds": [
+      "cmr-mumbang-2025-forests"
+     ]
+    },
+    {
+     "text": "Whether restoration funders, including any carbon-credit buyers, would pay for this work over several years inside a national park is unverified.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "Which restoration programmes are active in the park now, and do they pay community crews?",
+    "Which degraded sites inside the park can be planted, and who decides?",
+    "Is there a proven, affordable way to control Nypa palm?",
+    "How would seedling survival be monitored and paid for after planting?"
+   ],
+   "organisationLinks": [
+    {
+     "organisationId": "fao",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "FAO's GEF-funded mangrove project helped create the park and carried out community reforestation at three sites, which the page does not name. That makes FAO a possible source of methods and lessons, not a current initiative in the park.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "cmr-fao-gef-mangroves-2022"
+      ]
+     }
+    },
+    {
+     "organisationId": "minfof",
+     "relationship": "potential-stakeholder",
+     "statement": {
+      "text": "As the managing ministry of a park with no zoning plan, MINFOF would need to decide where restoration may take place.",
+      "evidence": "interpretation",
+      "sourceIds": [
+       "cmr-ofac-imet-douala-edea-2021"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "id": "cmr-douala-edea-clam-value-chain",
+   "title": "Women's clam-processing groups with cleaner smoking and better market access",
+   "themeIds": [
+    "livelihoods",
+    "fisheries"
+   ],
+   "challengeIds": [
+    "cmr-douala-edea-mangrove-wood"
+   ],
+   "evidence": "hypothesis",
+   "rationale": [
+    {
+     "text": "Clam smoking around the park is mostly done by women, using wood-fired smokehouses. Its reported problems are pests in storage, makeshift smoking equipment, health effects on smokers and limited access to buyers other than Nigerian traders.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-ndjamou-2024-clams"
+     ]
+    },
+    {
+     "text": "An FAO-GEF mangrove project trained oyster growers in Mouanko, where the park's headquarters is located, as part of training 14 groups that drew up business plans.",
+     "evidence": "verified",
+     "sourceIds": [
+      "cmr-fao-gef-mangroves-2022",
+      "cmr-decree-2018-8399-douala-edea"
+     ]
+    },
+    {
+     "text": "Shared processing facilities using less wood, with hygienic storage and group selling, could raise the value of each harvest while cutting wood use. This needs testing with the clam smokers.",
+     "evidence": "hypothesis",
+     "sourceIds": []
+    }
+   ],
+   "validationNeeded": [
+    "Is the clam stock stable enough to support more processing without more harvesting?",
+    "Which fuel-saving or solar-drying methods do clam smokers accept, and at what cost?",
+    "Are there buyers in Douala or elsewhere willing to pay more for hygienically processed clams?",
+    "Do existing women's groups or cooperatives in the park villages want to lead this?"
+   ],
+   "organisationLinks": []
+  }
+ ],
+ "organisations": [
+  {
+   "id": "minfof",
+   "name": "Ministère des Forêts et de la Faune (Ministry of Forestry and Wildlife)",
+   "acronym": "MINFOF",
+   "type": "government-agency",
+   "url": "https://www.minfof.gov.cm/",
+   "role": {
+    "text": "Supervising authority of Douala-Edéa National Park, with state governance.",
+    "evidence": "verified",
+    "sourceIds": [
+     "cmr-ofac-imet-douala-edea-2021"
+    ]
+   }
+  },
+  {
+   "id": "cwcs",
+   "name": "Cameroon Wildlife Conservation Society",
+   "acronym": "CWCS",
+   "type": "national-ngo",
+   "role": {
+    "text": "Listed partner of the park. Its coastal forests and mangrove programme, based in Mouanko, ran awareness campaigns on waterbirds in the park's villages in 2019.",
+    "evidence": "verified",
+    "sourceIds": [
+     "cmr-ofac-imet-douala-edea-2021",
+     "cmr-cwcs-wsfi-2019"
+    ]
+   }
+  },
+  {
+   "id": "ejf",
+   "name": "Environmental Justice Foundation",
+   "acronym": "EJF",
+   "type": "international-ngo",
+   "url": "https://ejfoundation.org/",
+   "role": {
+    "text": "Works with MINFOF and CWCS on community-based surveillance against trawler incursions in the park's marine area. It trained fishers to use its Dase reporting app and supports local collaborative management committees in Mbiako and Yoyo.",
+    "evidence": "verified",
+    "sourceIds": [
+     "cmr-globalvoices-2024-dase",
+     "cmr-globalvoices-2025-iuu-douala-edea"
+    ]
+   }
+  },
+  {
+   "id": "fao",
+   "name": "Food and Agriculture Organization of the United Nations",
+   "acronym": "FAO",
+   "type": "international-organisation",
+   "url": "https://www.fao.org/",
+   "role": {
+    "text": "Its GEF-funded project on community-based mangrove management contributed to the creation of Douala-Edéa National Park.",
+    "evidence": "verified",
+    "sourceIds": [
+     "cmr-fao-gef-mangroves-2022"
+    ]
+   }
+  },
+  {
+   "id": "rainforest-trust",
+   "name": "Rainforest Trust",
+   "type": "international-ngo",
+   "url": "https://www.rainforesttrust.org/",
+   "role": {
+    "text": "Supported, with CWCS, the 2018 upgrade of the Douala-Edéa reserve to a national park and its expansion, according to a contemporary news report of Rainforest Trust's announcement.",
+    "evidence": "verified",
+    "sourceIds": [
+     "cmr-gws-2018-douala-edea-np"
+    ]
+   }
+  }
+ ],
+ "verificationNote": "Every statement was checked against text fetched with curl and converted with pdftotext or an HTML-to-text script. The main sources are the 2018 creation decree, the 2021 IMET management-effectiveness sheet published by OFAC, two 2025 peer-reviewed studies (Forests, on mangrove cover change 1980–2022; VertigO, on artisanal fishing with 2024 fieldwork), and Global Voices reports from 2024 and 2025. Older socio-economic figures that the 2025 Forests paper cites from earlier studies, such as household wood use, were not used as facts. Accounts of trawler violence are fishers' testimony reported by journalists. Sources disagree on the park's size: the decree and IMET give 262,935 ha, the 2019 CWCS report gives about 300,000 ha, and Global Voices gives an erroneous '2,630 hectares'. The decree figure is used. Wikidata item Q1251334 is labelled 'Douala-Edéa National Park', is an instance of national park in Cameroon, and has coordinates (3.5°N, 9.83°E) inside the park; its inception date (1932) is the reserve's.",
+ "gaps": [
+  "No management plan was found, and the 2021 IMET sheet says none existed then. Current zoning and use rules for fishing and wood cutting inside the park are therefore not documented.",
+  "ZSL's project page on the Douala-Edéa landscape, the Kew TIPAS factsheet, the Panorama solution page and the Rainforest Trust pages could not be fetched (403/404). ZSL's role is documented only as a listed partner and for market surveys, so ZSL is not included as an organisation.",
+  "No source documents an ecotourism enterprise operating in the park, even though ecotourism is one of the decree's objectives, so no tourism activity is proposed.",
+  "No recent source names who ran the improved-oven efforts in the park, or their adoption rates. The 2009 studies on this were not fetchable or are too old.",
+  "No official CWCS website could be confirmed: the domain cwcscameroon.org now redirects to an unrelated site, so the URL is omitted.",
+  "The 2024 clam-smoking study was published in a medical journal outside the fisheries field. Only its basic descriptive findings are used, and no stock assessment of the park's clams was found.",
+  "The FAO-GEF page does not say whether its reforestation sites or the Mouanko oyster growers are inside the park boundary.",
+  "Industrial-trawler incursions are documented through fishers' testimony and NGO-supported reporting. No official inspection or vessel-tracking data for the park was found."
+ ]
+}

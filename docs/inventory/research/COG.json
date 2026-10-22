@@ -1,0 +1,844 @@
+{
+ "country": "COG",
+ "countryName": "Republic of the Congo",
+ "officialInventory": {
+  "summary": "No consolidated official list was retrievable online: the ACFAP (Agence congolaise de la faune et des aires protégées, created by Loi 34-2012) website did not respond. Congo's 6th national report to the CBD (MEFDD, September 2017) gives the most recent government table: 15 protected areas (4 national parks, 7 reserves, 2 sanctuaries, 2 hunting domains), 3,903,010 ha (11%). The OFAC/COMIFAC 'État des aires protégées 2015' gives the same 15 sites with creation texts. This file adds Ogooué-Lékéti National Park (Décret 2022-1921) and two community marine reserves adopted by the Council of Ministers in October 2023, whose report speaks of 17 parks and reserves. Most entries are checked against the creation decrees on FAOLEX; the Mont Fouari complex and Tsoulou rely on the CBD report and EdAP 2015.",
+  "sourceIds": [
+   "cog-cbd-nr6-2017",
+   "cog-ofac-edap-2015",
+   "cog-ccm-2023-10-25",
+   "cog-nbsap-2015",
+   "cog-leap-loi-34-2012",
+   "cog-loi-37-2008"
+  ],
+  "machineReadable": false,
+  "statedCounts": [
+   {
+    "category": "protected areas (total)",
+    "count": 15,
+    "asOf": "2017",
+    "sourceId": "cog-cbd-nr6-2017",
+    "quote": "15 Aires protégées dont 4 Parcs Nationaux, 7 Réserves, 2 Sanctuaires et 2 Domaines de chasse"
+   },
+   {
+    "category": "national parks",
+    "count": 4,
+    "asOf": "2017",
+    "sourceId": "cog-cbd-nr6-2017",
+    "quote": "15 Aires protégées dont 4 Parcs Nationaux"
+   },
+   {
+    "category": "protected areas (total)",
+    "count": 15,
+    "asOf": "2015",
+    "sourceId": "cog-ofac-edap-2015",
+    "quote": "le pays compte un total de 15 aires protégées d'une superficie d'environ 3 990 000 ha"
+   },
+   {
+    "category": "parks and reserves (total, incl. Conkouati-Douli)",
+    "count": 17,
+    "asOf": "2023-10-25",
+    "sourceId": "cog-ccm-2023-10-25",
+    "quote": "A l'exception du Parc national de Conkouati-Douli qui a une extension marine, les seize autres parcs nationaux et réserves dédiées à la préservation de la biodiversité sont terrestres."
+   },
+   {
+    "category": "protected areas (total, in 2000)",
+    "count": 16,
+    "asOf": "2000",
+    "sourceId": "cog-cbd-nr5-2014",
+    "quote": "Le Congo comptait en 2000, seize (16) aires protégées couvrant 3.778.496 ha"
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "cog-cbd-nr6-2017",
+   "title": "6ème Rapport national sur la diversité biologique de la République du Congo",
+   "publisher": "Ministère de l'Économie forestière et du Développement durable (submitted to the CBD)",
+   "url": "https://www.cbd.int/doc/world/cg/cg-nr-06-fr.pdf",
+   "date": "2017-09",
+   "kind": "report",
+   "licence": "© Government of the Republic of the Congo / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "Pp. 75-76: '15 Aires protégées dont 4 Parcs Nationaux, 7 Réserves, 2 Sanctuaires et 2 Domaines de chasse', 3,903,010 ha (11%), with a table of names and areas."
+  },
+  {
+   "id": "cog-cbd-nr5-2014",
+   "title": "Cinquième rapport national sur la diversité biologique (République du Congo)",
+   "publisher": "Government of the Republic of the Congo (submitted to the CBD)",
+   "url": "https://www.cbd.int/doc/world/cg/cg-nr-05-fr.pdf",
+   "date": "2014-03",
+   "kind": "report",
+   "licence": "© Government of the Republic of the Congo / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "Section II.4.1.1 lists the protected areas, including the Patte d'Oie forest reserve and the 'zone d'intérêt cynégétique de Yengo Mohali'; says 16 protected areas in 2000."
+  },
+  {
+   "id": "cog-nbsap-2015",
+   "title": "Stratégie nationale et plan d'actions sur la diversité biologique (révisé)",
+   "publisher": "Ministère de l'Économie forestière et du Développement durable (MEFDD) / PNUE / FEM",
+   "url": "https://www.cbd.int/doc/world/cg/cg-nbsap-v2-fr.pdf",
+   "date": "2015-08",
+   "kind": "report",
+   "licence": "© Government of the Republic of the Congo / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "Section IV-1 lists the network by category (4,528,418 ha, about 13.2%), including the Koubou sanctuary inside Conkouati-Douli and the Patte d'Oie forest reserve."
+  },
+  {
+   "id": "cog-ofac-edap-2015",
+   "title": "Les aires protégées d'Afrique centrale – État 2015 (chapitre République du Congo, Annexe 1 – Tableau récapitulatif des aires protégées du Congo)",
+   "publisher": "OFAC / COMIFAC (Doumenge C., Palla F., Scholte P., Hiol Hiol F., Larzillière A., eds.)",
+   "url": "https://comifac.org/images/documents/EdAP_2015.pdf",
+   "date": "2015",
+   "kind": "report",
+   "licence": "© OFAC / COMIFAC — cited for reference (facts and short quotes)",
+   "note": "Regional observatory report (COMIFAC). Congo chapter pp. 95-108: 15 protected areas, 3,992,422 ha, with creation dates, legal texts and areas per site; the annex is labelled preliminary ('devront être vérifiées par les autorités compétentes'). Not derived from WDPA as far as the chapter states. Some decree numbers in the annex disagree with the FAOLEX texts (see gaps)."
+  },
+  {
+   "id": "cog-ccm-2023-10-25",
+   "title": "Compte rendu du Conseil des ministres du 25 octobre 2023",
+   "publisher": "Secrétariat général du Gouvernement, République du Congo",
+   "url": "https://www.sgg.cg/ccm/compte-rendu-cmd-2023-10-25.pdf",
+   "date": "2023-10-25",
+   "kind": "report",
+   "licence": "© Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Adoption of draft decrees creating the Réserve marine communautaire de la baie de Loango and of Mvassa, and extending Conkouati-Douli from 504,950 to 795,550 ha. States that apart from Conkouati-Douli 'les seize autres parcs nationaux et réserves' are terrestrial."
+  },
+  {
+   "id": "cog-decret-2001-odzala",
+   "title": "Décret du 10 mai 2001 portant création du parc national d'Odzala-Kokoua (number printed '2004-221' on the scan)",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con160974.pdf",
+   "date": "2001-05-10",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Art. 2: 1,354,600 hectares. LEAP record: https://leap.unep.org/en/countries/cg/national-legislation/decret-no-2004-221-du-10-mai-2001-portant-creation-du-parc"
+  },
+  {
+   "id": "cog-decret-2022-1922",
+   "title": "Décret n° 2022-1922 du 26 décembre 2022 portant approbation du plan d'aménagement du parc national d'Odzala-Kokoua (Journal officiel du 5 janvier 2023)",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con219562.pdf",
+   "date": "2022-12-26",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Approves the management plan (validity 10 years); cites Loi 37-2008 on wildlife and protected areas."
+  },
+  {
+   "id": "cog-decret-93-727",
+   "title": "Décret n° 93-727 du 31 décembre 1993 portant création du parc national de Nouabalé-Ndoki dans les régions de la Likouala et de la Sangha",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con18120.pdf",
+   "date": "1993-12-31",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Art. 3: 386,592 hectares (original limits)."
+  },
+  {
+   "id": "cog-decret-2012-396",
+   "title": "Décret n° 2012-396 du 23 avril 2012 modifiant et complétant certaines dispositions du décret n° 93-727 (parc national de Nouabalé-Ndoki) — Journal officiel n° 17 du 26 avril 2012, pp. 385-386",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con113991.pdf",
+   "date": "2012-04-23",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "New Art. 3: 423,870 hectares."
+  },
+  {
+   "id": "cog-decret-99-136bis",
+   "title": "Décret n° 99-136 bis du 14 août 1999 portant création du parc national de Conkouati-Douli",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con160971.pdf",
+   "date": "1999-08-14",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Art. 2: 504,950 hectares, with a continental part and a marine part."
+  },
+  {
+   "id": "cog-pa-conkouati-2009",
+   "title": "Plan d'aménagement du parc national de Conkouati-Douli",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con219315.pdf",
+   "date": "2009",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "States the park was created by Décret 99-136bis of 14 August 1999, covers 504,950 ha and that the marine part is 24% of the total."
+  },
+  {
+   "id": "cog-decret-2013-77",
+   "title": "Décret n° 2013-77 du 4 mars 2013 portant création du parc national de Ntokou-Pikounda dans les départements de la Sangha et de la Cuvette (Journal officiel n° 11-2013 du 14 mars 2013)",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/CON131401.pdf",
+   "date": "2013-03-04",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Art. 2: 'une superficie d'environ 4272 km²'."
+  },
+  {
+   "id": "cog-decret-2022-1921",
+   "title": "Décret n° 2022-1921 du 26 décembre 2022 portant création du parc national d'Ogooué-Lékéti, situé à cheval sur les départements des Plateaux et de la Lékoumou",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con219563.pdf",
+   "date": "2022-12-26",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Art. 2: 348,694 hectares; managed by ACFAP. LEAP: https://leap.unep.org/en/countries/cg/national-legislation/decret-ndeg-2022-1921-du-26-decembre-2022-portant-creation-du"
+  },
+  {
+   "id": "cog-arrete-3671-1951",
+   "title": "Arrêté n° 3671 du 26 novembre 1951 créant une réserve de chasse dite de la Léfini (FAOLEX record dated 19 February 2003)",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con160967.pdf",
+   "date": "1951-11-26",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Poor-quality scan; abstract from LEAP: https://leap.unep.org/en/countries/cg/national-legislation/arrete-ndeg-3671-du-19-fevrier-2003-du-26-novembre-1951-creant"
+  },
+  {
+   "id": "cog-arrete-684-2008",
+   "title": "Arrêté n° 684 du 14 avril 2008 modifiant et complétant l'article 3 de l'arrêté n° 3671 du 26 novembre 1951 créant une réserve de chasse dite de la Léfini (Journal officiel n° 16 du 17 avril 2008, p. 633)",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con80534.pdf",
+   "date": "2008-04-14",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "New Art. 3: the reserve covers 271,000 hectares."
+  },
+  {
+   "id": "cog-decret-2001-222",
+   "title": "Décret n° 2001-222 du 10 mai 2001 portant création d'une réserve naturelle dénommée sanctuaire de gorilles de Lossi",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con160969.pdf",
+   "date": "2001-05-10",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Art. 2: 35,000 hectares."
+  },
+  {
+   "id": "cog-decret-99-300",
+   "title": "Décret n° 99-300 du 31 décembre 1999 portant création et organisation de la réserve naturelle de Tchimpounga (LEAP title gives '99-308')",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con160968.pdf",
+   "date": "1999-12-31",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Creates a 'réserve naturelle dénommée sanctuaire à chimpanzés de Tchimpounga' of 6,396 hectares."
+  },
+  {
+   "id": "cog-decret-2009-203",
+   "title": "Décret n° 2009-203 du 20 juillet 2009 portant création et organisation de la réserve naturelle de gorilles de Lésio-Louna (Journal officiel n° 30 du 23 juillet 2009, pp. 1850-1851)",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con93674.pdf",
+   "date": "2009-07-20",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "173,000 hectares; repeals Décret 99-309 of 31 December 1999 (per LEAP note)."
+  },
+  {
+   "id": "cog-decret-2001-220",
+   "title": "Décret n° 2001-220 du 10 mai 2001 portant création de la réserve communautaire du Lac-Télé",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con160986.pdf",
+   "date": "2001-05-10",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "438,960 hectares in a north block (281,640 ha) and a south block (157,320 ha)."
+  },
+  {
+   "id": "cog-decret-88-181",
+   "title": "Décret n° 88/181 du 1er mars 1988 portant création de la réserve de la biosphère de Dimonika dans le Mayombe",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con18123.pdf",
+   "date": "1988-03-01",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Art. 3: 1,360 km²; core zone 910 km²."
+  },
+  {
+   "id": "cog-arrete-1938-patte-doie",
+   "title": "Arrêté du 13 août 1938 relatif à la forêt de la Patte d'Oie",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con18118.pdf",
+   "date": "1938-08-13",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "About 240 hectares in Brazzaville set aside as 'Réserve de la patte-d'Oie'."
+  },
+  {
+   "id": "cog-loi-37-2008",
+   "title": "Loi n° 37-2008 du 28 novembre 2008 sur la faune et les aires protégées (Journal officiel n° 49 du 4 décembre 2008)",
+   "publisher": "Government of the Republic of the Congo (via FAOLEX)",
+   "url": "https://faolex.fao.org/docs/pdf/con86726.pdf",
+   "date": "2008-11-28",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) record of an official text; text © Government of the Republic of the Congo — cited for reference (facts and short quotes)",
+   "note": "Framework law for protected areas."
+  },
+  {
+   "id": "cog-leap-loi-34-2012",
+   "title": "Loi n° 34-2012 du 31 octobre 2012 portant création de l'Agence congolaise de la faune et des aires protégées — LEAP record",
+   "publisher": "UNEP Law and Environment Assistance Platform (content from FAO/FAOLEX)",
+   "url": "https://leap.unep.org/en/countries/cg/national-legislation/loi-ndeg-34-2012-du-31-octobre-2012-portant-creation-de-lagence",
+   "date": "2012-10-31",
+   "kind": "webpage",
+   "licence": "© UNEP / FAO — cited for reference (facts and short quotes)",
+   "note": "Creates ACFAP, responsible for protected areas and for proposing classification/declassification procedures."
+  },
+  {
+   "id": "cog-leap-decret-2015-262",
+   "title": "Décret n° 2015-262 du 27 février 2015 portant approbation du plan d'aménagement du sanctuaire de gorilles de Lossi — LEAP record",
+   "publisher": "UNEP Law and Environment Assistance Platform (content from FAO/FAOLEX)",
+   "url": "https://leap.unep.org/en/countries/cg/national-legislation/decret-ndeg-2015-262-du-27-fevrier-2015-portant-approbation-du",
+   "date": "2015-02-27",
+   "kind": "webpage",
+   "licence": "© UNEP / FAO — cited for reference (facts and short quotes)",
+   "note": "Lossi sanctuary, Mbomo district, Cuvette-Ouest department."
+  },
+  {
+   "id": "cog-leap-arrete-6516-2020",
+   "title": "Arrêté n° 6516 du 18 juin 2020 fixant les modalités de mise en valeur et de gestion participative des séries de conservation et de protection des unités forestières d'aménagement — LEAP listing",
+   "publisher": "UNEP Law and Environment Assistance Platform (content from FAO/FAOLEX)",
+   "url": "https://leap.unep.org/en/countries/cg/national-legislation/arrete-ndeg-6516-du-18-juin-2020-fixant-les-modalites-de-mise-en",
+   "date": "2020-06-18",
+   "kind": "webpage",
+   "licence": "© UNEP / FAO — cited for reference (facts and short quotes)",
+   "note": "Title only consulted."
+  },
+  {
+   "id": "cog-wcs-mpa-2022",
+   "title": "The Republic of the Congo Announces the Creation of the Country's First Marine Protected Areas",
+   "publisher": "Wildlife Conservation Society (NGO press release)",
+   "url": "https://newsroom.wcs.org/News-Releases/articleType/ArticleView/articleId/17981/The-Republic-of-the-Congo-Announces-the-Creation-of-the-Countrys-First-Marine-Protected-Areas.aspx",
+   "date": "2022-08-31",
+   "kind": "article",
+   "licence": "© WCS — cited for reference (facts and short quotes)",
+   "note": "NGO source used only for context: three MPAs (Conkouati-Douli marine extension, Loango, Mvassa) covering 4,330 km²; the 2019 marine spatial plan identified eleven MPAs."
+  },
+  {
+   "id": "cog-fpp-messok-dja-2022",
+   "title": "Conversations sur la conservation: réflexions de 16 communautés baka et bakwélé vivant aux alentours du lieu proposé pour la création de l'aire protégée de Messok Dja",
+   "publisher": "Forest Peoples Programme (NGO report)",
+   "url": "https://www.forestpeoples.org/sites/default/files/documents/220407_Conversations%20about%20conservation_French_v4%20FINAL.pdf",
+   "date": "2022",
+   "kind": "report",
+   "licence": "© Forest Peoples Programme — cited for reference (facts and short quotes)",
+   "note": "NGO source used only to document the proposed status of Messok Dja (discussions since 2010; consultations relaunched end-2021)."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Parc national d'Odzala-Kokoua",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Created by decree of 10 May 2001 (number printed '2004-221' on the FAOLEX scan; LEAP lists it as 'Décret nº 2004-221 du 10 mai 2001'); management plan approved by Décret n° 2022-1922 of 26 December 2022. EdAP 2015 also cites Arrêté 2243 of 27 July 1940.",
+    "sourceIds": [
+     "cog-decret-2001-odzala",
+     "cog-decret-2022-1922",
+     "cog-ofac-edap-2015"
+    ]
+   },
+   "established": "2001-05-10",
+   "areaKm2": 13546.0,
+   "coordinates": null,
+   "wikidataQid": "Q263883",
+   "marine": null,
+   "sourceIds": [
+    "cog-decret-2001-odzala",
+    "cog-decret-2022-1922",
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Departments: Cuvette-Ouest and Sangha. Area 1,354,600 ha per the 2001 decree (same in NR6 and EdAP 2015). EdAP 2015 gives 1935 as the original creation date of the Odzala park; the 2001 decree created the present Odzala-Kokoua park. EdAP 2015 counts part of the park in its biosphere-reserve total and lists African Parks as main partner. Area converted from hectares."
+  },
+  {
+   "name": "Parc national de Nouabalé-Ndoki",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Created by Décret n° 93-727 of 31 December 1993; limits modified by Décret n° 2012-396 of 23 April 2012 (JO n° 17, 26 April 2012).",
+    "sourceIds": [
+     "cog-decret-93-727",
+     "cog-decret-2012-396"
+    ]
+   },
+   "established": "1993-12-31",
+   "areaKm2": 4238.7,
+   "coordinates": null,
+   "wikidataQid": "Q3015170",
+   "marine": null,
+   "sourceIds": [
+    "cog-decret-93-727",
+    "cog-decret-2012-396",
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Departments: Likouala and Sangha. Area 423,870 ha per the 2012 amending decree (original 1993 decree: 386,592 ha; NR6 2017 and EdAP 2015 give 419,314 ha). EdAP 2015: part of the Sangha Trinational World Heritage site; managed with WCS. Area converted from hectares."
+  },
+  {
+   "name": "Parc national de Conkouati-Douli",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Created by Décret n° 99-136 bis of 14 August 1999. A draft decree amending it (marine extension, 504,950 to 795,550 ha) was adopted by the Council of Ministers on 25 October 2023; publication in the Journal officiel not verified.",
+    "sourceIds": [
+     "cog-decret-99-136bis",
+     "cog-ccm-2023-10-25"
+    ]
+   },
+   "established": "1999-08-14",
+   "areaKm2": 5049.5,
+   "coordinates": null,
+   "wikidataQid": "Q3015338",
+   "marine": true,
+   "sourceIds": [
+    "cog-decret-99-136bis",
+    "cog-pa-conkouati-2009",
+    "cog-ccm-2023-10-25",
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Kouilou department (districts of Nzambi and Madingo-Kayes). Area 504,950 ha per the 1999 decree, with a continental and a marine part (marine about 24% per the 2009 management plan); 795,550 ha if the 2023 extension decree is in force (not verified). EdAP 2015 gives an earlier origin as a reserve (Arrêté 4432 of 20 May 1980). The NBSAP 2015 lists a 'Koubou' chimpanzee sanctuary inside the park (no separate legal text found). Area converted from hectares."
+  },
+  {
+   "name": "Parc national de Ntokou-Pikounda",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Created by Décret n° 2013-77 of 4 March 2013 (JO n° 11-2013 of 14 March 2013).",
+    "sourceIds": [
+     "cog-decret-2013-77"
+    ]
+   },
+   "established": "2013-03-04",
+   "areaKm2": 4272.0,
+   "coordinates": null,
+   "wikidataQid": "Q15262888",
+   "marine": null,
+   "sourceIds": [
+    "cog-decret-2013-77",
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Departments: Sangha and Cuvette. Area 'environ 4272 km²' per the decree (EdAP 2015: 427,600 ha; NR6 2017: 457,200 ha)."
+  },
+  {
+   "name": "Parc national d'Ogooué-Lékéti",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Created by Décret n° 2022-1921 of 26 December 2022; managed by ACFAP.",
+    "sourceIds": [
+     "cog-decret-2022-1921"
+    ]
+   },
+   "established": "2022-12-26",
+   "areaKm2": 3486.94,
+   "coordinates": null,
+   "wikidataQid": "Q22431677",
+   "marine": null,
+   "sourceIds": [
+    "cog-decret-2022-1921",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Departments: Plateaux (Lékana district) and Lékoumou (Zanaga and Bambama districts). Area 348,694 ha per the decree. EdAP 2015 announced it as forthcoming; the decree cites the classification commission meeting at Sibiti on 9 November 2018. Not included in the 2017 NR6 count. Area converted from hectares."
+  },
+  {
+   "name": "Réserve de la Léfini",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de chasse (Arrêté 1951) / Réserve de faune (NR6, EdAP 2015)",
+   "legalStatus": {
+    "text": "Created as 'réserve de chasse dite de la Léfini' by Arrêté n° 3671 of 26 November 1951; limits redefined by Arrêté n° 684 of 14 April 2008.",
+    "sourceIds": [
+     "cog-arrete-3671-1951",
+     "cog-arrete-684-2008"
+    ]
+   },
+   "established": "1951-11-26",
+   "areaKm2": 2710.0,
+   "coordinates": null,
+   "wikidataQid": "Q3457171",
+   "marine": null,
+   "sourceIds": [
+    "cog-arrete-3671-1951",
+    "cog-arrete-684-2008",
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Plateaux department. Area 271,000 ha per Arrêté 684/2008 (also EdAP 2015 annex); NR6 2017 gives 630,000 ha and the EdAP 2015 text says it grew from 400,000 to 630,000 ha — conflicting figures. EdAP 2015 notes 'réserve de chasse' is not a category in Loi 37-2008. Area converted from hectares."
+  },
+  {
+   "name": "Réserve de faune du Mont Fouari",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": {
+    "text": "Arrêté 535/CH of 8 February 1958 (per EdAP 2015 annex; text not retrieved).",
+    "sourceIds": [
+     "cog-ofac-edap-2015"
+    ]
+   },
+   "established": "1958",
+   "areaKm2": 156.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Part of the Mont Fouari complex. Area 15,600 ha per NR6 2017; EdAP 2015 gives 15,000 ha. EdAP 2015 text says the Mont Fouari complex (Mont Fouari, Nyanga Nord, Mont Mavoumbou, Nyanga Sud) was instituted in 1953 while its annex gives 1958. Area converted from hectares."
+  },
+  {
+   "name": "Réserve de faune de la Tsoulou",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": {
+    "text": "Arrêté 535/CH of 8 February 1958 (per EdAP 2015 annex; text not retrieved).",
+    "sourceIds": [
+     "cog-ofac-edap-2015"
+    ]
+   },
+   "established": "1958",
+   "areaKm2": 300.0,
+   "coordinates": null,
+   "wikidataQid": "Q22597240",
+   "marine": null,
+   "sourceIds": [
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Area 30,000 ha per NR6 2017 and EdAP 2015. Area converted from hectares."
+  },
+  {
+   "name": "Réserve de faune de la Nyanga Nord",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": {
+    "text": "Arrêté 535/CH of 8 February 1958 (per EdAP 2015 annex; text not retrieved).",
+    "sourceIds": [
+     "cog-ofac-edap-2015"
+    ]
+   },
+   "established": "1958",
+   "areaKm2": 77.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Part of the Mont Fouari complex. Area 7,700 ha per NR6 2017 and EdAP 2015. Area converted from hectares."
+  },
+  {
+   "name": "Domaine de chasse du Mont Mavoumbou",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Arrêté 535/CH of 8 February 1958 (per EdAP 2015 annex; text not retrieved).",
+    "sourceIds": [
+     "cog-ofac-edap-2015"
+    ]
+   },
+   "established": "1958",
+   "areaKm2": 420.0,
+   "coordinates": null,
+   "wikidataQid": "Q131580835",
+   "marine": null,
+   "sourceIds": [
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Part of the Mont Fouari complex. Area 42,000 ha per NR6 2017 and EdAP 2015. EdAP 2015 notes 'domaine de chasse' no longer exists as a category in Loi 37-2008. Area converted from hectares."
+  },
+  {
+   "name": "Domaine de chasse de la Nyanga Sud",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Domaine de chasse",
+   "legalStatus": {
+    "text": "Arrêté 535/CH of 8 February 1958 (per EdAP 2015 annex; text not retrieved).",
+    "sourceIds": [
+     "cog-ofac-edap-2015"
+    ]
+   },
+   "established": "1958",
+   "areaKm2": 230.0,
+   "coordinates": null,
+   "wikidataQid": "Q131580787",
+   "marine": null,
+   "sourceIds": [
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Part of the Mont Fouari complex. Area 23,000 ha per NR6 2017 and EdAP 2015. Area converted from hectares."
+  },
+  {
+   "name": "Sanctuaire de gorilles de Lossi",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle dénommée sanctuaire de gorilles",
+   "legalStatus": {
+    "text": "Created by Décret n° 2001-222 of 10 May 2001; management plan approved by Décret n° 2015-262 of 27 February 2015.",
+    "sourceIds": [
+     "cog-decret-2001-222",
+     "cog-leap-decret-2015-262"
+    ]
+   },
+   "established": "2001-05-10",
+   "areaKm2": 350.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cog-decret-2001-222",
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Mbomo district, Cuvette-Ouest. Area 35,000 ha per the decree (same in NR6 2017); EdAP 2015 gives 96,302 ha citing an additional Arrêté 3010 of 4 July 2003 (not retrieved). EdAP 2015 annex wrongly attributes Décret 2001/222 to Lossi and '2004-221' to Odzala; the FAOLEX texts confirm 2001-222 = Lossi. Area converted from hectares."
+  },
+  {
+   "name": "Réserve naturelle de Tchimpounga (sanctuaire à chimpanzés)",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle dénommée sanctuaire à chimpanzés",
+   "legalStatus": {
+    "text": "Created by Décret n° 99-300 of 31 December 1999 (LEAP title reads '99-308').",
+    "sourceIds": [
+     "cog-decret-99-300"
+    ]
+   },
+   "established": "1999-12-31",
+   "areaKm2": 63.96,
+   "coordinates": null,
+   "wikidataQid": "Q7690663",
+   "marine": null,
+   "sourceIds": [
+    "cog-decret-99-300",
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Hinda district, Kouilou. Area 6,396 ha in the 1999 decree; NR6 2017 gives 55,000 ha and EdAP 2015 52,996 ha, implying a later extension whose legal text was not found. Managed with the Jane Goodall Institute (EdAP 2015). Area converted from hectares (decree figure)."
+  },
+  {
+   "name": "Réserve naturelle de gorilles de Lésio-Louna",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Réserve naturelle de gorilles (dénommée sanctuaire à gorilles)",
+   "legalStatus": {
+    "text": "Created by Décret n° 2009-203 of 20 July 2009 (JO n° 30, 23 July 2009), which repeals Décret n° 99-309 of 31 December 1999.",
+    "sourceIds": [
+     "cog-decret-2009-203"
+    ]
+   },
+   "established": "2009-07-20",
+   "areaKm2": 1730.0,
+   "coordinates": null,
+   "wikidataQid": "Q6530394",
+   "marine": null,
+   "sourceIds": [
+    "cog-decret-2009-203",
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Ngabé district, Pool. Area 173,000 ha per the 2009 decree (same in NR6 and EdAP 2015). First created in 1999 by Décret 99-309 (repealed). Managed with the Aspinall Foundation (EdAP 2015). Area converted from hectares."
+  },
+  {
+   "name": "Réserve communautaire du Lac Télé",
+   "localName": null,
+   "category": "community-conservation-area",
+   "designationLabel": "Réserve communautaire",
+   "legalStatus": {
+    "text": "Created by Décret n° 2001-220 of 10 May 2001.",
+    "sourceIds": [
+     "cog-decret-2001-220"
+    ]
+   },
+   "established": "2001-05-10",
+   "areaKm2": 4389.6,
+   "coordinates": null,
+   "wikidataQid": "Q6478183",
+   "marine": null,
+   "sourceIds": [
+    "cog-decret-2001-220",
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Epéna and Bouanéla districts, Likouala. Area 438,960 ha per the decree (north block 281,640 ha, south block 157,320 ha). Area converted from hectares."
+  },
+  {
+   "name": "Réserve de la biosphère de Dimonika",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Réserve de la biosphère",
+   "legalStatus": {
+    "text": "Created by Décret n° 88/181 of 1 March 1988 (EdAP 2015 annex misprints it as 88/131).",
+    "sourceIds": [
+     "cog-decret-88-181"
+    ]
+   },
+   "established": "1988-03-01",
+   "areaKm2": 1360.0,
+   "coordinates": null,
+   "wikidataQid": "Q3457174",
+   "marine": null,
+   "sourceIds": [
+    "cog-decret-88-181",
+    "cog-cbd-nr6-2017",
+    "cog-nbsap-2015",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Mvouti district, Kouilou (Mayombe). Area 1,360 km² per the decree (core zone 910 km²); NR6 2017 and EdAP 2015 give 136,000 ha. The decree states it is part of UNESCO's MAB network; EdAP 2015 notes 'réserve de la biosphère' is not a category in national law."
+  },
+  {
+   "name": "Réserve de la Patte d'Oie",
+   "localName": null,
+   "category": "forest-reserve",
+   "designationLabel": "Réserve (forêt de la Patte d'Oie) / Réserve forestière",
+   "legalStatus": {
+    "text": "Set aside by Arrêté of 13 August 1938 relatif à la forêt de la Patte d'Oie.",
+    "sourceIds": [
+     "cog-arrete-1938-patte-doie"
+    ]
+   },
+   "established": "1938-08-13",
+   "areaKm2": 2.4,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cog-arrete-1938-patte-doie",
+    "cog-nbsap-2015",
+    "cog-cbd-nr5-2014",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Urban forest in Brazzaville. About 240 ha per the 1938 arrêté; EdAP 2015 says it is now 94 ha in three blocks and excludes it from the network as an urban park. Listed in the NBSAP 2015 and NR5 2014 but not in the NR6 2017 table. Area converted from hectares (1938 figure)."
+  },
+  {
+   "name": "Réserve marine communautaire de la baie de Loango",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve marine communautaire (aire marine protégée)",
+   "legalStatus": {
+    "text": "Site classified on 29 August 2022 (classification commission); draft decree creating the reserve adopted by the Council of Ministers on 25 October 2023. Decree number and Journal officiel publication not verified.",
+    "sourceIds": [
+     "cog-ccm-2023-10-25"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "cog-ccm-2023-10-25",
+    "cog-wcs-mpa-2022"
+   ],
+   "notes": "Loango Bay; the Council report describes it as a marine-turtle nesting site. Area not given in an official source retrieved. One of the three MPAs announced in August 2022 (WCS, NGO)."
+  },
+  {
+   "name": "Réserve marine communautaire de Mvassa",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Réserve marine communautaire (aire marine protégée)",
+   "legalStatus": {
+    "text": "Draft decree creating the reserve adopted by the Council of Ministers on 25 October 2023 (the report says the site was 'entretemps classée aire marine protégée'). Decree number and Journal officiel publication not verified.",
+    "sourceIds": [
+     "cog-ccm-2023-10-25"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": true,
+   "sourceIds": [
+    "cog-ccm-2023-10-25",
+    "cog-wcs-mpa-2022"
+   ],
+   "notes": "On the south-west coast adjacent to the Ngoyo arrondissement (Council report). The Council report gives 'une superficie de 24,341 km2' (ambiguous decimal notation), so areaKm2 is left null."
+  },
+  {
+   "name": "Aire protégée de Messok Dja (projet)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Projet d'aire protégée",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cog-fpp-messok-dja-2022"
+   ],
+   "notes": "Sangha department. Discussions since 2010; consent process suspended after critical evaluations, consultations relaunched end-2021 (FPP 2022, NGO). No creation decree found."
+  },
+  {
+   "name": "Zone d'intérêt cynégétique de Yengo",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Zone d'intérêt cynégétique (en cours de classement)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cog-cbd-nr5-2014",
+    "cog-ofac-edap-2015"
+   ],
+   "notes": "Northern Congo. NR5 2014 names a 'zone d'intérêt cynégétique de Yengo Mohali'; EdAP 2015 says its classification was being finalised. No legal text found."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "conservation and protection series (séries de conservation / de protection) in forest management units (UFA)",
+   "approxCount": null,
+   "reason": "Arrêté n° 6516 of 18 June 2020 sets rules for their participatory management, but no official consolidated list was found.",
+   "sourceIds": [
+    "cog-leap-arrete-6516-2020"
+   ]
+  },
+  {
+   "category": "further marine protected areas identified by the 2019 marine spatial plan",
+   "approxCount": null,
+   "reason": "The NGO release says the plan identified eleven MPAs, of which three were announced in 2022; the others have no legal status found.",
+   "sourceIds": [
+    "cog-wcs-mpa-2022"
+   ]
+  }
+ ],
+ "gaps": [
+  "The ACFAP website could not be reached, so no current official list from the agency was checked; the latest government figures found are from the 6th national report (2017) and the October 2023 Council of Ministers report.",
+  "The Loango Bay and Mvassa community marine reserves and the Conkouati-Douli marine extension (to 795,550 ha) were adopted as draft decrees by the Council of Ministers on 25 October 2023. Journal officiel issues 43-52 of 2023 and 2024 (some 2024 issues were missing online) contained no such decree, so decree numbers, final areas and publication are unverified.",
+  "The creation texts for the Mont Fouari, Tsoulou and Nyanga Nord faunal reserves and the Mont Mavoumbou and Nyanga Sud hunting domains (Arrêté 535/CH of 8 February 1958 per EdAP 2015) were not found on FAOLEX; EdAP 2015 also gives 1953 for the Mont Fouari complex.",
+  "Areas conflict between sources: Léfini 271,000 ha (Arrêté 684/2008) vs 630,000 ha (NR6 2017); Tchimpounga 6,396 ha (1999 decree) vs 52,996-55,000 ha (EdAP 2015, NR6); Lossi 35,000 ha (decree) vs 96,302 ha (EdAP 2015); Ntokou-Pikounda 4,272 km² (decree) vs 457,200 ha (NR6); Nouabalé-Ndoki 423,870 ha (2012 decree) vs 419,314 ha (NR6, EdAP). Decree figures are used where available.",
+  "Decree numbers differ between sources: the Odzala-Kokoua decree of 10 May 2001 carries the number '2004-221' on the FAOLEX scan and LEAP; Tchimpounga is 99-300 on the scan but 99-308 in the LEAP title; Dimonika is 88/181 in FAOLEX but 88/131 in EdAP 2015.",
+  "Messok Dja (proposed protected area) and the Yengo hunting-interest zone have no creation decree found; their current status after 2022 is unknown.",
+  "The 'Koubou' chimpanzee sanctuary is listed in the NBSAP 2015 as being inside Conkouati-Douli, but no separate legal text was found, so no separate record was made.",
+  "No official coordinates were used; points rely on Wikidata where a QID was confirmed."
+ ]
+}

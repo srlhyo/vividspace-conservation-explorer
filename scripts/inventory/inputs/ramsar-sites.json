@@ -1971,5 +1971,405 @@
   "coords": "08°39'59\"S 36°09'59\"E",
   "coordSource": "header",
   "habitatTerms": []
+ },
+ {
+  "number": 2068,
+  "code": "CMR",
+  "name": "Zone Humide d'Ebogo",
+  "region": "Centre Region",
+  "area_ha": "3,097",
+  "designated": "06-05-2012",
+  "lat": 3.38556,
+  "lon": 11.48889,
+  "coords": "03°23'08\"N 11°29'20\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2067,
+  "code": "CMR",
+  "name": "Partie Camerounaise du Fleuve Ntem",
+  "region": "South Region",
+  "area_ha": "39,848",
+  "designated": "05-06-2012",
+  "lat": 2.37917,
+  "lon": 10.55333,
+  "coords": "02°22'45\"N 10°33'12\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1643,
+  "code": "CMR",
+  "name": "Barombi Mbo Crater Lake",
+  "region": "Southwest Province",
+  "area_ha": "415",
+  "designated": "08-10-2006",
+  "lat": 4.66667,
+  "lon": 9.38306,
+  "coords": "04°40'N 09°22'59\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 1903,
+  "code": "CMR",
+  "name": "Partie Camerounaise du Lac Tchad",
+  "region": "Province de l’Extrême-Nord",
+  "area_ha": "12,500",
+  "designated": "02-02-2010",
+  "lat": 12.76667,
+  "lon": 14.3,
+  "coords": "12°46'N 14°18'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 1739,
+  "code": "CMR",
+  "name": "Partie camerounaise du fleuve Sangha",
+  "region": "East Province",
+  "area_ha": "6,200",
+  "designated": "02-02-2008",
+  "lat": 1.83306,
+  "lon": 16.03306,
+  "coords": "01°49'59\"N 16°01'59\"E",
+  "coordSource": "header",
+  "habitatTerms": []
+ },
+ {
+  "number": 1908,
+  "code": "CMR",
+  "name": "Estuaire du Rio Del Rey",
+  "region": "province du Sud-Ouest, Département du Ndian",
+  "area_ha": "165,000",
+  "designated": "20-05-2010",
+  "lat": 4.61667,
+  "lon": 8.71667,
+  "coords": "04°37'N 08°43'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "estuarine"
+  ]
+ },
+ {
+  "number": 1609,
+  "code": "CMR",
+  "name": "Waza Logone Floodplain",
+  "region": "Extreme North Province",
+  "area_ha": "600,000",
+  "designated": "20-03-2006",
+  "lat": 11.63306,
+  "lon": 14.61667,
+  "coords": "11°37'59\"N 14°37'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "floodplains"
+  ]
+ },
+ {
+  "number": 1742,
+  "code": "COG",
+  "name": "Grands affluents",
+  "region": "Plateaux, Cuvette, Sangha et Likouala",
+  "area_ha": "5,908,074",
+  "designated": "13-12-2007",
+  "lat": 0.47,
+  "lon": 17.07861,
+  "coords": "00°28'12\"N 17°04'43\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2325,
+  "code": "COG",
+  "name": "Bas-Kouilou-Yombo",
+  "region": "Kouilou",
+  "area_ha": "55,124",
+  "designated": "25-09-2017",
+  "lat": 52.65,
+  "lon": 65.75,
+  "coords": "52°39'N 65°45'E",
+  "coordSource": null,
+  "habitatTerms": [
+   "mangrove",
+   "estuarine",
+   "coastal-lagoon",
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1741,
+  "code": "COG",
+  "name": "Conkouati-Douli",
+  "region": "Kouilou",
+  "area_ha": "504,950",
+  "designated": "13-12-2007",
+  "lat": -3.91667,
+  "lon": 11.45,
+  "coords": "03°55'S 11°27'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "coastal-lagoon",
+   "sandy-beaches",
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 950,
+  "code": "COG",
+  "name": "Lac Télé/Likouala-aux-herbes",
+  "region": "Likouala",
+  "area_ha": "438,960",
+  "designated": "18-06-1998",
+  "lat": 1.18917,
+  "lon": 17.22917,
+  "coords": "01°11'21\"N 17°13'45\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2221,
+  "code": "COG",
+  "name": "Loubetsi-Nyanga",
+  "region": "Niari",
+  "area_ha": "251,151",
+  "designated": "02-02-2015",
+  "lat": -2.91806,
+  "lon": 12.02306,
+  "coords": "02°55'05\"S 12°01'23\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1858,
+  "code": "COG",
+  "name": "Sangha-Nouabalé-Ndoki",
+  "region": "Sangha, Likouala",
+  "area_ha": "1,525,000",
+  "designated": "04-03-2009",
+  "lat": 1.68306,
+  "lon": 16.43306,
+  "coords": "01°40'59\"N 16°25'59\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2223,
+  "code": "COG",
+  "name": "Tchicapika-Owando",
+  "region": "Département de la Cuvette",
+  "area_ha": "970,166",
+  "designated": "02-02-2015",
+  "lat": -0.90056,
+  "lon": 15.95917,
+  "coords": "00°54'02\"S 15°57'33\"E",
+  "coordSource": "header",
+  "habitatTerms": []
+ },
+ {
+  "number": 1857,
+  "code": "COG",
+  "name": "Les Rapides du Congo-Djoué",
+  "region": "Brazzaville",
+  "area_ha": "2,500",
+  "designated": "03-04-2009",
+  "lat": -4.31667,
+  "lon": 15.18333,
+  "coords": "04°19'S 015°11'E",
+  "coordSource": "description",
+  "headerCoords": "56°52'34\"N 10°12'26\"E",
+  "habitatTerms": [
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2222,
+  "code": "COG",
+  "name": "Leketi-Mbama",
+  "region": "Departement de la Cuvette-Ouest",
+  "area_ha": "774,965",
+  "designated": "02-02-2015",
+  "lat": -0.99861,
+  "lon": 14.78444,
+  "coords": "00°59'55\"S 14°47'04\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1743,
+  "code": "COG",
+  "name": "Libenga",
+  "region": "Likouala",
+  "area_ha": "59,409",
+  "designated": "13-12-2007",
+  "lat": 2.85,
+  "lon": 18.0,
+  "coords": "02°51'N 18°00'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1740,
+  "code": "COG",
+  "name": "Cayo-Loufoualeba",
+  "region": "Kouilou",
+  "area_ha": "15,366",
+  "designated": "13-12-2007",
+  "lat": -4.86667,
+  "lon": 11.93306,
+  "coords": "04°52'S 11°55'59\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2079,
+  "code": "COG",
+  "name": "Site Ramsar Ntokou-Pikounda",
+  "region": "Sangha, Cuvette",
+  "area_ha": "427,200",
+  "designated": "08-09-2012",
+  "lat": 0.17056,
+  "lon": 16.28056,
+  "coords": "00°10'14\"N 16°16'50\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2080,
+  "code": "COG",
+  "name": "Site Ramsar Odzala Kokoua",
+  "region": "Sangha, Cuvette-Ouest",
+  "area_ha": "1,300,000",
+  "designated": "18-09-2012",
+  "lat": 0.93306,
+  "lon": 14.86667,
+  "coords": "00°55'59\"N 14°52'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 2081,
+  "code": "COG",
+  "name": "Site Ramsar Vallée du Niari",
+  "region": "Niari, Bouenza, Kouilou",
+  "area_ha": "1,581,000",
+  "designated": "18-09-2012",
+  "lat": -3.78306,
+  "lon": 12.5,
+  "coords": "03°46'59\"S 12°30'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 787,
+  "code": "COD",
+  "name": "Parc national des Virunga",
+  "region": "Nord-Kivu",
+  "area_ha": "800,000",
+  "designated": "18-01-1996",
+  "lat": -1.25,
+  "lon": 29.5,
+  "coords": "01°15'S 029°30'E",
+  "coordSource": "description",
+  "headerCoords": "38°11'N 00°45'11\"W",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 2318,
+  "code": "COD",
+  "name": "Bassin de la Lufira",
+  "region": "Haut Katanga, Haut Lomami et Lualaba",
+  "area_ha": "4,470,993",
+  "designated": "31-10-2017",
+  "lat": -9.34917,
+  "lon": 26.91417,
+  "coords": "09°20'57\"S 26°54'51\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes",
+   "floodplains",
+   "marshes-swamps"
+  ]
+ },
+ {
+  "number": 1784,
+  "code": "COD",
+  "name": "Ngiri-Tumba-Maindombe",
+  "region": null,
+  "area_ha": "6,569,624",
+  "designated": "24-07-2008",
+  "lat": 0.65778,
+  "lon": 18.01444,
+  "coords": "00°39'28\"N 18°00'52\"E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "lakes"
+  ]
+ },
+ {
+  "number": 788,
+  "code": "COD",
+  "name": "Parc national des Mangroves",
+  "region": "Bas-Zaïre",
+  "area_ha": "66,000",
+  "designated": "18-01-1996",
+  "lat": -5.75,
+  "lon": 12.75,
+  "coords": "05°45'S 12°45'E",
+  "coordSource": "header",
+  "habitatTerms": [
+   "mangrove",
+   "marshes-swamps"
+  ]
  }
 ]

@@ -5,12 +5,13 @@ ROOT = os.path.dirname(os.path.dirname(HERE))
 IN = f'{HERE}/inputs'                                     # committed inputs
 RESEARCH = f'{ROOT}/docs/inventory/research'              # committed country research
 WORK = sys.argv[1]                                        # temporary directory for intermediate files
-A = '2026-10-20'
+from access import accessed
 cat = json.load(open(f'{IN}/base-catalogue.json'))
 ramsar = json.load(open(f'{IN}/ramsar-sites.json'))
 
 NEW = [('AGO', 'Angola'), ('BWA', 'Botswana'), ('EGY', 'Egypt'), ('GAB', 'Gabon'), ('MOZ', 'Mozambique'), ('NAM', 'Namibia'),
-       ('STP', 'São Tomé and Príncipe'), ('TZA', 'Tanzania'), ('UGA', 'Uganda')]
+       ('STP', 'São Tomé and Príncipe'), ('TZA', 'Tanzania'), ('UGA', 'Uganda'),
+       ('CMR', 'Cameroon'), ('COG', 'Republic of the Congo'), ('COD', 'Democratic Republic of the Congo')]
 for c in cat['countries']: c['group'] = 'wasop'
 cat['countries'] += [dict(code=k, name=n, group='additional') for k, n in NEW]
 NAMES = {c['code']: c['name'] for c in cat['countries']}
@@ -47,17 +48,18 @@ for n, t in present.items():
     if s: t['inventory']['sourceDate'] = s['designated'].replace('-', '/') and datetime.datetime.strptime(s['designated'], '%d-%m-%Y').strftime('%Y-%m-%d')
 
 ISO2 = dict(BEN='bj', CPV='cv', CIV='ci', GMB='gm', GHA='gh', GIN='gn', GNB='gw', LBR='lr', MRT='mr', NGA='ng', SEN='sn', SLE='sl', TGO='tg',
-            AGO='ao', BWA='bw', NAM='na', TZA='tz', MOZ='mz', UGA='ug', EGY='eg', GAB='ga', STP='st')
+            AGO='ao', BWA='bw', NAM='na', TZA='tz', MOZ='mz', UGA='ug', EGY='eg', GAB='ga', STP='st', CMR='cm', COG='cg', COD='cd')
 FILES = dict(BEN='Benin', CPV='Cabo-Verde', CIV='Cote-d-Ivoire', GMB='Gambia', GHA='Ghana', GIN='Guinea', GNB='Guinea-Bissau', LBR='Liberia',
              MRT='Mauritania', NGA='Nigeria', SEN='Senegal', SLE='Sierra-Leone', TGO='Togo', AGO='Angola', BWA='Botswana', NAM='Namibia',
-             TZA='United-Republic-of-Tanzania', MOZ='Mozambique', UGA='Uganda', EGY='Egypt', GAB='Gabon', STP='Sao-Tome-and-Principe')
+             TZA='United-Republic-of-Tanzania', MOZ='Mozambique', UGA='Uganda', EGY='Egypt', GAB='Gabon', STP='Sao-Tome-and-Principe',
+             CMR='Cameroon', COG='Congo', COD='Democratic-Republic-of-the-Congo')
 src_ids = {s['id'] for s in cat['sources']}
 def ramsar_source(code):
     sid = f'ramsar-annotated-{ISO2[code]}'
     if sid not in src_ids:
         cat['sources'].append(dict(id=sid, title=f'Annotated List of Wetlands of International Importance — {NAMES[code]}', publisher='Ramsar Convention Secretariat (RSIS)',
             url=f'https://rsis.ramsar.org/sites/default/files/rsiswp_search/exports/Ramsar-Sites-annotated-summary-{FILES[code]}.pdf',
-            licence='© Ramsar Convention Secretariat — cited for reference (facts and short quotes)', accessed=A, kind='report',
+            licence='© Ramsar Convention Secretariat — cited for reference (facts and short quotes)', accessed=accessed(code), kind='report',
             note='Some site-header coordinates in this export are erroneous; affected records say which coordinates are used.'))
         src_ids.add(sid)
     return sid
@@ -100,7 +102,7 @@ for s in ramsar:
         designations=desig,
         overview=[dict(text=f"Designated a Wetland of International Importance (Ramsar site no. {n}) on {month(s['designated'])}, with a listed area of {s['area_ha']} ha.", evidence='verified', sourceIds=[src])],
         livelihoods=[], ecosystems=ecos,
-        verification=dict(status='partially-verified', reviewed=A,
+        verification=dict(status='partially-verified', reviewed=accessed(code),
             note=' '.join(x for x in ["Name, designation date, area and location come from Ramsar's official annotated list, and habitats are those named in its site summary.", coord_note,
                   'National protected-area status is not recorded here unless a national source documents it. No conservation challenge, organisation or potential activity has been researched for this site.'] if x)),
         inventory=dict(category=category, legalStatus=None, sourceDate=datetime.datetime.strptime(s['designated'], '%d-%m-%Y').strftime('%Y-%m-%d')))
@@ -108,4 +110,8 @@ for s in ramsar:
 json.dump(cat, open(f'{WORK}/stage1.json', 'w'), ensure_ascii=False, indent=1)
 from collections import Counter
 print('added Ramsar', len(added), Counter(t['countryCode'] for t in added))
-print('unresolved coords', [(s['code'], s['number'], s['name']) for s in ramsar if not s.get('coordSource')])
+# Ramsar sites whose listed coordinates are erroneous and could not be resolved: verified but not mapped.
+unresolved = [s for s in ramsar if not s.get('coordSource') and s['number'] not in present]
+json.dump([dict(number=s['number'], code=s['code'], name=s['name'], area_ha=s['area_ha'], designated=s['designated'], source=ramsar_source(s['code']))
+           for s in unresolved], open(f'{WORK}/ramsar-unmapped.json', 'w'), ensure_ascii=False, indent=1)
+print('unresolved coords (not mapped)', [(s['code'], s['number'], s['name']) for s in unresolved])

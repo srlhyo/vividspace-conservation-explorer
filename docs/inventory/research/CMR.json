@@ -1,0 +1,1280 @@
+{
+ "country": "CMR",
+ "countryName": "Cameroon",
+ "officialInventory": {
+  "summary": "Wildlife protected areas are designated and managed by the Ministère des Forêts et de la Faune (MINFOF) under forest and wildlife law n° 94/01 of 1994, replaced by law n° 2024/08 of 24 July 2024. The MINFOF website (minfof.cm) returned 403 Forbidden. MINFOF and WRI publish the official register as the open file geodatabase of the Interactive Forest Atlas of Cameroon (2025 edition) and as a 'Domaine forestier' poster dated December 2025. The geodatabase lists 37 wildlife PAs: 22 national parks, 4 wildlife reserves and 5 wildlife sanctuaries created, plus 3 proposed national parks and 3 proposed sanctuaries. It also lists 70 hunting zones (ZIC/ZICGC) and 59 forest reserves. Cameroon's 7th CBD national report (March 2026) counts 109 protected areas: 22 national parks, 5 wildlife reserves, 6 sanctuaries, 3 zoological gardens, 1 botanical garden, 45 ZIC and 27 ZICGC. That is one wildlife reserve and one sanctuary more than the MINFOF GIS; the sanctuary is probably Kilum-Ijim (created by a 2004 decree), and the extra reserve could not be identified. Creating or classifying acts were checked on FAOLEX for 13 areas. For the rest, the legal status rests on the MINFOF GIS record.",
+  "sourceIds": [
+   "cmr-minfof-atlas-gdb-2025",
+   "cmr-minfof-poster-2025",
+   "cmr-cbd-nr7-2026",
+   "cmr-cbd-nr5-2014"
+  ],
+  "machineReadable": true,
+  "statedCounts": [
+   {
+    "category": "protected areas (all types incl. 72 hunting zones, 3 zoos, 1 botanical garden)",
+    "count": 109,
+    "asOf": "2026",
+    "sourceId": "cmr-cbd-nr7-2026",
+    "quote": "le pays compte désormais 109 aires protégées contre 105 en 2023, dont 107 Aires protégées terrestres, 01 mixte (terrestre et marine) et 01 exclusivement marine"
+   },
+   {
+    "category": "national parks",
+    "count": 22,
+    "asOf": "2026",
+    "sourceId": "cmr-cbd-nr7-2026",
+    "quote": "réparties comme suit : 22 parcs nationaux ; 05 réserves de faune ; 06 sanctuaires ; 03 jardins zoologiques ; 01 jardin botanique"
+   },
+   {
+    "category": "wildlife reserves (réserves de faune)",
+    "count": 5,
+    "asOf": "2026",
+    "sourceId": "cmr-cbd-nr7-2026",
+    "quote": "05 réserves de faune"
+   },
+   {
+    "category": "sanctuaries",
+    "count": 6,
+    "asOf": "2026",
+    "sourceId": "cmr-cbd-nr7-2026",
+    "quote": "06 sanctuaires"
+   },
+   {
+    "category": "zoological gardens",
+    "count": 3,
+    "asOf": "2026",
+    "sourceId": "cmr-cbd-nr7-2026",
+    "quote": "03 jardins zoologiques"
+   },
+   {
+    "category": "botanical garden",
+    "count": 1,
+    "asOf": "2026",
+    "sourceId": "cmr-cbd-nr7-2026",
+    "quote": "01 jardin botanique"
+   },
+   {
+    "category": "hunting zones (ZIC)",
+    "count": 45,
+    "asOf": "2026",
+    "sourceId": "cmr-cbd-nr7-2026",
+    "quote": "45 Zones d’Intérêt Cynégétique (ZIC)"
+   },
+   {
+    "category": "community-managed hunting zones (ZICGC)",
+    "count": 27,
+    "asOf": "2026",
+    "sourceId": "cmr-cbd-nr7-2026",
+    "quote": "27 Zones d’Intérêt Cynégétique à Gestion Communautaire (ZICGC)"
+   },
+   {
+    "category": "protected areas (MINFOF forest-estate map: parks, reserves, sanctuaries incl. proposed)",
+    "count": 37,
+    "asOf": "2025-12",
+    "sourceId": "cmr-minfof-poster-2025",
+    "quote": "Aires Protégées (AP) 37 4 683 660"
+   },
+   {
+    "category": "national parks created",
+    "count": 22,
+    "asOf": "2025-12",
+    "sourceId": "cmr-minfof-poster-2025",
+    "quote": "Parcs nationaux créés 22 3 357 771"
+   },
+   {
+    "category": "national parks being created",
+    "count": 3,
+    "asOf": "2025-12",
+    "sourceId": "cmr-minfof-poster-2025",
+    "quote": "Parcs nationaux en cours de création 3 336 295"
+   },
+   {
+    "category": "wildlife reserves created",
+    "count": 4,
+    "asOf": "2025-12",
+    "sourceId": "cmr-minfof-poster-2025",
+    "quote": "Réserves de faune créées 4 693 676"
+   },
+   {
+    "category": "sanctuaries created",
+    "count": 5,
+    "asOf": "2025-12",
+    "sourceId": "cmr-minfof-poster-2025",
+    "quote": "Sanctuaires créés 5 107 438"
+   },
+   {
+    "category": "sanctuaries being created",
+    "count": 3,
+    "asOf": "2025-12",
+    "sourceId": "cmr-minfof-poster-2025",
+    "quote": "Sanctuaires en cours de création 3 188 480"
+   },
+   {
+    "category": "hunting zones (ZIC/ZICGC)",
+    "count": 70,
+    "asOf": "2025-12",
+    "sourceId": "cmr-minfof-poster-2025",
+    "quote": "Zones de chasse (ZIC/ZICGC) 70 5 480 388"
+   },
+   {
+    "category": "forest reserves",
+    "count": 59,
+    "asOf": "2025-12",
+    "sourceId": "cmr-minfof-poster-2025",
+    "quote": "Réserves Forestières 59 375 536"
+   },
+   {
+    "category": "national parks (2012)",
+    "count": 24,
+    "asOf": "2012",
+    "sourceId": "cmr-cbd-nr5-2014",
+    "quote": "Le Cameroun compte 24 parcs nationaux en 2012."
+   }
+  ]
+ },
+ "sources": [
+  {
+   "id": "cmr-minfof-atlas-gdb-2025",
+   "title": "Atlas forestier du Cameroun 2025 — données SIG sans documents (file geodatabase Atlas_forestier_Cameroun_2025.gdb; layers 'aires_protegees_faune', 'reserve_forestier', 'zics', 'convensions_internationales')",
+   "publisher": "Ministère des Forêts et de la Faune (MINFOF) with World Resources Institute (Atlas Forestier Interactif du Cameroun, cmr-data.forest-atlas.org, hub item 994d7b4ffb874c9188efab5b9977d079, owner 'Minfof')",
+   "url": "https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/gdbs/cmr_data_sans_documents_2025.gdb.zip",
+   "date": "2025 edition (file last modified 2026-06-02; individual records edited up to 2026-04-06)",
+   "kind": "dataset",
+   "licence": "No licence stated on the Forest Atlas hub item; © MINFOF / WRI — cited for reference (facts and short quotes)",
+   "note": "Official MINFOF GIS register. Layer 'aires_protegees_faune' has 37 polygons (name, type, IUCN category, creation status 'cree'/'propose', creation/proposal dates, management-plan status, administrative area from official texts 'sup_adm_ha', GIS area). It is MINFOF's own dataset, not a WDPA extract (it carries a WDPA id column, which was not used). Polygons are available but no coordinates were derived here."
+  },
+  {
+   "id": "cmr-minfof-poster-2025",
+   "title": "Domaine forestier du Cameroun, Décembre 2025 (poster map with summary statistics)",
+   "publisher": "MINFOF and World Resources Institute (Atlas Forestier Interactif du Cameroun)",
+   "url": "https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/posters/CMR_Poster_2025%20fr.pdf",
+   "date": "2025-12 (PDF generated 2026-04-23)",
+   "kind": "report",
+   "licence": "No licence stated on the Forest Atlas hub item; © MINFOF / WRI — cited for reference (facts and short quotes)",
+   "note": "Statistics table: Aires Protégées (AP) 37 / 4 683 660 ha = 22 parcs nationaux créés, 3 en cours de création, 4 réserves de faune créées, 5 sanctuaires créés, 3 sanctuaires en cours; Zones de chasse (ZIC/ZICGC) 70 / 5 480 388 ha; Réserves forestières 59 / 375 536 ha. States that AP and ZIC areas come from official documents (decrees, public notices)."
+  },
+  {
+   "id": "cmr-cbd-nr7-2026",
+   "title": "Cameroon — Seventh National Report to the Convention on Biological Diversity (Septième rapport national)",
+   "publisher": "Government of Cameroon (MINEPDED) via CBD Online Reporting Tool",
+   "url": "https://ort.cbd.int/database/record?documentID=290642",
+   "date": "2026-03-01",
+   "kind": "report",
+   "licence": "© Government of Cameroon / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "Text read from the CBD API record https://api.cbd.int/api/v2013/documents/2D0F2B0E-217C-F72E-C8C1-C4CF445F7CC8 (French). Gives the national network as 109 protected areas and lists PAs under classification (public notices for Rumki Rata, Kilum-Ijim, Dongore, Kom, Tchabal-Mbabo, Mefou). Notes the new forest and wildlife law n° 2024/08 of 24 July 2024 (marine protected areas, art. 34)."
+  },
+  {
+   "id": "cmr-cbd-nr5-2014",
+   "title": "Cinquième Rapport National du Cameroun à la Convention sur la Diversité Biologique",
+   "publisher": "République du Cameroun (MINEPDED) / CBD",
+   "url": "https://www.cbd.int/doc/world/cm/cm-nr-05-fr.pdf",
+   "date": "2014-03",
+   "kind": "report",
+   "licence": "© Government of Cameroon / CBD Secretariat — cited for reference (facts and short quotes)",
+   "note": "Dated. Says Cameroon had 24 national parks in 2012; Table 17 lists PAs created since 2008 (Kagwene 2008, Mengame 2008, Mont Cameroun 2009, Deng Deng 2010) and lists projected PAs (Kom, Ebo, Ndongore, Tchabal Mbabo, Rumpi Hills, Mt Kupe, Mt Manengouba, Lom Pangar, Kribi marine park)."
+  },
+  {
+   "id": "cmr-arrete-522-1987",
+   "title": "Arrêté n° 522/CAB/PR du 22 septembre 1987 portant classement des Parcs Nationaux et des Réserves de Faune",
+   "publisher": "Présidence de la République du Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr39384.pdf",
+   "date": "1987-09-22",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Classes Waza, Bénoué and Korup national parks in 1st category; Bouba Ndjida, Kalamaloué and Faro national parks and the Dja, Douala-Edéa, Campo and Kribi wildlife reserves in 2nd category. LEAP record: https://leap.unep.org/en/countries/cm/national-legislation/arrete-no-522cabpr-portant-classement-des-parcs-nationaux-et-des"
+  },
+  {
+   "id": "cmr-arrete-3335-1987",
+   "title": "Arrêté n° 03335/A/SETOUR/DFPN/SFPN du 28 septembre 1987 portant classement des parcs nationaux, réserves de faune et jardins zoologiques en 3ème catégorie",
+   "publisher": "Secrétariat d'État au Tourisme, Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr39383.pdf",
+   "date": "1987-09-28",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Classes in 3rd category: Parc national de Mozogo-Gokoro, Réserve de faune de Santchou, Jardins zoologiques de Limbe, Garoua and Mvog-Betsi."
+  },
+  {
+   "id": "cmr-decret-2000-004",
+   "title": "Décret n° 2000/004/PM du 06 janvier 2000 portant création du parc national de Campo-Ma'an",
+   "publisher": "Premier Ministre, Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr26727.pdf",
+   "date": "2000-01-06",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Area 264 064 ha, Province du Sud."
+  },
+  {
+   "id": "cmr-decret-2000-005",
+   "title": "Décret n° 2000/005/PM du 06 janvier 2000 portant création du parc national du Mbam et Djerem",
+   "publisher": "Premier Ministre, Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr26728.pdf",
+   "date": "2000-01-06",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Area 416 512 ha (Adamaoua, Centre, Est)."
+  },
+  {
+   "id": "cmr-decret-2001-107",
+   "title": "Décret n° 2001/107/CAB/PM du 19 mars 2001 portant création du Parc national de Lobéké",
+   "publisher": "Premier Ministre, Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/Cmr227041.pdf",
+   "date": "2001-03-19",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Area 217 854 ha (LEAP abstract), arrondissement de Moloundou, Boumba et Ngoko."
+  },
+  {
+   "id": "cmr-decret-2004-0352",
+   "title": "Décret n° 2004/0352/PM du 04 février 2004 portant création du parc national de la Vallée du Mbéré",
+   "publisher": "Premier Ministre, Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr50053.pdf",
+   "date": "2004-02-04",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Area 77 760 ha, Adamaoua (Mbéré, Djohong)."
+  },
+  {
+   "id": "cmr-decret-2004-2464",
+   "title": "Décret n° 2004/2464/PM du 08 décembre 2004 portant création du sanctuaire de flore de Kilum-Ijim",
+   "publisher": "Premier Ministre, Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr50055.pdf",
+   "date": "2004-12-08",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Creates a 'sanctuaire de faune et de flore' named 'Sanctuaire de flore de Kilum-Ijim', 1 000 ha (Oku and Belo, Bui and Boyo)."
+  },
+  {
+   "id": "cmr-decret-2014-2383",
+   "title": "Décret n° 2014/2383/PM du 27 août 2014 portant création de la Réserve de Faune de Ngoyla",
+   "publisher": "Premier Ministre, Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr151390.pdf",
+   "date": "2014-08-27",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Area 156 672 ha."
+  },
+  {
+   "id": "cmr-decret-2014-3212",
+   "title": "Décret n° 2014/3212/PM du 29 septembre 2014 portant création du Sanctuaire de Faune de Tofala Hill",
+   "publisher": "Premier Ministre, Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr151393.pdf",
+   "date": "2014-09-29",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Area 8 087 ha, Wabane and Alou, Lebialem, South-West."
+  },
+  {
+   "id": "cmr-decret-2018-8399",
+   "title": "Décret n° 2018/8399/PM du 11 octobre 2018 portant mutation de la Réserve de Faune de Douala-Edéa en Parc National de Douala-Edéa",
+   "publisher": "Premier Ministre, Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr217535.pdf",
+   "date": "2018-10-11",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Area 262 935 ha; objectives cover forest, mangrove, river, lake and marine ecosystems."
+  },
+  {
+   "id": "cmr-decret-2021-4804",
+   "title": "Décret portant création du Parc National Marin Manyange na Elombo-Campo (LEAP: Décret 2021/4804/PM du 09 juillet 2021)",
+   "publisher": "Premier Ministre, Cameroun (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr220623.pdf",
+   "date": "2021",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Area 110 300 ha plus a 3 400 ha buffer zone; 'aire protégée marine et côtière' next to the maritime border with Equatorial Guinea. LEAP gives 2021/4804/PM of 9 July 2021; the scanned decree's stamp reads 30 June 2021 (OCR unclear)."
+  },
+  {
+   "id": "cmr-decision-0325-2000",
+   "title": "Décision n° 0325/D/MINEF/DFAP/SAN portant publication de la liste officielle de certaines aires protégées, classées comme zones d'intérêt cynégétique au 19 décembre 2000",
+   "publisher": "Ministère de l'Environnement et des Forêts (via FAOLEX / LEAP)",
+   "url": "https://faolex.fao.org/docs/pdf/cmr33986.pdf",
+   "date": "2000-12-19",
+   "kind": "report",
+   "licence": "FAOLEX (FAO) copy of an official text; text © Government of Cameroon — cited for reference (facts and short quotes)",
+   "note": "Historic list of hunting zones (ZIC/ZICGC) leased for the 2000/2001 season; superseded by later allocations."
+  }
+ ],
+ "areas": [
+  {
+   "name": "Sanctuaire de faune de Bayang-Mbo",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Sanctuaire de faune",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Sanctuaire de faune', statut 'créé', creation date 1996-03-12); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "1996-03-12",
+   "areaKm2": 660.0,
+   "coordinates": null,
+   "wikidataQid": "Q807018",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category IV; no management plan. Area from MINFOF GIS administrative figure (66000 ha)."
+  },
+  {
+   "name": "Parc national de Kimbi-Fungom",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Parc national', statut 'créé', creation date 2015-02-03); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2015-02-03",
+   "areaKm2": 953.8,
+   "coordinates": null,
+   "wikidataQid": "Q125660194",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr5-2014"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; no management plan. Area from MINFOF GIS administrative figure (95380 ha). The 5th national report (2014) still mentions a 'réserve de faune de Kimbi' (5 625 ha); the act creating the national park was not retrieved."
+  },
+  {
+   "name": "Réserve de faune du Dja",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": {
+    "text": "Classed as a 2nd-category wildlife reserve by Arrêté n° 522/CAB/PR of 22 September 1987",
+    "sourceIds": [
+     "cmr-arrete-522-1987"
+    ]
+   },
+   "established": "1950-07-09",
+   "areaKm2": 5260.04,
+   "coordinates": null,
+   "wikidataQid": "Q843147",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-arrete-522-1987",
+    "cmr-cbd-nr5-2014"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category IV; management plan under revision (plan date 2008-12-17). Area from MINFOF GIS administrative figure (526004 ha). The 5th national report refers to it as the Dja Biosphere Reserve (Réserve de Biosphère du Dja)."
+  },
+  {
+   "name": "Réserve de faune du Lac Ossa",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Réserve de faune', statut 'créé', creation date 1948-12-02); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "1948-12-02",
+   "areaKm2": 40.0,
+   "coordinates": null,
+   "wikidataQid": "Q125545661",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category IV; no management plan. Area is the administrative figure (4000 ha) from MINFOF GIS; GIS-computed area is 4539 ha. The 7th national report lists Lac Ossa among six potential new Ramsar sites."
+  },
+  {
+   "name": "Réserve de faune de Santchou",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": {
+    "text": "Classed as a 3rd-category wildlife reserve by Arrêté n° 03335/A/SETOUR/DFPN/SFPN of 28 September 1987",
+    "sourceIds": [
+     "cmr-arrete-3335-1987"
+    ]
+   },
+   "established": "1964",
+   "areaKm2": 70.0,
+   "coordinates": null,
+   "wikidataQid": "Q23665083",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-arrete-3335-1987"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category IV; no management plan. Area from MINFOF GIS administrative figure (7000 ha)."
+  },
+  {
+   "name": "Réserve de faune de Ngoyla",
+   "localName": null,
+   "category": "game-reserve",
+   "designationLabel": "Réserve de faune",
+   "legalStatus": {
+    "text": "Created by Décret n° 2014/2383/PM of 27 August 2014",
+    "sourceIds": [
+     "cmr-decret-2014-2383"
+    ]
+   },
+   "established": "2014-08-27",
+   "areaKm2": 1566.72,
+   "coordinates": null,
+   "wikidataQid": "Q97332637",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-decret-2014-2383"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category IV; management plan approved (plan date 2017). Area from MINFOF GIS administrative figure (156672 ha)."
+  },
+  {
+   "name": "Sanctuaire de faune de Rumpi Hills (proposed)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Sanctuaire de faune (proposé)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 456.75,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr5-2014",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "Not legally designated: MINFOF 2025 GIS status 'proposé'. Area from MINFOF GIS administrative figure (45675 ha). Projected at 45 675 ha in the 5th national report. The 7th national report lists a public notice for 'Rumki Rata' (possibly Rumpi Hills / Mont Rata; unverified)."
+  },
+  {
+   "name": "Sanctuaire de flore de Kilum-Ijim",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Sanctuaire de flore (decree: 'sanctuaire de faune et de flore')",
+   "legalStatus": {
+    "text": "Created by Décret n° 2004/2464/PM of 8 December 2004",
+    "sourceIds": [
+     "cmr-decret-2004-2464"
+    ]
+   },
+   "established": "2004-12-08",
+   "areaKm2": 10.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-decret-2004-2464",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category IV; no management plan. Area from MINFOF GIS administrative figure (1000 ha). Status conflict: the 2004 decree creates the sanctuary (1 000 ha), but the MINFOF 2025 GIS records 'Sanctuaire de faune Kilum Ijim' as proposed and the 7th national report lists Kilum-Ijim among sites with a public notice for classification (possibly a re-classification). The 7th report's count of 6 sanctuaries matches the 5 created in the GIS plus Kilum-Ijim (inference)."
+  },
+  {
+   "name": "Sanctuaire de faune de Mengame",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Sanctuaire de faune (sanctuaire à gorilles)",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Sanctuaire de faune', statut 'créé', creation date 2008-07-11); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2008-07-11",
+   "areaKm2": 267.11,
+   "coordinates": null,
+   "wikidataQid": "Q6816970",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr5-2014"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category IV; management plan approved (plan date 2014). Area from MINFOF GIS administrative figure (26711 ha). The 5th national report lists it as 'Sanctuaire à Gorille de Mengame' (27 723 ha, 2008, South)."
+  },
+  {
+   "name": "Sanctuaire de faune de Kagwene",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Sanctuaire de faune (sanctuaire à gorilles)",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Sanctuaire de faune', statut 'créé', creation date 2008-04-03); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2008-04-03",
+   "areaKm2": 19.44,
+   "coordinates": null,
+   "wikidataQid": "Q30624686",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr5-2014"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category IV; no management plan. Area from MINFOF GIS administrative figure (1944 ha). The 5th national report lists it as 'Sanctuaire à Gorille de Kagwene' (1 944 ha, 2008, South-West and North-West)."
+  },
+  {
+   "name": "Sanctuaire de faune de Tofala Hill",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Sanctuaire de faune",
+   "legalStatus": {
+    "text": "Created by Décret n° 2014/3212/PM of 29 September 2014",
+    "sourceIds": [
+     "cmr-decret-2014-3212"
+    ]
+   },
+   "established": "2014-09-29",
+   "areaKm2": 80.87,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-decret-2014-3212"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category IV; no management plan. Area from MINFOF GIS administrative figure (8087 ha)."
+  },
+  {
+   "name": "Parc national du Mbam et Djerem",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Created by Décret n° 2000/005/PM of 6 January 2000",
+    "sourceIds": [
+     "cmr-decret-2000-005"
+    ]
+   },
+   "established": "2000-01-06",
+   "areaKm2": 4165.12,
+   "coordinates": null,
+   "wikidataQid": "Q918211",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-decret-2000-005"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan approved (plan date 2007-07-05). Area from MINFOF GIS administrative figure (416512 ha)."
+  },
+  {
+   "name": "Parc national de Lobéké",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Created by Décret n° 2001/107/CAB/PM of 19 March 2001",
+    "sourceIds": [
+     "cmr-decret-2001-107"
+    ]
+   },
+   "established": "2001-03-19",
+   "areaKm2": 2178.54,
+   "coordinates": null,
+   "wikidataQid": "Q1815584",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-decret-2001-107"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan approved (plan date 2006-10-21). Area from MINFOF GIS administrative figure (217854 ha). MINFOF GIS partners include 'TNS' (Sangha Trinational, with CAR and Congo)."
+  },
+  {
+   "name": "Parc national de la Bénoué",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classed as a 1st-category national park by Arrêté n° 522/CAB/PR of 22 September 1987",
+    "sourceIds": [
+     "cmr-arrete-522-1987"
+    ]
+   },
+   "established": "1968-12-05",
+   "areaKm2": 1800.0,
+   "coordinates": null,
+   "wikidataQid": "Q1019469",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-arrete-522-1987"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan under revision (plan date 2002). Area is the administrative figure (180000 ha) from MINFOF GIS; GIS-computed area is 197960 ha."
+  },
+  {
+   "name": "Parc national de Bouba Ndjida",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classed as a 2nd-category national park by Arrêté n° 522/CAB/PR of 22 September 1987",
+    "sourceIds": [
+     "cmr-arrete-522-1987"
+    ]
+   },
+   "established": "1968-12-05",
+   "areaKm2": 2200.0,
+   "coordinates": null,
+   "wikidataQid": "Q894949",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-arrete-522-1987"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan revised (plan date 2002). Area from MINFOF GIS administrative figure (220000 ha)."
+  },
+  {
+   "name": "Parc national du Faro",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classed as a 2nd-category national park by Arrêté n° 522/CAB/PR of 22 September 1987",
+    "sourceIds": [
+     "cmr-arrete-522-1987"
+    ]
+   },
+   "established": "1980",
+   "areaKm2": 3300.0,
+   "coordinates": null,
+   "wikidataQid": "Q1397016",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-arrete-522-1987"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan revised (plan date 2008). Area is the administrative figure (330000 ha) from MINFOF GIS; GIS-computed area is 350039 ha."
+  },
+  {
+   "name": "Parc national de Takamanda",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Parc national', statut 'créé', creation date 2008-11-21); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2008-11-21",
+   "areaKm2": 675.99,
+   "coordinates": null,
+   "wikidataQid": "Q522250",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan revised (plan date 2010). Area is the administrative figure (67599 ha) from MINFOF GIS; GIS-computed area is 62721 ha."
+  },
+  {
+   "name": "Parc national de Kalamaloué",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classed as a 2nd-category national park by Arrêté n° 522/CAB/PR of 22 September 1987",
+    "sourceIds": [
+     "cmr-arrete-522-1987"
+    ]
+   },
+   "established": "1947-11-08",
+   "areaKm2": 45.0,
+   "coordinates": null,
+   "wikidataQid": "Q109314710",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-arrete-522-1987"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; no management plan. Area is the administrative figure (4500 ha) from MINFOF GIS; GIS-computed area is 6689 ha. MINFOF GIS creation date 1947-11-08 (probably the original reserve; the act making it a national park was not retrieved). The GIS 'marine area' value (4 500 ha) is evidently a data-entry error for this inland park."
+  },
+  {
+   "name": "Parc national de Mozogo-Gokoro",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classed as a 3rd-category national park by Arrêté n° 03335/A/SETOUR/DFPN/SFPN of 28 September 1987",
+    "sourceIds": [
+     "cmr-arrete-3335-1987"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 14.0,
+   "coordinates": null,
+   "wikidataQid": "Q1647398",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-arrete-3335-1987"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; no management plan. Area is the administrative figure (1400 ha) from MINFOF GIS; GIS-computed area is 1724 ha."
+  },
+  {
+   "name": "Parc national de Boumba Bek",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Parc national', statut 'créé', creation date 2005-10-06); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2005-10-06",
+   "areaKm2": 2382.55,
+   "coordinates": null,
+   "wikidataQid": "Q895125",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan approved (plan date 2010). Area from MINFOF GIS administrative figure (238255 ha)."
+  },
+  {
+   "name": "Parc national de la Vallée du Mbéré",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Created by Décret n° 2004/0352/PM of 4 February 2004",
+    "sourceIds": [
+     "cmr-decret-2004-0352"
+    ]
+   },
+   "established": "2004-02-04",
+   "areaKm2": 777.6,
+   "coordinates": null,
+   "wikidataQid": "Q1573021",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-decret-2004-0352"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan in preparation. Area from MINFOF GIS administrative figure (77760 ha)."
+  },
+  {
+   "name": "Parc national de Nki",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Parc national', statut 'créé', creation date 2005-10-06); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2005-10-06",
+   "areaKm2": 3093.62,
+   "coordinates": null,
+   "wikidataQid": "Q1544357",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan approved (plan date 2011). Area from MINFOF GIS administrative figure (309362 ha). The MINFOF GIS 'marine area' value (309 362 ha) is evidently a data-entry error for this inland park."
+  },
+  {
+   "name": "Parc national de Bakossi",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Parc national', statut 'créé', creation date 2007-11-28); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2007-11-28",
+   "areaKm2": 293.2,
+   "coordinates": null,
+   "wikidataQid": "Q4849511",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; no management plan. Area from MINFOF GIS administrative figure (29320 ha)."
+  },
+  {
+   "name": "Parc national de la Mefou (proposed)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Parc national (proposé)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 10.44,
+   "coordinates": null,
+   "wikidataQid": "Q54854445",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "Not legally designated: MINFOF 2025 GIS status 'proposé' (proposal date 2000-04-05). Area is the administrative figure (1044 ha) from MINFOF GIS; GIS-computed area is 1101 ha. Public notice for classification listed in the 7th national report."
+  },
+  {
+   "name": "Parc national de Tchabal Mbabo (proposed)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Parc national (proposé)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1052.51,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr5-2014",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "Not legally designated: MINFOF 2025 GIS status 'proposé' (proposal date 2008-07-21). Area from MINFOF GIS administrative figure (105251 ha). Projected at 150 000 ha in the 5th national report; public notice listed in the 7th national report."
+  },
+  {
+   "name": "Parc national de Deng Deng",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Parc national', statut 'créé', creation date 2013-04-30); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2010",
+   "areaKm2": 682.64,
+   "coordinates": null,
+   "wikidataQid": "Q23681074",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr5-2014"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; no management plan. Area from MINFOF GIS administrative figure (68264 ha). Creation date conflicts: the 5th national report (2014) gives 2010 (52 347 ha in Table 17, 58 091 ha in the text); the MINFOF 2025 GIS gives creation date 2013-04-30 and 68 264 ha (possibly a later act; not verified). Established set to 2010 per the national report."
+  },
+  {
+   "name": "Parc national du Mont Cameroun",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Parc national', statut 'créé', creation date 2009-12-10); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2009-12-10",
+   "areaKm2": 581.78,
+   "coordinates": null,
+   "wikidataQid": "Q56489196",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr5-2014"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan revised. Area from MINFOF GIS administrative figure (58178 ha). The 5th national report gives 2009 and 58 178 ha in Table 17 but 64 677 ha in its text."
+  },
+  {
+   "name": "Parc national du Mpem et Djim",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Parc national', statut 'créé', creation date 2004-05-12); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2004-05-12",
+   "areaKm2": 974.8,
+   "coordinates": null,
+   "wikidataQid": "Q26266820",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan approved (plan date 2022-06-01). Area from MINFOF GIS administrative figure (97480 ha)."
+  },
+  {
+   "name": "Parc National Marin Manyange na Elombo-Campo",
+   "localName": null,
+   "category": "marine-protected-area",
+   "designationLabel": "Parc National Marin",
+   "legalStatus": {
+    "text": "Created by decree of the Prime Minister (LEAP: Décret 2021/4804/PM of 9 July 2021)",
+    "sourceIds": [
+     "cmr-decret-2021-4804"
+    ]
+   },
+   "established": "2021",
+   "areaKm2": 1103.0,
+   "coordinates": null,
+   "wikidataQid": "Q125381487",
+   "marine": true,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-decret-2021-4804",
+    "cmr-cbd-nr5-2014"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; no management plan. Area from MINFOF GIS administrative figure (110300 ha). Marine and coastal PA with a 3 400 ha buffer zone. Decree date conflicts: LEAP and MINFOF GIS give 9 July 2021; the scanned decree's stamp reads 30 June 2021. The 5th national report (2014) listed a projected 'parc marin de Kribi' (126 053 ha) in this area (probable predecessor project; inference)."
+  },
+  {
+   "name": "Parc national de Korup",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classed as a 1st-category national park by Arrêté n° 522/CAB/PR of 22 September 1987",
+    "sourceIds": [
+     "cmr-arrete-522-1987"
+    ]
+   },
+   "established": "1986-12-01",
+   "areaKm2": 1259.0,
+   "coordinates": null,
+   "wikidataQid": "Q1784847",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-arrete-522-1987"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan approved (plan date 2016). Area from MINFOF GIS administrative figure (125900 ha)."
+  },
+  {
+   "name": "Parc national de Waza",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Classed as a 1st-category national park by Arrêté n° 522/CAB/PR of 22 September 1987",
+    "sourceIds": [
+     "cmr-arrete-522-1987"
+    ]
+   },
+   "established": "1968",
+   "areaKm2": 1700.0,
+   "coordinates": null,
+   "wikidataQid": "Q1751924",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-arrete-522-1987"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan approved (plan date 2015). Area is the administrative figure (170000 ha) from MINFOF GIS; GIS-computed area is 140598 ha."
+  },
+  {
+   "name": "Parc national de Campo-Ma'an",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Created by Décret n° 2000/004/PM of 6 January 2000",
+    "sourceIds": [
+     "cmr-decret-2000-004"
+    ]
+   },
+   "established": "2000-01-06",
+   "areaKm2": 2640.64,
+   "coordinates": null,
+   "wikidataQid": "Q1031366",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-decret-2000-004"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; management plan under revision (plan date 2015). Area from MINFOF GIS administrative figure (264064 ha). A 'Réserve de faune de Campo' was classed in 2nd category by Arrêté 522/CAB/PR (1987); the decree does not say whether the park replaced it."
+  },
+  {
+   "name": "Parc national de Ndongore (proposed)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Parc national (proposé)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 2300.0,
+   "coordinates": null,
+   "wikidataQid": "Q25378334",
+   "marine": true,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr5-2014",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "Not legally designated: MINFOF 2025 GIS status 'proposé' (proposal date 2005-11-22). Area from MINFOF GIS administrative figure (230000 ha). Listed by the 5th national report under coastal and marine ecosystem projects (230 000 ha); public notice ('Dongore') listed in the 7th national report. MINFOF GIS records 234 464 ha of marine area."
+  },
+  {
+   "name": "Parc national de Douala-Edéa",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Former Réserve de faune de Douala-Edéa (2nd category, Arrêté 522/CAB/PR of 1987) converted into a national park by Décret n° 2018/8399/PM of 11 October 2018",
+    "sourceIds": [
+     "cmr-decret-2018-8399",
+     "cmr-arrete-522-1987"
+    ]
+   },
+   "established": "2018-10-11",
+   "areaKm2": 2629.35,
+   "coordinates": null,
+   "wikidataQid": "Q1251334",
+   "marine": true,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-decret-2018-8399",
+    "cmr-arrete-522-1987",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; no management plan. Area from MINFOF GIS administrative figure (262935 ha). Decree objectives include mangrove and marine ecosystems; MINFOF GIS records 271 512 ha of marine area. Probably the 'mixed (terrestrial and marine)' PA counted in the 7th national report (inference)."
+  },
+  {
+   "name": "Parc national de Ma Mbed Mbed",
+   "localName": null,
+   "category": "national-park",
+   "designationLabel": "Parc national",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Parc national', statut 'créé', creation date 2020-01-07); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2020-01-07",
+   "areaKm2": 127.08,
+   "coordinates": null,
+   "wikidataQid": "Q109315190",
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category II; no management plan. Area is the administrative figure (12708 ha) from MINFOF GIS; GIS-computed area is 13902 ha. The 7th national report lists Ma Mbed Mbed among six potential new Ramsar sites."
+  },
+  {
+   "name": "Sanctuaire de faune du Lac Tchad (proposed)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Sanctuaire de faune (proposé)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1418.05,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025"
+   ],
+   "notes": "Not legally designated: MINFOF 2025 GIS status 'proposé' (proposal date 2020-06-08). Area from MINFOF GIS administrative figure (141805 ha). Proposed 2020-06-08 per MINFOF GIS. The Cameroonian part of Lake Chad is a Ramsar site (MINFOF GIS conventions layer)."
+  },
+  {
+   "name": "Sanctuaire de faune herpéto-ornithologique du Mont Manengouba",
+   "localName": null,
+   "category": "nature-reserve",
+   "designationLabel": "Sanctuaire de faune",
+   "legalStatus": {
+    "text": "Recorded by MINFOF as created ('Sanctuaire de faune', statut 'créé', creation date 2023-02-21); creating act not retrieved",
+    "sourceIds": [
+     "cmr-minfof-atlas-gdb-2025"
+    ]
+   },
+   "established": "2023-02-21",
+   "areaKm2": 46.96,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025"
+   ],
+   "notes": "MINFOF 2025 GIS: IUCN category not recorded; no management plan. Area from MINFOF GIS administrative figure (4696 ha). Created 2023 per MINFOF GIS; the creating act was not retrieved. No IUCN category recorded in the GIS."
+  },
+  {
+   "name": "Jardin zoologique de Limbe",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Jardin zoologique",
+   "legalStatus": {
+    "text": "Classed in 3rd category by Arrêté n° 03335/A/SETOUR/DFPN/SFPN of 28 September 1987",
+    "sourceIds": [
+     "cmr-arrete-3335-1987"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q1825359",
+   "marine": null,
+   "sourceIds": [
+    "cmr-arrete-3335-1987",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "Ex-situ site counted among the 109 protected areas of the 7th national report (3 zoological gardens), which calls it a recovery zoo ('zoo de récupération') in Limbe. Wikidata item is the Limbe Wildlife Centre, which operates the Limbe zoo site (identification moderately confident)."
+  },
+  {
+   "name": "Jardin zoologique de Garoua",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Jardin zoologique",
+   "legalStatus": {
+    "text": "Classed in 3rd category by Arrêté n° 03335/A/SETOUR/DFPN/SFPN of 28 September 1987",
+    "sourceIds": [
+     "cmr-arrete-3335-1987"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-arrete-3335-1987",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "Ex-situ site counted among the 109 protected areas of the 7th national report (3 zoological gardens)."
+  },
+  {
+   "name": "Jardin zoologique de Mvog-Betsi",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Jardin zoologique (7th national report: 'zoo botanique de Mvog Betsi à Yaoundé')",
+   "legalStatus": {
+    "text": "Classed in 3rd category by Arrêté n° 03335/A/SETOUR/DFPN/SFPN of 28 September 1987",
+    "sourceIds": [
+     "cmr-arrete-3335-1987"
+    ]
+   },
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q6356988",
+   "marine": null,
+   "sourceIds": [
+    "cmr-arrete-3335-1987",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "Ex-situ site in Yaoundé counted among the 109 protected areas of the 7th national report (3 zoological gardens)."
+  },
+  {
+   "name": "Jardin botanique de Limbé",
+   "localName": null,
+   "category": "other-protected-area",
+   "designationLabel": "Jardin botanique",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": null,
+   "coordinates": null,
+   "wikidataQid": "Q3162399",
+   "marine": null,
+   "sourceIds": [
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "The 7th national report counts 1 botanical garden among the 109 protected areas and names the Limbe botanical garden among the four ex-situ 'jardins'. Its legal act was not retrieved."
+  },
+  {
+   "name": "Réserve écologique intégrale du Mont Kupe (proposed)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Réserve écologique intégrale (en cours de création)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 46.76,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr5-2014"
+   ],
+   "notes": "MINFOF 2025 GIS forest-reserve layer: status 'en cours de création', administrative area 4 676 ha (a date 2005-02-09 is recorded although the status is 'in progress'). Listed as a projected integral ecological reserve (4 676 ha) in the 5th national report."
+  },
+  {
+   "name": "Réserve écologique intégrale du Mont Muanenguba (proposed)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Réserve écologique intégrale (en cours de création)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 52.5,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-cbd-nr5-2014"
+   ],
+   "notes": "MINFOF 2025 GIS forest-reserve layer: status 'en cours de création', 5 250 ha. The 5th national report lists a projected 'Réserve écologique intégrale de mont Manengouba' (5 252 ha). Overlap with the 2023 Manengouba wildlife sanctuary is not documented."
+  },
+  {
+   "name": "Parc national de Kom (proposed)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Parc national (projet)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 689.05,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-cbd-nr5-2014",
+    "cmr-cbd-nr7-2026"
+   ],
+   "notes": "Projected at 68 905 ha in the 5th national report (2014). The 7th national report (2026) lists Kom among sites with a public notice for classification. Not in the MINFOF 2025 GIS PA layer."
+  },
+  {
+   "name": "Parc national d'Ebo (proposed)",
+   "localName": null,
+   "category": "proposed",
+   "designationLabel": "Parc national (projet)",
+   "legalStatus": null,
+   "established": null,
+   "areaKm2": 1000.0,
+   "coordinates": null,
+   "wikidataQid": null,
+   "marine": null,
+   "sourceIds": [
+    "cmr-cbd-nr5-2014"
+   ],
+   "notes": "Only source: projected PA list of the 5th national report (2014), 100 000 ha. Not in the MINFOF 2025 GIS PA layer nor among the classification notices of the 7th national report, so its current status is unknown. Wikidata 'Ebo Wildlife Reserve' (Q5331902) was not linked because its type does not match a proposed national park."
+  }
+ ],
+ "notEnumerated": [
+  {
+   "category": "hunting zones: zones d'intérêt cynégétique (ZIC) and community-managed ZIC (ZICGC)",
+   "approxCount": 72,
+   "reason": "Hunting zones, which Cameroon counts in its PA network (7th national report: 45 ZIC + 27 ZICGC). They are mostly leased hunting concessions and are counted separately from the 37 PAs on the MINFOF map. The MINFOF 2025 GIS 'zics' layer has 70 polygons (43 ZIC created, 1 proposed, 26 ZICGC) totalling 5 480 388 ha, including about 2.19 million ha overlapping other titles. They could be enumerated from that layer if wanted.",
+   "sourceIds": [
+    "cmr-cbd-nr7-2026",
+    "cmr-minfof-poster-2025",
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-decision-0325-2000"
+   ]
+  },
+  {
+   "category": "forest reserves (réserves forestières: forêts de protection, forêts d'enseignement et de recherche, périmètres de reboisement)",
+   "approxCount": 59,
+   "reason": "Not counted as protected areas by MINFOF or the 7th national report. The MINFOF 2025 GIS 'reserve_forestier' layer lists 59 polygons, but 11 protection forests have no name, most have no creation date or administrative area, and MINFOF says their areas were mostly computed by GIS for lack of official descriptions. Only the two proposed integral ecological reserves (Mont Kupe, Mont Muanenguba) were taken from this layer.",
+   "sourceIds": [
+    "cmr-minfof-atlas-gdb-2025",
+    "cmr-minfof-poster-2025"
+   ]
+  },
+  {
+   "category": "communal forests (forêts communales) and community forests (forêts communautaires)",
+   "approxCount": 836,
+   "reason": "Production or managed forests of the permanent and non-permanent estate (74 communal forests and 762 community forests on the December 2025 MINFOF map). Not protected areas; listed for completeness.",
+   "sourceIds": [
+    "cmr-minfof-poster-2025"
+   ]
+  }
+ ],
+ "gaps": [
+  "The MINFOF website (www.minfof.cm) returned HTTP 403 (and an expired TLS certificate), so no MINFOF web list was checked. The inventory relies on the MINFOF/WRI Forest Atlas geodatabase and poster (2025 edition) and the 7th CBD national report (March 2026).",
+  "Count mismatch: the 7th national report gives 5 wildlife reserves and 6 sanctuaries; the MINFOF 2025 GIS has 4 reserves (Dja, Lac Ossa, Ngoyla, Santchou) and 5 created sanctuaries. The 6th sanctuary is probably Kilum-Ijim (2004 decree), recorded here as created with a status note. The 5th wildlife reserve was not identified (the 5th national report mentions a small 'Mbi Crater' reserve of 370 ha, unverified).",
+  "Creating or classifying acts were read on FAOLEX for Campo-Ma'an, Mbam et Djerem, Lobéké, Vallée du Mbéré, Kilum-Ijim, Ngoyla, Tofala Hill, Douala-Edéa and Manyange na Elombo-Campo. The 1987 category arrêtés cover Waza, Bénoué, Korup, Bouba Ndjida, Kalamaloué, Faro, Mozogo-Gokoro, Dja and Santchou. For Bakossi, Boumba Bek, Nki, Takamanda, Mont Cameroun, Deng Deng, Mpem et Djim, Kimbi-Fungom, Ma Mbed Mbed, Lac Ossa, Bayang-Mbo, Kagwene, Mengame and Manengouba, the creation date and area come only from the MINFOF GIS; their decrees were not found in the LEAP/FAOLEX listing.",
+  "Dates: MINFOF GIS dates of 1 January (Waza 1968, Faro 1980, Mozogo-Gokoro 1968, Santchou 1964) are treated as year-only. Known conflicts: Deng Deng 2010 (5th national report) vs 2013-04-30 (GIS); Manyange na Elombo-Campo 9 July 2021 (LEAP/GIS) vs 30 June 2021 (decree stamp); Kalamaloué's GIS date 1947 is probably the original reserve.",
+  "Areas are the MINFOF 'superficie administrative' (from official texts), which matches the decree figures where checked (Campo-Ma'an, Mbam et Djerem, Lobéké, Mbéré, Ngoyla, Tofala, Douala-Edéa, Manyange). Later boundary changes are not tracked.",
+  "Coordinates are left null. The MINFOF geodatabase holds official polygons for all 37 wildlife PAs, which could be used to derive points or boundaries if wanted (data in an unspecified Clarke 1880-based geographic CRS, EPSG:4034).",
+  "MINFOF GIS 'marine area' values are unreliable (non-zero for inland Nki and Kalamaloué), so marine=true is set only for Manyange na Elombo-Campo and Douala-Edéa (decree texts) and the proposed Ndongore (listed under coastal and marine projects in the 5th national report).",
+  "The proposed sites from the 7th national report's public notices ('Rumki Rata', 'Dongore', Kom) are matched to GIS or 5th-report names by inference. Other projects of the 5th national report (Lom Pangar gorilla sanctuary, Mt Bamboutos and Mt Nlonako reserves) were not recorded because no current official status was found.",
+  "OFAC/COMIFAC 'Aires protégées d'Afrique centrale – État 2020' was consulted, but its national counts (31 national PAs for Cameroon) cover only areas 'reconnues par la WDPA', so they were not used.",
+  "Wikidata QIDs were checked via SPARQL/wbgetentities (P17 = Cameroon, P31 protected-area type). No QID was assigned to Tchabal Mbabo (the item is the mountain), Kilum-Ijim (forest item), Manengouba (mountain item), Rumpi Hills (the item is a 'wildlife reserve' of unclear match), Tofala, Lac Tchad, Garoua zoo, Kom or Ebo. Kalamaloué has a duplicate German-only item (Q1721928); Q109314710 was used."
+ ]
+}

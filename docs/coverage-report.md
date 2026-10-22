@@ -1,8 +1,8 @@
 # Protected-area inventory and coverage report
 
-Generated from `public/data/catalogue.json` (dataset v0.6.0, updated 2026-10-20). Regenerate with `npm run data:coverage`.
+Generated from `public/data/catalogue.json` (dataset v0.7.0, updated 2026-10-22). Regenerate with `npm run data:coverage`.
 
-The catalogue holds **387 catalogued areas** in **22 countries**: the 13 WASOP countries and 9 additional African countries. **It is a partial inventory.** No country's coverage has been verified as exhaustive against an official register (see "Inventory status"). Each record appears once: when Ramsar, World Heritage or biosphere status applies to the same area as a national designation, it is recorded as an extra designation on that area. Designations that cover a different extent are separate records, linked as overlapping.
+The catalogue holds **481 catalogued areas** in **25 countries**: the 13 WASOP countries and 12 additional African countries. **It is a partial inventory.** No country's coverage has been verified as exhaustive against an official register (see "Inventory status"). Each record appears once: when Ramsar, World Heritage or biosphere status applies to the same area as a national designation, it is recorded as an extra designation on that area. Designations that cover a different extent are separate records, linked as overlapping.
 
 Sources are national authorities, laws and government reports (found by desk research), plus the Ramsar annotated lists and UNESCO World Heritage pages. Locations are reference points: from Ramsar, from UNESCO, or from Wikidata (CC0) where official sources give none. No protected-area boundaries are shown. WDPA/Protected Planet data is not used, because its licence does not allow redistribution here, so the catalogue cannot be compared with it.
 
@@ -32,6 +32,9 @@ Sources are national authorities, laws and government reports (found by desk res
 | São Tomé and Príncipe | Additional | 4 | 2 | 1 | 0 | 1 | 2 | Partial |
 | Tanzania | Additional | 40 | 31 | 4 | 4 | 5 | 17 | Partial |
 | Uganda | Additional | 35 | 22 | 12 | 2 | 2 | 16 | Partial |
+| Cameroon | Additional | 40 | 28 | 7 | 2 | 3 | 28 | Partial |
+| Republic of the Congo | Additional | 24 | 13 | 13 | 2 | 2 | 13 | Partial |
+| Democratic Republic of the Congo | Additional | 30 | 26 | 4 | 5 | 2 | 21 | Partial |
 
 ## Reconciliation
 
@@ -63,9 +66,14 @@ How the areas listed by the national sources reviewed relate to the records on t
 | São Tomé and Príncipe | 4 | 2 | 2 | 2 | 0 | 2 | 4 |
 | Tanzania | 124 | 31 | 93 | 31 | 0 | 9 | 40 |
 | Uganda | 31 | 22 | 9 | 22 | 0 | 13 | 35 |
-| **Total** | **719** | **271** | **448** | **266** | **4** | **117** | **387** |
+| Cameroon | 45 | 30 | 15 | 28 | 2 | 10 | 40 |
+| Republic of the Congo | 21 | 13 | 8 | 13 | 0 | 11 | 24 |
+| Democratic Republic of the Congo | 40 | 26 | 14 | 26 | 0 | 4 | 30 |
+| **Total** | **825** | **340** | **485** | **333** | **6** | **142** | **481** |
 
 Not counted above: 1 context record (an administrative region shown for orientation, not a protected area). Mapped listed areas equal national/community plus proposed records in every country except Liberia, where the proposed Marshall Wetlands protected area is recorded on its Ramsar site, an international-only record.
+
+Also not mapped, and not part of the national lists above: 5 Ramsar sites whose coordinates in Ramsar's annotated list are erroneous (Bas-Kouilou-Yombo, COG; Bas Ogooué, GAB; Tinkisso, GIN; Osun-Oshogbo Sacred Grove, NGA; Yemoji Lake Ijebu Ode, NGA). They are listed in `inventory/uncatalogued-areas.csv` with category `international-designation`.
 
 ## Catalogued areas by protection category
 
@@ -93,6 +101,9 @@ Not counted above: 1 context record (an administrative region shown for orientat
 | São Tomé and Príncipe | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 2 | 0 |
 | Tanzania | 19 | 0 | 4 | 5 | 0 | 0 | 3 | 9 | 0 |
 | Uganda | 10 | 0 | 0 | 11 | 0 | 1 | 0 | 13 | 0 |
+| Cameroon | 21 | 2 | 0 | 4 | 0 | 0 | 1 | 10 | 2 |
+| Republic of the Congo | 5 | 2 | 0 | 4 | 0 | 1 | 1 | 11 | 0 |
+| Democratic Republic of the Congo | 9 | 8 | 0 | 6 | 1 | 1 | 1 | 4 | 0 |
 
 ## Inventory status by country
 
@@ -236,6 +247,7 @@ Gaps:
 - Not enumerated: forêts classées (classified forests) — No official list found; 156 classified state forests existed at independence (PoWPA).
 - Not enumerated: forêts communautaires (community forests) (about 186) — Count only (NR6).
 - 5 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.
+- Ramsar site no. 1168 (Tinkisso) is not mapped: the coordinates in Ramsar's annotated list are erroneous. It is listed in docs/inventory/uncatalogued-areas.csv.
 - WDPA/Protected Planet, the most complete global compilation, is not used because its licence does not allow redistribution here, so the catalogue cannot be compared with it.
 
 ### Guinea-Bissau — partial (9 catalogued)
@@ -328,6 +340,8 @@ Gaps:
 - Not enumerated: game reserves (state) (about 32) — State-managed; no official national list found.
 - Not enumerated: strict nature reserves, sacred groves and community areas — No official list found.
 - 7 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.
+- Ramsar site no. 2563 (Osun-Oshogbo Sacred Grove) is not mapped: the coordinates in Ramsar's annotated list are erroneous. It is listed in docs/inventory/uncatalogued-areas.csv.
+- Ramsar site no. 2575 (Yemoji Lake Ijebu Ode) is not mapped: the coordinates in Ramsar's annotated list are erroneous. It is listed in docs/inventory/uncatalogued-areas.csv.
 - WDPA/Protected Planet, the most complete global compilation, is not used because its licence does not allow redistribution here, so the catalogue cannot be compared with it.
 
 ### Senegal — partial (22 catalogued)
@@ -495,6 +509,7 @@ Gaps:
 - Not enumerated: classified forests (forêts classées) and other forest reserves — No official list found; only Sibang and Mondah appear in the 2012 PoWPA table.
 - Not enumerated: conservation series (séries de conservation) in managed forest concessions — Mentioned in the 6th national report as additional conservation areas, but not listed.
 - 28 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.
+- Ramsar site no. 1851 (Bas Ogooué) is not mapped: the coordinates in Ramsar's annotated list are erroneous. It is listed in docs/inventory/uncatalogued-areas.csv.
 - WDPA/Protected Planet, the most complete global compilation, is not used because its licence does not allow redistribution here, so the catalogue cannot be compared with it.
 
 ### Mozambique — partial (14 catalogued)
@@ -641,9 +656,116 @@ Gaps:
 - 9 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.
 - WDPA/Protected Planet, the most complete global compilation, is not used because its licence does not allow redistribution here, so the catalogue cannot be compared with it.
 
+### Cameroon — partial (40 catalogued)
+
+Wildlife protected areas are designated and managed by the Ministère des Forêts et de la Faune (MINFOF) under forest and wildlife law n° 94/01 of 1994, replaced by law n° 2024/08 of 24 July 2024. The MINFOF website (minfof.cm) returned 403 Forbidden. MINFOF and WRI publish the official register as the open file geodatabase of the Interactive Forest Atlas of Cameroon (2025 edition) and as a 'Domaine forestier' poster dated December 2025. The geodatabase lists 37 wildlife PAs: 22 national parks, 4 wildlife reserves and 5 wildlife sanctuaries created, plus 3 proposed national parks and 3 proposed sanctuaries. It also lists 70 hunting zones (ZIC/ZICGC) and 59 forest reserves. Cameroon's 7th CBD national report (March 2026) counts 109 protected areas: 22 national parks, 5 wildlife reserves, 6 sanctuaries, 3 zoological gardens, 1 botanical garden, 45 ZIC and 27 ZICGC. That is one wildlife reserve and one sanctuary more than the MINFOF GIS; the sanctuary is probably Kilum-Ijim (created by a 2004 decree), and the extra reserve could not be identified. Creating or classifying acts were checked on FAOLEX for 13 areas. For the rest, the legal status rests on the MINFOF GIS record. Comparison: the sources reviewed list 45 nationally designated or proposed areas; 30 are catalogued here, and 15 are verified but not yet mapped because no openly licensed location was found. The catalogue also holds 7 Ramsar sites for this country. Coverage has not been verified as exhaustive. Sources: [Ministère des Forêts et de la Faune](https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/gdbs/cmr_data_sans_documents_2025.gdb.zip); [MINFOF and World Resources Institute](https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/posters/CMR_Poster_2025%20fr.pdf); [Government of Cameroon (MINEPDED) via CBD Online Reporting Tool](https://ort.cbd.int/database/record?documentID=290642); [République du Cameroun (MINEPDED) / CBD](https://www.cbd.int/doc/world/cm/cm-nr-05-fr.pdf).
+
+Stated official totals:
+
+- protected areas (all types incl. 72 hunting zones, 3 zoos, 1 botanical garden): 109 (as of 2026) — [Government of Cameroon (MINEPDED) via CBD Online Reporting Tool](https://ort.cbd.int/database/record?documentID=290642)
+- national parks: 22 (as of 2026) — [Government of Cameroon (MINEPDED) via CBD Online Reporting Tool](https://ort.cbd.int/database/record?documentID=290642)
+- wildlife reserves (réserves de faune): 5 (as of 2026) — [Government of Cameroon (MINEPDED) via CBD Online Reporting Tool](https://ort.cbd.int/database/record?documentID=290642)
+- sanctuaries: 6 (as of 2026) — [Government of Cameroon (MINEPDED) via CBD Online Reporting Tool](https://ort.cbd.int/database/record?documentID=290642)
+- zoological gardens: 3 (as of 2026) — [Government of Cameroon (MINEPDED) via CBD Online Reporting Tool](https://ort.cbd.int/database/record?documentID=290642)
+- botanical garden: 1 (as of 2026) — [Government of Cameroon (MINEPDED) via CBD Online Reporting Tool](https://ort.cbd.int/database/record?documentID=290642)
+- hunting zones (ZIC): 45 (as of 2026) — [Government of Cameroon (MINEPDED) via CBD Online Reporting Tool](https://ort.cbd.int/database/record?documentID=290642)
+- community-managed hunting zones (ZICGC): 27 (as of 2026) — [Government of Cameroon (MINEPDED) via CBD Online Reporting Tool](https://ort.cbd.int/database/record?documentID=290642)
+- protected areas (MINFOF forest-estate map: parks, reserves, sanctuaries incl. proposed): 37 (as of 2025-12) — [MINFOF and World Resources Institute](https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/posters/CMR_Poster_2025%20fr.pdf)
+- national parks created: 22 (as of 2025-12) — [MINFOF and World Resources Institute](https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/posters/CMR_Poster_2025%20fr.pdf)
+- national parks being created: 3 (as of 2025-12) — [MINFOF and World Resources Institute](https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/posters/CMR_Poster_2025%20fr.pdf)
+- wildlife reserves created: 4 (as of 2025-12) — [MINFOF and World Resources Institute](https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/posters/CMR_Poster_2025%20fr.pdf)
+- sanctuaries created: 5 (as of 2025-12) — [MINFOF and World Resources Institute](https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/posters/CMR_Poster_2025%20fr.pdf)
+- sanctuaries being created: 3 (as of 2025-12) — [MINFOF and World Resources Institute](https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/posters/CMR_Poster_2025%20fr.pdf)
+- hunting zones (ZIC/ZICGC): 70 (as of 2025-12) — [MINFOF and World Resources Institute](https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/posters/CMR_Poster_2025%20fr.pdf)
+- forest reserves: 59 (as of 2025-12) — [MINFOF and World Resources Institute](https://wri-sites.s3.amazonaws.com/forest-atlas.org/cmr.forest-atlas.org/resources/posters/CMR_Poster_2025%20fr.pdf)
+- national parks (2012): 24 (as of 2012) — [République du Cameroun (MINEPDED) / CBD](https://www.cbd.int/doc/world/cm/cm-nr-05-fr.pdf)
+
+Gaps:
+
+- The MINFOF website (www.minfof.cm) returned HTTP 403 (and an expired TLS certificate), so no MINFOF web list was checked. The inventory relies on the MINFOF/WRI Forest Atlas geodatabase and poster (2025 edition) and the 7th CBD national report (March 2026).
+- Count mismatch: the 7th national report gives 5 wildlife reserves and 6 sanctuaries; the MINFOF 2025 GIS has 4 reserves (Dja, Lac Ossa, Ngoyla, Santchou) and 5 created sanctuaries. The 6th sanctuary is probably Kilum-Ijim (2004 decree), recorded here as created with a status note. The 5th wildlife reserve was not identified (the 5th national report mentions a small 'Mbi Crater' reserve of 370 ha, unverified).
+- Creating or classifying acts were read on FAOLEX for Campo-Ma'an, Mbam et Djerem, Lobéké, Vallée du Mbéré, Kilum-Ijim, Ngoyla, Tofala Hill, Douala-Edéa and Manyange na Elombo-Campo. The 1987 category arrêtés cover Waza, Bénoué, Korup, Bouba Ndjida, Kalamaloué, Faro, Mozogo-Gokoro, Dja and Santchou. For Bakossi, Boumba Bek, Nki, Takamanda, Mont Cameroun, Deng Deng, Mpem et Djim, Kimbi-Fungom, Ma Mbed Mbed, Lac Ossa, Bayang-Mbo, Kagwene, Mengame and Manengouba, the creation date and area come only from the MINFOF GIS; their decrees were not found in the LEAP/FAOLEX listing.
+- Dates: MINFOF GIS dates of 1 January (Waza 1968, Faro 1980, Mozogo-Gokoro 1968, Santchou 1964) are treated as year-only. Known conflicts: Deng Deng 2010 (5th national report) vs 2013-04-30 (GIS); Manyange na Elombo-Campo 9 July 2021 (LEAP/GIS) vs 30 June 2021 (decree stamp); Kalamaloué's GIS date 1947 is probably the original reserve.
+- Areas are the MINFOF 'superficie administrative' (from official texts), which matches the decree figures where checked (Campo-Ma'an, Mbam et Djerem, Lobéké, Mbéré, Ngoyla, Tofala, Douala-Edéa, Manyange). Later boundary changes are not tracked.
+- Coordinates are left null. The MINFOF geodatabase holds official polygons for all 37 wildlife PAs, which could be used to derive points or boundaries if wanted (data in an unspecified Clarke 1880-based geographic CRS, EPSG:4034).
+- MINFOF GIS 'marine area' values are unreliable (non-zero for inland Nki and Kalamaloué), so marine=true is set only for Manyange na Elombo-Campo and Douala-Edéa (decree texts) and the proposed Ndongore (listed under coastal and marine projects in the 5th national report).
+- The proposed sites from the 7th national report's public notices ('Rumki Rata', 'Dongore', Kom) are matched to GIS or 5th-report names by inference. Other projects of the 5th national report (Lom Pangar gorilla sanctuary, Mt Bamboutos and Mt Nlonako reserves) were not recorded because no current official status was found.
+- OFAC/COMIFAC 'Aires protégées d'Afrique centrale – État 2020' was consulted, but its national counts (31 national PAs for Cameroon) cover only areas 'reconnues par la WDPA', so they were not used.
+- Wikidata QIDs were checked via SPARQL/wbgetentities (P17 = Cameroon, P31 protected-area type). No QID was assigned to Tchabal Mbabo (the item is the mountain), Kilum-Ijim (forest item), Manengouba (mountain item), Rumpi Hills (the item is a 'wildlife reserve' of unclear match), Tofala, Lac Tchad, Garoua zoo, Kom or Ebo. Kalamaloué has a duplicate German-only item (Q1721928); Q109314710 was used.
+- Not enumerated: hunting zones: zones d'intérêt cynégétique (ZIC) and community-managed ZIC (ZICGC) (about 72) — Hunting zones, which Cameroon counts in its PA network (7th national report: 45 ZIC + 27 ZICGC). They are mostly leased hunting concessions and are counted separately from the 37 PAs on the MINFOF map. The MINFOF 2025 GIS 'zics' layer has 70 polygons (43 ZIC created, 1 proposed, 26 ZICGC) totalling 5 480 388 ha, including about 2.19 million ha overlapping other titles. They could be enumerated from that layer if wanted.
+- Not enumerated: forest reserves (réserves forestières: forêts de protection, forêts d'enseignement et de recherche, périmètres de reboisement) (about 59) — Not counted as protected areas by MINFOF or the 7th national report. The MINFOF 2025 GIS 'reserve_forestier' layer lists 59 polygons, but 11 protection forests have no name, most have no creation date or administrative area, and MINFOF says their areas were mostly computed by GIS for lack of official descriptions. Only the two proposed integral ecological reserves (Mont Kupe, Mont Muanenguba) were taken from this layer.
+- Not enumerated: communal forests (forêts communales) and community forests (forêts communautaires) (about 836) — Production or managed forests of the permanent and non-permanent estate (74 communal forests and 762 community forests on the December 2025 MINFOF map). Not protected areas; listed for completeness.
+- 15 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.
+- WDPA/Protected Planet, the most complete global compilation, is not used because its licence does not allow redistribution here, so the catalogue cannot be compared with it.
+
+### Republic of the Congo — partial (24 catalogued)
+
+No consolidated official list was retrievable online: the ACFAP (Agence congolaise de la faune et des aires protégées, created by Loi 34-2012) website did not respond. Congo's 6th national report to the CBD (MEFDD, September 2017) gives the most recent government table: 15 protected areas (4 national parks, 7 reserves, 2 sanctuaries, 2 hunting domains), 3,903,010 ha (11%). The OFAC/COMIFAC 'État des aires protégées 2015' gives the same 15 sites with creation texts. This file adds Ogooué-Lékéti National Park (Décret 2022-1921) and two community marine reserves adopted by the Council of Ministers in October 2023, whose report speaks of 17 parks and reserves. Most entries are checked against the creation decrees on FAOLEX; the Mont Fouari complex and Tsoulou rely on the CBD report and EdAP 2015. Comparison: the sources reviewed list 21 nationally designated or proposed areas; 13 are catalogued here (4 as an extra designation on an already catalogued area), and 8 are verified but not yet mapped because no openly licensed location was found. The catalogue also holds 13 Ramsar sites for this country. Coverage has not been verified as exhaustive. Sources: [Ministère de l'Économie forestière et du Développement durable](https://www.cbd.int/doc/world/cg/cg-nr-06-fr.pdf); [OFAC / COMIFAC](https://comifac.org/images/documents/EdAP_2015.pdf); [Secrétariat général du Gouvernement, République du Congo](https://www.sgg.cg/ccm/compte-rendu-cmd-2023-10-25.pdf); [Ministère de l'Économie forestière et du Développement durable (MEFDD) / PNUE / FEM](https://www.cbd.int/doc/world/cg/cg-nbsap-v2-fr.pdf); [UNEP Law and Environment Assistance Platform](https://leap.unep.org/en/countries/cg/national-legislation/loi-ndeg-34-2012-du-31-octobre-2012-portant-creation-de-lagence); [Government of the Republic of the Congo](https://faolex.fao.org/docs/pdf/con86726.pdf).
+
+Stated official totals:
+
+- protected areas (total): 15 (as of 2017) — [Ministère de l'Économie forestière et du Développement durable](https://www.cbd.int/doc/world/cg/cg-nr-06-fr.pdf)
+- national parks: 4 (as of 2017) — [Ministère de l'Économie forestière et du Développement durable](https://www.cbd.int/doc/world/cg/cg-nr-06-fr.pdf)
+- protected areas (total): 15 (as of 2015) — [OFAC / COMIFAC](https://comifac.org/images/documents/EdAP_2015.pdf)
+- parks and reserves (total, incl. Conkouati-Douli): 17 (as of 2023-10-25) — [Secrétariat général du Gouvernement, République du Congo](https://www.sgg.cg/ccm/compte-rendu-cmd-2023-10-25.pdf)
+- protected areas (total, in 2000): 16 (as of 2000) — [Government of the Republic of the Congo](https://www.cbd.int/doc/world/cg/cg-nr-05-fr.pdf)
+
+Gaps:
+
+- The ACFAP website could not be reached, so no current official list from the agency was checked; the latest government figures found are from the 6th national report (2017) and the October 2023 Council of Ministers report.
+- The Loango Bay and Mvassa community marine reserves and the Conkouati-Douli marine extension (to 795,550 ha) were adopted as draft decrees by the Council of Ministers on 25 October 2023. Journal officiel issues 43-52 of 2023 and 2024 (some 2024 issues were missing online) contained no such decree, so decree numbers, final areas and publication are unverified.
+- The creation texts for the Mont Fouari, Tsoulou and Nyanga Nord faunal reserves and the Mont Mavoumbou and Nyanga Sud hunting domains (Arrêté 535/CH of 8 February 1958 per EdAP 2015) were not found on FAOLEX; EdAP 2015 also gives 1953 for the Mont Fouari complex.
+- Areas conflict between sources: Léfini 271,000 ha (Arrêté 684/2008) vs 630,000 ha (NR6 2017); Tchimpounga 6,396 ha (1999 decree) vs 52,996-55,000 ha (EdAP 2015, NR6); Lossi 35,000 ha (decree) vs 96,302 ha (EdAP 2015); Ntokou-Pikounda 4,272 km² (decree) vs 457,200 ha (NR6); Nouabalé-Ndoki 423,870 ha (2012 decree) vs 419,314 ha (NR6, EdAP). Decree figures are used where available.
+- Decree numbers differ between sources: the Odzala-Kokoua decree of 10 May 2001 carries the number '2004-221' on the FAOLEX scan and LEAP; Tchimpounga is 99-300 on the scan but 99-308 in the LEAP title; Dimonika is 88/181 in FAOLEX but 88/131 in EdAP 2015.
+- Messok Dja (proposed protected area) and the Yengo hunting-interest zone have no creation decree found; their current status after 2022 is unknown.
+- The 'Koubou' chimpanzee sanctuary is listed in the NBSAP 2015 as being inside Conkouati-Douli, but no separate legal text was found, so no separate record was made.
+- No official coordinates were used; points rely on Wikidata where a QID was confirmed.
+- Not enumerated: conservation and protection series (séries de conservation / de protection) in forest management units (UFA) — Arrêté n° 6516 of 18 June 2020 sets rules for their participatory management, but no official consolidated list was found.
+- Not enumerated: further marine protected areas identified by the 2019 marine spatial plan — The NGO release says the plan identified eleven MPAs, of which three were announced in 2022; the others have no legal status found.
+- 8 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.
+- Ramsar site no. 2325 (Bas-Kouilou-Yombo) is not mapped: the coordinates in Ramsar's annotated list are erroneous. It is listed in docs/inventory/uncatalogued-areas.csv.
+- WDPA/Protected Planet, the most complete global compilation, is not used because its licence does not allow redistribution here, so the catalogue cannot be compared with it.
+
+### Democratic Republic of the Congo — partial (30 catalogued)
+
+The Institut Congolais pour la Conservation de la Nature (ICCN) manages nearly all protected areas (Luki and Yangambi are exceptions). It publishes counts but no list: its website (2026) states 8 national parks, 63 hunting domains and reserves, 4 botanical and 4 zoological gardens. It names the 8 parks, the Okapi faunal reserve, Lomako-Yokokala, Tumba-Lediima, the Couloir Vert, and in a 2026 news item Bili-Uere, Itombwe and Abumonbazi. Older government reports give 7 national parks and 57 or 63 reserves and hunting domains, plus 3 biosphere reserves and 117 forest reserves (NR4 2009, ICCN strategy 2012, NBSAP 2016). The 6th national report (2019) has a list, but it is copied from WDPA and was not used. This inventory comes from creation and delimitation acts on FAOLEX (many from the Journal Officiel) and UNESCO pages. An IUCN/PACO 2010 assessment of 19 sites (labelled NGO) fills gaps. Most of the 57-63 hunting domains and reserves are not enumerated. Comparison: the sources reviewed list 40 nationally designated or proposed areas; 26 are catalogued here (2 as an extra designation on an already catalogued area), and 14 are verified but not yet mapped because no openly licensed location was found. The catalogue also holds 4 Ramsar sites for this country. Coverage has not been verified as exhaustive. Sources: [Institut Congolais pour la Conservation de la Nature](https://iccn.cd/aires-protegees/); [Institut Congolais pour la Conservation de la Nature](https://iccn.cd/); [Institut Congolais pour la Conservation de la Nature](https://iccn.cd/conservation-climat-la-rdc-au-coeur-de-linitiative-keystone-pour-la-preservation-de-ses-aires-protegees-prioritaires/); [Ministère de l'Environnement, Conservation de la Nature et Tourisme (RDC), submitted to the CBD](https://www.cbd.int/doc/world/cd/cd-nr-04-fr.pdf); [Ministère de l'Environnement, Conservation de la Nature et Développement Durable (RDC), submitted to the CBD](https://www.cbd.int/doc/world/cd/cd-nbsap-v3-fr.pdf); [Institut Congolais pour la Conservation de la Nature (ICCN), via FAOLEX](https://faolex.fao.org/docs/pdf/Cng147230.pdf); [Ministère de l'Environnement et Développement Durable (RDC), submitted to the CBD](https://www.cbd.int/doc/nr/nr-06/cd-nr-06-fr.pdf); [UICN/PACO](https://africanelephantdatabase.org/population_submission_attachments/download/427).
+
+Stated official totals:
+
+- national parks: 8 (as of 2026) — [Institut Congolais pour la Conservation de la Nature](https://iccn.cd/aires-protegees/)
+- hunting domains and reserves: 63 (as of 2026) — [Institut Congolais pour la Conservation de la Nature](https://iccn.cd/aires-protegees/)
+- botanical and zoological gardens (ex situ): 8 (as of 2026) — [Institut Congolais pour la Conservation de la Nature](https://iccn.cd/aires-protegees/)
+- protected areas (headline): 60 (as of 2026) — [Institut Congolais pour la Conservation de la Nature](https://iccn.cd/)
+- national parks: 7 (as of 2016) — [Ministère de l'Environnement, Conservation de la Nature et Développement Durable (RDC), submitted to the CBD](https://www.cbd.int/doc/world/cd/cd-nbsap-v3-fr.pdf)
+- reserves and hunting domains: 57 (as of 2016) — [Ministère de l'Environnement, Conservation de la Nature et Développement Durable (RDC), submitted to the CBD](https://www.cbd.int/doc/world/cd/cd-nbsap-v3-fr.pdf)
+- forest reserves: 117 (as of 2016) — [Ministère de l'Environnement, Conservation de la Nature et Développement Durable (RDC), submitted to the CBD](https://www.cbd.int/doc/world/cd/cd-nbsap-v3-fr.pdf)
+- biosphere reserves: 3 (as of 2016) — [Ministère de l'Environnement, Conservation de la Nature et Développement Durable (RDC), submitted to the CBD](https://www.cbd.int/doc/world/cd/cd-nbsap-v3-fr.pdf)
+- reserves and hunting domains: 57 (as of 2012) — [Institut Congolais pour la Conservation de la Nature (ICCN), via FAOLEX](https://faolex.fao.org/docs/pdf/Cng147230.pdf)
+- reserves and hunting domains: 63 (as of 2009) — [Ministère de l'Environnement, Conservation de la Nature et Tourisme (RDC), submitted to the CBD](https://www.cbd.int/doc/world/cd/cd-nr-04-fr.pdf)
+
+Gaps:
+
+- No official list of the DRC protected-area network was found. ICCN's site gives only counts and a few names, and the CBD 6th national report's lists (Tableau 2/19 and Annexe 1 to Objectif 5) are taken from Protected Planet/WDPA and were deliberately not used.
+- Counts disagree across sources and dates. National parks: 7 in 2009-2016, 8 since Lomami (2016) per ICCN. The Parc Marin des Mangroves is counted as a park by the 6th national report but not by ICCN. Reserves and hunting domains: 57 (2012 strategy, NBSAP 2016) or 63 (NR4 2009, ICCN 2026).
+- The founding acts of Virunga (1925), Garamba (1938), Salonga (Ord. 70-318), Maiko (Ord. 70-312), Lomami (decree of July 2016), Bili-Uere, Mangai, Bombo-Lumene, Bushimaie, Nsele and Tshangalele were not fetched. Their legal bases rest on UNESCO pages, the DRC's tentative-list entry and the IUCN/PACO 2010 report (NGO).
+- Kahuzi-Biega, Kundelungu and Upemba legal bases come from the 1975 delimitation ordinances, which cite the original 1970 ordinances and the 1939 decree. Park areas come mostly from IUCN/PACO 2010 or UNESCO; later boundary changes are not reflected.
+- Kokolopori, Iyondji, Luo, Abumonbazi, Luki, Yangambi, Mont Hoyo, Lubudi-Sampwe and Ngandja are recorded from mentions in official reports, ICCN or IUCN/PACO without a creating act. Kokolopori and Mont Hoyo are described elsewhere in the 6th national report as unprotected.
+- Kabobo is recorded as 'proposed'. The 2016 provincial arrêté gives only provisional protection pending a Prime Minister's act. The 6th national report claims a 147,700 ha 'Reserve naturelle de Kabobo' was classified, but no act was found.
+- The Bassin de la Lufira, which the 6th national report says was added to the protected-area network in 2017 (4,470,993 ha), appears to be the Ramsar designation. No national creating act was found, so it is left to the coordinator's Ramsar handling. The Ngiri-Tumba-Maindombe Ramsar site overlaps the Ngiri and Tumba-Lediima reserves.
+- The Couloir Vert Kivu-Kinshasa (2025, 544,270 km²) covers a quarter of the country. Its relationship to existing protected areas inside its perimeter is not stated in the decree text read, and its zoning was still to follow a public inquiry.
+- A 2008 arrêté creating 'sanctuaires' was annulled in 2009 (Arrêté 094/2009), so no sanctuaries are recorded. The Arrêté départemental of 1977 protecting the 'parc de la Révolution' concerns the Kinshasa botanical garden (ex situ) and is not recorded.
+- The ICCN pages fetched (2026) give no creation dates or areas. Coordinates were left null: legal texts give boundary descriptions or ranges, not point coordinates.
+- Wikidata QIDs were checked with wbsearchentities/wbgetentities (P17 = DR Congo, P31 park/reserve/protected area). No QID was assigned where no matching protected-area item was found: Ngiri, Basse Kando, Kiziba-Baluba, Swa-Kibula, Oshwe, Rutshuru, Luama-Katanga, Lubudi-Sampwe, Mont Hoyo reserve, Nsele, Tshangalele, Abumonbazi, Kabobo, Ngandja and Couloir Vert. The Luki and Yangambi QIDs are the biosphere-reserve items.
+- Not enumerated: hunting domains and reserves (domaines et réserves de chasse) not listed above (about 63) — ICCN states 63 'domaines de chasse et réserves' (57 in the 2012 strategy and NBSAP 2016) but publishes no list. The only list found (6th national report annex) is copied from WDPA. Recorded here: hunting domains and reserves whose act was fetched or that ICCN or IUCN/PACO name. Gangala-na-Bodio, Maika-Penge, Rubi-Tele, Bomu, Luama-Kivu and others appear only in WDPA-derived tables or priority lists and are not recorded.
+- Not enumerated: forest reserves (réserves forestières) (about 117) — Counted in the NBSAP 2016 and NR4 (2009), which say many colonial-era forest reserves exist only on paper. No official list found.
+- Not enumerated: botanical and zoological gardens (ex situ) (about 8) — ICCN names them, but they are ex situ facilities, not in-situ protected areas: Jardins botaniques de Kinshasa, Kisantu, Eala and Gbadolite; Jardins zoologiques de Kinshasa, Lubumbashi, Kisangani and Gbadolite.
+- Not enumerated: local community forest concessions (concessions forestières des communautés locales) and other community-conserved areas — The 6th national report and the 2015 ICCN strategy mention community forests and community-conserved areas, but give no list of those with protected-area status.
+- 14 verified areas not mapped (no openly licensed coordinates); listed in docs/inventory/uncatalogued-areas.csv.
+- WDPA/Protected Planet, the most complete global compilation, is not used because its licence does not allow redistribution here, so the catalogue cannot be compared with it.
+
 ## Notes
 
 - Ramsar's annotated-list export has erroneous site-header coordinates for several sites. Each affected record says which coordinates are used: the site description's own, UNESCO's, or Wikidata's.
 - Habitat tags reflect terms named in the cited site summary, reviewed for false matches. They are not mapped ecosystem extents.
 - Areas verified in an official list but without an openly licensed location are not mapped. They are listed in [`inventory/uncatalogued-areas.csv`](inventory/uncatalogued-areas.csv). Every row there is verified in an official or authoritative source; proposed areas are listed with category `proposed`.
-- Conservation challenges, organisations and potential regenerative activities have been researched for Guinea-Bissau and for one area in each of the other 21 countries only. Other areas have not been researched, which does not mean they face no challenges.
+- Conservation challenges, organisations and potential regenerative activities have been researched for Guinea-Bissau and for one area in each of the other ${catalogue.countries.length - 1} countries only. Other areas have not been researched, which does not mean they face no challenges.

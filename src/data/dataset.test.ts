@@ -61,9 +61,9 @@ describe('public catalogue', () => {
     }
   })
 
-  it('lists the 13 WASOP countries and the 9 additional countries, each with an outline', () => {
+  it('lists the 13 WASOP countries and the 12 additional countries, each with an outline', () => {
     const wasop = ['BEN', 'CPV', 'CIV', 'GMB', 'GHA', 'GIN', 'GNB', 'LBR', 'MRT', 'NGA', 'SEN', 'SLE', 'TGO']
-    const additional = ['AGO', 'BWA', 'EGY', 'GAB', 'MOZ', 'NAM', 'STP', 'TZA', 'UGA']
+    const additional = ['AGO', 'BWA', 'CMR', 'COD', 'COG', 'EGY', 'GAB', 'MOZ', 'NAM', 'STP', 'TZA', 'UGA']
     const codes = (group: string) => catalogue.countries.filter((c) => c.group === group).map((c) => c.code).sort()
     expect(codes('wasop')).toEqual([...wasop].sort())
     expect(codes('additional')).toEqual([...additional].sort())
@@ -178,10 +178,16 @@ describe('inventory of verified but unmapped areas', () => {
     for (const id of ids) expect(catalogued.has(id), id).toBe(false)
   })
 
-  it('lists only areas from the country research, with resolvable sources', () => {
+  // National-list areas; Ramsar sites without usable coordinates are listed with category international-designation.
+  const national = unmapped.filter((r) => r.category !== 'international-designation')
+
+  it('lists only areas from the country research or Ramsar sites, with resolvable sources', () => {
     const sources = new Set(catalogue.sources.map((s) => s.id))
-    for (const r of unmapped) {
+    for (const r of national)
       expect(research[r.country_code]?.areas.some((a) => a.name === r.name), `${r.country_code} ${r.name}`).toBe(true)
+    for (const r of unmapped.filter((r) => r.category === 'international-designation'))
+      expect(r.record_id, r.name).toMatch(/^ramsar-\d+$/)
+    for (const r of unmapped) {
       expect(r.source_ids, r.record_id).not.toBe('')
       for (const id of r.source_ids.split('; ')) expect(sources.has(id), `${r.record_id} → ${id}`).toBe(true)
     }
@@ -189,7 +195,7 @@ describe('inventory of verified but unmapped areas', () => {
 
   it('never lists more unmapped areas for a country than its research found', () => {
     for (const c of catalogue.countries) {
-      const count = unmapped.filter((r) => r.country_code === c.code).length
+      const count = national.filter((r) => r.country_code === c.code).length
       expect(count, c.code).toBeLessThanOrEqual(research[c.code].areas.length)
     }
   })
